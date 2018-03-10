@@ -1056,19 +1056,19 @@
 	<string name="shop.townhall.generalstore-5.desc">购买钥匙和装备 (2 普通, 2 稀有, 1 史诗). 价格便宜20%.</string>
 
 	<string name="shop.townhall.guildhall-1.name">一级公会大厅</string>
-	<string name="shop.townhall.guildhall-1.desc">升级你的技能到一级技能.</string>
+	<string name="shop.townhall.guildhall-1.desc">解锁一级技能.</string>
 
 	<string name="shop.townhall.guildhall-2.name">二级公会大厅</string>
-	<string name="shop.townhall.guildhall-2.desc">升级你的技能为二级技能.</string>
+	<string name="shop.townhall.guildhall-2.desc">解锁二级技能.</string>
 
 	<string name="shop.townhall.guildhall-3.name">三级公会大厅</string>
-	<string name="shop.townhall.guildhall-3.desc">升级你的技能为三级技能.</string>
+	<string name="shop.townhall.guildhall-3.desc">解锁三级技能.</string>
 
 	<string name="shop.townhall.guildhall-4.name">四级公会大厅</string>
-	<string name="shop.townhall.guildhall-4.desc">升级你的技能为四级技能.</string>
+	<string name="shop.townhall.guildhall-4.desc">解锁四级技能.</string>
 
 	<string name="shop.townhall.guildhall-5.name">五级公会大厅</string>
-	<string name="shop.townhall.guildhall-5.desc">升级你的技能为五级技能.</string>
+	<string name="shop.townhall.guildhall-5.desc">解锁五级技能.</string>
 
 	<string name="shop.townhall.magicshop-1.name">一级魔法商店</string>
 	<string name="shop.townhall.magicshop-1.desc">解锁法师. 购买升级你的法术和防御.</string>
