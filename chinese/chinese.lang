@@ -330,8 +330,8 @@
 	<string name="random_buff.lower_resistance">符文:献祭%amount%魔法抗性. 你同意吗?</string>
 	<string name="random_buff.no_experience">符文:献祭%amount%%经验获取速率. 你同意吗?</string>
 	<string name="random_buff.no_gold">符文:献祭%amount%%的获取速率. 你同意吗?</string>
-	<string name="random_buff.lower_hp_regen">符文:献祭%amount%生命回复率率. 你同意吗?</string>
-	<string name="random_buff.lower_mp_regen">符文:献祭%amount%法力回复率率. 你同意吗?</string>
+	<string name="random_buff.lower_hp_regen">符文:献祭%amount%生命回复率. 你同意吗?</string>
+	<string name="random_buff.lower_mp_regen">符文:献祭%amount%法力回复率. 你同意吗?</string>
 	<string name="random_buff.take_damage">符文:献祭%amount%生命值. 你同意吗?</string>
 	<string name="random_buff.lower_damage">符文:献祭%amount%%攻击力. 你同意吗?</string>
 
