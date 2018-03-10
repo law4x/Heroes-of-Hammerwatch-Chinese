@@ -100,8 +100,8 @@
 	<string name="gameover.sentence.unused-potion.plural">你还剩 %num%瓶药剂 !</string>
 	<string name="gameover.sentence.unused-potion.one">你还剩一瓶药剂!</string>
 	<string name="gameover.sentence.unused-potion.never">你没有使用过药剂!</string>
-	<string name="gameover.sentence.unused-keys.plural">%num% 条钥匙未使用.</string>
-	<string name="gameover.sentence.unused-keys.one">一条钥匙未使用.</string>
+	<string name="gameover.sentence.unused-keys.plural">%num% 把钥匙未使用.</string>
+	<string name="gameover.sentence.unused-keys.one">一把钥匙未使用.</string>
 	<string name="gameover.sentence.unused-mana">你还有很多法力没用就死了.</string>
 	<string name="gameover.sentence.gold.rich">你很富有!</string>
 	<string name="gameover.sentence.gold.none">没钱带回家.</string>
@@ -131,7 +131,7 @@
 	<string name="stats.category.5items">装备</string>
 
 	<string name="stats.interface.session">本局</string>
-	<string name="stats.interface.total">自开始</string>
+	<string name="stats.interface.total">总计</string>
 
 	<string name="stats.time-played">游戏时间</string>
 	<string name="stats.enemies-killed">杀敌数</string>
@@ -250,9 +250,9 @@
 	<string name="endofgame.newgameplus">新游戏</string>
 	<string name="endofgame.newgameplus.desc">返回小镇并为你新游戏的人物升级.你的角色会获得新的称号.</string>
 	<string name="endofgame.title">结束</string>
-	<string name="endofgame.text">You managed to climb to the top of the Forsaken Tower and slay Thundersnow, the great Blue Dragon, who suddenly came in from the west and settled up here. Now the tower is freed and life should eventually come back to normal here and around the tower.\n\n(You can now choose to return to town on the same difficulty with the same hero, OR be the better person and step up your game in NEW GAME PLUS! All Your upgrades and progress will continue into whatever choice you make.)</string>
-	<string name="endofgame.confirm.town">Are you sure you want to go back to town without activating New Game+?</string>
-	<string name="endofgame.confirm.plus">Are you sure you want to activate New Game+?</string>
+	<string name="endofgame.text">你成功抵达了遗忘之塔的塔顶,并且击杀了那头突然从西方降临,占据此地的青蓝巨龙【雷电冰龙】.现在遗忘之塔已经从巨龙的控制中解脱,这一带居民的生活也将回到正轨.\n\n（你现在可以选择回到远望镇,并用现在这名英雄继续这一难度的游戏.或者你可以更进一步，在【新周目】中开启新的难度!无论你作何选择,该角色之前的所有升级和进度都会继承.）</string>
+	<string name="endofgame.confirm.town">确定要继续相同难度的游戏吗？</string>
+	<string name="endofgame.confirm.plus">确定要开启新周目（难度提升）吗？</string>
 
 
 	<string name="misc.yes">确认</string>
@@ -280,7 +280,7 @@
 
 	
 	<string name="meta.info.elsewhere">这要在某处打开...</string>
-	<string name="meta.info.happened">发生了一些事...</string>
+	<string name="meta.info.happened">有什么事情发生了...</string>
 	<string name="meta.info.buttonstuck">按钮卡住了…</string>
 	<string name="meta.info.combounlocked">连杀解锁!</string>
 	<string name="meta.info.sequencecompleted">序列完成!</string>
@@ -369,7 +369,7 @@
 	<!-- Colors Thief -->
 	<string name="color.thief.hair">头发</string>
 	<string name="color.thief.scarf">围巾</string>
-	<string name="color.thief.jacket">夹克</string>
+	<string name="color.thief.jacket">外套</string>
 
 	<!-- Colors Warlock -->
 	<string name="color.warlock.helmet">头盔</string>
@@ -507,7 +507,7 @@
 	<string name="mainmenu.character.create.play">开始</string>
 	<string name="mainmenu.character.create.voicepitch">声调</string>
 	<string name="mainmenu.character.colors.title">颜色</string>
-	<string name="mainmenu.character.delete.text">真的删除 '%name%'?</string>
+	<string name="mainmenu.character.delete.text">真的要删除 '%name%'吗?</string>
 	<string name="menu.restart.tooltip">返回城镇. 这将视为死亡!</string>
 
 
@@ -748,20 +748,20 @@
 	<string name="menu.lobby.start.wait">FORCE\nSTART</string>
 	<string name="menu.lobby.switchcount">%a%/%b% Active</string>
 	<string name="menu.lobby.readycount">%a%/%b% Ready</string>
-	<string name="menu.lobby.private">PRIVATE</string>
+	<string name="menu.lobby.private">私人</string>
 	<string name="menu.lobby.hostoptions.changelevel">CHANGE LEVEL</string>
-	<string name="menu.lobby.abort">ABORT</string>
-	<string name="menu.lobby.abort.prompt">Are you sure you want to abort the lobby?</string>
-	<string name="menu.lobby.leave">LEAVE</string>
-	<string name="menu.lobby.leave.prompt">Are you sure you want to leave the lobby?</string>
+	<string name="menu.lobby.abort">解散</string>
+	<string name="menu.lobby.abort.prompt">确定要解散多人游戏吗？</string>
+	<string name="menu.lobby.leave">离开</string>
+	<string name="menu.lobby.leave.prompt">确定要离开多人游戏吗？</string>
 
-	<string name="menu.lobby.chat.isready">%name% is now ready.</string>
-	<string name="menu.lobby.chat.isunready">%name% is no longer ready.</string>
-	<string name="menu.lobby.chat.isjoined">%name% has joined.</string>
-	<string name="menu.lobby.chat.isleft">%name% has left.</string>
-	<string name="menu.lobby.chat.iskicked">%name% has been kicked.</string>
+	<string name="menu.lobby.chat.isready">%name% 已经准备好了。</string>
+	<string name="menu.lobby.chat.isunready">%name% 取消准备。</string>
+	<string name="menu.lobby.chat.isjoined">%name% 加入了游戏。</string>
+	<string name="menu.lobby.chat.isleft">%name% 离开了。</string>
+	<string name="menu.lobby.chat.iskicked">%name% 被房主踢出了游戏。</string>
 	<string name="menu.lobby.hostoptions.currentmods">%count% modifications</string>
-	<string name="menu.lobby.hostoptions.setdifficulty">DIFFICULTY</string>
+	<string name="menu.lobby.hostoptions.setdifficulty">难度</string>
 	<string name="menu.lobby.hostoptions.setmods">SWITCHES</string>
 
 	<string name="menu.lobby.missing">MISSING SCENARIO</string>
@@ -806,7 +806,7 @@
 
 	<string name="menu.automatic">自动</string>
 	<string name="g_laser_sight">辅助准线</string>
-	<string name="g_laser_sight.help">显示一条辅助瞄准线. 仅在使用手柄时自动显示..</string>
+	<string name="g_laser_sight.help">显示一条辅助瞄准线. 仅在使用手柄时自动显示.</string>
 
 	<string name="menu.controls.menuup">菜单上移</string>
 	<string name="menu.controls.menudown">菜单下移</string>
@@ -946,20 +946,32 @@
 
 	<!-- shop names -->
 	<string name="shop.tier.num">%num% 级技能</string>
-	<string name="shop.apothecary">艾力达-药剂师</string>
-	<string name="shop.blacksmith">史密斯· 巴洛</string>
+	<string name="shop.apothecary">药剂师 艾力安达</string>
+	<string name="shop.blacksmith">铁匠 巴洛</string>
 	<string name="shop.chapel">传教士</string>
 	<string name="shop.dungeonstore">流浪商人</string>
 	<string name="shop.fountain">幸运喷泉</string>
-	<string name="shop.generalstore">达伦-供应商</string>
+	<string name="shop.generalstore">店主 达伦</string>
 	<string name="shop.guildhall">AAAAAAAAAAAAAAAA</string>
 	<string name="shop.magicshop">魔法商店</string>
-	<string name="shop.skills">卡尔霍恩-教练</string>
+	<string name="shop.skills">教练 卡尔霍恩</string>
 	<string name="shop.statues">CCCCCCCCCCCCCCCCCC</string>
-	<string name="shop.townhall">格雷-长官</string>
+	<string name="shop.townhall">镇长 格雷</string>
 	<string name="shop.trainer">BBBBBBBBBBBBBBBBBB</string>
 	<string name="shop.treasury">DDDDDDDDDDDDDDDD</string>
-	<string name="shop.oretrader">奥利弗-矿石贸易商</string>
+	<string name="shop.oretrader">矿石商人 奥利弗</string>
+
+	<string name="town.building.townhall">市政厅</string>
+	<string name="town.building.guildhall">公会大厅</string>
+	<string name="town.building.generalstore">商店</string>
+	<string name="town.building.blacksmith">铁匠</string>
+	<string name="town.building.apothecary">药剂师</string>
+	<string name="town.building.fountain">喷泉</string>
+	<string name="town.building.magicshop">魔法商店</string>
+	<string name="town.building.chapel">教堂</string>
+	<string name="town.building.tavern">酒馆</string>
+	<string name="town.building.treasury">金库</string>
+	<string name="town.building.oretrader">矿石商人</string>
 
 	<string name="town.building.townhall">市政厅</string>
 	<string name="town.building.guildhall">公会</string>
@@ -993,10 +1005,10 @@
 	<string name="shop.townhall.apothecary-1.desc">购买和升级你的药剂.</string>
 
 	<string name="shop.townhall.apothecary-2.name">二级药剂师</string>
-	<string name="shop.townhall.apothecary-2.desc">购买和升级你的药剂和拾取效果.</string>
+	<string name="shop.townhall.apothecary-2.desc">购买和升级你的药剂，并提升收集泉水时的回复效果.</string>
 
 	<string name="shop.townhall.apothecary-3.name">三级药剂师</string>
-	<string name="shop.townhall.apothecary-3.desc">购买和升级你的药剂和拾取效果.</string>
+	<string name="shop.townhall.apothecary-3.desc">购买和升级你的药剂，并提升收集泉水时的回复效果.</string>
 
 	<string name="shop.townhall.blacksmith-1.name">一级铁匠</string>
 	<string name="shop.townhall.blacksmith-1.desc">购买升级你的武器和盔甲.</string>
@@ -1438,20 +1450,20 @@
 
 	<string name="skills.priest.holy-light">圣光冲击</string>
 	<string name="skills.priest.holy-light.create">一道能够对敌人造成越来越高伤害并治疗队友的光束攻击.</string>
-	<string name="skills.priest.holy-light.1">发射一道光束,最高对敌人造成每秒12点魔法伤害并治疗队友每秒3点.</string>
+	<string name="skills.priest.holy-light.1">发射一道光束,最高对敌人造成每秒12点魔法伤害并治疗队友每秒2点.</string>
 	<string name="skills.priest.holy-light.2">发射一道光束,最高对敌人造成每秒18点魔法伤害并治疗队友每秒3点.</string>
 	<string name="skills.priest.holy-light.3">发射一道光束,最高对敌人造成每秒24点魔法伤害并治疗队友每秒4点.</string>
-	<string name="skills.priest.holy-light.4">发射一道光束,最高对敌人造成每秒30点魔法伤害并治疗队友每秒4点.</string>
-	<string name="skills.priest.holy-light.5">发射一道光束,最高对敌人造成每秒36点魔法伤害并治疗队友每秒5点.</string>
-	<string name="skills.priest.holy-light.6">发射一道光束,最高对敌人造成每秒42点魔法伤害并治疗队友每秒5点.</string>
+	<string name="skills.priest.holy-light.4">发射一道光束,最高对敌人造成每秒30点魔法伤害并治疗队友每秒5点.</string>
+	<string name="skills.priest.holy-light.5">发射一道光束,最高对敌人造成每秒36点魔法伤害并治疗队友每秒6点.</string>
+	<string name="skills.priest.holy-light.6">发射一道光束,最高对敌人造成每秒42点魔法伤害并治疗队友每秒7点.</string>
 
 	<string name="skills.priest.divine-protection">神圣屏障</string>
 	<string name="skills.priest.divine-protection.create">牧师自身被一个护盾保护,以消耗法力来吸收伤害.</string>
-	<string name="skills.priest.divine-protection.1">护盾会吸收40%的伤害.每点被吸收的伤害消耗4点法力.</string>
-	<string name="skills.priest.divine-protection.2">护盾会吸收45%的伤害.每点被吸收的伤害消耗2点法力.</string>
-	<string name="skills.priest.divine-protection.3">护盾会吸收50%的伤害.每点被吸收的伤害消耗1点法力.</string>
-	<string name="skills.priest.divine-protection.4">护盾会吸收55%的伤害.每点被吸收的伤害消耗0.75点法力.</string>
-	<string name="skills.priest.divine-protection.5">护盾会吸收60%的伤害.每点被吸收的伤害消耗0.5点法力.</string>
+	<string name="skills.priest.divine-protection.1">护盾会吸收30%的伤害.每点被吸收的伤害消耗4点法力.</string>
+	<string name="skills.priest.divine-protection.2">护盾会吸收35%的伤害.每点被吸收的伤害消耗2点法力.</string>
+	<string name="skills.priest.divine-protection.3">护盾会吸收40%的伤害.每点被吸收的伤害消耗1点法力.</string>
+	<string name="skills.priest.divine-protection.4">护盾会吸收45%的伤害.每点被吸收的伤害消耗0.75点法力.</string>
+	<string name="skills.priest.divine-protection.5">护盾会吸收50%的伤害.每点被吸收的伤害消耗0.5点法力.</string>
 
 	<string name="skills.priest.remedy">治疗术</string>
 	<string name="skills.priest.remedy.create">各种治疗物对牧师回复更多生命值.</string>
@@ -1674,10 +1686,10 @@
 
 	<string name="skills.warlock.summon-gargoyle">石爪图腾</string>
 	<string name="skills.warlock.summon-gargoyle.create">召唤一个向周围快速发射闪电并晕眩周围敌人的石爪图腾.</string>
-	<string name="skills.warlock.summon-gargoyle.1">闪电对命中的敌人造成24点魔法伤害.石爪图腾持续4秒.</string>
-	<string name="skills.warlock.summon-gargoyle.2">闪电对命中的敌人造成28点魔法伤害.石爪图腾持续5秒.</string>
-	<string name="skills.warlock.summon-gargoyle.3">闪电对命中的敌人造成32点魔法伤害.石爪图腾持续6秒.</string>
-	<string name="skills.warlock.summon-gargoyle.4">闪电对命中的敌人造成36点魔法伤害.石爪图腾持续7秒.</string>
+	<string name="skills.warlock.summon-gargoyle.1">闪电对命中的敌人造成24点魔法伤害.石爪图腾持续6秒.</string>
+	<string name="skills.warlock.summon-gargoyle.2">闪电对命中的敌人造成28点魔法伤害.石爪图腾持续8秒.</string>
+	<string name="skills.warlock.summon-gargoyle.3">闪电对命中的敌人造成32点魔法伤害.石爪图腾持续10秒.</string>
+	<string name="skills.warlock.summon-gargoyle.4">闪电对命中的敌人造成36点魔法伤害.石爪图腾持续12秒.</string>
 
 	<string name="skills.warlock.eye-of-the-storm">风暴之眼</string>
 	<string name="skills.warlock.eye-of-the-storm.create">生成一团跟随术士的雷云.雷云会对周围的敌人发射闪电.</string>
@@ -2199,11 +2211,12 @@
 	<string name="dialogue.town.npc.generic.ace1.2Rb">我听说把亡灵生物从监狱里赶出去是个烦人的活吧!</string>
 	<string name="dialogue.town.npc.generic.ace1.3Ra">在军械库里似乎有不少危险的守卫炮塔吧.</string>
 	<string name="dialogue.town.npc.generic.ace1.3Rb">要是我的话,我宁愿进矿洞也不会进那个军械库的,也许你不一样吧!</string>
-	<string name="dialogue.town.npc.generic.ace1.4Ra">I know there's a lot to\nread up there, but that's\nnot a good reason for\nentering the archives.</string>
+	<string name="dialogue.town.npc.generic.ace1.3Rb">要是我的话,我宁愿进矿洞也,不会进那个军械库的,也许你不一样吧!</string>
+	<string name="dialogue.town.npc.generic.ace1.4Ra">我知道那里有许多可供阅读的典籍,但是这并不是个冒险进入档案馆的好理由.</string>
 	<string name="dialogue.town.npc.generic.ace1.4Rb">RESERVED</string>
-	<string name="dialogue.town.npc.generic.ace1.5Ra">I know Calhoun says it's\na cake walk up there in the\nchambers, but really, it's not!</string>
+	<string name="dialogue.town.npc.generic.ace1.5Ra">我知道卡尔霍恩说去议会是小菜一碟,但是说真的,怎么可能!/string>
 	<string name="dialogue.town.npc.generic.ace1.5Rb">RESERVED</string>
-	<string name="dialogue.town.npc.generic.ace1.6Ra">Sadly killing the dragon\nis a task for no man, you\nshould just stay here in\ntown, safe - like me.</string>
+	<string name="dialogue.town.npc.generic.ace1.6Ra">然而没有人能够屠龙,你应该像我一样呆在这个城镇,平平安安地生活.</string>
 	<string name="dialogue.town.npc.generic.ace1.6Rb">RESERVED</string>
 
 
