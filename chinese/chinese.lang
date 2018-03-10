@@ -43,15 +43,15 @@
 	<string name="playermenu.character.base">基础: %value%</string>
 
 	<string name="playermenu.tooltip.exp">经验</string>
-	<string name="playermenu.tooltip.exp.total">统计:</string>
-	<string name="playermenu.tooltip.exp.left">当前:</string>
-	<string name="playermenu.tooltip.exp.rate">速率:</string>
+	<string name="playermenu.tooltip.exp.total">总经验值:</string>
+	<string name="playermenu.tooltip.exp.left">升级还需:</string>
+	<string name="playermenu.tooltip.exp.rate">经验获取速率:</string>
 	<string name="playermenu.tooltip.potion.title">%num% / %total% 消耗</string>
 	<string name="playermenu.tooltip.potion.text">+ %hp% 生命\n+ %mana% 魔法</string>
 	<string name="playermenu.tooltip.tax">手续费</string>
 
 	<string name="playermenu.character.health">生命值</string>
-	<string name="playermenu.character.mana">魔法值</string>
+	<string name="playermenu.character.mana">法力值</string>
 	<string name="playermenu.character.healthregen">生命回复率</string>
 	<string name="playermenu.character.manaregen">法力回复率</string>
 	<string name="playermenu.character.armor">护甲</string>
@@ -65,7 +65,7 @@
 	<string name="playermenu.character.attackdamage">攻击附加物理伤害</string>
 	<string name="playermenu.character.spelldamage">攻击附加魔法伤害</string>
 	<string name="playermenu.character.movespeed">移动速度</string>
-		<string name="playermenu.character.goldgain">金币获取</string>
+		<string name="playermenu.character.goldgain">金币获取速率</string>
 
 	<!-- acts -->
 	<string name="world.town">远望镇</string>
@@ -99,7 +99,7 @@
 	<string name="gameover.sentence.unused-potion.none">你用完了你全部的药剂.</string>
 	<string name="gameover.sentence.unused-potion.plural">你还剩 %num%瓶药剂 !</string>
 	<string name="gameover.sentence.unused-potion.one">你还剩一瓶药剂!</string>
-	<string name="gameover.sentence.unused-potion.never">你从不使用药剂!</string>
+	<string name="gameover.sentence.unused-potion.never">你没有使用过药剂!</string>
 	<string name="gameover.sentence.unused-keys.plural">%num% 条钥匙未使用.</string>
 	<string name="gameover.sentence.unused-keys.one">一条钥匙未使用.</string>
 	<string name="gameover.sentence.unused-mana">你还有很多法力没用就死了.</string>
@@ -283,7 +283,7 @@
 	<string name="meta.info.happened">发生了一些事...</string>
 	<string name="meta.info.buttonstuck">按钮卡住了…</string>
 	<string name="meta.info.combounlocked">连杀解锁!</string>
-	<string name="meta.info.sequencecompleted">顺序正确!</string>
+	<string name="meta.info.sequencecompleted">序列完成!</string>
 	<string name="meta.info.twomore">还有2个…</string>
 	<string name="meta.info.onemore">还有1个…</string>
 	<string name="meta.info.passage">一个秘密通道已经打开…</string>
@@ -291,7 +291,7 @@
 	<string name="meta.info.threatspawned">召唤了大量的怪物!</string>
 	<string name="meta.info.gatherparty">在冒险之前,你必须召集你的队友.</string>
 	<string name="meta.info.ritual.gather">在开始仪式之前,你必须召集你的队友.</string>
-	<string name="meta.info.ritual.start">…并召唤出了大量的怪物!</string>
+	<string name="meta.info.ritual.start">…并召唤出了可怕的怪物!</string>
 	<string name="meta.info.ritual.completed">仪式顺序正确!</string>
 	<string name="meta.info.ritual.failed">仪式顺序不正确!</string>
 	<string name="meta.info.ritual.b">信奉黑暗</string>
@@ -328,18 +328,18 @@
 	<string name="random_buff.lower_hp">符文:献祭%amount%%生命上限. 你同意吗?</string>
 	<string name="random_buff.lower_armor">符文:献祭%amount%护甲. 你同意吗?</string>
 	<string name="random_buff.lower_resistance">符文:献祭%amount%魔法抗性. 你同意吗?</string>
-	<string name="random_buff.no_experience">符文:献祭%amount%%经验获取速率. 你同意吗?</string>
-	<string name="random_buff.no_gold">符文:献祭%amount%%的获取速率. 你同意吗?</string>
-	<string name="random_buff.lower_hp_regen">符文:献祭%amount%生命回复率率. 你同意吗?</string>
-	<string name="random_buff.lower_mp_regen">符文:献祭%amount%法力回复率率. 你同意吗?</string>
+	<string name="random_buff.no_experience">符文:献祭当前%amount%%的经验值. 你同意吗?</string>
+	<string name="random_buff.no_gold">符文:献祭%amount%%的金币. 你同意吗?</string>
+	<string name="random_buff.lower_hp_regen">符文:献祭%amount%生命回复率. 你同意吗?</string>
+	<string name="random_buff.lower_mp_regen">符文:献祭%amount%法力回复率. 你同意吗?</string>
 	<string name="random_buff.take_damage">符文:献祭%amount%生命值. 你同意吗?</string>
 	<string name="random_buff.lower_damage">符文:献祭%amount%%攻击力. 你同意吗?</string>
 
 	<string name="random_buff.more_hp">神庙赐予你 %amount%%生命上限.</string>
 	<string name="random_buff.more_armor">神庙赐予你 %amount% 护甲和魔抗.</string>
 	<string name="random_buff.more_experience">神庙赐予你 %amount%% 经验获取速率.</string>
-	<string name="random_buff.more_gold">神庙赐予你 %amount%% 金币获取速率.</string>
-	<string name="random_buff.more_ore">神庙赐予你 %amount%% 矿石获取速率.</string>
+	<string name="random_buff.more_gold">神庙赐予你 %amount%% 金币拾取速率.</string>
+	<string name="random_buff.more_ore">神庙赐予你 %amount%% 矿石拾取速率.</string>
 	<string name="random_buff.more_hp_regen">神庙赐予你 %amount% 生命回复率.</string>
 	<string name="random_buff.more_mp_regen">神庙赐予你 %amount% 法力回复率.</string>
 	<string name="random_buff.more_damage">神庙赐予你 %amount%% 攻击伤害.</string>
@@ -1960,13 +1960,13 @@
 	<string name="item.shaftlocke-pickaxe.name">矿井之镐</string>
 	<string name="item.shaftlocke-pickaxe.desc">拾取矿石时，持有者有%chance%%几率额外获得矿石.</string>
 
-	<string name="item.sphere-of-life.name">生命之球</string>
+	<string name="item.sphere-of-life.name">生命宝珠</string>
 	<string name="item.sphere-of-life.desc">连杀期间 +%hregen% 生命回复率.</string>
 
-	<string name="item.sphere-of-mana.name">魔法之球</string>
-	<string name="item.sphere-of-mana.desc">连杀期间 +%mregen% 生命回复率.</string>
+	<string name="item.sphere-of-mana.name">魔法宝珠</string>
+	<string name="item.sphere-of-mana.desc">连杀期间 +%mregen% 法力回复率.</string>
 
-	<string name="item.sphere-of-nova.name">新星之球</string>
+	<string name="item.sphere-of-nova.name">新星宝珠</string>
 	<string name="item.sphere-of-nova.desc">连杀期间释放新星每秒增加%dmg%魔法伤害.</string>
 
 	<string name="item.staff-of-unstable-casting.name">不稳定法杖</string>
@@ -1976,7 +1976,7 @@
 	<string name="item.stinger.desc">物理伤害无视敌人 %pierce%%护甲.</string>
 
 	<string name="item.talisman-of-decay.name">衰变符咒</string>
-	<string name="item.talisman-of-decay.desc">对附近的敌人造成%taken%%伤害.</string>
+	<string name="item.talisman-of-decay.desc">周围的敌人收到的伤害加%taken%%伤害.</string>
 
 	<string name="item.tower-shield.name">塔盾</string>
 	<string name="item.tower-shield.desc">%chance%% 几率抵御%block% 物理伤害.</string>
@@ -2018,10 +2018,10 @@
 	<string name="item.frostbrand.name">霜印</string>
 	<string name="item.frostbrand.desc">普通攻击+%dmg% 魔法伤害. 使其冻结.</string>
 
-	<string name="item.greater-sphere-of-nova.name">大新星球</string>
+	<string name="item.greater-sphere-of-nova.name">大新星宝珠</string>
 	<string name="item.greater-sphere-of-nova.desc">连杀期间释放大新星每秒增加%dmg%魔法伤害.</string>
 
-	<string name="item.greater-sphere-of-regen.name">大生命球</string>
+	<string name="item.greater-sphere-of-regen.name">大生命宝珠</string>
 	<string name="item.greater-sphere-of-regen.desc">连杀期间 +%hregen% 生命回复率和 +%mregen% 法力回复率.</string>
 
 	<string name="item.heartseeker.name">穿心者</string>
@@ -2039,7 +2039,7 @@
 	<string name="item.shieldbreaker.name">碎盾者</string>
 	<string name="item.shieldbreaker.desc">普通攻击%chance%%几率降低%sec%秒敌人%armor%%防御.</string>
 
-	<string name="item.sphere-of-champions.name">冠军之球</string>
+	<string name="item.sphere-of-champions.name">冠军宝珠</string>
 	<string name="item.sphere-of-champions.desc">连杀时增强%atk%物攻和技能威能.</string>
 
 	<string name="item.staff-of-volatile-casting.name">不稳定法杖</string>
