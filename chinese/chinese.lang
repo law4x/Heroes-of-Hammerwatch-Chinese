@@ -2261,12 +2261,12 @@
 	<string name="dialogue.town.npc.chapel.man1.1c">牧师不久之前刚走.</string>
 
 	<string name="dialogue.town.npc.smith.name">铁匠巴洛</string>
-	<string name="dialogue.town.npc.smith.1a">我很乐意帮你升级武器,不过我需要一些矿石.</string>
+	<string name="dialogue.town.npc.smith.1a">我很乐意帮你升级武器,不过我需要你修好铁匠铺（矿石解锁铁匠铺）.</string>
 
 	<string name="dialogue.town.npc.apothecary.name">艾利安达</string>
 	<string name="dialogue.town.npc.apothecary.0a">嘿!我在这个魔法泉补充药水时被困住了.别忘了把你自己的瓶子也装满!希望回到小镇上能看到你!</string>
 
-	<string name="dialogue.town.npc.apothecary.1a">制作药剂可是我的专长,不过我需要一些配方.</string>
+	<string name="dialogue.town.npc.apothecary.1a">制作药剂可是我的专长,不过我需要配方（矿石解锁配方）.</string>
 
 	<string name="dialogue.town.npc.oretrader.name">矿工奥利弗</string>
 	<string name="dialogue.town.npc.oretrader.1a">求你带我离开这个破洞!</string>
@@ -2429,21 +2429,21 @@
 	<string name="bestiary.name.bosses.wraith_mage">魔法顾问</string>
 	<string name="bestiary.name.bosses.eye">监察者</string>
 	<string name="bestiary.name.bosses.dragon">雷电冰龙</string>
-	<string name="bestiary.name.spawner_archer_1">骷髅射手坑</string>
-	<string name="bestiary.name.spawner_archer_2">骷髅射手坑 II</string>
-	<string name="bestiary.name.spawner_bats">烂树桩</string>
+	<string name="bestiary.name.spawner_archer_1">骷髅射手地巢</string>
+	<string name="bestiary.name.spawner_archer_2">骷髅射手地巢 II</string>
+	<string name="bestiary.name.spawner_bats">蝙蝠树巢</string>
 	<string name="bestiary.name.spawner_eye">眼球之母</string>
-	<string name="bestiary.name.spawner_maggot">蛆孵化茧</string>
-	<string name="bestiary.name.spawner_skeleton_1">射手坑</string>
-	<string name="bestiary.name.spawner_skeleton_2">守卫坑</string>
-	<string name="bestiary.name.spawner_tick">蜱虫巢</string>
+	<string name="bestiary.name.spawner_maggot">孵蛆卵巢</string>
+	<string name="bestiary.name.spawner_skeleton_1">射手地巢</string>
+	<string name="bestiary.name.spawner_skeleton_2">守卫地巢</string>
+	<string name="bestiary.name.spawner_tick">甲虫巢</string>
 	<string name="bestiary.name.spawner_wisp">沉默之树</string>
 	<string name="bestiary.name.banner_bloodlust">嗜血旗帜</string>
 	<string name="bestiary.name.banner_healing">生命旗帜</string>
 	<string name="bestiary.name.banner_protection">保护旗帜</string>
-	<string name="bestiary.name.bannerman_bloodlust">嗜血旗帜怪</string>
-	<string name="bestiary.name.bannerman_healing">生命旗帜怪</string>
-	<string name="bestiary.name.bannerman_protection">保护旗帜怪</string>
+	<string name="bestiary.name.bannerman_bloodlust">嗜血旗祭祀</string>
+	<string name="bestiary.name.bannerman_healing">生命旗祭祀</string>
+	<string name="bestiary.name.bannerman_protection">保护旗祭祀</string>
 	<string name="bestiary.name.bat_1">蝙蝠</string>
 	<string name="bestiary.name.bat_2">凶暴蝙蝠</string>
 	<string name="bestiary.name.bat_3">白化蝙蝠</string>
@@ -2451,7 +2451,7 @@
 	<string name="bestiary.name.elemental_ice_sword">冰元素</string>
 	<string name="bestiary.name.elemental_ice_ranged">远程冰元素</string>
 	<string name="bestiary.name.eye_1">眼球</string>
-	<string name="bestiary.name.eye_1_mb">眼球怪物</string>
+	<string name="bestiary.name.eye_1_mb">眼球怪</string>
 	<string name="bestiary.name.eye_1_small">小眼球</string>
 	<string name="bestiary.name.ghost_paladin">堕落圣骑士</string>
 	<string name="bestiary.name.ghost_priest">堕落牧师</string>
@@ -2468,7 +2468,7 @@
 	<string name="bestiary.name.archer_1_elite">精英骷髅射手</string>
 	<string name="bestiary.name.archer_2">骷髅狙击手</string>
 	<string name="bestiary.name.skeleton_1">骷髅士兵</string>
-	<string name="bestiary.name.skeleton_1_elite">骷髅战士</string>
+	<string name="bestiary.name.skeleton_1_elite">骷髅战士长</string>
 	<string name="bestiary.name.skeleton_1_mb">骷髅队长</string>
 	<string name="bestiary.name.skeleton_1_small">骷髅仆从</string>
 	<string name="bestiary.name.skeleton_2">骷髅守卫</string>
@@ -2477,14 +2477,14 @@
 	<string name="bestiary.name.skeleton_1_spear">骷髅枪兵</string>
 	<string name="bestiary.name.skeleton_2_spear">强化骷髅枪兵</string>
 	<string name="bestiary.name.maggot_1">蛆</string>
-	<string name="bestiary.name.maggot_1_elite">刺蛆</string>
+	<string name="bestiary.name.maggot_1_elite">毒蛆</string>
 	<string name="bestiary.name.maggot_1_mb">大蛆</string>
 	<string name="bestiary.name.maggot_1_small">小蛆</string>
-	<string name="bestiary.name.tick_1">蜱虫</string>
-	<string name="bestiary.name.tick_1_elite">刺蜱虫</string>
-	<string name="bestiary.name.tick_1_small">小蜱虫</string>
-	<string name="bestiary.name.tick_1_small_exploding">弹射虫</string>
-	<string name="bestiary.name.tick_1_mb">大蜱虫</string>
+	<string name="bestiary.name.tick_1">甲虫</string>
+	<string name="bestiary.name.tick_1_elite">带刺甲虫</string>
+	<string name="bestiary.name.tick_1_small">小甲虫</string>
+	<string name="bestiary.name.tick_1_small_exploding">自爆甲虫</string>
+	<string name="bestiary.name.tick_1_mb">大甲虫</string>
 	<string name="bestiary.name.tower_battlement_archer_1">城垛守卫</string>
 	<string name="bestiary.name.tower_battlement_archer_1_elite">精英城垛守卫</string>
 	<string name="bestiary.name.tower_battlement_empty">空城垛</string>
@@ -2528,46 +2528,46 @@
 	<string name="accomplishment.aberration-killed.name">驱魔师 %lvl%</string>
 	<string name="accomplishment.aberration-killed.desc">击杀%requirement% 变异生物.</string>
 
-	<string name="accomplishment.beast-killed.name">野兽杀手 %lvl%</string>
+	<string name="accomplishment.beast-killed.name">猎人 %lvl%</string>
 	<string name="accomplishment.beast-killed.desc">击杀%requirement% 野兽生物.</string>
 
 	<string name="accomplishment.construct-killed.name">拆迁办 %lvl%</string>
 	<string name="accomplishment.construct-killed.desc">摧毁 %requirement%建筑物.</string>
 
-	<string name="accomplishment.undead-killed.name">净化者 %lvl%</string>
+	<string name="accomplishment.undead-killed.name">净化 %lvl%</string>
 	<string name="accomplishment.undead-killed.desc">击杀%requirement% 亡灵生物.</string>
 
 	<string name="accomplishment.enemies-killed.name">杀手 %lvl%</string>
 	<string name="accomplishment.enemies-killed.desc">击杀%requirement% 个敌人.</string>
 
-	<string name="accomplishment.spent-mana.name">施法者 %lvl%</string>
+	<string name="accomplishment.spent-mana.name">肾透支 %lvl%</string>
 	<string name="accomplishment.spent-mana.desc">消耗 %requirement% 点魔法值.</string>
 
-	<string name="accomplishment.spent-gold.name">大金主 %lvl%</string>
+	<string name="accomplishment.spent-gold.name">土豪 %lvl%</string>
 	<string name="accomplishment.spent-gold.desc">花费 %requirement% 金币.</string>
 
-	<string name="accomplishment.gold-found.name">掘金人 %lvl%</string>
+	<string name="accomplishment.gold-found.name">金钱的力量 %lvl%</string>
 	<string name="accomplishment.gold-found.desc">找到 %requirement% 金币.</string>
 
 	<string name="accomplishment.ore-found.name">矿工 %lvl%</string>
 	<string name="accomplishment.ore-found.desc">找到 %requirement% 个矿石.</string>
 
-	<string name="accomplishment.best-combo.name">连击大师 %lvl%</string>
+	<string name="accomplishment.best-combo.name">不间断的暴力 %lvl%</string>
 	<string name="accomplishment.best-combo.desc">连杀击杀数 %requirement%.</string>
 
-	<string name="accomplishment.items-bought.name">购物者 %lvl%</string>
+	<string name="accomplishment.items-bought.name">买！买！买！ %lvl%</string>
 	<string name="accomplishment.items-bought.desc">购买 %requirement% 个装备.</string>
 
-	<string name="accomplishment.items-picked-common.name">普通掠夺者 %lvl%</string>
+	<string name="accomplishment.items-picked-common.name">冒险者 %lvl%</string>
 	<string name="accomplishment.items-picked-common.desc">找到 %requirement% 普通装备.</string>
 
-	<string name="accomplishment.items-picked-uncommon.name">稀有掠夺者 %lvl%</string>
+	<string name="accomplishment.items-picked-uncommon.name">贵族 %lvl%</string>
 	<string name="accomplishment.items-picked-uncommon.desc">找到 %requirement% 个稀有装备 items.</string>
 
-	<string name="accomplishment.items-picked-rare.name">史诗掠夺者 %lvl%</string>
+	<string name="accomplishment.items-picked-rare.name">史诗 %lvl%</string>
 	<string name="accomplishment.items-picked-rare.desc">找到 %requirement% 个史诗装备.</string>
 
-	<string name="accomplishment.items-picked-legendary.name">传奇掠夺者 %lvl%</string>
+	<string name="accomplishment.items-picked-legendary.name">传奇 %lvl%</string>
 	<string name="accomplishment.items-picked-legendary.desc">找到 %requirement% 个传奇装备.</string>
 
 	<string name="accomplishment.sets-completed.name">收藏家 %lvl%</string>
@@ -2576,100 +2576,100 @@
 	<string name="accomplishment.damage-dealt-max.name">重击者 %lvl%</string>
 	<string name="accomplishment.damage-dealt-max.desc">单次造成 %requirement% 点伤害.</string>
 
-	<string name="accomplishment.damage-dealt-physical.name">战士 %lvl%</string>
+	<string name="accomplishment.damage-dealt-physical.name">狂战 %lvl%</string>
 	<string name="accomplishment.damage-dealt-physical.desc">造成 %requirement% 点物理伤害.</string>
 
-	<string name="accomplishment.damage-dealt-magical.name">法师 %lvl%</string>
+	<string name="accomplishment.damage-dealt-magical.name">法爷 %lvl%</string>
 	<string name="accomplishment.damage-dealt-magical.desc">造成 %requirement% 点魔法伤害.</string>
 
-	<string name="accomplishment.chest-used-0.name">铜箱掠夺者 %lvl%</string>
+	<string name="accomplishment.chest-used-0.name">青铜宝藏 %lvl%</string>
 	<string name="accomplishment.chest-used-0.desc">打开 %requirement% 次铜箱子.</string>
 
-	<string name="accomplishment.chest-used-1.name">银箱掠夺者 %lvl%</string>
+	<string name="accomplishment.chest-used-1.name">白银宝藏 %lvl%</string>
 	<string name="accomplishment.chest-used-1.desc">打开 %requirement% 次银箱子.</string>
 
-	<string name="accomplishment.chest-used-2.name">金箱掠夺者 %lvl%</string>
+	<string name="accomplishment.chest-used-2.name">黄金宝藏 %lvl%</string>
 	<string name="accomplishment.chest-used-2.desc">打开 %requirement% 次金箱子.</string>
 
-	<string name="accomplishment.chest-used-3.name">ACE箱掠夺者 %lvl%</string>
-	<string name="accomplishment.chest-used-3.desc">打开 %requirement% 次Ace箱子.</string>
+	<string name="accomplishment.chest-used-3.name">传奇宝藏 %lvl%</string>
+	<string name="accomplishment.chest-used-3.desc">打开 %requirement% 次红箱子.</string>
 
-	<string name="accomplishment.max-level-paladin.name">骑士分会 %lvl%</string>
-	<string name="accomplishment.max-level-paladin.desc">圣骑士等级达到 %requirement%级.</string>
+	<string name="accomplishment.max-level-paladin.name">骑士工会 %lvl%</string>
+	<string name="accomplishment.max-level-paladin.desc">骑士等级达到 %requirement%级.</string>
 
-	<string name="accomplishment.max-level-priest.name">圣阶 %lvl%</string>
+	<string name="accomplishment.max-level-priest.name">牧师工会 %lvl%</string>
 	<string name="accomplishment.max-level-priest.desc">牧师等级达到 %requirement%级.</string>
 
-	<string name="accomplishment.max-level-ranger.name">猎人小屋 %lvl%</string>
+	<string name="accomplishment.max-level-ranger.name">游侠工会 %lvl%</string>
 	<string name="accomplishment.max-level-ranger.desc">游侠等级达到 %requirement%级.</string>
 
-	<string name="accomplishment.max-level-sorcerer.name">魔法师集团 %lvl%</string>
+	<string name="accomplishment.max-level-sorcerer.name">巫师工会 %lvl%</string>
 	<string name="accomplishment.max-level-sorcerer.desc">巫师等级达到 %requirement%级.</string>
 
-	<string name="accomplishment.max-level-thief.name">盗贼巢穴 %lvl%</string>
+	<string name="accomplishment.max-level-thief.name">盗贼工会 %lvl%</string>
 	<string name="accomplishment.max-level-thief.desc">盗贼等级达到 %requirement%级.</string>
 
-	<string name="accomplishment.max-level-warlock.name">神秘教会 %lvl%</string>
+	<string name="accomplishment.max-level-warlock.name">术士工会 %lvl%</string>
 	<string name="accomplishment.max-level-warlock.desc">术士等级达到 %requirement%级.</string>
 
-	<string name="accomplishment.max-level-wizard.name">奥术联盟 %lvl%</string>
+	<string name="accomplishment.max-level-wizard.name">法师工会 %lvl%</string>
 	<string name="accomplishment.max-level-wizard.desc">法师等级达到 %requirement%级.</string>
 
-	<string name="accomplishment.lifesteal-amount.name">鲜血猎人 %lvl%</string>
+	<string name="accomplishment.lifesteal-amount.name">吸血鬼 %lvl%</string>
 	<string name="accomplishment.lifesteal-amount.desc">通过吸血回复%requirement% 生命值.</string>
 
-	<string name="accomplishment.stun-count.name">攻击 %lvl%</string>
-	<string name="accomplishment.stun-count.desc">眩晕 %requirement% 次敌人.</string>
+	<string name="accomplishment.stun-count.name">控制狂 %lvl%</string>
+	<string name="accomplishment.stun-count.desc">成功眩晕 %requirement% 次.</string>
 
-	<string name="accomplishment.crit-count.name">精准命中 %lvl%</string>
+	<string name="accomplishment.crit-count.name">弱点攻击 %lvl%</string>
 	<string name="accomplishment.crit-count.desc">造成 %requirement%次暴击.</string>
 
-	<string name="accomplishment.damage-blocked.name">格挡者 %lvl%</string>
+	<string name="accomplishment.damage-blocked.name">挡箭牌 %lvl%</string>
 	<string name="accomplishment.damage-blocked.desc">格挡 %requirement%点伤害.</string>
 
-	<string name="accomplishment.damage-returned.name">复仇者 %lvl%</string>
+	<string name="accomplishment.damage-returned.name">荆棘护甲 %lvl%</string>
 	<string name="accomplishment.damage-returned.desc">对敌人反弹 %requirement%点伤害.</string>
 
-	<string name="accomplishment.evade-amount.name">躲闪者 %lvl%</string>
+	<string name="accomplishment.evade-amount.name">身手敏捷 %lvl%</string>
 	<string name="accomplishment.evade-amount.desc">闪避 %requirement% 次攻击.</string>
 
 	<string name="accomplishment.amount-healed.name">医生 %lvl%</string>
 	<string name="accomplishment.amount-healed.desc">治疗 %requirement% 生命值.</string>
 
-	<string name="accomplishment.amount-healed-pickups.name">美食家 %lvl%</string>
+	<string name="accomplishment.amount-healed-pickups.name">荒野求生 %lvl%</string>
 	<string name="accomplishment.amount-healed-pickups.desc">通过拣取食物恢复 %requirement%点生命.</string>
 
-	<string name="accomplishment.elevator-used.name">派件员 %lvl%</string>
-	<string name="accomplishment.elevator-used.desc">使用电梯 %requirement%次.</string>
+	<string name="accomplishment.elevator-used.name">送货上门 %lvl%</string>
+	<string name="accomplishment.elevator-used.desc">使用升降梯 %requirement%次.</string>
 
-	<string name="accomplishment.fountain-used.name">硬币投掷者 %lvl%</string>
+	<string name="accomplishment.fountain-used.name">幸运硬币 %lvl%</string>
 	<string name="accomplishment.fountain-used.desc">使用喷泉 %requirement%次.</string>
 
-	<string name="accomplishment.well-used.name">补充剂 %lvl%</string>
+	<string name="accomplishment.well-used.name">妥善利用 %lvl%</string>
 	<string name="accomplishment.well-used.desc">使用泉井 %requirement%次.</string>
 
-	<string name="accomplishment.potion-charges-used.name">药水上瘾 %lvl%</string>
+	<string name="accomplishment.potion-charges-used.name">瘾君子 %lvl%</string>
 	<string name="accomplishment.potion-charges-used.desc">使用药剂 %requirement%次.</string>
 
-	<string name="accomplishment.blessings-purchased.name">神圣恩赐 %lvl%</string>
+	<string name="accomplishment.blessings-purchased.name">信徒 %lvl%</string>
 	<string name="accomplishment.blessings-purchased.desc">教堂祝福 %requirement%次.</string>
 
-	<string name="accomplishment.buildings-purchased.name">建设者 %lvl%</string>
+	<string name="accomplishment.buildings-purchased.name">建筑工程师 %lvl%</string>
 	<string name="accomplishment.buildings-purchased.desc">建筑升级 %requirement%次.</string>
 
-	<string name="accomplishment.upgrades-bought.name">升级 %lvl%</string>
+	<string name="accomplishment.upgrades-bought.name">更高更强 %lvl%</string>
 	<string name="accomplishment.upgrades-bought.desc">角色升级 %requirement%次.</string>
 
-	<string name="accomplishment.gambling-gold-won.name">豪客 %lvl%</string>
+	<string name="accomplishment.gambling-gold-won.name">赌王 %lvl%</string>
 	<string name="accomplishment.gambling-gold-won.desc">赌博赢取 %requirement%金币.</string>
 
-	<string name="accomplishment.floors-visited.name">探险 %lvl%</string>
+	<string name="accomplishment.floors-visited.name">攻略组 %lvl%</string>
 	<string name="accomplishment.floors-visited.desc">到达 %requirement% 新楼层.</string>
 
-	<string name="accomplishment.units-traveled.name">流浪者 %lvl%</string>
+	<string name="accomplishment.units-traveled.name">马拉松健将 %lvl%</string>
 	<string name="accomplishment.units-traveled.desc">步行 %requirement%米.</string>
 
-	<string name="accomplishment.secrets-found.name">侦探 %lvl%</string>
+	<string name="accomplishment.secrets-found.name">明察秋毫 %lvl%</string>
 	<string name="accomplishment.secrets-found.desc">找到 %requirement% 个隐藏.</string>
 
 
