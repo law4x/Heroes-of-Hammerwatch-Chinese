@@ -328,8 +328,8 @@
 	<string name="random_buff.lower_hp">符文:献祭%amount%%生命上限. 你同意吗?</string>
 	<string name="random_buff.lower_armor">符文:献祭%amount%护甲. 你同意吗?</string>
 	<string name="random_buff.lower_resistance">符文:献祭%amount%魔法抗性. 你同意吗?</string>
-	<string name="random_buff.no_experience">符文:献祭%amount%%的经验值. 你同意吗?</string>
-	<string name="random_buff.no_gold">符文:献祭%amount%%的金币. 你同意吗?</string>
+	<string name="random_buff.no_experience">符文:献祭%amount%%经验获取速率. 你同意吗?</string>
+	<string name="random_buff.no_gold">符文:献祭%amount%%的获取速率. 你同意吗?</string>
 	<string name="random_buff.lower_hp_regen">符文:献祭%amount%生命回复率率. 你同意吗?</string>
 	<string name="random_buff.lower_mp_regen">符文:献祭%amount%法力回复率率. 你同意吗?</string>
 	<string name="random_buff.take_damage">符文:献祭%amount%生命值. 你同意吗?</string>
@@ -337,9 +337,9 @@
 
 	<string name="random_buff.more_hp">神庙赐予你 %amount%%生命上限.</string>
 	<string name="random_buff.more_armor">神庙赐予你 %amount% 护甲和魔抗.</string>
-	<string name="random_buff.more_experience">神庙赐予你 %amount%% 经验获取速度.</string>
-	<string name="random_buff.more_gold">神庙赐予你 %amount%% 金币获取.</string>
-	<string name="random_buff.more_ore">神庙赐予你 %amount%% 矿石获取.</string>
+	<string name="random_buff.more_experience">神庙赐予你 %amount%% 经验获取速率.</string>
+	<string name="random_buff.more_gold">神庙赐予你 %amount%% 金币获取速率.</string>
+	<string name="random_buff.more_ore">神庙赐予你 %amount%% 矿石获取速率.</string>
 	<string name="random_buff.more_hp_regen">神庙赐予你 %amount% 生命回复率.</string>
 	<string name="random_buff.more_mp_regen">神庙赐予你 %amount% 法力回复率.</string>
 	<string name="random_buff.more_damage">神庙赐予你 %amount%% 攻击伤害.</string>
