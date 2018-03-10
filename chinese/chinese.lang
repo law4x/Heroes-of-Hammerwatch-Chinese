@@ -1988,7 +1988,7 @@
 	<string name="item.stinger.desc">物理伤害无视敌人 %pierce%%护甲.</string>
 
 	<string name="item.talisman-of-decay.name">衰变符咒</string>
-	<string name="item.talisman-of-decay.desc">周围的敌人收到的伤害加%taken%%伤害.</string>
+	<string name="item.talisman-of-decay.desc">周围的敌人收到的伤害增加%taken%%.</string>
 
 	<string name="item.tower-shield.name">塔盾</string>
 	<string name="item.tower-shield.desc">%chance%% 几率抵御%block% 物理伤害.</string>
