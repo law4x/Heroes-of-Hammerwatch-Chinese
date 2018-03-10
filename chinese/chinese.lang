@@ -287,7 +287,7 @@
 	<string name="meta.info.twomore">还有2个…</string>
 	<string name="meta.info.onemore">还有1个…</string>
 	<string name="meta.info.passage">一个秘密通道已经打开…</string>
-    <string name="meta.info.exitrevealed">出口被打开了!</string>
+        <string name="meta.info.exitrevealed">出口被打开了!</string>
 	<string name="meta.info.threatspawned">召唤了大量的怪物!</string>
 	<string name="meta.info.gatherparty">在冒险之前,你必须召集你的队友.</string>
 	<string name="meta.info.ritual.gather">在开始仪式之前,你必须召集你的队友.</string>
