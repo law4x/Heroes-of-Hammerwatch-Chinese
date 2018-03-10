@@ -1756,7 +1756,7 @@
 	<string name="item.amulet-of-resistance.name">抗性护符</string>
 	<string name="item.amulet-of-resistance.desc">+%res% 魔法抗性.</string>
 
-	<string name="item.apothecarys-herbs.name">药剂师的草药</string>
+	<string name="item.apothecarys-herbs.name">药剂师宝珠</string>
 	<string name="item.apothecarys-herbs.desc">饮用药剂获得%dur%秒提升%mspeed%%的移动速度buff.</string>
 
 	<string name="item.blackjack.name">黑铁棒</string>
@@ -1804,13 +1804,13 @@
 	<string name="item.heavy-gauntlets.name">重铁手套</string>
 	<string name="item.heavy-gauntlets.desc">+%health% 生命上限.</string>
 
-	<string name="item.lesser-sphere-of-life.name">小生命球</string>
+	<string name="item.lesser-sphere-of-life.name">小生命宝珠</string>
 	<string name="item.lesser-sphere-of-life.desc">连杀期间 +%hregen% 生命回复率.</string>
 
-	<string name="item.lesser-sphere-of-mana.name">小魔法球</string>
+	<string name="item.lesser-sphere-of-mana.name">小魔法宝珠</string>
 	<string name="item.lesser-sphere-of-mana.desc">连杀期间 +%mregen% 法力回复率.</string>
 
-	<string name="item.lesser-sphere-of-nova.name">小新星球</string>
+	<string name="item.lesser-sphere-of-nova.name">小新星宝珠</string>
 	<string name="item.lesser-sphere-of-nova.desc">连杀期间释放新星每秒增加 %dmg% 魔法伤害.</string>
 
 	<string name="item.life-stone.name">生命之石</string>
@@ -1820,7 +1820,7 @@
 	<string name="item.mail-of-thorns.desc">收到攻击时反弹%return% 物理伤害.</string>
 
 	<string name="item.mage-robe.name">法袍</string>
-	<string name="item.mage-robe.desc">+%mana% 魔法上限.</string>
+	<string name="item.mage-robe.desc">+%mana% 法力上限.</string>
 
 	<string name="item.mana-stone.name">魔法之石</string>
 	<string name="item.mana-stone.desc">击杀敌人%chance%%几率回复1魔法值.</string>
@@ -1859,7 +1859,7 @@
 	<string name="item.slippery-cloak.desc">+%evasion%% 闪避.</string>
 
 	<string name="item.spell-book.name">符咒书</string>
-	<string name="item.spell-book.desc">+%spell% 技能伤害.</string>
+	<string name="item.spell-book.desc">+%spell% 法术伤害.</string>
 
 	<string name="item.spiked-flail.name">链锤</string>
 	<string name="item.spiked-flail.desc">普通攻击时 +%dmg% 物理伤害.</string>
@@ -1886,7 +1886,7 @@
 
 
 	<string name="item.adventurers-garb.name">冒险家服饰</string>
-	<string name="item.adventurers-garb.desc">+%health% 生命上限和 +%mana% 魔法上限.</string>
+	<string name="item.adventurers-garb.desc">+%health% 生命上限和 +%mana% 法力上限.</string>
 
 	<string name="item.apothecarys-mortar-pestle.name">药剂师的研钵和杵</string>
 	<string name="item.apothecarys-mortar-pestle.desc">饮用药剂增加5秒 %eff%%护甲和魔法抗性效果.</string>
@@ -1894,17 +1894,17 @@
 	<string name="item.apothecarys-satchel.name">药剂师的背包</string>
 	<string name="item.apothecarys-satchel.desc">药剂效果增益%eff%%.</string>
 
-	<string name="item.apothecarys-sphere.name">药剂师的球</string>
+	<string name="item.apothecarys-sphere.name">药剂师的宝珠</string>
 	<string name="item.apothecarys-sphere.desc">使用药剂时触发连击效果.</string>
 
 	<string name="item.assassins-dagger.name">暗杀匕首</string>
 	<string name="item.assassins-dagger.desc">普通攻击时%chance%% 几率造成暴击.</string>
 
 	<string name="item.blood-dagger.name">吸血匕首</string>
-	<string name="item.blood-dagger.desc">普通攻击时有+%chance%% 几率吸取5生命.</string>
+	<string name="item.blood-dagger.desc">普通攻击时有+%chance%% 几率吸取5点生命值.</string>
 
 	<string name="item.bloodthirst-ring.name">吸血戒指</string>
-	<string name="item.bloodthirst-ring.desc">普通攻击时吸取伤害量%lsteal%% 的生命.</string>
+	<string name="item.bloodthirst-ring.desc">普通攻击时吸取伤害量%lsteal%% 的生命值.</string>
 
 	<string name="item.claymore.name">大剑</string>
 	<string name="item.claymore.desc">普通攻击+%atk%物攻和+%dmg% 物理伤害.</string>
@@ -1946,10 +1946,10 @@
 	<string name="item.rapier-of-retaliation.desc">+%evasion%% 闪避. 当闪避攻击时,你获得%sec%秒增加%dmg%%伤害的buff.</string>
 
 	<string name="item.ring-of-transmutation.name">转化之戒</string>
-	<string name="item.ring-of-transmutation.desc">损失生命时将获得损失量%mana%%的魔法.</string>
+	<string name="item.ring-of-transmutation.desc">损失生命时将获得损失量%mana%%的法力.</string>
 
 	<string name="item.robe-of-arch-magi.name">大法师长袍</string>
-	<string name="item.robe-of-arch-magi.desc">+%spell% 技能伤害和 +%res% 魔法抗性.</string>
+	<string name="item.robe-of-arch-magi.desc">+%spell% 法术伤害和 +%res% 魔法抗性.</string>
 
 	<string name="item.scarab-of-protection.name">圣甲虫护符</string>
 	<string name="item.scarab-of-protection.desc">当被击中时对攻击者造成 %return% 魔法伤害并放出一圈毒镖.</string>
@@ -2001,7 +2001,7 @@
 	<string name="item.cape-of-the-flamewalker.desc">燃烧身边的敌人,每秒造成 %dmg%魔法伤害.</string>
 
 	<string name="item.crown-of-kings.name">王者头冠</string>
-	<string name="item.crown-of-kings.desc">+%bonus%%基础 生命上限和魔法上限.</string>
+	<string name="item.crown-of-kings.desc">+%bonus%%基础 生命上限和法力上限.</string>
 
 	<string name="item.dragonscale-mail.name">龙鳞盔甲</string>
 	<string name="item.dragonscale-mail.desc">抵御 %taken%%伤害.</string>
@@ -2034,16 +2034,16 @@
 	<string name="item.ring-of-arcane-powers.desc">施法消耗降低%scost%%.</string>
 
 	<string name="item.scepter-of-kings.name">国王权杖</string>
-	<string name="item.scepter-of-kings.desc">+%spell% 技能伤害.</string>
+	<string name="item.scepter-of-kings.desc">+%spell% 法术伤害.</string>
 
 	<string name="item.shieldbreaker.name">碎盾者</string>
 	<string name="item.shieldbreaker.desc">普通攻击%chance%%几率降低%sec%秒敌人%armor%%防御.</string>
 
 	<string name="item.sphere-of-champions.name">冠军宝珠</string>
-	<string name="item.sphere-of-champions.desc">连杀时增强%atk%物攻和技能威能.</string>
+	<string name="item.sphere-of-champions.desc">连杀时增强%atk%物攻和法术伤害.</string>
 
 	<string name="item.staff-of-volatile-casting.name">不稳定法杖</string>
-	<string name="item.staff-of-volatile-casting.desc">魔法攻击+%chance%%几率造成暴击.</string>
+	<string name="item.staff-of-volatile-casting.desc">法术攻击+%chance%%几率造成暴击.</string>
 
 	<string name="item.stormcaller.name">风暴召唤</string>
 	<string name="item.stormcaller.desc">普通攻击%chance%%几率释放闪电链, 造成 %dmg% 魔法伤害.</string>
@@ -2344,7 +2344,7 @@
 	<string name="guildhall.stats.goldgain">所有英雄金币获取+%amount%</string>
 
 	<!-- Guild Titles -->
-	<string name="titles.guild-0">无名小卒</string>
+	<string name="titles.guild-0">默默无名</string>
 	<string name="titles.guild-1">略有耳闻</string>
 	<string name="titles.guild-2">小有名气</string>
 	<string name="titles.guild-3">受人尊敬</string>
