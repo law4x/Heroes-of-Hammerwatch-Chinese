@@ -1,0 +1,2672 @@
+﻿<lang>
+	<!-- SYSTEM -->
+
+
+	<!-- character screen -->
+	<string name="hud.character.map">MAP</string>
+	<string name="hud.character.character">CHARACTER</string>
+	<string name="hud.character.stats">STATS</string>
+	<string name="hud.character.title">%name% the %title%, a level %lvl% %class%</string>
+	<string name="hud.levelup">LEVEL UP!</string>
+	<string name="hud.potionrefill">REFILLED!</string>
+	<string name="hud.nokey">NO KEY!</string>
+	<string name="hud.newtitle.character">Class title gained: %title%</string>
+	<string name="hud.newtitle.guild">Guild title gained: %title%</string>
+
+	<string name="class.paladin">Paladin</string>
+	<string name="class.paladin.desc">A powerful melee warrior with a lot of survivability.</string>
+	<string name="class.priest">Priest</string>
+	<string name="class.priest.desc">A mana-dependent caster focused on healing and magical damage.</string>
+	<string name="class.priest.disabled.desc">Priest locked.</string>
+	<string name="class.ranger">Ranger</string>
+	<string name="class.ranger.desc">An expert at ranged combat with a variety of skills.</string>
+	<string name="class.sorcerer">Sorcerer</string>
+	<string name="class.sorcerer.desc">A fragile spell caster that slows enemies and deal hybrid damage.</string>
+	<string name="class.thief">Thief</string>
+	<string name="class.thief.desc">An elusive melee fighter with a lot of mobility.</string>
+	<string name="class.thief.disabled.desc">Thief locked.</string>
+	<string name="class.warlock">Warlock</string>
+	<string name="class.warlock.desc">A melee spell caster who can replenish health and mana.</string>
+	<string name="class.warlock.disabled.desc"></string>
+	<string name="class.wizard">Wizard</string>
+	<string name="class.wizard.desc">A glass cannon with immense amount of magical damage.</string>
+	<string name="class.wizard.disabled.desc">Wizard locked.</string>
+
+	<string name="playermenu.character.vitality">VITALITY</string>
+	<string name="playermenu.character.speedexp">SPEED / EXP</string>
+	<string name="playermenu.character.damage">DAMAGE</string>
+	<string name="playermenu.character.protection">PROTECTION</string>
+	<string name="playermenu.character.resources">RESOURCES</string>
+	<string name="playermenu.character.keys">KEYS</string>
+	<string name="playermenu.character.items">ITEMS</string>
+	<string name="playermenu.character.potionskills">POTION / SKILLS</string>
+	<string name="playermenu.character.base">Base: %value%</string>
+
+	<string name="playermenu.tooltip.exp">EXPERIENCE</string>
+	<string name="playermenu.tooltip.exp.total">TOTAL:</string>
+	<string name="playermenu.tooltip.exp.left">LEFT:</string>
+	<string name="playermenu.tooltip.exp.rate">RATE:</string>
+	<string name="playermenu.tooltip.potion.title">%num% / %total% CHARGES</string>
+	<string name="playermenu.tooltip.potion.text">+ %hp% HP\n+ %mana% MANA</string>
+	<string name="playermenu.tooltip.tax">TAX</string>
+
+	<string name="playermenu.character.health">HEALTH</string>
+	<string name="playermenu.character.mana">MANA</string>
+	<string name="playermenu.character.healthregen">HEALTH REGEN</string>
+	<string name="playermenu.character.manaregen">MANA REGEN</string>
+	<string name="playermenu.character.armor">ARMOR</string>
+	<string name="playermenu.character.armor.description">Decreases physical damage taken by %value%%.</string>
+	<string name="playermenu.character.resistance">RESISTANCE</string>
+	<string name="playermenu.character.resistance.description">Decreases magical damage taken by %value%%.</string>
+	<string name="playermenu.character.attackpower">ATTACK POWER</string>
+	<string name="playermenu.character.attackpower.description">Increases damage done by primary attack by %value%%.</string>
+	<string name="playermenu.character.spellpower">SKILL POWER</string>
+	<string name="playermenu.character.spellpower.description">Increases damage done by skills and items by %value%%.</string>
+	<string name="playermenu.character.attackdamage">ATTACK EFFECTS</string>
+	<string name="playermenu.character.spelldamage">SKILL EFFECTS</string>
+	<string name="playermenu.character.movespeed">MOVE SPEED</string>
+	<string name="playermenu.character.goldgain">GOLD GAIN</string>
+
+	<!-- acts -->
+	<string name="world.town">THE OUTLOOK</string>
+	<string name="world.mines">OUTLOOK MINES</string>
+	<string name="world.tower">FORSAKEN TOWER</string>
+	<string name="world.floor">FLOOR %num%</string>
+	<string name="world.acts.0">MINES</string>
+	<string name="world.acts.1">PRISON</string>
+	<string name="world.acts.2">ARMORY</string>
+	<string name="world.acts.3">ARCHIVES</string>
+	<string name="world.acts.4">CHAMBERS</string>
+	<string name="world.acts.5">TOP</string>
+
+
+	<!-- game over -->
+	<string name="gameover.youdied">YOU DIED</string>
+	<string name="gameover.quit">RETURN TO MENU</string>
+	<string name="gameover.stats.goldfound">GOLD FOUND</string>
+	<string name="gameover.stats.goldstored">SENT TO TOWN</string>
+	<string name="gameover.stats.orefound">ORE FOUND</string>
+	<string name="gameover.stats.orestored">SENT TO TOWN</string>
+	<string name="gameover.stats.experience">EXPERIENCE</string>
+	<string name="gameover.stats.timeplayed">TIME PLAYED</string>
+	<string name="gameover.stats.enemieskilled">ENEMIES KILLED</string>
+	<string name="gameover.stats.killer">KILLED BY</string>
+	<string name="gameover.mock.0">YOUR SAD LIFE COMES TO AN ABRUPT END</string>
+	<string name="gameover.mock.1">YOUR SAD LIFE COMES TO AN ABRUPT END</string>
+	<string name="gameover.mock.2">YOUR SAD LIFE COMES TO AN ABRUPT END</string>
+	<string name="gameover.mock.3">YOUR SAD LIFE COMES TO AN ABRUPT END</string>
+	<string name="gameover.mock.4">YOUR SAD LIFE COMES TO AN ABRUPT END</string>
+	<string name="gameover.sentence.unused-potion.none">You used all of your potions.</string>
+	<string name="gameover.sentence.unused-potion.plural">You had %num% potions left!</string>
+	<string name="gameover.sentence.unused-potion.one">You had 1 potion left!</string>
+	<string name="gameover.sentence.unused-potion.never">You never used any potions!</string>
+	<string name="gameover.sentence.unused-keys.plural">%num% keys remain unused.</string>
+	<string name="gameover.sentence.unused-keys.one">1 key remains unused.</string>
+	<string name="gameover.sentence.unused-mana">You died with a lot of unused mana.</string>
+	<string name="gameover.sentence.gold.rich">You're rich!</string>
+	<string name="gameover.sentence.gold.none">Taking no gold home.</string>
+	<string name="gameover.sentence.first-minute">You died within the first minute.</string>
+	<string name="gameover.sentence.no-enemies">You didn't kill any enemies!</string>
+	<string name="gameover.sentence.chests.plural">You opened %num% chests.</string>
+	<string name="gameover.sentence.chests.one">You opened 1 chest.</string>
+	<string name="gameover.sentence.damage-taken">You took %num% damage.</string>
+	<string name="gameover.sentence.items-picked.plural">You picked up %num% items.</string>
+	<string name="gameover.sentence.items-picked.one">You picked up 1 item.</string>
+	<string name="gameover.sentence.floors.plural">You visited %num% floors.</string>
+	<string name="gameover.sentence.floors.one">You visited 1 floor.</string>
+	<string name="gameover.sentence.units">You traveled %meters%.</string>
+	<string name="gameover.sentence.time">Your run ended in %time%</string>
+	<string name="gameover.sentence.ore.one">You wasted 1 ore!</string>
+	<string name="gameover.sentence.ore.plural">You wasted %num% ore!</string>
+	<string name="gameover.sentence.experience">You lost %num% experience!</string>
+
+	<!-- stats -->
+
+
+	<string name="stats.category.0achievements">Achievements</string>
+	<string name="stats.category.1combat">Combat</string>
+	<string name="stats.category.2vitality">Vitality</string>
+	<string name="stats.category.3adventuring">Adventuring</string>
+	<string name="stats.category.4town">Town</string>
+	<string name="stats.category.5items">Items</string>
+
+	<string name="stats.interface.session">This Run</string>
+	<string name="stats.interface.total">Since Start</string>
+
+	<string name="stats.time-played">Time played</string>
+	<string name="stats.enemies-killed">Enemies killed</string>
+	<string name="stats.items-bought">Items purchased</string>
+	<string name="stats.items-bought-common">Common items bought</string>
+	<string name="stats.items-bought-uncommon">Uncommon items bought</string>
+	<string name="stats.items-bought-rare">Rare items bought</string>
+	<string name="stats.items-picked">Items found</string>
+	<string name="stats.items-picked-common">Common items found</string>
+	<string name="stats.items-picked-uncommon">Uncommon items found</string>
+	<string name="stats.items-picked-rare">Rare items found</string>
+	<string name="stats.items-picked-legendary">Legendary items found</string>
+	<string name="stats.sets-completed">Item sets completed</string>
+	<string name="stats.damage-taken">Damage taken</string>
+	<string name="stats.damage-taken-max">Max damage taken</string>
+	<string name="stats.chests-opened">Chests opened</string>
+	<string name="stats.elevator-used">Elevators used</string>
+	<string name="stats.fountain-used">Fountain used</string>
+	<string name="stats.well-used">Well used</string>
+	<string name="stats.gold-found">Gold found</string>
+	<string name="stats.ore-found">Ore found</string>
+	<string name="stats.gold-stored">Total gold stored</string>
+	<string name="stats.ores-stored">Total ore stored</string>
+	<string name="stats.spent-gold">Total gold spent</string>
+	<string name="stats.spent-ore">Total ore spent</string>
+	<string name="stats.spent-skillpoints">Total skillpoints spent</string>
+	<string name="stats.spent-mana">Total mana spent</string>
+	<string name="stats.death-count">Death count</string>
+	<string name="stats.floors-visited">Floors visited</string>
+	<string name="stats.units-traveled">Units traveled</string>
+	<string name="stats.secrets-found">Secrets found</string>
+	<string name="stats.potion-charges-used">Potion charges used</string>
+	<string name="stats.chest-used-wood">Wooden chests opened</string>
+	<string name="stats.chest-used-0">Bronze chests opened</string>
+	<string name="stats.chest-used-1">Silver chests opened</string>
+	<string name="stats.chest-used-2">Gold chests opened</string>
+	<string name="stats.chest-used-3">Ace chests opened</string>
+	<string name="stats.key-found-0">Bronze keys found</string>
+	<string name="stats.key-found-1">Silver keys found</string>
+	<string name="stats.key-found-2">Gold keys found</string>
+	<string name="stats.key-found-3">Ace keys found</string>
+	<string name="stats.boss-1-killed">First boss killed</string>
+	<string name="stats.boss-2-killed">Second boss killed</string>
+	<string name="stats.boss-3-killed">Third boss killed</string>
+	<string name="stats.boss-4-killed">Fourth boss killed</string>
+	<string name="stats.boss-5-killed">Fifth boss killed</string>
+	<string name="stats.aberration-killed">Aberrations killed</string>
+	<string name="stats.beast-killed">Beasts killed</string>
+	<string name="stats.construct-killed">Constructs killed</string>
+	<string name="stats.undead-killed">Undead killed</string>
+	<string name="stats.best-combo">Best combo</string>
+	<string name="stats.amount-healed">Amount healed</string>
+	<string name="stats.amount-healed-pickups">Amount healed by pickups</string>
+	<string name="stats.damage-dealt">Damage dealt</string>
+	<string name="stats.damage-dealt-max">Max damage dealt</string>
+	<string name="stats.damage-dealt-physical">Physical damage dealt</string>
+	<string name="stats.damage-dealt-magical">Magical damage dealt</string>
+	<string name="stats.lifesteal-amount">Health lifestealed</string>
+	<string name="stats.stun-count">Enemies stunned</string>
+	<string name="stats.crit-count">Critical hits scored</string>
+	<string name="stats.damage-blocked">Damage blocked</string>
+	<string name="stats.damage-returned">Damage returned</string>
+	<string name="stats.evade-amount">Attacks evaded</string>
+	<string name="stats.blessings-purchased">Blessings purchased</string>
+	<string name="stats.buildings-purchased">Building upgrades purchased</string>
+	<string name="stats.upgrades-bought">Character upgrades bought</string>
+	<string name="stats.gambling-gold-won">Gambling gold won</string>
+	<string name="stats.gambling-gold-lost">Gambling gold lost</string>
+	<string name="stats.max-level-paladin">Highest Paladin Level</string>
+	<string name="stats.max-level-priest">Highest Priest Level</string>
+	<string name="stats.max-level-ranger">Highest Ranger Level</string>
+	<string name="stats.max-level-sorcerer">Highest Sorcerer Level</string>
+	<string name="stats.max-level-thief">Highest Thief Level</string>
+	<string name="stats.max-level-warlock">Highest Warlock Level</string>
+	<string name="stats.max-level-wizard">Highest Wizard Level</string>
+
+
+
+	<!-- misc -->
+	<string name="misc.dmg.crit1">%dmg%!</string>
+	<string name="misc.dmg.crit2">%dmg%!!</string>
+	<string name="misc.dmg.crit3">%dmg%!!!</string>
+	<string name="misc.dmg.crit4">%dmg%!!!!</string>
+	<string name="misc.dmg.crit5">%dmg%!!!!!</string>
+	<string name="misc.primaryskill">\c7f7f7fPrimary attack\d</string>
+	<string name="misc.activeskill">\c7f7f7fActive skill\d</string>
+	<string name="misc.passiveskill">\c7f7f7fPassive skill\d</string>
+
+	<string name="misc.elevator.question">Would you like to send down %ore% ore and %gold% gold (%tax%% tax)</string>
+	<string name="misc.elevator.gold">Gold</string>
+	<string name="misc.elevator.ore">Ore</string>
+	<string name="misc.store.gold">Sent %num% gold to town</string>
+	<string name="misc.soulslinked">SOULS LINKED</string>
+
+	<string name="item.key">KEY</string>
+	<string name="item.key.plural">%num% KEYS</string>
+	<string name="item.ore">ORE</string>
+	<string name="item.ore.plural">%num% ORE</string>
+	<string name="misc.store.ore">Sent %num% ore to town</string>
+	<string name="item.diamond.blue">DIAMOND</string>
+	<string name="item.diamond.blue-small">DIAMOND</string>
+	<string name="item.diamond.red">DIAMOND</string>
+	<string name="item.diamond.red-small">DIAMOND</string>
+
+	<!-- intro -->
+	<string name="intro.title">THE OUTLOOK</string>
+	<string name="intro.text">The Outlook, just below the Forsaken Tower. A previously abandoned mining town that with the help from your guild hopefully can be restored to its previous glory.\n\n(Quick help: Venture into the mines and collect Gold and Ore, use Ore to upgrade your town from the Town Hall, use Gold to buy items and player upgrades and use Skillpoints gained when level up to unlock new skills in the Guildhall. There's much more to explore and find, good luck.)</string>
+	<string name="intro.continue">CONTINUE</string>
+
+
+	<!-- end of game -->
+	<string name="endofbeta.title">END OF BETA</string>
+	<string name="endofbeta.subtitle">Thanks for playing the beta! We will be adding more content as the beta continues.\nFor now you can choose between upgrading your character to New Game+ or keep on playing on the same difficulty level. Town progress is saved.</string>
+	<string name="endofgame.town">CONTINUE</string>
+	<string name="endofgame.town.desc">Head back to town and continue playing on the same difficulty level.</string>
+	<string name="endofgame.newgameplus">NEW GAME+</string>
+	<string name="endofgame.newgameplus.desc">Head back to town and upgrade your character to New Game+. Your character will also receive a new title.</string>
+	<string name="endofgame.title">THE END</string>
+	<string name="endofgame.text">You managed to climb to the top of the Forsaken Tower and slay Thundersnow, the great Blue Dragon, who suddenly came in from the west and settled up here. Now the tower is freed and life should eventually come back to normal here and around the tower.\n\n(You can now choose to return to town on the same difficulty with the same hero, OR be the better person and step up your game in NEW GAME PLUS! All Your upgrades and progress will continue into whatever choice you make.)</string>
+	<string name="endofgame.confirm.town">Are you sure you want to go back to town without activating New Game+?</string>
+	<string name="endofgame.confirm.plus">Are you sure you want to activate New Game+?</string>
+
+	<string name="misc.yes">Yes</string>
+	<string name="misc.no">No</string>
+	<string name="misc.dmg.immortal">SHIELD!</string>
+	<string name="dead.respawn">Press USE to respawn</string>
+	<string name="dead.gameover">GAME OVER</string>
+	<string name="dead.restart.countdown">Restarting in %countdown%</string>
+	<string name="concept.continue">BEGIN MISSION...</string>
+	<string name="concept.wolf">GET PSYCHED!</string>
+
+	<string name="levelend.quit">Exit to menu</string>
+	<string name="levelend.finished">COMPLETED</string>
+	<string name="levelend.deaths">DEATHS</string>
+	<string name="levelend.kills">KILLS</string>
+	<string name="levelend.items">ITEMS</string>
+	<string name="levelend.secrets">SECRETS</string>
+	<string name="levelend.stars">STARS</string>
+	<string name="levelend.time.game">GAME TIME</string>
+	<string name="levelend.time.level">LEVEL TIME</string>
+	<string name="interface.playersready">%ready%/%total% PLAYERS READY</string>
+	<string name="levelend.wait">WAIT...</string>
+	<string name="levelend.ready">READY</string>
+	<string name="levelend.ok">CONTINUE</string>
+
+
+	<string name="meta.info.elsewhere">This opens elsewhere...</string>
+	<string name="meta.info.happened">Something happened...</string>
+	<string name="meta.info.buttonstuck">Button is stuck…</string>
+	<string name="meta.info.combounlocked">Combo unlocked!</string>
+	<string name="meta.info.sequencecompleted">Sequence completed!</string>
+	<string name="meta.info.twomore">2 more to go…</string>
+	<string name="meta.info.onemore">1 more to go…</string>
+	<string name="meta.info.passage">A secret passage has been revealed…</string>
+	<string name="meta.info.exitrevealed">The exit has been revealed!</string>
+	<string name="meta.info.threatspawned">A great threat was spawned!</string>
+	<string name="meta.info.gatherparty">You must gather your party before venturing forth.</string>
+	<string name="meta.info.ritual.gather">You must gather your party before starting the ritual.</string>
+	<string name="meta.info.ritual.start">…and the great abomination\n was summoned!</string>
+	<string name="meta.info.ritual.completed">Ritual sequence completed!</string>
+	<string name="meta.info.ritual.failed">Ritual sequence incomplete!</string>
+	<string name="meta.info.ritual.b">Embrace the Dark</string>
+	<string name="meta.info.ritual.headline">Summoning Ritual</string>
+	<string name="meta.info.ritual.b1">Chapter I\nEmbrace the Dark</string>
+	<string name="meta.info.ritual.b2">Chapter II\nEmbrace the Dark</string>
+	<string name="meta.info.ritual.b3">Chapter III\nEmbrace the Dark</string>
+	<string name="meta.info.ritual.b4">Chapter IV\nEmbrace the Dark</string>
+	<string name="meta.info.ritual.g">Withering Decay</string>
+	<string name="meta.info.ritual.g1">Chapter I\nWithering Decay</string>
+	<string name="meta.info.ritual.g2">Chapter II\nWithering Decay</string>
+	<string name="meta.info.ritual.g3">Chapter III\nWithering Decay</string>
+	<string name="meta.info.ritual.g4">Chapter IV\nWithering Decay</string>
+	<string name="meta.info.ritual.r">Blood Pact</string>
+	<string name="meta.info.ritual.r1">Chapter I\nBlood Pact</string>
+	<string name="meta.info.ritual.r2">Chapter II\nBlood Pact</string>
+	<string name="meta.info.ritual.r3">Chapter III\nBlood Pact</string>
+	<string name="meta.info.ritual.r4">Chapter IV\nBlood Pact</string>
+	<string name="meta.info.ritual.y">Malign Transformation</string>
+	<string name="meta.info.ritual.y1">Chapter I\nMalign Transformation</string>
+	<string name="meta.info.ritual.y2">Chapter II\nMalign Transformation</string>
+	<string name="meta.info.ritual.y3">Chapter III\nMalign Transformation</string>
+	<string name="meta.info.ritual.y4">Chapter IV\nMalign Transformation</string>
+
+	<string name="random_stuff.give_item">The imp gave you an item!</string>
+	<string name="random_stuff.give_ore">The imp gave you some ore!</string>
+	<string name="random_stuff.give_gold">The imp gave you some gold!</string>
+	<string name="random_stuff.give_experience">The imp gave you some experience!</string>
+	<string name="random_stuff.give_keys">The imp gave you some keys!</string>
+	<string name="random_stuff.deposit_gold">Do you want to send your gold to town?</string>
+	<string name="random_stuff.deposit_ore">Do you want to send your ore to town?</string>
+	<string name="random_stuff.rejuvenate">The imp healed you and refilled your potion!</string>
+
+	<string name="random_buff.lower_hp">The inscription reads:\nSacrifice %amount%% max health. Do you agree?</string>
+	<string name="random_buff.lower_armor">The inscription reads:\nSacrifice %amount% armor. Do you agree?</string>
+	<string name="random_buff.lower_resistance">The inscription reads:\nSacrifice %amount% resistance. Do you agree?</string>
+	<string name="random_buff.no_experience">The inscription reads:\nSacrifice %amount%% experience gain. Do you agree?</string>
+	<string name="random_buff.no_gold">The inscription reads:\nSacrifice %amount%% gold gain. Do you agree?</string>
+	<string name="random_buff.lower_hp_regen">The inscription reads:\nSacrifice %amount% health regen. Do you agree?</string>
+	<string name="random_buff.lower_mp_regen">The inscription reads:\nSacrifice %amount% mana regen. Do you agree?</string>
+	<string name="random_buff.take_damage">The inscription reads:\nTake %amount% damage. Do you agree?</string>
+	<string name="random_buff.lower_damage">The inscription reads:\nSacrifice %amount%% damage. Do you agree?</string>
+
+	<string name="random_buff.more_hp">The shrine rewards you with %amount%% max health.</string>
+	<string name="random_buff.more_armor">The shrine rewards you with %amount% armor and resistance.</string>
+	<string name="random_buff.more_experience">The shrine rewards you with %amount%% experience gain.</string>
+	<string name="random_buff.more_gold">The shrine rewards you with %amount%% gold gain.</string>
+	<string name="random_buff.more_ore">The shrine rewards you with %amount%% ore gain.</string>
+	<string name="random_buff.more_hp_regen">The shrine rewards you with %amount% health regen.</string>
+	<string name="random_buff.more_mp_regen">The shrine rewards you with %amount% mana regen.</string>
+	<string name="random_buff.more_damage">The shrine rewards you with %amount%% damage.</string>
+
+
+
+	<string name="levelcredits.prompt">%level% by %author%</string>
+
+	<!-- Colors Everyone -->
+	<string name="color.skin">Skin</string>
+
+	<!-- Colors Paladin -->
+	<string name="color.paladin.body">Armor</string>
+	<string name="color.paladin.shoulders">Shoulders</string>
+	<string name="color.paladin.guard">Guard/Cross</string>
+
+	<!-- Colors Ranger -->
+	<string name="color.ranger.hood">Hood</string>
+	<string name="color.ranger.cape">Cape</string>
+	<string name="color.ranger.shoulders">Shoulders</string>
+
+	<!-- Colors Sorcerer -->
+	<string name="color.sorc.hat">Hat</string>
+	<string name="color.sorc.robe">Robe</string>
+	<string name="color.sorc.border">Border</string>
+
+	<!-- Colors Thief -->
+	<string name="color.thief.hair">Hair</string>
+	<string name="color.thief.scarf">Scarf</string>
+	<string name="color.thief.jacket">Jacket</string>
+
+	<!-- Colors Warlock -->
+	<string name="color.warlock.helmet">Helmet</string>
+	<string name="color.warlock.robe">Robe</string>
+	<string name="color.warlock.staff">Staff</string>
+
+	<!-- Colors Priest -->
+	<string name="color.priest.robe">Robe</string>
+	<string name="color.priest.cape">Cape</string>
+	<string name="color.priest.mitra">Mitra</string>
+
+	<!-- Colors Priest -->
+	<string name="color.wizard.robe">Robe</string>
+	<string name="color.wizard.border">Border</string>
+	<string name="color.wizard.staff">Staff</string>
+
+	<string name="hud.spectate.who">Spectating %name%</string>
+	<string name="hud.spectate.help">Press Fire to spectate next player</string>
+	<string name="dead.gameover.spectate">Press Use to spectate</string>
+
+	<string name="gameover.sentence.experience">You lost %num% experience.</string>
+	<string name="gameover.restart">RESTART</string>
+
+	<string name="modifier.list.player">Character</string>
+	<string name="modifier.list.classtitle">Class title: %title%</string>
+	<string name="modifier.list.title">Title: %title%</string>
+	<string name="modifier.list.statue">Statue: %statue%</string>
+	<string name="modifier.list.building">Town: %building% level %level%</string>
+	<string name="hud.accomplishment.done">Accomplishment: %name%</string>
+
+	<string name="modifier.list.player.items">Items</string>
+	<string name="modifier.list.player.skills">Skills</string>
+	<string name="modifier.list.player.upgrades">Upgrades</string>
+	<string name="modifier.list.player.buffs">Buffs</string>
+	<string name="modifier.list.player.titles">Class titles</string>
+
+	<string name="ui_key_count">SHOW KEY COUNT</string>
+	<string name="ui_key_count.help">Show the amount of keys you have in the HUD.</string>
+	<string name="ui_speechbubble_alpha">SPEECHBUBBLE ALPHA</string>
+	<string name="ui_speechbubble_alpha.help">Transparency of speechbubbles.</string>
+	<string name="ui_cursor_health">CURSOR STATS</string>
+	<string name="ui_cursor_health.help">Show your current health and mana on the crosshair.</string>
+	<string name="ui_minimap_alpha">MINIMAP ALPHA</string>
+	<string name="ui_minimap_alpha.help">Transparency of the minimap overlay.</string>
+	<string name="ui_draw_plr_names">PLAYER NAMES</string>
+	<string name="ui_draw_plr_names.help">Show player names in multiplayer.</string>
+	<string name="ui_draw_plr_names.onlytown">ONLY TOWN</string>
+	<string name="ui_draw_plr_names_real">REAL PLAYER NAMES</string>
+	<string name="ui_draw_plr_names_real.help">Show real player names instead of hero names in multiplayer.</string>
+
+	<!-- Gambling -->
+	<string name="gambling.house">House</string>
+	<string name="gambling.you">You</string>
+	<string name="town.cardgame.battlestatus">%player% vs %house%</string>
+	<string name="gambling.card.wildcard">Spiketrap! (*)</string>
+
+	<string name="gambling.card.1.1">Basic Construct (1)</string>
+	<string name="gambling.card.1.2">Basic Construct (2)</string>
+	<string name="gambling.card.1.3">Basic Construct (3)</string>
+	<string name="gambling.card.1.4">Basic Construct (4)</string>
+	<string name="gambling.card.1.5">Basic Construct (5)</string>
+	<string name="gambling.card.1.6">Basic Construct (6)</string>
+	<string name="gambling.card.1.7">Dummy, Construct (7)</string>
+	<string name="gambling.card.1.8">Rampart, Construct (8)</string>
+	<string name="gambling.card.1.9">Nova, Construct (9)</string>
+	<string name="gambling.card.1.10">Golem, Construct (10)</string>
+
+	<string name="gambling.card.2.1">Basic Beast (1)</string>
+	<string name="gambling.card.2.2">Basic Beast (2)</string>
+	<string name="gambling.card.2.3">Basic Beast (3)</string>
+	<string name="gambling.card.2.4">Basic Beast (4)</string>
+	<string name="gambling.card.2.5">Basic Beast (5)</string>
+	<string name="gambling.card.2.6">Basic Beast (6)</string>
+	<string name="gambling.card.2.7">Bats, Beasts (7)</string>
+	<string name="gambling.card.2.8">Fat Tick, Beast (8)</string>
+	<string name="gambling.card.2.9">Maggot Queen, Beast (9)</string>
+	<string name="gambling.card.2.10">Red Dragon, Beast (10)</string>
+
+	<string name="gambling.card.3.1">Basic Undead (1)</string>
+	<string name="gambling.card.3.2">Basic Undead (2)</string>
+	<string name="gambling.card.3.3">Basic Undead (3)</string>
+	<string name="gambling.card.3.4">Basic Undead (4)</string>
+	<string name="gambling.card.3.5">Basic Undead (5)</string>
+	<string name="gambling.card.3.6">Basic Undead (6)</string>
+	<string name="gambling.card.3.7">Skeleton, Undead (7)</string>
+	<string name="gambling.card.3.8">Lich, Undead (8)</string>
+	<string name="gambling.card.3.9">Warden, Undead (9)</string>
+	<string name="gambling.card.3.10">Wraiths, Undead (10)</string>
+
+	<string name="gambling.card.4.1">Basic Aberration (1)</string>
+	<string name="gambling.card.4.2">Basic Aberration (2)</string>
+	<string name="gambling.card.4.3">Basic Aberration (3)</string>
+	<string name="gambling.card.4.4">Basic Aberration (4)</string>
+	<string name="gambling.card.4.5">Basic Aberration (5)</string>
+	<string name="gambling.card.4.6">Basic Aberration (6)</string>
+	<string name="gambling.card.4.7">Small Eye, Aberration (7)</string>
+	<string name="gambling.card.4.8">Wisp, Aberration (8)</string>
+	<string name="gambling.card.4.9">Man Eater, Aberration (9)</string>
+	<string name="gambling.card.4.10">The Watcher, Aberration (10)</string>
+
+	<string name="rg_pixel_perfect">PIXEL PERFECT RENDERING</string>
+	<string name="rg_pixel_perfect.help">Gives a more true low-res look, but may cause stuttering.</string>
+
+
+
+	<!-- MENU -->
+
+
+	<!-- main menu -->
+	<string name="mainmenu.newcharacter">NEW</string>
+	<string name="mainmenu.selectcharacter">CONTINUE</string>
+	<string name="mainmenu.gameoptions.title">GAME OPTIONS</string>
+	<string name="mainmenu.graphicsoptions.title">GRAPHICS OPTIONS</string>
+	<string name="mainmenu.soundoptions.title">SOUND OPTIONS</string>
+	<string name="mainmenu.controls.title">CONTROLS</string>
+	<string name="mainmenu.languages.title">LANGUAGES</string>
+	<string name="mainmenu.resolutions.title">RESOLUTIONS</string>
+	<string name="mainmenu.host.title">HOST</string>
+	<string name="mainmenu.host.public">Public</string>
+	<string name="mainmenu.host.private">Private</string>
+	<string name="mainmenu.host.name">%name%'s lobby</string>
+	<string name="mainmenu.serverlist.title">SERVERLIST</string>
+
+	<!-- character selection -->
+	<string name="mainmenu.character.select.title">CHOOSE HERO</string>
+	<string name="mainmenu.character.select.name">%name% the %class%</string>
+	<string name="mainmenu.character.select.play">PLAY!</string>
+	<string name="mainmenu.character.select.new">NEW CHARACTER</string>
+	<string name="mainmenu.character.select.select">SELECT</string>
+
+	<!-- character creation -->
+	<string name="mainmenu.character.create.title">CHARACTER CREATOR</string>
+	<string name="mainmenu.character.create.random">RANDOM</string>
+	<string name="mainmenu.character.create.play">PLAY!</string>
+	<string name="mainmenu.character.create.voicepitch">VOICE PITCH</string>
+	<string name="mainmenu.character.colors.title">COLORS</string>
+	<string name="mainmenu.character.delete.text">Really delete '%name%'?</string>
+	<string name="menu.restart.tooltip">Return to town. This will count as a death!</string>
+
+
+	<!-- options > controls -->
+	<string name="menu.controls.attack1">ACTIVE SKILL 1</string>
+	<string name="menu.controls.attack2">ACTIVE SKILL 2</string>
+	<string name="menu.controls.attack3">ACTIVE SKILL 3</string>
+	<string name="menu.controls.attack4">ACTIVE SKILL 4</string>
+	<string name="menu.controls.potion">POTION</string>
+	<string name="menu.controls.playermenu">PLAYER MENU</string>
+	<string name="menu.controls.guildmenu">GUILD HALL</string>
+
+	<string name="menu.mplayer">MULTIPLAYER</string>
+	<string name="menu.mplayer.clobby">CREATE LOBBY</string>
+	<string name="menu.mplayer.slist">SERVERLIST</string>
+	<string name="menu.options">OPTIONS</string>
+	<string name="menu.credits">CREDITS</string>
+	<string name="menu.quit">QUIT</string>
+	<string name="menu.apply">APPLY</string>
+	<string name="menu.back">BACK</string>
+	<string name="menu.ok">OK</string>
+	<string name="menu.accept">ACCEPT</string>
+	<string name="menu.yes">YES</string>
+	<string name="menu.no">NO</string>
+	<string name="menu.controls.mapoverlay">OVERLAY MAP</string>
+
+	<!-- options -> * -->
+	<string name="menu.o.game">GAME</string>
+	<string name="menu.o.graphics">GRAPHICS</string>
+	<string name="menu.o.sound">SOUND</string>
+	<string name="menu.o.ctrls">CONTROLS</string>
+
+	<string name="menu.resume">RESUME</string>
+	<string name="menu.off">OFF</string>
+	<string name="menu.on">ON</string>
+	<string name="menu.none">NONE</string>
+	<string name="menu.all">ALL</string>
+	<string name="menu.low">LOW</string>
+	<string name="menu.medium">MEDIUM</string>
+	<string name="menu.high">HIGH</string>
+	<string name="menu.defaults">RESET</string>
+	<string name="menu.defaults.help">Reset all settings to their defaults.</string>
+	<string name="menu.change">CHANGE</string>
+	<string name="menu.defaults_dialog">Reset all settings to their defaults?</string>
+
+	<!-- options -> game -->
+	<string name="menu.game.defaults_dialog">Reset all game settings to their defaults?</string>
+	<string name="g_language">LANGUAGE</string>
+	<string name="g_language.help">Display language.</string>
+	<string name="g_gore">GORE</string>
+	<string name="g_gore.help">Display blood and gore.</string>
+	<string name="g_autoswitch">AUTOSWITCH</string>
+	<string name="g_autoswitch.help">Automatically switch to new weapons.</string>
+	<string name="ui_cursor_alpha">CURSOR ALPHA</string>
+	<string name="ui_cursor_alpha.help">Transparency of the cursor.</string>
+	<string name="ui_netricsa_world">NETRICSA WORLD NOTIFY</string>
+	<string name="ui_netricsa_world.help">Notify about Netricsa World messages.</string>
+	<string name="ui_netricsa_notes">NETRICSA NOTES NOTIFY</string>
+	<string name="ui_netricsa_notes.help">Notify about Netricsa Note messages.</string>
+	<string name="ui_netricsa_items">NETRICSA ITEMS NOTIFY</string>
+	<string name="ui_netricsa_items.help">Notify about Netricsa Item messages.</string>
+	<string name="ui_netricsa_enemies">NETRICSA ENEMIES NOTIFY</string>
+	<string name="ui_netricsa_enemies.help">Notify about Netricsa Enemy messages.</string>
+	<string name="g_txt">PICKUP MESSAGES</string>
+	<string name="g_txt.help">Display item pickup messages.</string>
+	<string name="menu.crumb.options.game">OPTIONS > GAME</string>
+	<string name="menu.game.texts">TEXTS</string>
+	<string name="menu.game.texts.help">Toggle individual floating texts.</string>
+	<string name="g_wheel_showammo">SHOW WEAPON WHEEL AMMO</string>
+	<string name="g_wheel_showammo.help">Show ammo count on weapon wheel.</string>
+
+	<!-- options > game > texts -->
+	<string name="menu.game.texts.defaults_dialog">Reset all floating texts settings to their defaults?</string>
+	<string name="g_txt_plr_hurt">PLAYER HURT</string>
+	<string name="g_txt_plr_hurt.help">Show player damage texts.</string>
+	<string name="g_txt_enemy_hurt">ENEMY HURT</string>
+	<string name="g_txt_enemy_hurt.help">Show enemy damage texts.</string>
+	<string name="g_txt_plr_heal">PLAYER HEAL</string>
+	<string name="g_txt_plr_heal.help">Show player healing texts.</string>
+	<string name="g_txt_enemy_heal">ENEMY HEAL</string>
+	<string name="g_txt_enemy_heal.help">Show enemy healing texts.</string>
+	<string name="g_txt_enemy_immortal">ENEMY IMMORTAL</string>
+	<string name="g_txt_enemy_immortal.help">Show enemy immortal damage texts.</string>
+	<string name="g_txt_plr_armor">PLAYER ARMOR</string>
+	<string name="g_txt_plr_armor.help">Show player armor pickup texts.</string>
+	<string name="g_txt_plr_ammo">PLAYER AMMO</string>
+	<string name="g_txt_plr_ammo.help">Show player ammo pickup texts.</string>
+	<string name="g_txt_pickup">PLAYER PICKUP</string>
+	<string name="g_txt_pickup.help">Show player pickup texts.</string>
+
+	<!-- options > graphics -->
+	<string name="v_resolution">RESOLUTION</string>
+	<string name="v_resolution.help">Screen resolution.</string>
+	<string name="menu.graphics.defaults_dialog">Reset all graphics settings to their defaults?</string>
+	<string name="bgfx_renderer">RENDERER API</string>
+	<string name="bgfx_renderer.help">Which renderer to use.</string>
+	<string name="bgfx_renderer.gl">OPENGL</string>
+	<string name="bgfx_renderer.dx9">DIRECTX 9</string>
+	<string name="bgfx_renderer.dx11">DIRECTX 11</string>
+	<string name="v_fullscreen">FULLSCREEN</string>
+	<string name="v_fullscreen.help">Use full screen mode.</string>
+	<string name="v_vsync">VSYNC</string>
+	<string name="v_vsync.help">Enable vertical screen synchronization.</string>
+	<string name="v_vsync.dynamic">ADAPTIVE</string>
+	<string name="v_fps_limit">FRAMERATE LIMIT</string>
+	<string name="v_fps_limit.help">Limit the framerate to a specific amount.</string>
+	<string name="r_smooth_scrolling">SMOOTH SCROLLING</string>
+	<string name="r_smooth_scrolling.help">Scroll the camera smoothly over the screen.</string>
+	<string name="r_hdr">HDR</string>
+	<string name="r_hdr.help">Use High Dynamic Range.</string>
+	<string name="r_light_decal_proj">LIGHT DECAL PROJECTION</string>
+	<string name="r_light_decal_proj.help">Project light and decals on to walls</string>
+	<string name="r_shadows">SHADOWS</string>
+	<string name="r_shadows.help">Use shadow casting.</string>
+	<string name="r_shadows.sun">SUN</string>
+	<string name="r_draw_decals">DECALS</string>
+	<string name="r_draw_decals.help">Show decals.</string>
+	<string name="r_draw_lights">LIGHTS</string>
+	<string name="r_draw_lights.help">Show lights.</string>
+	<string name="r_draw_xray">XRAY</string>
+	<string name="r_draw_xray.help">Show players and enemies behind walls.</string>
+	<string name="r_draw_outlines">OUTLINES</string>
+	<string name="r_draw_outlines.help">Show outlines on items.</string>
+	<string name="g_vfx_quality">EFFECT QUALITY</string>
+	<string name="g_vfx_quality.help">The quality of the effects.</string>
+	<string name="e_debris_limit">DEBRIS QUANTITY</string>
+	<string name="e_debris_limit.help">The maximum amount of debris that can be on screen.</string>
+	<string name="g_adv_foliage">COMPLEX FOLIAGE</string>
+	<string name="g_adv_foliage.help">Use complex foliage animations.</string>
+	<string name="rg_brightness">BRIGHTNESS</string>
+	<string name="rg_gamma">GAMMA</string>
+	<string name="rg_contrast">CONTRAST</string>
+	<string name="rg_crt_curve">CRT CURVE</string>
+	<string name="v_forced_aspectratio">LETTERBOX</string>
+	<string name="v_forced_aspect_ratio.help">Force aspect ratio.</string>
+
+	<!-- options > sound -->
+	<string name="menu.sound.defaults_dialog">Reset all sound settings to their defaults?</string>
+	<string name="snd_volume">MASTER</string>
+	<string name="snd_volume_music">MUSIC</string>
+	<string name="snd_volume_sfx">EFFECTS</string>
+	<string name="snd_volume_voice">VOICE</string>
+	<string name="snd_volume_env">ENVIRONMENT</string>
+	<string name="snd_volume_ui">INTERFACE</string>
+
+	<!-- options > controls -->
+	<string name="menu.crumb.options.controls">OPTIONS > CONTROLS</string>
+	<string name="menu.controls.defaults_dialog">Reset all controls for this player to their defaults?</string>
+	<string name="menu.controls.player">PLAYER</string>
+	<string name="menu.controls.player.help">The player to change the controls for.</string>
+
+	<string name="menu.controls.layout">CONTROLS LAYOUT</string>
+	<string name="menu.controls.layout.help">The base control scheme to use for this player.</string>
+	<string name="menu.controls.layout.kbm">KEYBOARD AND MOUSE</string>
+	<string name="menu.controls.layout.gp1">GAMEPAD 1</string>
+	<string name="menu.controls.layout.gp2">GAMEPAD 2</string>
+	<string name="menu.controls.layout.gp3">GAMEPAD 3</string>
+	<string name="menu.controls.layout.gp4">GAMEPAD 4</string>
+
+	<string name="menu.controls.move">MOVEMENT</string>
+	<string name="menu.controls.move.help">What to use for moving the player.</string>
+	<string name="menu.controls.move.keyboard">KEYBOARD</string>
+	<string name="menu.controls.move.gp_left">GAMEPAD: LEFT STICK</string>
+	<string name="menu.controls.move.gp_right">GAMEPAD: RIGHT STICK</string>
+
+	<string name="menu.controls.aim">AIMING</string>
+	<string name="menu.controls.aim.help">What to use for aiming your weapon.</string>
+	<string name="menu.controls.aim.mouse">MOUSE</string>
+	<string name="menu.controls.aim.gp_right">GAMEPAD: RIGHT STICK</string>
+	<string name="menu.controls.aim.gp_left">GAMEPAD: LEFT STICK</string>
+
+	<string name="menu.controls.custom">CUSTOM</string>
+	<string name="menu.controls.up">UP</string>
+	<string name="menu.controls.down">DOWN</string>
+	<string name="menu.controls.left">LEFT</string>
+	<string name="menu.controls.right">RIGHT</string>
+	<string name="menu.controls.back">BACK</string>
+	<string name="menu.controls.attack">ATTACK</string>
+	<string name="menu.controls.dash">DODGE</string>
+	<string name="menu.controls.reload">RELOAD</string>
+	<string name="menu.controls.use">USE</string>
+	<string name="menu.controls.netricsa">NETRICSA</string>
+	<string name="menu.controls.nextweapon">NEXT WEAPON</string>
+	<string name="menu.controls.prevweapon">PREVIOUS WEAPON</string>
+	<string name="menu.controls.changeweapon">WEAPON WHEEL</string>
+	<string name="menu.controls.weapon1">WEAPON 1</string>
+	<string name="menu.controls.weapon2">WEAPON 2</string>
+	<string name="menu.controls.weapon3">WEAPON 3</string>
+	<string name="menu.controls.weapon4">WEAPON 4</string>
+	<string name="menu.controls.weapon5">WEAPON 5</string>
+	<string name="menu.controls.weapon6">WEAPON 6</string>
+	<string name="menu.controls.weapon7">WEAPON 7</string>
+	<string name="menu.controls.weapon8">WEAPON 8</string>
+	<string name="menu.controls.weapon9">WEAPON 9</string>
+	<string name="menu.controls.menu.up">MENU UP</string>
+	<string name="menu.controls.menu.down">MENU DOWN</string>
+	<string name="menu.controls.menu.left">MENU LEFT</string>
+	<string name="menu.controls.menu.right">MENU RIGHT</string>
+	<string name="menu.controls.menu.forward">MENU FORWARD</string>
+	<string name="menu.controls.menu.back">MENU BACK</string>
+	<string name="menu.controls.menu.toggle">MENU TOGGLE</string>
+	<string name="menu.controls.menu.chatall">CHAT</string>
+	<string name="menu.controls.menu.chatteam">TEAM CHAT</string>
+
+	<string name="menu.input.leftmouse">LMB</string>
+	<string name="menu.input.middlemouse">MMB</string>
+	<string name="menu.input.rightmouse">RMB</string>
+	<string name="menu.input.mousewheelup">SCROLL UP</string>
+	<string name="menu.input.mousewheeldown">SCROLL DOWN</string>
+	<string name="menu.input.mousenum">MOUSE %num%</string>
+
+	<string name="menu.input.invert">INVERTED</string>
+
+	<!-- platform friends -->
+	<string name="platform.friendstatus.offline">Offline</string>
+	<string name="platform.friendstatus.busy">Busy</string>
+	<string name="platform.friendstatus.away">Away</string>
+	<string name="platform.friendstatus.online">Online</string>
+	<string name="platform.friendstatus.ingame">Playing Bogus Detour</string>
+	<string name="platform.friendstatus.inlobby">Playing Bogus Detour Online</string>
+
+	<string name="platform.friendcontext.profile">View profile</string>
+	<string name="platform.friendcontext.invite">Invite to game</string>
+	<string name="platform.friendcontext.close">Close</string>
+
+	<!-- lobby -->
+	<string name="menu.lobby.wait.hosting">Creating lobby...</string>
+	<string name="menu.lobby.wait.joining">Joining lobby...</string>
+
+	<string name="menu.lobby.title.hosting">Lobby: Hosting</string>
+	<string name="menu.lobby.title.joining">Lobby</string>
+
+	<string name="menu.lobby.chat.revive">%reviver% revived %revivee%. Their souls are now linked.</string>
+
+	<string name="menu.lobby.ready">READY</string>
+	<string name="menu.lobby.unready">UNREADY</string>
+	<string name="menu.lobby.start">LAUNCH</string>
+	<string name="menu.lobby.start.wait">FORCE\nSTART</string>
+	<string name="menu.lobby.switchcount">%a%/%b% Active</string>
+	<string name="menu.lobby.readycount">%a%/%b% Ready</string>
+	<string name="menu.lobby.private">PRIVATE</string>
+	<string name="menu.lobby.hostoptions.changelevel">CHANGE LEVEL</string>
+	<string name="menu.lobby.abort">ABORT</string>
+	<string name="menu.lobby.abort.prompt">Are you sure you want to abort the lobby?</string>
+	<string name="menu.lobby.leave">LEAVE</string>
+	<string name="menu.lobby.leave.prompt">Are you sure you want to leave the lobby?</string>
+
+	<string name="menu.lobby.chat.isready">%name% is now ready.</string>
+	<string name="menu.lobby.chat.isunready">%name% is no longer ready.</string>
+	<string name="menu.lobby.chat.isjoined">%name% has joined.</string>
+	<string name="menu.lobby.chat.isleft">%name% has left.</string>
+	<string name="menu.lobby.chat.iskicked">%name% has been kicked.</string>
+	<string name="menu.lobby.hostoptions.currentmods">%count% modifications</string>
+	<string name="menu.lobby.hostoptions.setdifficulty">DIFFICULTY</string>
+	<string name="menu.lobby.hostoptions.setmods">SWITCHES</string>
+
+	<string name="menu.lobby.missing">MISSING SCENARIO</string>
+	<string name="menu.lobby.chat.missing">%player% does not have "%scenario%".</string>
+	<string name="menu.lobby.chat.missing.level">%player% does not have %level% in %scenario%.</string>
+	<string name="menu.lobby.missing.level">MISSING LEVEL</string>
+	<string name="menu.lobby.chat.missing.you">You don't have "%scenario%".</string>
+
+
+	<!-- server list -->
+	<string name="menu.serverlist.refresh">REFRESH</string>
+	<string name="menu.serverlist.inlobby">In Lobby</string>
+
+	<!-- hud overlay -->
+	<string name="menu.notifier.saved">CURRENT PROGRESS SAVED</string>
+	<string name="menu.notifier.lostconnection">Connection lost.</string>
+
+	<string name="misc.autosave">Autosave</string>
+	<string name="misc.timeletters.hours">h</string>
+	<string name="misc.timeletters.minutes">m</string>
+	<string name="misc.timeletters.seconds">s</string>
+	<string name="menu.search">SEARCH:</string>
+
+
+	<string name="menu.crumb.options.graphics">OPTIONS > GRAPHICS</string>
+	<string name="menu.crumb.options.sound">OPTIONS > SOUND</string>
+	<string name="menu.unsaved_dialog">There are unsaved changes. Do you want to save them?</string>
+
+	<string name="menu.lobby.chat.minplayers">You need at least %min% players to start.</string>
+	<string name="menu.lobby.chat.maxplayers">You can have at most %max% players in this scenario.</string>
+
+
+	<string name="menu.loadgame.rename">RENAME SAVE?</string>
+
+	<string name="menu.controls.layout.sc1">STEAM CONTROLLER 1</string>
+	<string name="menu.controls.layout.sc2">STEAM CONTROLLER 2</string>
+	<string name="menu.controls.layout.sc3">STEAM CONTROLLER 3</string>
+	<string name="menu.controls.layout.sc4">STEAM CONTROLLER 4</string>
+
+	<string name="menu.controls.scinputs.prompt">Steam Controller bindings have to be modified from the Steam client.</string>
+
+
+	<string name="menu.automatic">AUTO</string>
+	<string name="g_laser_sight">AIM GUIDE</string>
+	<string name="g_laser_sight.help">Show a thin line to assist in aiming. Automatic means only when using a gamepad.</string>
+
+	<string name="menu.controls.menuup">MENU UP</string>
+	<string name="menu.controls.menudown">MENU DOWN</string>
+	<string name="menu.controls.menuleft">MENU LEFT</string>
+	<string name="menu.controls.menuright">MENU RIGHT</string>
+	<string name="menu.controls.menuforward">MENU FORWARD</string>
+	<string name="menu.controls.menuback">MENU BACK</string>
+	<string name="menu.controls.menutoggle">TOGGLE MENU</string>
+
+	<string name="v_forced_aspect_ratio">ASPECT RATIO</string>
+
+	<string name="rg_brightness.help">Increase or decrease brightness.</string>
+	<string name="rg_gamma.help">Increase or decrease gamma.</string>
+	<string name="rg_contrast.help">Increase or decrease contrast.</string>
+	<string name="rg_crt_curve.help">Emulate a CRT monitors curvature.</string>
+
+	<string name="ui_txt">FLOATING TEXTS</string>
+	<string name="ui_txt.help">Display floating texts like damage numbers or pickup info.</string>
+
+	<string name="menu.crumb.options.serverlist">MULTIPLAYER > SERVER LIST</string>
+	<string name="menu.serverlist.server">SERVER</string>
+	<string name="menu.serverlist.scenario">SCENARIO</string>
+	<string name="menu.serverlist.players">PLAYERS</string>
+
+	<string name="menu.close">CLOSE</string>
+
+
+
+	<string name="menu.controls.move_y.axis1">MOVE UP</string>
+	<string name="menu.controls.move_y.axis2">MOVE DOWN</string>
+	<string name="menu.controls.move_x.axis1">MOVE LEFT</string>
+	<string name="menu.controls.move_x.axis2">MOVE RIGHT</string>
+
+	<string name="menu.controls.menuchatall">CHAT</string>
+
+	<string name="menu.crumb.multiplayer.hostoptions">MULTIPLAYER > HOST > SERVER OPTIONS</string>
+
+	<string name="menu.lobby.serveroptions">SERVER OPTIONS</string>
+	<string name="menu.lobby.gem.activated">Gem Activated</string>
+	<string name="menu.lobby.gem.activated.perfect">Perfect Gem Activated</string>
+	<string name="menu.lobby.gem.deactivated">Gem Deactivated</string>
+
+	<string name="g_screenshake">SCREENSHAKE</string>
+	<string name="g_screenshake.help">Controls the amount of screenshake in the game.</string>
+	<string name="v_fullscreen.windowed">BORDERLESS</string>
+	<string name="r_draw_glow">GLOW</string>
+	<string name="r_draw_glow.help">Display glow</string>
+	<string name="menu.cancel">CANCEL</string>
+
+	<string name="menu.controls.layout.ds41">JOYSTICK 1</string>
+	<string name="menu.controls.layout.ds42">JOYSTICK 2</string>
+	<string name="menu.controls.layout.ds43">JOYSTICK 3</string>
+	<string name="menu.controls.layout.ds44">JOYSTICK 4</string>
+
+	<string name="menu.notifier.joinfailed.join">Failed to join lobby.</string>
+	<string name="menu.notifier.joinfailed.host">Failed to create lobby.</string>
+	<string name="menu.loading">LOADING</string>
+
+	<string name="menu.mplayer.splitscreen">SPLITSCREEN</string>
+	<string name="menu.splitscreen.newgame">NEW GAME</string>
+	<string name="menu.splitscreen.noplayers">You can't start without any players!</string>
+	<string name="menu.splitscreen.prompt">PRESS BACK TO LEAVE</string>
+	<string name="menu.splitscreen.join.kbm">PRESS DODGE FOR KEYBOARD</string>
+	<string name="menu.splitscreen.join.gp">PRESS ANY BUTTON FOR CONTROLLER</string>
+	<string name="menu.splitscreen.gameoptions">GAME OPTIONS</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- TOWN -->
+
+
+	<!-- misc -->
+	<string name="fountain.question">Do you wish to toss some coins into the fountain?</string>
+	<string name="shop.menu.soldout">I'm all out of stuff right now.</string>
+
+	<!-- shop names -->
+	<string name="shop.tier.num">Tier %num%</string>
+	<string name="shop.apothecary">ELIANDA, THE APOTHECARY</string>
+	<string name="shop.blacksmith">SMITH BARRO</string>
+	<string name="shop.chapel">THE PREACHER</string>
+	<string name="shop.dungeonstore">SHADY OUTCAST MERCHANT</string>
+	<string name="shop.fountain">FOUNTAIN OF FORTUNE</string>
+	<string name="shop.generalstore">DARREN, THE SUPPLIER</string>
+	<string name="shop.guildhall">AAAAAAAAAAAAAAAA</string>
+	<string name="shop.magicshop">MAGIC SHOP</string>
+	<string name="shop.skills">TRAINER CALHOUN</string>
+	<string name="shop.statues">CCCCCCCCCCCCCCCCCC</string>
+	<string name="shop.townhall">PREFECT GREY</string>
+	<string name="shop.trainer">BBBBBBBBBBBBBBBBBB</string>
+	<string name="shop.treasury">DDDDDDDDDDDDDDDD</string>
+	<string name="shop.oretrader">OLIVER, THE ORE TRADER</string>
+
+	<string name="town.building.townhall">Town hall</string>
+	<string name="town.building.guildhall">Guild hall</string>
+	<string name="town.building.generalstore">General store</string>
+	<string name="town.building.blacksmith">Blacksmith</string>
+	<string name="town.building.apothecary">Apothecary</string>
+	<string name="town.building.fountain">Fountain</string>
+	<string name="town.building.magicshop">Magic shop</string>
+	<string name="town.building.chapel">Chapel</string>
+	<string name="town.building.tavern">Tavern</string>
+	<string name="town.building.treasury">Treasury</string>
+	<string name="town.building.oretrader">Ore Trader</string>
+
+	<!-- town hall -->
+	<string name="shop.townhall.townhall-1.name">Town Hall I</string>
+	<string name="shop.townhall.townhall-1.desc">Unlocks Tier 1 Buildings.</string>
+
+	<string name="shop.townhall.townhall-2.name">Town Hall II</string>
+	<string name="shop.townhall.townhall-2.desc">Unlocks Tier 2 Buildings.</string>
+
+	<string name="shop.townhall.townhall-3.name">Town Hall III</string>
+	<string name="shop.townhall.townhall-3.desc">Unlocks Tier 3 Buildings.</string>
+
+	<string name="shop.townhall.townhall-4.name">Town Hall IV</string>
+	<string name="shop.townhall.townhall-4.desc">Unlocks Tier 4 Buildings.</string>
+
+	<string name="shop.townhall.townhall-5.name">Town Hall V</string>
+	<string name="shop.townhall.townhall-5.desc">Unlocks Tier 5 Buildings.</string>
+
+	<string name="shop.townhall.apothecary-1.name">Apothecary I</string>
+	<string name="shop.townhall.apothecary-1.desc">Buy upgrades to your potion.</string>
+
+	<string name="shop.townhall.apothecary-2.name">Apothecary II</string>
+	<string name="shop.townhall.apothecary-2.desc">Buy upgrades to your potion and pickup effectiveness.</string>
+
+	<string name="shop.townhall.apothecary-3.name">Apothecary III</string>
+	<string name="shop.townhall.apothecary-3.desc">Buy upgrades to your potion and pickup effectiveness.</string>
+
+	<string name="shop.townhall.blacksmith-1.name">Blacksmith I</string>
+	<string name="shop.townhall.blacksmith-1.desc">Buy upgrades to your Weapons and Armor.</string>
+
+	<string name="shop.townhall.blacksmith-2.name">Blacksmith II</string>
+	<string name="shop.townhall.blacksmith-2.desc">Buy upgrades to your Weapons and Armor.</string>
+
+	<string name="shop.townhall.blacksmith-3.name">Blacksmith III</string>
+	<string name="shop.townhall.blacksmith-3.desc">Buy upgrades to your Weapons and Armor.</string>
+
+	<string name="shop.townhall.blacksmith-4.name">Blacksmith IV</string>
+	<string name="shop.townhall.blacksmith-4.desc">Buy upgrades to your Weapons and Armor.</string>
+
+	<string name="shop.townhall.blacksmith-5.name">Blacksmith V</string>
+	<string name="shop.townhall.blacksmith-5.desc">Buy upgrades to your Weapons and Armor.</string>
+
+	<string name="shop.townhall.chapel-1.name">Chapel I</string>
+	<string name="shop.townhall.chapel-1.desc">Unlocks Priest. Donate money to receive a permanent blessing.</string>
+
+	<string name="shop.townhall.chapel-2.name">Chapel II</string>
+	<string name="shop.townhall.chapel-2.desc">Donate money to receive a permanent blessing.</string>
+
+	<string name="shop.townhall.chapel-3.name">Chapel III</string>
+	<string name="shop.townhall.chapel-3.desc">Donate money to receive a permanent blessing.</string>
+
+	<string name="shop.townhall.fountain-1.name">Fountain I</string>
+	<string name="shop.townhall.fountain-1.desc">Throw gold in the fountain to have something happen (good or bad, amazing or terrible).</string>
+
+	<string name="shop.townhall.fountain-2.name">Fountain II</string>
+	<string name="shop.townhall.fountain-2.desc">Higher chance of something good happening.</string>
+
+	<string name="shop.townhall.generalstore-1.name">General Store I</string>
+	<string name="shop.townhall.generalstore-1.desc">Buy Keys and Items (3 common).</string>
+
+	<string name="shop.townhall.generalstore-2.name">General Store II</string>
+	<string name="shop.townhall.generalstore-2.desc">Buy Keys and Items (2 common, 1 uncommon). Prices are 5% cheaper.</string>
+
+	<string name="shop.townhall.generalstore-3.name">General Store III</string>
+	<string name="shop.townhall.generalstore-3.desc">Buy Keys and Items (3 common, 1 uncommon). Prices are 10% cheaper.</string>
+
+	<string name="shop.townhall.generalstore-4.name">General Store IV</string>
+	<string name="shop.townhall.generalstore-4.desc">Buy Keys and Items (2 common, 1 uncommon, 1 rare). Prices are 15% cheaper.</string>
+
+	<string name="shop.townhall.generalstore-5.name">General Store V</string>
+	<string name="shop.townhall.generalstore-5.desc">Buy Keys and Items (2 common, 2 uncommon, 1 rare). Prices are 20% cheaper.</string>
+
+	<string name="shop.townhall.guildhall-1.name">Guild Hall I</string>
+	<string name="shop.townhall.guildhall-1.desc">Upgrade your skills to Tier 1.</string>
+
+	<string name="shop.townhall.guildhall-2.name">Guild Hall II</string>
+	<string name="shop.townhall.guildhall-2.desc">Upgrade your skills to Tier 2.</string>
+
+	<string name="shop.townhall.guildhall-3.name">Guild Hall III</string>
+	<string name="shop.townhall.guildhall-3.desc">Upgrade your skills to Tier 3.</string>
+
+	<string name="shop.townhall.guildhall-4.name">Guild Hall IV</string>
+	<string name="shop.townhall.guildhall-4.desc">Upgrade your skills to Tier 4.</string>
+
+	<string name="shop.townhall.guildhall-5.name">Guild Hall V</string>
+	<string name="shop.townhall.guildhall-5.desc">Upgrade your skills to Tier 5.</string>
+
+	<string name="shop.townhall.magicshop-1.name">Magic Shop I</string>
+	<string name="shop.townhall.magicshop-1.desc">Unlocks Wizard. Buy upgrades to your Skills and Resistance.</string>
+
+	<string name="shop.townhall.magicshop-2.name">Magic Shop II</string>
+	<string name="shop.townhall.magicshop-2.desc">Buy upgrades to your Skills and Resistance.</string>
+
+	<string name="shop.townhall.magicshop-3.name">Magic Shop III</string>
+	<string name="shop.townhall.magicshop-3.desc">Buy upgrades to your Skills and Resistance.</string>
+
+	<string name="shop.townhall.oretrader-1.name">Ore Trader I</string>
+	<string name="shop.townhall.oretrader-1.desc">Buy and sell ore.</string>
+
+	<string name="shop.townhall.oretrader-2.name">Ore Trader II</string>
+	<string name="shop.townhall.oretrader-2.desc">Buy and sell ore. Better trade rates.</string>
+
+	<string name="shop.townhall.oretrader-3.name">Ore Trader III</string>
+	<string name="shop.townhall.oretrader-3.desc">Buy and sell ore. Better trade rates.</string>
+
+	<string name="shop.townhall.sculptor-1.name">Sculptor I</string>
+	<string name="shop.townhall.sculptor-1.desc">Build Level 1 statues for ore. 2 slots.</string>
+
+	<string name="shop.townhall.sculptor-2.name">Sculptor II</string>
+	<string name="shop.townhall.sculptor-2.desc">Build Level 2 statues for ore. 3 slots.</string>
+
+	<string name="shop.townhall.sculptor-3.name">Sculptor III</string>
+	<string name="shop.townhall.sculptor-3.desc">Build Level 3 status for ore. 4 slots.</string>
+
+	<string name="shop.townhall.tavern-1.name">Tavern I</string>
+	<string name="shop.townhall.tavern-1.desc">Unlocks Thief. Gambling.</string>
+
+	<string name="shop.townhall.tavern-2.name">Tavern II</string>
+	<string name="shop.townhall.tavern-2.desc">Gambling.</string>
+
+	<string name="shop.townhall.tavern-3.name">Tavern III</string>
+	<string name="shop.townhall.tavern-3.desc">Gambling.</string>
+
+	<string name="shop.townhall.treasury-1.name">Treasury I</string>
+	<string name="shop.townhall.treasury-1.desc">50% tax rate at 10000 total gold.</string>
+
+	<string name="shop.townhall.treasury-2.name">Treasury II</string>
+	<string name="shop.townhall.treasury-2.desc">50% tax rate at 15000 total gold.</string>
+
+	<string name="shop.townhall.treasury-3.name">Treasury III</string>
+	<string name="shop.townhall.treasury-3.desc">50% tax rate at 20000 total gold.</string>
+
+	<string name="shop.townhall.treasury-4.name">Treasury IV</string>
+	<string name="shop.townhall.treasury-4.desc">50% tax rate at 25000 total gold.</string>
+
+
+	<!-- apothecary -->
+	<string name="shop.apothecary.charges.name">Potion Charges %lvl%</string>
+	<string name="shop.apothecary.charges.desc">Your potion will have %num% charges.</string>
+
+	<string name="shop.apothecary.healing.name">Healing Draught %lvl%</string>
+	<string name="shop.apothecary.healing.desc">Increases the amount of healing gained from your potion from %from% to %to%.</string>
+
+	<string name="shop.apothecary.mana.name">Mana Draught %lvl%</string>
+	<string name="shop.apothecary.mana.desc">Increases the amount of mana gained from your potion from %from% to %to%.</string>
+
+	<string name="shop.apothecary.heal-pickups.name">Invigorating Spices %lvl%</string>
+	<string name="shop.apothecary.heal-pickups.desc">The effectiveness of health pickups is increased by %num%%.</string>
+
+	<string name="shop.apothecary.mana-pickups.name">Mana Extractor %lvl%</string>
+	<string name="shop.apothecary.mana-pickups.desc">The effectiveness of mana pickups is increased by %num%%.</string>
+
+
+	<!-- blacksmith -->
+	<string name="shop.blacksmith.armor-1.name">Armor I</string>
+	<string name="shop.blacksmith.armor-1.desc">+5 to your Armor.</string>
+
+	<string name="shop.blacksmith.armor-2.name">Armor II</string>
+	<string name="shop.blacksmith.armor-2.desc">+10 to your Armor.</string>
+
+	<string name="shop.blacksmith.armor-3.name">Armor III</string>
+	<string name="shop.blacksmith.armor-3.desc">+15 to your Armor.</string>
+
+	<string name="shop.blacksmith.armor-4.name">Armor IV</string>
+	<string name="shop.blacksmith.armor-4.desc">+20 to your Armor.</string>
+
+	<string name="shop.blacksmith.armor-5.name">Armor V</string>
+	<string name="shop.blacksmith.armor-5.desc">+25 to your Armor.</string>
+
+	<string name="shop.blacksmith.armor-6.name">Armor VI</string>
+	<string name="shop.blacksmith.armor-6.desc">+30 to your Armor.</string>
+
+	<string name="shop.blacksmith.armor-7.name">Armor VII</string>
+	<string name="shop.blacksmith.armor-7.desc">+35 to your Armor.</string>
+
+	<string name="shop.blacksmith.armor-8.name">Armor VIII</string>
+	<string name="shop.blacksmith.armor-8.desc">+40 to your Armor.</string>
+
+	<string name="shop.blacksmith.armor-9.name">Armor IX</string>
+	<string name="shop.blacksmith.armor-9.desc">+45 to your Armor.</string>
+
+	<string name="shop.blacksmith.armor-10.name">Armor X</string>
+	<string name="shop.blacksmith.armor-10.desc">+50 to your Armor.</string>
+
+	<string name="shop.blacksmith.weapon-1.name">Weapon I</string>
+	<string name="shop.blacksmith.weapon-1.desc">+5 to your Attack Power.</string>
+
+	<string name="shop.blacksmith.weapon-2.name">Weapon II</string>
+	<string name="shop.blacksmith.weapon-2.desc">+10 to your Attack Power.</string>
+
+	<string name="shop.blacksmith.weapon-3.name">Weapon III</string>
+	<string name="shop.blacksmith.weapon-3.desc">+15 to your Attack Power.</string>
+
+	<string name="shop.blacksmith.weapon-4.name">Weapon IV</string>
+	<string name="shop.blacksmith.weapon-4.desc">+20 to your Attack Power.</string>
+
+	<string name="shop.blacksmith.weapon-5.name">Weapon V</string>
+	<string name="shop.blacksmith.weapon-5.desc">+25 to your Attack Power.</string>
+
+	<string name="shop.blacksmith.weapon-6.name">Weapon VI</string>
+	<string name="shop.blacksmith.weapon-6.desc">+30 to your Attack Power.</string>
+
+	<string name="shop.blacksmith.weapon-7.name">Weapon VII</string>
+	<string name="shop.blacksmith.weapon-7.desc">+40 to your Attack Power.</string>
+
+	<string name="shop.blacksmith.weapon-8.name">Weapon VIII</string>
+	<string name="shop.blacksmith.weapon-8.desc">+50 to your Attack Power.</string>
+
+	<string name="shop.blacksmith.weapon-9.name">Weapon IX</string>
+	<string name="shop.blacksmith.weapon-9.desc">+65 to your Attack Power.</string>
+
+	<string name="shop.blacksmith.weapon-10.name">Weapon X</string>
+	<string name="shop.blacksmith.weapon-10.desc">+80 to your Attack Power.</string>
+
+	<string name="shop.blacksmith.criticalchance-1.name">Critical Chance I</string>
+	<string name="shop.blacksmith.criticalchance-1.desc">2.5% chance to crit on your Primary attack.</string>
+
+	<string name="shop.blacksmith.criticalchance-2.name">Critical Chance II</string>
+	<string name="shop.blacksmith.criticalchance-2.desc">5% chance to crit on your Primary attack.</string>
+
+	<string name="shop.blacksmith.criticalchance-3.name">Critical Chance III</string>
+	<string name="shop.blacksmith.criticalchance-3.desc">7.5% chance to crit on your Primary attack.</string>
+
+	<string name="shop.blacksmith.criticalchance-4.name">Critical Chance IV</string>
+	<string name="shop.blacksmith.criticalchance-4.desc">10% chance to crit on your Primary attack.</string>
+
+	<string name="shop.blacksmith.criticalchance-5.name">Critical Chance V</string>
+	<string name="shop.blacksmith.criticalchance-5.desc">12.5% chance to crit on your Primary attack.</string>
+
+	<string name="shop.blacksmith.criticaldamage-1.name">Critical Damage I</string>
+	<string name="shop.blacksmith.criticaldamage-1.desc">Increases Critical Damage on your Primary attack to 2.5x.</string>
+
+	<string name="shop.blacksmith.criticaldamage-2.name">Critical Damage II</string>
+	<string name="shop.blacksmith.criticaldamage-2.desc">Increases Critical Damage on your Primary attack to 3x.</string>
+
+	<string name="shop.blacksmith.criticaldamage-3.name">Critical Damage III</string>
+	<string name="shop.blacksmith.criticaldamage-3.desc">Increases Critical Damage on your Primary attack to 3.5x.</string>
+
+	<string name="shop.blacksmith.movespeed-1.name">Boots I</string>
+	<string name="shop.blacksmith.movespeed-1.desc">+0.1 to your Move Speed</string>
+
+	<string name="shop.blacksmith.movespeed-2.name">Boots II</string>
+	<string name="shop.blacksmith.movespeed-2.desc">+0.2 to your Move Speed</string>
+
+	<string name="shop.blacksmith.movespeed-3.name">Boots III</string>
+	<string name="shop.blacksmith.movespeed-3.desc">+0.3 to your Move Speed</string>
+
+	<string name="shop.blacksmith.movespeed-4.name">Boots IV</string>
+	<string name="shop.blacksmith.movespeed-4.desc">+0.4 to your Move Speed</string>
+
+	<string name="shop.blacksmith.movespeed-5.name">Boots V</string>
+	<string name="shop.blacksmith.movespeed-5.desc">+0.5 to your Move Speed</string>
+
+
+
+	<!-- general store -->
+	<string name="shop.generalstore.keybronze.name">Bronze Key</string>
+	<string name="shop.generalstore.keybronze.desc">Used to open bronze chests.</string>
+
+	<string name="shop.generalstore.keysilver.name">Silver Key</string>
+	<string name="shop.generalstore.keysilver.desc">Used to open silver chests.</string>
+
+	<string name="shop.generalstore.keygold.name">Gold Key</string>
+	<string name="shop.generalstore.keygold.desc">Used to open gold chests.</string>
+
+
+	<!-- chapel -->
+	<string name="shop.chapel.convert">CONVERT - %cost%</string>
+	<string name="shop.chapel.convert.prompt">Do you want to convert for %cost% gold?</string>
+	<string name="shop.chapel.convertdisabled">CONVERT</string>
+
+	<string name="shop.chapel.path.attack.name">Path of the Warrior</string>
+	<string name="shop.chapel.path.attack.desc">Increases damage of your Primary attack by %attack%%.</string>
+
+	<string name="shop.chapel.path.defense.name">Path of the Defender</string>
+	<string name="shop.chapel.path.defense.desc">Decreases damage taken by %taken%%.</string>
+
+	<string name="shop.chapel.path.spell.name">Path of the Magician</string>
+	<string name="shop.chapel.path.spell.desc">Increases damage of your Skills by %spell%%.</string>
+
+	<string name="shop.chapel.blessing.armor-pierce.name">Blessing of Might</string>
+	<string name="shop.chapel.blessing.armor-pierce.desc">Physical damage ignore %pierce%% of the enemies Armor.</string>
+
+	<string name="shop.chapel.blessing.health-regen.name">Blessing of Life</string>
+	<string name="shop.chapel.blessing.health-regen.desc">Increases your Health Regen by %regen%%.</string>
+
+	<string name="shop.chapel.blessing.mana-regen.name">Blessing of Mind</string>
+	<string name="shop.chapel.blessing.mana-regen.desc">Increases your Mana Regen by %regen%%.</string>
+
+	<string name="shop.chapel.blessing.resistance-pierce.name">Blessing of Intellect</string>
+	<string name="shop.chapel.blessing.resistance-pierce.desc">Magical damage ignore %pierce%% of the enemies Resistance.</string>
+
+	<string name="shop.chapel.symbol.attack-crit.name">Symbol of Force</string>
+	<string name="shop.chapel.symbol.attack-crit.desc">Increases Critical Damage on your Primary attack by %damage%%.</string>
+
+	<string name="shop.chapel.symbol.lifesteal.name">Symbol of Essence</string>
+	<string name="shop.chapel.symbol.lifesteal.desc">Gain %lsteal%% lifesteal on Primary Attack.</string>
+
+	<string name="shop.chapel.symbol.return-damage.name">Symbol of Retribution</string>
+	<string name="shop.chapel.symbol.return-damage.desc">Returns %return%% damage to the attacker when hit.</string>
+
+	<string name="shop.chapel.symbol.spell-cost.name">Symbol of Wisdom</string>
+	<string name="shop.chapel.symbol.spell-cost.desc">Decreases the mana cost of your Skills by %cost%%.</string>
+
+	<string name="shop.chapel.symbol.spell-crit.name">Symbol of Focus</string>
+	<string name="shop.chapel.symbol.spell-crit.desc">Increases Critical Damage of your Skills by %damage%%.</string>
+
+
+	<!-- magic shop -->
+	<string name="shop.magicshop.resistance-1.name">Resistance I</string>
+	<string name="shop.magicshop.resistance-1.desc">+5 to your Resistance.</string>
+
+	<string name="shop.magicshop.resistance-2.name">Resistance II</string>
+	<string name="shop.magicshop.resistance-2.desc">+10 to your Resistance.</string>
+
+	<string name="shop.magicshop.resistance-3.name">Resistance III</string>
+	<string name="shop.magicshop.resistance-3.desc">+15 to your Resistance.</string>
+
+	<string name="shop.magicshop.resistance-4.name">Resistance IV</string>
+	<string name="shop.magicshop.resistance-4.desc">+20 to your Resistance.</string>
+
+	<string name="shop.magicshop.resistance-5.name">Resistance V</string>
+	<string name="shop.magicshop.resistance-5.desc">+25 to your Resistance.</string>
+
+	<string name="shop.magicshop.resistance-6.name">Resistance VI</string>
+	<string name="shop.magicshop.resistance-6.desc">+30 to your Resistance.</string>
+
+	<string name="shop.magicshop.spellpower-1.name">Skill Damage I</string>
+	<string name="shop.magicshop.spellpower-1.desc">+5 to your Skill Power.</string>
+
+	<string name="shop.magicshop.spellpower-2.name">Skill Damage II</string>
+	<string name="shop.magicshop.spellpower-2.desc">+10 to your Skill Power.</string>
+
+	<string name="shop.magicshop.spellpower-3.name">Skill Damage III</string>
+	<string name="shop.magicshop.spellpower-3.desc">+15 to your Skill Power.</string>
+
+	<string name="shop.magicshop.spellpower-4.name">Skill Damage IV</string>
+	<string name="shop.magicshop.spellpower-4.desc">+20 to your Skill Power.</string>
+
+	<string name="shop.magicshop.spellpower-5.name">Skill Damage V</string>
+	<string name="shop.magicshop.spellpower-5.desc">+25 to your Skill Power.</string>
+
+	<string name="shop.magicshop.spellpower-6.name">Skill Damage VI</string>
+	<string name="shop.magicshop.spellpower-6.desc">+30 to your Skill Power.</string>
+
+	<string name="shop.magicshop.spellcritchance-1.name">Skill Crit Chance I</string>
+	<string name="shop.magicshop.spellcritchance-1.desc">5% chance to deal Critical Damage with Skills.</string>
+
+	<string name="shop.magicshop.spellcritchance-2.name">Skill Crit Chance II</string>
+	<string name="shop.magicshop.spellcritchance-2.desc">10% chance to deal Critical Damage with Skills.</string>
+
+	<string name="shop.magicshop.spellcritchance-3.name">Skill Crit Chance III</string>
+	<string name="shop.magicshop.spellcritchance-3.desc">15% chance to deal Critical Damage with Skills.</string>
+
+	<string name="shop.magicshop.spellcritdamage-1.name">Skill Crit Damage I</string>
+	<string name="shop.magicshop.spellcritdamage-1.desc">Increases Critical Damage of your Skills to 2.5x.</string>
+
+	<string name="shop.magicshop.spellcritdamage-2.name">Skill Crit Damage II</string>
+	<string name="shop.magicshop.spellcritdamage-2.desc">Increases Critical Damage of your Skills to 3x.</string>
+
+	<!-- ore trader -->
+	<string name="shop.oretrader.ore-gold.name">Buy ore</string>
+	<string name="shop.oretrader.ore-gold-1.desc">Buy 1 ore for 1500 gold.</string>
+	<string name="shop.oretrader.ore-gold-2.desc">Buy 1 ore for 1250 gold.</string>
+	<string name="shop.oretrader.ore-gold-3.desc">Buy 1 ore for 1000 gold.</string>
+
+	<string name="shop.oretrader.gold-ore.name">Sell ore</string>
+	<string name="shop.oretrader.gold-ore-1.desc">Sell 1 ore for 200 gold.</string>
+	<string name="shop.oretrader.gold-ore-2.desc">Sell 1 ore for 350 gold.</string>
+	<string name="shop.oretrader.gold-ore-3.desc">Sell 1 ore for 500 gold.</string>
+
+
+
+	<!-- fountain -->
+	<string name="fountain.good">Something good happened.</string>
+	<string name="fountain.bad">Something bad happened.</string>
+	<string name="fountain.something">Something happened.</string>
+	<string name="fountain.great">Something great happened.</string>
+	<string name="fountain.horrible">Something horrible happened.</string>
+
+	<!-- gambling -->
+	<string name="town.cardgame.goldfrom">Your %num%</string>
+	<string name="town.cardgame.goldto">became %num%</string>
+	<string name="town.cardgame.header.win">YOU WIN!</string>
+	<string name="town.cardgame.header.lose">YOU LOSE..</string>
+	<string name="town.cardgame.title">CARDS</string>
+	<string name="town.cardgame.setyourlimits">Set your limits</string>
+	<string name="town.cardgame.flipcards">FLIP CARDS</string>
+	<string name="town.cardgame.outofmoney.1">You're out of money!</string>
+	<string name="town.cardgame.outofmoney.2">You're out of money!</string>
+	<string name="town.cardgame.outofmoney.3">You're out of money!</string>
+	<string name="town.cardgame.outofmoney.4">You're out of money!</string>
+	<string name="town.cardgame.outofmoney.5">You're out of money!</string>
+
+
+
+
+	<!-- SKILLS -->
+
+
+	<string name="skills.fullname">%name% %level%</string>
+
+	<!-- Paladin -->
+	<string name="skills.paladin.sword">Sword</string>
+	<string name="skills.paladin.sword.create">Melee attack dealing Physical damage.</string>
+	<string name="skills.paladin.sword.1">Melee attack that deals 16 Physical damage in a 90 degree arc.</string>
+	<string name="skills.paladin.sword.2">Melee attack that deals 19 Physical damage in a 120 degree arc.</string>
+	<string name="skills.paladin.sword.3">Melee attack that deals 22 Physical damage in a 150 degree arc.</string>
+	<string name="skills.paladin.sword.4">Melee attack that deals 25 Physical damage in a 180 degree arc.</string>
+	<string name="skills.paladin.sword.5">Melee attack that deals 28 Physical damage in a 210 degree arc.</string>
+	<string name="skills.paladin.sword.6">Melee attack that deals 31 Physical damage in a 240 degree arc.</string>
+
+	<string name="skills.paladin.charge">Charge</string>
+	<string name="skills.paladin.charge.create">The Paladin charges forward, dealing damage to all enemies in their path.</string>
+	<string name="skills.paladin.charge.1">Dash forward. Enemies in your path take 25 Physical damage.</string>
+	<string name="skills.paladin.charge.2">Dash forward. Enemies in your path take 35 Physical damage. Increased speed and range of the dash.</string>
+	<string name="skills.paladin.charge.3">Dash forward. Enemies in your path take 45 Physical damage. Increased speed and range of the dash.</string>
+	<string name="skills.paladin.charge.4">Dash forward. Enemies in your path take 55 Physical damage. Increased speed and range of the dash.</string>
+	<string name="skills.paladin.charge.5">Dash forward. Enemies in your path take 65 Physical damage. Increased speed and range of the dash.</string>
+	<string name="skills.paladin.charge.6">Dash forward. Enemies in your path take 75 Physical damage. Increased speed and range of the dash.</string>
+
+	<string name="skills.paladin.shield">Shield</string>
+	<string name="skills.paladin.shield.create">A sturdy shield that blocks most incoming projectiles. The shield also has a chance to block some incoming damage.</string>
+	<string name="skills.paladin.shield.1">Blocks most incoming projectiles within a 90-degree arc. The shield also has a 25% chance to block 5 Physical or Magical damage.</string>
+	<string name="skills.paladin.shield.2">Blocks most incoming projectiles within a 120-degree arc. The shield also has a 25% chance to block 10 Physical or Magical damage.</string>
+	<string name="skills.paladin.shield.3">Blocks most incoming projectiles within a 150-degree arc. The shield also has a 25% chance to block 15 Physical or Magical damage.</string>
+	<string name="skills.paladin.shield.4">Blocks most incoming projectiles within a 180-degree arc. The shield also has a 25% chance to block 20 Physical or Magical damage.</string>
+	<string name="skills.paladin.shield.5">Blocks most incoming projectiles within a 210-degree arc. The shield also has a 25% chance to block 25 Physical or Magical damage.</string>
+
+	<string name="skills.paladin.stunning-blows">Stunning Blows</string>
+	<string name="skills.paladin.stunning-blows.create">Primary attack has a chance of stunning enemies for a few seconds.</string>
+	<string name="skills.paladin.stunning-blows.1">Primary attack has a 10% chance to stun enemies for 2.5 seconds.</string>
+	<string name="skills.paladin.stunning-blows.2">Primary attack has a 15% chance to stun enemies for 2.5 seconds.</string>
+	<string name="skills.paladin.stunning-blows.3">Primary attack has a 20% chance to stun enemies for 2.5 seconds.</string>
+	<string name="skills.paladin.stunning-blows.4">Primary attack has a 25% chance to stun enemies for 2.5 seconds.</string>
+
+	<string name="skills.paladin.lay-on-hands">Lay on Hands</string>
+	<string name="skills.paladin.lay-on-hands.create">All allies are healed in an area around the Paladin.</string>
+	<string name="skills.paladin.lay-on-hands.1">Heals the Paladin and all allies at a rate of 5 health per 6 mana spent.</string>
+	<string name="skills.paladin.lay-on-hands.2">Heals the Paladin and all allies at a rate of 6 health per 7 mana spent. Faster rate of healing.</string>
+	<string name="skills.paladin.lay-on-hands.3">Heals the Paladin and all allies at a rate of 7 health per 8 mana spent. Faster rate of healing.</string>
+	<string name="skills.paladin.lay-on-hands.4">Heals the Paladin and all allies at a rate of 8 health per 9 mana spent. Faster rate of healing.</string>
+
+	<string name="skills.paladin.whirlwind">Whirlwind</string>
+	<string name="skills.paladin.whirlwind.create">A spinning attack that deals damage to all enemies around the Paladin.</string>
+	<string name="skills.paladin.whirlwind.1">A spinning attack that deals 30 Physical damage to all enemies around the Paladin. Whirlwind lasts for 3 seconds.</string>
+	<string name="skills.paladin.whirlwind.2">A spinning attack that deals 40 Physical damage to all enemies around the Paladin. Whirlwind lasts for 4 seconds.</string>
+	<string name="skills.paladin.whirlwind.3">A spinning attack that deals 50 Physical damage to all enemies around the Paladin. Whirlwind lasts for 5 seconds.</string>
+
+	<string name="skills.paladin.juggernaut">Juggernaut</string>
+	<string name="skills.paladin.juggernaut.create">When colliding with enemies the Paladin deals damage and has a chance to trigger Stunning Blows.</string>
+	<string name="skills.paladin.juggernaut.1">When colliding with enemies the Paladin deals 20 Physical damage and has a chance to trigger Stunning Blows.</string>
+	<string name="skills.paladin.juggernaut.2">When colliding with enemies the Paladin deals 50 Physical damage and has a chance to trigger Stunning Blows.</string>
+
+
+	<!-- Priest -->
+	<string name="skills.priest.smite">Smite</string>
+	<string name="skills.priest.smite.create">A short-ranged area of effect attack that deals both Physical and Magical damage.</string>
+	<string name="skills.priest.smite.1">A short-ranged attack dealing 8 Hybrid damage.</string>
+	<string name="skills.priest.smite.2">A short-ranged attack dealing 10 Hybrid damage. Slightly larger impact area.</string>
+	<string name="skills.priest.smite.3">A short-ranged attack dealing 12 Hybrid damage. Slightly larger impact area.</string>
+	<string name="skills.priest.smite.4">A short-ranged attack dealing 14 Hybrid damage. Slightly larger impact area.</string>
+	<string name="skills.priest.smite.5">A short-ranged attack dealing 16 Hybrid damage. Slightly larger impact area.</string>
+	<string name="skills.priest.smite.6">A short-ranged attack dealing 18 Hybrid damage. Slightly larger impact area.</string>
+
+	<string name="skills.priest.holy-light">Holy Light</string>
+	<string name="skills.priest.holy-light.create">A ranged beam attack that builds up damage over time. If targeted on allies the beam will heal instead.</string>
+	<string name="skills.priest.holy-light.1">Fires a beam of light that deals up to 12 Magical damage and will heal allies for 2.</string>
+	<string name="skills.priest.holy-light.2">Fires a beam of light that deals up to 18 Magical damage and will heal allies for 3.</string>
+	<string name="skills.priest.holy-light.3">Fires a beam of light that deals up to 24 Magical damage and will heal allies for 4.</string>
+	<string name="skills.priest.holy-light.4">Fires a beam of light that deals up to 30 Magical damage and will heal allies for 5.</string>
+	<string name="skills.priest.holy-light.5">Fires a beam of light that deals up to 36 Magical damage and will heal allies for 6.</string>
+	<string name="skills.priest.holy-light.6">Fires a beam of light that deals up to 42 Magical damage and will heal allies for 7.</string>
+
+	<string name="skills.priest.divine-protection">Divine Protection</string>
+	<string name="skills.priest.divine-protection.create">The Priest is protected by a shield that absorbs damage in exchange for mana.</string>
+	<string name="skills.priest.divine-protection.1">The shield absorbs 30% of incoming damage for a cost of 4 mana per damage absorbed.</string>
+	<string name="skills.priest.divine-protection.2">The shield absorbs 35% of incoming damage for a cost of 2 mana per damage absorbed.</string>
+	<string name="skills.priest.divine-protection.3">The shield absorbs 40% of incoming damage for a cost of 1 mana per damage absorbed.</string>
+	<string name="skills.priest.divine-protection.4">The shield absorbs 45% of incoming damage for a cost of 0.75 mana per damage absorbed.</string>
+	<string name="skills.priest.divine-protection.5">The shield absorbs 50% of incoming damage for a cost of 0.5 mana per damage absorbed.</string>
+
+	<string name="skills.priest.remedy">Remedy</string>
+	<string name="skills.priest.remedy.create">The Priest regains health more effectively from all sources.</string>
+	<string name="skills.priest.remedy.1">The Priest regains health 50% more effectively from all sources.</string>
+	<string name="skills.priest.remedy.2">The Priest regains health 100% more effectively from all sources.</string>
+	<string name="skills.priest.remedy.3">The Priest regains health 150% more effectively from all sources.</string>
+	<string name="skills.priest.remedy.4">The Priest regains health 200% more effectively from all sources.</string>
+
+	<string name="skills.priest.consecrated-ground">Consecrated Ground</string>
+	<string name="skills.priest.consecrated-ground.create">The Priest places a field on the ground that damages enemies and heals allies for 25% of the damage dealt.</string>
+	<string name="skills.priest.consecrated-ground.1">A field is placed on the ground that lasts for 5 seconds. Enemies in the area take 16 Magical damage per second. 25% of the damage dealt is returned to allies in the area as health.</string>
+	<string name="skills.priest.consecrated-ground.2">A field is placed on the ground that lasts for 5.5 seconds. Enemies in the area take 24 Magical damage per second. 25% of the damage dealt is returned to allies in the area as health.</string>
+	<string name="skills.priest.consecrated-ground.3">A field is placed on the ground that lasts for 6 seconds. Enemies in the area take 32 Magical damage per second. 25% of the damage dealt is returned to allies in the area as health.</string>
+	<string name="skills.priest.consecrated-ground.4">A field is placed on the ground that lasts for 6.5 seconds. Enemies in the area take 40 Magical damage per second. 25% of the damage dealt is returned to allies in the area as health.</string>
+
+	<string name="skills.priest.aura-of-purification">Aura of Purification</string>
+	<string name="skills.priest.aura-of-purification.create">The Priest radiates an aura that slows and lowers the damage of all nearby enemies.</string>
+	<string name="skills.priest.aura-of-purification.1">The Priest radiates an aura that slows and lowers the damage of all nearby enemies by 30%. While the aura is active the Priest's mana regen is reduced by 90%.</string>
+	<string name="skills.priest.aura-of-purification.2">The Priest radiates an aura that slows and lowers the damage of all nearby enemies by 40%. While the aura is active the Priest's mana regen is reduced by 70%.</string>
+	<string name="skills.priest.aura-of-purification.3">The Priest radiates an aura that slows and lowers the damage of all nearby enemies by 50%. While the aura is active the Priest's mana regen is reduced by 50%.</string>
+
+	<string name="skills.priest.celestial-orb">Celestial Orbs</string>
+	<string name="skills.priest.celestial-orb.create">Orbs rotate around the priest that fire small beams of holy light at nearby enemies.</string>
+	<string name="skills.priest.celestial-orb.1">Two orbs rotate around the Priest that fire small beams of holy light, dealing 8 Magical damage.</string>
+	<string name="skills.priest.celestial-orb.2">Three orbs rotate around the Priest that fire small beams of holy light, dealing 12 Magical damage.</string>
+
+
+	<!-- Ranger -->
+	<string name="skills.ranger.bow">Bow and Arrow</string>
+	<string name="skills.ranger.bow.create">Fires an arrow that pierces enemies.</string>
+	<string name="skills.ranger.bow.1">Fire an arrow that deals 10 Physical damage. Arrows pierce 1 enemy.</string>
+	<string name="skills.ranger.bow.2">Fire an arrow that deals 12 Physical damage. Arrows pierce 2 enemies.</string>
+	<string name="skills.ranger.bow.3">Fire an arrow that deals 14 Physical damage. Arrows pierce 3 enemies.</string>
+	<string name="skills.ranger.bow.4">Fire an arrow that deals 16 Physical damage. Arrows pierce 4 enemies.</string>
+	<string name="skills.ranger.bow.5">Fire an arrow that deals 18 Physical damage. Arrows pierce 5 enemies.</string>
+	<string name="skills.ranger.bow.6">Fire an arrow that deals 20 Physical damage. Arrows pierce 6 enemies.</string>
+
+	<string name="skills.ranger.explosive-bomb">Explosive Bomb</string>
+	<string name="skills.ranger.explosive-bomb.create">Place a bomb that detonates after 1 second, dealing damage in the area.</string>
+	<string name="skills.ranger.explosive-bomb.1">Place a bomb that detonates after 1 second, dealing 20 Hybrid damage.</string>
+	<string name="skills.ranger.explosive-bomb.2">Place a bomb that detonates after 1 second, dealing 34 Hybrid damage. Larger area of effect.</string>
+	<string name="skills.ranger.explosive-bomb.3">Place a bomb that detonates after 1 second, dealing 48 Hybrid damage. Larger area of effect.</string>
+	<string name="skills.ranger.explosive-bomb.4">Place a bomb that detonates after 1 second, dealing 62 Hybrid damage. Larger area of effect.</string>
+	<string name="skills.ranger.explosive-bomb.5">Place a bomb that detonates after 1 second, dealing 76 Hybrid damage. Larger area of effect.</string>
+	<string name="skills.ranger.explosive-bomb.6">Place a bomb that detonates after 1 second, dealing 90 Hybrid damage. Larger area of effect.</string>
+
+	<string name="skills.ranger.dodge">Dodge</string>
+	<string name="skills.ranger.dodge.create">The Ranger has a chance to evade incoming attacks.</string>
+	<string name="skills.ranger.dodge.1">Grants 5% evasion against all incoming damage.</string>
+	<string name="skills.ranger.dodge.2">Grants 10% evasion against all incoming damage.</string>
+	<string name="skills.ranger.dodge.3">Grants 15% evasion against all incoming damage.</string>
+	<string name="skills.ranger.dodge.4">Grants 20% evasion against all incoming damage.</string>
+	<string name="skills.ranger.dodge.5">Grants 25% evasion against all incoming damage.</string>
+
+	<string name="skills.ranger.deadly-aim">Deadly Aim</string>
+	<string name="skills.ranger.deadly-aim.create">Primary attack has a chance of dealing critical strikes.</string>
+	<string name="skills.ranger.deadly-aim.1">Primary attack has a 5% chance to be critical hits.</string>
+	<string name="skills.ranger.deadly-aim.2">Primary attack has a 10% chance to be critical hits.</string>
+	<string name="skills.ranger.deadly-aim.3">Primary attack has a 15% chance to be critical hits.</string>
+	<string name="skills.ranger.deadly-aim.4">Primary attack has a 20% chance to be critical hits.</string>
+
+	<string name="skills.ranger.grasping-roots">Grasping Roots</string>
+	<string name="skills.ranger.grasping-roots.create">Sprouts roots from the ground around the Ranger that immobilizes and reduces armor of enemies.</string>
+	<string name="skills.ranger.grasping-roots.1">Immobilize all enemies around the Ranger for 2 seconds. Enemies caught by the roots have their Armor reduced by 10%.</string>
+	<string name="skills.ranger.grasping-roots.2">Immobilize all enemies around the Ranger for 3 seconds. Enemies caught by the roots have their Armor reduced by 15%.</string>
+	<string name="skills.ranger.grasping-roots.3">Immobilize all enemies around the Ranger for 4 seconds. Enemies caught by the roots have their Armor reduced by 20%.</string>
+	<string name="skills.ranger.grasping-roots.4">Immobilize all enemies around the Ranger for 5 seconds. Enemies caught by the roots have their Armor reduced by 25%.</string>
+
+	<string name="skills.ranger.flurry-of-arrows">Flurry of Arrows</string>
+	<string name="skills.ranger.flurry-of-arrows.create">The Ranger spins around and fires arrows in quick succession.</string>
+	<string name="skills.ranger.flurry-of-arrows.1">The Ranger spins around 2 times and fires arrows in quick succession.</string>
+	<string name="skills.ranger.flurry-of-arrows.2">The Ranger spins around 3 times and fires arrows in quick succession.</string>
+	<string name="skills.ranger.flurry-of-arrows.3">The Ranger spins around 4 times and fires arrows in quick succession.</string>
+
+	<string name="skills.ranger.twinned-arrows">Twinned Arrows</string>
+	<string name="skills.ranger.twinned-arrows.create">The Ranger's arrows have a chance of splitting and seeking a new target.</string>
+	<string name="skills.ranger.twinned-arrows.1">Piercing arrows have a 25% chance of splitting and seeking a new target.</string>
+	<string name="skills.ranger.twinned-arrows.2">Piercing arrows have a 40% chance of splitting and seeking a new target.</string>
+
+
+	<!-- Sorcerer -->
+	<string name="skills.sorcerer.frost-shard">Frost Shard</string>
+	<string name="skills.sorcerer.frost-shard.create">Fires a frost shard that ricochets off walls and enemies.</string>
+	<string name="skills.sorcerer.frost-shard.1">Fire a frost shard that deal 8 Hybrid damage. Frost shards ricochet 1 time.</string>
+	<string name="skills.sorcerer.frost-shard.2">Fire a frost shard that deal 10 Hybrid damage. Frost shards ricochet up to 2 times.</string>
+	<string name="skills.sorcerer.frost-shard.3">Fire a frost shard that deal 12 Hybrid damage. Frost shards ricochet up to 3 times.</string>
+	<string name="skills.sorcerer.frost-shard.4">Fire a frost shard that deal 14 Hybrid damage. Frost shards ricochet up to 4 times.</string>
+	<string name="skills.sorcerer.frost-shard.5">Fire a frost shard that deal 16 Hybrid damage. Frost shards ricochet up to 5 times.</string>
+	<string name="skills.sorcerer.frost-shard.6">Fire a frost shard that deal 18 Hybrid damage. Frost shards ricochet up to 6 times.</string>
+
+	<string name="skills.sorcerer.comet">Comet</string>
+	<string name="skills.sorcerer.comet.create">Summons a comet to strike in front of the Sorcerer that damages and freezes enemies on impact.</string>
+	<string name="skills.sorcerer.comet.1">Drops a comet that deals 40 Hybrid damage split among all enemies in the area of impact. Enemies hit are frozen in place for 2 seconds.</string>
+	<string name="skills.sorcerer.comet.2">Drops a comet that deals 70 Hybrid damage split among all enemies in the area of impact. Enemies hit are frozen in place for 2 seconds.</string>
+	<string name="skills.sorcerer.comet.3">Drops a comet that deals 100 Hybrid damage split among all enemies in the area of impact. Enemies hit are frozen in place for 2 seconds.</string>
+	<string name="skills.sorcerer.comet.4">Drops a comet that deals 130 Hybrid damage split among all enemies in the area of impact. Enemies hit are frozen in place for 2 seconds.</string>
+	<string name="skills.sorcerer.comet.5">Drops a comet that deals 160 Hybrid damage split among all enemies in the area of impact. Enemies hit are frozen in place for 2 seconds.</string>
+	<string name="skills.sorcerer.comet.6">Drops a comet that deals 190 Hybrid damage split among all enemies in the area of impact. Enemies hit are frozen in place for 2 seconds.</string>
+
+	<string name="skills.sorcerer.biting-chill">Biting Chill</string>
+	<string name="skills.sorcerer.biting-chill.create">All Sorcerer skills slow enemies.</string>
+	<string name="skills.sorcerer.biting-chill.1">Slows enemies hit by the Sorcerer's skills by 20% for 2 seconds.</string>
+	<string name="skills.sorcerer.biting-chill.2">Slows enemies hit by the Sorcerer's skills by 30% for 2.5 seconds.</string>
+	<string name="skills.sorcerer.biting-chill.3">Slows enemies hit by the Sorcerer's skills by 40% for 3 seconds.</string>
+	<string name="skills.sorcerer.biting-chill.4">Slows enemies hit by the Sorcerer's skills by 50% for 3.5 seconds.</string>
+	<string name="skills.sorcerer.biting-chill.5">Slows enemies hit by the Sorcerer's skills by 60% for 4 seconds.</string>
+
+	<string name="skills.sorcerer.ice-barrier">Ice Barrier</string>
+	<string name="skills.sorcerer.ice-barrier.create">Gives the Sorcerer a chance to halve incoming damage and apply Biting Chill to the attacker.</string>
+	<string name="skills.sorcerer.ice-barrier.1">Gives a 15% chance to halve incoming damage and apply Biting Chill to the attacker.</string>
+	<string name="skills.sorcerer.ice-barrier.2">Gives a 30% chance to halve incoming damage and apply Biting Chill to the attacker.</string>
+	<string name="skills.sorcerer.ice-barrier.3">Gives a 45% chance to halve incoming damage and apply Biting Chill to the attacker.</string>
+	<string name="skills.sorcerer.ice-barrier.4">Gives a 60% chance to halve incoming damage and apply Biting Chill to the attacker.</string>
+
+	<string name="skills.sorcerer.frost-nova">Frost Nova</string>
+	<string name="skills.sorcerer.frost-nova.create">Fires multiple frost shards in all directions around the Sorcerer.</string>
+	<string name="skills.sorcerer.frost-nova.1">Unleash 13 frost shards in all directions around the Sorcerer dealing 12 Hybrid damage.</string>
+	<string name="skills.sorcerer.frost-nova.2">Unleash 16 frost shards in all directions around the Sorcerer dealing 16 Hybrid damage.</string>
+	<string name="skills.sorcerer.frost-nova.3">Unleash 19 frost shards in all directions around the Sorcerer dealing 20 Hybrid damage.</string>
+	<string name="skills.sorcerer.frost-nova.4">Unleash 23 frost shards in all directions around the Sorcerer dealing 24 Hybrid damage.</string>
+
+	<string name="skills.sorcerer.orb-of-winter">Orb of Winter</string>
+	<string name="skills.sorcerer.orb-of-winter.create">Spawns a slow moving ice orb that unleashes small ice shards in all directions.</string>
+	<string name="skills.sorcerer.orb-of-winter.1">Spawns a slow moving ice orb that moves forward for 3.5 seconds unleashing small ice shards in all directions that deals 12 Hybrid damage.</string>
+	<string name="skills.sorcerer.orb-of-winter.2">Spawns a slow moving ice orb that moves forward for 5 seconds unleashing small ice shards in all directions that deals 16 Hybrid damage.</string>
+	<string name="skills.sorcerer.orb-of-winter.3">Spawns a slow moving ice orb that moves forward for 6.5 seconds unleashing small ice shards in all directions that deals 20 Hybrid damage.</string>
+
+	<string name="skills.sorcerer.shatter">Shatter</string>
+	<string name="skills.sorcerer.shatter.create">Enemies killed by the Sorcerer have a chance to trigger a Frost Nova at the location of their death.</string>
+	<string name="skills.sorcerer.shatter.1">Enemies killed by the sorcerer have a 10% chance to trigger a Frost Nova at the location of their death.</string>
+	<string name="skills.sorcerer.shatter.2">Enemies killed by the sorcerer have a 20% chance to trigger a Frost Nova at the location of their death.</string>
+
+
+	<!-- Thief -->
+	<string name="skills.thief.twin-daggers">Twin Daggers</string>
+	<string name="skills.thief.twin-daggers.create">Quick melee attacks that can destroy most projectiles.</string>
+	<string name="skills.thief.twin-daggers.1">Two quick melee attacks that deal 6 Physical damage each. Your movement speed is decreased by 60% while attacking.</string>
+	<string name="skills.thief.twin-daggers.2">Two quick melee attacks that deal 8 Physical damage each. Your movement speed is decreased by 50% while attacking.</string>
+	<string name="skills.thief.twin-daggers.3">Two quick melee attacks that deal 10 Physical damage each. Your movement speed is decreased by 40% while attacking.</string>
+	<string name="skills.thief.twin-daggers.4">Two quick melee attacks that deal 12 Physical damage each. Your movement speed is decreased by 30% while attacking.</string>
+	<string name="skills.thief.twin-daggers.5">Two quick melee attacks that deal 14 Physical damage each. Your movement speed is decreased by 20% while attacking.</string>
+	<string name="skills.thief.twin-daggers.6">Two quick melee attacks that deal 16 Physical damage each. Your movement speed is decreased by 10% while attacking.</string>
+
+	<string name="skills.thief.throwing-knives">Throwing Knives</string>
+	<string name="skills.thief.throwing-knives.create">Throw a set of knives in an forward arc that pierces enemies.</string>
+	<string name="skills.thief.throwing-knives.1">Throw 5 knives in a 45-degree arc. Each knife deals 10 Physical damage and can pierce up to 5 enemies.</string>
+	<string name="skills.thief.throwing-knives.2">Throw 6 knives in a 50-degree arc. Each knife deals 15 Physical damage and can pierce up to 6 enemies.</string>
+	<string name="skills.thief.throwing-knives.3">Throw 7 knives in a 55-degree arc. Each knife deals 20 Physical damage and can pierce up to 7 enemies.</string>
+	<string name="skills.thief.throwing-knives.4">Throw 8 knives in a 60-degree arc. Each knife deals 25 Physical damage and can pierce up to 8 enemies.</string>
+	<string name="skills.thief.throwing-knives.5">Throw 9 knives in a 65-degree arc. Each knife deals 30 Physical damage and can pierce up to 9 enemies.</string>
+	<string name="skills.thief.throwing-knives.6">Throw 10 knives in a 70-degree arc. Each knife deals 35 Physical damage and can pierce up to 10 enemies.</string>
+
+	<string name="skills.thief.sidestep">Sidestep</string>
+	<string name="skills.thief.sidestep.create">The Thief has a chance to evade incoming attacks.</string>
+	<string name="skills.thief.sidestep.1">Grants 5% evasion against all incoming damage.</string>
+	<string name="skills.thief.sidestep.2">Grants 10% evasion against all incoming damage.</string>
+	<string name="skills.thief.sidestep.3">Grants 15% evasion against all incoming damage.</string>
+	<string name="skills.thief.sidestep.4">Grants 20% evasion against all incoming damage.</string>
+	<string name="skills.thief.sidestep.5">Grants 25% evasion against all incoming damage.</string>
+
+	<string name="skills.thief.slice-and-dice">Slice and Dice</string>
+	<string name="skills.thief.slice-and-dice.create">With each kill the Thief gains a temporary attack speed bonus.</string>
+	<string name="skills.thief.slice-and-dice.1">Each kill grants the Thief a temporary attack speed bonus that stacks up to 4 times. Each stack lasts for 1.5 seconds.</string>
+	<string name="skills.thief.slice-and-dice.2">Each kill grants the Thief a temporary attack speed bonus that stacks up to 7 times. Each stack lasts for 1.5 seconds.</string>
+	<string name="skills.thief.slice-and-dice.3">Each kill grants the Thief a temporary attack speed bonus that stacks up to 10 times. Each stack lasts for 1.5 seconds.</string>
+	<string name="skills.thief.slice-and-dice.4">Each kill grants the Thief a temporary attack speed bonus that stacks up to 13 times. Each stack lasts for 1.5 seconds.</string>
+
+	<string name="skills.thief.grappling-hook">Grappling Hook</string>
+	<string name="skills.thief.grappling-hook.create">Fire a grappling hook in a forward direction. The Thief travels to the point of impact stunning all enemies in its path.</string>
+	<string name="skills.thief.grappling-hook.1">The Thief fires a grappling hook and travels to the point of impact stunning all enemies in its path for 1 second.</string>
+	<string name="skills.thief.grappling-hook.2">The Thief fires a grappling hook and travels to the point of impact stunning all enemies in its path for 1.5 seconds. Increased speed and range of grappling hook.</string>
+	<string name="skills.thief.grappling-hook.3">The Thief fires a grappling hook and travels to the point of impact stunning all enemies in its path for 2 seconds. Increased speed and range of grappling hook.</string>
+	<string name="skills.thief.grappling-hook.4">The Thief fires a grappling hook and travels to the point of impact stunning all enemies in its path for 3 seconds. Increased speed and range of grappling hook.</string>
+
+	<string name="skills.thief.smoke-bomb">Smoke Bomb</string>
+	<string name="skills.thief.smoke-bomb.create">The Thief throws a smoke bomb that stuns all nearby enemies.</string>
+	<string name="skills.thief.smoke-bomb.1">The Thief throws a smoke bomb that stuns all enemies in a large area for 4 seconds.</string>
+	<string name="skills.thief.smoke-bomb.2">The Thief throws a smoke bomb that stuns all enemies in a large area for 4.5 seconds. Larger area of effect.</string>
+	<string name="skills.thief.smoke-bomb.3">The Thief throws a smoke bomb that stuns all enemies in a large area for 5 seconds. Larger area of effect.</string>
+
+	<string name="skills.thief.gold-fever">Gold Fever</string>
+	<string name="skills.thief.gold-fever.create">The Thief gains more gold and does more damage based on your current gold.</string>
+	<string name="skills.thief.gold-fever.1">The Thief gains 50% more gold. The Thief gains a damage bonus of 0.001% based on your current gold.</string>
+	<string name="skills.thief.gold-fever.2">The Thief gains 100% more gold. The Thief gains a damage bonus of 0.002% based on your current gold.</string>
+
+
+	<!-- Warlock -->
+	<string name="skills.warlock.poisoned-dagger">Poisoned Dagger</string>
+	<string name="skills.warlock.poisoned-dagger.create">Short melee attack that imbues poison dealing Magical damage over time. Enemies killed by the poisoned dagger explodes dealing damage in a small area.</string>
+	<string name="skills.warlock.poisoned-dagger.1">Melee attack that deals 10 Physical damage and 4 Magical damage per second for 2.5 seconds. Enemies killed by the dagger explode dealing 8 Magical damage in a small area.</string>
+	<string name="skills.warlock.poisoned-dagger.2">Melee attack that deals 12 Physical damage and 6 Magical damage per second for 2.5 seconds. Enemies killed by the dagger explode dealing 12 Magical damage in a small area.</string>
+	<string name="skills.warlock.poisoned-dagger.3">Melee attack that deals 14 Physical damage and 8 Magical damage per second for 2.5 seconds. Enemies killed by the dagger explode dealing 16 Magical damage in a small area.</string>
+	<string name="skills.warlock.poisoned-dagger.4">Melee attack that deals 16 Physical damage and 10 Magical damage per second for 2.5 seconds. Enemies killed by the dagger explode dealing 20 Magical damage in a small area.</string>
+	<string name="skills.warlock.poisoned-dagger.5">Melee attack that deals 18 Physical damage and 12 Magical damage per second for 2.5 seconds. Enemies killed by the dagger explode dealing 24 Magical damage in a small area.</string>
+	<string name="skills.warlock.poisoned-dagger.6">Melee attack that deals 20 Physical damage and 14 Magical damage per second for 2.5 seconds. Enemies killed by the dagger explode dealing 28 Magical damage in a small area.</string>
+
+	<string name="skills.warlock.lightning-bolt">Lightning Bolt</string>
+	<string name="skills.warlock.lightning-bolt.create">Fires a bolt of lightning that jumps to several targets upon impact.</string>
+	<string name="skills.warlock.lightning-bolt.1">Fires a bolt of lightning that strikes 4 targets upon impact, dealing 18 Magical damage to each target.</string>
+	<string name="skills.warlock.lightning-bolt.2">Fires a bolt of lightning that strikes 5 targets upon impact, dealing 22 Magical damage to each target.</string>
+	<string name="skills.warlock.lightning-bolt.3">Fires a bolt of lightning that strikes 6 targets upon impact, dealing 26 Magical damage to each target.</string>
+	<string name="skills.warlock.lightning-bolt.4">Fires a bolt of lightning that strikes 7 targets upon impact, dealing 30 Magical damage to each target.</string>
+	<string name="skills.warlock.lightning-bolt.5">Fires a bolt of lightning that strikes 8 targets upon impact, dealing 34 Magical damage to each target.</string>
+	<string name="skills.warlock.lightning-bolt.6">Fires a bolt of lightning that strikes 9 targets upon impact, dealing 38 Magical damage to each target.</string>
+
+	<string name="skills.warlock.blood-sacrifice">Blood Sacrifice</string>
+	<string name="skills.warlock.blood-sacrifice.create">The Warlock gains health when killing enemies.</string>
+	<string name="skills.warlock.blood-sacrifice.1">The Warlock has a 20% chance to gain 1 health for each enemy killed.</string>
+	<string name="skills.warlock.blood-sacrifice.2">The Warlock has a 40% chance to gain 1 health for each enemy killed.</string>
+	<string name="skills.warlock.blood-sacrifice.3">The Warlock has a 60% chance to gain 1 health for each enemy killed.</string>
+	<string name="skills.warlock.blood-sacrifice.4">The Warlock has a 80% chance to gain 1 health for each enemy killed.</string>
+	<string name="skills.warlock.blood-sacrifice.5">The Warlock gains 1 health for each enemy killed.</string>
+
+	<string name="skills.warlock.soul-sacrifice">Soul Sacrifice</string>
+	<string name="skills.warlock.soul-sacrifice.create">The Warlock gains mana when killing enemies.</string>
+	<string name="skills.warlock.soul-sacrifice.1">The Warlock gains 1 mana for each enemy killed.</string>
+	<string name="skills.warlock.soul-sacrifice.2">The Warlock gains 2 mana for each enemy killed.</string>
+	<string name="skills.warlock.soul-sacrifice.3">The Warlock gains 3 mana for each enemy killed.</string>
+	<string name="skills.warlock.soul-sacrifice.4">The Warlock gains 4 mana for each enemy killed.</string>
+
+	<string name="skills.warlock.summon-gargoyle">Summon Gargoyle</string>
+	<string name="skills.warlock.summon-gargoyle.create">Summons a stationary gargoyle that fires bolts of lightning and stuns nearby enemies.</string>
+	<string name="skills.warlock.summon-gargoyle.1">Summon a gargoyle that stuns and fires bolts of lightning at nearby enemies dealing 24 Magical damage. The gargoyle lasts for 6 seconds.</string>
+	<string name="skills.warlock.summon-gargoyle.2">Summon a gargoyle that stuns and fires bolts of lightning at nearby enemies dealing 28 Magical damage. The gargoyle lasts for 8 seconds.</string>
+	<string name="skills.warlock.summon-gargoyle.3">Summon a gargoyle that stuns and fires bolts of lightning at nearby enemies dealing 32 Magical damage. The gargoyle lasts for 10 seconds.</string>
+	<string name="skills.warlock.summon-gargoyle.4">Summon a gargoyle that stuns and fires bolts of lightning at nearby enemies dealing 36 Magical damage. The gargoyle lasts for 12 seconds.</string>
+
+	<string name="skills.warlock.eye-of-the-storm">Eye of the Storm</string>
+	<string name="skills.warlock.eye-of-the-storm.create">Generates an electrical storm that follows the Warlock and strikes enemies with bolts of lightning.</string>
+	<string name="skills.warlock.eye-of-the-storm.1">Generates an electrical storm that fires bolts of lightning at nearby enemies dealing 24 Magical damage. The storm lasts for 7 seconds.</string>
+	<string name="skills.warlock.eye-of-the-storm.2">Generates an electrical storm that fires bolts of lightning at nearby enemies dealing 32 Magical damage. The storm lasts for 9 seconds.</string>
+	<string name="skills.warlock.eye-of-the-storm.3">Generates an electrical storm that fires bolts of lightning at nearby enemies dealing 40 Magical damage. The storm lasts for 11 seconds.</string>
+
+	<string name="skills.warlock.stormlash">Stormlash</string>
+	<string name="skills.warlock.stormlash.create">All bolts of lightning have a chance to trigger a new weaker bolt of lightning.</string>
+	<string name="skills.warlock.stormlash.1">All bolts of lightning have a 50% chance to trigger a new bolt of lightning dealing 50% damage.</string>
+	<string name="skills.warlock.stormlash.2">All bolts of lightning have a 75% chance to trigger a new bolt of lightning dealing 75% damage.</string>
+
+
+	<!-- Wizard -->
+	<string name="skills.wizard.fireball">Fireball</string>
+	<string name="skills.wizard.fireball.create">Ranged attack that deals Magical damage in a small area.</string>
+	<string name="skills.wizard.fireball.1">Launch a fireball that deals 8 Magical damage.</string>
+	<string name="skills.wizard.fireball.2">Launch a fireball that deals 10 Magical damage. Longer range and larger impact area.</string>
+	<string name="skills.wizard.fireball.3">Launch a fireball that deals 12 Magical damage. Longer range and larger impact area.</string>
+	<string name="skills.wizard.fireball.4">Launch a fireball that deals 14 Magical damage. Longer range and larger impact area.</string>
+	<string name="skills.wizard.fireball.5">Launch a fireball that deals 16 Magical damage. Longer range and larger impact area.</string>
+	<string name="skills.wizard.fireball.6">Launch a fireball that deals 18 Magical damage. Longer range and larger impact area.</string>
+
+	<string name="skills.wizard.fire-breath">Fire Breath</string>
+	<string name="skills.wizard.fire-breath.create">The Wizard breathes fire in a forward cone dealing heavy Magical damage.</string>
+	<string name="skills.wizard.fire-breath.1">The Wizard breathes fire in a forward cone dealing 3 Magical damage per instance.</string>
+	<string name="skills.wizard.fire-breath.2">The Wizard breathes fire in a forward cone dealing 5 Magical damage per instance.</string>
+	<string name="skills.wizard.fire-breath.3">The Wizard breathes fire in a forward cone dealing 7 Magical damage per instance.</string>
+	<string name="skills.wizard.fire-breath.4">The Wizard breathes fire in a forward cone dealing 9 Magical damage per instance.</string>
+	<string name="skills.wizard.fire-breath.5">The Wizard breathes fire in a forward cone dealing 11 Magical damage per instance.</string>
+	<string name="skills.wizard.fire-breath.6">The Wizard breathes fire in a forward cone dealing 13 Magical damage per instance.</string>
+
+	<string name="skills.wizard.combustion">Combustion</string>
+	<string name="skills.wizard.combustion.create">All Wizard skills inflict a Magical damage over time effect on enemies.</string>
+	<string name="skills.wizard.combustion.1">All Wizard skills inflict a burning over time dealing 4 Magical damage per second for 2 seconds.</string>
+	<string name="skills.wizard.combustion.2">All Wizard skills inflict a burning over time dealing 8 Magical damage per second for 2.5 seconds.</string>
+	<string name="skills.wizard.combustion.3">All Wizard skills inflict a burning over time dealing 12 Magical damage per second for 3 seconds.</string>
+	<string name="skills.wizard.combustion.4">All Wizard skills inflict a burning over time dealing 16 Magical damage per second for 3.5 seconds.</string>
+	<string name="skills.wizard.combustion.5">All Wizard skills inflict a burning over time dealing 20 Magical damage per second for 4 seconds.</string>
+
+	<string name="skills.wizard.flame-shield">Flame Shield</string>
+	<string name="skills.wizard.flame-shield.create">Gives the Wizard a chance to halve incoming damage and apply Combustion to the attacker.</string>
+	<string name="skills.wizard.flame-shield.1">Gives a 15% chance to halve incoming damage and apply Combustion to the attacker.</string>
+	<string name="skills.wizard.flame-shield.2">Gives a 30% chance to halve incoming damage and apply Combustion to the attacker.</string>
+	<string name="skills.wizard.flame-shield.3">Gives a 45% chance to halve incoming damage and apply Combustion to the attacker.</string>
+	<string name="skills.wizard.flame-shield.4">Gives a 60% chance to halve incoming damage and apply Combustion to the attacker.</string>
+
+	<string name="skills.wizard.blast-wave">Blast Wave</string>
+	<string name="skills.wizard.blast-wave.create">Unleash a heavy blast wave around the Wizard that deals damage and applies confusion to enemies.</string>
+	<string name="skills.wizard.blast-wave.1">Unleash a blast wave around the Wizard that deals 6 Magical damage. Enemies are also confused and slowed by 30% for 2.5 seconds.</string>
+	<string name="skills.wizard.blast-wave.2">Unleash a blast wave around the Wizard that deals 12 Magical damage. Enemies are also confused and slowed by 40% for 3 seconds.</string>
+	<string name="skills.wizard.blast-wave.3">Unleash a blast wave around the Wizard that deals 20 Magical damage. Enemies are also confused and slowed by 50% for 3.5 seconds.</string>
+	<string name="skills.wizard.blast-wave.4">Unleash a blast wave around the Wizard that deals 30 Magical damage. Enemies are also confused and slowed by 60% for 4 seconds.</string>
+
+	<string name="skills.wizard.meteor-shower">Meteor Shower</string>
+	<string name="skills.wizard.meteor-shower.create">Evokes a shower of meteors to strike the ground around the Wizard dealing heavy Hybrid damage.</string>
+	<string name="skills.wizard.meteor-shower.1">Evokes 3 meteors to strike the ground around the Wizard dealing 160 Hybrid damage.</string>
+	<string name="skills.wizard.meteor-shower.2">Evokes 5 meteors to strike the ground around the Wizard dealing 240 Hybrid damage.</string>
+	<string name="skills.wizard.meteor-shower.3">Evokes 7 meteors to strike the ground around the Wizard dealing 320 Hybrid damage.</string>
+
+	<string name="skills.wizard.scorched-earth">Scorched Earth</string>
+	<string name="skills.wizard.scorched-earth.create">All Wizards skills leave a burning danger area for a few seconds at the point of impact.</string>
+	<string name="skills.wizard.scorched-earth.1">All Wizards skills leave a burning danger area that deal 8 Magical damage per second.</string>
+	<string name="skills.wizard.scorched-earth.2">All Wizards skills leave a burning danger area that deal 16 Magical damage per second. The duration of the danger areas are doubled.</string>
+
+
+
+
+	<!-- ITEMS -->
+
+
+
+	<!-- COMMON -->
+
+
+	<string name="item.amulet-of-resistance.name">Amulet of Resistance</string>
+	<string name="item.amulet-of-resistance.desc">+%res% Magic Resistance.</string>
+
+	<string name="item.apothecarys-herbs.name">Apothecary's Herbs</string>
+	<string name="item.apothecarys-herbs.desc">Drinking your Potion triggers a %mspeed%% Movement Speed buff for %dur% seconds.</string>
+
+	<string name="item.blackjack.name">Blackjack</string>
+	<string name="item.blackjack.desc">%chance%% to stun enemies for %dur% seconds on Primary Attack.</string>
+
+	<string name="item.book-of-enlightenment.name">Book of Enlightenment</string>
+	<string name="item.book-of-enlightenment.desc">+%exp%% Experience gained.</string>
+
+	<string name="item.boots-of-speed.name">Boots of Speed</string>
+	<string name="item.boots-of-speed.desc">+%mspeed% Movement Speed.</string>
+
+	<string name="item.broad-sword.name">Broad Sword</string>
+	<string name="item.broad-sword.desc">+%atk% Attack Power.</string>
+
+	<string name="item.cape-of-withdrawal.name">Cape of Withdrawal</string>
+	<string name="item.cape-of-withdrawal.desc">Getting hit triggers a %mspeed%% movement speed buff for %dur% seconds.</string>
+
+	<string name="item.circlet-of-willpower.name">Circlet of Willpower</string>
+	<string name="item.circlet-of-willpower.desc">When below %health%% Health, spells are %scost%% cheaper to cast.</string>
+
+	<string name="item.chainmail.name">Chainmail</string>
+	<string name="item.chainmail.desc">+%armor% Armor.</string>
+
+	<string name="item.cowl-of-protection.name">Cowl of Protection</string>
+	<string name="item.cowl-of-protection.desc">%chance%% to Block %block% Magical damage.</string>
+
+	<string name="item.defenders-halberd.name">Defender's Halberd</string>
+	<string name="item.defenders-halberd.desc">Disarm enemies for %dur% seconds when hit.</string>
+
+	<string name="item.enchanted-dirk.name">Enchanted Dirk</string>
+	<string name="item.enchanted-dirk.desc">+%dmg% Magical and Physical damage on Primary Attack.</string>
+
+	<string name="item.firm-buckler.name">Firm Buckler</string>
+	<string name="item.firm-buckler.desc">%chance%% to Block %block% Physical damage.</string>
+
+	<string name="item.gladiators-net.name">Gladiator's Net</string>
+	<string name="item.gladiators-net.desc">%chance%% to disarm enemies for %dur% seconds on Primary Attack.</string>
+
+	<string name="item.great-helm.name">Great Helm</string>
+	<string name="item.great-helm.desc">+%armor% Armor.</string>
+
+	<string name="item.greaves-of-the-barbarian.name">Greaves of the Barbarian</string>
+	<string name="item.greaves-of-the-barbarian.desc">Killing an enemy has a %chance%% chance of triggering a %mspeed%% Movement Speed buff for %dur% seconds.</string>
+
+	<string name="item.heavy-gauntlets.name">Heavy Gauntlets</string>
+	<string name="item.heavy-gauntlets.desc">+%health% Health.</string>
+
+	<string name="item.lesser-sphere-of-life.name">Lesser Sphere of Life</string>
+	<string name="item.lesser-sphere-of-life.desc">During combo you gain +%hregen% Health Regen.</string>
+
+	<string name="item.lesser-sphere-of-mana.name">Lesser Sphere of Mana</string>
+	<string name="item.lesser-sphere-of-mana.desc">During combo you gain +%mregen% Mana Regen.</string>
+
+	<string name="item.lesser-sphere-of-nova.name">Lesser Sphere of Nova</string>
+	<string name="item.lesser-sphere-of-nova.desc">During Combo a lesser nova is unleashed every second dealing %dmg% Magical damage.</string>
+
+	<string name="item.life-stone.name">Life Stone</string>
+	<string name="item.life-stone.desc">%chance%% chance to gain 1 health when killing an enemy.</string>
+
+	<string name="item.mail-of-thorns.name">Mail of Thorns</string>
+	<string name="item.mail-of-thorns.desc">Returns %return% Physical damage to the attacker when hit.</string>
+
+	<string name="item.mage-robe.name">Mage Robe</string>
+	<string name="item.mage-robe.desc">+%mana% Mana.</string>
+
+	<string name="item.mana-stone.name">Mana Stone</string>
+	<string name="item.mana-stone.desc">%chance%% chance to gain 1 mana when killing an enemy.</string>
+
+	<string name="item.monster-pamphlet-aberration.name">Monster Pamphlet: Aberrations</string>
+	<string name="item.monster-pamphlet-aberration.desc">+%exp%% Experience gained and +%dmg%% damage to Aberrations.</string>
+
+	<string name="item.monster-pamphlet-beast.name">Monster Pamphlet: Beasts</string>
+	<string name="item.monster-pamphlet-beast.desc">+%exp%% Experience gained and +%dmg%% damage to Beasts.</string>
+
+	<string name="item.monster-pamphlet-construct.name">Monster Pamphlet: Constructs</string>
+	<string name="item.monster-pamphlet-construct.desc">+%exp%% Experience gained and +%dmg%% damage to Constructs.</string>
+
+	<string name="item.monster-pamphlet-undead.name">Monster Pamphlet: Undead</string>
+	<string name="item.monster-pamphlet-undead.desc">+%exp%% Experience gained and +%dmg%% damage to Undead.</string>
+
+	<string name="item.ring-health.name">Ring of Health</string>
+	<string name="item.ring-health.desc">+%hregen% Health Regen.</string>
+
+	<string name="item.ring-mana.name">Ring of Mana</string>
+	<string name="item.ring-mana.desc">+%mregen% Mana Regen.</string>
+
+	<string name="item.ring-of-rejuvenation.name">Ring of Rejuvenation</string>
+	<string name="item.ring-of-rejuvenation.desc">+%hregen% Health Regen and +%mregen% Mana Regen.</string>
+
+	<string name="item.sandals-swiftness.name">Sandals of Swiftness</string>
+	<string name="item.sandals-swiftness.desc">+%mspeed% Movement Speed and +%evasion%% Evasion.</string>
+
+	<string name="item.scroll-of-magic-missile.name">Scroll of Magic Missile</string>
+	<string name="item.scroll-of-magic-missile.desc">Unleash a magic missile in a forward direction when casting a spell. The missile has a cooldown of 2 seconds.</string>
+
+	<string name="item.serrated-scimitar.name">Serrated Scimitar</string>
+	<string name="item.serrated-scimitar.desc">%chance%% chance to score a Critical Hit on Primary Attack.</string>
+
+	<string name="item.slippery-cloak.name">Slippery Cloak</string>
+	<string name="item.slippery-cloak.desc">+%evasion%% Evasion.</string>
+
+	<string name="item.spell-book.name">Spell Book</string>
+	<string name="item.spell-book.desc">+%spell% Skill Power.</string>
+
+	<string name="item.spiked-flail.name">Spiked Flail</string>
+	<string name="item.spiked-flail.desc">+%dmg% Physical damage on Primary Attack.</string>
+
+	<string name="item.steady-greaves.name">Steady Greaves</string>
+	<string name="item.steady-greaves.desc">+%armor% Armor and +%health% Health.</string>
+
+	<string name="item.stiletto.name">Stiletto</string>
+	<string name="item.stiletto.desc">Physical damage ignore %pierce%% of the enemies Armor.</string>
+
+	<string name="item.sturdy-belt.name">Sturdy Belt</string>
+	<string name="item.sturdy-belt.desc">+%health% Health.</string>
+
+	<string name="item.vendors-coin.name">Vendor's Coin</string>
+	<string name="item.vendors-coin.desc">%price%% cheaper to buy items in stores.</string>
+
+	<string name="item.war-axe.name">War Axe</string>
+	<string name="item.war-axe.desc">+%dmg% Physical damage on Primary Attack.</string>
+
+	<string name="item.wizards-wand.name">Wizard's Wand</string>
+	<string name="item.wizards-wand.desc">+%dmg% Magical damage on Primary Attack.</string>
+
+	<!-- UNCOMMON -->
+
+
+	<string name="item.adventurers-garb.name">Adventurer's Garb</string>
+	<string name="item.adventurers-garb.desc">+%health% Health and +%mana% Mana.</string>
+
+	<string name="item.apothecarys-mortar-pestle.name">Apothecary's Mortar & Pestle</string>
+	<string name="item.apothecarys-mortar-pestle.desc">Potions increase Armor and Magical Resistance with %eff%% for 5s.</string>
+
+	<string name="item.apothecarys-satchel.name">Apothecary's Satchel</string>
+	<string name="item.apothecarys-satchel.desc">Potions are %eff%% more effective.</string>
+
+	<string name="item.apothecarys-sphere.name">Apothecary's Sphere</string>
+	<string name="item.apothecarys-sphere.desc">Triggers a Combo when using the potion.</string>
+
+	<string name="item.assassins-dagger.name">Assassin's Dagger</string>
+	<string name="item.assassins-dagger.desc">+%chance%% chance to score a Critical Hit on Primary Attack.</string>
+
+	<string name="item.blood-dagger.name">Blood Dagger</string>
+	<string name="item.blood-dagger.desc">+%chance%% chance to gain 5 health when hitting with your Primary Attack.</string>
+
+	<string name="item.bloodthirst-ring.name">Bloodthirst Ring</string>
+	<string name="item.bloodthirst-ring.desc">%lsteal%% Lifesteal on Primary Attack.</string>
+
+	<string name="item.claymore.name">Claymore</string>
+	<string name="item.claymore.desc">+%atk% Attack Power and +%dmg% Physical damage on Primary Attack.</string>
+
+	<string name="item.cloak-of-many-pockets.name">Cloak of Many Pockets</string>
+	<string name="item.cloak-of-many-pockets.desc">You gain %gold%% more gold.</string>
+
+	<string name="item.elven-bow.name">Elven Bow</string>
+	<string name="item.elven-bow.desc">+%atk% Attack Power.</string>
+
+	<string name="item.fancy-plume.name">Fancy Plume</string>
+	<string name="item.fancy-plume.desc">Vendors will have more items in dungeon shops.</string>
+
+	<string name="item.full-plate-mail.name">Full Plate Mail</string>
+	<string name="item.full-plate-mail.desc">+%armor% Armor.</string>
+
+	<string name="item.key-ring.name">Key Ring</string>
+	<string name="item.key-ring.desc">%chance%% chance of receiving an extra key when picking up keys.</string>
+
+	<string name="item.greater-ring-rejuvenation.name">Greater Ring of Rejuvenation</string>
+	<string name="item.greater-ring-rejuvenation.desc">+%hregen% Health Regen and +%mregen% Mana Regen.</string>
+
+	<string name="item.monster-manual-aberration.name">Monster Manual: Aberrations</string>
+	<string name="item.monster-manual-aberration.desc">+%exp%% Experience gained and +%dmg%% damage to Aberrations.</string>
+
+	<string name="item.monster-manual-beast.name">Monster Manual: Beasts</string>
+	<string name="item.monster-manual-beast.desc">+%exp%% Experience gained and +%dmg%% damage to Beasts.</string>
+
+	<string name="item.monster-manual-construct.name">Monster Manual: Constructs</string>
+	<string name="item.monster-manual-construct.desc">+%exp%% Experience gained and +%dmg%% damage to Constructs.</string>
+
+	<string name="item.monster-manual-undead.name">Monster Manual: Undead</string>
+	<string name="item.monster-manual-undead.desc">+%exp%% Experience gained and +%dmg%% damage to Undead.</string>
+
+	<string name="item.old-map.name">Old Map</string>
+	<string name="item.old-map.desc">Removes fog of war from the map.</string>
+
+	<string name="item.rapier-of-retaliation.name">Rapier of Retaliation</string>
+	<string name="item.rapier-of-retaliation.desc">+%evasion%% Evasion. When evading an attack you gain a %dmg%% damage buff for %sec% seconds.</string>
+
+	<string name="item.ring-of-transmutation.name">Ring of Transmutation</string>
+	<string name="item.ring-of-transmutation.desc">Gain %mana%% mana of health lost.</string>
+
+	<string name="item.robe-of-arch-magi.name">Robe of the Arch-Magi</string>
+	<string name="item.robe-of-arch-magi.desc">+%spell% Skill Power and +%res% Resistance.</string>
+
+	<string name="item.scarab-of-protection.name">Scarab of Protection</string>
+	<string name="item.scarab-of-protection.desc">Returns %return% Magical damage to the attacker when hit and releases a nova of poison darts.</string>
+
+	<string name="item.seal-of-the-martyr.name">Seal of the Martyr</string>
+	<string name="item.seal-of-the-martyr.desc">Deal 1% more damage for each % Health missing.</string>
+
+	<string name="item.shaftlocke-pickaxe.name">Shaftlocke Pickaxe</string>
+	<string name="item.shaftlocke-pickaxe.desc">%chance%% chance of receiving 1 extra ore when picking up ore.</string>
+
+	<string name="item.sphere-of-life.name">Sphere of Life</string>
+	<string name="item.sphere-of-life.desc">During combo you gain +%hregen% Health Regen.</string>
+
+	<string name="item.sphere-of-mana.name">Sphere of Mana</string>
+	<string name="item.sphere-of-mana.desc">During combo you gain +%mregen% Mana Regen.</string>
+
+	<string name="item.sphere-of-nova.name">Sphere of Nova</string>
+	<string name="item.sphere-of-nova.desc">During Combo a nova is unleashed every second dealing %dmg% Magical damage.</string>
+
+	<string name="item.staff-of-unstable-casting.name">Staff of Unstable Casting</string>
+	<string name="item.staff-of-unstable-casting.desc">%chance%% chance to score a Critical Hit with Spells.</string>
+
+	<string name="item.stinger.name">Stinger</string>
+	<string name="item.stinger.desc">Physical damage ignore %pierce%% of the enemies Armor.</string>
+
+	<string name="item.talisman-of-decay.name">Talisman of Decay</string>
+	<string name="item.talisman-of-decay.desc">Nearby enemies take %taken%% more damage.</string>
+
+	<string name="item.tower-shield.name">Tower Shield</string>
+	<string name="item.tower-shield.desc">%chance%% chance to Block %block% Physical damage.</string>
+
+	<string name="item.wand-of-spell-piercing.name">Wand of Spell Piercing</string>
+	<string name="item.wand-of-spell-piercing.desc">Magical damage ignore %pierce%% of the enemies Resistance.</string>
+
+
+	<!-- RARE -->
+
+
+	<string name="item.amulet-of-kings.name">Amulet of Kings</string>
+	<string name="item.amulet-of-kings.desc">+%res% Magic Resistance.</string>
+
+	<string name="item.amulet-of-vengeance.name">Amulet of Vengeance</string>
+	<string name="item.amulet-of-vengeance.desc">%chance%% to trigger Combo when taking damage.</string>
+
+	<string name="item.armor-of-kings.name">Armor of Kings</string>
+	<string name="item.armor-of-kings.desc">+%armor% Armor.</string>
+
+	<string name="item.cape-of-the-flamewalker.name">Cape of the Flamewalker</string>
+	<string name="item.cape-of-the-flamewalker.desc">Burns nearby enemies for %dmg% Magical damage per second.</string>
+
+	<string name="item.crown-of-kings.name">Crown of Kings</string>
+	<string name="item.crown-of-kings.desc">+%bonus%% Base Health and Mana.</string>
+
+	<string name="item.dragonscale-mail.name">Dragonscale Mail</string>
+	<string name="item.dragonscale-mail.desc">Take %taken%% less damage.</string>
+
+	<string name="item.duelists-edge.name">Duelist's Edge</string>
+	<string name="item.duelists-edge.desc">+%evasion%% Evasion. When evading an attack you return %dmg% Physical damage to the attacker and applies bleeding.</string>
+
+	<string name="item.earthsplitter.name">Earthsplitter</string>
+	<string name="item.earthsplitter.desc">%chance%% chance to release two earth spikes on your primary attack, dealing %dmg% Physical damage.</string>
+
+	<string name="item.flametongue.name">Flametongue</string>
+	<string name="item.flametongue.desc">+%dmg% Magical damage on Primary Attack. Primary attack also applies burning.</string>
+
+	<string name="item.frostbrand.name">Frostbrand</string>
+	<string name="item.frostbrand.desc">+%dmg% Magical damage on Primary Attack.  Primary attack also applies freezing.</string>
+
+	<string name="item.greater-sphere-of-nova.name">Greater Sphere of Nova</string>
+	<string name="item.greater-sphere-of-nova.desc">During Combo a greater nova is unleashed every second dealing %dmg% Magical damage.</string>
+
+	<string name="item.greater-sphere-of-regen.name">Greater Sphere of Regen</string>
+	<string name="item.greater-sphere-of-regen.desc">During combo you gain +%hregen% Health Regen and +%mregen% Mana Regen.</string>
+
+	<string name="item.heartseeker.name">Heartseeker</string>
+	<string name="item.heartseeker.desc">%chance%% chance to score a Critical Hit on Primary Attack.</string>
+
+	<string name="item.magebane.name">Magebane</string>
+	<string name="item.magebane.desc">%chance%% chance to lower enemies Resistance by %res%% for %sec% seconds on Primary Attack.</string>
+
+	<string name="item.ring-of-arcane-powers.name">Ring of Arcane Powers</string>
+	<string name="item.ring-of-arcane-powers.desc">Spells are %scost%% cheaper to cast.</string>
+
+	<string name="item.scepter-of-kings.name">Scepter of Kings</string>
+	<string name="item.scepter-of-kings.desc">+%spell% Skill Power.</string>
+
+	<string name="item.shieldbreaker.name">Shieldbreaker</string>
+	<string name="item.shieldbreaker.desc">%chance%% chance to lower enemies Armor by %armor%% for %sec% seconds on Primary Attack.</string>
+
+	<string name="item.sphere-of-champions.name">Sphere of Champions</string>
+	<string name="item.sphere-of-champions.desc">Increases Attack and Skill Power with %atk% during combo.</string>
+
+	<string name="item.staff-of-volatile-casting.name">Staff of Volatile Casting</string>
+	<string name="item.staff-of-volatile-casting.desc">%chance%% chance to score a Critical Hit with Spells.</string>
+
+	<string name="item.stormcaller.name">Stormcaller</string>
+	<string name="item.stormcaller.desc">%chance%% chance to release a chain lightning on your primary attack, dealing %dmg% Magical damage.</string>
+
+	<string name="item.sword-kings.name">Sword of Kings</string>
+	<string name="item.sword-kings.desc">+%atk% Attack Power.</string>
+
+	<string name="item.talisman-of-conflagration.name">Talisman of Conflagration</string>
+	<string name="item.talisman-of-conflagration.desc">Enemies have a %chance%% chance  to explode when killed dealing %dmg% Magical damage in a small area.</string>
+
+	<string name="item.wrath-of-the-thundergod.name">Wrath of the Thundergod</string>
+	<string name="item.wrath-of-the-thundergod.desc">Returns a lightning bolt to the attacker when hit, dealing %dmg% Magical damage.</string>
+
+
+
+
+
+
+	<!-- LEGENDARY -->
+
+
+	<string name="item.descending-destruction.name">Descending Destruction</string>
+	<string name="item.descending-destruction.desc">%chance%% chance to drop a meteor when scoring a hit with your Primary Attack.</string>
+
+	<string name="item.medusas-charm.name">Medusas Charm</string>
+	<string name="item.medusas-charm.desc">Enemies you look at are slowed by %slow%%. Enemies affected by the gaze that hit you are stunned for %stun% seconds.</string>
+
+	<string name="item.spirit-cloak.name">Spirit Cloak</string>
+	<string name="item.spirit-cloak.desc">When taking damage you turn invulnerable for %dur% seconds, with a cooldown of %sec% seconds.</string>
+
+	<string name="item.soul-taker.name">Soul Taker</string>
+	<string name="item.soul-taker.desc">When you kill an enemy, a random enemy of the same type is also killed.</string>
+
+	<!-- SETS -->
+
+
+	<string name="item.sets.fire-and-ice.name">Fire and Ice</string>
+	<string name="item.sets.fire-and-ice.desc">+%dmg% magical attack damage on primary attack</string>
+
+	<string name="item.sets.stones-of-midas.name">Stones of Midas</string>
+	<string name="item.sets.stones-of-midas.desc">+%gold% gold when killing an enemy</string>
+
+	<string name="item.sets.monster-brochure.name">Monster Brochure</string>
+	<string name="item.sets.monster-brochure.desc">+%dmg%% total damage</string>
+
+	<string name="item.sets.monster-encyclopedia.name">Monster Encyclopedia</string>
+	<string name="item.sets.monster-encyclopedia.desc">+%dmg%% total damage</string>
+
+	<string name="item.sets.kings-regalia.name">Kings Regalia</string>
+	<string name="item.sets.kings-regalia.desc">%speed%% faster attacks and skills</string>
+
+	<string name="item.sets.apothecarys-implements.name">Apothecary's Implements</string>
+	<string name="item.sets.apothecarys-implements.desc.1">+1 potion charge</string>
+	<string name="item.sets.apothecarys-implements.desc.2">%chance%% chance to refill a potion charge when killing an enemy</string>
+
+	<string name="item.sets.journeymans-outfit.name">Journeyman's Outfit</string>
+	<string name="item.sets.journeymans-outfit.desc.1">+%armor% armor</string>
+	<string name="item.sets.journeymans-outfit.desc.2">+%attack% attack power</string>
+	<string name="item.sets.journeymans-outfit.desc.3">%reduction%% damage reduction</string>
+
+	<string name="item.sets.disciples-arcana.name">Disciple's Arcana</string>
+	<string name="item.sets.disciples-arcana.desc.1">+%res% resistance</string>
+	<string name="item.sets.disciples-arcana.desc.2">+%skill% skill power</string>
+	<string name="item.sets.disciples-arcana.desc.3">spells are %cost%% cheaper to cast</string>
+
+	<string name="item.sets.spheres-of-power.name">Spheres of Power</string>
+	<string name="item.sets.spheres-of-power.desc.1">Lesser combo nova</string>
+	<string name="item.sets.spheres-of-power.desc.2">Combo nova</string>
+	<string name="item.sets.spheres-of-power.desc.3">Greater combo nova</string>
+
+	<string name="item.sets.tricksters-ensemble.name">Trickster's Ensemble</string>
+	<string name="item.sets.tricksters-ensemble.desc.1">Gain a movement speed bonus when evading</string>
+	<string name="item.sets.tricksters-ensemble.desc.2">%chance%% evasion</string>
+	<string name="item.sets.tricksters-ensemble.desc.3">Trigger combo when evading</string>
+
+
+
+	<!-- Dialogue -->
+
+
+	<!-- NPC Random Greetings -->
+
+	<string name="dialogue.town.npc.geneic.greeting.1Ra">Greetings!</string>
+	<string name="dialogue.town.npc.geneic.greeting.1Rb">Welcome!</string>
+	<string name="dialogue.town.npc.geneic.greeting.1Rc">Good Day!</string>
+	<string name="dialogue.town.npc.geneic.greeting.1Rd">Howdy!</string>
+	<string name="dialogue.town.npc.geneic.greeting.1Re">Salutation!</string>
+
+	<!-- NPC Woman1 Environment -->
+
+	<string name="dialogue.town.npc.generic.woman1.1Ra">Even if it's almost 10\nyears ago I remember\nthat you could see\nall the way to Sunspot!</string>
+	<string name="dialogue.town.npc.generic.woman1.1Rb">There used to be\nsuch a great view\nfrom up here.</string>
+	<string name="dialogue.town.npc.generic.woman1.2">Snow never stayed this\nfar into the summer, now it\nseems it never really melts.</string>
+	<string name="dialogue.town.npc.generic.woman1.3">It seems the bad\nweather originate from\nthe top of the tower.</string>
+	<string name="dialogue.town.npc.generic.woman1.4">I heard others tried to\nreach the top before,\nbut they never returned?</string>
+	<string name="dialogue.town.npc.generic.woman1.5a">Perhaps you will find\nwhat you are looking\nfor on top of the tower! (1)</string>
+	<string name="dialogue.town.npc.generic.woman1.5b">But be careful, it's\nprobably really slippery\nand cold up there. (2)</string>
+
+	<!-- NPC Man1 Locations -->
+
+	<string name="dialogue.town.npc.generic.man1.1">The Outlook used to be\nthe midway between the\nbigger Shaftlock mines\nand the desert below.</string>
+	<string name="dialogue.town.npc.generic.man1.2">Some of the worst\ncriminals in the realm\nhave been jailed in the\nTower prison.</string>
+	<string name="dialogue.town.npc.generic.man1.3Ra">Duke Delany was too lazy\nto walk all those stairs to\nthe top, so he just settled\naround the armory.</string>
+	<string name="dialogue.town.npc.generic.man1.3Rb">Duke 'Lazy' Delany\nis probably rotting\naway somewhere\nin the armory.</string>
+	<string name="dialogue.town.npc.generic.man1.4">No one really knows why\nthe great Archive of books\nwas built so maze-like...</string>
+	<string name="dialogue.town.npc.generic.man1.5">The Chamber floors were\nbuilt for the sitting Duke, but\nonly the first Duke actually\nlived up there.</string>
+	<string name="dialogue.town.npc.generic.man1.6">What did you ever find up there?\nRumor has it that a great beast\nhas taking a liking to the top, but\nyeah, that's just rumors.</string>
+
+	<!-- NPC Man2 Gambler -->
+
+	<string name="dialogue.town.npc.generic.man2.1Ra">The barkeep left to\ntry and find some\nore up in the Tower.</string>
+	<string name="dialogue.town.npc.generic.man2.1Rb">Crooked Wolfram left\ntrying to find material\nto open up his bar again.</string>
+	<string name="dialogue.town.npc.generic.man2.2Ra">Perhaps you can help\nWolfram open up his\nbar again?</string>
+	<string name="dialogue.town.npc.generic.man2.2Rb">The Old Drunkard\nused to have some\nsick gambling.</string>
+	<string name="dialogue.town.npc.generic.man2.3Ra">Heard about\nme? They call\nme The Player!</string>
+	<string name="dialogue.town.npc.generic.man2.3Rb">Hey, I'm a high\nroller, so don't\ntake me on!</string>
+	<string name="dialogue.town.npc.generic.man2.4Ra">You some kind\nof shill or what?</string>
+	<string name="dialogue.town.npc.generic.man2.4Rb">Don't count your\ncards in here son!</string>
+
+	<!-- NPC Woman2 Census -->
+
+	<string name="dialogue.town.npc.generic.woman2.name">Curious Old Bag</string>
+	<string name="dialogue.town.npc.generic.woman2.1a">Hi! I know everyone\naround these parts and\nthen some more.(1)</string>
+	<string name="dialogue.town.npc.generic.woman2.1b">The mayor, Michael Ross, is\nreally trying to get this\ntown back in order. (2)</string>
+	<string name="dialogue.town.npc.generic.woman2.1c">Lance Grey was selected by\nMichael as the town prefect\nbecause of his strong skills in\nadministration and organisation. (3)</string>
+	<string name="dialogue.town.npc.generic.woman2.1d">Smith John Barro apparently\nhad a troubling past before\nhe decided to join us up here. (4)</string>
+	<string name="dialogue.town.npc.generic.woman2.1e">I heard guild master Calhoun is\nsome kind of 'Ace' around the\nrealm, but you should already\nknow that I suppose? (5)</string>
+	<string name="dialogue.town.npc.generic.woman2.1f">Even though trader Darren Epps\nis a fair man, his prices could be\na bit up there. At least his keys\nstay the same price... (6)</string>
+	<string name="dialogue.town.npc.generic.woman2.1g">Elianda, a close friend of mine and\na great apothecary. She should be\naround here somewhere, if not,\nshe might have snuck into the\nmines to restock her supply. (7)</string>
+	<string name="dialogue.town.npc.generic.woman2.1h">Priest Quincy works here for the\nChurch of Light. You know, he\nused to work down at the Sun\nTemple, a long time ago. (8)</string>
+	<string name="dialogue.town.npc.generic.woman2.1i">RESERVED</string>
+	<string name="dialogue.town.npc.generic.woman2.1j">RESERVED</string>
+
+
+
+
+	<string name="dialogue.town.npc.generic.guard.1a">If you enter,\nthere's no\nturning back.</string>
+	<string name="dialogue.town.npc.generic.guard.1b">The entrance\nwill be barred\nfrom behind you.</string>
+
+	<string name="dialogue.town.npc.fountain.oaf.name">Dumb Oaf</string>
+	<string name="dialogue.town.npc.fountain.oaf.1a">Once this fountain\nused to be full of\nwater.</string>
+	<string name="dialogue.town.npc.fountain.oaf.1b">I used to throw a\ncoin or two into this.</string>
+	<string name="dialogue.town.npc.fountain.oaf.2a">The fountain works again!</string>
+	<string name="dialogue.town.npc.fountain.oaf.2b">I tossed a coin in there\nand it just disappeared!</string>
+	<string name="dialogue.town.npc.fountain.oaf.3a">I've thrown so much\nmoney into this now.</string>
+	<string name="dialogue.town.npc.fountain.oaf.3b">I'm almost bankrupt...</string>
+
+	<string name="dialogue.town.npc.generic.ace1.name">Revered Champ</string>
+	<string name="dialogue.town.npc.generic.ace1.1Ra">I'm not gonna enter\nthose mines.\nNo chance in hell.</string>
+	<string name="dialogue.town.npc.generic.ace1.1Rb">Yea, like I will ever\ntry and clear out\nthose mines.</string>
+	<string name="dialogue.town.npc.generic.ace1.2Ra">Hah, the prison is\nfull of undead!\nI'll be better just\nstaying here!</string>
+	<string name="dialogue.town.npc.generic.ace1.2Rb">I heard it's a real\nchore clearing out\nall the undead from\nthe tower prison!</string>
+	<string name="dialogue.town.npc.generic.ace1.3Ra">There's some real\nmenacing guard\nturrets up in the\narmory.</string>
+	<string name="dialogue.town.npc.generic.ace1.3Rb">I'd rather enter the\nmines than the armory,\nbut hey, that's just me!</string>
+	<string name="dialogue.town.npc.generic.ace1.4Ra">I know there's a lot to\nread up there, but that's\nnot a good reason for\nentering the archives.</string>
+	<string name="dialogue.town.npc.generic.ace1.4Rb">RESERVED</string>
+	<string name="dialogue.town.npc.generic.ace1.5Ra">I know Calhoun says it's\na cake walk up there in the\nchambers, but really, it's not!</string>
+	<string name="dialogue.town.npc.generic.ace1.5Rb">RESERVED</string>
+	<string name="dialogue.town.npc.generic.ace1.6Ra">Sadly killing the dragon\nis a task for no man, you\nshould just stay here in\ntown, safe - like me.</string>
+	<string name="dialogue.town.npc.generic.ace1.6Rb">RESERVED</string>
+
+
+
+
+
+
+	<!-- Mayor1 -->
+	<string name="dialogue.town.npc.mayor.name">Mayor Michael</string>
+	<string name="dialogue.town.npc.mayor.1a">Good Day young Novice, welcome to\nThe Outlook. We arrived here just a\nlittle while ago, to see if we could\nrestore the town to its old glory. (1)</string>
+	<string name="dialogue.town.npc.mayor.1b">See, around 10 years ago some evil\npresence took over the Tower and\nthe Keltonite Mines beneath it. (2)</string>
+	<string name="dialogue.town.npc.mayor.1c">Without access to the mines, the town\ncould not cope for long and it was\neventually abandoned. (3)</string>
+	<string name="dialogue.town.npc.mayor.1d">Now with the help from your guild I hope\nwe will be able to start restoring this area\nand eventually take the Tower back! (4)</string>
+	<string name="dialogue.town.npc.mayor.mines_enter.1Ra">It's a tough time for\neveryone right now...</string>
+	<string name="dialogue.town.npc.mayor.mines_enter.1Rb">These are rough\nand trying times...</string>
+	<string name="dialogue.town.npc.mayor.boss1_killed.1Ra">So you managed to slay the foul beast\ndeep inside the mines? That's great news.</string>
+	<string name="dialogue.town.npc.mayor.boss1_killed.1Rb">That stone golem you just offed has\nbeen killing miners for a long time now.</string>
+	<string name="dialogue.town.npc.mayor.boss2_killed.1Ra">The Warden used to be called Peter,\nno longer will he be tormenting\npeople with his crossbow arm.</string>
+	<string name="dialogue.town.npc.mayor.boss2_killed.1Rb">I heard you killed the big undead\nwith a crossbow, Warden Peter...</string>
+	<string name="dialogue.town.npc.mayor.boss3_killed.1Ra">Those wraiths you just killed were\nonce mighty warriors that stood by\nDuke Delanys side, protecting him.</string>
+	<string name="dialogue.town.npc.mayor.boss3_killed.1Rb">You entered the resting place of the Dukes\nmost formidable warriors and slayed them?</string>
+	<string name="dialogue.town.npc.mayor.boss4_killed.1Ra">Where all these strange creatures came from\nwe don't know. And that altar should not\nhave summoned that beast.</string>
+	<string name="dialogue.town.npc.mayor.boss4_killed.1Rb">Pierced the big eye have we? You are\nalmost at the top of the tower now son.</string>
+	<string name="dialogue.town.npc.mayor.boss5_killed.1Ra">RESERVED</string>
+	<string name="dialogue.town.npc.mayor.boss5_killed.1Rb">RESERVED</string>
+
+
+
+	<!-- Guard Marlod 1 -->
+	<string name="dialogue.town.npc.mayor_guard1.name">Guard Marlod</string>
+	<string name="dialogue.town.npc.mayor_guard1.1Ra">Can you enter the mines\nand help us clear it out?</string>
+	<string name="dialogue.town.npc.mayor_guard1.1Rb">Are you strong enough to enter\nand clear out the mines for us?</string>
+	<string name="dialogue.town.npc.mayor_guard1.1Rc">Could you perhaps assist\nus in retaking the mines?</string>
+
+	<!-- Guildmaster Les "Ace" Calhoun -->
+	<string name="dialogue.town.npc.guildmaster.name">Guild Master Calhoun</string>
+	<string name="dialogue.town.npc.guildmaster.1Ra">If you help me rebuild the Guild Hall,\nI'll train you, for a fee of course.\nIt should be in your own interest,\nas a member of this guild.</string>
+
+	<!-- Prefect Lance Grey -->
+	<string name="dialogue.town.npc.prefect.name">Prefect Grey</string>
+	<string name="dialogue.town.npc.prefect.1Ra">I'm in charge of distributing ore\namongst the merchants around here.\nFeel free to point me in the direction\nyou feel would benefit you the most.</string>
+
+	<!-- Darren the Supplier -->
+	<string name="dialogue.town.npc.shopkeep.name">Darren, the Supplier</string>
+	<string name="dialogue.town.npc.shopkeep.1Ra">Hey, name's Darren Epps.\nIt's all about supply and demand\nand right now the demand is high\nand supply is low, so better pay up.</string>
+
+
+
+
+
+	<string name="dialogue.town.npc.townhall.guard1a">The prefect will help\nyou invest any ore\nyou may have.</string>
+
+	<string name="dialogue.town.npc.chapel.man1.1a">Hey, you're not\nthe priest...</string>
+	<string name="dialogue.town.npc.chapel.man1.1b">I hope the priest\nreturns soon!</string>
+	<string name="dialogue.town.npc.chapel.man1.1c">The priest left\na while ago.</string>
+
+	<string name="dialogue.town.npc.smith.name">Smith Barro</string>
+	<string name="dialogue.town.npc.smith.1a">I would love to\nenhance your weapon,\nbut I'm missing ore.</string>
+
+	<string name="dialogue.town.npc.apothecary.name">Elianda</string>
+	<string name="dialogue.town.npc.apothecary.0a">Hey! Got trapped in here trying to refill\nmy supply by this magic spring.\nDon't forget to fill your own flask and\nI hope you visit me back in town.</string>
+
+	<string name="dialogue.town.npc.apothecary.1a">Mixing potions is my speciality,\nbut I'm missing ore.</string>
+
+	<string name="dialogue.town.npc.oretrader.name">Miner Oliver</string>
+	<string name="dialogue.town.npc.oretrader.1a">Get me out of this hell hole!</string>
+	<string name="dialogue.town.npc.oretrader.1b">Thanks for saving me!\nHelp yourself to this ore, you can use the elevator to deliver it to town.</string>
+
+	<string name="dialogue.town.npc.thief.name">Crooked Wolfram</string>
+	<string name="dialogue.town.npc.thief.1Ra">Hey\nYou!</string>
+	<string name="dialogue.town.npc.thief.1Rb">Over\nhere!</string>
+	<string name="dialogue.town.npc.thief.2">Thanks a lot! I hope\nI'll see you around\nthe town!</string>
+	<string name="dialogue.town.npc.thief.3a">I have convinced the\nmayor to open up the\ntavern again. (1)</string>
+	<string name="dialogue.town.npc.thief.3b">But I have no ore,\nperhaps you can provide\nsome to Prefect Grey? (2)</string>
+	<string name="dialogue.town.npc.thief.4">Why don't you try your\nluck in any of our fine\ngames? But don't get\ntoo attached will ya?</string>
+
+
+
+
+	<string name="dialogue.town.npc.wizard.name">Elzbet</string>
+	<string name="dialogue.town.npc.wizard.1Ra">I see...</string>
+	<string name="dialogue.town.npc.wizard.1Rb">Finally...</string>
+	<string name="dialogue.town.npc.wizard.2a">I was looking for some old\nring that might have been\nin the Dukes position, but\nI couldn't find it, strange. (1)</string>
+	<string name="dialogue.town.npc.wizard.2b">Anyway, thanks for clearing\na path for me out of here, I\nwas trying to find a teleport\nspell in this book, but it seems\nsomeone ripped out the chapter. (2)</string>
+	<string name="dialogue.town.npc.wizard.2c">I'm returning to my shop\nnow. I hope I will see you\nthere, I'm a real wiz when\nit comes to spellcraft! (3)</string>
+	<string name="dialogue.town.npc.wizard.3a">Thanks for rescuing\nme, but we still need\nto restore the shop.\nTalk to the prefect\nabout that perhaps?</string>
+	<string name="dialogue.town.npc.wizard.3b">Prefect Grey might\nnot want to allocate\nresources to repair\nthis building until\nthe Town Hall is at\na better stage.</string>
+	<string name="dialogue.town.npc.wizard.4">I'll gladly help a fellow\nspellcaster out, but I\nkinda need to charge\nyou for it, ok?</string>
+
+	<!-- Signs -->
+	<string name="dialogue.sign.chapel">Chapter\nof Light</string>
+	<string name="dialogue.sign.townhall">Town Hall</string>
+	<string name="dialogue.sign.guild">The Broken\nAce</string>
+	<string name="dialogue.sign.tavern">The Old\nDrunkard</string>
+	<string name="dialogue.sign.magic">The Pointy\nHat</string>
+	<string name="dialogue.sign.general">Darren's\nSupplies</string>
+	<string name="dialogue.sign.mines">Outlook\nMines</string>
+	<string name="dialogue.doll.normal">Looks\nplain</string>
+	<string name="dialogue.doll.armor">Looks\narmored</string>
+	<string name="dialogue.doll.magic">Looks\nmagical</string>
+
+	<!-- Player -->
+	<string name="dialogue.player.mines_entrance.1Ra">It's barred...</string>
+	<string name="dialogue.player.mines_entrance.1Rb">Won't budge...</string>
+
+	<string name="dialogue.player.painting.2">That's one\ndepressing\npainting...</string>
+
+	<string name="dialogue.player.closed.1Ra">Seems\nclosed.</string>
+	<string name="dialogue.player.closed.1Rb">The Door\nis locked.</string>
+	<string name="dialogue.player.closed.1Rc">Can't go\nin there...</string>
+
+	<string name="dialogue.player.apothecary">These pots\nlooks empty...</string>
+
+	<string name="dialogue.player.books.1">This collection\nof books is not\nvery impressive.</string>
+
+	<string name="dialogue.player.theduke">Looks like Duke\nDelany died in\nhorrible agony.</string>
+
+
+
+	<!-- Guild Hall -->
+
+
+	<!-- Guild Hall Screen -->
+	<string name="guildhall.title">GUILD HALL</string>
+	<string name="guildhall.tab.stats">GUILD & HEROES</string>
+	<string name="guildhall.tab.accomplishments">ACCOMPLISHMENTS</string>
+	<string name="guildhall.tab.beastiary">BESTIARY</string>
+	<string name="guildhall.stats.guildtitle">%title% GUILD</string>
+	<string name="guildhall.stats.lifetime">LIFETIME</string>
+	<string name="guildhall.stats.classtitles">CLASS TITLES</string>
+	<string name="guildhall.stats.armor">+%amount% armor to all heroes</string>
+	<string name="guildhall.stats.resistance">+%amount% resistance to all heroes</string>
+	<string name="guildhall.stats.attackpower">+%amount% attack power to all heroes</string>
+	<string name="guildhall.stats.spellpower">+%amount% spell power to all heroes</string>
+	<string name="guildhall.stats.healthregen">+%amount% health regen to all heroes</string>
+	<string name="guildhall.stats.manaregen">+%amount% mana regen to all heroes</string>
+	<string name="guildhall.stats.goldgain">+%amount% gold gained by all heroes</string>
+
+	<!-- Guild Titles -->
+	<string name="titles.guild-0">Unknown</string>
+	<string name="titles.guild-1">Recognized</string>
+	<string name="titles.guild-2">Acknowledged</string>
+	<string name="titles.guild-3">Respected</string>
+	<string name="titles.guild-4">Memorable</string>
+	<string name="titles.guild-5">Prominent</string>
+	<string name="titles.guild-6">Distinguished</string>
+	<string name="titles.guild-7">Famous</string>
+	<string name="titles.guild-8">Acclaimed</string>
+	<string name="titles.guild-9">Illustrious</string>
+	<string name="titles.guild-10">Celebrated</string>
+	<string name="titles.guild-11">Glorious</string>
+	<string name="titles.guild-12">Exalted</string>
+	<string name="titles.guild-13">Fabled</string>
+	<string name="titles.guild-14">Legendary</string>
+
+	<!-- Class Titles -->
+	<string name="titles.shared-0">Novice</string>
+	<string name="titles.shared-1">Apprentice</string>
+	<string name="titles.shared-2a">Disciple</string>
+	<string name="titles.shared-2b">Journeyman</string>
+
+	<string name="titles.paladin-3">Squire</string>
+	<string name="titles.paladin-4">Champion</string>
+	<string name="titles.paladin-5">Defender</string>
+	<string name="titles.paladin-6">Crusader</string>
+	<string name="titles.paladin-7">Templar</string>
+	<string name="titles.paladin-8">Lightbringer</string>
+
+	<string name="titles.priest-3">Zealot</string>
+	<string name="titles.priest-4">Patriarch</string>
+	<string name="titles.priest-5">Bishop</string>
+	<string name="titles.priest-6">Archbishop</string>
+	<string name="titles.priest-7">Cardinal</string>
+	<string name="titles.priest-8">Pope</string>
+
+	<string name="titles.ranger-3">Scout</string>
+	<string name="titles.ranger-4">Hunter</string>
+	<string name="titles.ranger-5">Pathfinder</string>
+	<string name="titles.ranger-6">Warden</string>
+	<string name="titles.ranger-7">Sentinel</string>
+	<string name="titles.ranger-8">Guardian</string>
+
+	<string name="titles.sorcerer-3">Arcanist</string>
+	<string name="titles.sorcerer-4">Enchanter</string>
+	<string name="titles.sorcerer-5">Elementalist</string>
+	<string name="titles.sorcerer-6">Channeler</string>
+	<string name="titles.sorcerer-7">Evoker</string>
+	<string name="titles.sorcerer-8">Spellbinder</string>
+
+	<string name="titles.thief-3">Bandit</string>
+	<string name="titles.thief-4">Rogue</string>
+	<string name="titles.thief-5">Brigand</string>
+	<string name="titles.thief-6">Ruffian</string>
+	<string name="titles.thief-7">Infiltrator</string>
+	<string name="titles.thief-8">Assassin</string>
+
+	<string name="titles.warlock-3">Ritualist</string>
+	<string name="titles.warlock-4">Occultist</string>
+	<string name="titles.warlock-5">Conjurer</string>
+	<string name="titles.warlock-6">Diabolist</string>
+	<string name="titles.warlock-7">Netherlord</string>
+	<string name="titles.warlock-8">Deathlord</string>
+
+	<string name="titles.wizard-3">Scholar</string>
+	<string name="titles.wizard-4">Seer</string>
+	<string name="titles.wizard-5">Sage</string>
+	<string name="titles.wizard-6">Magus</string>
+	<string name="titles.wizard-7">Battlemage</string>
+	<string name="titles.wizard-8">Archmage</string>
+
+	<!-- bestiary -->
+	<string name="bestiary.type.beast">BEASTS</string>
+	<string name="bestiary.type.undead">UNDEAD</string>
+	<string name="bestiary.type.aberration">ABERRATIONS</string>
+	<string name="bestiary.type.construct">CONSTRUCTS</string>
+
+	<string name="bestiary.name.bosses.golem">Stone Guardian</string>
+	<string name="bestiary.name.bosses.warden">The Warden</string>
+	<string name="bestiary.name.bosses.wraith_scythe">Councilor of War</string>
+	<string name="bestiary.name.bosses.wraith_staff">Councilor of Wisdom</string>
+	<string name="bestiary.name.bosses.wraith_mage">Councilor of Magic</string>
+	<string name="bestiary.name.bosses.eye">Watcher</string>
+	<string name="bestiary.name.bosses.dragon">Thundersnow</string>
+	<string name="bestiary.name.spawner_archer_1">Skeleton Archer Pit</string>
+	<string name="bestiary.name.spawner_archer_2">Skeleton Archer Pit II</string>
+	<string name="bestiary.name.spawner_bats">Rotten Stump</string>
+	<string name="bestiary.name.spawner_eye">Mother Eye</string>
+	<string name="bestiary.name.spawner_maggot">Maggot Incubator</string>
+	<string name="bestiary.name.spawner_skeleton_1">Skeleton Pit</string>
+	<string name="bestiary.name.spawner_skeleton_2">Guardian Pit</string>
+	<string name="bestiary.name.spawner_tick">Tick Nest</string>
+	<string name="bestiary.name.spawner_wisp">Tree of Silence</string>
+	<string name="bestiary.name.banner_bloodlust">Bloodlust Banner</string>
+	<string name="bestiary.name.banner_healing">Healing Banner</string>
+	<string name="bestiary.name.banner_protection">Protection Banner</string>
+	<string name="bestiary.name.bannerman_bloodlust">Bloodlust Bannerman</string>
+	<string name="bestiary.name.bannerman_healing">Healing Bannerman</string>
+	<string name="bestiary.name.bannerman_protection">Protection Bannerman</string>
+	<string name="bestiary.name.bat_1">Bat</string>
+	<string name="bestiary.name.bat_2">Fierce Bat</string>
+	<string name="bestiary.name.bat_3">Albino Bat</string>
+	<string name="bestiary.name.battlemage">Battlemage</string>
+	<string name="bestiary.name.elemental_ice_sword">Ice Elemental</string>
+	<string name="bestiary.name.elemental_ice_ranged">Ranged Ice Elemental</string>
+	<string name="bestiary.name.eye_1">Eye</string>
+	<string name="bestiary.name.eye_1_mb">Monstrous Eye</string>
+	<string name="bestiary.name.eye_1_small">Small Eye</string>
+	<string name="bestiary.name.ghost_paladin">Fallen Paladin</string>
+	<string name="bestiary.name.ghost_priest">Fallen Priest</string>
+	<string name="bestiary.name.ghost_ranger">Fallen Ranger</string>
+	<string name="bestiary.name.ghost_sorcerer">Fallen Sorcerer</string>
+	<string name="bestiary.name.ghost_thief">Fallen Thief</string>
+	<string name="bestiary.name.guardian_1">Guardian Berzerker</string>
+	<string name="bestiary.name.lich_1">Lich</string>
+	<string name="bestiary.name.lich_elite">Elite Lich</string>
+	<string name="bestiary.name.lich_mb">Arch-Lich</string>
+	<string name="bestiary.name.lich_frost">Frost Lich</string>
+	<string name="bestiary.name.lich_summ_1">Ghostcaller</string>
+	<string name="bestiary.name.archer_1">Skeleton Bowman</string>
+	<string name="bestiary.name.archer_1_elite">Elite Skeleton Bowman</string>
+	<string name="bestiary.name.archer_2">Skeleton Marksman</string>
+	<string name="bestiary.name.skeleton_1">Skeleton Soldier</string>
+	<string name="bestiary.name.skeleton_1_elite">Skeleton Warrior</string>
+	<string name="bestiary.name.skeleton_1_mb">Skeleton Captain</string>
+	<string name="bestiary.name.skeleton_1_small">Skeleton Footman</string>
+	<string name="bestiary.name.skeleton_2">Skeleton Guardian</string>
+	<string name="bestiary.name.skeleton_2_elite">Elite Skeleton Guardian</string>
+	<string name="bestiary.name.skeleton_2_small">Skeleton Guardian</string>
+	<string name="bestiary.name.skeleton_1_spear">Skeleton Spearman</string>
+	<string name="bestiary.name.skeleton_2_spear">Strong Skeleton Spearman</string>
+	<string name="bestiary.name.maggot_1">Maggot</string>
+	<string name="bestiary.name.maggot_1_elite">Spined Maggot</string>
+	<string name="bestiary.name.maggot_1_mb">Massive Maggot</string>
+	<string name="bestiary.name.maggot_1_small">Baby Maggot</string>
+	<string name="bestiary.name.tick_1">Tick</string>
+	<string name="bestiary.name.tick_1_elite">Spiked Tick</string>
+	<string name="bestiary.name.tick_1_small">Kid Tick</string>
+	<string name="bestiary.name.tick_1_small_exploding">Jumper</string>
+	<string name="bestiary.name.tick_1_mb">Massive Tick</string>
+	<string name="bestiary.name.tower_battlement_archer_1">Manned Battlement</string>
+	<string name="bestiary.name.tower_battlement_archer_1_elite">Elite Manned Battlement</string>
+	<string name="bestiary.name.tower_battlement_empty">Empty Battlement</string>
+	<string name="bestiary.name.tower_beamo">Beamo Pillar</string>
+	<string name="bestiary.name.tower_flower_1">Man Eater</string>
+	<string name="bestiary.name.tower_flower_2">Big Man Eater</string>
+	<string name="bestiary.name.tower_nova_1">Nova Tower</string>
+	<string name="bestiary.name.tower_nova_2">Strong Nova Tower</string>
+	<string name="bestiary.name.trapper">Trapper</string>
+	<string name="bestiary.name.wisp_1">Blue Wisp</string>
+	<string name="bestiary.name.wisp_1_small">Green Wisp</string>
+	<string name="bestiary.name.wisp_2">Red Wisp</string>
+
+
+
+	<!-- Accomplishments -->
+
+
+	<string name="guildhall.accomplishments.bosses">BOSSES</string>
+	<string name="guildhall.accomplishments.boss-1">STONE GUARDIAN</string>
+	<string name="guildhall.accomplishments.boss-2">WARDEN</string>
+	<string name="guildhall.accomplishments.boss-3">THE THREE WRAITHS</string>
+	<string name="guildhall.accomplishments.boss-4">WATCHER</string>
+	<string name="guildhall.accomplishments.boss-5">THUNDERSNOW</string>
+
+	<string name="accomplishment.boss-1-killed-class.name">Bringers of Hope %lvl%</string>
+	<string name="accomplishment.boss-1-killed-class.desc">Kill the 1st Boss with %requirement% different classes.</string>
+
+	<string name="accomplishment.boss-2-killed-class.name">Breakers of Chains %lvl%</string>
+	<string name="accomplishment.boss-2-killed-class.desc">Kill the 2nd Boss with %requirement% different classes.</string>
+
+	<string name="accomplishment.boss-3-killed-class.name">Abolishers of Evil %lvl%</string>
+	<string name="accomplishment.boss-3-killed-class.desc">Kill the 3rd Boss with %requirement% different classes.</string>
+
+	<string name="accomplishment.boss-4-killed-class.name">Establishers of Order %lvl%</string>
+	<string name="accomplishment.boss-4-killed-class.desc">Kill the 4th Boss with %requirement% different classes.</string>
+
+	<string name="accomplishment.boss-5-killed-class.name">Restorers of Peace %lvl%</string>
+	<string name="accomplishment.boss-5-killed-class.desc">Kill the 5th Boss with %requirement% different classes.</string>
+
+	<string name="accomplishment.aberration-killed.name">Excorcists %lvl%</string>
+	<string name="accomplishment.aberration-killed.desc">Kill %requirement% Aberrations.</string>
+
+	<string name="accomplishment.beast-killed.name">Beast Slayers %lvl%</string>
+	<string name="accomplishment.beast-killed.desc">Kill %requirement% Beasts.</string>
+
+	<string name="accomplishment.construct-killed.name">Demolishers %lvl%</string>
+	<string name="accomplishment.construct-killed.desc">Destroy %requirement% Constructs.</string>
+
+	<string name="accomplishment.undead-killed.name">Sanctifiers %lvl%</string>
+	<string name="accomplishment.undead-killed.desc">Kill %requirement% Undead.</string>
+
+	<string name="accomplishment.enemies-killed.name">Killers %lvl%</string>
+	<string name="accomplishment.enemies-killed.desc">Kill %requirement% enemies.</string>
+
+	<string name="accomplishment.spent-mana.name">Spellcasters %lvl%</string>
+	<string name="accomplishment.spent-mana.desc">Spend %requirement% of mana.</string>
+
+	<string name="accomplishment.spent-gold.name">Big Spenders %lvl%</string>
+	<string name="accomplishment.spent-gold.desc">Spend %requirement% gold.</string>
+
+	<string name="accomplishment.gold-found.name">Gold Diggers %lvl%</string>
+	<string name="accomplishment.gold-found.desc">Find %requirement% gold.</string>
+
+	<string name="accomplishment.ore-found.name">Miners %lvl%</string>
+	<string name="accomplishment.ore-found.desc">Find %requirement% ore.</string>
+
+	<string name="accomplishment.best-combo.name">Combo Streakers %lvl%</string>
+	<string name="accomplishment.best-combo.desc">Chain a combo of %requirement% kills.</string>
+
+	<string name="accomplishment.items-bought.name">Shoppers %lvl%</string>
+	<string name="accomplishment.items-bought.desc">Buy %requirement% items.</string>
+
+	<string name="accomplishment.items-picked-common.name">Common Looters %lvl%</string>
+	<string name="accomplishment.items-picked-common.desc">Find %requirement% Common items.</string>
+
+	<string name="accomplishment.items-picked-uncommon.name">Uncommon Looters %lvl%</string>
+	<string name="accomplishment.items-picked-uncommon.desc">Find %requirement% Uncommon items.</string>
+
+	<string name="accomplishment.items-picked-rare.name">Rare Looters %lvl%</string>
+	<string name="accomplishment.items-picked-rare.desc">Find %requirement% Rare items.</string>
+
+	<string name="accomplishment.items-picked-legendary.name">Legendary Looters %lvl%</string>
+	<string name="accomplishment.items-picked-legendary.desc">Find %requirement% Legendary items.</string>
+
+	<string name="accomplishment.sets-completed.name">Collectors %lvl%</string>
+	<string name="accomplishment.sets-completed.desc">Complete %requirement% item sets.</string>
+
+	<string name="accomplishment.damage-dealt-max.name">Heavy Hitters %lvl%</string>
+	<string name="accomplishment.damage-dealt-max.desc">Deal %requirement% in a single damage instance.</string>
+
+	<string name="accomplishment.damage-dealt-physical.name">Warriors %lvl%</string>
+	<string name="accomplishment.damage-dealt-physical.desc">Deal %requirement% Physical damage.</string>
+
+	<string name="accomplishment.damage-dealt-magical.name">Mages %lvl%</string>
+	<string name="accomplishment.damage-dealt-magical.desc">Deal %requirement% Magical damage.</string>
+
+	<string name="accomplishment.chest-used-0.name">Bronze Chest Pillagers %lvl%</string>
+	<string name="accomplishment.chest-used-0.desc">Open %requirement% Bronze chests.</string>
+
+	<string name="accomplishment.chest-used-1.name">Silver Chest Pillagers %lvl%</string>
+	<string name="accomplishment.chest-used-1.desc">Open %requirement% Silver chests.</string>
+
+	<string name="accomplishment.chest-used-2.name">Gold Chest Pillagers %lvl%</string>
+	<string name="accomplishment.chest-used-2.desc">Open %requirement% Gold chests.</string>
+
+	<string name="accomplishment.chest-used-3.name">Ace Chest Pillagers %lvl%</string>
+	<string name="accomplishment.chest-used-3.desc">Open %requirement% Ace chests.</string>
+
+	<string name="accomplishment.max-level-paladin.name">Knights Chapter %lvl%</string>
+	<string name="accomplishment.max-level-paladin.desc">Reach level %requirement% with a Paladin.</string>
+
+	<string name="accomplishment.max-level-priest.name">Holy Order %lvl%</string>
+	<string name="accomplishment.max-level-priest.desc">Reach level %requirement% with a Priest.</string>
+
+	<string name="accomplishment.max-level-ranger.name">Hunters Lodge %lvl%</string>
+	<string name="accomplishment.max-level-ranger.desc">Reach level %requirement% with a Ranger.</string>
+
+	<string name="accomplishment.max-level-sorcerer.name">Magicians Circle %lvl%</string>
+	<string name="accomplishment.max-level-sorcerer.desc">Reach level %requirement% with a Sorcerer.</string>
+
+	<string name="accomplishment.max-level-thief.name">Thieves Den %lvl%</string>
+	<string name="accomplishment.max-level-thief.desc">Reach level %requirement% with a Thief.</string>
+
+	<string name="accomplishment.max-level-warlock.name">Mystic Cult %lvl%</string>
+	<string name="accomplishment.max-level-warlock.desc">Reach level %requirement% with a Warlock.</string>
+
+	<string name="accomplishment.max-level-wizard.name">Arcane League %lvl%</string>
+	<string name="accomplishment.max-level-wizard.desc">Reach level %requirement% with a Wizard.</string>
+
+	<string name="accomplishment.lifesteal-amount.name">Blood Hunters %lvl%</string>
+	<string name="accomplishment.lifesteal-amount.desc">Gain %requirement% health by lifestealing.</string>
+
+	<string name="accomplishment.stun-count.name">Bashers %lvl%</string>
+	<string name="accomplishment.stun-count.desc">Stun %requirement% enemies.</string>
+
+	<string name="accomplishment.crit-count.name">Critical Hitters %lvl%</string>
+	<string name="accomplishment.crit-count.desc">Score %requirement% Critical hits.</string>
+
+	<string name="accomplishment.damage-blocked.name">Blockers %lvl%</string>
+	<string name="accomplishment.damage-blocked.desc">Block %requirement% amount of damage.</string>
+
+	<string name="accomplishment.damage-returned.name">Revengers %lvl%</string>
+	<string name="accomplishment.damage-returned.desc">Return %requirement% amount of damage.</string>
+
+	<string name="accomplishment.evade-amount.name">Dodgers %lvl%</string>
+	<string name="accomplishment.evade-amount.desc">Evade %requirement% attacks.</string>
+
+	<string name="accomplishment.amount-healed.name">Physicians %lvl%</string>
+	<string name="accomplishment.amount-healed.desc">Heal for %requirement% health.</string>
+
+	<string name="accomplishment.amount-healed-pickups.name">Gourmands %lvl%</string>
+	<string name="accomplishment.amount-healed-pickups.desc">Heal for %requirement% by health pickups.</string>
+
+	<string name="accomplishment.elevator-used.name">Dispatchers %lvl%</string>
+	<string name="accomplishment.elevator-used.desc">Use an elevator %requirement% times.</string>
+
+	<string name="accomplishment.fountain-used.name">Coin Tossers %lvl%</string>
+	<string name="accomplishment.fountain-used.desc">Use the fountain %requirement% times.</string>
+
+	<string name="accomplishment.well-used.name">Replenishers %lvl%</string>
+	<string name="accomplishment.well-used.desc">Use a well %requirement% times.</string>
+
+	<string name="accomplishment.potion-charges-used.name">Potion Gulpers %lvl%</string>
+	<string name="accomplishment.potion-charges-used.desc">Use the potion %requirement% times.</string>
+
+	<string name="accomplishment.blessings-purchased.name">Divine Favors %lvl%</string>
+	<string name="accomplishment.blessings-purchased.desc">Buy %requirement% blessings from the Chapel.</string>
+
+	<string name="accomplishment.buildings-purchased.name">Builders %lvl%</string>
+	<string name="accomplishment.buildings-purchased.desc">Buy %requirement% building upgrades.</string>
+
+	<string name="accomplishment.upgrades-bought.name">Upgraders %lvl%</string>
+	<string name="accomplishment.upgrades-bought.desc">Buy %requirement% character upgrades.</string>
+
+	<string name="accomplishment.gambling-gold-won.name">High Rollers %lvl%</string>
+	<string name="accomplishment.gambling-gold-won.desc">Win %requirement% gold by gambling.</string>
+
+	<string name="accomplishment.floors-visited.name">Explorers %lvl%</string>
+	<string name="accomplishment.floors-visited.desc">Reach %requirement% new floors.</string>
+
+	<string name="accomplishment.units-traveled.name">Wanderers %lvl%</string>
+	<string name="accomplishment.units-traveled.desc">Walk for %requirement% meters.</string>
+
+	<string name="accomplishment.secrets-found.name">Detectives %lvl%</string>
+	<string name="accomplishment.secrets-found.desc">Find %requirement% secrets.</string>
+
+
+
+</lang>
