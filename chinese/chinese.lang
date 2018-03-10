@@ -1276,10 +1276,10 @@
 	<string name="shop.chapel.blessing.resistance-pierce.desc">魔法伤害无视敌人%pierce%%魔法抗性.</string>
 
 	<string name="shop.chapel.symbol.attack-crit.name">力量勋章</string>
-	<string name="shop.chapel.symbol.attack-crit.desc">普通攻击伤害增加%damage%%.</string>
+	<string name="shop.chapel.symbol.attack-crit.desc">暴击伤害增加%damage%%.</string>
 
 	<string name="shop.chapel.symbol.lifesteal.name">生命勋章</string>
-	<string name="shop.chapel.symbol.lifesteal.desc">普通攻击增加%lsteal%%生命值.</string>
+	<string name="shop.chapel.symbol.lifesteal.desc">普通攻击附加%lsteal%%吸血.</string>
 
 	<string name="shop.chapel.symbol.return-damage.name">报复勋章</string>
 	<string name="shop.chapel.symbol.return-damage.desc">当被击中时对攻击者造成%return%%伤害.</string>
