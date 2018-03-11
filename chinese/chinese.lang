@@ -1787,7 +1787,7 @@
 	<string name="item.cape-of-withdrawal.desc">被敌人击中时获得%dur%秒提升%mspeed%%的移动速度buff.</string>
 
 	<string name="item.circlet-of-willpower.name">毅力戒指</string>
-	<string name="item.circlet-of-willpower.desc">当生命值低于%health%%生命值, 降低%scost%%施法消耗.</string>
+	<string name="item.circlet-of-willpower.desc">当生命值低于%health%%时, 降低%scost%%施法消耗.</string>
 
 	<string name="item.chainmail.name">锁子甲</string>
 	<string name="item.chainmail.desc">护甲 +%armor%.</string>
@@ -1823,7 +1823,7 @@
 	<string name="item.lesser-sphere-of-mana.desc">连杀期间 +%mregen% 法力回复率.</string>
 
 	<string name="item.lesser-sphere-of-nova.name">小新星宝珠</string>
-	<string name="item.lesser-sphere-of-nova.desc">连杀期间释放新星每秒增加 %dmg% 魔法伤害.</string>
+	<string name="item.lesser-sphere-of-nova.desc">连杀期间，向四周释放新星爆发冲击波，每秒一次，造成%dmg%魔法伤害.</string>
 
 	<string name="item.life-stone.name">生命之石</string>
 	<string name="item.life-stone.desc">击杀敌人%chance%%几率回复1生命值.</string>
@@ -1835,7 +1835,7 @@
 	<string name="item.mage-robe.desc">+%mana% 法力上限.</string>
 
 	<string name="item.mana-stone.name">魔法之石</string>
-	<string name="item.mana-stone.desc">击杀敌人%chance%%几率回复1魔法值.</string>
+	<string name="item.mana-stone.desc">击杀敌人时，%chance%%几率回复1魔法值.</string>
 
 	<string name="item.monster-pamphlet-aberration.name">怪物手册: 变异生物</string>
 	<string name="item.monster-pamphlet-aberration.desc">对变异生物 +%exp%% 经验获得和 +%dmg%% 伤害值.</string>
@@ -1889,10 +1889,10 @@
 	<string name="item.vendors-coin.desc">在商店购买便宜%price%%.</string>
 
 	<string name="item.war-axe.name">战斧</string>
-	<string name="item.war-axe.desc">普通攻击+%dmg%物理伤害.</string>
+	<string name="item.war-axe.desc">普通攻击附加%dmg%点物理伤害.</string>
 
 	<string name="item.wizards-wand.name">法师之杖</string>
-	<string name="item.wizards-wand.desc">普通攻击+%dmg% 魔法伤害.</string>
+	<string name="item.wizards-wand.desc">普通攻击附加%dmg% 点魔法伤害.</string>
 
 	<!-- UNCOMMON -->
 
@@ -1901,7 +1901,7 @@
 	<string name="item.adventurers-garb.desc">+%health% 生命上限和 +%mana% 法力上限.</string>
 
 	<string name="item.apothecarys-mortar-pestle.name">药剂师的研钵和杵</string>
-	<string name="item.apothecarys-mortar-pestle.desc">饮用药剂增加5秒 %eff%%护甲和魔法抗性效果.</string>
+	<string name="item.apothecarys-mortar-pestle.desc">饮用药剂后，获得5秒 %eff%%护甲和魔法抗性提升.</string>
 
 	<string name="item.apothecarys-satchel.name">药剂师的背包</string>
 	<string name="item.apothecarys-satchel.desc">药剂效果增益%eff%%.</string>
@@ -1919,13 +1919,13 @@
 	<string name="item.bloodthirst-ring.desc">普通攻击时吸取伤害量%lsteal%% 的生命值.</string>
 
 	<string name="item.claymore.name">大剑</string>
-	<string name="item.claymore.desc">普通攻击+%atk%物攻和+%dmg% 物理伤害.</string>
+	<string name="item.claymore.desc">普通攻击+%atk%攻击力和+%dmg% 物理伤害.</string>
 
 	<string name="item.cloak-of-many-pockets.name">多袋斗篷</string>
 	<string name="item.cloak-of-many-pockets.desc">你获得金币增加%gold%%.</string>
 
 	<string name="item.elven-bow.name">精灵弓</string>
-	<string name="item.elven-bow.desc">+%atk% 物攻.</string>
+	<string name="item.elven-bow.desc">+%atk% 攻击力.</string>
 
 	<string name="item.fancy-plume.name">华丽羽毛</string>
 	<string name="item.fancy-plume.desc">商店将出售更多的商品.</string>
@@ -1955,16 +1955,16 @@
 	<string name="item.old-map.desc">消除地图上的战争迷雾.</string>
 
 	<string name="item.rapier-of-retaliation.name">回馈之剑</string>
-	<string name="item.rapier-of-retaliation.desc">+%evasion%% 闪避. 当闪避攻击时,你获得%sec%秒增加%dmg%%伤害的buff.</string>
+	<string name="item.rapier-of-retaliation.desc">+%evasion%% 闪避. 当闪避成功时,你获得%sec%秒增加%dmg%%伤害的buff.</string>
 
 	<string name="item.ring-of-transmutation.name">转化之戒</string>
-	<string name="item.ring-of-transmutation.desc">损失生命时将获得损失量%mana%%的法力.</string>
+	<string name="item.ring-of-transmutation.desc">损失生命时，将获得损失量%mana%%的法力.</string>
 
 	<string name="item.robe-of-arch-magi.name">大法师长袍</string>
 	<string name="item.robe-of-arch-magi.desc">+%spell% 法术伤害和 +%res% 魔法抗性.</string>
 
 	<string name="item.scarab-of-protection.name">圣甲虫护符</string>
-	<string name="item.scarab-of-protection.desc">当被击中时对攻击者造成 %return% 魔法伤害并放出一圈毒镖.</string>
+	<string name="item.scarab-of-protection.desc">当被击中时，对攻击者造成 %return% 魔法伤害并放出一圈毒镖.</string>
 
 	<string name="item.seal-of-the-martyr.name">烈士勋章</string>
 	<string name="item.seal-of-the-martyr.desc">每损失 1% 生命就增加 1%攻击伤害.</string>
@@ -1978,8 +1978,8 @@
 	<string name="item.sphere-of-mana.name">魔法宝珠</string>
 	<string name="item.sphere-of-mana.desc">连杀期间 +%mregen% 法力回复率.</string>
 
-	<string name="item.sphere-of-nova.name">新星宝珠</string>
-	<string name="item.sphere-of-nova.desc">连杀期间释放新星每秒增加%dmg%魔法伤害.</string>
+	<string name="item.sphere-of-nova.name">连杀新星</string>
+	<string name="item.sphere-of-nova.desc">连杀期间，向四周释放强大的新星爆发冲击波，每秒一次，造成%dmg%魔法伤害.</string>
 
 	<string name="item.staff-of-unstable-casting.name">不稳定法杖</string>
 	<string name="item.staff-of-unstable-casting.desc">%chance%%几率暴击.</string>
@@ -2019,7 +2019,7 @@
 	<string name="item.dragonscale-mail.desc">抵御 %taken%%伤害.</string>
 
 	<string name="item.duelists-edge.name">决斗者之锋</string>
-	<string name="item.duelists-edge.desc">+%evasion%% 闪避. 当被击中时对攻击者造成 %dmg% 魔法伤害并恢复生命.</string>
+	<string name="item.duelists-edge.desc">+%evasion%% 闪避. 当被击中时，对攻击者造成 %dmg% 魔法伤害并造成流血效果.</string>
 
 	<string name="item.earthsplitter.name">裂地者</string>
 	<string name="item.earthsplitter.desc">普通攻击%chance%%几率释放地裂,造成%dmg%物理伤害.</string>
@@ -2031,7 +2031,7 @@
 	<string name="item.frostbrand.desc">普通攻击+%dmg% 魔法伤害. 使其冻结.</string>
 
 	<string name="item.greater-sphere-of-nova.name">大新星宝珠</string>
-	<string name="item.greater-sphere-of-nova.desc">连杀期间释放大新星每秒增加%dmg%魔法伤害.</string>
+	<string name="item.greater-sphere-of-nova.desc">连杀期间，向四周释放更强大的新星爆发冲击波，每秒一次，造成%dmg%魔法伤害.</string>
 
 	<string name="item.greater-sphere-of-regen.name">大生命宝珠</string>
 	<string name="item.greater-sphere-of-regen.desc">连杀期间 +%hregen% 生命回复率和 +%mregen% 法力回复率.</string>
@@ -2049,7 +2049,7 @@
 	<string name="item.scepter-of-kings.desc">+%spell% 法术伤害.</string>
 
 	<string name="item.shieldbreaker.name">碎盾者</string>
-	<string name="item.shieldbreaker.desc">普通攻击%chance%%几率降低%sec%秒敌人%armor%%防御.</string>
+	<string name="item.shieldbreaker.desc">普通攻击有%chance%%几率降低%sec%秒敌人%armor%%防御.</string>
 
 	<string name="item.sphere-of-champions.name">冠军宝珠</string>
 	<string name="item.sphere-of-champions.desc">连杀时增强%atk%物攻和法术伤害.</string>
