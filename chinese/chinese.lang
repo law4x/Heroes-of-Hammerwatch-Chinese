@@ -1282,7 +1282,7 @@
 	<string name="shop.chapel.symbol.lifesteal.desc">普通攻击附加%lsteal%%吸血.</string>
 
 	<string name="shop.chapel.symbol.return-damage.name">报复勋章</string>
-	<string name="shop.chapel.symbol.return-damage.desc">当被击中时对攻击者造成%return%%伤害.</string>
+	<string name="shop.chapel.symbol.return-damage.desc">被击中时对攻击者造成%return%%伤害.</string>
 
 	<string name="shop.chapel.symbol.spell-cost.name">智慧勋章</string>
 	<string name="shop.chapel.symbol.spell-cost.desc">技能魔法消耗降低 %cost%%.</string>
@@ -1784,7 +1784,7 @@
 	<string name="item.broad-sword.desc">攻击力 +%atk%.</string>
 
 	<string name="item.cape-of-withdrawal.name">撤退披肩</string>
-	<string name="item.cape-of-withdrawal.desc">被敌人击中时获得%dur%秒提升%mspeed%%的移动速度buff.</string>
+	<string name="item.cape-of-withdrawal.desc">被敌人击中时提升%mspeed%%移动速度%dur%秒.</string>
 
 	<string name="item.circlet-of-willpower.name">毅力戒指</string>
 	<string name="item.circlet-of-willpower.desc">当生命值低于%health%%生命值, 降低%scost%%施法消耗.</string>
@@ -1796,7 +1796,7 @@
 	<string name="item.cowl-of-protection.desc">%chance%% 几率免疫%block% 魔法伤害.</string>
 
 	<string name="item.defenders-halberd.name">防卫斧枪</string>
-	<string name="item.defenders-halberd.desc">被敌人击中时让其缴械%dur%秒.</string>
+	<string name="item.defenders-halberd.desc">被敌人击中时使攻击者缴械%dur%秒.</string>
 
 	<string name="item.enchanted-dirk.name">魔法短剑</string>
 	<string name="item.enchanted-dirk.desc">普通攻击 +%dmg%魔法伤害和物理伤害.</string>
@@ -1964,7 +1964,7 @@
 	<string name="item.robe-of-arch-magi.desc">+%spell% 法术伤害和 +%res% 魔法抗性.</string>
 
 	<string name="item.scarab-of-protection.name">圣甲虫护符</string>
-	<string name="item.scarab-of-protection.desc">当被击中时对攻击者造成 %return% 魔法伤害并放出一圈毒镖.</string>
+	<string name="item.scarab-of-protection.desc">被击中时对攻击者造成 %return% 魔法伤害并放出一圈毒镖.</string>
 
 	<string name="item.seal-of-the-martyr.name">烈士勋章</string>
 	<string name="item.seal-of-the-martyr.desc">每损失 1% 生命就增加 1%攻击伤害.</string>
@@ -2019,7 +2019,7 @@
 	<string name="item.dragonscale-mail.desc">抵御 %taken%%伤害.</string>
 
 	<string name="item.duelists-edge.name">决斗者之锋</string>
-	<string name="item.duelists-edge.desc">+%evasion%% 闪避. 当被击中时对攻击者造成 %dmg% 魔法伤害并恢复生命.</string>
+	<string name="item.duelists-edge.desc">+%evasion%% 闪避. 被击中时对攻击者造成 %dmg% 魔法伤害并恢复生命.</string>
 
 	<string name="item.earthsplitter.name">裂地者</string>
 	<string name="item.earthsplitter.desc">普通攻击%chance%%几率释放地裂,造成%dmg%物理伤害.</string>
@@ -2067,7 +2067,7 @@
 	<string name="item.talisman-of-conflagration.desc">杀死敌人有%chance%%几率使其自爆.</string>
 
 	<string name="item.wrath-of-the-thundergod.name">雷神之怒</string>
-	<string name="item.wrath-of-the-thundergod.desc">当被击中时对攻击者释放闪电链, 造成 %dmg% 魔法伤害.</string>
+	<string name="item.wrath-of-the-thundergod.desc">被击中时对攻击者释放闪电链, 造成 %dmg% 魔法伤害.</string>
 
 
 
