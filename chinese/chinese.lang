@@ -2358,20 +2358,20 @@
 
 	<!-- Guild Titles -->
 	<string name="titles.guild-0">默默无名</string>
-	<string name="titles.guild-1">略有耳闻</string>
-	<string name="titles.guild-2">小有名气</string>
-	<string name="titles.guild-3">受人尊敬</string>
-	<string name="titles.guild-4">令人难忘</string>
-	<string name="titles.guild-5">出类拔萃</string>
-	<string name="titles.guild-6">杰出人物</string>
-	<string name="titles.guild-7">远近闻名</string>
-	<string name="titles.guild-8">广受赞誉</string>
-	<string name="titles.guild-9">卓尔不凡</string>
-	<string name="titles.guild-10">久负盛名</string>
-	<string name="titles.guild-11">灿烂辉煌</string>
-	<string name="titles.guild-12">名声显赫</string>
-	<string name="titles.guild-13">传奇人物</string>
-	<string name="titles.guild-14">名垂青史</string>
+	<string name="titles.guild-1">略有耳闻Ⅰ</string>
+	<string name="titles.guild-2">小有名气Ⅱ</string>
+	<string name="titles.guild-3">受人尊敬Ⅲ</string>
+	<string name="titles.guild-4">令人难忘Ⅳ</string>
+	<string name="titles.guild-5">出类拔萃Ⅴ</string>
+	<string name="titles.guild-6">杰出人物Ⅵ</string>
+	<string name="titles.guild-7">远近闻名Ⅶ</string>
+	<string name="titles.guild-8">广受赞誉Ⅷ</string>
+	<string name="titles.guild-9">卓尔不凡Ⅸ</string>
+	<string name="titles.guild-10">久负盛名Ⅹ</string>
+	<string name="titles.guild-11">灿烂辉煌ⅩⅠ</string>
+	<string name="titles.guild-12">名声显赫ⅩⅡ</string>
+	<string name="titles.guild-13">传奇人物ⅩⅢ</string>
+	<string name="titles.guild-14">名垂青史ⅩⅣ</string>
 
 	<!-- Class Titles -->
 	<string name="titles.shared-0">新手</string>
@@ -2380,7 +2380,7 @@
 	<string name="titles.shared-2b">出师学徒</string>
 
 	<string name="titles.paladin-3">侍从</string>
-	<string name="titles.paladin-4">勇者</string>
+	<string name="titles.paladin-4">勇士</string>
 	<string name="titles.paladin-5">卫士</string>
 	<string name="titles.paladin-6">圣骑士</string>
 	<string name="titles.paladin-7">圣殿骑士</string>
@@ -2517,7 +2517,7 @@
 
 
 	<string name="guildhall.accomplishments.bosses">BOSSES</string>
-	<string name="guildhall.accomplishments.boss-1">岩石守卫wei</string>
+	<string name="guildhall.accomplishments.boss-1">岩石守卫</string>
 	<string name="guildhall.accomplishments.boss-2">监狱守卫</string>
 	<string name="guildhall.accomplishments.boss-3">三鬼幽灵</string>
 	<string name="guildhall.accomplishments.boss-4">监察者</string>
