@@ -250,7 +250,7 @@
 	<string name="endofgame.newgameplus">新游戏</string>
 	<string name="endofgame.newgameplus.desc">返回小镇并为你新游戏的人物升级.你的角色会获得新的称号.</string>
 	<string name="endofgame.title">结束</string>
-	<string name="endofgame.text">你成功抵达了遗忘之塔的塔顶,并且击杀了那头突然从西方降临,占据此地的青蓝巨龙【雷电冰龙】.现在遗忘之塔已经从巨龙的控制中解脱,这一带居民的生活也将回到正轨.\n\n（你现在可以选择回到远望镇,并用现在这名英雄继续这一难度的游戏.或者你可以更进一步，在【新周目】中开启新的难度!无论你作何选择,该角色之前的所有升级和进度都会继承.）</string>
+	<string name="endofgame.text">你成功抵达了遗忘之塔的塔顶,并且击杀了雷电冰龙————那头突然从西方降临,占据此地的青蓝巨龙. \n现在,遗忘之塔已经从巨龙的控制中解脱,这一带居民的生活也将回到正轨.\n\n（你现在可以选择回到远望镇,并用现在这名英雄继续这一难度的游戏.或者你可以更进一步，在【新周目】中开启新的难度!无论你作何选择,该角色之前的所有升级和进度都会继承.）</string>
 	<string name="endofgame.confirm.town">确定要继续相同难度的游戏吗？</string>
 	<string name="endofgame.confirm.plus">确定要开启新周目（难度提升）吗？</string>
 
