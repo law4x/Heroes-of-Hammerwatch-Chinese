@@ -2216,7 +2216,7 @@
 	<string name="dialogue.town.npc.generic.ace1.4Rb">RESERVED</string>
 	<string name="dialogue.town.npc.generic.ace1.5Ra">我知道卡尔霍恩说去议会是小菜一碟,但是说真的,怎么可能!/string>
 	<string name="dialogue.town.npc.generic.ace1.5Rb">RESERVED</string>
-	<string name="dialogue.town.npc.generic.ace1.6Ra">然而没有人能够屠龙,你应该像我一样呆在这个城镇,平平安安地生活.</string>
+	<string name="dialogue.town.npc.generic.ace1.6Ra">令人伤心的是，这里没有人能够屠龙,\n你应该像我一样呆在这个城镇,平平安安地生活.</string>
 	<string name="dialogue.town.npc.generic.ace1.6Rb">RESERVED</string>
 
 
