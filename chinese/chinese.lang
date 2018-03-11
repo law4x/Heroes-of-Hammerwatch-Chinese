@@ -250,7 +250,7 @@
 	<string name="endofgame.newgameplus">新游戏</string>
 	<string name="endofgame.newgameplus.desc">返回小镇并为你新游戏的人物升级.你的角色会获得新的称号.</string>
 	<string name="endofgame.title">结束</string>
-	<string name="endofgame.text">你成功抵达了遗忘之塔的塔顶,并且击杀了那头突然从西方降临,占据此地的青蓝巨龙【雷电冰龙】.现在遗忘之塔已经从巨龙的控制中解脱,这一带居民的生活也将回到正轨.\n\n（你现在可以选择回到远望镇,并用现在这名英雄继续这一难度的游戏.或者你可以更进一步，在【新周目】中开启新的难度!无论你作何选择,该角色之前的所有升级和进度都会继承.）</string>
+	<string name="endofgame.text">你成功抵达了遗忘之塔的塔顶,并且击杀了雷电冰龙————那头突然从西方降临,占据此地的青蓝巨龙. \n现在,遗忘之塔已经从巨龙的控制中解脱,这一带居民的生活也将回到正轨.\n\n（你现在可以选择回到远望镇,并用现在这名英雄继续这一难度的游戏.或者你可以更进一步，在【新周目】中开启新的难度!无论你作何选择,该角色之前的所有升级和进度都会继承.）</string>
 	<string name="endofgame.confirm.town">确定要继续相同难度的游戏吗？</string>
 	<string name="endofgame.confirm.plus">确定要开启新周目（难度提升）吗？</string>
 
@@ -1787,7 +1787,7 @@
 	<string name="item.cape-of-withdrawal.desc">被敌人击中时提升%mspeed%%移动速度%dur%秒.</string>
 
 	<string name="item.circlet-of-willpower.name">毅力戒指</string>
-	<string name="item.circlet-of-willpower.desc">当生命值低于%health%%生命值, 降低%scost%%施法消耗.</string>
+	<string name="item.circlet-of-willpower.desc">当生命值低于%health%%时, 降低%scost%%施法消耗.</string>
 
 	<string name="item.chainmail.name">锁子甲</string>
 	<string name="item.chainmail.desc">护甲 +%armor%.</string>
@@ -1823,7 +1823,7 @@
 	<string name="item.lesser-sphere-of-mana.desc">连杀期间 +%mregen% 法力回复率.</string>
 
 	<string name="item.lesser-sphere-of-nova.name">小新星宝珠</string>
-	<string name="item.lesser-sphere-of-nova.desc">连杀期间释放新星每秒增加 %dmg% 魔法伤害.</string>
+	<string name="item.lesser-sphere-of-nova.desc">连杀期间，向四周释放新星爆发冲击波，每秒一次，造成%dmg%魔法伤害.</string>
 
 	<string name="item.life-stone.name">生命之石</string>
 	<string name="item.life-stone.desc">击杀敌人%chance%%几率回复1生命值.</string>
@@ -1835,7 +1835,7 @@
 	<string name="item.mage-robe.desc">+%mana% 法力上限.</string>
 
 	<string name="item.mana-stone.name">魔法之石</string>
-	<string name="item.mana-stone.desc">击杀敌人%chance%%几率回复1魔法值.</string>
+	<string name="item.mana-stone.desc">击杀敌人时，%chance%%几率回复1魔法值.</string>
 
 	<string name="item.monster-pamphlet-aberration.name">怪物手册: 变异生物</string>
 	<string name="item.monster-pamphlet-aberration.desc">对变异生物 +%exp%% 经验获得和 +%dmg%% 伤害值.</string>
@@ -1889,10 +1889,10 @@
 	<string name="item.vendors-coin.desc">在商店购买便宜%price%%.</string>
 
 	<string name="item.war-axe.name">战斧</string>
-	<string name="item.war-axe.desc">普通攻击+%dmg%物理伤害.</string>
+	<string name="item.war-axe.desc">普通攻击附加%dmg%点物理伤害.</string>
 
 	<string name="item.wizards-wand.name">法师之杖</string>
-	<string name="item.wizards-wand.desc">普通攻击+%dmg% 魔法伤害.</string>
+	<string name="item.wizards-wand.desc">普通攻击附加%dmg% 点魔法伤害.</string>
 
 	<!-- UNCOMMON -->
 
@@ -1901,7 +1901,7 @@
 	<string name="item.adventurers-garb.desc">+%health% 生命上限和 +%mana% 法力上限.</string>
 
 	<string name="item.apothecarys-mortar-pestle.name">药剂师的研钵和杵</string>
-	<string name="item.apothecarys-mortar-pestle.desc">饮用药剂增加5秒 %eff%%护甲和魔法抗性效果.</string>
+	<string name="item.apothecarys-mortar-pestle.desc">饮用药剂后，获得5秒 %eff%%护甲和魔法抗性提升.</string>
 
 	<string name="item.apothecarys-satchel.name">药剂师的背包</string>
 	<string name="item.apothecarys-satchel.desc">药剂效果增益%eff%%.</string>
@@ -1919,13 +1919,13 @@
 	<string name="item.bloodthirst-ring.desc">普通攻击时吸取伤害量%lsteal%% 的生命值.</string>
 
 	<string name="item.claymore.name">大剑</string>
-	<string name="item.claymore.desc">普通攻击+%atk%物攻和+%dmg% 物理伤害.</string>
+	<string name="item.claymore.desc">普通攻击+%atk%攻击力和+%dmg% 物理伤害.</string>
 
 	<string name="item.cloak-of-many-pockets.name">多袋斗篷</string>
 	<string name="item.cloak-of-many-pockets.desc">你获得金币增加%gold%%.</string>
 
 	<string name="item.elven-bow.name">精灵弓</string>
-	<string name="item.elven-bow.desc">+%atk% 物攻.</string>
+	<string name="item.elven-bow.desc">+%atk% 攻击力.</string>
 
 	<string name="item.fancy-plume.name">华丽羽毛</string>
 	<string name="item.fancy-plume.desc">商店将出售更多的商品.</string>
@@ -1955,16 +1955,17 @@
 	<string name="item.old-map.desc">消除地图上的战争迷雾.</string>
 
 	<string name="item.rapier-of-retaliation.name">回馈之剑</string>
-	<string name="item.rapier-of-retaliation.desc">+%evasion%% 闪避. 当闪避攻击时,你获得%sec%秒增加%dmg%%伤害的buff.</string>
+	<string name="item.rapier-of-retaliation.desc">+%evasion%% 闪避. 当闪避成功时,你获得%sec%秒增加%dmg%%伤害的buff.</string>
 
 	<string name="item.ring-of-transmutation.name">转化之戒</string>
-	<string name="item.ring-of-transmutation.desc">损失生命时将获得损失量%mana%%的法力.</string>
+	<string name="item.ring-of-transmutation.desc">损失生命时，将获得损失量%mana%%的法力.</string>
 
 	<string name="item.robe-of-arch-magi.name">大法师长袍</string>
 	<string name="item.robe-of-arch-magi.desc">+%spell% 法术伤害和 +%res% 魔法抗性.</string>
 
 	<string name="item.scarab-of-protection.name">圣甲虫护符</string>
-	<string name="item.scarab-of-protection.desc">被击中时对攻击者造成 %return% 魔法伤害并放出一圈毒镖.</string>
+	<string name="item.scarab-of-protection.desc">当被击中时，对攻击者造成 %return% 魔法伤害并放出一圈毒镖.</string>
+
 
 	<string name="item.seal-of-the-martyr.name">烈士勋章</string>
 	<string name="item.seal-of-the-martyr.desc">每损失 1% 生命就增加 1%攻击伤害.</string>
@@ -1978,8 +1979,8 @@
 	<string name="item.sphere-of-mana.name">魔法宝珠</string>
 	<string name="item.sphere-of-mana.desc">连杀期间 +%mregen% 法力回复率.</string>
 
-	<string name="item.sphere-of-nova.name">新星宝珠</string>
-	<string name="item.sphere-of-nova.desc">连杀期间释放新星每秒增加%dmg%魔法伤害.</string>
+	<string name="item.sphere-of-nova.name">连杀新星</string>
+	<string name="item.sphere-of-nova.desc">连杀期间，向四周释放强大的新星爆发冲击波，每秒一次，造成%dmg%魔法伤害.</string>
 
 	<string name="item.staff-of-unstable-casting.name">不稳定法杖</string>
 	<string name="item.staff-of-unstable-casting.desc">%chance%%几率暴击.</string>
@@ -2019,7 +2020,8 @@
 	<string name="item.dragonscale-mail.desc">抵御 %taken%%伤害.</string>
 
 	<string name="item.duelists-edge.name">决斗者之锋</string>
-	<string name="item.duelists-edge.desc">+%evasion%% 闪避. 被击中时对攻击者造成 %dmg% 魔法伤害并恢复生命.</string>
+	<string name="item.duelists-edge.desc">+%evasion%% 闪避. 当被击中时，对攻击者造成 %dmg% 魔法伤害并造成流血效果.</string>
+
 
 	<string name="item.earthsplitter.name">裂地者</string>
 	<string name="item.earthsplitter.desc">普通攻击%chance%%几率释放地裂,造成%dmg%物理伤害.</string>
@@ -2031,7 +2033,7 @@
 	<string name="item.frostbrand.desc">普通攻击+%dmg% 魔法伤害. 使其冻结.</string>
 
 	<string name="item.greater-sphere-of-nova.name">大新星宝珠</string>
-	<string name="item.greater-sphere-of-nova.desc">连杀期间释放大新星每秒增加%dmg%魔法伤害.</string>
+	<string name="item.greater-sphere-of-nova.desc">连杀期间，向四周释放更强大的新星爆发冲击波，每秒一次，造成%dmg%魔法伤害.</string>
 
 	<string name="item.greater-sphere-of-regen.name">大生命宝珠</string>
 	<string name="item.greater-sphere-of-regen.desc">连杀期间 +%hregen% 生命回复率和 +%mregen% 法力回复率.</string>
@@ -2049,7 +2051,7 @@
 	<string name="item.scepter-of-kings.desc">+%spell% 法术伤害.</string>
 
 	<string name="item.shieldbreaker.name">碎盾者</string>
-	<string name="item.shieldbreaker.desc">普通攻击%chance%%几率降低%sec%秒敌人%armor%%防御.</string>
+	<string name="item.shieldbreaker.desc">普通攻击有%chance%%几率降低%sec%秒敌人%armor%%防御.</string>
 
 	<string name="item.sphere-of-champions.name">冠军宝珠</string>
 	<string name="item.sphere-of-champions.desc">连杀时增强%atk%物攻和法术伤害.</string>
@@ -2216,7 +2218,7 @@
 	<string name="dialogue.town.npc.generic.ace1.4Rb">RESERVED</string>
 	<string name="dialogue.town.npc.generic.ace1.5Ra">我知道卡尔霍恩说去议会是小菜一碟,但是说真的,怎么可能!/string>
 	<string name="dialogue.town.npc.generic.ace1.5Rb">RESERVED</string>
-	<string name="dialogue.town.npc.generic.ace1.6Ra">然而没有人能够屠龙,你应该像我一样呆在这个城镇,平平安安地生活.</string>
+	<string name="dialogue.town.npc.generic.ace1.6Ra">令人伤心的是，这里没有人能够屠龙,\n你应该像我一样呆在这个城镇,平平安安地生活.</string>
 	<string name="dialogue.town.npc.generic.ace1.6Rb">RESERVED</string>
 
 
@@ -2234,33 +2236,33 @@
 	<string name="dialogue.town.npc.mayor.mines_enter.1Rb">没有矿石的时候可真麻烦...</string>
 	<string name="dialogue.town.npc.mayor.boss1_killed.1Ra">你终于解决了矿洞深处那恶心的怪物么?那可真是个好消息.</string>
 	<string name="dialogue.town.npc.mayor.boss1_killed.1Rb">这么久以来杀死矿工无数的石傀儡终于被你解决了</string>
-	<string name="dialogue.town.npc.mayor.boss2_killed.1Ra">The Warden used to be called Peter,\nno longer will he be tormenting\npeople with his crossbow arm.</string>
-	<string name="dialogue.town.npc.mayor.boss2_killed.1Rb">I heard you killed the big undead\nwith a crossbow, Warden Peter...</string>
-	<string name="dialogue.town.npc.mayor.boss3_killed.1Ra">Those wraiths you just killed were\nonce mighty warriors that stood by\nDuke Delanys side, protecting him.</string>
-	<string name="dialogue.town.npc.mayor.boss3_killed.1Rb">You entered the resting place of the Dukes\nmost formidable warriors and slayed them?</string>
-	<string name="dialogue.town.npc.mayor.boss4_killed.1Ra">Where all these strange creatures came from\nwe don't know. And that altar should not\nhave summoned that beast.</string>
-	<string name="dialogue.town.npc.mayor.boss4_killed.1Rb">Pierced the big eye have we? You are\nalmost at the top of the tower now son.</string>
+	<string name="dialogue.town.npc.mayor.boss2_killed.1Ra">那是从前的典狱长彼得，\n他再也不可能用他的十字弩折磨别人了。</string>
+	<string name="dialogue.town.npc.mayor.boss2_killed.1Rb">我听说你讨伐了那个用十字弩的\n巨大亡灵————典狱长彼得……</string>
+	<string name="dialogue.town.npc.mayor.boss3_killed.1Ra">你刚刚讨伐的那些亡灵，可能是曾经\n公爵德拉尼斯手下保卫他的战士们。</string>
+	<string name="dialogue.town.npc.mayor.boss3_killed.1Rb">你踏足了公爵德拉尼斯的安息之地，\n并且摆平了他手下那些最最最难缠的战士们？！</string>
+	<string name="dialogue.town.npc.mayor.boss4_killed.1Ra">我们不知道那些奇诡的生物都是从何而来，\n 并且圣坛是不可能召唤出那种怪物的。</string>
+	<string name="dialogue.town.npc.mayor.boss4_killed.1Rb">我们……击溃了那只巨眼？\n小伙子，你已经快到塔的顶层了。</string>
 	<string name="dialogue.town.npc.mayor.boss5_killed.1Ra">RESERVED</string>
 	<string name="dialogue.town.npc.mayor.boss5_killed.1Rb">RESERVED</string>
 
 
 
 	<!-- Guard Marlod 1 -->
-	<string name="dialogue.town.npc.mayor_guard1.name">守卫马洛德</string>
+	<string name="dialogue.town.npc.mayor_guard1.name">守卫 马洛德</string>
 	<string name="dialogue.town.npc.mayor_guard1.1Ra">你能帮我们把矿井中的威胁清理掉吗?</string>
 	<string name="dialogue.town.npc.mayor_guard1.1Rb">希望你有足够的本事来战胜矿井里的怪物们.</string>
 	<string name="dialogue.town.npc.mayor_guard1.1Rc">也许你可以帮我们重新夺回矿井??</string>
 
 	<!-- Guildmaster Les "Ace" Calhoun -->
-	<string name="dialogue.town.npc.guildmaster.name">公会长官卡尔洪</string>
+	<string name="dialogue.town.npc.guildmaster.name">公会长官 卡尔洪</string>
 	<string name="dialogue.town.npc.guildmaster.1Ra">如果你帮我重建了这座公会大厅,我可以帮你训练,当然不是免费的.作为公会的一员,这完全取决于你的意愿.</string>
 
 	<!-- Prefect Lance Grey -->
-	<string name="dialogue.town.npc.prefect.name">行政长官格瑞</string>
+	<string name="dialogue.town.npc.prefect.name">行政长官 格瑞</string>
 	<string name="dialogue.town.npc.prefect.1Ra">我负责这里的矿石分配工作.如果你觉得对你有帮助的话,你可以告诉我关于矿石分配的想法.</string>
 
 	<!-- Darren the Supplier -->
-	<string name="dialogue.town.npc.shopkeep.name">商人达伦</string>
+	<string name="dialogue.town.npc.shopkeep.name">商人 达伦</string>
 	<string name="dialogue.town.npc.shopkeep.1Ra">嘿,我叫达伦埃普斯.交易价格就是取决于需求和供应的浮动,现在我的商品供不应求,你最好给我个“理想的”报价.</string>
 
 
@@ -2273,7 +2275,7 @@
 	<string name="dialogue.town.npc.chapel.man1.1b">我希望牧师能够早点回来!</string>
 	<string name="dialogue.town.npc.chapel.man1.1c">牧师不久之前刚走.</string>
 
-	<string name="dialogue.town.npc.smith.name">铁匠巴洛</string>
+	<string name="dialogue.town.npc.smith.name">铁匠 巴洛</string>
 	<string name="dialogue.town.npc.smith.1a">我很乐意帮你升级武器,不过我需要一些矿石.</string>
 
 	<string name="dialogue.town.npc.apothecary.name">艾利安达</string>
@@ -2281,11 +2283,11 @@
 
 	<string name="dialogue.town.npc.apothecary.1a">制作药剂可是我的专长,不过我需要一些配方.</string>
 
-	<string name="dialogue.town.npc.oretrader.name">矿工奥利弗</string>
+	<string name="dialogue.town.npc.oretrader.name">矿工 奥利弗</string>
 	<string name="dialogue.town.npc.oretrader.1a">求你带我离开这个破洞!</string>
 	<string name="dialogue.town.npc.oretrader.1b">谢谢你救了我!请收好这个矿石,你可以用升降梯把这个送到小镇里去.</string>
 
-	<string name="dialogue.town.npc.thief.name">“怪脸”沃尔弗拉姆</string>
+	<string name="dialogue.town.npc.thief.name">“怪脸” 沃尔弗拉姆</string>
 	<string name="dialogue.town.npc.thief.1Ra">你!等等!</string>
 	<string name="dialogue.town.npc.thief.1Rb">这里!</string>
 	<string name="dialogue.town.npc.thief.2">十分感谢!我希望能在小镇里见到你!</string>
