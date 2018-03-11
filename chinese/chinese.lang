@@ -2234,33 +2234,33 @@
 	<string name="dialogue.town.npc.mayor.mines_enter.1Rb">没有矿石的时候可真麻烦...</string>
 	<string name="dialogue.town.npc.mayor.boss1_killed.1Ra">你终于解决了矿洞深处那恶心的怪物么?那可真是个好消息.</string>
 	<string name="dialogue.town.npc.mayor.boss1_killed.1Rb">这么久以来杀死矿工无数的石傀儡终于被你解决了</string>
-	<string name="dialogue.town.npc.mayor.boss2_killed.1Ra">The Warden used to be called Peter,\nno longer will he be tormenting\npeople with his crossbow arm.</string>
-	<string name="dialogue.town.npc.mayor.boss2_killed.1Rb">I heard you killed the big undead\nwith a crossbow, Warden Peter...</string>
-	<string name="dialogue.town.npc.mayor.boss3_killed.1Ra">Those wraiths you just killed were\nonce mighty warriors that stood by\nDuke Delanys side, protecting him.</string>
-	<string name="dialogue.town.npc.mayor.boss3_killed.1Rb">You entered the resting place of the Dukes\nmost formidable warriors and slayed them?</string>
-	<string name="dialogue.town.npc.mayor.boss4_killed.1Ra">Where all these strange creatures came from\nwe don't know. And that altar should not\nhave summoned that beast.</string>
-	<string name="dialogue.town.npc.mayor.boss4_killed.1Rb">Pierced the big eye have we? You are\nalmost at the top of the tower now son.</string>
+	<string name="dialogue.town.npc.mayor.boss2_killed.1Ra">那是从前的典狱长彼得，\n他再也不可能用他的十字弩折磨别人了。</string>
+	<string name="dialogue.town.npc.mayor.boss2_killed.1Rb">我听说你讨伐了那个用十字弩的\n巨大亡灵————典狱长彼得……</string>
+	<string name="dialogue.town.npc.mayor.boss3_killed.1Ra">你刚刚讨伐的那些亡灵，可能是曾经\n公爵德拉尼斯手下保卫他的战士们。</string>
+	<string name="dialogue.town.npc.mayor.boss3_killed.1Rb">你踏足了公爵德拉尼斯的安息之地，\n并且摆平了他手下那些最最最难缠的战士们？！</string>
+	<string name="dialogue.town.npc.mayor.boss4_killed.1Ra">我们不知道那些奇诡的生物都是从何而来，\n 并且圣坛是不可能召唤出那种怪物的。</string>
+	<string name="dialogue.town.npc.mayor.boss4_killed.1Rb">我们……击溃了那只巨眼？\n小伙子，你已经快到塔的顶层了。</string>
 	<string name="dialogue.town.npc.mayor.boss5_killed.1Ra">RESERVED</string>
 	<string name="dialogue.town.npc.mayor.boss5_killed.1Rb">RESERVED</string>
 
 
 
 	<!-- Guard Marlod 1 -->
-	<string name="dialogue.town.npc.mayor_guard1.name">守卫马洛德</string>
+	<string name="dialogue.town.npc.mayor_guard1.name">守卫 马洛德</string>
 	<string name="dialogue.town.npc.mayor_guard1.1Ra">你能帮我们把矿井中的威胁清理掉吗?</string>
 	<string name="dialogue.town.npc.mayor_guard1.1Rb">希望你有足够的本事来战胜矿井里的怪物们.</string>
 	<string name="dialogue.town.npc.mayor_guard1.1Rc">也许你可以帮我们重新夺回矿井??</string>
 
 	<!-- Guildmaster Les "Ace" Calhoun -->
-	<string name="dialogue.town.npc.guildmaster.name">公会长官卡尔洪</string>
+	<string name="dialogue.town.npc.guildmaster.name">公会长官 卡尔洪</string>
 	<string name="dialogue.town.npc.guildmaster.1Ra">如果你帮我重建了这座公会大厅,我可以帮你训练,当然不是免费的.作为公会的一员,这完全取决于你的意愿.</string>
 
 	<!-- Prefect Lance Grey -->
-	<string name="dialogue.town.npc.prefect.name">行政长官格瑞</string>
+	<string name="dialogue.town.npc.prefect.name">行政长官 格瑞</string>
 	<string name="dialogue.town.npc.prefect.1Ra">我负责这里的矿石分配工作.如果你觉得对你有帮助的话,你可以告诉我关于矿石分配的想法.</string>
 
 	<!-- Darren the Supplier -->
-	<string name="dialogue.town.npc.shopkeep.name">商人达伦</string>
+	<string name="dialogue.town.npc.shopkeep.name">商人 达伦</string>
 	<string name="dialogue.town.npc.shopkeep.1Ra">嘿,我叫达伦埃普斯.交易价格就是取决于需求和供应的浮动,现在我的商品供不应求,你最好给我个“理想的”报价.</string>
 
 
@@ -2273,7 +2273,7 @@
 	<string name="dialogue.town.npc.chapel.man1.1b">我希望牧师能够早点回来!</string>
 	<string name="dialogue.town.npc.chapel.man1.1c">牧师不久之前刚走.</string>
 
-	<string name="dialogue.town.npc.smith.name">铁匠巴洛</string>
+	<string name="dialogue.town.npc.smith.name">铁匠 巴洛</string>
 	<string name="dialogue.town.npc.smith.1a">我很乐意帮你升级武器,不过我需要一些矿石.</string>
 
 	<string name="dialogue.town.npc.apothecary.name">艾利安达</string>
@@ -2281,11 +2281,11 @@
 
 	<string name="dialogue.town.npc.apothecary.1a">制作药剂可是我的专长,不过我需要一些配方.</string>
 
-	<string name="dialogue.town.npc.oretrader.name">矿工奥利弗</string>
+	<string name="dialogue.town.npc.oretrader.name">矿工 奥利弗</string>
 	<string name="dialogue.town.npc.oretrader.1a">求你带我离开这个破洞!</string>
 	<string name="dialogue.town.npc.oretrader.1b">谢谢你救了我!请收好这个矿石,你可以用升降梯把这个送到小镇里去.</string>
 
-	<string name="dialogue.town.npc.thief.name">“怪脸”沃尔弗拉姆</string>
+	<string name="dialogue.town.npc.thief.name">“怪脸” 沃尔弗拉姆</string>
 	<string name="dialogue.town.npc.thief.1Ra">你!等等!</string>
 	<string name="dialogue.town.npc.thief.1Rb">这里!</string>
 	<string name="dialogue.town.npc.thief.2">十分感谢!我希望能在小镇里见到你!</string>
