@@ -1768,7 +1768,7 @@
 	<string name="item.amulet-of-resistance.name">抗性护符</string>
 	<string name="item.amulet-of-resistance.desc">+%res% 魔法抗性.</string>
 
-	<string name="item.apothecarys-herbs.name">药剂师宝珠</string>
+	<string name="item.apothecarys-herbs.name">药剂师草药</string>
 	<string name="item.apothecarys-herbs.desc">饮用药剂获得%dur%秒提升%mspeed%%的移动速度buff.</string>
 
 	<string name="item.blackjack.name">黑铁棒</string>
