@@ -2001,19 +2001,19 @@
 	<!-- RARE -->
 
 
-	<string name="item.amulet-of-kings.name">王者护符</string>
+	<string name="item.amulet-of-kings.name">国王护符</string>
 	<string name="item.amulet-of-kings.desc">+%res% 魔法抗性.</string>
 
 	<string name="item.amulet-of-vengeance.name">复仇护符</string>
 	<string name="item.amulet-of-vengeance.desc">受到伤害%chance%%几率触发连击效果.</string>
 
-	<string name="item.armor-of-kings.name">王者护甲</string>
+	<string name="item.armor-of-kings.name">国王护甲</string>
 	<string name="item.armor-of-kings.desc">+%armor% 护甲.</string>
 
 	<string name="item.cape-of-the-flamewalker.name">火焰行者披风</string>
 	<string name="item.cape-of-the-flamewalker.desc">燃烧身边的敌人,每秒造成 %dmg%魔法伤害.</string>
 
-	<string name="item.crown-of-kings.name">王者头冠</string>
+	<string name="item.crown-of-kings.name">国王头冠</string>
 	<string name="item.crown-of-kings.desc">+%bonus%%基础 生命上限和法力上限.</string>
 
 	<string name="item.dragonscale-mail.name">龙鳞盔甲</string>
@@ -2062,7 +2062,7 @@
 	<string name="item.stormcaller.name">风暴召唤</string>
 	<string name="item.stormcaller.desc">普通攻击击中敌人时，有%chance%%几率释放闪电链, 造成 %dmg% 魔法伤害.</string>
 
-	<string name="item.sword-kings.name">王者之剑</string>
+	<string name="item.sword-kings.name">国王之剑</string>
 	<string name="item.sword-kings.desc">+%atk% 物攻.</string>
 
 	<string name="item.talisman-of-conflagration.name">火灾护符</string>
@@ -2106,7 +2106,7 @@
 	<string name="item.sets.monster-encyclopedia.name">怪物图鉴</string>
 	<string name="item.sets.monster-encyclopedia.desc">+%dmg%% 伤害</string>
 
-	<string name="item.sets.kings-regalia.name">王者套装</string>
+	<string name="item.sets.kings-regalia.name">国王套装</string>
 	<string name="item.sets.kings-regalia.desc">+%speed%%攻速和施法速度 </string>
 
 	<string name="item.sets.apothecarys-implements.name">药剂师工具</string>
