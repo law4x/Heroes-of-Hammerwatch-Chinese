@@ -2080,7 +2080,7 @@
 
 
 	<string name="item.descending-destruction.name">毁灭降临</string>
-	<string name="item.descending-destruction.desc">普通攻击时有%chance%%几率降下一颗流星.</string>
+	<string name="item.descending-destruction.desc">普通攻击击中敌人时，有%chance%%几率降下一颗流星.</string>
 
 	<string name="item.medusas-charm.name">美杜莎魅惑</string>
 	<string name="item.medusas-charm.desc">你面向的敌人速度降慢%slow%%. 被你攻击的敌人眩晕 %stun%秒.</string>
