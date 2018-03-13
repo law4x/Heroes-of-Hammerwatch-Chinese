@@ -95,7 +95,7 @@
 	<string name="gameover.mock.1">你悲惨的人生就这样突然结束了了</string>
 	<string name="gameover.mock.2">你悲惨的人生就这样突然结束了了了</string>
 	<string name="gameover.mock.3">你悲惨的人生就这样突然结束了了了了</string>
-	<string name="gameover.mock.4">你悲惨的人生就这样突然结束了了了了了</string>
+	<string name="gameover.mock.4">无駄无駄无駄无駄无駄无駄无駄无駄无駄无駄无駄无駄无駄无駄无駄无駄无駄！！！！</string>
 	<string name="gameover.sentence.unused-potion.none">你用完了你全部的药剂.</string>
 	<string name="gameover.sentence.unused-potion.plural">你还剩 %num%瓶药剂 !</string>
 	<string name="gameover.sentence.unused-potion.one">你还剩一瓶药剂!</string>
@@ -292,8 +292,8 @@
 	<string name="meta.info.gatherparty">在冒险之前,你必须召集你的队友.</string>
 	<string name="meta.info.ritual.gather">在开始仪式之前,你必须召集你的队友.</string>
 	<string name="meta.info.ritual.start">…并召唤出了可怕的怪物!</string>
-	<string name="meta.info.ritual.completed">仪式顺序正确!</string>
-	<string name="meta.info.ritual.failed">仪式顺序不正确!</string>
+	<string name="meta.info.ritual.completed">仪式完成，出口已经解锁</string>
+	<string name="meta.info.ritual.failed">仪式尚未完成</string>
 	<string name="meta.info.ritual.b">信奉黑暗</string>
 	<string name="meta.info.ritual.headline">召唤仪式</string>
 	<string name="meta.info.ritual.b1">信奉黑暗 I章</string>
@@ -301,7 +301,7 @@
 	<string name="meta.info.ritual.b3">信奉黑暗 III章</string>
 	<string name="meta.info.ritual.b4">信奉黑暗 IV章</string>
 	<string name="meta.info.ritual.g">死亡凋零</string>
-	<string name="meta.info.ritual.g1">死亡凋零I章</string>
+	<string name="meta.info.ritual.g1">死亡凋零 I章</string>
 	<string name="meta.info.ritual.g2">死亡凋零 II章</string>
 	<string name="meta.info.ritual.g3">死亡凋零 III章</string>
 	<string name="meta.info.ritual.g4">死亡凋零 IV章</string>
@@ -1029,10 +1029,10 @@
 	<string name="shop.townhall.chapel-1.desc">解锁牧师. 捐一些钱来获得一个永久的祝福.</string>
 
 	<string name="shop.townhall.chapel-2.name">二级教堂</string>
-	<string name="shop.townhall.chapel-2.desc">捐一些钱来获得一个永久的祝福.</string>
+	<string name="shop.townhall.chapel-2.desc">再捐一些钱,解锁教堂第二阶段的祝福.</string>
 
 	<string name="shop.townhall.chapel-3.name">三级教堂</string>
-	<string name="shop.townhall.chapel-3.desc">捐一些钱来获得一个永久的祝福.</string>
+	<string name="shop.townhall.chapel-3.desc">捐超多钱,解锁教堂第三阶段的祝福.</string>
 
 	<string name="shop.townhall.fountain-1.name">一级喷泉</string>
 	<string name="shop.townhall.fountain-1.desc">向喷泉投掷金币会发生一些事情 (好或坏, 惊喜或糟糕).</string>
@@ -1254,10 +1254,10 @@
 	<string name="shop.chapel.convert.prompt">你想支付%cost%金币改变信仰吗?</string>
 	<string name="shop.chapel.convertdisabled">更改</strin
 
-	<string name="shop.chapel.path.attack.name">战斗之道</string>
+	<string name="shop.chapel.path.attack.name">斗士之道</string>
 	<string name="shop.chapel.path.attack.desc">普通攻击伤害增加 %attack%%.</string>
 
-	<string name="shop.chapel.path.defense.name">防守之道</string>
+	<string name="shop.chapel.path.defense.name">铁壁之道</string>
 	<string name="shop.chapel.path.defense.desc">防御增加 %taken%%.</string>
 
 	<string name="shop.chapel.path.spell.name">符咒之道</string>
@@ -1281,7 +1281,7 @@
 	<string name="shop.chapel.symbol.lifesteal.name">生命勋章</string>
 	<string name="shop.chapel.symbol.lifesteal.desc">普通攻击附加%lsteal%%吸血.</string>
 
-	<string name="shop.chapel.symbol.return-damage.name">报复勋章</string>
+	<string name="shop.chapel.symbol.return-damage.name">荆棘勋章</string>
 	<string name="shop.chapel.symbol.return-damage.desc">被击中时对攻击者造成%return%%伤害.</string>
 
 	<string name="shop.chapel.symbol.spell-cost.name">智慧勋章</string>
@@ -1704,7 +1704,7 @@
 
 
 	<!-- Wizard -->
-	<string name="skills.wizard.fireball">火球</string>
+	<string name="skills.wizard.fireball">火球术</string>
 	<string name="skills.wizard.fireball.create">对小范围内造成魔法伤害的远程攻击.</string>
 	<string name="skills.wizard.fireball.1">火球造成8点魔法伤害.</string>
 	<string name="skills.wizard.fireball.2">火球造成10点魔法伤害并拥有更远的射程和更大的范围.</string>
