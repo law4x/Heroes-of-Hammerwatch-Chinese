@@ -2502,8 +2502,8 @@
 	<string name="bestiary.name.tick_1_mb">大蜱虫</string>
 	<string name="bestiary.name.tower_battlement_archer_1">城垛守卫</string>
 	<string name="bestiary.name.tower_battlement_archer_1_elite">精英城垛守卫</string>
-	<string name="bestiary.name.tower_battlement_empty">空城垛</string>
-	<string name="bestiary.name.tower_beamo">Beamo Pillar</string>
+	<string name="bestiary.name.tower_battlement_empty">城垛</string>
+	<string name="bestiary.name.tower_beamo">激光柱</string>
 	<string name="bestiary.name.tower_flower_1">食人族</string>
 	<string name="bestiary.name.tower_flower_2">大食人族</string>
 	<string name="bestiary.name.tower_nova_1">新星塔</string>
@@ -2526,19 +2526,19 @@
 	<string name="guildhall.accomplishments.boss-5">雷电冰龙</string>
 
 	<string name="accomplishment.boss-1-killed-class.name">希望赋予者 %lvl%</string>
-	<string name="accomplishment.boss-1-killed-class.desc">以难度%requirement%杀死第一个BOSS.</string>
+	<string name="accomplishment.boss-1-killed-class.desc">以%requirement%个不同职业杀死第一个BOSS.</string>
 
 	<string name="accomplishment.boss-2-killed-class.name">轮回击破者 %lvl%</string>
-	<string name="accomplishment.boss-2-killed-class.desc">以难度%requirement%杀死第二个BOSS.</string>
+	<string name="accomplishment.boss-2-killed-class.desc">以%requirement%个不同职业杀死第二个BOSS.</string>
 
 	<string name="accomplishment.boss-3-killed-class.name">邪恶屠戮者 %lvl%</string>
-	<string name="accomplishment.boss-3-killed-class.desc">以难度%requirement%杀死第三个BOSS.</string>
+	<string name="accomplishment.boss-3-killed-class.desc">以%requirement%个不同职业杀死第三个BOSS.</string>
 
 	<string name="accomplishment.boss-4-killed-class.name">秩序初建者 %lvl%</string>
-	<string name="accomplishment.boss-4-killed-class.desc">以难度%requirement%杀死第四个BOSS.</string>
+	<string name="accomplishment.boss-4-killed-class.desc">以%requirement%个不同职业杀死第四个BOSS.</string>
 
 	<string name="accomplishment.boss-5-killed-class.name">和平恢复者 %lvl%</string>
-	<string name="accomplishment.boss-5-killed-class.desc">以难度%requirement%杀死第五个BOSS.</string>
+	<string name="accomplishment.boss-5-killed-class.desc">以%requirement%个不同职业杀死第五个BOSS.</string>
 
 	<string name="accomplishment.aberration-killed.name">驱魔师 %lvl%</string>
 	<string name="accomplishment.aberration-killed.desc">击杀%requirement% 变异生物.</string>
