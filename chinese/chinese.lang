@@ -58,14 +58,14 @@
 	<string name="playermenu.character.armor.description">减少%value%%物理伤害.</string>
 	<string name="playermenu.character.resistance">魔抗</string>
 	<string name="playermenu.character.resistance.description">减少%value%%魔法伤害.</string>
-	<string name="playermenu.character.attackpower">攻击伤害加成</string>
-	<string name="playermenu.character.attackpower.description">提高%value%%攻击伤害.</string>
+	<string name="playermenu.character.attackpower">普攻伤害加成</string>
+	<string name="playermenu.character.attackpower.description">提高%value%%普攻伤害.</string>
 	<string name="playermenu.character.spellpower">技能伤害加成</string>
-	<string name="playermenu.character.spellpower.description">提高技能%value%%伤害.</string>
+	<string name="playermenu.character.spellpower.description">提高%value%%技能伤害.</string>
 	<string name="playermenu.character.attackdamage">攻击附加物理伤害</string>
 	<string name="playermenu.character.spelldamage">攻击附加魔法伤害</string>
 	<string name="playermenu.character.movespeed">移动速度</string>
-		<string name="playermenu.character.goldgain">金币获取速率</string>
+	<string name="playermenu.character.goldgain">金币获取速率</string>
 
 	<!-- acts -->
 	<string name="world.town">远望镇</string>
@@ -333,7 +333,7 @@
 	<string name="random_buff.lower_hp_regen">符文:献祭%amount%生命回复率. 你同意吗?</string>
 	<string name="random_buff.lower_mp_regen">符文:献祭%amount%法力回复率. 你同意吗?</string>
 	<string name="random_buff.take_damage">符文:献祭%amount%生命值. 你同意吗?</string>
-	<string name="random_buff.lower_damage">符文:献祭%amount%%攻击力. 你同意吗?</string>
+	<string name="random_buff.lower_damage">符文:献祭%amount%%普攻伤害. 你同意吗?</string>
 
 	<string name="random_buff.more_hp">神庙赐予你 %amount%%生命上限.</string>
 	<string name="random_buff.more_armor">神庙赐予你 %amount% 护甲和魔抗.</string>
@@ -342,7 +342,7 @@
 	<string name="random_buff.more_ore">神庙赐予你 %amount%% 矿石拾取速率.</string>
 	<string name="random_buff.more_hp_regen">神庙赐予你 %amount% 生命回复率.</string>
 	<string name="random_buff.more_mp_regen">神庙赐予你 %amount% 法力回复率.</string>
-	<string name="random_buff.more_damage">神庙赐予你 %amount%% 攻击伤害.</string>
+	<string name="random_buff.more_damage">神庙赐予你 %amount%% 普攻伤害.</string>
 
 
 
@@ -1071,13 +1071,13 @@
 	<string name="shop.townhall.guildhall-5.desc">解锁五级技能.</string>
 
 	<string name="shop.townhall.magicshop-1.name">一级魔法商店</string>
-	<string name="shop.townhall.magicshop-1.desc">解锁法师. 购买升级你的法术和防御.</string>
+	<string name="shop.townhall.magicshop-1.desc">解锁法师. 购买升级你的技能和防御.</string>
 
 	<string name="shop.townhall.magicshop-2.name">二级魔法商店</string>
-	<string name="shop.townhall.magicshop-2.desc">购买升级你的法术和防御.</string>
+	<string name="shop.townhall.magicshop-2.desc">购买升级你的技能和防御.</string>
 
 	<string name="shop.townhall.magicshop-3.name">三级魔法商店</string>
-	<string name="shop.townhall.magicshop-3.desc">购买升级你的法术和防御.</string>
+	<string name="shop.townhall.magicshop-3.desc">购买升级你的技能和防御.</string>
 
 	<string name="shop.townhall.oretrader-1.name">矿石交易员 I</string>
 	<string name="shop.townhall.oretrader-1.desc">购买或出售矿石.</string>
@@ -1168,34 +1168,34 @@
 	<string name="shop.blacksmith.armor-10.desc">+50 护甲.</string>
 
 	<string name="shop.blacksmith.weapon-1.name">武器 I</string>
-	<string name="shop.blacksmith.weapon-1.desc">+5 攻击力.</string>
+	<string name="shop.blacksmith.weapon-1.desc">+5 普攻伤害.</string>
 
 	<string name="shop.blacksmith.weapon-2.name">武器 II</string>
-	<string name="shop.blacksmith.weapon-2.desc">+10 攻击力.</string>
+	<string name="shop.blacksmith.weapon-2.desc">+10 普攻伤害.</string>
 
 	<string name="shop.blacksmith.weapon-3.name">武器 III</string>
-	<string name="shop.blacksmith.weapon-3.desc">+15 攻击力.</string>
+	<string name="shop.blacksmith.weapon-3.desc">+15 普攻伤害.</string>
 
 	<string name="shop.blacksmith.weapon-4.name">武器 IV</string>
-	<string name="shop.blacksmith.weapon-4.desc">+20 攻击力.</string>
+	<string name="shop.blacksmith.weapon-4.desc">+20 普攻伤害.</string>
 
 	<string name="shop.blacksmith.weapon-5.name">武器 V</string>
-	<string name="shop.blacksmith.weapon-5.desc">+25 攻击力.</string>
+	<string name="shop.blacksmith.weapon-5.desc">+25 普攻伤害.</string>
 
 	<string name="shop.blacksmith.weapon-6.name">武器 VI</string>
-	<string name="shop.blacksmith.weapon-6.desc">+30 攻击力.</string>
+	<string name="shop.blacksmith.weapon-6.desc">+30 普攻伤害.</string>
 
 	<string name="shop.blacksmith.weapon-7.name">武器 VII</string>
-	<string name="shop.blacksmith.weapon-7.desc">+40 攻击力.</string>
+	<string name="shop.blacksmith.weapon-7.desc">+40 普攻伤害.</string>
 
 	<string name="shop.blacksmith.weapon-8.name">武器 VIII</string>
-	<string name="shop.blacksmith.weapon-8.desc">+50 攻击力.</string>
+	<string name="shop.blacksmith.weapon-8.desc">+50 普攻伤害.</string>
 
 	<string name="shop.blacksmith.weapon-9.name">武器 IX</string>
-	<string name="shop.blacksmith.weapon-9.desc">+65 攻击力.</string>
+	<string name="shop.blacksmith.weapon-9.desc">+65 普攻伤害.</string>
 
 	<string name="shop.blacksmith.weapon-10.name">武器 X</string>
-	<string name="shop.blacksmith.weapon-10.desc">+80 攻击力.</string>
+	<string name="shop.blacksmith.weapon-10.desc">+80 普攻伤害.</string>
 
 	<string name="shop.blacksmith.criticalchance-1.name">暴击率 I</string>
 	<string name="shop.blacksmith.criticalchance-1.desc">普通攻击暴击率2.5%.</string>
@@ -1255,7 +1255,7 @@
 	<string name="shop.chapel.convertdisabled">更改</strin
 
 	<string name="shop.chapel.path.attack.name">战斗之道</string>
-	<string name="shop.chapel.path.attack.desc">普通攻击伤害增加 %attack%%.</string>
+	<string name="shop.chapel.path.attack.desc">普攻伤害增加 %attack%%.</string>
 
 	<string name="shop.chapel.path.defense.name">防守之道</string>
 	<string name="shop.chapel.path.defense.desc">减少%taken%%受到的伤害.</string>
@@ -1781,7 +1781,7 @@
 	<string name="item.boots-of-speed.desc">移动速度 +%mspeed%.</string>
 
 	<string name="item.broad-sword.name">阔剑</string>
-	<string name="item.broad-sword.desc">攻击力 +%atk%.</string>
+	<string name="item.broad-sword.desc">+%atk%普攻伤害.</string>
 
 	<string name="item.cape-of-withdrawal.name">撤退披肩</string>
 	<string name="item.cape-of-withdrawal.desc">被敌人击中时提升%mspeed%%移动速度%dur%秒.</string>
@@ -1871,7 +1871,7 @@
 	<string name="item.slippery-cloak.desc">+%evasion%% 闪避.</string>
 
 	<string name="item.spell-book.name">符咒书</string>
-	<string name="item.spell-book.desc">+%spell% 法术伤害.</string>
+	<string name="item.spell-book.desc">+%spell% 技能伤害.</string>
 
 	<string name="item.spiked-flail.name">链锤</string>
 	<string name="item.spiked-flail.desc">普通攻击时 +%dmg% 物理伤害.</string>
@@ -1919,13 +1919,13 @@
 	<string name="item.bloodthirst-ring.desc">普通攻击时吸取伤害量%lsteal%% 的生命值.</string>
 
 	<string name="item.claymore.name">大剑</string>
-	<string name="item.claymore.desc">普通攻击+%atk%攻击力和+%dmg% 物理伤害.</string>
+	<string name="item.claymore.desc">普通攻击+%atk%普攻伤害并附加+%dmg% 物理伤害.</string>
 
 	<string name="item.cloak-of-many-pockets.name">多袋斗篷</string>
 	<string name="item.cloak-of-many-pockets.desc">你获得金币增加%gold%%.</string>
 
 	<string name="item.elven-bow.name">精灵弓</string>
-	<string name="item.elven-bow.desc">+%atk% 攻击力.</string>
+	<string name="item.elven-bow.desc">+%atk% 普攻伤害.</string>
 
 	<string name="item.fancy-plume.name">华丽羽毛</string>
 	<string name="item.fancy-plume.desc">商店将出售更多的商品.</string>
@@ -1961,14 +1961,14 @@
 	<string name="item.ring-of-transmutation.desc">损失生命时，将获得损失量%mana%%的法力.</string>
 
 	<string name="item.robe-of-arch-magi.name">大法师长袍</string>
-	<string name="item.robe-of-arch-magi.desc">+%spell% 法术伤害和 +%res% 魔法抗性.</string>
+	<string name="item.robe-of-arch-magi.desc">+%spell% 技能伤害和 +%res% 魔法抗性.</string>
 
 	<string name="item.scarab-of-protection.name">圣甲虫护符</string>
 	<string name="item.scarab-of-protection.desc">当被击中时，对攻击者造成 %return% 魔法伤害并放出一圈毒镖.</string>
 
 
 	<string name="item.seal-of-the-martyr.name">烈士勋章</string>
-	<string name="item.seal-of-the-martyr.desc">每损失 1% 生命就增加 1%攻击伤害.</string>
+	<string name="item.seal-of-the-martyr.desc">每损失 1% 生命就增加 1%普攻伤害.</string>
 
 	<string name="item.shaftlocke-pickaxe.name">矿井之镐</string>
 	<string name="item.shaftlocke-pickaxe.desc">拾取矿石时，持有者有%chance%%几率额外获得矿石.</string>
@@ -1983,7 +1983,7 @@
 	<string name="item.sphere-of-nova.desc">连杀期间，向四周释放强大的新星爆发冲击波，每秒一次，造成%dmg%魔法伤害.</string>
 
 	<string name="item.staff-of-unstable-casting.name">不稳定法杖</string>
-	<string name="item.staff-of-unstable-casting.desc">法术攻击%chance%%几率造成暴击.</string>
+	<string name="item.staff-of-unstable-casting.desc">技能攻击%chance%%几率造成暴击.</string>
 
 	<string name="item.stinger.name">毒刺</string>
 	<string name="item.stinger.desc">物理伤害无视敌人 %pierce%%护甲.</string>
@@ -2019,9 +2019,8 @@
 	<string name="item.dragonscale-mail.name">龙鳞盔甲</string>
 	<string name="item.dragonscale-mail.desc">抵御 %taken%%伤害.</string>
 
-	<string name="item.duelists-edge.name">决斗者之锋</string>
+	<string name="item.duelists-edge.name">决斗之剑</string>
 	<string name="item.duelists-edge.desc">+%evasion%% 闪避. 当被击中时，对攻击者造成 %dmg% 魔法伤害并造成流血效果.</string>
-
 
 	<string name="item.earthsplitter.name">裂地者</string>
 	<string name="item.earthsplitter.desc">普通攻击击中敌人时，有%chance%%几率释放地裂,造成%dmg%物理伤害.</string>
@@ -2047,23 +2046,23 @@
 	<string name="item.ring-of-arcane-powers.name">神秘戒指</string>
 	<string name="item.ring-of-arcane-powers.desc">施法消耗降低%scost%%.</string>
 
-	<string name="item.scepter-of-kings.name">王者权杖</string>
-	<string name="item.scepter-of-kings.desc">+%spell% 法术伤害.</string>
+	<string name="item.scepter-of-kings.name">国王权杖</string>
+	<string name="item.scepter-of-kings.desc">+%spell% 技能伤害.</string>
 
 	<string name="item.shieldbreaker.name">碎盾者</string>
 	<string name="item.shieldbreaker.desc">普通攻击有%chance%%几率降低%sec%秒敌人%armor%%防御.</string>
 
 	<string name="item.sphere-of-champions.name">冠军宝珠</string>
-	<string name="item.sphere-of-champions.desc">连杀时增强%atk%物攻和法术伤害.</string>
+	<string name="item.sphere-of-champions.desc">连杀时增加%atk%技能伤害.</string>
 
 	<string name="item.staff-of-volatile-casting.name">不稳定法杖</string>
-	<string name="item.staff-of-volatile-casting.desc">法术攻击+%chance%%几率造成暴击.</string>
+	<string name="item.staff-of-volatile-casting.desc">+%chance%%技能暴击率.</string>
 
 	<string name="item.stormcaller.name">风暴召唤</string>
 	<string name="item.stormcaller.desc">普通攻击击中敌人时，有%chance%%几率释放闪电链, 造成 %dmg% 魔法伤害.</string>
 
 	<string name="item.sword-kings.name">国王之剑</string>
-	<string name="item.sword-kings.desc">+%atk% 物攻.</string>
+	<string name="item.sword-kings.desc">+%atk% 普攻伤害.</string>
 
 	<string name="item.talisman-of-conflagration.name">火灾护符</string>
 	<string name="item.talisman-of-conflagration.desc">杀死敌人有%chance%%几率使其自爆.</string>
@@ -2115,15 +2114,15 @@
 
 	<string name="item.sets.journeymans-outfit.name">旅行者套装</string>
 	<string name="item.sets.journeymans-outfit.desc.1">+%armor% 护甲</string>
-	<string name="item.sets.journeymans-outfit.desc.2">+%attack% 物理攻击</string>
+	<string name="item.sets.journeymans-outfit.desc.2">+%attack% 普攻伤害</string>
 	<string name="item.sets.journeymans-outfit.desc.3">%reduction%% 免伤</string>
 
-	<string name="item.sets.disciples-arcana.name">学徒的奥秘</string>
+	<string name="item.sets.disciples-arcana.name">学者的奥秘</string>
 	<string name="item.sets.disciples-arcana.desc.1">+%res% 魔法抗性</string>
 	<string name="item.sets.disciples-arcana.desc.2">+%skill% 技能强度</string>
 	<string name="item.sets.disciples-arcana.desc.3">施法消耗降低 %cost%%</string>
 
-	<string name="item.sets.spheres-of-power.name">脉冲领域</string>
+	<string name="item.sets.spheres-of-power.name">魔力宝珠</string>
 	<string name="item.sets.spheres-of-power.desc.1">小连杀新星</string>
 	<string name="item.sets.spheres-of-power.desc.2">连杀新星</string>
 	<string name="item.sets.spheres-of-power.desc.3">大连杀新星</string>
@@ -2352,7 +2351,7 @@
 	<string name="guildhall.stats.classtitles">职业称号</string>
 	<string name="guildhall.stats.armor">所有英雄护甲+%amount%</string>
 	<string name="guildhall.stats.resistance">所有英雄魔法抗性+%amount%</string>
-	<string name="guildhall.stats.attackpower">所有英雄攻击伤害+%amount%</string>
+	<string name="guildhall.stats.attackpower">所有英雄普攻伤害+%amount%</string>
 	<string name="guildhall.stats.spellpower">所有英雄技能伤害+%amount%</string>
 	<string name="guildhall.stats.healthregen">所有英雄生命回复率+%amount%</string>
 	<string name="guildhall.stats.manaregen">所有英雄法力回复率+%amount%</string>
@@ -2440,7 +2439,7 @@
 	<string name="bestiary.name.bosses.golem">岩石守卫</string>
 	<string name="bestiary.name.bosses.warden">监狱守卫</string>
 	<string name="bestiary.name.bosses.wraith_scythe">战争顾问</string>
-	<string name="bestiary.name.bosses.wraith_staff">智慧顾问/string>
+	<string name="bestiary.name.bosses.wraith_staff">智慧顾问</string>
 	<string name="bestiary.name.bosses.wraith_mage">魔法顾问</string>
 	<string name="bestiary.name.bosses.eye">监察者</string>
 	<string name="bestiary.name.bosses.dragon">雷电冰龙</string>
