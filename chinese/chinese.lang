@@ -58,9 +58,9 @@
 	<string name="playermenu.character.armor.description">减少%value%%物理伤害.</string>
 	<string name="playermenu.character.resistance">魔抗</string>
 	<string name="playermenu.character.resistance.description">减少%value%%魔法伤害.</string>
-	<string name="playermenu.character.attackpower">普攻伤害加成</string>
+	<string name="playermenu.character.attackpower">普攻加成</string>
 	<string name="playermenu.character.attackpower.description">提高%value%%普攻伤害.</string>
-	<string name="playermenu.character.spellpower">技能伤害加成</string>
+	<string name="playermenu.character.spellpower">技能加成</string>
 	<string name="playermenu.character.spellpower.description">提高%value%%技能伤害.</string>
 	<string name="playermenu.character.attackdamage">攻击附加物理伤害</string>
 	<string name="playermenu.character.spelldamage">攻击附加魔法伤害</string>
@@ -2438,9 +2438,9 @@
 
 	<string name="bestiary.name.bosses.golem">岩石守卫</string>
 	<string name="bestiary.name.bosses.warden">监狱守卫</string>
-	<string name="bestiary.name.bosses.wraith_scythe">战争顾问</string>
-	<string name="bestiary.name.bosses.wraith_staff">智慧顾问</string>
-	<string name="bestiary.name.bosses.wraith_mage">魔法顾问</string>
+	<string name="bestiary.name.bosses.wraith_scythe">巫妖骑士</string>
+	<string name="bestiary.name.bosses.wraith_staff">巫妖牧师</string>
+	<string name="bestiary.name.bosses.wraith_mage">巫妖法师</string>
 	<string name="bestiary.name.bosses.eye">监察者</string>
 	<string name="bestiary.name.bosses.dragon">雷电冰龙</string>
 	<string name="bestiary.name.spawner_archer_1">骷髅射手地巢</string>
@@ -2503,8 +2503,8 @@
 	<string name="bestiary.name.tower_battlement_archer_1_elite">精英城垛守卫</string>
 	<string name="bestiary.name.tower_battlement_empty">城垛</string>
 	<string name="bestiary.name.tower_beamo">激光柱</string>
-	<string name="bestiary.name.tower_flower_1">食人族</string>
-	<string name="bestiary.name.tower_flower_2">大食人族</string>
+	<string name="bestiary.name.tower_flower_1">食人花</string>
+	<string name="bestiary.name.tower_flower_2">大食人花</string>
 	<string name="bestiary.name.tower_nova_1">新星塔</string>
 	<string name="bestiary.name.tower_nova_2">强化新星塔</string>
 	<string name="bestiary.name.trapper">捕手</string>
