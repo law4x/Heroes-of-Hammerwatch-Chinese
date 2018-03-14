@@ -1258,7 +1258,7 @@
 	<string name="shop.chapel.path.attack.desc">普通攻击伤害增加 %attack%%.</string>
 
 	<string name="shop.chapel.path.defense.name">防守之道</string>
-	<string name="shop.chapel.path.defense.desc">防御增加 %taken%%.</string>
+	<string name="shop.chapel.path.defense.desc">减少%taken%%受到的伤害.</string>
 
 	<string name="shop.chapel.path.spell.name">符咒之道</string>
 	<string name="shop.chapel.path.spell.desc">技能伤害增加 %spell%%.</string>
@@ -1285,7 +1285,7 @@
 	<string name="shop.chapel.symbol.return-damage.desc">被击中时对攻击者造成%return%%伤害.</string>
 
 	<string name="shop.chapel.symbol.spell-cost.name">智慧勋章</string>
-	<string name="shop.chapel.symbol.spell-cost.desc">技能魔法消耗降低 %cost%%.</string>
+	<string name="shop.chapel.symbol.spell-cost.desc">技能法力消耗降低 %cost%%.</string>
 
 	<string name="shop.chapel.symbol.spell-crit.name">暴击勋章</string>
 	<string name="shop.chapel.symbol.spell-crit.desc">技能伤害暴击增加 %damage%%.</string>
@@ -1768,7 +1768,7 @@
 	<string name="item.amulet-of-resistance.name">抗性护符</string>
 	<string name="item.amulet-of-resistance.desc">+%res% 魔法抗性.</string>
 
-	<string name="item.apothecarys-herbs.name">药剂师宝珠</string>
+	<string name="item.apothecarys-herbs.name">药剂师的草药</string>
 	<string name="item.apothecarys-herbs.desc">饮用药剂获得%dur%秒提升%mspeed%%的移动速度buff.</string>
 
 	<string name="item.blackjack.name">黑铁棒</string>
@@ -1983,7 +1983,7 @@
 	<string name="item.sphere-of-nova.desc">连杀期间，向四周释放强大的新星爆发冲击波，每秒一次，造成%dmg%魔法伤害.</string>
 
 	<string name="item.staff-of-unstable-casting.name">不稳定法杖</string>
-	<string name="item.staff-of-unstable-casting.desc">%chance%%几率暴击.</string>
+	<string name="item.staff-of-unstable-casting.desc">法术攻击%chance%%几率造成暴击.</string>
 
 	<string name="item.stinger.name">毒刺</string>
 	<string name="item.stinger.desc">物理伤害无视敌人 %pierce%%护甲.</string>
