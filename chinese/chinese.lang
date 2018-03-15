@@ -173,11 +173,11 @@
 	<string name="stats.key-found-1">找到银钥匙</string>
 	<string name="stats.key-found-2">找到金钥匙</string>
 	<string name="stats.key-found-3">找到ACE钥匙</string>
-	<string name="stats.boss-1-killed">杀死第一个boss</string>
-	<string name="stats.boss-2-killed">杀死第二个boss</string>
-	<string name="stats.boss-3-killed">杀死第三个boss</string>
-	<string name="stats.boss-4-killed">杀死第四个boss</string>
-	<string name="stats.boss-5-killed">杀死第五个boss</string>
+	<string name="stats.boss-1-killed">杀死岩石守卫</string>
+	<string name="stats.boss-2-killed">杀死监狱守卫</string>
+	<string name="stats.boss-3-killed">杀死三鬼幽灵</string>
+	<string name="stats.boss-4-killed">杀死监察者</string>
+	<string name="stats.boss-5-killed">杀死雷电冰龙</string>
 	<string name="stats.aberration-killed">击杀变异生物</string>
 	<string name="stats.beast-killed">击杀野兽</string>
 	<string name="stats.construct-killed">破坏建筑物</string>
@@ -262,7 +262,6 @@
 	<string name="dead.gameover">游戏结束</string>
 	<string name="dead.restart.countdown">重新开始 %countdown%</string>
 	<string name="concept.continue">开始任务...</string>
-	<string name="concept.wolf">做好准备!</string>
 
 	<string name="levelend.quit">返回菜单</string>
 	<string name="levelend.finished">已准备</string>
@@ -529,7 +528,7 @@
 	<string name="menu.apply">应用</string>
 	<string name="menu.back">返回</string>
 	<string name="menu.ok">确定</string>
-	<string name="menu.accept">接受</string>
+	<string name="menu.accept">确认</string>
 	<string name="menu.yes">是</string>
 	<string name="menu.no">否</string>
 	<string name="menu.controls.mapoverlay">打开地图</string>
@@ -865,7 +864,6 @@
 	<string name="menu.notifier.joinfailed.host">无法创建房间.</string>
 	<string name="menu.loading">加载中</string>
 
-	<string name="menu.mplayer.splitscreen">SPLITSCREEN</string>
 	<string name="menu.splitscreen.newgame">NEW GAME</string>
 	<string name="menu.splitscreen.noplayers">You can't start without any players!</string>
 	<string name="menu.splitscreen.prompt">PRESS BACK TO LEAVE</string>
@@ -1344,15 +1342,11 @@
 	<string name="shop.magicshop.spellcritdamage-2.desc">技能暴击伤害X3.</string>
 
 	<!-- ore trader -->
-	<string name="shop.oretrader.ore-gold.name">购买矿石</string>
-	<string name="shop.oretrader.ore-gold-1.desc">购买一个矿石花费1500金币.</string>
-	<string name="shop.oretrader.ore-gold-2.desc">购买一个矿石花费1250金币.</string>
-	<string name="shop.oretrader.ore-gold-3.desc">购买一个矿石花费1000金币.</string>
+	<string name="shop.oretrader.ore-gold.name">购买 %ore%个矿石</string>
+	<string name="shop.oretrader.ore-gold.desc">购买 %ore%个矿石花费 %gold%金币.</string>
 
-	<string name="shop.oretrader.gold-ore.name">出售矿石</string>
-	<string name="shop.oretrader.gold-ore-1.desc">出售一个矿石获得200金币.</string>
-	<string name="shop.oretrader.gold-ore-2.desc">出售一个矿石获得350金币.</string>
-	<string name="shop.oretrader.gold-ore-3.desc">出售一个矿石获得500金币.</string>
+	<string name="shop.oretrader.gold-ore.name">出售 %ore%个矿石</string>
+	<string name="shop.oretrader.gold-ore.desc">出售 %ore%个矿石获得 %gold%金币.</string>
 
 
 
@@ -1862,7 +1856,7 @@
 	<string name="item.sandals-swiftness.desc">+%mspeed% 移动速度和 +%evasion%% 闪避.</string>
 
 	<string name="item.scroll-of-magic-missile.name">魔法飞弹卷轴</string>
-	<string name="item.scroll-of-magic-missile.desc">施法时%chance%%几率随机向一名敌人发射魔法飞弹.</string>
+	<string name="item.scroll-of-magic-missile.desc">使用技能时%chance%%几率随机向一名敌人发射魔法飞弹.</string>
 
 	<string name="item.serrated-scimitar.name">锯齿弯刀</string>
 	<string name="item.serrated-scimitar.desc">普通攻击时%chance%% 几率造成暴击.</string>
@@ -2525,19 +2519,19 @@
 	<string name="guildhall.accomplishments.boss-5">雷电冰龙</string>
 
 	<string name="accomplishment.boss-1-killed-class.name">希望赋予者 %lvl%</string>
-	<string name="accomplishment.boss-1-killed-class.desc">以%requirement%个不同职业杀死第一个BOSS.</string>
+	<string name="accomplishment.boss-1-killed-class.desc">以%requirement%个不同职业杀死岩石守卫.</string>
 
 	<string name="accomplishment.boss-2-killed-class.name">轮回击破者 %lvl%</string>
-	<string name="accomplishment.boss-2-killed-class.desc">以%requirement%个不同职业杀死第二个BOSS.</string>
+	<string name="accomplishment.boss-2-killed-class.desc">以%requirement%个不同职业杀死监狱守卫.</string>
 
 	<string name="accomplishment.boss-3-killed-class.name">邪恶屠戮者 %lvl%</string>
-	<string name="accomplishment.boss-3-killed-class.desc">以%requirement%个不同职业杀死第三个BOSS.</string>
+	<string name="accomplishment.boss-3-killed-class.desc">以%requirement%个不同职业杀死三鬼幽灵.</string>
 
 	<string name="accomplishment.boss-4-killed-class.name">秩序初建者 %lvl%</string>
-	<string name="accomplishment.boss-4-killed-class.desc">以%requirement%个不同职业杀死第四个BOSS.</string>
+	<string name="accomplishment.boss-4-killed-class.desc">以%requirement%个不同职业杀死监察者.</string>
 
 	<string name="accomplishment.boss-5-killed-class.name">和平恢复者 %lvl%</string>
-	<string name="accomplishment.boss-5-killed-class.desc">以%requirement%个不同职业杀死第五个BOSS.</string>
+	<string name="accomplishment.boss-5-killed-class.desc">以%requirement%个不同职业杀死雷电冰龙.</string>
 
 	<string name="accomplishment.aberration-killed.name">驱魔师 %lvl%</string>
 	<string name="accomplishment.aberration-killed.desc">击杀%requirement% 变异生物.</string>
