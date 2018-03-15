@@ -175,7 +175,7 @@
 	<string name="stats.key-found-3">找到ACE钥匙</string>
 	<string name="stats.boss-1-killed">杀死岩石守卫</string>
 	<string name="stats.boss-2-killed">杀死监狱守卫</string>
-	<string name="stats.boss-3-killed">杀死三鬼幽灵</string>
+	<string name="stats.boss-3-killed">杀死三大巫妖</string>
 	<string name="stats.boss-4-killed">杀死监察者</string>
 	<string name="stats.boss-5-killed">杀死雷电冰龙</string>
 	<string name="stats.aberration-killed">击杀变异生物</string>
@@ -2514,7 +2514,7 @@
 	<string name="guildhall.accomplishments.bosses">BOSSES</string>
 	<string name="guildhall.accomplishments.boss-1">岩石守卫</string>
 	<string name="guildhall.accomplishments.boss-2">监狱守卫</string>
-	<string name="guildhall.accomplishments.boss-3">三鬼幽灵</string>
+	<string name="guildhall.accomplishments.boss-3">三大巫妖</string>
 	<string name="guildhall.accomplishments.boss-4">监察者</string>
 	<string name="guildhall.accomplishments.boss-5">雷电冰龙</string>
 
@@ -2525,7 +2525,7 @@
 	<string name="accomplishment.boss-2-killed-class.desc">以%requirement%个不同职业杀死监狱守卫.</string>
 
 	<string name="accomplishment.boss-3-killed-class.name">邪恶屠戮者 %lvl%</string>
-	<string name="accomplishment.boss-3-killed-class.desc">以%requirement%个不同职业杀死三鬼幽灵.</string>
+	<string name="accomplishment.boss-3-killed-class.desc">以%requirement%个不同职业杀死三大巫妖.</string>
 
 	<string name="accomplishment.boss-4-killed-class.name">秩序初建者 %lvl%</string>
 	<string name="accomplishment.boss-4-killed-class.desc">以%requirement%个不同职业杀死监察者.</string>
