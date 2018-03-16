@@ -2100,7 +2100,7 @@
 	<string name="item.sets.monster-encyclopedia.desc">+%dmg%% 伤害</string>
 
 	<string name="item.sets.kings-regalia.name">国王套装</string>
-	<string name="item.sets.kings-regalia.desc">+%speed%%攻速和施法速度 </string>
+	<string name="item.sets.kings-regalia.desc">+%speed%%攻击速度和技能冷却速度 </string>
 
 	<string name="item.sets.apothecarys-implements.name">药剂师工具</string>
 	<string name="item.sets.apothecarys-implements.desc.1">+1 药剂使用次数</string>
