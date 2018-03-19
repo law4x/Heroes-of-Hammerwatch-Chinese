@@ -2034,8 +2034,8 @@
 	<string name="item.heartseeker.name">穿心者</string>
 	<string name="item.heartseeker.desc">普通攻击击中敌人时，有%chance%%几率造成暴击.</string>
 
-	<string name="item.magebane.name">巫师灾星</string>
-	<string name="item.magebane.desc">普攻有%chance%%几率降低敌人魔法抗性2秒.</string>
+	<string name="item.magebane.name">巫师之祸</string>
+	<string name="item.magebane.desc">普通攻击有%chance%%几率降低敌人%res%%魔法抗性，持续2秒.</string>
 
 	<string name="item.ring-of-arcane-powers.name">神秘戒指</string>
 	<string name="item.ring-of-arcane-powers.desc">施法消耗降低%scost%%.</string>
