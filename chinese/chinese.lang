@@ -1481,12 +1481,12 @@
 	<!-- Ranger -->
 	<string name="skills.ranger.bow">弓箭射击</string>
 	<string name="skills.ranger.bow.create">发射出穿透敌人的箭.</string>
-	<string name="skills.ranger.bow.1">每支箭造成10点物理伤害并穿透1个敌人.</string>
-	<string name="skills.ranger.bow.2">每支箭造成12点物理伤害并穿透2个敌人.</string>
-	<string name="skills.ranger.bow.3">每支箭造成14点物理伤害并穿透3个敌人.</string>
-	<string name="skills.ranger.bow.4">每支箭造成16点物理伤害并穿透4个敌人.</string>
-	<string name="skills.ranger.bow.5">每支箭造成18点物理伤害并穿透5个敌人.</string>
-	<string name="skills.ranger.bow.6">每支箭造成20点物理伤害并穿透6个敌人.</string>
+	<string name="skills.ranger.bow.1">每支箭造成10点物理伤害并穿透1个敌人,射击时移动速度降低50%.</string>
+	<string name="skills.ranger.bow.2">每支箭造成12点物理伤害并穿透2个敌人,射击时移动速度降低45%.</string>
+	<string name="skills.ranger.bow.3">每支箭造成14点物理伤害并穿透3个敌人,射击时移动速度降低40%.</string>
+	<string name="skills.ranger.bow.4">每支箭造成16点物理伤害并穿透4个敌人,射击时移动速度降低35%.</string>
+	<string name="skills.ranger.bow.5">每支箭造成18点物理伤害并穿透5个敌人,射击时移动速度降低30%.</string>
+	<string name="skills.ranger.bow.6">每支箭造成20点物理伤害并穿透6个敌人,射击时移动速度降低25%.</string>
 
 	<string name="skills.ranger.explosive-bomb">炸弹</string>
 	<string name="skills.ranger.explosive-bomb.create">游侠在地上放置一个1秒后引爆的炸弹,对区域内造成范围伤害.</string>
@@ -1520,10 +1520,10 @@
 	<string name="skills.ranger.grasping-roots.4">将游侠周围的敌人固定5秒.根须缠绕的敌人防御降低25%.</string>
 
 	<string name="skills.ranger.flurry-of-arrows">旋转箭雨</string>
-	<string name="skills.ranger.flurry-of-arrows.create">游侠快速旋转并连续射出箭矢.</string>
-	<string name="skills.ranger.flurry-of-arrows.1">游侠快速旋转2圈并连续射出箭矢.</string>
-	<string name="skills.ranger.flurry-of-arrows.2">游侠快速旋转3圈并连续射出箭矢.</string>
-	<string name="skills.ranger.flurry-of-arrows.3">游侠快速旋转4圈并连续射出箭矢.</string>
+	<string name="skills.ranger.flurry-of-arrows.create">游侠快速旋转并连续射出箭矢造成物理伤害.</string>
+	<string name="skills.ranger.flurry-of-arrows.1">游侠快速旋转2圈并连续射出箭矢造成30物理伤害.</string>
+	<string name="skills.ranger.flurry-of-arrows.2">游侠快速旋转3圈并连续射出箭矢造成40物理伤害.</string>
+	<string name="skills.ranger.flurry-of-arrows.3">游侠快速旋转4圈并连续射出箭矢造成50物理伤害.</string>
 
 	<string name="skills.ranger.twinned-arrows">分裂箭矢</string>
 	<string name="skills.ranger.twinned-arrows.create">游侠射出的箭矢有几率分裂并寻找新的目标.</string>
@@ -1534,12 +1534,12 @@
 	<!-- Sorcerer -->
 	<string name="skills.sorcerer.frost-shard">冰霜碎片</string>
 	<string name="skills.sorcerer.frost-shard.create">发射一个会在碰到墙或敌人时反弹的冰片.</string>
-	<string name="skills.sorcerer.frost-shard.1">发射一个造成8点混合伤害的冰霜碎片,能够反弹1次.</string>
-	<string name="skills.sorcerer.frost-shard.2">发射一个造成10点混合伤害的冰霜碎片,能够反弹2次.</string>
-	<string name="skills.sorcerer.frost-shard.3">发射一个造成12点混合伤害的冰霜碎片,能够反弹3次.</string>
-	<string name="skills.sorcerer.frost-shard.4">发射一个造成14点混合伤害的冰霜碎片,能够反弹4次.</string>
-	<string name="skills.sorcerer.frost-shard.5">发射一个造成16点混合伤害的冰霜碎片,能够反弹5次.</string>
-	<string name="skills.sorcerer.frost-shard.6">发射一个造成18点混合伤害的冰霜碎片片,能够反弹6次.</string>
+	<string name="skills.sorcerer.frost-shard.1">发射一个造成6点混合伤害的冰霜碎片,能够反弹1次.</string>
+	<string name="skills.sorcerer.frost-shard.2">发射一个造成8点混合伤害的冰霜碎片,能够反弹2次.</string>
+	<string name="skills.sorcerer.frost-shard.3">发射一个造成10点混合伤害的冰霜碎片,能够反弹3次.</string>
+	<string name="skills.sorcerer.frost-shard.4">发射一个造成12点混合伤害的冰霜碎片,能够反弹4次.</string>
+	<string name="skills.sorcerer.frost-shard.5">发射一个造成14点混合伤害的冰霜碎片,能够反弹5次.</string>
+	<string name="skills.sorcerer.frost-shard.6">发射一个造成16点混合伤害的冰霜碎片片,能够反弹6次.</string>
 
 	<string name="skills.sorcerer.comet">极寒彗星</string>
 	<string name="skills.sorcerer.comet.create">召唤一个彗星对巫师的前方造成冲击,对敌人造成伤害并冻结.</string>
@@ -1568,9 +1568,9 @@
 	<string name="skills.sorcerer.frost-nova">冰霜新星</string>
 	<string name="skills.sorcerer.frost-nova.create">巫师向周围发射出一些冰霜碎片.</string>
 	<string name="skills.sorcerer.frost-nova.1">在身边召唤13个冰霜碎片,对敌人造成伤害.</string>
-	<string name="skills.sorcerer.frost-nova.2">在身边召唤17个冰霜碎片,对敌人造成伤害.</string>
-	<string name="skills.sorcerer.frost-nova.3">在身边召唤21个冰霜碎片,对敌人造成伤害.</string>
-	<string name="skills.sorcerer.frost-nova.4">在身边召唤25个冰霜碎片,对敌人造成伤害.</string>
+	<string name="skills.sorcerer.frost-nova.2">在身边召唤15个冰霜碎片,对敌人造成伤害.</string>
+	<string name="skills.sorcerer.frost-nova.3">在身边召唤17个冰霜碎片,对敌人造成伤害.</string>
+	<string name="skills.sorcerer.frost-nova.4">在身边召唤19个冰霜碎片,对敌人造成伤害.</string>
 
 	<string name="skills.sorcerer.orb-of-winter">寒冬之球</string>
 	<string name="skills.sorcerer.orb-of-winter.create">生成一个缓慢移动的冰球,冰球会对周围释放小冰霜碎片.</string>
@@ -1597,11 +1597,11 @@
 	<string name="skills.thief.throwing-knives">投掷匕首</string>
 	<string name="skills.thief.throwing-knives.create">盗贼在面前扇形区域内扔出匕首,造成伤害并穿透敌人.</string>
 	<string name="skills.thief.throwing-knives.1">在前方45度扇形范围内扔出小刀,每个造成10点物理伤害,最多可穿透4个敌人.</string>
-	<string name="skills.thief.throwing-knives.2">在前方50度扇形范围内扔出小刀,每个造成15点物理伤害,最多可穿透5个敌人.</string>
-	<string name="skills.thief.throwing-knives.3">在前方55度扇形范围内扔出小刀,每个造成20点物理伤害,最多可穿透6个敌人.</string>
-	<string name="skills.thief.throwing-knives.4">在前方60度扇形范围内扔出小刀,每个造成25点物理伤害,最多可穿透7个敌人.</string>
-	<string name="skills.thief.throwing-knives.5">在前方65度扇形范围内扔出小刀,每个造成30点物理伤害,最多可穿透8个敌人.</string>
-	<string name="skills.thief.throwing-knives.6">在前方70度扇形范围内扔出小刀,每个造成35点物理伤害,最多可穿透9个敌人.</string>
+	<string name="skills.thief.throwing-knives.2">在前方50度扇形范围内扔出小刀,每个造成14点物理伤害,最多可穿透5个敌人.</string>
+	<string name="skills.thief.throwing-knives.3">在前方55度扇形范围内扔出小刀,每个造成18点物理伤害,最多可穿透6个敌人.</string>
+	<string name="skills.thief.throwing-knives.4">在前方60度扇形范围内扔出小刀,每个造成22点物理伤害,最多可穿透7个敌人.</string>
+	<string name="skills.thief.throwing-knives.5">在前方65度扇形范围内扔出小刀,每个造成26点物理伤害,最多可穿透8个敌人.</string>
+	<string name="skills.thief.throwing-knives.6">在前方70度扇形范围内扔出小刀,每个造成30点物理伤害,最多可穿透9个敌人.</string>
 
 	<string name="skills.thief.sidestep">幻影步</string>
 	<string name="skills.thief.sidestep.create">盗贼有几率躲避敌人的攻击.</string>
@@ -1612,11 +1612,11 @@
 	<string name="skills.thief.sidestep.5">25%几率完全闪避所有受到的伤害.</string>
 
 	<string name="skills.thief.slice-and-dice">杀戮盛宴</string>
-	<string name="skills.thief.slice-and-dice.create">每当杀死敌人时,盗贼都会获得暂时的攻速加成.</string>
-	<string name="skills.thief.slice-and-dice.1">每次击杀盗贼都会获得攻速加成,最高叠加4层.</string>
-	<string name="skills.thief.slice-and-dice.2">每次击杀盗贼都会获得攻速加成,最高叠加7层.</string>
-	<string name="skills.thief.slice-and-dice.3">每次击杀盗贼都会获得攻速加成,最高叠加10层.</string>
-	<string name="skills.thief.slice-and-dice.4">每次击杀盗贼都会获得攻速加成,最高叠加13层.</string>
+	<string name="skills.thief.slice-and-dice.create">每当杀死敌人时,盗贼都会获得暂时的攻速和闪避加成.</string>
+	<string name="skills.thief.slice-and-dice.1">每次击杀盗贼都会获得攻速加成和2%闪避,最高叠加4层,持续2.5秒.</string>
+	<string name="skills.thief.slice-and-dice.2">每次击杀盗贼都会获得攻速加成和2%闪避,最高叠加7层,持续2.5秒.</string>
+	<string name="skills.thief.slice-and-dice.3">每次击杀盗贼都会获得攻速加成和2%闪避,最高叠加10层,持续2.5秒.</string>
+	<string name="skills.thief.slice-and-dice.4">每次击杀盗贼都会获得攻速加成和2%闪避,最高叠加13层,持续2.5秒.</string>
 
 	<string name="skills.thief.grappling-hook">发射钩爪</string>
 	<string name="skills.thief.grappling-hook.create">盗贼向前发射一个钩爪并向勾住的地方移动,眩晕路途中所有的敌人.</string>
@@ -1627,14 +1627,14 @@
 
 	<string name="skills.thief.smoke-bomb">烟幕弹</string>
 	<string name="skills.thief.smoke-bomb.create">盗贼扔出一个烟幕弹,使范围内所有敌人眩晕.</string>
-	<string name="skills.thief.smoke-bomb.1">烟幕弹可以使周围的敌人眩晕4秒.</string>
-	<string name="skills.thief.smoke-bomb.2">烟幕弹可以使周围的敌人眩晕4.5秒.范围更大</string>
+	<string name="skills.thief.smoke-bomb.1">烟幕弹可以使周围的敌人眩晕3秒.</string>
+	<string name="skills.thief.smoke-bomb.2">烟幕弹可以使周围的敌人眩晕4秒.范围更大</string>
 	<string name="skills.thief.smoke-bomb.3">烟幕弹可以使周围的敌人眩晕5秒.范围更大.</string>
 
 	<string name="skills.thief.gold-fever">黄金狂热</string>
 	<string name="skills.thief.gold-fever.create">盗贼可以获得更多的金币,伤害也受到当前金币数量加成.</string>
-	<string name="skills.thief.gold-fever.1">盗贼额外获得50%金币.每一个金币会使盗贼的伤害增加0.001%.</string>
-	<string name="skills.thief.gold-fever.2">盗贼额外获得100%金币.每一个金币会使盗贼的伤害增加0.002%.</string>
+	<string name="skills.thief.gold-fever.1">盗贼额外获得50%金币.每一个金币会使盗贼的伤害增加0.001%，最高加100%.</string>
+	<string name="skills.thief.gold-fever.2">盗贼额外获得100%金币.每一个金币会使盗贼的伤害增加0.002%，最高加200%.</string>
 
 
 	<!-- Warlock -->
