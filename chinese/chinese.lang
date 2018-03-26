@@ -1856,7 +1856,7 @@
 	<string name="item.sandals-swiftness.desc">+%mspeed% 移动速度和 +%evasion%% 闪避.</string>
 
 	<string name="item.scroll-of-magic-missile.name">魔法飞弹卷轴</string>
-	<string name="item.scroll-of-magic-missile.desc">使用技能时%chance%%几率随机向一名敌人发射魔法飞弹.</string>
+	<string name="item.scroll-of-magic-missile.desc">使用技能时%chance%%几率向面朝的方向发射魔法飞弹.</string>
 
 	<string name="item.serrated-scimitar.name">锯齿弯刀</string>
 	<string name="item.serrated-scimitar.desc">普通攻击时%chance%% 几率造成暴击.</string>
