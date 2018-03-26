@@ -1,4 +1,4 @@
-﻿<lang min-size="12" max-bold="0">
+<lang min-size="12" max-bold="0">
 	<!-- SYSTEM -->
 
 
@@ -243,17 +243,11 @@
 
 
 	<!-- end of game -->
-	<string name="endofbeta.title">结束测试</string>
-	<string name="endofbeta.subtitle">感谢您参加这次测试!我们在beta测试过程中会不断加入更多内容.现在你可以选择开启一个新的存档或在当前存档中游玩.小镇进度已经保存.</string>
-	<string name="endofgame.town">继续</string>
-	<string name="endofgame.town.desc">返回小镇并继续在相同难度中游玩.</string>
-	<string name="endofgame.newgameplus">新游戏</string>
-	<string name="endofgame.newgameplus.desc">返回小镇并为你新游戏的人物升级.你的角色会获得新的称号.</string>
-	<string name="endofgame.title">结束</string>
-	<string name="endofgame.text">你成功抵达了遗忘之塔的塔顶,并且击杀了雷电冰龙————那头突然从西方降临,占据此地的青蓝巨龙.  现在,遗忘之塔已经从巨龙的控制中解脱,这一带居民的生活也将回到正轨.  （你现在可以选择回到远望镇,并用现在这名英雄继续这一难度的游戏.或者你可以更进一步，在【新周目】中开启新的难度!无论你作何选择,该角色之前的所有升级和进度都会继承.）</string>
-	<string name="endofgame.confirm.town">确定要继续相同难度的游戏吗？</string>
-	<string name="endofgame.confirm.plus">确定要开启新周目（难度提升）吗？</string>
 
+
+	<string name="endofgame.town">继续</string>
+	<string name="endofgame.title">结束</string>
+	<string name="endofgame.text">你成功抵达了遗忘之塔的塔顶,并且击杀了雷电冰龙————那头突然从西方降临,占据此地的青蓝巨龙.  现在,遗忘之塔已经从巨龙的控制中解脱,这一带居民的生活也将回到正轨.</string>
 
 	<string name="misc.yes">确认</string>
 	<string name="misc.no">取消</string>
@@ -485,12 +479,22 @@
 	<string name="mainmenu.soundoptions.title">声音设置</string>
 	<string name="mainmenu.controls.title">控制</string>
 	<string name="mainmenu.languages.title">语言</string>
+	<string name="mainmenu.languages.restart-confirm">You have to restart the game after changing your language!</string>
 	<string name="mainmenu.resolutions.title">分辨率</string>
 	<string name="mainmenu.host.title">主机</string>
 	<string name="mainmenu.host.public">公共</string>
 	<string name="mainmenu.host.private">私人</string>
 	<string name="mainmenu.host.name">%name% 的房间</string>
-	<string name="mainmenu.serverlist.title">服务器列表</string>
+	<string name="mainmenu.host.maxplayers">Max players</string>
+	<string name="mainmenu.host.maxlevel">Max hero level</string>
+	<string name="mainmenu.host.minlevel">Min hero level</string>
+	<string name="mainmenu.host.ngp">Start on NG+</string>
+	<string name="mainmenu.serverlist.title">SERVERLIST</string>
+	<string name="mainmenu.serverlist.level-restriction.both">Required hero level: %min% - %max%</string>
+	<string name="mainmenu.serverlist.level-restriction.min">Minimum hero level: %min%</string>
+	<string name="mainmenu.serverlist.level-restriction.max">Maximum hero level: %max%</string>
+	<string name="mainmenu.serverlist.ngp">NG+: \cffc400+%ngp%</string>
+	<string name="mainmenu.serverlist.charname">%name%, a level %lvl% %class%</string>
 
 	<!-- character selection -->
 	<string name="mainmenu.character.select.title">选择英雄</string>
@@ -941,6 +945,8 @@
 	<!-- misc -->
 	<string name="fountain.question">你想往喷泉里扔点钱吗?</string>
 	<string name="shop.menu.soldout">现在没有能买的东西了.</string>
+	<string name="town.dungeonsettings.title">DUNGEON SETTINGS</string>
+	<string name="town.dungeonsettings.ngp">Choose between Normal or NG+.</string>
 
 	<!-- shop names -->
 	<string name="shop.tier.num">%num% 级技能</string>
@@ -970,18 +976,6 @@
 	<string name="town.building.tavern">酒馆</string>
 	<string name="town.building.treasury">金库</string>
 	<string name="town.building.oretrader">矿石商人</string>
-
-	<string name="town.building.townhall">市政厅</string>
-	<string name="town.building.guildhall">公会</string>
-	<string name="town.building.generalstore">商店</string>
-	<string name="town.building.blacksmith">铁匠</string>
-	<string name="town.building.apothecary">药剂师</string>
-	<string name="town.building.fountain">喷泉</string>
-	<string name="town.building.magicshop">魔法商店</string>
-	<string name="town.building.chapel">教堂</string>
-	<string name="town.building.tavern">酒馆</string>
-	<string name="town.building.treasury">金库</string>
-	<string name="town.building.oretrader">矿石交易员</string>
 
 	<!-- town hall -->
 	<string name="shop.townhall.townhall-1.name">一级市政厅</string>
@@ -1347,7 +1341,6 @@
 
 	<string name="shop.oretrader.gold-ore.name">出售 %ore%个矿石</string>
 	<string name="shop.oretrader.gold-ore.desc">出售 %ore%个矿石获得 %gold%金币.</string>
-
 
 
 	<!-- fountain -->
@@ -1959,7 +1952,6 @@
 
 	<string name="item.scarab-of-protection.name">圣甲虫护符</string>
 	<string name="item.scarab-of-protection.desc">当被击中时，对攻击者造成 %return% 魔法伤害并放出一圈毒镖.</string>
-
 
 	<string name="item.seal-of-the-martyr.name">烈士勋章</string>
 	<string name="item.seal-of-the-martyr.desc">每损失 1% 生命就增加 1%普攻伤害.</string>
