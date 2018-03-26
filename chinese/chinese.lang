@@ -479,22 +479,22 @@
 	<string name="mainmenu.soundoptions.title">声音设置</string>
 	<string name="mainmenu.controls.title">控制</string>
 	<string name="mainmenu.languages.title">语言</string>
-	<string name="mainmenu.languages.restart-confirm">You have to restart the game after changing your language!</string>
+	<string name="mainmenu.languages.restart-confirm">您更改语言后必须重新启动游戏!</string>
 	<string name="mainmenu.resolutions.title">分辨率</string>
 	<string name="mainmenu.host.title">主机</string>
 	<string name="mainmenu.host.public">公共</string>
 	<string name="mainmenu.host.private">私人</string>
 	<string name="mainmenu.host.name">%name% 的房间</string>
-	<string name="mainmenu.host.maxplayers">Max players</string>
-	<string name="mainmenu.host.maxlevel">Max hero level</string>
-	<string name="mainmenu.host.minlevel">Min hero level</string>
-	<string name="mainmenu.host.ngp">Start on NG+</string>
-	<string name="mainmenu.serverlist.title">SERVERLIST</string>
-	<string name="mainmenu.serverlist.level-restriction.both">Required hero level: %min% - %max%</string>
-	<string name="mainmenu.serverlist.level-restriction.min">Minimum hero level: %min%</string>
-	<string name="mainmenu.serverlist.level-restriction.max">Maximum hero level: %max%</string>
+	<string name="mainmenu.host.maxplayers">玩家人数上线</string>
+	<string name="mainmenu.host.maxlevel">英雄等级上限</string>
+	<string name="mainmenu.host.minlevel">英雄等级下限</string>
+	<string name="mainmenu.host.ngp">游戏周目NG+</string>
+	<string name="mainmenu.serverlist.title">服务器列表</string>
+	<string name="mainmenu.serverlist.level-restriction.both">英雄等级要求: %min% - %max%</string>
+	<string name="mainmenu.serverlist.level-restriction.min">最低英雄等级: %min%</string>
+	<string name="mainmenu.serverlist.level-restriction.max">最高英雄等级: %max%</string>
 	<string name="mainmenu.serverlist.ngp">NG+: \cffc400+%ngp%</string>
-	<string name="mainmenu.serverlist.charname">%name%, a level %lvl% %class%</string>
+	<string name="mainmenu.serverlist.charname">%name%  %lvl%级 %class%</string>
 
 	<!-- character selection -->
 	<string name="mainmenu.character.select.title">选择英雄</string>
@@ -834,7 +834,7 @@
 	<string name="menu.serverlist.scenario">SCENARIO</string>
 	<string name="menu.serverlist.players">PLAYERS</string>
 
-	<string name="menu.close">CLOSE</string>
+	<string name="menu.close">选择</string>
 
 
 
@@ -945,8 +945,8 @@
 	<!-- misc -->
 	<string name="fountain.question">你想往喷泉里扔点钱吗?</string>
 	<string name="shop.menu.soldout">现在没有能买的东西了.</string>
-	<string name="town.dungeonsettings.title">DUNGEON SETTINGS</string>
-	<string name="town.dungeonsettings.ngp">Choose between Normal or NG+.</string>
+	<string name="town.dungeonsettings.title">地牢设置</string>
+	<string name="town.dungeonsettings.ngp">选择普通难度或者新周目难度NG+.</string>
 
 	<!-- shop names -->
 	<string name="shop.tier.num">%num% 级技能</string>
@@ -1244,7 +1244,7 @@
 	<!-- chapel -->
 	<string name="shop.chapel.convert">更改信仰 - %cost%</string>
 	<string name="shop.chapel.convert.prompt">你想支付%cost%金币改变信仰吗?</string>
-	<string name="shop.chapel.convertdisabled">更改</strin
+	<string name="shop.chapel.convertdisabled">更改</string>
 
 	<string name="shop.chapel.path.attack.name">战斗之道</string>
 	<string name="shop.chapel.path.attack.desc">普攻伤害增加 %attack%%.</string>
@@ -1364,6 +1364,11 @@
 	<string name="town.cardgame.outofmoney.4">你的钱花光了了了了!</string>
 	<string name="town.cardgame.outofmoney.5">你的钱花光了了了了了!</string>
 
+	<!-- retrain -->
+	<string name="shop.skills.respec">重新加点</string>
+	<string name="shop.skills.respec.tooltip.title">重新分配技能点</string>
+	<string name="shop.skills.respec.tooltip">花费金币重新分配技能点. 将会返还%skillpoints%技能点.</string>
+	<string name="shop.skills.respec.prompt">你确定花费%gold%金币重新技能加点?</string>
 
 
 
@@ -2030,7 +2035,7 @@
 	<string name="item.magebane.desc">普通攻击有%chance%%几率降低敌人%res%%魔法抗性，持续2秒.</string>
 
 	<string name="item.ring-of-arcane-powers.name">神秘戒指</string>
-	<string name="item.ring-of-arcane-powers.desc">施法消耗降低%scost%%.</string>
+	<string name="item.ring-of-arcane-powers.desc">技能消耗法力降低%scost%%.</string>
 
 	<string name="item.scepter-of-kings.name">国王权杖</string>
 	<string name="item.scepter-of-kings.desc">+%spell% 技能伤害.</string>
