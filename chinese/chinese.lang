@@ -1531,9 +1531,9 @@
 	<string name="skills.ranger.flurry-of-arrows.3">游侠快速旋转4圈并连续射出箭矢，每支箭造成50物理伤害.</string>
 
 	<string name="skills.ranger.twinned-arrows">分裂箭矢</string>
-	<string name="skills.ranger.twinned-arrows.create">游侠射出的箭矢有几率分裂并攻击新的目标.</string>
-	<string name="skills.ranger.twinned-arrows.1">游侠射出的箭矢有25%几率分裂并攻击新的目标.</string>
-	<string name="skills.ranger.twinned-arrows.2">游侠射出的箭矢有40%几率分裂并攻击新的目标.</string>
+	<string name="skills.ranger.twinned-arrows.create">游侠的普通攻击命中后，有一定几率分裂出新的箭矢，新箭矢的攻击方向会偏向次级目标.</string>
+	<string name="skills.ranger.twinned-arrows.1">游侠射出的箭矢有25%几率分裂并寻找新的目标.</string>
+	<string name="skills.ranger.twinned-arrows.2">游侠射出的箭矢有40%几率分裂并寻找新的目标.</string>
 
 
 	<!-- Sorcerer -->
