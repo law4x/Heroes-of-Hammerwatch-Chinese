@@ -1418,11 +1418,11 @@
 	<string name="skills.paladin.lay-on-hands.3">治疗圣骑士和队友.每8点能量产生7点治疗.治疗速度更快.</string>
 	<string name="skills.paladin.lay-on-hands.4">治疗圣骑士和队友.每9点能量产生8点治疗.治疗速度更快.</string>
 
-	<string name="skills.paladin.whirlwind">剑刃风暴</string>
-	<string name="skills.paladin.whirlwind.create">对周围所有的敌人持续造成伤害，但持续施法期间不能攻击.</string>
-	<string name="skills.paladin.whirlwind.1">每一转对周围敌人造成30点物理伤害.旋转持续3秒.</string>
-	<string name="skills.paladin.whirlwind.2">每一转对周围敌人造成40点物理伤害.旋转持续4秒.</string>
-	<string name="skills.paladin.whirlwind.3">每一转对周围敌人造成50点物理伤害.旋转持续5秒.</string>
+	<string name="skills.paladin.whirlwind">旋风斩</string>
+	<string name="skills.paladin.whirlwind.create">持续施法.对周围的敌人造成伤害，施法期间可以移动，不可以攻击.</string>
+	<string name="skills.paladin.whirlwind.1">每次造成30点物理伤害.旋转持续3秒.</string>
+	<string name="skills.paladin.whirlwind.2">每次造成40点物理伤害.旋转持续4秒.</string>
+	<string name="skills.paladin.whirlwind.3">每次造成50点物理伤害.旋转持续5秒.</string>
 
 	<string name="skills.paladin.juggernaut">天神之力</string>
 	<string name="skills.paladin.juggernaut.create">圣骑士会对碰到的敌人造成伤害并有几率眩晕.</string>
@@ -1572,10 +1572,10 @@
 
 	<string name="skills.sorcerer.frost-nova">冰霜新星</string>
 	<string name="skills.sorcerer.frost-nova.create">巫师向周围发射出一些冰球碎片.</string>
-	<string name="skills.sorcerer.frost-nova.1">在身边发射13个冰球碎片,对敌人造成伤害.</string>
-	<string name="skills.sorcerer.frost-nova.2">在身边发射15个冰球碎片,对敌人造成伤害.</string>
-	<string name="skills.sorcerer.frost-nova.3">在身边发射17个冰球碎片,对敌人造成伤害.</string>
-	<string name="skills.sorcerer.frost-nova.4">在身边发射19个冰球碎片,对敌人造成伤害.</string>
+	<string name="skills.sorcerer.frost-nova.1">在身边发射13个冰球碎片,每个冰球造成12点混合伤害.</string>
+	<string name="skills.sorcerer.frost-nova.2">在身边发射15个冰球碎片,每个冰球造成16点混合伤害.</string>
+	<string name="skills.sorcerer.frost-nova.3">在身边发射17个冰球碎片,每个冰球造成20点混合伤害.</string>
+	<string name="skills.sorcerer.frost-nova.4">在身边发射19个冰球碎片,每个冰球造成24点混合伤害.</string>
 
 	<string name="skills.sorcerer.orb-of-winter">寒冬宝珠</string>
 	<string name="skills.sorcerer.orb-of-winter.create">创造一个缓慢定向移动的冰球,冰球会向周边不断发射大量小型碎冰.</string>
