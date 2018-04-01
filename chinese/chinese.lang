@@ -1379,7 +1379,7 @@
 
 	<!-- Paladin -->
 	<string name="skills.paladin.sword">剑击</string>
-	<string name="skills.paladin.sword.create">近战范围内造成物理伤害.</string>
+	<string name="skills.paladin.sword.create">造成范围型物理伤害的近战攻击.</string>
 	<string name="skills.paladin.sword.1">近战对90度范围内造成16点物理伤害.</string>
 	<string name="skills.paladin.sword.2">近战对120度范围内造成19点物理伤害.</string>
 	<string name="skills.paladin.sword.3">近战对150度范围内造成22点物理伤害.</string>
@@ -1397,32 +1397,32 @@
 	<string name="skills.paladin.charge.6">向前冲刺.途中的敌人受到75点物理伤害.增加速度和范围.</string>
 
 	<string name="skills.paladin.shield">格挡</string>
-	<string name="skills.paladin.shield.create">一个能够阻挡大部分子弹的坚固盾牌.有几率阻挡一些穿透伤害.</string>
-	<string name="skills.paladin.shield.1">阻挡来自前方90度的子弹.盾牌有25%几率阻挡5点物理伤害或者魔法伤害.</string>
-	<string name="skills.paladin.shield.2">阻挡来自前方120度的子弹.盾牌有25%几率阻挡10点物理伤害或者魔法伤害.</string>
-	<string name="skills.paladin.shield.3">阻挡来自前方150度的子弹.盾牌有25%几率阻挡15点物理伤害或者魔法伤害.</string>
-	<string name="skills.paladin.shield.4">阻挡来自前方180度的子弹.盾牌有25%几率阻挡20点物理伤害或者魔法伤害.</string>
-	<string name="skills.paladin.shield.5">阻挡来自前方210度的子弹.盾牌有25%几率阻挡25点物理伤害或者魔法伤害.</string>
+	<string name="skills.paladin.shield.create">被动.圣骑士手持一个坚固的盾牌，盾牌能格挡大部分投射物，此外也有几率阻挡一定的伤害.</string>
+	<string name="skills.paladin.shield.1">阻挡来自面前90度的投射物.盾牌有25%几率阻挡5点物理伤害或者魔法伤害.</string>
+	<string name="skills.paladin.shield.2">阻挡来自面前120度的投射物.盾牌有25%几率阻挡10点物理伤害或者魔法伤害.</string>
+	<string name="skills.paladin.shield.3">阻挡来自面前150度的投射物.盾牌有25%几率阻挡15点物理伤害或者魔法伤害.</string>
+	<string name="skills.paladin.shield.4">阻挡来自面前180度的投射物.盾牌有25%几率阻挡20点物理伤害或者魔法伤害.</string>
+	<string name="skills.paladin.shield.5">阻挡来自面前210度的投射物.盾牌有25%几率阻挡25点物理伤害或者魔法伤害.</string>
 
 	<string name="skills.paladin.stunning-blows">重击</string>
-	<string name="skills.paladin.stunning-blows.create">圣骑士的普通攻击几率眩晕敌人几秒.</string>
+	<string name="skills.paladin.stunning-blows.create">圣骑士的普通攻击有几率击晕敌人.</string>
 	<string name="skills.paladin.stunning-blows.1">你的普通攻击有10%几率使敌人晕眩2.5秒.</string>
 	<string name="skills.paladin.stunning-blows.2">你的普通攻击有15%几率使敌人晕眩2.5秒.</string>
 	<string name="skills.paladin.stunning-blows.3">你的普通攻击有20%几率使敌人晕眩2.5秒.</string>
 	<string name="skills.paladin.stunning-blows.4">你的普通攻击有25%几率使敌人晕眩2.5秒.</string>
 
 	<string name="skills.paladin.lay-on-hands">治疗之手</string>
-	<string name="skills.paladin.lay-on-hands.create">圣骑士附近区域的所有队友都得到治疗.</string>
-	<string name="skills.paladin.lay-on-hands.1">对圣骑士和队友治疗.每6点能量产生5点治疗.</string>
-	<string name="skills.paladin.lay-on-hands.2">对圣骑士和队友治疗.每7点能量产生6点治疗.治疗速度更快.</string>
-	<string name="skills.paladin.lay-on-hands.3">对圣骑士和队友治疗.每8点能量产生7点治疗.治疗速度更快.</string>
-	<string name="skills.paladin.lay-on-hands.4">对圣骑士和队友治疗.每9点能量产生8点治疗.治疗速度更快.</string>
+	<string name="skills.paladin.lay-on-hands.create">持续施法.治疗圣骑士和身边的所有队友.</string>
+	<string name="skills.paladin.lay-on-hands.1">治疗圣骑士和队友.每6点能量产生5点治疗.</string>
+	<string name="skills.paladin.lay-on-hands.2">治疗圣骑士和队友.每7点能量产生6点治疗.治疗速度更快.</string>
+	<string name="skills.paladin.lay-on-hands.3">治疗圣骑士和队友.每8点能量产生7点治疗.治疗速度更快.</string>
+	<string name="skills.paladin.lay-on-hands.4">治疗圣骑士和队友.每9点能量产生8点治疗.治疗速度更快.</string>
 
 	<string name="skills.paladin.whirlwind">旋风斩</string>
-	<string name="skills.paladin.whirlwind.create">旋转攻击,对周围所有的敌人造成伤害.</string>
-	<string name="skills.paladin.whirlwind.1">每次旋转对周围敌人造成30点物理伤害.旋转持续3秒.</string>
-	<string name="skills.paladin.whirlwind.2">每次旋转对周围敌人造成40点物理伤害.旋转持续4秒.</string>
-	<string name="skills.paladin.whirlwind.3">每次旋转对周围敌人造成50点物理伤害.旋转持续5秒.</string>
+	<string name="skills.paladin.whirlwind.create">持续施法.对周围的敌人造成伤害，施法期间可以移动，不可以攻击.</string>
+	<string name="skills.paladin.whirlwind.1">每次造成30点物理伤害.旋转持续3秒.</string>
+	<string name="skills.paladin.whirlwind.2">每次造成40点物理伤害.旋转持续4秒.</string>
+	<string name="skills.paladin.whirlwind.3">每次造成50点物理伤害.旋转持续5秒.</string>
 
 	<string name="skills.paladin.juggernaut">天神之力</string>
 	<string name="skills.paladin.juggernaut.create">圣骑士会对碰到的敌人造成伤害并有几率眩晕.</string>
@@ -1432,16 +1432,16 @@
 
 	<!-- Priest -->
 	<string name="skills.priest.smite">惩击</string>
-	<string name="skills.priest.smite.create">一个能够造成物理和魔法伤害的短距离范围伤害.</string>
+	<string name="skills.priest.smite.create">造成范围型混合伤害的近距离攻击.</string>
 	<string name="skills.priest.smite.1">近距离造成8点混合伤害.</string>
-	<string name="skills.priest.smite.2">近距离造成10点混合伤害,范围略微变大.</string>
-	<string name="skills.priest.smite.3">近距离造成12点混合伤害,范围略微变大.</string>
-	<string name="skills.priest.smite.4">近距离造成14点混合伤害,范围略微变大.</string>
-	<string name="skills.priest.smite.5">近距离造成16点混合伤害,范围略微变大.</string>
-	<string name="skills.priest.smite.6">近距离造成18点混合伤害,范围略微变大.</string>
+	<string name="skills.priest.smite.2">近距离造成10点混合伤害,伤害范围略微变大.</string>
+	<string name="skills.priest.smite.3">近距离造成12点混合伤害,伤害范围略微变大.</string>
+	<string name="skills.priest.smite.4">近距离造成14点混合伤害,伤害范围略微变大.</string>
+	<string name="skills.priest.smite.5">近距离造成16点混合伤害,伤害范围略微变大.</string>
+	<string name="skills.priest.smite.6">近距离造成18点混合伤害,伤害范围略微变大.</string>
 
 	<string name="skills.priest.holy-light">圣光冲击</string>
-	<string name="skills.priest.holy-light.create">一道能够对敌人造成越来越高伤害并治疗队友的光束攻击.</string>
+	<string name="skills.priest.holy-light.create">引导一道能够对敌人造成递增伤害并对队友进行治疗的光束.</string>
 	<string name="skills.priest.holy-light.1">发射一道光束,最高对敌人造成每秒12点魔法伤害并治疗队友每秒2点.</string>
 	<string name="skills.priest.holy-light.2">发射一道光束,最高对敌人造成每秒18点魔法伤害并治疗队友每秒3点.</string>
 	<string name="skills.priest.holy-light.3">发射一道光束,最高对敌人造成每秒24点魔法伤害并治疗队友每秒4点.</string>
@@ -1458,7 +1458,7 @@
 	<string name="skills.priest.divine-protection.5">护盾会吸收50%的伤害.每点被吸收的伤害消耗0.5点法力.</string>
 
 	<string name="skills.priest.remedy">治疗术</string>
-	<string name="skills.priest.remedy.create">各种治疗物对牧师回复更多生命值.</string>
+	<string name="skills.priest.remedy.create">牧师获得额外的生命回复，无论进食还是治疗.</string>
 	<string name="skills.priest.remedy.1">牧师额外获得50%的生命回复.</string>
 	<string name="skills.priest.remedy.2">牧师额外获得100%的生命回复.</string>
 	<string name="skills.priest.remedy.3">牧师额外获得150%的生命回复.</string>
@@ -1478,14 +1478,14 @@
 	<string name="skills.priest.aura-of-purification.3">光环使敌人减速50%并少造成50%的伤害.当光环开启时,牧师的法力恢复降低50%.</string>
 
 	<string name="skills.priest.celestial-orb">天堂之球</string>
-	<string name="skills.priest.celestial-orb.create">天堂之球在牧师身边环绕并向周围的敌人发射圣光束.</string>
-	<string name="skills.priest.celestial-orb.1">2个天堂之球在牧师身边环绕并向周围的敌人发射圣光束,每次造成8点魔法伤害.</string>
-	<string name="skills.priest.celestial-orb.2">3个天堂之球在牧师身边环绕并向周围的敌人发射圣光束,每次造成12点魔法伤害.</string>
+	<string name="skills.priest.celestial-orb.create">天堂之球在牧师身边环绕并向周围的敌人发射小圣光束.</string>
+	<string name="skills.priest.celestial-orb.1">2个天堂之球在牧师身边环绕并向周围的敌人发射小圣光束,每秒造成8点魔法伤害.</string>
+	<string name="skills.priest.celestial-orb.2">3个天堂之球在牧师身边环绕并向周围的敌人发射小圣光束,每秒造成12点魔法伤害.</string>
 
 
 	<!-- Ranger -->
 	<string name="skills.ranger.bow">弓箭射击</string>
-	<string name="skills.ranger.bow.create">发射出穿透敌人的箭.</string>
+	<string name="skills.ranger.bow.create">造成物理伤害的穿透型远程攻击.</string>
 	<string name="skills.ranger.bow.1">每支箭造成10点物理伤害并穿透1个敌人,射击时移动速度降低50%.</string>
 	<string name="skills.ranger.bow.2">每支箭造成12点物理伤害并穿透2个敌人,射击时移动速度降低45%.</string>
 	<string name="skills.ranger.bow.3">每支箭造成14点物理伤害并穿透3个敌人,射击时移动速度降低40%.</string>
@@ -1526,25 +1526,25 @@
 
 	<string name="skills.ranger.flurry-of-arrows">旋转箭雨</string>
 	<string name="skills.ranger.flurry-of-arrows.create">游侠快速旋转并连续射出箭矢造成物理伤害.</string>
-	<string name="skills.ranger.flurry-of-arrows.1">游侠快速旋转2圈并连续射出箭矢造成30物理伤害.</string>
-	<string name="skills.ranger.flurry-of-arrows.2">游侠快速旋转3圈并连续射出箭矢造成40物理伤害.</string>
-	<string name="skills.ranger.flurry-of-arrows.3">游侠快速旋转4圈并连续射出箭矢造成50物理伤害.</string>
+	<string name="skills.ranger.flurry-of-arrows.1">游侠快速旋转2圈并连续射出箭矢，每支箭造成30物理伤害.</string>
+	<string name="skills.ranger.flurry-of-arrows.2">游侠快速旋转3圈并连续射出箭矢，每支箭造成40物理伤害.</string>
+	<string name="skills.ranger.flurry-of-arrows.3">游侠快速旋转4圈并连续射出箭矢，每支箭造成50物理伤害.</string>
 
 	<string name="skills.ranger.twinned-arrows">分裂箭矢</string>
-	<string name="skills.ranger.twinned-arrows.create">游侠射出的箭矢有几率分裂并寻找新的目标.</string>
+	<string name="skills.ranger.twinned-arrows.create">游侠的普通攻击命中后，有一定几率分裂出新的箭矢，新箭矢的攻击方向会偏向次级目标.</string>
 	<string name="skills.ranger.twinned-arrows.1">游侠射出的箭矢有25%几率分裂并寻找新的目标.</string>
 	<string name="skills.ranger.twinned-arrows.2">游侠射出的箭矢有40%几率分裂并寻找新的目标.</string>
 
 
 	<!-- Sorcerer -->
-	<string name="skills.sorcerer.frost-shard">冰霜碎片</string>
-	<string name="skills.sorcerer.frost-shard.create">发射一个会在碰到墙或敌人时反弹的冰片.</string>
-	<string name="skills.sorcerer.frost-shard.1">发射一个造成6点混合伤害的冰霜碎片,能够反弹1次.</string>
-	<string name="skills.sorcerer.frost-shard.2">发射一个造成8点混合伤害的冰霜碎片,能够反弹2次.</string>
-	<string name="skills.sorcerer.frost-shard.3">发射一个造成10点混合伤害的冰霜碎片,能够反弹3次.</string>
-	<string name="skills.sorcerer.frost-shard.4">发射一个造成12点混合伤害的冰霜碎片,能够反弹4次.</string>
-	<string name="skills.sorcerer.frost-shard.5">发射一个造成14点混合伤害的冰霜碎片,能够反弹5次.</string>
-	<string name="skills.sorcerer.frost-shard.6">发射一个造成16点混合伤害的冰霜碎片片,能够反弹6次.</string>
+	<string name="skills.sorcerer.frost-shard">冰晶碎片</string>
+	<string name="skills.sorcerer.frost-shard.create">造成混合伤害的远程攻击.冰晶碎片可以在障碍物或敌人之间反弹.</string>
+	<string name="skills.sorcerer.frost-shard.1">发射一个造成6点混合伤害的冰晶碎片,能够反弹1次.</string>
+	<string name="skills.sorcerer.frost-shard.2">发射一个造成8点混合伤害的冰晶碎片,能够反弹2次.</string>
+	<string name="skills.sorcerer.frost-shard.3">发射一个造成10点混合伤害的冰晶碎片,能够反弹3次.</string>
+	<string name="skills.sorcerer.frost-shard.4">发射一个造成12点混合伤害的冰晶碎片,能够反弹4次.</string>
+	<string name="skills.sorcerer.frost-shard.5">发射一个造成14点混合伤害的冰晶碎片,能够反弹5次.</string>
+	<string name="skills.sorcerer.frost-shard.6">发射一个造成16点混合伤害的冰晶碎片,能够反弹6次.</string>
 
 	<string name="skills.sorcerer.comet">极寒彗星</string>
 	<string name="skills.sorcerer.comet.create">召唤一个彗星对巫师的前方造成冲击,对敌人造成伤害并冻结.</string>
@@ -1563,44 +1563,44 @@
 	<string name="skills.sorcerer.biting-chill.4">被巫师技能击中的敌人会在3.5秒内减速65%.</string>
 	<string name="skills.sorcerer.biting-chill.5">被巫师技能击中的敌人会在4秒内减速80%.</string>
 
-	<string name="skills.sorcerer.ice-barrier">冰霜护甲</string>
-	<string name="skills.sorcerer.ice-barrier.create">巫师召唤抵挡伤害的冰块,有几率使受到伤害减半并对攻击者施加噬骨之寒.</string>
-	<string name="skills.sorcerer.ice-barrier.1">有15%几率使受到伤害减半并施加噬骨之寒.</string>
-	<string name="skills.sorcerer.ice-barrier.2">有30%几率使受到伤害减半并施加噬骨之寒.</string>
-	<string name="skills.sorcerer.ice-barrier.3">有45%几率使受到伤害减半并施加噬骨之寒.</string>
-	<string name="skills.sorcerer.ice-barrier.4">有60%几率使受到伤害减半并施加噬骨之寒.</string>
+	<string name="skills.sorcerer.ice-barrier">寒冰护体</string>
+	<string name="skills.sorcerer.ice-barrier.create">巫师统御寒冰抵挡伤害,有几率使受到的伤害减半并对攻击者施加噬骨之寒.</string>
+	<string name="skills.sorcerer.ice-barrier.1">有15%几率使受到的伤害减半并施加噬骨之寒.</string>
+	<string name="skills.sorcerer.ice-barrier.2">有30%几率使受到的伤害减半并施加噬骨之寒.</string>
+	<string name="skills.sorcerer.ice-barrier.3">有45%几率使受到的伤害减半并施加噬骨之寒.</string>
+	<string name="skills.sorcerer.ice-barrier.4">有60%几率使受到的伤害减半并施加噬骨之寒.</string>
 
 	<string name="skills.sorcerer.frost-nova">冰霜新星</string>
-	<string name="skills.sorcerer.frost-nova.create">巫师向周围发射出一些冰霜碎片.</string>
-	<string name="skills.sorcerer.frost-nova.1">在身边召唤13个冰霜碎片,对敌人造成伤害.</string>
-	<string name="skills.sorcerer.frost-nova.2">在身边召唤15个冰霜碎片,对敌人造成伤害.</string>
-	<string name="skills.sorcerer.frost-nova.3">在身边召唤17个冰霜碎片,对敌人造成伤害.</string>
-	<string name="skills.sorcerer.frost-nova.4">在身边召唤19个冰霜碎片,对敌人造成伤害.</string>
+	<string name="skills.sorcerer.frost-nova.create">巫师向周围发射出一些冰球碎片.</string>
+	<string name="skills.sorcerer.frost-nova.1">在身边发射13个冰球碎片,每个冰球造成12点混合伤害.</string>
+	<string name="skills.sorcerer.frost-nova.2">在身边发射15个冰球碎片,每个冰球造成16点混合伤害.</string>
+	<string name="skills.sorcerer.frost-nova.3">在身边发射17个冰球碎片,每个冰球造成20点混合伤害.</string>
+	<string name="skills.sorcerer.frost-nova.4">在身边发射19个冰球碎片,每个冰球造成24点混合伤害.</string>
 
-	<string name="skills.sorcerer.orb-of-winter">寒冬之球</string>
-	<string name="skills.sorcerer.orb-of-winter.create">生成一个缓慢移动的冰球,冰球会对周围释放小冰霜碎片.</string>
-	<string name="skills.sorcerer.orb-of-winter.1">冰球持续3.5秒,向周围放出冰霜碎片,造成12点混合伤害.</string>
-	<string name="skills.sorcerer.orb-of-winter.2">冰球持续5秒,向周围放出冰霜碎片,造成16点混合伤害.</string>
-	<string name="skills.sorcerer.orb-of-winter.3">冰球持续6.5秒,向周围放出冰霜碎片,造成20点混合伤害.</string>
+	<string name="skills.sorcerer.orb-of-winter">寒冬宝珠</string>
+	<string name="skills.sorcerer.orb-of-winter.create">创造一个缓慢定向移动的冰球,冰球会向周边不断发射大量小型碎冰.</string>
+	<string name="skills.sorcerer.orb-of-winter.1">冰球持续3.5秒,向周围放出碎冰,每片造成12点混合伤害.</string>
+	<string name="skills.sorcerer.orb-of-winter.2">冰球持续5秒,向周围放出碎冰,每片造成16点混合伤害.</string>
+	<string name="skills.sorcerer.orb-of-winter.3">冰球持续6.5秒,向周围放出碎冰,每片造成20点混合伤害.</string>
 
 	<string name="skills.sorcerer.shatter">寒霜破灭</string>
-	<string name="skills.sorcerer.shatter.create">有几率在被杀死的敌人的位置释放冰霜新星.</string>
-	<string name="skills.sorcerer.shatter.1">有10%的几率在被杀死的敌人的位置释放冰霜新星.</string>
-	<string name="skills.sorcerer.shatter.2">有20%的几率在被杀死的敌人的位置释放冰霜新星.</string>
+	<string name="skills.sorcerer.shatter.create">有几率在被杀死的敌人的位置施放冰霜新星.</string>
+	<string name="skills.sorcerer.shatter.1">有10%的几率在被杀死的敌人的位置施放冰霜新星.</string>
+	<string name="skills.sorcerer.shatter.2">有20%的几率在被杀死的敌人的位置施放冰霜新星.</string>
 
 
 	<!-- Thief -->
 	<string name="skills.thief.twin-daggers">双刃</string>
-	<string name="skills.thief.twin-daggers.create">快速的近战攻击,可以阻挡大部分的来袭子弹.</string>
-	<string name="skills.thief.twin-daggers.1">每两次快速的近战攻击,造成7点物理伤害.攻击时移动速度降低60%.</string>
-	<string name="skills.thief.twin-daggers.2">每两次快速的近战攻击,造成9点物理伤害.攻击时移动速度降低50%.</string>
-	<string name="skills.thief.twin-daggers.3">每两次快速的近战攻击,造成11点物理伤害.攻击时移动速度降低40%.</string>
-	<string name="skills.thief.twin-daggers.4">每两次快速的近战攻击,造成13点物理伤害.攻击时移动速度降低30%.</string>
-	<string name="skills.thief.twin-daggers.5">每两次快速的近战攻击,造成15点物理伤害.攻击时移动速度降低20%.</string>
-	<string name="skills.thief.twin-daggers.6">每两次快速的近战攻击,造成17点物理伤害.攻击时移动速度降低10%.</string>
+	<string name="skills.thief.twin-daggers.create">造成物理伤害的近战攻击.双刃不仅攻速快，还能打落大部分投射物</string>
+	<string name="skills.thief.twin-daggers.1">每两次快速的近战攻击,造成7*2点物理伤害.攻击时移动速度降低60%.</string>
+	<string name="skills.thief.twin-daggers.2">每两次快速的近战攻击,造成9*2点物理伤害.攻击时移动速度降低50%.</string>
+	<string name="skills.thief.twin-daggers.3">每两次快速的近战攻击,造成11*2点物理伤害.攻击时移动速度降低40%.</string>
+	<string name="skills.thief.twin-daggers.4">每两次快速的近战攻击,造成13*2点物理伤害.攻击时移动速度降低30%.</string>
+	<string name="skills.thief.twin-daggers.5">每两次快速的近战攻击,造成15*2点物理伤害.攻击时移动速度降低20%.</string>
+	<string name="skills.thief.twin-daggers.6">每两次快速的近战攻击,造成17*2点物理伤害.攻击时移动速度降低10%.</string>
 
 	<string name="skills.thief.throwing-knives">投掷匕首</string>
-	<string name="skills.thief.throwing-knives.create">盗贼在面前扇形区域内扔出匕首,造成伤害并穿透敌人.</string>
+	<string name="skills.thief.throwing-knives.create">盗贼向身前扇形区域内扔出匕首造成伤害，匕首可以穿透敌人.</string>
 	<string name="skills.thief.throwing-knives.1">在前方45度扇形范围内扔出小刀,每个造成10点物理伤害,最多可穿透4个敌人.</string>
 	<string name="skills.thief.throwing-knives.2">在前方50度扇形范围内扔出小刀,每个造成14点物理伤害,最多可穿透5个敌人.</string>
 	<string name="skills.thief.throwing-knives.3">在前方55度扇形范围内扔出小刀,每个造成18点物理伤害,最多可穿透6个敌人.</string>
@@ -1609,7 +1609,7 @@
 	<string name="skills.thief.throwing-knives.6">在前方70度扇形范围内扔出小刀,每个造成30点物理伤害,最多可穿透9个敌人.</string>
 
 	<string name="skills.thief.sidestep">幻影步</string>
-	<string name="skills.thief.sidestep.create">盗贼有几率躲避敌人的攻击.</string>
+	<string name="skills.thief.sidestep.create">盗贼有几率闪避即将到来的攻击.</string>
 	<string name="skills.thief.sidestep.1">5%几率完全闪避所有受到的伤害.</string>
 	<string name="skills.thief.sidestep.2">10%几率完全闪避所有受到的伤害.</string>
 	<string name="skills.thief.sidestep.3">15%几率完全闪避所有受到的伤害.</string>
@@ -1644,22 +1644,22 @@
 
 	<!-- Warlock -->
 	<string name="skills.warlock.poisoned-dagger">淬毒匕首</string>
-	<string name="skills.warlock.poisoned-dagger.create">术士挥动匕首,对敌人进行近战攻击并对击中的敌人施加毒素.中毒的敌人每隔一段时间受到魔法伤害并在死亡时产生小范围爆炸,造成魔法伤害.</string>
-	<string name="skills.warlock.poisoned-dagger.1">近战攻击造成10点物理伤害,中毒的敌人在2.5秒内受到4点魔法伤害,并在死亡时对小范围内造成8点魔法伤害</string>
-	<string name="skills.warlock.poisoned-dagger.2">近战攻击造成12点物理伤害,中毒的敌人在2.5秒内受到6点魔法伤害,并在死亡时对小范围内造成12点魔法伤害.</string>
-	<string name="skills.warlock.poisoned-dagger.3">近战攻击造成14点物理伤害,中毒的敌人在2.5秒内受到8点魔法伤害,并在死亡时对小范围内造成16点魔法伤害.</string>
-	<string name="skills.warlock.poisoned-dagger.4">近战攻击造成16点物理伤害,中毒的敌人在2.5秒内受到10点魔法伤害,并在死亡时对小范围内造成20点魔法伤害.</string>
-	<string name="skills.warlock.poisoned-dagger.5">近战攻击造成18点物理伤害,中毒的敌人在2.5秒内受到12点魔法伤害,并在死亡时对小范围内造成24点魔法伤害.</string>
-	<string name="skills.warlock.poisoned-dagger.6">近战攻击造成20点物理伤害,中毒的敌人在2.5秒内受到14点魔法伤害,并在死亡时对小范围内造成28点魔法伤害.</string>
+	<string name="skills.warlock.poisoned-dagger.create">造成物理伤害的近战攻击，每次攻击都会使敌人中毒，并且造成一系列的魔法伤害</string>
+	<string name="skills.warlock.poisoned-dagger.1">近战攻击造成10点物理伤害,中毒的敌人在2.5秒内受到每秒4点魔法伤害,并在死亡时对小范围内造成8点魔法伤害</string>
+	<string name="skills.warlock.poisoned-dagger.2">近战攻击造成12点物理伤害,中毒的敌人在2.5秒内受到每秒6点魔法伤害,并在死亡时对小范围内造成12点魔法伤害.</string>
+	<string name="skills.warlock.poisoned-dagger.3">近战攻击造成14点物理伤害,中毒的敌人在2.5秒内受到每秒8点魔法伤害,并在死亡时对小范围内造成16点魔法伤害.</string>
+	<string name="skills.warlock.poisoned-dagger.4">近战攻击造成16点物理伤害,中毒的敌人在2.5秒内受每秒10点魔法伤害,并在死亡时对小范围内造成20点魔法伤害.</string>
+	<string name="skills.warlock.poisoned-dagger.5">近战攻击造成18点物理伤害,中毒的敌人在2.5秒内受到每秒12点魔法伤害,并在死亡时对小范围内造成24点魔法伤害.</string>
+	<string name="skills.warlock.poisoned-dagger.6">近战攻击造成20点物理伤害,中毒的敌人在2.5秒内受到每秒14点魔法伤害,并在死亡时对小范围内造成28点魔法伤害.</string>
 
 	<string name="skills.warlock.lightning-bolt">闪电链</string>
-	<string name="skills.warlock.lightning-bolt.create">发射一道闪电,受到碰撞时向多个目标弹射.</string>
-	<string name="skills.warlock.lightning-bolt.1">发射一道闪电击中4个敌人,每个造成18点魔法伤害.</string>
-	<string name="skills.warlock.lightning-bolt.2">发射一道闪电击中4个敌人,每个造成22点魔法伤害.</string>
-	<string name="skills.warlock.lightning-bolt.3">发射一道闪电击中4个敌人,每个造成26点魔法伤害.</string>
-	<string name="skills.warlock.lightning-bolt.4">发射一道闪电击中4个敌人,每个造成30点魔法伤害.</string>
-	<string name="skills.warlock.lightning-bolt.5">发射一道闪电击中4个敌人,每个造成34点魔法伤害.</string>
-	<string name="skills.warlock.lightning-bolt.6">发射一道闪电击中4个敌人,每个造成38点魔法伤害.</string>
+	<string name="skills.warlock.lightning-bolt.create">发射一道闪电,闪电击中目标时会传向次级目标，造成同等伤害.</string>
+	<string name="skills.warlock.lightning-bolt.1">发射一道闪电击中4个目标,对每个目标造成18点魔法伤害.</string>
+	<string name="skills.warlock.lightning-bolt.2">发射一道闪电击中4个目标,对每个目标造成22点魔法伤害.</string>
+	<string name="skills.warlock.lightning-bolt.3">发射一道闪电击中4个目标,对每个目标造成26点魔法伤害.</string>
+	<string name="skills.warlock.lightning-bolt.4">发射一道闪电击中4个目标,对每个目标造成30点魔法伤害.</string>
+	<string name="skills.warlock.lightning-bolt.5">发射一道闪电击中4个目标,对每个目标造成34点魔法伤害.</string>
+	<string name="skills.warlock.lightning-bolt.6">发射一道闪电击中4个目标,对每个目标造成38点魔法伤害.</string>
 
 	<string name="skills.warlock.blood-sacrifice">血之献祭</string>
 	<string name="skills.warlock.blood-sacrifice.create">术士杀死敌人时有几率回复生命.</string>
@@ -1690,14 +1690,14 @@
 	<string name="skills.warlock.eye-of-the-storm.3">闪电对敌人造成40点魔法伤害.雷云持续11秒.</string>
 
 	<string name="skills.warlock.stormlash">风暴鞭笞</string>
-	<string name="skills.warlock.stormlash.create">所有技能引发的闪电都有几率触发一条次级闪电.</string>
+	<string name="skills.warlock.stormlash.create">包括风暴鞭笞在内所有技能引发的闪电都有几率触发一条次级闪电.</string>
 	<string name="skills.warlock.stormlash.1">有50%几率触发次级闪电,造成50%的伤害.</string>
 	<string name="skills.warlock.stormlash.2">有75%几率触发次级闪电,造成75%的伤害.</string>
 
 
 	<!-- Wizard -->
 	<string name="skills.wizard.fireball">火球</string>
-	<string name="skills.wizard.fireball.create">对小范围内造成魔法伤害的远程攻击.</string>
+	<string name="skills.wizard.fireball.create">造成小范围魔法伤害的远程攻击.火球视作技能.</string>
 	<string name="skills.wizard.fireball.1">火球造成8点魔法伤害.</string>
 	<string name="skills.wizard.fireball.2">火球造成10点魔法伤害并拥有更远的射程和更大的范围.</string>
 	<string name="skills.wizard.fireball.3">火球造成12点魔法伤害并拥有更远的射程和更大的范围.</string>
