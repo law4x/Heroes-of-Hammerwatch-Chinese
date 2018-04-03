@@ -1099,16 +1099,16 @@
 	<string name="shop.townhall.tavern-3.desc">赌博.</string>
 
 	<string name="shop.townhall.treasury-1.name">一级金库</string>
-	<string name="shop.townhall.treasury-1.desc">降低手续费.</string>
+	<string name="shop.townhall.treasury-1.desc">当金币达到15,000时税率会达到上限50%当金币达到10,000时税率会达到上限50%当金币达到10,000时税率会达到上限50%当金币达到10,000时税率会达到上限50%.</string>
 
 	<string name="shop.townhall.treasury-2.name">二级金库</string>
-	<string name="shop.townhall.treasury-2.desc">降低手续费.</string>
+	<string name="shop.townhall.treasury-2.desc">当金币达到20,000时税率会达到上限50%当金币达到10,000时税率会达到上限50%当金币达到10,000时税率会达到上限50%.</string>
 
 	<string name="shop.townhall.treasury-3.name">三级金库</string>
-	<string name="shop.townhall.treasury-3.desc">降低手续费.</string>
+	<string name="shop.townhall.treasury-3.desc">当金币达到20,000时税率会达到上限50%当金币达到10,000时税率会达到上限50%.</string>
 
 	<string name="shop.townhall.treasury-4.name">四级金库</string>
-	<string name="shop.townhall.treasury-4.desc">降低手续费.</string>
+	<string name="shop.townhall.treasury-4.desc">当金币达到25,000时税率会达到上限50%.</string>
 
 
 	<!-- apothecary -->
