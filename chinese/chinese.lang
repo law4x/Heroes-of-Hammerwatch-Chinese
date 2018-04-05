@@ -413,6 +413,12 @@
 	<string name="ui_draw_plr_names_real">玩家真实名字</string>
 	<string name="ui_draw_plr_names_real.help">在多人模式中显示玩家真实的名字而不是英雄名字.</string>
 
+	<string name="ui_minimap_size">小地图</string>
+	<string name="ui_minimap_size.help">在屏幕右上角显示小地图.</string>
+	<string name="ui_minimap_size.small">小</string>
+	<string name="ui_minimap_size.medium">中</string>
+	<string name="ui_minimap_size.big">大</string>
+
 	<!-- Gambling -->
 	<string name="gambling.house">庄</string>
 	<string name="gambling.you">你</string>
@@ -522,6 +528,8 @@
 	<string name="menu.controls.potion">药剂</string>
 	<string name="menu.controls.playermenu">玩家菜单</string>
 	<string name="menu.controls.guildmenu">公会</string>
+	<string name="menu.controls.mapoverlay">打开地图</string>
+	<string name="menu.controls.ping">地图标记</string>
 
 	<string name="menu.mplayer">多人游戏</string>
 	<string name="menu.mplayer.clobby">创建房间</string>
@@ -773,6 +781,11 @@
 	<string name="menu.lobby.missing.level">MISSING LEVEL</string>
 	<string name="menu.lobby.chat.missing.you">You don't have "%scenario%".</string>
 
+	<string name="mainmenu.lobbyplayers.title">玩家列表</string>
+	<string name="mainmenu.lobbyplayers.title.multiple">玩家列表 (%count% 玩家)</string>
+	<string name="mainmenu.lobbyplayers.kick.prompt">你确定要踢掉 %name%?</string>
+	<string name="mainmenu.lobbyplayers.profile.tooltip">打开玩家个人页面.</string>
+	<string name="mainmenu.lobbyplayers.kick.tooltip">踢掉玩家.</string>
 
 	<!-- server list -->
 	<string name="menu.serverlist.refresh">刷新</string>
