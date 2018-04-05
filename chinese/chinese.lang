@@ -543,7 +543,6 @@
 	<string name="menu.accept">确认</string>
 	<string name="menu.yes">是</string>
 	<string name="menu.no">否</string>
-	<string name="menu.controls.mapoverlay">打开地图</string>
 
 	<!-- options -> * -->
 	<string name="menu.o.game">游戏</string>
