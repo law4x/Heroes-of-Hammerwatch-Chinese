@@ -2155,83 +2155,83 @@
 	<!-- COMMON -->
 
 
-	<string name="drink.a-strong-arm.name">A Strong Arm</string>
-	<string name="drink.a-strong-arm.desc">%pos% Attack Power.\n%neg% Armor.</string>
+	<string name="drink.a-strong-arm.name">身强力壮</string>
+	<string name="drink.a-strong-arm.desc">%pos% 普攻伤害.\n%neg% 护甲.</string>
 
-	<string name="drink.ancient-spirit.name">Ancient Spirit</string>
-	<string name="drink.ancient-spirit.desc">%pos% Skill Power.\n%neg% Resistance.</string>
+	<string name="drink.ancient-spirit.name">远古魔灵</string>
+	<string name="drink.ancient-spirit.desc">%pos% 技能加成.\n%neg% 魔法抗性.</string>
 
-	<string name="drink.crazy-eye.name">Crazy Eye</string>
-	<string name="drink.crazy-eye.desc">%pos%% chance to score a Critical Hit on Primary Attack.\n%neg% Armor.</string>
+	<string name="drink.crazy-eye.name">癫狂视线</string>
+	<string name="drink.crazy-eye.desc">普通攻击时%pos%% 几率造成暴击.\n%neg% 护甲.</string>
 
-	<string name="drink.double-thriller.name">Double Thriller</string>
-	<string name="drink.double-thriller.desc">%pos%% damage dealt.\n%neg%% damage taken.</string>
+	<string name="drink.double-thriller.name">双重惊悚</string>
+	<string name="drink.double-thriller.desc">%pos%% 伤害量.\n%neg%% 受到的伤害.</string>
 
-	<string name="drink.homemade-hazard.name">Homemade Hazard</string>
-	<string name="drink.homemade-hazard.desc">%pos%% Critical Damage on your Primary attack.\n%neg%% damage taken.</string>
+	<string name="drink.homemade-hazard.name">风险投资</string>
+	<string name="drink.homemade-hazard.desc">%pos%% 普通攻击暴击伤害.\n%neg%% 受到的伤害.</string>
 
-	<string name="drink.ladys-blessing.name">Lady's Blessing</string>
-	<string name="drink.ladys-blessing.desc">%pos% Health Regen.\n%neg%% Skill Power.</string>
+	<string name="drink.ladys-blessing.name">圣女祝福</string>
+	<string name="drink.ladys-blessing.desc">%pos% 生命回复率.\n%neg%% 技能加成.</string>
 
-	<string name="drink.lazy-stroll.name">Lazy Stroll</string>
-	<string name="drink.lazy-stroll.desc">%pos%% Experience gain.\n%neg% Movement Speed.</string>
+	<string name="drink.lazy-stroll.name">游手好闲</string>
+	<string name="drink.lazy-stroll.desc">%pos%% 经验获得.\n%neg% 移动速度.</string>
 
-	<string name="drink.mellow-mist.name">Mellow Mist</string>
-	<string name="drink.mellow-mist.desc">%pos%% damage taken.\n%neg% Movement Speed.</string>
+	<string name="drink.mellow-mist.name">醇厚酒雾</string>
+	<string name="drink.mellow-mist.desc">%pos%% 受到的伤害.\n%neg% 移动速度.</string>
 
-	<string name="drink.on-the-run.name">On the Run</string>
-	<string name="drink.on-the-run.desc">%pos% Movement Speed.\n%neg%% Gold gain.</string>
+	<string name="drink.on-the-run.name">健步如飞</string>
+	<string name="drink.on-the-run.desc">%pos% 移动速度.\n%neg%% 金币获取速率.</string>
 
-	<string name="drink.smelly-old-man.name">Smelly Old Man</string>
-	<string name="drink.smelly-old-man.desc">%pos% Mana Regen.\n%neg%% max Health.</string>
+	<string name="drink.smelly-old-man.name">皓首穷经</string>
+	<string name="drink.smelly-old-man.desc">%pos% 法力回复率.\n%neg%% 生命上限.</string>
 
-	<string name="drink.starlight-stinger.name">Starlight Stinger</string>
-	<string name="drink.starlight-stinger.desc">%pos%% chance to score a Critical Hit with Skills.\n%neg%% max Mana.</string>
+	<string name="drink.starlight-stinger.name">利如星火</string>
+	<string name="drink.starlight-stinger.desc">技能攻击%pos%% 几率造成暴击.\n%neg%% 法力上限.</string>
 
-	<string name="drink.the-groovy-ghost.name">The Groovy Ghost</string>
-	<string name="drink.the-groovy-ghost.desc">%pos%% Evasion.\n%neg% Attack Power.</string>
+	<string name="drink.the-groovy-ghost.name">幽灵漫步</string>
+	<string name="drink.the-groovy-ghost.desc">%pos%% 闪避.\n%neg% 普攻伤害.</string>
 
 
 	<!-- UNCOMMON -->
 
 
-	<string name="drink.a-fools-errand.name">A Fool's Errand</string>
-	<string name="drink.a-fools-errand.desc">%pos%% Gold gain.\n%neg% Health Regen while standing still.</string>
+	<string name="drink.a-fools-errand.name">混水摸鱼</string>
+	<string name="drink.a-fools-errand.desc">%pos%% 金币获取速率.\n%neg% 原地不动时生命回复率.</string>
 
-	<string name="drink.elemental-bruiser.name">Elemental Bruiser</string>
-	<string name="drink.elemental-bruiser.desc">%pos%% Skill damage.\n%neg%% Skill cost.</string>
+	<string name="drink.elemental-bruiser.name">元素紊乱</string>
+	<string name="drink.elemental-bruiser.desc">%pos%% 技能加成.\n%neg%% 技能消耗法力.</string>
 
-	<string name="drink.miners-delight.name">Miners Delight</string>
-	<string name="drink.miners-delight.desc">%pos%% Ore gain.\n%neg%% Gold gain.</string>
+	<string name="drink.miners-delight.name">矿工挚爱</string>
+	<string name="drink.miners-delight.desc">%pos%% 矿石获取速率率.\n%neg%% 金币获取速率.</string>
 
-	<string name="drink.last-stand.name">Last Stand</string>
-	<string name="drink.last-stand.desc">+%pos%% damage dealt and -50% damage taken while standing still.\n%neg%% Movement Speed.</string>
+	<string name="drink.last-stand.name">背水一战</string>
+	<string name="drink.last-stand.desc">+%pos%% 造成的伤害，原地不动时收到的伤害-50% .\n%neg%% 移动速度.</string>
 
-	<string name="drink.the-last-sin.name">The Last Sin</string>
-	<string name="drink.the-last-sin.desc">%pos%% Critical Damage with Skills\n%neg% Mana Regen.</string>
+	<string name="drink.the-last-sin.name">恶名昭著</string>
+	<string name="drink.the-last-sin.desc">%pos%% 技能暴击伤害\n%neg% 法力回复率.</string>
 
 
 
 	<!-- RARE -->
 
 
-	<string name="drink.crimson-death.name">Crimson Death</string>
-	<string name="drink.crimson-death.desc">%pos%% Lifesteal on all damage.\nLose health while moving.</string>
+	<string name="drink.crimson-death.name">致命深红</string>
+	<string name="drink.crimson-death.desc">%pos%% 普攻和技能吸血.\n移动时损失生命.</string>
 
-	<string name="drink.hammer-time.name">Hammer Time</string>
-	<string name="drink.hammer-time.desc">%pos% Attack Power.\n%neg%% Armor.</string>
+	<string name="drink.hammer-time.name">地毁人亡 </string>
+	<string name="drink.hammer-time.desc">%pos% 普攻伤害.\n%neg%% 护甲.</string>
 
-	<string name="drink.incendiary-demise.name">Incendiary Demise</string>
-	<string name="drink.incendiary-demise.desc">%pos% Magical damage on Primary Attack.\nYou start burning when dealing damage with your Primary Attack.</string>
+	<string name="drink.incendiary-demise.name">欲火焚身</string>
+	<string name="drink.incendiary-demise.desc">普通攻击附加%pos% 点魔法伤害.\n用普通攻击造成伤害后自己灼伤.</string>
 
-	<string name="drink.the-mad-proposal.name">The Mad Proposal</string>
-	<string name="drink.the-mad-proposal.desc">%pos%% damage dealt.\nPermanent Confusion.</string>
+	<string name="drink.the-mad-proposal.name">丧心病狂</string>
+	<string name="drink.the-mad-proposal.desc">%pos%% 造成的伤害.\n永久处于混乱状态.</string>
 
-	<string name="drink.unbalanced-essence.name">Unbalanced Essence</string>
-	<string name="drink.unbalanced-essence.desc">%pos% Skill Power.\n%neg%% Resistance.</string>
+	<string name="drink.unbalanced-essence.name">龙头蛇尾E</string>
+	<string name="drink.unbalanced-essence.desc">%pos% 技能加成.\n%neg%% 魔抗.</string>
 
-	<string name="drink.wicked-sickness.name">Wicked Sickness</string>
-	<string name="drink.wicked-sickness.desc">%pos%% damage dealt during Combo.\n%neg% Health Regen while out of Combo.</string>
+	<string name="drink.wicked-sickness.name">身罹奇疾</string>
+	<string name="drink.wicked-sickness.desc">%pos%% 连击伤害加成.\n%neg% 没有连击时生命恢复速率.</string>
 
 
 
