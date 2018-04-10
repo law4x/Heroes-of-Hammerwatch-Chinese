@@ -398,7 +398,7 @@
 	<string name="modifier.list.player.upgrades">升级</string>
 	<string name="modifier.list.player.buffs">增益效果</string>
 	<string name="modifier.list.player.titles">职业称号</string>
-	<string name="modifier.list.player.tavern_drinks">Drinks</string>
+	<string name="modifier.list.player.tavern_drinks">酒水</string>
 
 	<string name="ui_key_count">显示钥匙数量</string>
 	<string name="ui_key_count.help">在界面显示你拥有钥匙的数量.</string>
@@ -1253,8 +1253,8 @@
 	<string name="shop.generalstore.keygold.name">金钥匙</string>
 	<string name="shop.generalstore.keygold.desc">用来打开金箱子.</string>
 
-	<string name="shop.generalstore.reroll">REROLL - %cost%</string>
-	<string name="shop.generalstore.rerolldisabled">REROLL</string>
+	<string name="shop.generalstore.reroll">刷新 - %cost%</string>
+	<string name="shop.generalstore.rerolldisabled">刷新</string>
 
 
 	<!-- chapel -->
@@ -2449,7 +2449,7 @@
 	<string name="guildhall.tab.stats">公会 & 英雄</string>
 	<string name="guildhall.tab.accomplishments">成就</string>
 	<string name="guildhall.tab.beastiary">怪物图鉴</string>
-	<string name="guildhall.tab.itemiary">ITEMIARY</string>
+	<string name="guildhall.tab.itemiary">物品图鉴</string>
 	<string name="guildhall.stats.guildtitle">公会  %title%</string>
 	<string name="guildhall.stats.lifetime">生涯</string>
 	<string name="guildhall.stats.classtitles">职业称号</string>
@@ -2617,8 +2617,8 @@
 	<string name="bestiary.name.wisp_2">红精灵</string>
 
 	<!-- itemiary -->
-	<string name="itemiary.header.items">ITEMS</string>
-	<string name="itemiary.header.drinks">DRINKS</string>
+	<string name="itemiary.header.items">装备</string>
+	<string name="itemiary.header.drinks">酒水</string>
 
 
 
