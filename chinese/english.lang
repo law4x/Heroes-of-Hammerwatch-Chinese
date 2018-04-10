@@ -173,11 +173,11 @@
 	<string name="stats.key-found-1">Silver keys found</string>
 	<string name="stats.key-found-2">Gold keys found</string>
 	<string name="stats.key-found-3">Ace keys found</string>
-	<string name="stats.boss-1-killed">First boss killed</string>
-	<string name="stats.boss-2-killed">Second boss killed</string>
-	<string name="stats.boss-3-killed">Third boss killed</string>
-	<string name="stats.boss-4-killed">Fourth boss killed</string>
-	<string name="stats.boss-5-killed">Fifth boss killed</string>
+	<string name="stats.boss-1-killed">Stone Guardian killed</string>
+	<string name="stats.boss-2-killed">Warden killed</string>
+	<string name="stats.boss-3-killed">Three Councilors killed</string>
+	<string name="stats.boss-4-killed">Watcher killed</string>
+	<string name="stats.boss-5-killed">Thundersnow killed</string>
 	<string name="stats.aberration-killed">Aberrations killed</string>
 	<string name="stats.beast-killed">Beasts killed</string>
 	<string name="stats.construct-killed">Constructs killed</string>
@@ -243,16 +243,11 @@
 
 
 	<!-- end of game -->
-	<string name="endofbeta.title">END OF BETA</string>
-	<string name="endofbeta.subtitle">Thanks for playing the beta! We will be adding more content as the beta continues.\nFor now you can choose between upgrading your character to New Game+ or keep on playing on the same difficulty level. Town progress is saved.</string>
+
+
 	<string name="endofgame.town">CONTINUE</string>
-	<string name="endofgame.town.desc">Head back to town and continue playing on the same difficulty level.</string>
-	<string name="endofgame.newgameplus">NEW GAME+</string>
-	<string name="endofgame.newgameplus.desc">Head back to town and upgrade your character to New Game+. Your character will also receive a new title.</string>
 	<string name="endofgame.title">THE END</string>
-	<string name="endofgame.text">You managed to climb to the top of the Forsaken Tower and slay Thundersnow, the great Blue Dragon, who suddenly came in from the west and settled up here. Now the tower is freed and life should eventually come back to normal here and around the tower.\n\n(You can now choose to return to town on the same difficulty with the same hero, OR be the better person and step up your game in NEW GAME PLUS! All Your upgrades and progress will continue into whatever choice you make.)</string>
-	<string name="endofgame.confirm.town">Are you sure you want to go back to town without activating New Game+?</string>
-	<string name="endofgame.confirm.plus">Are you sure you want to activate New Game+?</string>
+	<string name="endofgame.text">You managed to climb to the top of the Forsaken Tower and slay Thundersnow, the great Blue Dragon, who suddenly came in from the west and settled up here. Now the tower is freed and life should eventually come back to normal here and around the tower.</string>
 
 	<string name="misc.yes">Yes</string>
 	<string name="misc.no">No</string>
@@ -261,7 +256,6 @@
 	<string name="dead.gameover">GAME OVER</string>
 	<string name="dead.restart.countdown">Restarting in %countdown%</string>
 	<string name="concept.continue">BEGIN MISSION...</string>
-	<string name="concept.wolf">GET PSYCHED!</string>
 
 	<string name="levelend.quit">Exit to menu</string>
 	<string name="levelend.finished">COMPLETED</string>
@@ -404,6 +398,7 @@
 	<string name="modifier.list.player.upgrades">Upgrades</string>
 	<string name="modifier.list.player.buffs">Buffs</string>
 	<string name="modifier.list.player.titles">Class titles</string>
+	<string name="modifier.list.player.tavern_drinks">Drinks</string>
 
 	<string name="ui_key_count">SHOW KEY COUNT</string>
 	<string name="ui_key_count.help">Show the amount of keys you have in the HUD.</string>
@@ -418,6 +413,12 @@
 	<string name="ui_draw_plr_names.onlytown">ONLY TOWN</string>
 	<string name="ui_draw_plr_names_real">REAL PLAYER NAMES</string>
 	<string name="ui_draw_plr_names_real.help">Show real player names instead of hero names in multiplayer.</string>
+
+	<string name="ui_minimap_size">SMALL MINIMAP</string>
+	<string name="ui_minimap_size.help">Enable a small map in the top right of your screen.</string>
+	<string name="ui_minimap_size.small">SMALL</string>
+	<string name="ui_minimap_size.medium">MEDIUM</string>
+	<string name="ui_minimap_size.big">BIG</string>
 
 	<!-- Gambling -->
 	<string name="gambling.house">House</string>
@@ -485,12 +486,22 @@
 	<string name="mainmenu.soundoptions.title">SOUND OPTIONS</string>
 	<string name="mainmenu.controls.title">CONTROLS</string>
 	<string name="mainmenu.languages.title">LANGUAGES</string>
+	<string name="mainmenu.languages.restart-confirm">You have to restart the game after changing your language!</string>
 	<string name="mainmenu.resolutions.title">RESOLUTIONS</string>
 	<string name="mainmenu.host.title">HOST</string>
 	<string name="mainmenu.host.public">Public</string>
 	<string name="mainmenu.host.private">Private</string>
 	<string name="mainmenu.host.name">%name%'s lobby</string>
+	<string name="mainmenu.host.maxplayers">Max players</string>
+	<string name="mainmenu.host.maxlevel">Max hero level</string>
+	<string name="mainmenu.host.minlevel">Min hero level</string>
+	<string name="mainmenu.host.ngp">Start on NG+</string>
 	<string name="mainmenu.serverlist.title">SERVERLIST</string>
+	<string name="mainmenu.serverlist.level-restriction.both">Required hero level: %min% - %max%</string>
+	<string name="mainmenu.serverlist.level-restriction.min">Minimum hero level: %min%</string>
+	<string name="mainmenu.serverlist.level-restriction.max">Maximum hero level: %max%</string>
+	<string name="mainmenu.serverlist.ngp">NG+: \cffc400+%ngp%</string>
+	<string name="mainmenu.serverlist.charname">%name%, a level %lvl% %class%</string>
 
 	<!-- character selection -->
 	<string name="mainmenu.character.select.title">CHOOSE HERO</string>
@@ -517,6 +528,8 @@
 	<string name="menu.controls.potion">POTION</string>
 	<string name="menu.controls.playermenu">PLAYER MENU</string>
 	<string name="menu.controls.guildmenu">GUILD HALL</string>
+	<string name="menu.controls.mapoverlay">OVERLAY MAP</string>
+	<string name="menu.controls.ping">PING</string>
 
 	<string name="menu.mplayer">MULTIPLAYER</string>
 	<string name="menu.mplayer.clobby">CREATE LOBBY</string>
@@ -530,7 +543,6 @@
 	<string name="menu.accept">ACCEPT</string>
 	<string name="menu.yes">YES</string>
 	<string name="menu.no">NO</string>
-	<string name="menu.controls.mapoverlay">OVERLAY MAP</string>
 
 	<!-- options -> * -->
 	<string name="menu.o.game">GAME</string>
@@ -768,6 +780,12 @@
 	<string name="menu.lobby.missing.level">MISSING LEVEL</string>
 	<string name="menu.lobby.chat.missing.you">You don't have "%scenario%".</string>
 
+	<string name="mainmenu.lobbyplayers.title">PLAYER LIST</string>
+	<string name="mainmenu.lobbyplayers.title.multiple">PLAYER LIST (%count% PLAYERS)</string>
+	<string name="mainmenu.lobbyplayers.kick.prompt">Are you sure you want to kick %name%?</string>
+	<string name="mainmenu.lobbyplayers.profile.tooltip">Open this player's profile.</string>
+	<string name="mainmenu.lobbyplayers.kick.tooltip">Kick this player.</string>
+	<string name="mainmenu.lobbyplayers.level">level %level%</string>
 
 	<!-- server list -->
 	<string name="menu.serverlist.refresh">REFRESH</string>
@@ -863,7 +881,6 @@
 	<string name="menu.notifier.joinfailed.host">Failed to create lobby.</string>
 	<string name="menu.loading">LOADING</string>
 
-	<string name="menu.mplayer.splitscreen">SPLITSCREEN</string>
 	<string name="menu.splitscreen.newgame">NEW GAME</string>
 	<string name="menu.splitscreen.noplayers">You can't start without any players!</string>
 	<string name="menu.splitscreen.prompt">PRESS BACK TO LEAVE</string>
@@ -941,6 +958,8 @@
 	<!-- misc -->
 	<string name="fountain.question">Do you wish to toss some coins into the fountain?</string>
 	<string name="shop.menu.soldout">I'm all out of stuff right now.</string>
+	<string name="town.dungeonsettings.title">DUNGEON SETTINGS</string>
+	<string name="town.dungeonsettings.ngp">Choose between Normal or NG+.</string>
 
 	<!-- shop names -->
 	<string name="shop.tier.num">Tier %num%</string>
@@ -1234,6 +1253,9 @@
 	<string name="shop.generalstore.keygold.name">Gold Key</string>
 	<string name="shop.generalstore.keygold.desc">Used to open gold chests.</string>
 
+	<string name="shop.generalstore.reroll">REROLL - %cost%</string>
+	<string name="shop.generalstore.rerolldisabled">REROLL</string>
+
 
 	<!-- chapel -->
 	<string name="shop.chapel.convert">CONVERT - %cost%</string>
@@ -1330,16 +1352,11 @@
 	<string name="shop.magicshop.spellcritdamage-2.desc">Increases Critical Damage of your Skills to 3x.</string>
 
 	<!-- ore trader -->
-	<string name="shop.oretrader.ore-gold.name">Buy ore</string>
-	<string name="shop.oretrader.ore-gold-1.desc">Buy 1 ore for 1500 gold.</string>
-	<string name="shop.oretrader.ore-gold-2.desc">Buy 1 ore for 1250 gold.</string>
-	<string name="shop.oretrader.ore-gold-3.desc">Buy 1 ore for 1000 gold.</string>
+	<string name="shop.oretrader.ore-gold.name">Buy %ore% ore</string>
+	<string name="shop.oretrader.ore-gold.desc">Buy %ore% ore for %gold% gold.</string>
 
-	<string name="shop.oretrader.gold-ore.name">Sell ore</string>
-	<string name="shop.oretrader.gold-ore-1.desc">Sell 1 ore for 200 gold.</string>
-	<string name="shop.oretrader.gold-ore-2.desc">Sell 1 ore for 350 gold.</string>
-	<string name="shop.oretrader.gold-ore-3.desc">Sell 1 ore for 500 gold.</string>
-
+	<string name="shop.oretrader.gold-ore.name">Sell %ore% ore</string>
+	<string name="shop.oretrader.gold-ore.desc">Sell %ore% ore for %gold% gold.</string>
 
 
 	<!-- fountain -->
@@ -1363,6 +1380,18 @@
 	<string name="town.cardgame.outofmoney.4">You're out of money!</string>
 	<string name="town.cardgame.outofmoney.5">You're out of money!</string>
 
+	<!-- retrain -->
+	<string name="shop.skills.respec">RETRAIN</string>
+	<string name="shop.skills.respec.tooltip.title">Retrain</string>
+	<string name="shop.skills.respec.tooltip">Reset all your skills with gold. You will get %skillpoints% skillpoints back.</string>
+	<string name="shop.skills.respec.prompt">Are you sure you want to retrain for %gold% gold?</string>
+
+	<!-- drinks -->
+	<string name="shop.drinks">TAPSTER RICHARD HAMMER</string>
+	<string name="shop.drinks.message.single">I'm afraid we can only serve you one drink right now.</string>
+	<string name="shop.drinks.message.plural">I'm afraid we can only serve you %num% drinks right now.</string>
+	<string name="shop.drinks.message.enough">You've had enough!</string>
+	<string name="shop.drinks.message.empty">All drinks are out of stock, you have to find more in the tower!</string>
 
 
 
@@ -1407,10 +1436,10 @@
 
 	<string name="skills.paladin.lay-on-hands">Lay on Hands</string>
 	<string name="skills.paladin.lay-on-hands.create">All allies are healed in an area around the Paladin.</string>
-	<string name="skills.paladin.lay-on-hands.1">Heals the Paladin and all allies at a rate of 5 health per 6 mana spent.</string>
-	<string name="skills.paladin.lay-on-hands.2">Heals the Paladin and all allies at a rate of 6 health per 7 mana spent. Faster rate of healing.</string>
-	<string name="skills.paladin.lay-on-hands.3">Heals the Paladin and all allies at a rate of 7 health per 8 mana spent. Faster rate of healing.</string>
-	<string name="skills.paladin.lay-on-hands.4">Heals the Paladin and all allies at a rate of 8 health per 9 mana spent. Faster rate of healing.</string>
+	<string name="skills.paladin.lay-on-hands.1">Heals the Paladin and all allies at a rate of 4 health per 5 mana spent.</string>
+	<string name="skills.paladin.lay-on-hands.2">Heals the Paladin and all allies at a rate of 5 health per 6 mana spent. Faster rate of healing.</string>
+	<string name="skills.paladin.lay-on-hands.3">Heals the Paladin and all allies at a rate of 6 health per 7 mana spent. Faster rate of healing.</string>
+	<string name="skills.paladin.lay-on-hands.4">Heals the Paladin and all allies at a rate of 7 health per 8 mana spent. Faster rate of healing.</string>
 
 	<string name="skills.paladin.whirlwind">Whirlwind</string>
 	<string name="skills.paladin.whirlwind.create">A spinning attack that deals damage to all enemies around the Paladin.</string>
@@ -1480,12 +1509,12 @@
 	<!-- Ranger -->
 	<string name="skills.ranger.bow">Bow and Arrow</string>
 	<string name="skills.ranger.bow.create">Fires an arrow that pierces enemies.</string>
-	<string name="skills.ranger.bow.1">Fire an arrow that deals 10 Physical damage. Arrows pierce 1 enemy.</string>
-	<string name="skills.ranger.bow.2">Fire an arrow that deals 12 Physical damage. Arrows pierce 2 enemies.</string>
-	<string name="skills.ranger.bow.3">Fire an arrow that deals 14 Physical damage. Arrows pierce 3 enemies.</string>
-	<string name="skills.ranger.bow.4">Fire an arrow that deals 16 Physical damage. Arrows pierce 4 enemies.</string>
-	<string name="skills.ranger.bow.5">Fire an arrow that deals 18 Physical damage. Arrows pierce 5 enemies.</string>
-	<string name="skills.ranger.bow.6">Fire an arrow that deals 20 Physical damage. Arrows pierce 6 enemies.</string>
+	<string name="skills.ranger.bow.1">Fire an arrow that deals 10 Physical damage. Arrows pierce 1 enemy. Movement speed is decreased by 50% while firing your bow.</string>
+	<string name="skills.ranger.bow.2">Fire an arrow that deals 12 Physical damage. Arrows pierce 2 enemies. Movement speed is decreased by 45% while firing your bow.</string>
+	<string name="skills.ranger.bow.3">Fire an arrow that deals 14 Physical damage. Arrows pierce 3 enemies. Movement speed is decreased by 40% while firing your bow.</string>
+	<string name="skills.ranger.bow.4">Fire an arrow that deals 16 Physical damage. Arrows pierce 4 enemies. Movement speed is decreased by 35% while firing your bow.</string>
+	<string name="skills.ranger.bow.5">Fire an arrow that deals 18 Physical damage. Arrows pierce 5 enemies. Movement speed is decreased by 30% while firing your bow.</string>
+	<string name="skills.ranger.bow.6">Fire an arrow that deals 20 Physical damage. Arrows pierce 6 enemies. Movement speed is decreased by 25% while firing your bow.</string>
 
 	<string name="skills.ranger.explosive-bomb">Explosive Bomb</string>
 	<string name="skills.ranger.explosive-bomb.create">Place a bomb that detonates after 1 second, dealing damage in the area.</string>
@@ -1520,25 +1549,25 @@
 
 	<string name="skills.ranger.flurry-of-arrows">Flurry of Arrows</string>
 	<string name="skills.ranger.flurry-of-arrows.create">The Ranger spins around and fires arrows in quick succession.</string>
-	<string name="skills.ranger.flurry-of-arrows.1">The Ranger spins around 2 times and fires arrows in quick succession.</string>
-	<string name="skills.ranger.flurry-of-arrows.2">The Ranger spins around 3 times and fires arrows in quick succession.</string>
-	<string name="skills.ranger.flurry-of-arrows.3">The Ranger spins around 4 times and fires arrows in quick succession.</string>
+	<string name="skills.ranger.flurry-of-arrows.1">The Ranger spins around 2 times and fires arrows in quick succession that deals 30 Physical damage.</string>
+	<string name="skills.ranger.flurry-of-arrows.2">The Ranger spins around 3 times and fires arrows in quick succession that deals 40 Physical damage.</string>
+	<string name="skills.ranger.flurry-of-arrows.3">The Ranger spins around 4 times and fires arrows in quick succession that deals 50 Physical damage.</string>
 
 	<string name="skills.ranger.twinned-arrows">Twinned Arrows</string>
 	<string name="skills.ranger.twinned-arrows.create">The Ranger's arrows have a chance of splitting and seeking a new target.</string>
-	<string name="skills.ranger.twinned-arrows.1">Piercing arrows have a 25% chance of splitting and seeking a new target.</string>
-	<string name="skills.ranger.twinned-arrows.2">Piercing arrows have a 40% chance of splitting and seeking a new target.</string>
+	<string name="skills.ranger.twinned-arrows.1">Arrows have a 25% chance of splitting and seeking a new target.</string>
+	<string name="skills.ranger.twinned-arrows.2">Arrows have a 40% chance of splitting and seeking a new target.</string>
 
 
 	<!-- Sorcerer -->
 	<string name="skills.sorcerer.frost-shard">Frost Shard</string>
 	<string name="skills.sorcerer.frost-shard.create">Fires a frost shard that ricochets off walls and enemies.</string>
-	<string name="skills.sorcerer.frost-shard.1">Fire a frost shard that deal 8 Hybrid damage. Frost shards ricochet 1 time.</string>
-	<string name="skills.sorcerer.frost-shard.2">Fire a frost shard that deal 10 Hybrid damage. Frost shards ricochet up to 2 times.</string>
-	<string name="skills.sorcerer.frost-shard.3">Fire a frost shard that deal 12 Hybrid damage. Frost shards ricochet up to 3 times.</string>
-	<string name="skills.sorcerer.frost-shard.4">Fire a frost shard that deal 14 Hybrid damage. Frost shards ricochet up to 4 times.</string>
-	<string name="skills.sorcerer.frost-shard.5">Fire a frost shard that deal 16 Hybrid damage. Frost shards ricochet up to 5 times.</string>
-	<string name="skills.sorcerer.frost-shard.6">Fire a frost shard that deal 18 Hybrid damage. Frost shards ricochet up to 6 times.</string>
+	<string name="skills.sorcerer.frost-shard.1">Fire a frost shard that deal 6 Hybrid damage. Frost shards ricochet 1 time.</string>
+	<string name="skills.sorcerer.frost-shard.2">Fire a frost shard that deal 8 Hybrid damage. Frost shards ricochet up to 2 times.</string>
+	<string name="skills.sorcerer.frost-shard.3">Fire a frost shard that deal 10 Hybrid damage. Frost shards ricochet up to 3 times.</string>
+	<string name="skills.sorcerer.frost-shard.4">Fire a frost shard that deal 12 Hybrid damage. Frost shards ricochet up to 4 times.</string>
+	<string name="skills.sorcerer.frost-shard.5">Fire a frost shard that deal 14 Hybrid damage. Frost shards ricochet up to 5 times.</string>
+	<string name="skills.sorcerer.frost-shard.6">Fire a frost shard that deal 16 Hybrid damage. Frost shards ricochet up to 6 times.</string>
 
 	<string name="skills.sorcerer.comet">Comet</string>
 	<string name="skills.sorcerer.comet.create">Summons a comet to strike in front of the Sorcerer that damages and freezes enemies on impact.</string>
@@ -1567,9 +1596,9 @@
 	<string name="skills.sorcerer.frost-nova">Frost Nova</string>
 	<string name="skills.sorcerer.frost-nova.create">Fires multiple frost shards in all directions around the Sorcerer.</string>
 	<string name="skills.sorcerer.frost-nova.1">Unleash 13 frost shards in all directions around the Sorcerer dealing 12 Hybrid damage.</string>
-	<string name="skills.sorcerer.frost-nova.2">Unleash 16 frost shards in all directions around the Sorcerer dealing 16 Hybrid damage.</string>
-	<string name="skills.sorcerer.frost-nova.3">Unleash 19 frost shards in all directions around the Sorcerer dealing 20 Hybrid damage.</string>
-	<string name="skills.sorcerer.frost-nova.4">Unleash 23 frost shards in all directions around the Sorcerer dealing 24 Hybrid damage.</string>
+	<string name="skills.sorcerer.frost-nova.2">Unleash 15 frost shards in all directions around the Sorcerer dealing 16 Hybrid damage.</string>
+	<string name="skills.sorcerer.frost-nova.3">Unleash 17 frost shards in all directions around the Sorcerer dealing 20 Hybrid damage.</string>
+	<string name="skills.sorcerer.frost-nova.4">Unleash 19 frost shards in all directions around the Sorcerer dealing 24 Hybrid damage.</string>
 
 	<string name="skills.sorcerer.orb-of-winter">Orb of Winter</string>
 	<string name="skills.sorcerer.orb-of-winter.create">Spawns a slow moving ice orb that unleashes small ice shards in all directions.</string>
@@ -1596,11 +1625,11 @@
 	<string name="skills.thief.throwing-knives">Throwing Knives</string>
 	<string name="skills.thief.throwing-knives.create">Throw a set of knives in an forward arc that pierces enemies.</string>
 	<string name="skills.thief.throwing-knives.1">Throw 5 knives in a 45-degree arc. Each knife deals 10 Physical damage and can pierce up to 5 enemies.</string>
-	<string name="skills.thief.throwing-knives.2">Throw 6 knives in a 50-degree arc. Each knife deals 15 Physical damage and can pierce up to 6 enemies.</string>
-	<string name="skills.thief.throwing-knives.3">Throw 7 knives in a 55-degree arc. Each knife deals 20 Physical damage and can pierce up to 7 enemies.</string>
-	<string name="skills.thief.throwing-knives.4">Throw 8 knives in a 60-degree arc. Each knife deals 25 Physical damage and can pierce up to 8 enemies.</string>
-	<string name="skills.thief.throwing-knives.5">Throw 9 knives in a 65-degree arc. Each knife deals 30 Physical damage and can pierce up to 9 enemies.</string>
-	<string name="skills.thief.throwing-knives.6">Throw 10 knives in a 70-degree arc. Each knife deals 35 Physical damage and can pierce up to 10 enemies.</string>
+	<string name="skills.thief.throwing-knives.2">Throw 6 knives in a 50-degree arc. Each knife deals 14 Physical damage and can pierce up to 6 enemies.</string>
+	<string name="skills.thief.throwing-knives.3">Throw 7 knives in a 55-degree arc. Each knife deals 18 Physical damage and can pierce up to 7 enemies.</string>
+	<string name="skills.thief.throwing-knives.4">Throw 8 knives in a 60-degree arc. Each knife deals 22 Physical damage and can pierce up to 8 enemies.</string>
+	<string name="skills.thief.throwing-knives.5">Throw 9 knives in a 65-degree arc. Each knife deals 26 Physical damage and can pierce up to 9 enemies.</string>
+	<string name="skills.thief.throwing-knives.6">Throw 10 knives in a 70-degree arc. Each knife deals 30 Physical damage and can pierce up to 10 enemies.</string>
 
 	<string name="skills.thief.sidestep">Sidestep</string>
 	<string name="skills.thief.sidestep.create">The Thief has a chance to evade incoming attacks.</string>
@@ -1611,11 +1640,11 @@
 	<string name="skills.thief.sidestep.5">Grants 25% evasion against all incoming damage.</string>
 
 	<string name="skills.thief.slice-and-dice">Slice and Dice</string>
-	<string name="skills.thief.slice-and-dice.create">With each kill the Thief gains a temporary attack speed bonus.</string>
-	<string name="skills.thief.slice-and-dice.1">Each kill grants the Thief a temporary attack speed bonus that stacks up to 4 times. Each stack lasts for 1.5 seconds.</string>
-	<string name="skills.thief.slice-and-dice.2">Each kill grants the Thief a temporary attack speed bonus that stacks up to 7 times. Each stack lasts for 1.5 seconds.</string>
-	<string name="skills.thief.slice-and-dice.3">Each kill grants the Thief a temporary attack speed bonus that stacks up to 10 times. Each stack lasts for 1.5 seconds.</string>
-	<string name="skills.thief.slice-and-dice.4">Each kill grants the Thief a temporary attack speed bonus that stacks up to 13 times. Each stack lasts for 1.5 seconds.</string>
+	<string name="skills.thief.slice-and-dice.create">With each kill the Thief gains a temporary attack speed and evasion bonus.</string>
+	<string name="skills.thief.slice-and-dice.1">Each kill grants the Thief a temporary attack speed bonus and 2% evasion that stacks up to 4 times. Each stack lasts for 2.5 seconds.</string>
+	<string name="skills.thief.slice-and-dice.2">Each kill grants the Thief a temporary attack speed bonus and 2% evasion that stacks up to 7 times. Each stack lasts for 2.5 seconds.</string>
+	<string name="skills.thief.slice-and-dice.3">Each kill grants the Thief a temporary attack speed bonus and 2% evasion that stacks up to 10 times. Each stack lasts for 2.5 seconds.</string>
+	<string name="skills.thief.slice-and-dice.4">Each kill grants the Thief a temporary attack speed bonus and 2% evasion that stacks up to 13 times. Each stack lasts for 2.5 seconds.</string>
 
 	<string name="skills.thief.grappling-hook">Grappling Hook</string>
 	<string name="skills.thief.grappling-hook.create">Fire a grappling hook in a forward direction. The Thief travels to the point of impact stunning all enemies in its path.</string>
@@ -1626,14 +1655,14 @@
 
 	<string name="skills.thief.smoke-bomb">Smoke Bomb</string>
 	<string name="skills.thief.smoke-bomb.create">The Thief throws a smoke bomb that stuns all nearby enemies.</string>
-	<string name="skills.thief.smoke-bomb.1">The Thief throws a smoke bomb that stuns all enemies in a large area for 4 seconds.</string>
-	<string name="skills.thief.smoke-bomb.2">The Thief throws a smoke bomb that stuns all enemies in a large area for 4.5 seconds. Larger area of effect.</string>
+	<string name="skills.thief.smoke-bomb.1">The Thief throws a smoke bomb that stuns all enemies in a large area for 3 seconds.</string>
+	<string name="skills.thief.smoke-bomb.2">The Thief throws a smoke bomb that stuns all enemies in a large area for 4 seconds. Larger area of effect.</string>
 	<string name="skills.thief.smoke-bomb.3">The Thief throws a smoke bomb that stuns all enemies in a large area for 5 seconds. Larger area of effect.</string>
 
 	<string name="skills.thief.gold-fever">Gold Fever</string>
 	<string name="skills.thief.gold-fever.create">The Thief gains more gold and does more damage based on your current gold.</string>
-	<string name="skills.thief.gold-fever.1">The Thief gains 50% more gold. The Thief gains a damage bonus of 0.001% based on your current gold.</string>
-	<string name="skills.thief.gold-fever.2">The Thief gains 100% more gold. The Thief gains a damage bonus of 0.002% based on your current gold.</string>
+	<string name="skills.thief.gold-fever.1">The Thief gains 50% more gold. The Thief gains a damage bonus of 0.001% based on your current gold. The damage bonus is capped at +100%.</string>
+	<string name="skills.thief.gold-fever.2">The Thief gains 100% more gold. The Thief gains a damage bonus of 0.002% based on your current gold. The damage bonus is capped at +200%.</string>
 
 
 	<!-- Warlock -->
@@ -1773,7 +1802,7 @@
 	<string name="item.cape-of-withdrawal.desc">Getting hit triggers a %mspeed%% movement speed buff for %dur% seconds.</string>
 
 	<string name="item.circlet-of-willpower.name">Circlet of Willpower</string>
-	<string name="item.circlet-of-willpower.desc">When below %health%% Health, spells are %scost%% cheaper to cast.</string>
+	<string name="item.circlet-of-willpower.desc">When below %health%% Health, skills cost %scost%% less mana.</string>
 
 	<string name="item.chainmail.name">Chainmail</string>
 	<string name="item.chainmail.desc">+%armor% Armor.</string>
@@ -1824,16 +1853,16 @@
 	<string name="item.mana-stone.desc">%chance%% chance to gain 1 mana when killing an enemy.</string>
 
 	<string name="item.monster-pamphlet-aberration.name">Monster Pamphlet: Aberrations</string>
-	<string name="item.monster-pamphlet-aberration.desc">+%exp%% Experience gained and +%dmg%% damage to Aberrations.</string>
+	<string name="item.monster-pamphlet-aberration.desc">Increase damage done to Aberrations by %dmg%%. Aberrations give %exp%% more experience.</string>
 
 	<string name="item.monster-pamphlet-beast.name">Monster Pamphlet: Beasts</string>
-	<string name="item.monster-pamphlet-beast.desc">+%exp%% Experience gained and +%dmg%% damage to Beasts.</string>
+	<string name="item.monster-pamphlet-beast.desc">Increase damage done to Beasts by %dmg%%. Beasts give %exp%% more experience.</string>
 
 	<string name="item.monster-pamphlet-construct.name">Monster Pamphlet: Constructs</string>
-	<string name="item.monster-pamphlet-construct.desc">+%exp%% Experience gained and +%dmg%% damage to Constructs.</string>
+	<string name="item.monster-pamphlet-construct.desc">Increase damage done to Constructs by %dmg%%. Constructs give %exp%% more experience.</string>
 
 	<string name="item.monster-pamphlet-undead.name">Monster Pamphlet: Undead</string>
-	<string name="item.monster-pamphlet-undead.desc">+%exp%% Experience gained and +%dmg%% damage to Undead.</string>
+	<string name="item.monster-pamphlet-undead.desc">Increase damage done to Undead by %dmg%%. Undead give %exp%% more experience.</string>
 
 	<string name="item.ring-health.name">Ring of Health</string>
 	<string name="item.ring-health.desc">+%hregen% Health Regen.</string>
@@ -1848,7 +1877,7 @@
 	<string name="item.sandals-swiftness.desc">+%mspeed% Movement Speed and +%evasion%% Evasion.</string>
 
 	<string name="item.scroll-of-magic-missile.name">Scroll of Magic Missile</string>
-	<string name="item.scroll-of-magic-missile.desc">Unleash a magic missile in a forward direction when casting a spell. The missile has a cooldown of 2 seconds.</string>
+	<string name="item.scroll-of-magic-missile.desc">Unleash a magic missile in a forward direction when using a skill. The missile has a cooldown of 2 seconds.</string>
 
 	<string name="item.serrated-scimitar.name">Serrated Scimitar</string>
 	<string name="item.serrated-scimitar.desc">%chance%% chance to score a Critical Hit on Primary Attack.</string>
@@ -1926,16 +1955,16 @@
 	<string name="item.greater-ring-rejuvenation.desc">+%hregen% Health Regen and +%mregen% Mana Regen.</string>
 
 	<string name="item.monster-manual-aberration.name">Monster Manual: Aberrations</string>
-	<string name="item.monster-manual-aberration.desc">+%exp%% Experience gained and +%dmg%% damage to Aberrations.</string>
+	<string name="item.monster-manual-aberration.desc">Increase damage done to Aberrations by %dmg%%. Aberrations give %exp%% more experience.</string>
 
 	<string name="item.monster-manual-beast.name">Monster Manual: Beasts</string>
-	<string name="item.monster-manual-beast.desc">+%exp%% Experience gained and +%dmg%% damage to Beasts.</string>
+	<string name="item.monster-manual-beast.desc">Increase damage done to Beasts by %dmg%%. Beasts give %exp%% more experience.</string>
 
 	<string name="item.monster-manual-construct.name">Monster Manual: Constructs</string>
-	<string name="item.monster-manual-construct.desc">+%exp%% Experience gained and +%dmg%% damage to Constructs.</string>
+	<string name="item.monster-manual-construct.desc">Increase damage done to Constructs by %dmg%%. Constructs give %exp%% more experience.</string>
 
 	<string name="item.monster-manual-undead.name">Monster Manual: Undead</string>
-	<string name="item.monster-manual-undead.desc">+%exp%% Experience gained and +%dmg%% damage to Undead.</string>
+	<string name="item.monster-manual-undead.desc">Increase damage done to Undead by %dmg%%. Undead give %exp%% more experience.</string>
 
 	<string name="item.old-map.name">Old Map</string>
 	<string name="item.old-map.desc">Removes fog of war from the map.</string>
@@ -1968,7 +1997,7 @@
 	<string name="item.sphere-of-nova.desc">During Combo a nova is unleashed every second dealing %dmg% Magical damage.</string>
 
 	<string name="item.staff-of-unstable-casting.name">Staff of Unstable Casting</string>
-	<string name="item.staff-of-unstable-casting.desc">%chance%% chance to score a Critical Hit with Spells.</string>
+	<string name="item.staff-of-unstable-casting.desc">%chance%% chance to score a Critical Hit with Skills.</string>
 
 	<string name="item.stinger.name">Stinger</string>
 	<string name="item.stinger.desc">Physical damage ignore %pierce%% of the enemies Armor.</string>
@@ -2029,7 +2058,7 @@
 	<string name="item.magebane.desc">%chance%% chance to lower enemies Resistance by %res%% for %sec% seconds on Primary Attack.</string>
 
 	<string name="item.ring-of-arcane-powers.name">Ring of Arcane Powers</string>
-	<string name="item.ring-of-arcane-powers.desc">Spells are %scost%% cheaper to cast.</string>
+	<string name="item.ring-of-arcane-powers.desc">Skill cost %scost%% less mana.</string>
 
 	<string name="item.scepter-of-kings.name">Scepter of Kings</string>
 	<string name="item.scepter-of-kings.desc">+%spell% Skill Power.</string>
@@ -2041,7 +2070,7 @@
 	<string name="item.sphere-of-champions.desc">Increases Attack and Skill Power with %atk% during combo.</string>
 
 	<string name="item.staff-of-volatile-casting.name">Staff of Volatile Casting</string>
-	<string name="item.staff-of-volatile-casting.desc">%chance%% chance to score a Critical Hit with Spells.</string>
+	<string name="item.staff-of-volatile-casting.desc">%chance%% chance to score a Critical Hit with Skills.</string>
 
 	<string name="item.stormcaller.name">Stormcaller</string>
 	<string name="item.stormcaller.desc">%chance%% chance to release a chain lightning on your primary attack, dealing %dmg% Magical damage.</string>
@@ -2105,7 +2134,7 @@
 	<string name="item.sets.disciples-arcana.name">Disciple's Arcana</string>
 	<string name="item.sets.disciples-arcana.desc.1">+%res% resistance</string>
 	<string name="item.sets.disciples-arcana.desc.2">+%skill% skill power</string>
-	<string name="item.sets.disciples-arcana.desc.3">spells are %cost%% cheaper to cast</string>
+	<string name="item.sets.disciples-arcana.desc.3">skills cost %cost%% less mana</string>
 
 	<string name="item.sets.spheres-of-power.name">Spheres of Power</string>
 	<string name="item.sets.spheres-of-power.desc.1">Lesser combo nova</string>
@@ -2116,6 +2145,98 @@
 	<string name="item.sets.tricksters-ensemble.desc.1">Gain a movement speed bonus when evading</string>
 	<string name="item.sets.tricksters-ensemble.desc.2">%chance%% evasion</string>
 	<string name="item.sets.tricksters-ensemble.desc.3">Trigger combo when evading</string>
+
+
+
+	<!-- DRINKS -->
+
+
+
+	<!-- COMMON -->
+
+
+	<string name="drink.a-strong-arm.name">A Strong Arm</string>
+	<string name="drink.a-strong-arm.desc">%pos% Attack Power.\n%neg% Armor.</string>
+
+	<string name="drink.ancient-spirit.name">Ancient Spirit</string>
+	<string name="drink.ancient-spirit.desc">%pos% Skill Power.\n%neg% Resistance.</string>
+
+	<string name="drink.crazy-eye.name">Crazy Eye</string>
+	<string name="drink.crazy-eye.desc">%pos%% chance to score a Critical Hit on Primary Attack.\n%neg% Armor.</string>
+
+	<string name="drink.double-thriller.name">Double Thriller</string>
+	<string name="drink.double-thriller.desc">%pos%% damage dealt.\n%neg%% damage taken.</string>
+
+	<string name="drink.homemade-hazard.name">Homemade Hazard</string>
+	<string name="drink.homemade-hazard.desc">%pos%% Critical Damage on your Primary attack.\n%neg%% damage taken.</string>
+
+	<string name="drink.ladys-blessing.name">Lady's Blessing</string>
+	<string name="drink.ladys-blessing.desc">%pos% Health Regen.\n%neg%% Skill Power.</string>
+
+	<string name="drink.lazy-stroll.name">Lazy Stroll</string>
+	<string name="drink.lazy-stroll.desc">%pos%% Experience gain.\n%neg% Movement Speed.</string>
+
+	<string name="drink.mellow-mist.name">Mellow Mist</string>
+	<string name="drink.mellow-mist.desc">%pos%% damage taken.\n%neg% Movement Speed.</string>
+
+	<string name="drink.on-the-run.name">On the Run</string>
+	<string name="drink.on-the-run.desc">%pos% Movement Speed.\n%neg%% Gold gain.</string>
+
+	<string name="drink.smelly-old-man.name">Smelly Old Man</string>
+	<string name="drink.smelly-old-man.desc">%pos% Mana Regen.\n%neg%% max Health.</string>
+
+	<string name="drink.starlight-stinger.name">Starlight Stinger</string>
+	<string name="drink.starlight-stinger.desc">%pos%% chance to score a Critical Hit with Skills.\n%neg%% max Mana.</string>
+
+	<string name="drink.the-groovy-ghost.name">The Groovy Ghost</string>
+	<string name="drink.the-groovy-ghost.desc">%pos%% Evasion.\n%neg% Attack Power.</string>
+
+
+	<!-- UNCOMMON -->
+
+
+	<string name="drink.a-fools-errand.name">A Fool's Errand</string>
+	<string name="drink.a-fools-errand.desc">%pos%% Gold gain.\n%neg% Health Regen while standing still.</string>
+
+	<string name="drink.elemental-bruiser.name">Elemental Bruiser</string>
+	<string name="drink.elemental-bruiser.desc">%pos%% Skill damage.\n%neg%% Skill cost.</string>
+
+	<string name="drink.miners-delight.name">Miners Delight</string>
+	<string name="drink.miners-delight.desc">%pos%% Ore gain.\n%neg%% Gold gain.</string>
+
+	<string name="drink.last-stand.name">Last Stand</string>
+	<string name="drink.last-stand.desc">+%pos%% damage dealt and -50% damage taken while standing still.\n%neg%% Movement Speed.</string>
+
+	<string name="drink.the-last-sin.name">The Last Sin</string>
+	<string name="drink.the-last-sin.desc">%pos%% Critical Damage with Skills\n%neg% Mana Regen.</string>
+
+
+
+	<!-- RARE -->
+
+
+	<string name="drink.crimson-death.name">Crimson Death</string>
+	<string name="drink.crimson-death.desc">%pos%% Lifesteal on all damage.\nLose health while moving.</string>
+
+	<string name="drink.hammer-time.name">Hammer Time</string>
+	<string name="drink.hammer-time.desc">%pos% Attack Power.\n%neg%% Armor.</string>
+
+	<string name="drink.incendiary-demise.name">Incendiary Demise</string>
+	<string name="drink.incendiary-demise.desc">%pos% Magical damage on Primary Attack.\nYou start burning when dealing damage with your Primary Attack.</string>
+
+	<string name="drink.the-mad-proposal.name">The Mad Proposal</string>
+	<string name="drink.the-mad-proposal.desc">%pos%% damage dealt.\nPermanent Confusion.</string>
+
+	<string name="drink.unbalanced-essence.name">Unbalanced Essence</string>
+	<string name="drink.unbalanced-essence.desc">%pos% Skill Power.\n%neg%% Resistance.</string>
+
+	<string name="drink.wicked-sickness.name">Wicked Sickness</string>
+	<string name="drink.wicked-sickness.desc">%pos%% damage dealt during Combo.\n%neg% Health Regen while out of Combo.</string>
+
+
+
+
+
 
 
 
@@ -2328,16 +2449,18 @@
 	<string name="guildhall.tab.stats">GUILD & HEROES</string>
 	<string name="guildhall.tab.accomplishments">ACCOMPLISHMENTS</string>
 	<string name="guildhall.tab.beastiary">BESTIARY</string>
+	<string name="guildhall.tab.itemiary">ITEMIARY</string>
 	<string name="guildhall.stats.guildtitle">%title% GUILD</string>
 	<string name="guildhall.stats.lifetime">LIFETIME</string>
 	<string name="guildhall.stats.classtitles">CLASS TITLES</string>
-	<string name="guildhall.stats.armor">+%amount% armor to all heroes</string>
-	<string name="guildhall.stats.resistance">+%amount% resistance to all heroes</string>
-	<string name="guildhall.stats.attackpower">+%amount% attack power to all heroes</string>
-	<string name="guildhall.stats.spellpower">+%amount% spell power to all heroes</string>
-	<string name="guildhall.stats.healthregen">+%amount% health regen to all heroes</string>
-	<string name="guildhall.stats.manaregen">+%amount% mana regen to all heroes</string>
-	<string name="guildhall.stats.goldgain">+%amount% gold gained by all heroes</string>
+	<string name="guildhall.stats.armor">+%amount% Armor to all heroes</string>
+	<string name="guildhall.stats.resistance">+%amount% Resistance to all heroes</string>
+	<string name="guildhall.stats.attackpower">+%amount% Attack Power to all heroes</string>
+	<string name="guildhall.stats.spellpower">+%amount% Skill Power to all heroes</string>
+	<string name="guildhall.stats.healthregen">+%amount% Health regen to all heroes</string>
+	<string name="guildhall.stats.manaregen">+%amount% Mana regen to all heroes</string>
+	<string name="guildhall.stats.goldgain">+%amount% Gold gained by all heroes</string>
+
 
 	<!-- Guild Titles -->
 	<string name="titles.guild-0">Unknown</string>
@@ -2493,6 +2616,10 @@
 	<string name="bestiary.name.wisp_1_small">Green Wisp</string>
 	<string name="bestiary.name.wisp_2">Red Wisp</string>
 
+	<!-- itemiary -->
+	<string name="itemiary.header.items">ITEMS</string>
+	<string name="itemiary.header.drinks">DRINKS</string>
+
 
 
 	<!-- Accomplishments -->
@@ -2501,24 +2628,24 @@
 	<string name="guildhall.accomplishments.bosses">BOSSES</string>
 	<string name="guildhall.accomplishments.boss-1">STONE GUARDIAN</string>
 	<string name="guildhall.accomplishments.boss-2">WARDEN</string>
-	<string name="guildhall.accomplishments.boss-3">THE THREE WRAITHS</string>
+	<string name="guildhall.accomplishments.boss-3">THE THREE COUNCILORS</string>
 	<string name="guildhall.accomplishments.boss-4">WATCHER</string>
 	<string name="guildhall.accomplishments.boss-5">THUNDERSNOW</string>
 
 	<string name="accomplishment.boss-1-killed-class.name">Bringers of Hope %lvl%</string>
-	<string name="accomplishment.boss-1-killed-class.desc">Kill the 1st Boss with %requirement% different classes.</string>
+	<string name="accomplishment.boss-1-killed-class.desc">Kill the Stone Guardian with %requirement% different classes.</string>
 
 	<string name="accomplishment.boss-2-killed-class.name">Breakers of Chains %lvl%</string>
-	<string name="accomplishment.boss-2-killed-class.desc">Kill the 2nd Boss with %requirement% different classes.</string>
+	<string name="accomplishment.boss-2-killed-class.desc">Kill the Warden with %requirement% different classes.</string>
 
 	<string name="accomplishment.boss-3-killed-class.name">Abolishers of Evil %lvl%</string>
-	<string name="accomplishment.boss-3-killed-class.desc">Kill the 3rd Boss with %requirement% different classes.</string>
+	<string name="accomplishment.boss-3-killed-class.desc">Kill the Three Councilors with %requirement% different classes.</string>
 
 	<string name="accomplishment.boss-4-killed-class.name">Establishers of Order %lvl%</string>
-	<string name="accomplishment.boss-4-killed-class.desc">Kill the 4th Boss with %requirement% different classes.</string>
+	<string name="accomplishment.boss-4-killed-class.desc">Kill the Watcher with %requirement% different classes.</string>
 
 	<string name="accomplishment.boss-5-killed-class.name">Restorers of Peace %lvl%</string>
-	<string name="accomplishment.boss-5-killed-class.desc">Kill the 5th Boss with %requirement% different classes.</string>
+	<string name="accomplishment.boss-5-killed-class.desc">Kill the Thundersnow with %requirement% different classes.</string>
 
 	<string name="accomplishment.aberration-killed.name">Excorcists %lvl%</string>
 	<string name="accomplishment.aberration-killed.desc">Kill %requirement% Aberrations.</string>
