@@ -840,7 +840,7 @@
 	<string name="rg_crt_curve.help">模仿CRT显示器曲率.</string>
 
 	<string name="ui_txt">浮动文字</string>
-	<string name="ui_txt.help">Display floating texts like damage numbers or pickup info.</string>
+	<string name="ui_txt.help">显示浮动文字,例如伤害数值和拾取信息.</string>
 
 	<string name="menu.crumb.options.serverlist">MULTIPLAYER > SERVER LIST</string>
 	<string name="menu.serverlist.server">SERVER</string>
@@ -870,7 +870,7 @@
 	<string name="v_fullscreen.windowed">无边框</string>
 	<string name="r_draw_glow">光晕</string>
 	<string name="r_draw_glow.help">显示光晕</string>
-	<string name="menu.cancel">CANCEL</string>
+	<string name="menu.cancel">取消</string>
 
 	<string name="menu.controls.layout.ds41">JOYSTICK 1</string>
 	<string name="menu.controls.layout.ds42">JOYSTICK 2</string>
@@ -1387,11 +1387,11 @@
 	<string name="shop.skills.respec.prompt">你确定花费%gold%金币重新技能加点?</string>
 
 	<!-- drinks -->
-	<string name="shop.drinks">TAPSTER RICHARD HAMMER</string>
-	<string name="shop.drinks.message.single">I'm afraid we can only serve you one drink right now.</string>
-	<string name="shop.drinks.message.plural">I'm afraid we can only serve you %num% drinks right now.</string>
-	<string name="shop.drinks.message.enough">You've had enough!</string>
-	<string name="shop.drinks.message.empty">All drinks are out of stock, you have to find more in the tower!</string>
+	<string name="shop.drinks">铁锤酒保 理查德</string>
+	<string name="shop.drinks.message.single">恐怕我们现在只能给你一杯饮料.</string>
+	<string name="shop.drinks.message.plural">恐怕我们现在只能给你%num%杯饮料.</string>
+	<string name="shop.drinks.message.enough">你已经喝够了!</string>
+	<string name="shop.drinks.message.empty">全部酒水都缺货了,你要去塔里寻找更多!</string>
 
 
 
@@ -2227,7 +2227,7 @@
 	<string name="drink.the-mad-proposal.name">丧心病狂</string>
 	<string name="drink.the-mad-proposal.desc">%pos%% 造成的伤害.\n永久处于混乱状态.</string>
 
-	<string name="drink.unbalanced-essence.name">龙头蛇尾E</string>
+	<string name="drink.unbalanced-essence.name">龙头蛇尾</string>
 	<string name="drink.unbalanced-essence.desc">%pos% 技能加成.\n%neg%% 魔抗.</string>
 
 	<string name="drink.wicked-sickness.name">身罹奇疾</string>
