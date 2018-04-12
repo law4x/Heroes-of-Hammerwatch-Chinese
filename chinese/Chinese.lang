@@ -1253,7 +1253,7 @@
 	<string name="shop.generalstore.keygold.name">金钥匙</string>
 	<string name="shop.generalstore.keygold.desc">用来打开金箱子.</string>
 
-	<string name="shop.generalstore.reroll">刷新 - %cost%</string>
+	<string name="shop.generalstore.reroll">刷新 %cost%</string>
 	<string name="shop.generalstore.rerolldisabled">刷新</string>
 
 
@@ -2540,6 +2540,8 @@
 	<string name="bestiary.type.aberration">变异生物</string>
 	<string name="bestiary.type.construct">建筑物</string>
 
+	<string name="bestiary.expreward">经验奖励</string>
+
 	<string name="bestiary.name.bosses.golem">岩石守卫</string>
 	<string name="bestiary.name.bosses.warden">监狱守卫</string>
 	<string name="bestiary.name.bosses.wraith_scythe">巫妖骑士</string>
@@ -2619,6 +2621,7 @@
 	<!-- itemiary -->
 	<string name="itemiary.header.items">装备</string>
 	<string name="itemiary.header.drinks">酒水</string>
+	<string name="itemiary.itemcount">寻找次数</string>
 
 
 
