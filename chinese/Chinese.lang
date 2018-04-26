@@ -2156,17 +2156,17 @@
 	<string name="item.boots-of-the-giant.name">Boots of the Giant</string>
 	<string name="item.boots-of-the-giant.desc">Stun enemies for %stun% seconds when colliding with them. %health% Health.</string>
 
-	<string name="item.crown-of-kings.name">Crown of Kings</string>
-	<string name="item.crown-of-kings.desc">+%bonus%% Base Health and Mana.</string>
+	<string name="item.crown-of-kings.name">国王头冠</string>
+	<string name="item.crown-of-kings.desc">+%bonus%%基础 生命上限和法力上限.</string>
 
-	<string name="item.dragonscale-mail.name">Dragonscale Mail</string>
-	<string name="item.dragonscale-mail.desc">Take %taken%% less damage.</string>
+	<string name="item.dragonscale-mail.name">龙鳞盔甲</string>
+	<string name="item.dragonscale-mail.desc">抵御 %taken%%伤害.</string>
 
-	<string name="item.ring-of-arcane-powers.name">Ring of Arcane Powers</string>
-	<string name="item.ring-of-arcane-powers.desc">Skills cost %scost%% less mana.</string>
+	<string name="item.ring-of-arcane-powers.name">神秘戒指</string>
+	<string name="item.ring-of-arcane-powers.desc">技能消耗法力降低%scost%%.</string>
 
-	<string name="item.sphere-of-champions.name">Sphere of Champions</string>
-	<string name="item.sphere-of-champions.desc">Increases Attack and Skill Power with %atk% during combo.</string>
+	<string name="item.sphere-of-champions.name">冠军宝珠</string>
+	<string name="item.sphere-of-champions.desc">连杀时增加%atk%技能伤害.</string>
 
 	<!-- LEGENDARY -->
 
