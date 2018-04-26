@@ -49,7 +49,7 @@
 	<string name="playermenu.tooltip.potion.title">%num% / %total% 消耗</string>
 	<string name="playermenu.tooltip.potion.text">+ %hp% 生命\n+ %mana% 魔法</string>
 	<string name="playermenu.tooltip.tax">手续费</string>
-	<string name="playermenu.tooltip.exp.levelcap">LEVEL CAP:</string>
+	<string name="playermenu.tooltip.exp.levelcap">角色等级上限:</string>
 
 	<string name="playermenu.character.health">生命值</string>
 	<string name="playermenu.character.mana">法力值</string>
@@ -69,13 +69,13 @@
 	<string name="playermenu.character.goldgain">金币获取速率</string>
 	<string name="playermenu.character.oregain">矿石获取率</string>
 	<string name="playermenu.character.combat">战斗</string>
-	<string name="playermenu.character.critchance">CRIT CHANCE</string>
-	<string name="playermenu.character.critchance.description">暴击伤害: %mul%%\nCrit chance: %chance%%\n%chances%\n\nSkill crit damage: %spell-mul%%\nSkill crit chance: %spell-chance%%\n%spell-chances%</string>
-	<string name="playermenu.character.evadechance">EVADE CHANCE</string>
-	<string name="playermenu.character.chances">Crit chances</string>
-	<string name="playermenu.character.spellchances">Skill crit chances</string>
-	<string name="playermenu.character.lifesteal">LIFESTEAL</string>
-	<string name="playermenu.character.lifesteal.description">Primary Attack: %value%%\n%lists%\n\nSkills: %value-spell%%\n%lists-spell%</string>
+	<string name="playermenu.character.critchance">暴击概率</string>
+	<string name="playermenu.character.critchance.description">暴击伤害: %mul%%\n暴击概率: %chance%%\n%chances%\n\n技能暴击伤害: %spell-mul%%\n技能暴击概率: %spell-chance%%\n%spell-chances%</string>
+	<string name="playermenu.character.evadechance">闪避概率</string>
+	<string name="playermenu.character.chances">暴击概率</string>
+	<string name="playermenu.character.spellchances">技能暴击概率</string>
+	<string name="playermenu.character.lifesteal">吸血</string>
+	<string name="playermenu.character.lifesteal.description">普通攻击: %value%%\n%lists%\n\n技能: %value-spell%%\n%lists-spell%</string>
 
 	<!-- acts -->
 	<string name="world.town">远望镇</string>
@@ -155,8 +155,8 @@
 	<string name="stats.items-picked-rare">找到史诗装备</string>
 	<string name="stats.items-picked-epic">Epic items found</string>
 	<string name="stats.items-picked-legendary">找到传奇装备</string>
-	<string name="stats.items-crafted">Items crafted</string>
-	<string name="stats.items-attuned">Items attuned</string>
+	<string name="stats.items-crafted">制作装备</string>
+	<string name="stats.items-attuned">调和装备</string>
 	<string name="stats.sets-completed">集齐套装</string>
 	<string name="stats.damage-taken">伤害值</string>
 	<string name="stats.damage-taken-max">最大伤害值</string>
@@ -220,9 +220,9 @@
 	<string name="stats.max-level-thief">盗贼最高等级</string>
 	<string name="stats.max-level-warlock">术士最高等级</string>
 	<string name="stats.max-level-wizard">法师最高等级</string>
-	<string name="stats.drinks-consumed">Drinks consumed</string>
-	<string name="stats.drinks-found">Drinks found</string>
-	<string name="stats.blueprints-found">Blueprints found</string>
+	<string name="stats.drinks-consumed">消耗的酒水</string>
+	<string name="stats.drinks-found">找到的酒水</string>
+	<string name="stats.blueprints-found">找到的蓝图</string>
 
 
 
@@ -294,7 +294,7 @@
 	<string name="meta.info.happened">有什么事情发生了...</string>
 	<string name="meta.info.buttonstuck">按钮卡住了…</string>
 	<string name="meta.info.combounlocked">连杀解锁!</string>
-	<string name="meta.info.anvilunlocked">Magic Anvil unlocked!</string>
+	<string name="meta.info.anvilunlocked">魔砧解锁!</string>
 	<string name="meta.info.sequencecompleted">序列完成!</string>
 	<string name="meta.info.twomore">还有2个…</string>
 	<string name="meta.info.onemore">还有1个…</string>
@@ -359,7 +359,7 @@
 	<string name="temp_buff.armor">神庙赐予了你守护之力！</string>
 	<string name="temp_buff.experience">神庙赐予了你洞察万物之力！</string>
 	<string name="temp_buff.damage">神庙赐予了你无人能挡的力量！</string>
-	<string name="temp_buff.heal">神庙赐予了你旺盛的自愈之力!</string>
+	<string name="temp_buff.heal">神庙赐予了你旺盛的自愈之力！</string>
 	<string name="temp_buff.mana">神庙赐予了你释放内在潜能的力量！</string>
 
 
@@ -438,8 +438,8 @@
 	<string name="ui_draw_plr_names.onlytown">仅在城镇中</string>
 	<string name="ui_draw_plr_names_real">玩家真实名字</string>
 	<string name="ui_draw_plr_names_real.help">在多人模式中显示玩家真实的名字而不是英雄名字.</string>
-	<string name="ui_txt_enemy_hurt_husk">REMOTE DAMAGE NUMBERS</string>
-	<string name="ui_txt_enemy_hurt_husk.help">Whether to show damage done to enemies by other players.</string>
+	<string name="ui_txt_enemy_hurt_husk">造成伤害数字</string>
+	<string name="ui_txt_enemy_hurt_husk.help">选择是否显示其他玩家造成的伤害数字</string>
 
 	<string name="ui_minimap_size">小地图</string>
 	<string name="ui_minimap_size.help">在屏幕右上角显示小地图.</string>
@@ -1406,15 +1406,15 @@
 	<string name="town.cardgame.outofmoney.3">你的钱花光了了了!</string>
 	<string name="town.cardgame.outofmoney.4">你的钱花光了了了了!</string>
 	<string name="town.cardgame.outofmoney.5">你的钱花光了了了了了!</string>
-	<string name="town.cardgame.barrel">You won a barrel of:\n%drink%!</string>
+	<string name="town.cardgame.barrel">你拿到了酒桶:\n%drink%!</string>
 
 	<!-- retrain -->
 	<string name="shop.skills.respec">重新加点</string>
 	<string name="shop.skills.respec.tooltip.title">重新分配技能点</string>
 	<string name="shop.skills.respec.tooltip">花费金币重新分配技能点. 将会返还%skillpoints%技能点.</string>
 	<string name="shop.skills.respec.prompt">你确定花费%gold%金币重新技能加点?</string>
-	<string name="shop.skills.worth.skills">Points spent on skills.</string>
-	<string name="shop.skills.worth.attunements">Points spent on attunements.</string>
+	<string name="shop.skills.worth.skills">升级技能用的点数</string>
+	<string name="shop.skills.worth.attunements">调和蓝图所用的点数</string>
 
 	<!-- drinks -->
 	<string name="shop.drinks">铁锤酒保 理查德</string>
@@ -1422,11 +1422,11 @@
 
 
 	<!-- item forge -->
-	<string name="shop.forge.title">MAGIC ANVIL</string>
-	<string name="shop.forge.attune">Attune</string>
-	<string name="shop.forge.attune.description">Attune this item to double its effect.</string>
-	<string name="shop.forge.craft">Craft</string>
-	<string name="shop.forge.craft.description">Craft this item.</string>
+	<string name="shop.forge.title">魔砧</string>
+	<string name="shop.forge.attune">调和</string>
+	<string name="shop.forge.attune.description">调和这件装备让它展现出双倍效果.</string>
+	<string name="shop.forge.craft">制作</string>
+	<string name="shop.forge.craft.description">制作这件装备.</string>
 
 
 
