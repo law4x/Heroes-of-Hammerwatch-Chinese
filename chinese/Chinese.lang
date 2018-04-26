@@ -356,11 +356,11 @@
 	<string name="random_buff.more_mp_regen">神庙赐予你 %amount% 法力回复率.</string>
 	<string name="random_buff.more_damage">神庙赐予你 %amount%% 普攻伤害.</string>
 
-	<string name="temp_buff.armor">The monolith imbues you with protective powers!</string>
-	<string name="temp_buff.experience">The monolith imbues you with greater insight!</string>
-	<string name="temp_buff.damage">The monolith imbues you with incredible strength!</string>
-	<string name="temp_buff.heal">The monolith imbues you with vigorous restoration!</string>
-	<string name="temp_buff.mana">The monolith imbues you with endless potential!</string>
+	<string name="temp_buff.armor">神庙赐予了你守护之力！</string>
+	<string name="temp_buff.experience">神庙赐予了你洞察万物之力！</string>
+	<string name="temp_buff.damage">神庙赐予了你无人能挡的力量！</string>
+	<string name="temp_buff.heal">神庙赐予了你旺盛的自愈之力!</string>
+	<string name="temp_buff.mana">神庙赐予了你释放内在潜能的力量！</string>
 
 
 
