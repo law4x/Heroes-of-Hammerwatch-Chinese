@@ -147,13 +147,13 @@
 	<string name="stats.enemies-killed">杀敌数</string>
 	<string name="stats.items-bought">购买装备</string>
 	<string name="stats.items-bought-common">购买普通装备</string>
-	<string name="stats.items-bought-uncommon">购买稀有装备</string>
-	<string name="stats.items-bought-rare">购买史诗装备</string>
+	<string name="stats.items-bought-uncommon">购买罕见装备</string>
+	<string name="stats.items-bought-rare">购买稀有装备</string>
 	<string name="stats.items-picked">找到装备</string>
 	<string name="stats.items-picked-common">找到普通装备</string>
-	<string name="stats.items-picked-uncommon">找到稀有装备</string>
-	<string name="stats.items-picked-rare">找到史诗装备</string>
-	<string name="stats.items-picked-epic">Epic items found</string>
+	<string name="stats.items-picked-uncommon">找到罕见装备</string>
+	<string name="stats.items-picked-rare">找到稀有装备</string>
+	<string name="stats.items-picked-epic">史诗 items found</string>
 	<string name="stats.items-picked-legendary">找到传奇装备</string>
 	<string name="stats.items-crafted">制作装备</string>
 	<string name="stats.items-attuned">调和装备</string>
@@ -1076,16 +1076,16 @@
 	<string name="shop.townhall.generalstore-1.desc">购买钥匙和装备 (3 普通).</string>
 
 	<string name="shop.townhall.generalstore-2.name">二级商店</string>
-	<string name="shop.townhall.generalstore-2.desc">购买钥匙和装备 (2 普通, 1 稀有). 价格便宜5%.</string>
+	<string name="shop.townhall.generalstore-2.desc">购买钥匙和装备 (2 普通, 1 罕见). 价格便宜5%.</string>
 
 	<string name="shop.townhall.generalstore-3.name">三级商店</string>
-	<string name="shop.townhall.generalstore-3.desc">购买钥匙和装备 (3 普通, 1 稀有). 价格便宜10%.</string>
+	<string name="shop.townhall.generalstore-3.desc">购买钥匙和装备 (3 普通, 1 罕见). 价格便宜10%.</string>
 
 	<string name="shop.townhall.generalstore-4.name">四级商店</string>
-	<string name="shop.townhall.generalstore-4.desc">购买钥匙和装备 (2 普通, 1 稀有, 1 史诗). 价格便宜15%.</string>
+	<string name="shop.townhall.generalstore-4.desc">购买钥匙和装备 (2 普通, 1 罕见, 1 稀有). 价格便宜15%.</string>
 
 	<string name="shop.townhall.generalstore-5.name">五级商店</string>
-	<string name="shop.townhall.generalstore-5.desc">购买钥匙和装备 (2 普通, 2 稀有, 1 史诗). 价格便宜20%.</string>
+	<string name="shop.townhall.generalstore-5.desc">购买钥匙和装备 (2 普通, 2 罕见, 1 稀有). 价格便宜20%.</string>
 
 	<string name="shop.townhall.guildhall-1.name">一级公会大厅</string>
 	<string name="shop.townhall.guildhall-1.desc">解锁一级技能.</string>
@@ -2530,8 +2530,8 @@
 	<string name="dialogue.player.theduke">看起来杜克·德洛尼死得很痛苦.</string>
 
 	<!-- Richard Hammer -->
-	<string name="dialogue.town.npc.tapster.name">Richard, the Tapster</string>
-	<string name="dialogue.town.npc.tapster.1Ra">Hey, if you find more of those barrels\nin the tower I will make you a special drink.\nFor a good price of course...\n</string>
+	<string name="dialogue.town.npc.tapster.name">铁锤酒保 理查德</string>
+	<string name="dialogue.town.npc.tapster.1Ra">嗨！如果你在塔里找到更多的酒桶\n我会给你做新的鸡尾酒喝.\n当然，价格实惠……\n</string>
 
 
 
@@ -2780,14 +2780,14 @@
 	<string name="accomplishment.items-picked-common.name">普通掠夺者 %lvl%</string>
 	<string name="accomplishment.items-picked-common.desc">找到 %requirement% 普通装备.</string>
 
-	<string name="accomplishment.items-picked-uncommon.name">稀有掠夺者 %lvl%</string>
-	<string name="accomplishment.items-picked-uncommon.desc">找到 %requirement% 个稀有装备 items.</string>
+	<string name="accomplishment.items-picked-uncommon.name">罕见掠夺者 %lvl%</string>
+	<string name="accomplishment.items-picked-uncommon.desc">找到 %requirement% 个罕见装备 items.</string>
 
-	<string name="accomplishment.items-picked-rare.name">史诗掠夺者 %lvl%</string>
-	<string name="accomplishment.items-picked-rare.desc">找到 %requirement% 个史诗装备.</string>
+	<string name="accomplishment.items-picked-rare.name">稀有掠夺者 %lvl%</string>
+	<string name="accomplishment.items-picked-rare.desc">找到 %requirement% 个稀有装备.</string>
 
-	<string name="accomplishment.items-picked-epic.name">Epic Looters %lvl%</string>
-	<string name="accomplishment.items-picked-epic.desc">Find %requirement% Epic items.</string>
+	<string name="accomplishment.items-picked-epic.name">史诗掠夺者 %lvl%</string>
+	<string name="accomplishment.items-picked-epic.desc">找到 %requirement% 个传奇装备.</string>
 
 	<string name="accomplishment.items-picked-legendary.name">传奇掠夺者 %lvl%</string>
 	<string name="accomplishment.items-picked-legendary.desc">找到 %requirement% 个传奇装备.</string>
@@ -2894,11 +2894,11 @@
 	<string name="accomplishment.secrets-found.name">侦探 %lvl%</string>
 	<string name="accomplishment.secrets-found.desc">找到 %requirement% 个隐藏.</string>
 
-	<string name="accomplishment.items-crafted.name">Crafters %lvl%</string>
-	<string name="accomplishment.items-crafted.desc">Craft %requirement% items.</string>
+	<string name="accomplishment.items-crafted.name">制造者 %lvl%</string>
+	<string name="accomplishment.items-crafted.desc">制作 %requirement% 件装备.</string>
 
-	<string name="accomplishment.items-attuned.name">Attuners %lvl%</string>
-	<string name="accomplishment.items-attuned.desc">Attune %requirement% items.</string>
+	<string name="accomplishment.items-attuned.name">调和者 %lvl%</string>
+	<string name="accomplishment.items-attuned.desc">调和 %requirement% 件装备.</string>
 
 
 
