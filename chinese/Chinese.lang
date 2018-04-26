@@ -49,6 +49,7 @@
 	<string name="playermenu.tooltip.potion.title">%num% / %total% 消耗</string>
 	<string name="playermenu.tooltip.potion.text">+ %hp% 生命\n+ %mana% 魔法</string>
 	<string name="playermenu.tooltip.tax">手续费</string>
+	<string name="playermenu.tooltip.exp.levelcap">LEVEL CAP:</string>
 
 	<string name="playermenu.character.health">生命值</string>
 	<string name="playermenu.character.mana">法力值</string>
@@ -66,6 +67,15 @@
 	<string name="playermenu.character.spelldamage">攻击附加魔法伤害</string>
 	<string name="playermenu.character.movespeed">移动速度</string>
 	<string name="playermenu.character.goldgain">金币获取速率</string>
+	<string name="playermenu.character.oregain">矿石获取率</string>
+	<string name="playermenu.character.combat">战斗</string>
+	<string name="playermenu.character.critchance">CRIT CHANCE</string>
+	<string name="playermenu.character.critchance.description">暴击伤害: %mul%%\nCrit chance: %chance%%\n%chances%\n\nSkill crit damage: %spell-mul%%\nSkill crit chance: %spell-chance%%\n%spell-chances%</string>
+	<string name="playermenu.character.evadechance">EVADE CHANCE</string>
+	<string name="playermenu.character.chances">Crit chances</string>
+	<string name="playermenu.character.spellchances">Skill crit chances</string>
+	<string name="playermenu.character.lifesteal">LIFESTEAL</string>
+	<string name="playermenu.character.lifesteal.description">Primary Attack: %value%%\n%lists%\n\nSkills: %value-spell%%\n%lists-spell%</string>
 
 	<!-- acts -->
 	<string name="world.town">远望镇</string>
@@ -143,7 +153,10 @@
 	<string name="stats.items-picked-common">找到普通装备</string>
 	<string name="stats.items-picked-uncommon">找到稀有装备</string>
 	<string name="stats.items-picked-rare">找到史诗装备</string>
+	<string name="stats.items-picked-epic">Epic items found</string>
 	<string name="stats.items-picked-legendary">找到传奇装备</string>
+	<string name="stats.items-crafted">Items crafted</string>
+	<string name="stats.items-attuned">Items attuned</string>
 	<string name="stats.sets-completed">集齐套装</string>
 	<string name="stats.damage-taken">伤害值</string>
 	<string name="stats.damage-taken-max">最大伤害值</string>
@@ -207,6 +220,9 @@
 	<string name="stats.max-level-thief">盗贼最高等级</string>
 	<string name="stats.max-level-warlock">术士最高等级</string>
 	<string name="stats.max-level-wizard">法师最高等级</string>
+	<string name="stats.drinks-consumed">Drinks consumed</string>
+	<string name="stats.drinks-found">Drinks found</string>
+	<string name="stats.blueprints-found">Blueprints found</string>
 
 
 
@@ -235,6 +251,8 @@
 	<string name="item.diamond.blue-small">钻石</string>
 	<string name="item.diamond.red">钻石</string>
 	<string name="item.diamond.red-small">钻石</string>
+	<string name="item.diamond.gold">DIAMOND</string>
+	<string name="item.diamond.gold-small">DIAMOND</string>
 
 	<!-- intro -->
 	<string name="intro.title">远望镇</string>
@@ -276,6 +294,7 @@
 	<string name="meta.info.happened">有什么事情发生了...</string>
 	<string name="meta.info.buttonstuck">按钮卡住了…</string>
 	<string name="meta.info.combounlocked">连杀解锁!</string>
+	<string name="meta.info.anvilunlocked">Magic Anvil unlocked!</string>
 	<string name="meta.info.sequencecompleted">序列完成!</string>
 	<string name="meta.info.twomore">还有2个…</string>
 	<string name="meta.info.onemore">还有1个…</string>
@@ -336,6 +355,12 @@
 	<string name="random_buff.more_hp_regen">神庙赐予你 %amount% 生命回复率.</string>
 	<string name="random_buff.more_mp_regen">神庙赐予你 %amount% 法力回复率.</string>
 	<string name="random_buff.more_damage">神庙赐予你 %amount%% 普攻伤害.</string>
+
+	<string name="temp_buff.armor">The monolith imbues you with protective powers!</string>
+	<string name="temp_buff.experience">The monolith imbues you with greater insight!</string>
+	<string name="temp_buff.damage">The monolith imbues you with incredible strength!</string>
+	<string name="temp_buff.heal">The monolith imbues you with vigorous restoration!</string>
+	<string name="temp_buff.mana">The monolith imbues you with endless potential!</string>
 
 
 
@@ -398,7 +423,7 @@
 	<string name="modifier.list.player.upgrades">升级</string>
 	<string name="modifier.list.player.buffs">增益效果</string>
 	<string name="modifier.list.player.titles">职业称号</string>
-	<string name="modifier.list.player.tavern_drinks">Drinks</string>
+	<string name="modifier.list.player.tavern_drinks">酒水</string>
 
 	<string name="ui_key_count">显示钥匙数量</string>
 	<string name="ui_key_count.help">在界面显示你拥有钥匙的数量.</string>
@@ -413,6 +438,8 @@
 	<string name="ui_draw_plr_names.onlytown">仅在城镇中</string>
 	<string name="ui_draw_plr_names_real">玩家真实名字</string>
 	<string name="ui_draw_plr_names_real.help">在多人模式中显示玩家真实的名字而不是英雄名字.</string>
+	<string name="ui_txt_enemy_hurt_husk">REMOTE DAMAGE NUMBERS</string>
+	<string name="ui_txt_enemy_hurt_husk.help">Whether to show damage done to enemies by other players.</string>
 
 	<string name="ui_minimap_size">小地图</string>
 	<string name="ui_minimap_size.help">在屏幕右上角显示小地图.</string>
@@ -840,7 +867,7 @@
 	<string name="rg_crt_curve.help">模仿CRT显示器曲率.</string>
 
 	<string name="ui_txt">浮动文字</string>
-	<string name="ui_txt.help">Display floating texts like damage numbers or pickup info.</string>
+	<string name="ui_txt.help">显示浮动文字,例如伤害数值和拾取信息.</string>
 
 	<string name="menu.crumb.options.serverlist">MULTIPLAYER > SERVER LIST</string>
 	<string name="menu.serverlist.server">SERVER</string>
@@ -870,7 +897,7 @@
 	<string name="v_fullscreen.windowed">无边框</string>
 	<string name="r_draw_glow">光晕</string>
 	<string name="r_draw_glow.help">显示光晕</string>
-	<string name="menu.cancel">CANCEL</string>
+	<string name="menu.cancel">取消</string>
 
 	<string name="menu.controls.layout.ds41">JOYSTICK 1</string>
 	<string name="menu.controls.layout.ds42">JOYSTICK 2</string>
@@ -1103,13 +1130,13 @@
 	<string name="shop.townhall.sculptor-3.desc">用矿石建造一个3级雕像. 4个插槽.</string>
 
 	<string name="shop.townhall.tavern-1.name">一级酒馆</string>
-	<string name="shop.townhall.tavern-1.desc">解锁盗贼. 赌博.</string>
+	<string name="shop.townhall.tavern-1.desc">解锁盗贼. 赌博.最多购买三杯酒水.</string>
 
 	<string name="shop.townhall.tavern-2.name">二级酒馆</string>
-	<string name="shop.townhall.tavern-2.desc">赌博.</string>
+	<string name="shop.townhall.tavern-2.desc">最多购买四杯酒水.增加携带酒水上限.</string>
 
 	<string name="shop.townhall.tavern-3.name">三级酒馆</string>
-	<string name="shop.townhall.tavern-3.desc">赌博.</string>
+	<string name="shop.townhall.tavern-3.desc">最多购买五杯酒水.增加携带酒水上限.</string>
 
 	<string name="shop.townhall.treasury-1.name">一级金库</string>
 	<string name="shop.townhall.treasury-1.desc">当金币达到15,000时税率会达到上限50%当金币达到10,000时税率会达到上限50%当金币达到10,000时税率会达到上限50%当金币达到10,000时税率会达到上限50%.</string>
@@ -1253,8 +1280,8 @@
 	<string name="shop.generalstore.keygold.name">金钥匙</string>
 	<string name="shop.generalstore.keygold.desc">用来打开金箱子.</string>
 
-	<string name="shop.generalstore.reroll">REROLL - %cost%</string>
-	<string name="shop.generalstore.rerolldisabled">REROLL</string>
+	<string name="shop.generalstore.reroll">刷新 %cost%</string>
+	<string name="shop.generalstore.rerolldisabled">刷新</string>
 
 
 	<!-- chapel -->
@@ -1379,19 +1406,27 @@
 	<string name="town.cardgame.outofmoney.3">你的钱花光了了了!</string>
 	<string name="town.cardgame.outofmoney.4">你的钱花光了了了了!</string>
 	<string name="town.cardgame.outofmoney.5">你的钱花光了了了了了!</string>
+	<string name="town.cardgame.barrel">You won a barrel of:\n%drink%!</string>
 
 	<!-- retrain -->
 	<string name="shop.skills.respec">重新加点</string>
 	<string name="shop.skills.respec.tooltip.title">重新分配技能点</string>
 	<string name="shop.skills.respec.tooltip">花费金币重新分配技能点. 将会返还%skillpoints%技能点.</string>
 	<string name="shop.skills.respec.prompt">你确定花费%gold%金币重新技能加点?</string>
+	<string name="shop.skills.worth.skills">Points spent on skills.</string>
+	<string name="shop.skills.worth.attunements">Points spent on attunements.</string>
 
 	<!-- drinks -->
-	<string name="shop.drinks">TAPSTER RICHARD HAMMER</string>
-	<string name="shop.drinks.message.single">I'm afraid we can only serve you one drink right now.</string>
-	<string name="shop.drinks.message.plural">I'm afraid we can only serve you %num% drinks right now.</string>
-	<string name="shop.drinks.message.enough">You've had enough!</string>
-	<string name="shop.drinks.message.empty">All drinks are out of stock, you have to find more in the tower!</string>
+	<string name="shop.drinks">铁锤酒保 理查德</string>
+	<string name="shop.drinks.message.enough">你已经喝够了!</string>
+
+
+	<!-- item forge -->
+	<string name="shop.forge.title">MAGIC ANVIL</string>
+	<string name="shop.forge.attune">Attune</string>
+	<string name="shop.forge.attune.description">Attune this item to double its effect.</string>
+	<string name="shop.forge.craft">Craft</string>
+	<string name="shop.forge.craft.description">Craft this item.</string>
 
 
 
@@ -1810,6 +1845,9 @@
 	<string name="item.cowl-of-protection.name">护卫斗篷</string>
 	<string name="item.cowl-of-protection.desc">%chance%% 几率免疫%block% 魔法伤害.</string>
 
+	<string name="item.curios-box.name">Curio's Box</string>
+	<string name="item.curios-box.desc">%stats% Health & Mana. %power% Attack & Skill Power. %armor% Armor & Resistance.</string>
+
 	<string name="item.defenders-halberd.name">防卫斧枪</string>
 	<string name="item.defenders-halberd.desc">被敌人击中时使攻击者缴械%dur%秒.</string>
 
@@ -1820,7 +1858,10 @@
 	<string name="item.firm-buckler.desc">%chance%% 几率抵御%block% 物理伤害.</string>
 
 	<string name="item.gladiators-net.name">角斗士之网</string>
-	<string name="item.gladiators-net.desc">击中敌人时%chance%%几率让其缴械%dur%秒.</string>
+	<string name="item.gladiators-net.desc">击中敌人时%chance%%几率让其缴械%dur%秒.</string>>
+
+	<string name="item.glowing-staff.name">Glowing Staff</string>
+	<string name="item.glowing-staff.desc">%power% Skill Power and %dmg% Magical Damage on Primary Attack.</string>
 
 	<string name="item.great-helm.name">十字军头盔</string>
 	<string name="item.great-helm.desc">+%armor% 护甲.</string>
@@ -1852,6 +1893,9 @@
 	<string name="item.mana-stone.name">魔法之石</string>
 	<string name="item.mana-stone.desc">击杀敌人时，%chance%%几率回复1魔法值.</string>
 
+	<string name="item.markhams-purse.name">Markham's Purse</string>
+	<string name="item.markhams-purse.desc">%gain%% Gold Gain per item in your inventory.</string>
+
 	<string name="item.monster-pamphlet-aberration.name">怪物手册: 变异生物</string>
 	<string name="item.monster-pamphlet-aberration.desc">对变异生物 +%exp%% 经验获得和 +%dmg%% 伤害值.</string>
 
@@ -1876,8 +1920,11 @@
 	<string name="item.sandals-swiftness.name">迅捷便鞋</string>
 	<string name="item.sandals-swiftness.desc">+%mspeed% 移动速度和 +%evasion%% 闪避.</string>
 
-	<string name="item.scroll-of-magic-missile.name">魔法飞弹卷轴</string>
-	<string name="item.scroll-of-magic-missile.desc">使用技能时%chance%%几率向面朝的方向发射魔法飞弹.</string>
+	<string name="item.scroll-of-magic-missile-a.name">Scroll of Magic Missile: Page 1</string>
+	<string name="item.scroll-of-magic-missile-a.desc">Magic missiles deal %dmg% Magical damage and has a cooldown of 2 seconds.</string>
+
+	<string name="item.scroll-of-magic-missile-b.name">Scroll of Magic Missile: Page 2</string>
+	<string name="item.scroll-of-magic-missile-b.desc">Magic missiles deal %dmg% Magical damage and has a cooldown of 2 seconds.</string>
 
 	<string name="item.serrated-scimitar.name">锯齿弯刀</string>
 	<string name="item.serrated-scimitar.desc">普通攻击时%chance%% 几率造成暴击.</string>
@@ -1937,13 +1984,19 @@
 	<string name="item.claymore.desc">普通攻击+%atk%普攻伤害并附加+%dmg% 物理伤害.</string>
 
 	<string name="item.cloak-of-many-pockets.name">多袋斗篷</string>
-	<string name="item.cloak-of-many-pockets.desc">你获得金币增加%gold%%.</string>
+	<string name="item.cloak-of-many-pockets.desc">%gold%% Gold Gain.</string>
+
+	<string name="item.curios-case.name">Curio's Case</string>
+	<string name="item.curios-case.desc">%stats% Health & Mana. %power% Attack & Skill Power. %armor% Armor & Resistance.</string>
 
 	<string name="item.elven-bow.name">精灵弓</string>
 	<string name="item.elven-bow.desc">+%atk% 普攻伤害.</string>
 
 	<string name="item.fancy-plume.name">华丽羽毛</string>
 	<string name="item.fancy-plume.desc">商店将出售更多的商品.</string>
+
+	<string name="item.frying-pan.name">Hero Unknown's Frying Pan</string>
+	<string name="item.frying-pan.desc">Blocks most projectiles in a backwards %arc% degree arc.</string>
 
 	<string name="item.full-plate-mail.name">全身铠甲</string>
 	<string name="item.full-plate-mail.desc">+%armor% 护甲.</string>
@@ -1953,6 +2006,9 @@
 
 	<string name="item.greater-ring-rejuvenation.name">大活力戒指</string>
 	<string name="item.greater-ring-rejuvenation.desc">+%hregen% 生命回复率和 +%mregen% 法力回复率.</string>
+
+	<string name="item.markhams-stone.name">Markham's Stone</string>
+	<string name="item.markhams-stone.desc">%gain%% Ore Gain per item in your inventory.</string>
 
 	<string name="item.monster-manual-aberration.name">怪物指南: 变异生物</string>
 	<string name="item.monster-manual-aberration.desc">对变异生物 +%exp%% 经验获得和 +%dmg%% 伤害值.</string>
@@ -1972,6 +2028,9 @@
 	<string name="item.rapier-of-retaliation.name">回馈之剑</string>
 	<string name="item.rapier-of-retaliation.desc">+%evasion%% 闪避. 当闪避成功时,你获得%sec%秒增加%dmg%%伤害的buff.</string>
 
+	<string name="item.reinforced-gloves.name">Reinforced Gloves</string>
+	<string name="item.reinforced-gloves.desc">Provides a passive block of %block% damage with a cooldown of %cd% seconds.</string>
+
 	<string name="item.ring-of-transmutation.name">转化之戒</string>
 	<string name="item.ring-of-transmutation.desc">损失生命时，将获得损失量%mana%%的法力.</string>
 
@@ -1985,7 +2044,10 @@
 	<string name="item.seal-of-the-martyr.desc">每损失 1% 生命就增加 1%普攻伤害.</string>
 
 	<string name="item.shaftlocke-pickaxe.name">矿井之镐</string>
-	<string name="item.shaftlocke-pickaxe.desc">拾取矿石时，持有者有%chance%%几率额外获得矿石.</string>
+	<string name="item.shaftlocke-pickaxe.desc">%chance%% Ore gain.</string>
+
+	<string name="item.spiked-boots.name">Spiked Boots</string>
+	<string name="item.spiked-boots.desc">Deal %dmg% Physical damage when colliding with enemies.</string>
 
 	<string name="item.sphere-of-life.name">生命宝珠</string>
 	<string name="item.sphere-of-life.desc">连杀期间 +%hregen% 生命回复率.</string>
@@ -2004,6 +2066,9 @@
 
 	<string name="item.talisman-of-decay.name">衰变符咒</string>
 	<string name="item.talisman-of-decay.desc">周围的敌人收到的伤害增加%taken%%.</string>
+
+	<string name="item.tome-of-magic-missile.name">Tome of Magic Missile</string>
+	<string name="item.tome-of-magic-missile.desc">%skill% Skill Power. Magic missiles deal %dmg% Magical damage and has a cooldown of 2 seconds.</string>
 
 	<string name="item.tower-shield.name">塔盾</string>
 	<string name="item.tower-shield.desc">%chance%% 几率抵御%block% 物理伤害.</string>
@@ -2027,11 +2092,8 @@
 	<string name="item.cape-of-the-flamewalker.name">火焰行者披风</string>
 	<string name="item.cape-of-the-flamewalker.desc">燃烧身边的敌人,每秒造成 %dmg%魔法伤害.</string>
 
-	<string name="item.crown-of-kings.name">国王头冠</string>
-	<string name="item.crown-of-kings.desc">+%bonus%%基础 生命上限和法力上限.</string>
-
-	<string name="item.dragonscale-mail.name">龙鳞盔甲</string>
-	<string name="item.dragonscale-mail.desc">抵御 %taken%%伤害.</string>
+	<string name="item.curios-coffer.name">Curio's Coffer</string>
+	<string name="item.curios-coffer.desc">%stats% Health & Mana. %power% Attack & Skill Power. %armor% Armor & Resistance.</string>
 
 	<string name="item.duelists-edge.name">决斗之剑</string>
 	<string name="item.duelists-edge.desc">+%evasion%% 闪避. 当被击中时，对攻击者造成 %dmg% 魔法伤害并造成流血效果.</string>
@@ -2056,18 +2118,21 @@
 
 	<string name="item.magebane.name">巫师之祸</string>
 	<string name="item.magebane.desc">普通攻击有%chance%%几率降低敌人%res%%魔法抗性，持续2秒.</string>
+	
+	<string name="item.markhams-amulet.name">Markham's Amulet</string>
+	<string name="item.markhams-amulet.desc">%gain% Health & Mana per item in your inventory.</string>
 
-	<string name="item.ring-of-arcane-powers.name">神秘戒指</string>
-	<string name="item.ring-of-arcane-powers.desc">技能消耗法力降低%scost%%.</string>
+	<string name="item.markhams-mace.name">Markham's Mace</string>
+	<string name="item.markhams-mace.desc">%gain% Attack Power per item in your inventory.</string>
+
+	<string name="item.markhams-wand.name">Markham's Wand</string>
+	<string name="item.markhams-wand.desc">%gain% Skill Power per item in your inventory.</string>
 
 	<string name="item.scepter-of-kings.name">国王权杖</string>
 	<string name="item.scepter-of-kings.desc">+%spell% 技能伤害.</string>
 
 	<string name="item.shieldbreaker.name">碎盾者</string>
 	<string name="item.shieldbreaker.desc">普通攻击有%chance%%几率降低%sec%秒敌人%armor%%防御.</string>
-
-	<string name="item.sphere-of-champions.name">冠军宝珠</string>
-	<string name="item.sphere-of-champions.desc">连杀时增加%atk%技能伤害.</string>
 
 	<string name="item.staff-of-volatile-casting.name">不稳定法杖</string>
 	<string name="item.staff-of-volatile-casting.desc">+%chance%%技能暴击率.</string>
@@ -2085,9 +2150,23 @@
 	<string name="item.wrath-of-the-thundergod.desc">被击中时对攻击者释放闪电链, 造成 %dmg% 魔法伤害.</string>
 
 
+	<!-- EPIC -->
 
 
+	<string name="item.boots-of-the-giant.name">Boots of the Giant</string>
+	<string name="item.boots-of-the-giant.desc">Stun enemies for %stun% seconds when colliding with them. %health% Health.</string>
 
+	<string name="item.crown-of-kings.name">Crown of Kings</string>
+	<string name="item.crown-of-kings.desc">+%bonus%% Base Health and Mana.</string>
+
+	<string name="item.dragonscale-mail.name">Dragonscale Mail</string>
+	<string name="item.dragonscale-mail.desc">Take %taken%% less damage.</string>
+
+	<string name="item.ring-of-arcane-powers.name">Ring of Arcane Powers</string>
+	<string name="item.ring-of-arcane-powers.desc">Skills cost %scost%% less mana.</string>
+
+	<string name="item.sphere-of-champions.name">Sphere of Champions</string>
+	<string name="item.sphere-of-champions.desc">Increases Attack and Skill Power with %atk% during combo.</string>
 
 	<!-- LEGENDARY -->
 
@@ -2145,6 +2224,17 @@
 	<string name="item.sets.tricksters-ensemble.desc.1">闪避时获得移动速度加成</string>
 	<string name="item.sets.tricksters-ensemble.desc.2">%chance%% 闪避</string>
 	<string name="item.sets.tricksters-ensemble.desc.3">闪避时触发连击效果</string>
+
+	<string name="item.sets.magic-missile.name">A Wizards Starting Kit</string>
+	<string name="item.sets.magic-missile.desc.1">Unleash 1 magic missile when using a skill.</string>
+	<string name="item.sets.magic-missile.desc.2">Unleash %num% magic missiles when using a skill.</string>
+
+	<string name="item.sets.curios-collection.name">Curio's Collection</string>
+	<string name="item.sets.curios-collection.desc">%stats% Health & Mana. %power% Attack & Skill Power. %armor% Armor & Resistance.</string>
+
+	<string name="item.sets.markhams-mastery.name">Markham's Mastery</string>
+	<string name="item.sets.markhams-mastery.desc.1">%gain% Armor & Resistance per item in your inventory.</string>
+	<string name="item.sets.markhams-mastery.desc.2">%gain%% faster attacks and skills per item in your inventory.</string>
 
 
 
@@ -2227,7 +2317,7 @@
 	<string name="drink.the-mad-proposal.name">丧心病狂</string>
 	<string name="drink.the-mad-proposal.desc">%pos%% 造成的伤害.\n永久处于混乱状态.</string>
 
-	<string name="drink.unbalanced-essence.name">龙头蛇尾E</string>
+	<string name="drink.unbalanced-essence.name">龙头蛇尾</string>
 	<string name="drink.unbalanced-essence.desc">%pos% 技能加成.\n%neg%% 魔抗.</string>
 
 	<string name="drink.wicked-sickness.name">身罹奇疾</string>
@@ -2439,6 +2529,10 @@
 
 	<string name="dialogue.player.theduke">看起来杜克·德洛尼死得很痛苦.</string>
 
+	<!-- Richard Hammer -->
+	<string name="dialogue.town.npc.tapster.name">Richard, the Tapster</string>
+	<string name="dialogue.town.npc.tapster.1Ra">Hey, if you find more of those barrels\nin the tower I will make you a special drink.\nFor a good price of course...\n</string>
+
 
 
 	<!-- Guild Hall -->
@@ -2449,7 +2543,7 @@
 	<string name="guildhall.tab.stats">公会 & 英雄</string>
 	<string name="guildhall.tab.accomplishments">成就</string>
 	<string name="guildhall.tab.beastiary">怪物图鉴</string>
-	<string name="guildhall.tab.itemiary">ITEMIARY</string>
+	<string name="guildhall.tab.itemiary">物品图鉴</string>
 	<string name="guildhall.stats.guildtitle">公会  %title%</string>
 	<string name="guildhall.stats.lifetime">生涯</string>
 	<string name="guildhall.stats.classtitles">职业称号</string>
@@ -2540,6 +2634,8 @@
 	<string name="bestiary.type.aberration">变异生物</string>
 	<string name="bestiary.type.construct">建筑物</string>
 
+	<string name="bestiary.expreward">经验奖励</string>
+
 	<string name="bestiary.name.bosses.golem">岩石守卫</string>
 	<string name="bestiary.name.bosses.warden">监狱守卫</string>
 	<string name="bestiary.name.bosses.wraith_scythe">巫妖骑士</string>
@@ -2617,8 +2713,9 @@
 	<string name="bestiary.name.wisp_2">红精灵</string>
 
 	<!-- itemiary -->
-	<string name="itemiary.header.items">ITEMS</string>
-	<string name="itemiary.header.drinks">DRINKS</string>
+	<string name="itemiary.header.items">装备</string>
+	<string name="itemiary.header.drinks">酒水</string>
+	<string name="itemiary.itemcount">寻找次数</string>
 
 
 
@@ -2688,6 +2785,9 @@
 
 	<string name="accomplishment.items-picked-rare.name">史诗掠夺者 %lvl%</string>
 	<string name="accomplishment.items-picked-rare.desc">找到 %requirement% 个史诗装备.</string>
+
+	<string name="accomplishment.items-picked-epic.name">Epic Looters %lvl%</string>
+	<string name="accomplishment.items-picked-epic.desc">Find %requirement% Epic items.</string>
 
 	<string name="accomplishment.items-picked-legendary.name">传奇掠夺者 %lvl%</string>
 	<string name="accomplishment.items-picked-legendary.desc">找到 %requirement% 个传奇装备.</string>
@@ -2793,6 +2893,12 @@
 
 	<string name="accomplishment.secrets-found.name">侦探 %lvl%</string>
 	<string name="accomplishment.secrets-found.desc">找到 %requirement% 个隐藏.</string>
+
+	<string name="accomplishment.items-crafted.name">Crafters %lvl%</string>
+	<string name="accomplishment.items-crafted.desc">Craft %requirement% items.</string>
+
+	<string name="accomplishment.items-attuned.name">Attuners %lvl%</string>
+	<string name="accomplishment.items-attuned.desc">Attune %requirement% items.</string>
 
 
 

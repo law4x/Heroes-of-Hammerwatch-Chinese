@@ -49,6 +49,7 @@
 	<string name="playermenu.tooltip.potion.title">%num% / %total% CHARGES</string>
 	<string name="playermenu.tooltip.potion.text">+ %hp% HP\n+ %mana% MANA</string>
 	<string name="playermenu.tooltip.tax">TAX</string>
+	<string name="playermenu.tooltip.exp.levelcap">LEVEL CAP:</string>
 
 	<string name="playermenu.character.health">HEALTH</string>
 	<string name="playermenu.character.mana">MANA</string>
@@ -66,6 +67,15 @@
 	<string name="playermenu.character.spelldamage">SKILL EFFECTS</string>
 	<string name="playermenu.character.movespeed">MOVE SPEED</string>
 	<string name="playermenu.character.goldgain">GOLD GAIN</string>
+	<string name="playermenu.character.oregain">ORE GAIN</string>
+	<string name="playermenu.character.combat">COMBAT</string>
+	<string name="playermenu.character.critchance">CRIT CHANCE</string>
+	<string name="playermenu.character.critchance.description">Crit damage: %mul%%\nCrit chance: %chance%%\n%chances%\n\nSkill crit damage: %spell-mul%%\nSkill crit chance: %spell-chance%%\n%spell-chances%</string>
+	<string name="playermenu.character.evadechance">EVADE CHANCE</string>
+	<string name="playermenu.character.chances">Crit chances</string>
+	<string name="playermenu.character.spellchances">Skill crit chances</string>
+	<string name="playermenu.character.lifesteal">LIFESTEAL</string>
+	<string name="playermenu.character.lifesteal.description">Primary Attack: %value%%\n%lists%\n\nSkills: %value-spell%%\n%lists-spell%</string>
 
 	<!-- acts -->
 	<string name="world.town">THE OUTLOOK</string>
@@ -143,7 +153,10 @@
 	<string name="stats.items-picked-common">Common items found</string>
 	<string name="stats.items-picked-uncommon">Uncommon items found</string>
 	<string name="stats.items-picked-rare">Rare items found</string>
+	<string name="stats.items-picked-epic">Epic items found</string>
 	<string name="stats.items-picked-legendary">Legendary items found</string>
+	<string name="stats.items-crafted">Items crafted</string>
+	<string name="stats.items-attuned">Items attuned</string>
 	<string name="stats.sets-completed">Item sets completed</string>
 	<string name="stats.damage-taken">Damage taken</string>
 	<string name="stats.damage-taken-max">Max damage taken</string>
@@ -207,8 +220,9 @@
 	<string name="stats.max-level-thief">Highest Thief Level</string>
 	<string name="stats.max-level-warlock">Highest Warlock Level</string>
 	<string name="stats.max-level-wizard">Highest Wizard Level</string>
-
-
+	<string name="stats.drinks-consumed">Drinks consumed</string>
+	<string name="stats.drinks-found">Drinks found</string>
+	<string name="stats.blueprints-found">Blueprints found</string>
 
 	<!-- misc -->
 	<string name="misc.dmg.crit1">%dmg%!</string>
@@ -235,6 +249,8 @@
 	<string name="item.diamond.blue-small">DIAMOND</string>
 	<string name="item.diamond.red">DIAMOND</string>
 	<string name="item.diamond.red-small">DIAMOND</string>
+	<string name="item.diamond.gold">DIAMOND</string>
+	<string name="item.diamond.gold-small">DIAMOND</string>
 
 	<!-- intro -->
 	<string name="intro.title">THE OUTLOOK</string>
@@ -276,6 +292,7 @@
 	<string name="meta.info.happened">Something happened...</string>
 	<string name="meta.info.buttonstuck">Button is stuck…</string>
 	<string name="meta.info.combounlocked">Combo unlocked!</string>
+	<string name="meta.info.anvilunlocked">Magic Anvil unlocked!</string>
 	<string name="meta.info.sequencecompleted">Sequence completed!</string>
 	<string name="meta.info.twomore">2 more to go…</string>
 	<string name="meta.info.onemore">1 more to go…</string>
@@ -337,7 +354,11 @@
 	<string name="random_buff.more_mp_regen">The shrine rewards you with %amount% mana regen.</string>
 	<string name="random_buff.more_damage">The shrine rewards you with %amount%% damage.</string>
 
-
+	<string name="temp_buff.armor">The monolith imbues you with protective powers!</string>
+	<string name="temp_buff.experience">The monolith imbues you with greater insight!</string>
+	<string name="temp_buff.damage">The monolith imbues you with incredible strength!</string>
+	<string name="temp_buff.heal">The monolith imbues you with vigorous restoration!</string>
+	<string name="temp_buff.mana">The monolith imbues you with endless potential!</string>
 
 	<string name="levelcredits.prompt">%level% by %author%</string>
 
@@ -413,6 +434,8 @@
 	<string name="ui_draw_plr_names.onlytown">ONLY TOWN</string>
 	<string name="ui_draw_plr_names_real">REAL PLAYER NAMES</string>
 	<string name="ui_draw_plr_names_real.help">Show real player names instead of hero names in multiplayer.</string>
+	<string name="ui_txt_enemy_hurt_husk">REMOTE DAMAGE NUMBERS</string>
+	<string name="ui_txt_enemy_hurt_husk.help">Whether to show damage done to enemies by other players.</string>
 
 	<string name="ui_minimap_size">SMALL MINIMAP</string>
 	<string name="ui_minimap_size.help">Enable a small map in the top right of your screen.</string>
@@ -1103,13 +1126,13 @@
 	<string name="shop.townhall.sculptor-3.desc">Build Level 3 status for ore. 4 slots.</string>
 
 	<string name="shop.townhall.tavern-1.name">Tavern I</string>
-	<string name="shop.townhall.tavern-1.desc">Unlocks Thief. Gambling.</string>
+	<string name="shop.townhall.tavern-1.desc">Unlocks Thief. Gambling. Buy up to 3 drinks.</string>
 
 	<string name="shop.townhall.tavern-2.name">Tavern II</string>
-	<string name="shop.townhall.tavern-2.desc">Gambling.</string>
+	<string name="shop.townhall.tavern-2.desc">Buy up to 4 drinks. Increased stockpile limit for drinks.</string>
 
 	<string name="shop.townhall.tavern-3.name">Tavern III</string>
-	<string name="shop.townhall.tavern-3.desc">Gambling.</string>
+	<string name="shop.townhall.tavern-3.desc">Buy up to 5 drinks. Increased stockpile limit for drinks.</string>
 
 	<string name="shop.townhall.treasury-1.name">Treasury I</string>
 	<string name="shop.townhall.treasury-1.desc">50% tax rate at 10000 total gold.</string>
@@ -1253,7 +1276,7 @@
 	<string name="shop.generalstore.keygold.name">Gold Key</string>
 	<string name="shop.generalstore.keygold.desc">Used to open gold chests.</string>
 
-	<string name="shop.generalstore.reroll">REROLL - %cost%</string>
+	<string name="shop.generalstore.reroll">REROLL %cost%</string>
 	<string name="shop.generalstore.rerolldisabled">REROLL</string>
 
 
@@ -1379,19 +1402,27 @@
 	<string name="town.cardgame.outofmoney.3">You're out of money!</string>
 	<string name="town.cardgame.outofmoney.4">You're out of money!</string>
 	<string name="town.cardgame.outofmoney.5">You're out of money!</string>
+	<string name="town.cardgame.barrel">You won a barrel of:\n%drink%!</string>
 
 	<!-- retrain -->
 	<string name="shop.skills.respec">RETRAIN</string>
 	<string name="shop.skills.respec.tooltip.title">Retrain</string>
 	<string name="shop.skills.respec.tooltip">Reset all your skills with gold. You will get %skillpoints% skillpoints back.</string>
 	<string name="shop.skills.respec.prompt">Are you sure you want to retrain for %gold% gold?</string>
+	<string name="shop.skills.worth.skills">Points spent on skills.</string>
+	<string name="shop.skills.worth.attunements">Points spent on attunements.</string>
 
 	<!-- drinks -->
 	<string name="shop.drinks">TAPSTER RICHARD HAMMER</string>
-	<string name="shop.drinks.message.single">I'm afraid we can only serve you one drink right now.</string>
-	<string name="shop.drinks.message.plural">I'm afraid we can only serve you %num% drinks right now.</string>
 	<string name="shop.drinks.message.enough">You've had enough!</string>
-	<string name="shop.drinks.message.empty">All drinks are out of stock, you have to find more in the tower!</string>
+
+
+	<!-- item forge -->
+	<string name="shop.forge.title">MAGIC ANVIL</string>
+	<string name="shop.forge.attune">Attune</string>
+	<string name="shop.forge.attune.description">Attune this item to double its effect.</string>
+	<string name="shop.forge.craft">Craft</string>
+	<string name="shop.forge.craft.description">Craft this item.</string>
 
 
 
@@ -1810,6 +1841,9 @@
 	<string name="item.cowl-of-protection.name">Cowl of Protection</string>
 	<string name="item.cowl-of-protection.desc">%chance%% to Block %block% Magical damage.</string>
 
+	<string name="item.curios-box.name">Curio's Box</string>
+	<string name="item.curios-box.desc">%stats% Health & Mana. %power% Attack & Skill Power. %armor% Armor & Resistance.</string>
+
 	<string name="item.defenders-halberd.name">Defender's Halberd</string>
 	<string name="item.defenders-halberd.desc">Disarm enemies for %dur% seconds when hit.</string>
 
@@ -1821,6 +1855,9 @@
 
 	<string name="item.gladiators-net.name">Gladiator's Net</string>
 	<string name="item.gladiators-net.desc">%chance%% to disarm enemies for %dur% seconds on Primary Attack.</string>
+
+	<string name="item.glowing-staff.name">Glowing Staff</string>
+	<string name="item.glowing-staff.desc">%power% Skill Power and %dmg% Magical Damage on Primary Attack.</string>
 
 	<string name="item.great-helm.name">Great Helm</string>
 	<string name="item.great-helm.desc">+%armor% Armor.</string>
@@ -1852,6 +1889,9 @@
 	<string name="item.mana-stone.name">Mana Stone</string>
 	<string name="item.mana-stone.desc">%chance%% chance to gain 1 mana when killing an enemy.</string>
 
+	<string name="item.markhams-purse.name">Markham's Purse</string>
+	<string name="item.markhams-purse.desc">%gain%% Gold Gain per item in your inventory.</string>
+
 	<string name="item.monster-pamphlet-aberration.name">Monster Pamphlet: Aberrations</string>
 	<string name="item.monster-pamphlet-aberration.desc">Increase damage done to Aberrations by %dmg%%. Aberrations give %exp%% more experience.</string>
 
@@ -1876,8 +1916,11 @@
 	<string name="item.sandals-swiftness.name">Sandals of Swiftness</string>
 	<string name="item.sandals-swiftness.desc">+%mspeed% Movement Speed and +%evasion%% Evasion.</string>
 
-	<string name="item.scroll-of-magic-missile.name">Scroll of Magic Missile</string>
-	<string name="item.scroll-of-magic-missile.desc">Unleash a magic missile in a forward direction when using a skill. The missile has a cooldown of 2 seconds.</string>
+	<string name="item.scroll-of-magic-missile-a.name">Scroll of Magic Missile: Page 1</string>
+	<string name="item.scroll-of-magic-missile-a.desc">Magic missiles deal %dmg% Magical damage and has a cooldown of 2 seconds.</string>
+
+	<string name="item.scroll-of-magic-missile-b.name">Scroll of Magic Missile: Page 2</string>
+	<string name="item.scroll-of-magic-missile-b.desc">Magic missiles deal %dmg% Magical damage and has a cooldown of 2 seconds.</string>
 
 	<string name="item.serrated-scimitar.name">Serrated Scimitar</string>
 	<string name="item.serrated-scimitar.desc">%chance%% chance to score a Critical Hit on Primary Attack.</string>
@@ -1937,13 +1980,19 @@
 	<string name="item.claymore.desc">+%atk% Attack Power and +%dmg% Physical damage on Primary Attack.</string>
 
 	<string name="item.cloak-of-many-pockets.name">Cloak of Many Pockets</string>
-	<string name="item.cloak-of-many-pockets.desc">You gain %gold%% more gold.</string>
+	<string name="item.cloak-of-many-pockets.desc">%gold%% Gold Gain.</string>
+
+	<string name="item.curios-case.name">Curio's Case</string>
+	<string name="item.curios-case.desc">%stats% Health & Mana. %power% Attack & Skill Power. %armor% Armor & Resistance.</string>
 
 	<string name="item.elven-bow.name">Elven Bow</string>
 	<string name="item.elven-bow.desc">+%atk% Attack Power.</string>
 
 	<string name="item.fancy-plume.name">Fancy Plume</string>
 	<string name="item.fancy-plume.desc">Vendors will have more items in dungeon shops.</string>
+
+	<string name="item.frying-pan.name">Hero Unknown's Frying Pan</string>
+	<string name="item.frying-pan.desc">Blocks most projectiles in a backwards %arc% degree arc.</string>
 
 	<string name="item.full-plate-mail.name">Full Plate Mail</string>
 	<string name="item.full-plate-mail.desc">+%armor% Armor.</string>
@@ -1953,6 +2002,9 @@
 
 	<string name="item.greater-ring-rejuvenation.name">Greater Ring of Rejuvenation</string>
 	<string name="item.greater-ring-rejuvenation.desc">+%hregen% Health Regen and +%mregen% Mana Regen.</string>
+
+	<string name="item.markhams-stone.name">Markham's Stone</string>
+	<string name="item.markhams-stone.desc">%gain%% Ore Gain per item in your inventory.</string>
 
 	<string name="item.monster-manual-aberration.name">Monster Manual: Aberrations</string>
 	<string name="item.monster-manual-aberration.desc">Increase damage done to Aberrations by %dmg%%. Aberrations give %exp%% more experience.</string>
@@ -1972,6 +2024,9 @@
 	<string name="item.rapier-of-retaliation.name">Rapier of Retaliation</string>
 	<string name="item.rapier-of-retaliation.desc">+%evasion%% Evasion. When evading an attack you gain a %dmg%% damage buff for %sec% seconds.</string>
 
+	<string name="item.reinforced-gloves.name">Reinforced Gloves</string>
+	<string name="item.reinforced-gloves.desc">Provides a passive block of %block% damage with a cooldown of %cd% seconds.</string>
+
 	<string name="item.ring-of-transmutation.name">Ring of Transmutation</string>
 	<string name="item.ring-of-transmutation.desc">Gain %mana%% mana of health lost.</string>
 
@@ -1985,7 +2040,10 @@
 	<string name="item.seal-of-the-martyr.desc">Deal 1% more damage for each % Health missing.</string>
 
 	<string name="item.shaftlocke-pickaxe.name">Shaftlocke Pickaxe</string>
-	<string name="item.shaftlocke-pickaxe.desc">%chance%% chance of receiving 1 extra ore when picking up ore.</string>
+	<string name="item.shaftlocke-pickaxe.desc">%chance%% Ore gain.</string>
+
+	<string name="item.spiked-boots.name">Spiked Boots</string>
+	<string name="item.spiked-boots.desc">Deal %dmg% Physical damage when colliding with enemies.</string>
 
 	<string name="item.sphere-of-life.name">Sphere of Life</string>
 	<string name="item.sphere-of-life.desc">During combo you gain +%hregen% Health Regen.</string>
@@ -2005,6 +2063,9 @@
 	<string name="item.talisman-of-decay.name">Talisman of Decay</string>
 	<string name="item.talisman-of-decay.desc">Nearby enemies take %taken%% more damage.</string>
 
+	<string name="item.tome-of-magic-missile.name">Tome of Magic Missile</string>
+	<string name="item.tome-of-magic-missile.desc">%skill% Skill Power. Magic missiles deal %dmg% Magical damage and has a cooldown of 2 seconds.</string>
+
 	<string name="item.tower-shield.name">Tower Shield</string>
 	<string name="item.tower-shield.desc">%chance%% chance to Block %block% Physical damage.</string>
 
@@ -2016,7 +2077,7 @@
 
 
 	<string name="item.amulet-of-kings.name">Amulet of Kings</string>
-	<string name="item.amulet-of-kings.desc">+%res% Magic Resistance.</string>
+	<string name="item.amulet-of-kings.desc">+%res% Resistance.</string>
 
 	<string name="item.amulet-of-vengeance.name">Amulet of Vengeance</string>
 	<string name="item.amulet-of-vengeance.desc">%chance%% to trigger Combo when taking damage.</string>
@@ -2027,11 +2088,8 @@
 	<string name="item.cape-of-the-flamewalker.name">Cape of the Flamewalker</string>
 	<string name="item.cape-of-the-flamewalker.desc">Burns nearby enemies for %dmg% Magical damage per second.</string>
 
-	<string name="item.crown-of-kings.name">Crown of Kings</string>
-	<string name="item.crown-of-kings.desc">+%bonus%% Base Health and Mana.</string>
-
-	<string name="item.dragonscale-mail.name">Dragonscale Mail</string>
-	<string name="item.dragonscale-mail.desc">Take %taken%% less damage.</string>
+	<string name="item.curios-coffer.name">Curio's Coffer</string>
+	<string name="item.curios-coffer.desc">%stats% Health & Mana. %power% Attack & Skill Power. %armor% Armor & Resistance.</string>
 
 	<string name="item.duelists-edge.name">Duelist's Edge</string>
 	<string name="item.duelists-edge.desc">+%evasion%% Evasion. When evading an attack you return %dmg% Physical damage to the attacker and applies bleeding.</string>
@@ -2057,17 +2115,20 @@
 	<string name="item.magebane.name">Magebane</string>
 	<string name="item.magebane.desc">%chance%% chance to lower enemies Resistance by %res%% for %sec% seconds on Primary Attack.</string>
 
-	<string name="item.ring-of-arcane-powers.name">Ring of Arcane Powers</string>
-	<string name="item.ring-of-arcane-powers.desc">Skill cost %scost%% less mana.</string>
+	<string name="item.markhams-amulet.name">Markham's Amulet</string>
+	<string name="item.markhams-amulet.desc">%gain% Health & Mana per item in your inventory.</string>
+
+	<string name="item.markhams-mace.name">Markham's Mace</string>
+	<string name="item.markhams-mace.desc">%gain% Attack Power per item in your inventory.</string>
+
+	<string name="item.markhams-wand.name">Markham's Wand</string>
+	<string name="item.markhams-wand.desc">%gain% Skill Power per item in your inventory.</string>
 
 	<string name="item.scepter-of-kings.name">Scepter of Kings</string>
 	<string name="item.scepter-of-kings.desc">+%spell% Skill Power.</string>
 
 	<string name="item.shieldbreaker.name">Shieldbreaker</string>
 	<string name="item.shieldbreaker.desc">%chance%% chance to lower enemies Armor by %armor%% for %sec% seconds on Primary Attack.</string>
-
-	<string name="item.sphere-of-champions.name">Sphere of Champions</string>
-	<string name="item.sphere-of-champions.desc">Increases Attack and Skill Power with %atk% during combo.</string>
 
 	<string name="item.staff-of-volatile-casting.name">Staff of Volatile Casting</string>
 	<string name="item.staff-of-volatile-casting.desc">%chance%% chance to score a Critical Hit with Skills.</string>
@@ -2085,9 +2146,23 @@
 	<string name="item.wrath-of-the-thundergod.desc">Returns a lightning bolt to the attacker when hit, dealing %dmg% Magical damage.</string>
 
 
+	<!-- EPIC -->
 
 
+	<string name="item.boots-of-the-giant.name">Boots of the Giant</string>
+	<string name="item.boots-of-the-giant.desc">Stun enemies for %stun% seconds when colliding with them. %health% Health.</string>
 
+	<string name="item.crown-of-kings.name">Crown of Kings</string>
+	<string name="item.crown-of-kings.desc">+%bonus%% Base Health and Mana.</string>
+
+	<string name="item.dragonscale-mail.name">Dragonscale Mail</string>
+	<string name="item.dragonscale-mail.desc">Take %taken%% less damage.</string>
+
+	<string name="item.ring-of-arcane-powers.name">Ring of Arcane Powers</string>
+	<string name="item.ring-of-arcane-powers.desc">Skills cost %scost%% less mana.</string>
+
+	<string name="item.sphere-of-champions.name">Sphere of Champions</string>
+	<string name="item.sphere-of-champions.desc">Increases Attack and Skill Power with %atk% during combo.</string>
 
 	<!-- LEGENDARY -->
 
@@ -2146,6 +2221,17 @@
 	<string name="item.sets.tricksters-ensemble.desc.2">%chance%% evasion</string>
 	<string name="item.sets.tricksters-ensemble.desc.3">Trigger combo when evading</string>
 
+	<string name="item.sets.magic-missile.name">A Wizards Starting Kit</string>
+	<string name="item.sets.magic-missile.desc.1">Unleash 1 magic missile when using a skill.</string>
+	<string name="item.sets.magic-missile.desc.2">Unleash %num% magic missiles when using a skill.</string>
+
+	<string name="item.sets.curios-collection.name">Curio's Collection</string>
+	<string name="item.sets.curios-collection.desc">%stats% Health & Mana. %power% Attack & Skill Power. %armor% Armor & Resistance.</string>
+
+	<string name="item.sets.markhams-mastery.name">Markham's Mastery</string>
+	<string name="item.sets.markhams-mastery.desc.1">%gain% Armor & Resistance per item in your inventory.</string>
+	<string name="item.sets.markhams-mastery.desc.2">%gain%% faster attacks and skills per item in your inventory.</string>
+
 
 
 	<!-- DRINKS -->
@@ -2171,7 +2257,7 @@
 	<string name="drink.homemade-hazard.desc">%pos%% Critical Damage on your Primary attack.\n%neg%% damage taken.</string>
 
 	<string name="drink.ladys-blessing.name">Lady's Blessing</string>
-	<string name="drink.ladys-blessing.desc">%pos% Health Regen.\n%neg%% Skill Power.</string>
+	<string name="drink.ladys-blessing.desc">%pos% Health Regen.\n%neg% Skill Power.</string>
 
 	<string name="drink.lazy-stroll.name">Lazy Stroll</string>
 	<string name="drink.lazy-stroll.desc">%pos%% Experience gain.\n%neg% Movement Speed.</string>
@@ -2439,6 +2525,10 @@
 
 	<string name="dialogue.player.theduke">Looks like Duke\nDelany died in\nhorrible agony.</string>
 
+	<!-- Richard Hammer -->
+	<string name="dialogue.town.npc.tapster.name">Richard, the Tapster</string>
+	<string name="dialogue.town.npc.tapster.1Ra">Hey, if you find more of those barrels\nin the tower I will make you a special drink.\nFor a good price of course...\n</string>
+
 
 
 	<!-- Guild Hall -->
@@ -2540,6 +2630,8 @@
 	<string name="bestiary.type.aberration">ABERRATIONS</string>
 	<string name="bestiary.type.construct">CONSTRUCTS</string>
 
+	<string name="bestiary.expreward">Experience reward</string>
+
 	<string name="bestiary.name.bosses.golem">Stone Guardian</string>
 	<string name="bestiary.name.bosses.warden">The Warden</string>
 	<string name="bestiary.name.bosses.wraith_scythe">Councilor of War</string>
@@ -2619,6 +2711,7 @@
 	<!-- itemiary -->
 	<string name="itemiary.header.items">ITEMS</string>
 	<string name="itemiary.header.drinks">DRINKS</string>
+	<string name="itemiary.itemcount">Amount found</string>
 
 
 
@@ -2688,6 +2781,9 @@
 
 	<string name="accomplishment.items-picked-rare.name">Rare Looters %lvl%</string>
 	<string name="accomplishment.items-picked-rare.desc">Find %requirement% Rare items.</string>
+
+	<string name="accomplishment.items-picked-epic.name">Epic Looters %lvl%</string>
+	<string name="accomplishment.items-picked-epic.desc">Find %requirement% Epic items.</string>
 
 	<string name="accomplishment.items-picked-legendary.name">Legendary Looters %lvl%</string>
 	<string name="accomplishment.items-picked-legendary.desc">Find %requirement% Legendary items.</string>
@@ -2793,6 +2889,15 @@
 
 	<string name="accomplishment.secrets-found.name">Detectives %lvl%</string>
 	<string name="accomplishment.secrets-found.desc">Find %requirement% secrets.</string>
+
+	<string name="accomplishment.items-crafted.name">Crafters %lvl%</string>
+	<string name="accomplishment.items-crafted.desc">Craft %requirement% items.</string>
+
+	<string name="accomplishment.items-attuned.name">Attuners %lvl%</string>
+	<string name="accomplishment.items-attuned.desc">Attune %requirement% items.</string>
+
+	<string name="accomplishment.drinks-consumed.name">Quenchers %lvl%</string>
+	<string name="accomplishment.drinks-consumed.desc">Consume %requirement% tavern drinks.</string>
 
 
 
