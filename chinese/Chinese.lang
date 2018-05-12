@@ -1860,7 +1860,7 @@
 	<string name="item.gladiators-net.name">角斗士之网</string>
 	<string name="item.gladiators-net.desc">击中敌人时%chance%%几率让其缴械%dur%秒.</string>>
 
-	<string name="item.glowing-staff.name">炽热发张</string>
+	<string name="item.glowing-staff.name">炽热法杖</string>
 	<string name="item.glowing-staff.desc">%power% 技能伤害并且普通攻击附加 %dmg%点魔法伤害.</string>
 
 	<string name="item.great-helm.name">十字军头盔</string>
@@ -2122,7 +2122,7 @@
 	<string name="item.markhams-amulet.name">万锦护符</string>
 	<string name="item.markhams-amulet.desc">装备栏每有一件物品提高%gain%生命上限和法力上限.</string>
 
-	<string name="item.markhams-mace.name">万金之锤</string>
+	<string name="item.markhams-mace.name">万锦之锤</string>
 	<string name="item.markhams-mace.desc">装备栏每有一件物品提高%gain%普通攻击伤害.</string>
 
 	<string name="item.markhams-wand.name">万锦法杖</string>
