@@ -163,10 +163,10 @@
 	<string name="stats.chests-opened">打开箱子数</string>
 	<string name="stats.elevator-used">使用电梯</string>
 	<string name="stats.fountain-used">使用喷泉</string>
-	<string name="stats.fountain-deposited">Fountain gold deposited</string>
-	<string name="stats.fountain-paid">Fountain gold spent</string>
-	<string name="stats.fountain-favor-good">Fountain good favor</string>
-	<string name="stats.fountain-favor-bad">Fountain bad favor</string>
+	<string name="stats.fountain-deposited">喷泉已存金币</string>
+	<string name="stats.fountain-paid">喷泉花费金币</string>
+	<string name="stats.fountain-favor-good">喷泉神力-好事</string>
+	<string name="stats.fountain-favor-bad">喷泉神力-坏事</string>
 	<string name="stats.well-used">使用魔法泉</string>
 	<string name="stats.gold-found">找到金币</string>
 	<string name="stats.ore-found">找到矿物</string>
@@ -255,8 +255,8 @@
 	<string name="item.diamond.blue-small">钻石</string>
 	<string name="item.diamond.red">钻石</string>
 	<string name="item.diamond.red-small">钻石</string>
-	<string name="item.diamond.gold">DIAMOND</string>
-	<string name="item.diamond.gold-small">DIAMOND</string>
+	<string name="item.diamond.gold">钻石</string>
+	<string name="item.diamond.gold-small">钻石</string>
 
 	<!-- intro -->
 	<string name="intro.title">远望镇</string>
@@ -598,24 +598,24 @@
 	<string name="menu.game.defaults_dialog">将所有游戏设置重置为默认值?</string>
 	<string name="g_language">语言</string>
 	<string name="g_language.help">显示语言.</string>
-	<string name="g_gore">GORE</string>
-	<string name="g_gore.help">Display blood and gore.</string>
-	<string name="g_autoswitch">AUTOSWITCH</string>
-	<string name="g_autoswitch.help">Automatically switch to new weapons.</string>
+	<string name="g_gore">血块</string>
+	<string name="g_gore.help">显示血液和血块.</string>
+	<string name="g_autoswitch">自动切换</string>
+	<string name="g_autoswitch.help">自动切换为新武器.</string>
 	<string name="ui_cursor_alpha">透明光标</string>
 	<string name="ui_cursor_alpha.help">光标透明度.</string>
-	<string name="ui_netricsa_world">NETRICSA WORLD NOTIFY</string>
-	<string name="ui_netricsa_world.help">Notify about Netricsa World messages.</string>
-	<string name="ui_netricsa_notes">NETRICSA NOTES NOTIFY</string>
-	<string name="ui_netricsa_notes.help">Notify about Netricsa Note messages.</string>
-	<string name="ui_netricsa_items">NETRICSA ITEMS NOTIFY</string>
-	<string name="ui_netricsa_items.help">Notify about Netricsa Item messages.</string>
-	<string name="ui_netricsa_enemies">NETRICSA ENEMIES NOTIFY</string>
-	<string name="ui_netricsa_enemies.help">Notify about Netricsa Enemy messages.</string>
-	<string name="g_txt">PICKUP MESSAGES</string>
-	<string name="g_txt.help">Display item pickup messages.</string>
-	<string name="menu.crumb.options.game">OPTIONS > GAME</string>
-	<string name="menu.game.texts">TEXTS</string>
+	<string name="ui_netricsa_world">NETRICSA世界通知</string>
+	<string name="ui_netricsa_world.help">通知有关NETRICSA世界的消息.</string>
+	<string name="ui_netricsa_notes">NETRICSA笔记通知</string>
+	<string name="ui_netricsa_notes.help">通知有关NETRICSA世界的消息.</string>
+	<string name="ui_netricsa_items">NETRICSA道具通知</string>
+	<string name="ui_netricsa_items.help">通知有关NETRICSA道具的消息.</string>
+	<string name="ui_netricsa_enemies">NETRICSA敌人通知</string>
+	<string name="ui_netricsa_enemies.help">通知有关NETRICSA敌人的消息.</string>
+	<string name="g_txt">拾取信息</string>
+	<string name="g_txt.help">显示拾取道具的信息.</string>
+	<string name="menu.crumb.options.game">选项 > 游戏</string>
+	<string name="menu.game.texts">文本</string>
 	<string name="menu.game.texts.help">Toggle individual floating texts.</string>
 	<string name="g_wheel_showammo">SHOW WEAPON WHEEL AMMO</string>
 	<string name="g_wheel_showammo.help">Show ammo count on weapon wheel.</string>
@@ -695,10 +695,10 @@
 	<string name="snd_volume_ui">界面</string>
 
 	<!-- options > controls -->
-	<string name="menu.crumb.options.controls">OPTIONS > CONTROLS</string>
-	<string name="menu.controls.defaults_dialog">Reset all controls for this player to their defaults?</string>
-	<string name="menu.controls.player">PLAYER</string>
-	<string name="menu.controls.player.help">The player to change the controls for.</string>
+	<string name="menu.crumb.options.controls">选项 > 控制</string>
+	<string name="menu.controls.defaults_dialog">重置所有玩家的控制设定为默认值？</string>
+	<string name="menu.controls.player">玩家</string>
+	<string name="menu.controls.player.help">需要修改设置的玩家.</string>
 
 	<string name="menu.controls.layout">CONTROLS LAYOUT</string>
 	<string name="menu.controls.layout.help">The base control scheme to use for this player.</string>
@@ -786,11 +786,11 @@
 	<string name="menu.lobby.ready">准备</string>
 	<string name="menu.lobby.unready">取消准备</string>
 	<string name="menu.lobby.start">开始游戏</string>
-	<string name="menu.lobby.start.wait">FORCE\nSTART</string>
-	<string name="menu.lobby.switchcount">%a%/%b% Active</string>
-	<string name="menu.lobby.readycount">%a%/%b% Ready</string>
+	<string name="menu.lobby.start.wait">强制\n开始</string>
+	<string name="menu.lobby.switchcount">%a%/%b% 激活</string>
+	<string name="menu.lobby.readycount">%a%/%b% 准备</string>
 	<string name="menu.lobby.private">私人</string>
-	<string name="menu.lobby.hostoptions.changelevel">CHANGE LEVEL</string>
+	<string name="menu.lobby.hostoptions.changelevel">层数调整</string>
 	<string name="menu.lobby.abort">解散</string>
 	<string name="menu.lobby.abort.prompt">确定要解散多人游戏吗？</string>
 	<string name="menu.lobby.leave">离开</string>
@@ -801,15 +801,15 @@
 	<string name="menu.lobby.chat.isjoined">%name% 加入了游戏。</string>
 	<string name="menu.lobby.chat.isleft">%name% 离开了。</string>
 	<string name="menu.lobby.chat.iskicked">%name% 被房主踢出了游戏。</string>
-	<string name="menu.lobby.hostoptions.currentmods">%count% modifications</string>
+	<string name="menu.lobby.hostoptions.currentmods">%count% 个mod</string>
 	<string name="menu.lobby.hostoptions.setdifficulty">难度</string>
-	<string name="menu.lobby.hostoptions.setmods">SWITCHES</string>
+	<string name="menu.lobby.hostoptions.setmods">开关</string>
 
-	<string name="menu.lobby.missing">MISSING SCENARIO</string>
-	<string name="menu.lobby.chat.missing">%player% does not have "%scenario%".</string>
-	<string name="menu.lobby.chat.missing.level">%player% does not have %level% in %scenario%.</string>
-	<string name="menu.lobby.missing.level">MISSING LEVEL</string>
-	<string name="menu.lobby.chat.missing.you">You don't have "%scenario%".</string>
+	<string name="menu.lobby.missing">场景缺失</string>
+	<string name="menu.lobby.chat.missing">%player% 没有 "%scenario%".</string>
+	<string name="menu.lobby.chat.missing.level">%player% 没有%scenario%的第%level%层.</string>
+	<string name="menu.lobby.missing.level">层数缺失</string>
+	<string name="menu.lobby.chat.missing.you">你没有 "%scenario%".</string>
 
 	<string name="mainmenu.lobbyplayers.title">玩家列表</string>
 	<string name="mainmenu.lobbyplayers.title.multiple">玩家列表 (%count% 玩家)</string>
@@ -833,8 +833,8 @@
 	<string name="menu.search">搜索:</string>
 
 
-	<string name="menu.crumb.options.graphics">OPTIONS > GRAPHICS</string>
-	<string name="menu.crumb.options.sound">OPTIONS > SOUND</string>
+	<string name="menu.crumb.options.graphics">OPTIONS > 图像</string>
+	<string name="menu.crumb.options.sound">OPTIONS > 声音</string>
 	<string name="menu.unsaved_dialog">有未保存的更改,是否保存?</string>
 
 	<string name="menu.lobby.chat.minplayers">至少要%min%名玩家才能开始.</string>
@@ -848,7 +848,7 @@
 	<string name="menu.controls.layout.sc3">STEAM 手柄 3</string>
 	<string name="menu.controls.layout.sc4">STEAM 手柄 4</string>
 
-	<string name="menu.controls.scinputs.prompt">Steam Controller bindings have to be modified from the Steam client.</string>
+	<string name="menu.controls.scinputs.prompt">Steam控制器的绑定必须在Steam客户端完成.</string>
 
 
 	<string name="menu.automatic">自动</string>
@@ -873,10 +873,10 @@
 	<string name="ui_txt">浮动文字</string>
 	<string name="ui_txt.help">显示浮动文字,例如伤害数值和拾取信息.</string>
 
-	<string name="menu.crumb.options.serverlist">MULTIPLAYER > SERVER LIST</string>
-	<string name="menu.serverlist.server">SERVER</string>
-	<string name="menu.serverlist.scenario">SCENARIO</string>
-	<string name="menu.serverlist.players">PLAYERS</string>
+	<string name="menu.crumb.options.serverlist">MULTIPLAYER >服务器列表</string>
+	<string name="menu.serverlist.server">服务器</string>
+	<string name="menu.serverlist.scenario">场景</string>
+	<string name="menu.serverlist.players">玩家</string>
 
 	<string name="menu.close">选择</string>
 
@@ -889,12 +889,12 @@
 
 	<string name="menu.controls.menuchatall">聊天</string>
 
-	<string name="menu.crumb.multiplayer.hostoptions">MULTIPLAYER > HOST > SERVER OPTIONS</string>
+	<string name="menu.crumb.multiplayer.hostoptions">多人游戏 > 服务器 > 服务器选项</string>
 
-	<string name="menu.lobby.serveroptions">SERVER OPTIONS</string>
-	<string name="menu.lobby.gem.activated">Gem Activated</string>
-	<string name="menu.lobby.gem.activated.perfect">Perfect Gem Activated</string>
-	<string name="menu.lobby.gem.deactivated">Gem Deactivated</string>
+	<string name="menu.lobby.serveroptions">服务器选项</string>
+	<string name="menu.lobby.gem.activated">启用的宝石</string>
+	<string name="menu.lobby.gem.activated.perfect">启用的完美宝石</string>
+	<string name="menu.lobby.gem.deactivated">禁用的宝石</string>
 
 	<string name="g_screenshake">屏幕震动</string>
 	<string name="g_screenshake.help">游戏中屏幕震动次数.</string>
@@ -903,24 +903,24 @@
 	<string name="r_draw_glow.help">显示光晕</string>
 	<string name="menu.cancel">取消</string>
 
-	<string name="menu.controls.layout.ds41">JOYSTICK 1</string>
-	<string name="menu.controls.layout.ds42">JOYSTICK 2</string>
-	<string name="menu.controls.layout.ds43">JOYSTICK 3</string>
-	<string name="menu.controls.layout.ds44">JOYSTICK 4</string>
+	<string name="menu.controls.layout.ds41">手柄摇杆 1</string>
+	<string name="menu.controls.layout.ds42">手柄摇杆 2</string>
+	<string name="menu.controls.layout.ds43">手柄摇杆 3</string>
+	<string name="menu.controls.layout.ds44">手柄摇杆 4</string>
 
 	<string name="menu.notifier.joinfailed.join">无法加入房间.</string>
 	<string name="menu.notifier.joinfailed.host">无法创建房间.</string>
 	<string name="menu.loading">加载中</string>
 
-	<string name="menu.splitscreen.newgame">NEW GAME</string>
-	<string name="menu.splitscreen.noplayers">You can't start without any players!</string>
-	<string name="menu.splitscreen.prompt">PRESS BACK TO LEAVE</string>
-	<string name="menu.splitscreen.join.kbm">PRESS DODGE FOR KEYBOARD</string>
-	<string name="menu.splitscreen.join.gp">PRESS ANY BUTTON FOR CONTROLLER</string>
-	<string name="menu.splitscreen.gameoptions">GAME OPTIONS</string>
+	<string name="menu.splitscreen.newgame">新游戏</string>
+	<string name="menu.splitscreen.noplayers">你不能在没有玩家的情况下开始游戏！</string>
+	<string name="menu.splitscreen.prompt">按返回键离开</string>
+	<string name="menu.splitscreen.join.kbm">按下键盘任意按键</string>
+	<string name="menu.splitscreen.join.gp">按下手柄任意按键</string>
+	<string name="menu.splitscreen.gameoptions">游戏选项</string>
 
-	<string name="menu.discord">Join the official Hammerwatch Discord</string>
-	<string name="menu.wiki">Visit the official Heroes of Hammerwatch wiki</string>
+	<string name="menu.discord">加入铁锤守卫的Discord官方频道/string>
+	<string name="menu.wiki">访问铁锤守卫：英雄的官方Wiki</string>
 
 
 
@@ -1074,10 +1074,10 @@
 	<string name="shop.townhall.chapel-3.desc">捐一些钱来获得一个永久的祝福.</string>
 
 	<string name="shop.townhall.fountain-1.name">一级喷泉</string>
-	<string name="shop.townhall.fountain-1.desc">Customize your run by wishing for positive and negative effects.</string>
+	<string name="shop.townhall.fountain-1.desc">通过许愿获得正面或负面效果来自定义你的游戏.</string>
 
 	<string name="shop.townhall.fountain-2.name">二级喷泉</string>
-	<string name="shop.townhall.fountain-2.desc">Unlocks more effects.</string>
+	<string name="shop.townhall.fountain-2.desc">解锁更多效果.</string>
 
 	<string name="shop.townhall.generalstore-1.name">一级商店</string>
 	<string name="shop.townhall.generalstore-1.desc">购买钥匙和装备 (3 普通).</string>
@@ -1146,16 +1146,16 @@
 	<string name="shop.townhall.tavern-3.desc">最多购买五杯酒水.增加携带酒水上限.</string>
 
 	<string name="shop.townhall.treasury-1.name">一级金库</string>
-	<string name="shop.townhall.treasury-1.desc">当金币达到15,000时税率会达到上限50%当金币达到10,000时税率会达到上限50%当金币达到10,000时税率会达到上限50%当金币达到10,000时税率会达到上限50%.</string>
+	<string name="shop.townhall.treasury-1.desc">当金币达到10,000时税率会达到上限:50%.</string>
 
 	<string name="shop.townhall.treasury-2.name">二级金库</string>
-	<string name="shop.townhall.treasury-2.desc">当金币达到20,000时税率会达到上限50%当金币达到10,000时税率会达到上限50%当金币达到10,000时税率会达到上限50%.</string>
+	<string name="shop.townhall.treasury-2.desc">当金币达到15,000时税率会达到上限:50%.</string>
 
 	<string name="shop.townhall.treasury-3.name">三级金库</string>
-	<string name="shop.townhall.treasury-3.desc">当金币达到20,000时税率会达到上限50%当金币达到10,000时税率会达到上限50%.</string>
+	<string name="shop.townhall.treasury-3.desc">当金币达到20,000时税率会达到上限:50%.</string>
 
 	<string name="shop.townhall.treasury-4.name">四级金库</string>
-	<string name="shop.townhall.treasury-4.desc">当金币达到25,000时税率会达到上限50%.</string>
+	<string name="shop.townhall.treasury-4.desc">当金币达到25,000时税率会达到上限:50%.</string>
 
 
 	<!-- apothecary -->
@@ -1394,14 +1394,14 @@
 
 
 	<!-- fountain -->
-	<string name="fountain.positive">POSITIVE</string>
-	<string name="fountain.negative">NEGATIVE</string>
-	<string name="fountain.favor">FAVOR</string>
-	<string name="fountain.acceptresult">Accept result:</string>
-	<string name="fountain.lockedin">LOCKED IN!</string>
-	<string name="fountain.favorcount">Favor %favor%</string>
-	<string name="fountain.throwninto">has been thrown into the fountain.</string>
-	<string name="fountain.requiredlevel">Required fountain level %level%</string>
+	<string name="fountain.positive">正面</string>
+	<string name="fountain.negative">负面</string>
+	<string name="fountain.favor">神恩</string>
+	<string name="fountain.acceptresult">接受结果:</string>
+	<string name="fountain.lockedin">锁定!</string>
+	<string name="fountain.favorcount">神恩 %favor%</string>
+	<string name="fountain.throwninto">被扔进了喷泉.</string>
+	<string name="fountain.requiredlevel">需要%level%级喷泉</string>
 
 	<!-- gambling -->
 	<string name="town.cardgame.goldfrom">你 %num%金币</string>
@@ -1434,10 +1434,10 @@
 	<!-- item forge -->
 	<string name="shop.forge.title">魔砧</string>
 	<string name="shop.forge.attune">调和</string>
-	<string name="shop.forge.attune.description">调和这件装备让它展现出双倍效果.</string>
+	<string name="shop.forge.attune.description">调和这件装备让它发挥出双倍效果.</string>
 	<string name="shop.forge.craft">制作</string>
 	<string name="shop.forge.craft.description">制作这件装备.</string>
-	<string name="shop.forge.found">Found: %num% / %total%</string>
+	<string name="shop.forge.found">寻获: %num% / %total%</string>
 
 
 
@@ -2348,120 +2348,120 @@
 	<!-- GOOD -->
 
 
-	<string name="fountain.effect.bigger_levels.name">Expanded Floors</string>
-	<string name="fountain.effect.bigger_levels.description">Bigger floors.</string>
+	<string name="fountain.effect.bigger_levels.name">广阔楼层</string>
+	<string name="fountain.effect.bigger_levels.description">更大的楼层.</string>
 
-	<string name="fountain.effect.glass_walks.name">Glass Walks</string>
-	<string name="fountain.effect.glass_walks.description">Enables Glass Walks.</string>
+	<string name="fountain.effect.glass_walks.name">玻璃路径</string>
+	<string name="fountain.effect.glass_walks.description">激活玻璃路径.</string>
 
-	<string name="fountain.effect.more_chest_rooms.name">Treasure Hunt</string>
-	<string name="fountain.effect.more_chest_rooms.description">Chance for additional chest rooms.</string>
+	<string name="fountain.effect.more_chest_rooms.name">宝藏狩猎</string>
+	<string name="fountain.effect.more_chest_rooms.description">有机会生成额外的宝箱房.</string>
 
-	<string name="fountain.effect.amazing_pickups.name">Exceptional Consumables</string>
-	<string name="fountain.effect.amazing_pickups.description">Health and mana pickups are 500% more effective.</string>
+	<string name="fountain.effect.amazing_pickups.name">高级食品</string>
+	<string name="fountain.effect.amazing_pickups.description">生命和魔法拾取物发挥出额外500%的效果.</string>
 
-	<string name="fountain.effect.infinite_wells.name">Unlimited Springs</string>
-	<string name="fountain.effect.infinite_wells.description">Wells have unlimited uses.</string>
+	<string name="fountain.effect.infinite_wells.name">无限泉水</string>
+	<string name="fountain.effect.infinite_wells.description">泉水的使用没有次数限制.</string>
 
-	<string name="fountain.effect.keep_all_gold.name">Offshore Account</string>
-	<string name="fountain.effect.keep_all_gold.description">Tax reduction.</string>
+	<string name="fountain.effect.keep_all_gold.name">离岸账户</string>
+	<string name="fountain.effect.keep_all_gold.description">合理避税.</string>
 
-	<string name="fountain.effect.more_shop_items.name">Abundant Shops</string>
-	<string name="fountain.effect.more_shop_items.description">Shops have 2 more items in stock.</string>
+	<string name="fountain.effect.more_shop_items.name">充盈商店</string>
+	<string name="fountain.effect.more_shop_items.description">商店的可购买物品增加2个.</string>
 
-	<string name="fountain.effect.reduced_trap_damage.name">Gentle Traps</string>
-	<string name="fountain.effect.reduced_trap_damage.description">Traps deal 50% less damage.</string>
+	<string name="fountain.effect.reduced_trap_damage.name">温和陷阱</string>
+	<string name="fountain.effect.reduced_trap_damage.description">陷阱造成的伤害降低50%.</string>
 
-	<string name="fountain.effect.better_loot.name">Quality Loot</string>
-	<string name="fountain.effect.better_loot.description"></string>
+	<string name="fountain.effect.better_loot.name">优质猎获</string>
+	<string name="fountain.effect.better_loot.description">有机会获得稀有度更高的战利品</string>
 
-	<string name="fountain.effect.no_towers.name">Toppled Towers</string>
-	<string name="fountain.effect.no_towers.description">All towers are destroyed.</string>
+	<string name="fountain.effect.no_towers.name">崩塌塔楼</string>
+	<string name="fountain.effect.no_towers.description">所有塔楼都被摧毁.</string>
 
-	<string name="fountain.effect.no_pathway_traps.name">Safe Corridors</string>
-	<string name="fountain.effect.no_pathway_traps.description">All traps in corridors are disabled.</string>
+	<string name="fountain.effect.no_pathway_traps.name">安全走廊</string>
+	<string name="fountain.effect.no_pathway_traps.description">走廊上的所有陷阱都被禁用.</string>
 
-	<string name="fountain.effect.no_spawners.name">Demolished Spawners</string>
-	<string name="fountain.effect.no_spawners.description">All spawners are destroyed.</string>
+	<string name="fountain.effect.no_spawners.name">捣毁窝点</string>
+	<string name="fountain.effect.no_spawners.description">所有生产者都被摧毁.</string>
 
-	<string name="fountain.effect.ace_key.name">Ace Key</string>
-	<string name="fountain.effect.ace_key.description">Receive 1 Ace Key.</string>
+	<string name="fountain.effect.ace_key.name">冠军钥匙</string>
+	<string name="fountain.effect.ace_key.description">得到一把冠军钥匙.</string>
 
-	<string name="fountain.effect.less_great_threat.name">Infrequent Threats</string>
-	<string name="fountain.effect.less_great_threat.description">Great threats are less frequent.</string>
+	<string name="fountain.effect.less_great_threat.name">罕有危机</string>
+	<string name="fountain.effect.less_great_threat.description">严重的危险变得更少见.</string>
 
-	<string name="fountain.effect.more_shrines.name">Mysterious Guidance</string>
-	<string name="fountain.effect.more_shrines.description">Increased chance of finding Monoliths.</string>
+	<string name="fountain.effect.more_shrines.name">神秘指引</string>
+	<string name="fountain.effect.more_shrines.description">更有机会找到石碑.</string>
 
-	<string name="fountain.effect.more_imps.name">Plentiful Gifts</string>
-	<string name="fountain.effect.more_imps.description">Increased chance of finding Imps.</string>
+	<string name="fountain.effect.more_imps.name">丰富礼物</string>
+	<string name="fountain.effect.more_imps.description">更有机会找到恶魔.</string>
 
-	<string name="fountain.effect.faster_enemies.name">Agile Adversaries</string>
-	<string name="fountain.effect.faster_enemies.description">Enemy movement speed increased by 50%.</string>
+	<string name="fountain.effect.faster_enemies.name">敏捷对手</string>
+	<string name="fountain.effect.faster_enemies.description">敌人的移动速度提高50%.</string>
 
-	<string name="fountain.effect.minibosses_everywhere.name">Enemy Overseers</string>
-	<string name="fountain.effect.minibosses_everywhere.description">Mini bosses spawn on every floor.</string>
+	<string name="fountain.effect.minibosses_everywhere.name">敌军监工</string>
+	<string name="fountain.effect.minibosses_everywhere.description">每层都会生成小BOSS.</string>
 
 
 	<!-- BAD -->
 
 
-	<string name="fountain.effect.more_enemies.name">Enemy Reinforcements</string>
-	<string name="fountain.effect.more_enemies.description">More enemies.</string>
+	<string name="fountain.effect.more_enemies.name">敌军增援</string>
+	<string name="fountain.effect.more_enemies.description">更多敌人.</string>
 
-	<string name="fountain.effect.no_prison_button.name">Lock Up</string>
-	<string name="fountain.effect.no_prison_button.description">Prison button is stuck.</string>
+	<string name="fountain.effect.no_prison_button.name">绝对锁闭</string>
+	<string name="fountain.effect.no_prison_button.description">监狱的开关被卡住了.</string>
 
-	<string name="fountain.effect.more_elites.name">Elite Reinforcements</string>
-	<string name="fountain.effect.more_elites.description">More elite enemies.</string>
+	<string name="fountain.effect.more_elites.name">精英增援</string>
+	<string name="fountain.effect.more_elites.description">更多精英敌人.</string>
 
-	<string name="fountain.effect.bad_pickups.name">Lousy Consumables</string>
-	<string name="fountain.effect.bad_pickups.description">Health and mana pickups are 50% less effective.</string>
+	<string name="fountain.effect.bad_pickups.name">垃圾食品</string>
+	<string name="fountain.effect.bad_pickups.description">生命和魔法拾取物只有50%的效果.</string>
 
-	<string name="fountain.effect.shitty_items.name">Worn Out Items</string>
-	<string name="fountain.effect.shitty_items.description">Small chance of receiving a worthless item.</string>
+	<string name="fountain.effect.shitty_items.name">破烂道具</string>
+	<string name="fountain.effect.shitty_items.description">有小几率捡到一文不值的道具.</string>
 
-	<string name="fountain.effect.random_earthquakes.name">Earthquakes</string>
-	<string name="fountain.effect.random_earthquakes.description">Random earthquakes will occur.</string>
+	<string name="fountain.effect.random_earthquakes.name">大地崩塌</string>
+	<string name="fountain.effect.random_earthquakes.description">会发生随机的地震.</string>
 
-	<string name="fountain.effect.enemy_invasion.name">Enemy Invasion</string>
+	<string name="fountain.effect.enemy_invasion.name">敌军入侵</string>
 	<string name="fountain.effect.enemy_invasion.description"></string>
 
-	<string name="fountain.effect.no_dropped_loot.name">Empty Pockets</string>
-	<string name="fountain.effect.no_dropped_loot.description">Enemies will not drop any loot.</string>
+	<string name="fountain.effect.no_dropped_loot.name">两袖清风</string>
+	<string name="fountain.effect.no_dropped_loot.description">地人不会掉落任何战利品.</string>
 
-	<string name="fountain.effect.no_secrets.name">Sealed Cracks</string>
-	<string name="fountain.effect.no_secrets.description">No secrets will spawn.</string>
+	<string name="fountain.effect.no_secrets.name">封闭裂缝</string>
+	<string name="fountain.effect.no_secrets.description">不会生成隐藏房间.</string>
 
-	<string name="fountain.effect.potion_confuse.name">Spicy Potions</string>
-	<string name="fountain.effect.potion_confuse.description">Become confused for 2.5 seconds when drinking a potion charge.</string>
+	<string name="fountain.effect.potion_confuse.name">辛辣药剂</string>
+	<string name="fountain.effect.potion_confuse.description">每次引用药剂都会混乱2.5秒.</string>
 
-	<string name="fountain.effect.container_bombs.name">Explosive Surprises</string>
-	<string name="fountain.effect.container_bombs.description">More bombs in containers.</string>
+	<string name="fountain.effect.container_bombs.name">爆炸惊喜</string>
+	<string name="fountain.effect.container_bombs.description">容器里面会有更多的炸弹.</string>
 
-	<string name="fountain.effect.no_wells.name">Dry Springs</string>
-	<string name="fountain.effect.no_wells.description">Wells are unusable.</string>
+	<string name="fountain.effect.no_wells.name">干涸泉眼</string>
+	<string name="fountain.effect.no_wells.description">泉水都不能用.</string>
 
-	<string name="fountain.effect.no_shops.name">Public Holiday</string>
-	<string name="fountain.effect.no_shops.description">No dungeon shopkeepers.</string>
+	<string name="fountain.effect.no_shops.name">公共假期</string>
+	<string name="fountain.effect.no_shops.description">没有在反派城堡里做生意的商人.</string>
 
-	<string name="fountain.effect.no_ore.name">Exhausted Ore Veins</string>
-	<string name="fountain.effect.no_ore.description">No Ore spawns.</string>
+	<string name="fountain.effect.no_ore.name">枯竭矿脉</string>
+	<string name="fountain.effect.no_ore.description">不会生成矿石.</string>
 
-	<string name="fountain.effect.more_trap_damage.name">Lethal Traps</string>
-	<string name="fountain.effect.more_trap_damage.description">Traps deal 200% more damage.</string>
+	<string name="fountain.effect.more_trap_damage.name">致命陷阱</string>
+	<string name="fountain.effect.more_trap_damage.description">陷阱额外造成200%伤害.</string>
 
-	<string name="fountain.effect.1_hp.name">Instant Death</string>
-	<string name="fountain.effect.1_hp.description">Your base health is set to 1.</string>
+	<string name="fountain.effect.1_hp.name">瞬间暴毙</string>
+	<string name="fountain.effect.1_hp.description">你的基础生命被设为1.</string>
 
-	<string name="fountain.effect.more_great_threat.name">Relentless Threats</string>
-	<string name="fountain.effect.more_great_threat.description">Great threats are more frequent.</string>
+	<string name="fountain.effect.more_great_threat.name">无情危机</string>
+	<string name="fountain.effect.more_great_threat.description">严重的威胁变得很常见.</string>
 
-	<string name="fountain.effect.more_potion_charges.name">Bigger Bottle</string>
-	<string name="fountain.effect.more_potion_charges.description">2 more potion charges.</string>
+	<string name="fountain.effect.more_potion_charges.name">大号药瓶</string>
+	<string name="fountain.effect.more_potion_charges.description">药剂充能数+2.</string>
 
-	<string name="fountain.effect.rare_item.name">Rare Reward</string>
-	<string name="fountain.effect.rare_item.description">Receive 1 random rare item.</string>
+	<string name="fountain.effect.rare_item.name">稀有奖励</string>
+	<string name="fountain.effect.rare_item.description">得到一个随机的稀有道具.</string>
 
 
 
