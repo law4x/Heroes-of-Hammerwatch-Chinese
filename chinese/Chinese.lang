@@ -2165,7 +2165,7 @@
 
 
 	<string name="item.boots-of-the-giant.name">巨人之靴</string>
-	<string name="item.boots-of-the-giant.desc">与敌人相撞时造成 %stun% 秒眩晕.\n+ %health% 生命上限.</string>
+	<string name="item.boots-of-the-giant.desc">与敌人相撞时造成 %stun% 秒眩晕.\n%health% 生命上限.</string>
 
 	<string name="item.crown-of-kings.name">国王头冠</string>
 	<string name="item.crown-of-kings.desc">+ %bonus%% 基础 生命上限 和 法力上限.</string>
