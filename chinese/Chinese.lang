@@ -2243,7 +2243,7 @@
 	<string name="item.sets.curios-collection.name">金玉满堂</string>
 	<string name="item.sets.curios-collection.desc">%stats% 生命与法力上限. %power% 普通攻击与技能伤害. %armor% 护甲与魔抗.</string>
 
-	<string name="item.sets.markhams-mastery.name">万锦秘闻</string>
+	<string name="item.sets.markhams-mastery.name">万锦奇珍</string>
 	<string name="item.sets.markhams-mastery.desc.1">装备栏每有一件物品提高%gain%护甲与魔抗.</string>
 	<string name="item.sets.markhams-mastery.desc.2">装备栏每有一件物品提高%gain%%攻击速度和技能冷却速度.</string>
 
@@ -2319,10 +2319,10 @@
 	<string name="drink.crimson-death.name">致命深红</string>
 	<string name="drink.crimson-death.desc">%pos%% 普攻和技能吸血.\n移动时损失生命.</string>
 
-	<string name="drink.hammer-time.name">地毁人亡 </string>
+	<string name="drink.hammer-time.name">以身作锤 </string>
 	<string name="drink.hammer-time.desc">%pos% 普攻伤害.\n%neg%% 护甲.</string>
 
-	<string name="drink.incendiary-demise.name">欲火焚身</string>
+	<string name="drink.incendiary-demise.name">怒火中烧</string>
 	<string name="drink.incendiary-demise.desc">普通攻击附加%pos% 点魔法伤害.\n用普通攻击造成伤害后自己灼伤.</string>
 
 	<string name="drink.the-mad-proposal.name">丧心病狂</string>
@@ -2348,7 +2348,7 @@
 	<!-- GOOD -->
 
 
-	<string name="fountain.effect.bigger_levels.name">广阔楼层</string>
+	<string name="fountain.effect.bigger_levels.name">板块扩张</string>
 	<string name="fountain.effect.bigger_levels.description">更大的楼层.</string>
 
 	<string name="fountain.effect.glass_walks.name">玻璃路径</string>
@@ -2382,13 +2382,13 @@
 	<string name="fountain.effect.no_pathway_traps.description">走廊上的所有陷阱都被禁用.</string>
 
 	<string name="fountain.effect.no_spawners.name">捣毁窝点</string>
-	<string name="fountain.effect.no_spawners.description">所有生产者都被摧毁.</string>
+	<string name="fountain.effect.no_spawners.description">所有生物巢穴都被摧毁.</string>
 
 	<string name="fountain.effect.ace_key.name">冠军钥匙</string>
-	<string name="fountain.effect.ace_key.description">得到一把冠军钥匙.</string>
+	<string name="fountain.effect.ace_key.description">得到一把红钥匙.</string>
 
-	<string name="fountain.effect.less_great_threat.name">罕有危机</string>
-	<string name="fountain.effect.less_great_threat.description">严重的危险变得更少见.</string>
+	<string name="fountain.effect.less_great_threat.name">少有危机</string>
+	<string name="fountain.effect.less_great_threat.description">严重的威胁变得更少见.</string>
 
 	<string name="fountain.effect.more_shrines.name">神秘指引</string>
 	<string name="fountain.effect.more_shrines.description">更有机会找到石碑.</string>
@@ -2399,7 +2399,7 @@
 	<string name="fountain.effect.faster_enemies.name">敏捷对手</string>
 	<string name="fountain.effect.faster_enemies.description">敌人的移动速度提高50%.</string>
 
-	<string name="fountain.effect.minibosses_everywhere.name">敌军监工</string>
+	<string name="fountain.effect.minibosses_everywhere.name">工头监工</string>
 	<string name="fountain.effect.minibosses_everywhere.description">每层都会生成小BOSS.</string>
 
 
@@ -2412,7 +2412,7 @@
 	<string name="fountain.effect.no_prison_button.name">绝对锁闭</string>
 	<string name="fountain.effect.no_prison_button.description">监狱的开关被卡住了.</string>
 
-	<string name="fountain.effect.more_elites.name">精英增援</string>
+	<string name="fountain.effect.more_elites.name">精锐增援</string>
 	<string name="fountain.effect.more_elites.description">更多精英敌人.</string>
 
 	<string name="fountain.effect.bad_pickups.name">垃圾食品</string>
@@ -2434,7 +2434,7 @@
 	<string name="fountain.effect.no_secrets.description">不会生成隐藏房间.</string>
 
 	<string name="fountain.effect.potion_confuse.name">辛辣药剂</string>
-	<string name="fountain.effect.potion_confuse.description">每次引用药剂都会混乱2.5秒.</string>
+	<string name="fountain.effect.potion_confuse.description">每次饮用药剂都会混乱2.5秒.</string>
 
 	<string name="fountain.effect.container_bombs.name">爆炸惊喜</string>
 	<string name="fountain.effect.container_bombs.description">容器里面会有更多的炸弹.</string>
@@ -2442,7 +2442,7 @@
 	<string name="fountain.effect.no_wells.name">干涸泉眼</string>
 	<string name="fountain.effect.no_wells.description">泉水都不能用.</string>
 
-	<string name="fountain.effect.no_shops.name">公共假期</string>
+	<string name="fountain.effect.no_shops.name">公休假期</string>
 	<string name="fountain.effect.no_shops.description">没有在反派城堡里做生意的商人.</string>
 
 	<string name="fountain.effect.no_ore.name">枯竭矿脉</string>
