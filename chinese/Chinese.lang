@@ -317,7 +317,7 @@
 	<string name="meta.info.ritual.b3">信奉黑暗 III章</string>
 	<string name="meta.info.ritual.b4">信奉黑暗 IV章</string>
 	<string name="meta.info.ritual.g">死亡凋零</string>
-	<string name="meta.info.ritual.g1">死亡凋零I章</string>
+	<string name="meta.info.ritual.g1">死亡凋零 I章</string>
 	<string name="meta.info.ritual.g2">死亡凋零 II章</string>
 	<string name="meta.info.ritual.g3">死亡凋零 III章</string>
 	<string name="meta.info.ritual.g4">死亡凋零 IV章</string>
@@ -2428,7 +2428,7 @@
 	<string name="fountain.effect.enemy_invasion.description"></string>
 
 	<string name="fountain.effect.no_dropped_loot.name">两袖清风</string>
-	<string name="fountain.effect.no_dropped_loot.description">地人不会掉落任何战利品.</string>
+	<string name="fountain.effect.no_dropped_loot.description">敌人不会掉落任何战利品.</string>
 
 	<string name="fountain.effect.no_secrets.name">裂缝无缝</string>
 	<string name="fountain.effect.no_secrets.description">不会生成隐藏房间.</string>
