@@ -2434,7 +2434,7 @@
 	<string name="fountain.effect.no_secrets.description">不会生成隐藏房间.</string>
 
 	<string name="fountain.effect.potion_confuse.name">辛辣药剂</string>
-	<string name="fountain.effect.potion_confuse.description">每次引用药剂都会混乱2.5秒.</string>
+	<string name="fountain.effect.potion_confuse.description">每次饮用药剂都会混乱2.5秒.</string>
 
 	<string name="fountain.effect.container_bombs.name">爆炸惊喜</string>
 	<string name="fountain.effect.container_bombs.description">容器里面会有更多的炸弹.</string>
