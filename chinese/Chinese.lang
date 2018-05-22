@@ -1838,7 +1838,7 @@
 	<string name="item.book-of-enlightenment.name">启蒙书</string>
 	<string name="item.book-of-enlightenment.desc">+ %exp%% 经验获取.</string>
 
-	<string name="item.boots-of-speed.name">速度鞋</string>
+	<string name="item.boots-of-speed.name">速度之靴</string>
 	<string name="item.boots-of-speed.desc">+ %mspeed% 移动速度.</string>
 
 	<string name="item.broad-sword.name">阔剑</string>
@@ -1847,7 +1847,7 @@
 	<string name="item.cape-of-withdrawal.name">撤退披肩</string>
 	<string name="item.cape-of-withdrawal.desc">被敌人击中时提升 %mspeed%% 移动速度，持续 %dur% 秒.</string>
 
-	<string name="item.circlet-of-willpower.name">毅力戒指</string>
+	<string name="item.circlet-of-willpower.name">坚毅之戒</string>
 	<string name="item.circlet-of-willpower.desc">当生命值低于 %health%% 时，降低 %scost%% 施法消耗.</string>
 
 	<string name="item.chainmail.name">锁子甲</string>
@@ -1883,13 +1883,13 @@
 	<string name="item.heavy-gauntlets.name">重铁手套</string>
 	<string name="item.heavy-gauntlets.desc">+ %health% 生命上限.</string>
 
-	<string name="item.lesser-sphere-of-life.name">小生命宝珠</string>
+	<string name="item.lesser-sphere-of-life.name">小型生命宝珠</string>
 	<string name="item.lesser-sphere-of-life.desc">连杀期间 + %hregen% 生命回复率.</string>
 
-	<string name="item.lesser-sphere-of-mana.name">小魔法宝珠</string>
+	<string name="item.lesser-sphere-of-mana.name">小型魔法宝珠</string>
 	<string name="item.lesser-sphere-of-mana.desc">连杀期间 + %mregen% 法力回复率.</string>
 
-	<string name="item.lesser-sphere-of-nova.name">小新星宝珠</string>
+	<string name="item.lesser-sphere-of-nova.name">小型新星宝珠</string>
 	<string name="item.lesser-sphere-of-nova.desc">连杀期间，向四周释放新星爆发冲击波，每秒一次，造成 %dmg% 魔法伤害.</string>
 
 	<string name="item.life-stone.name">生命之石</string>
@@ -1898,7 +1898,7 @@
 	<string name="item.mail-of-thorns.name">荆棘盔甲</string>
 	<string name="item.mail-of-thorns.desc">受到攻击时反弹 %return% 物理伤害.</string>
 
-	<string name="item.mage-robe.name">法袍</string>
+	<string name="item.mage-robe.name">法师长袍</string>
 	<string name="item.mage-robe.desc">+ %mana% 法力上限.</string>
 
 	<string name="item.mana-stone.name">魔法之石</string>
@@ -1946,13 +1946,13 @@
 	<string name="item.spell-book.name">符咒书</string>
 	<string name="item.spell-book.desc">+ %spell% 技能伤害.</string>
 
-	<string name="item.spiked-flail.name">链锤</string>
+	<string name="item.spiked-flail.name">钉刺链锤</string>
 	<string name="item.spiked-flail.desc">+ %dmg% 普攻附加物理伤害.</string>
 
 	<string name="item.steady-greaves.name">稳固胫甲</string>
 	<string name="item.steady-greaves.desc">+ %armor% 护甲\n+ %health% 生命上限.</string>
 
-	<string name="item.stiletto.name">匕首</string>
+	<string name="item.stiletto.name">刺客匕首</string>
 	<string name="item.stiletto.desc">物理伤害无视敌人 %pierce%% 护甲.</string>
 
 	<string name="item.sturdy-belt.name">坚固皮带</string>
@@ -1973,7 +1973,7 @@
 	<string name="item.adventurers-garb.name">冒险家服饰</string>
 	<string name="item.adventurers-garb.desc">+ %health% 生命上限\n+ %mana% 法力上限.</string>
 
-	<string name="item.apothecarys-mortar-pestle.name">药剂师的研钵和杵</string>
+	<string name="item.apothecarys-mortar-pestle.name">药剂师的钵杵</string>
 	<string name="item.apothecarys-mortar-pestle.desc">饮用药剂后，护甲和魔法抗性提升 %eff%%，持续 5 秒 .</string>
 
 	<string name="item.apothecarys-satchel.name">药剂师的背包</string>
@@ -2007,7 +2007,7 @@
 	<string name="item.fancy-plume.desc">商店将有更多的待售商品.</string>
 
 	<string name="item.frying-pan.name">绝地神锅</string>
-	<string name="item.frying-pan.desc"> 格挡背后 %arc% 度角内的远程攻击.</string>
+	<string name="item.frying-pan.desc">格挡背后 %arc% 度角内的远程攻击.</string>
 
 	<string name="item.full-plate-mail.name">全身铠甲</string>
 	<string name="item.full-plate-mail.desc">+ %armor% 护甲.</string>
@@ -2112,16 +2112,16 @@
 	<string name="item.earthsplitter.name">裂地者</string>
 	<string name="item.earthsplitter.desc">普通攻击击中敌人时，有 %chance%% 几率释放地裂，造成 %dmg% 物理伤害.</string>
 
-	<string name="item.flametongue.name">火焰之舌</string>
+	<string name="item.flametongue.name">火舌</string>
 	<string name="item.flametongue.desc">+ %dmg% 普攻附加魔法伤害.\n灼烧攻击到的敌人.</string>
 
 	<string name="item.frostbrand.name">霜印</string>
 	<string name="item.frostbrand.desc">+ %dmg% 普攻附加魔法伤害. \n冻结攻击到的敌人.</string>
 
-	<string name="item.greater-sphere-of-nova.name">大新星宝珠</string>
+	<string name="item.greater-sphere-of-nova.name">大型新星宝珠</string>
 	<string name="item.greater-sphere-of-nova.desc">连杀期间，向四周释放更强大的新星爆发冲击波，每秒一次，造成 %dmg% 魔法伤害.</string>
 
-	<string name="item.greater-sphere-of-regen.name">大生命宝珠</string>
+	<string name="item.greater-sphere-of-regen.name">大型生命宝珠</string>
 	<string name="item.greater-sphere-of-regen.desc">连杀期间 + %hregen% 生命回复， + %mregen% 法力回复.</string>
 
 	<string name="item.heartseeker.name">觅心者</string>
@@ -2197,7 +2197,7 @@
 	<!-- SETS -->
 
 
-	<string name="item.sets.fire-and-ice.name">冰与火</string>
+	<string name="item.sets.fire-and-ice.name">寒冰烈火</string>
 	<string name="item.sets.fire-and-ice.desc">+ %dmg% 普攻附加魔法伤害</string>
 
 	<string name="item.sets.stones-of-midas.name">迈达斯之石</string>
@@ -2209,36 +2209,36 @@
 	<string name="item.sets.monster-encyclopedia.name">怪物图鉴</string>
 	<string name="item.sets.monster-encyclopedia.desc">+ %dmg%% 伤害</string>
 
-	<string name="item.sets.kings-regalia.name">国王套装</string>
+	<string name="item.sets.kings-regalia.name">王者华服</string>
 	<string name="item.sets.kings-regalia.desc">+ %speed%% 攻击速度 和 技能冷却速度 </string>
 
 	<string name="item.sets.apothecarys-implements.name">药剂师工具</string>
 	<string name="item.sets.apothecarys-implements.desc.1">+1 药剂使用次数</string>
 	<string name="item.sets.apothecarys-implements.desc.2">击杀敌人后有 %chance%% 几率补充药剂</string>
 
-	<string name="item.sets.journeymans-outfit.name">旅行者套装</string>
+	<string name="item.sets.journeymans-outfit.name">旅行装备</string>
 	<string name="item.sets.journeymans-outfit.desc.1">+ %armor% 护甲</string>
 	<string name="item.sets.journeymans-outfit.desc.2">+ %attack% 普攻伤害</string>
 	<string name="item.sets.journeymans-outfit.desc.3">受到的伤害降低 %reduction%% </string>
 
-	<string name="item.sets.disciples-arcana.name">学者的奥秘</string>
+	<string name="item.sets.disciples-arcana.name">信徒之秘</string>
 	<string name="item.sets.disciples-arcana.desc.1">+ %res% 魔法抗性</string>
 	<string name="item.sets.disciples-arcana.desc.2">+ %skill% 技能强度</string>
 	<string name="item.sets.disciples-arcana.desc.3">施法消耗降低 %cost%% </string>
 
 	<string name="item.sets.spheres-of-power.name">魔力宝珠</string>
-	<string name="item.sets.spheres-of-power.desc.1">小连杀新星</string>
-	<string name="item.sets.spheres-of-power.desc.2">连杀新星</string>
-	<string name="item.sets.spheres-of-power.desc.3">大连杀新星</string>
+	<string name="item.sets.spheres-of-power.desc.1">1级连杀新星</string>
+	<string name="item.sets.spheres-of-power.desc.2">2级连杀新星</string>
+	<string name="item.sets.spheres-of-power.desc.3">3级连杀新星</string>
 
-	<string name="item.sets.tricksters-ensemble.name">魔术师诡计</string>
+	<string name="item.sets.tricksters-ensemble.name">幻灵协律</string>
 	<string name="item.sets.tricksters-ensemble.desc.1">闪避时获得移动速度加成</string>
 	<string name="item.sets.tricksters-ensemble.desc.2">+ %chance%% 闪避</string>
 	<string name="item.sets.tricksters-ensemble.desc.3">闪避时触发连击效果</string>
 
-	<string name="item.sets.magic-missile.name">巫师套装</string>
-	<string name="item.sets.magic-missile.desc.1">使用技能时放出一个魔法飞弹.</string>
-	<string name="item.sets.magic-missile.desc.2">使用技能时放出%num%个魔法飞弹.</string>
+	<string name="item.sets.magic-missile.name">巫师入门套件</string>
+	<string name="item.sets.magic-missile.desc.1">使用技能时放出 1 个魔法飞弹.</string>
+	<string name="item.sets.magic-missile.desc.2">使用技能时放出 %num% 个魔法飞弹.</string>
 
 	<string name="item.sets.curios-collection.name">金玉满堂</string>
 	<string name="item.sets.curios-collection.desc">%stats% 生命与法力上限.\n%power% 普通攻击与技能伤害. \n%armor% 护甲 与 魔抗.</string>
@@ -2303,12 +2303,12 @@
 	<string name="drink.elemental-bruiser.desc">%pos%% 技能加成.\n%neg%% 技能消耗法力.</string>
 
 	<string name="drink.miners-delight.name">矿工挚爱</string>
-	<string name="drink.miners-delight.desc">%pos%% 矿石获取速率率.\n%neg%% 金币获取速率.</string>
+	<string name="drink.miners-delight.desc">%pos%% 矿石获取效率.\n%neg%% 金币获取效率.</string>
 
 	<string name="drink.last-stand.name">背水一战</string>
 	<string name="drink.last-stand.desc">+%pos%% 造成的伤害，原地不动时收到的伤害-50% .\n%neg%% 移动速度.</string>
 
-	<string name="drink.the-last-sin.name">恶名昭著</string>
+	<string name="drink.the-last-sin.name">罪不容诛</string>
 	<string name="drink.the-last-sin.desc">%pos%% 技能暴击伤害\n%neg% 法力回复率.</string>
 
 
@@ -2319,7 +2319,7 @@
 	<string name="drink.crimson-death.name">致命深红</string>
 	<string name="drink.crimson-death.desc">%pos%% 普攻和技能吸血.\n移动时损失生命.</string>
 
-	<string name="drink.hammer-time.name">以身作锤 </string>
+	<string name="drink.hammer-time.name">以身作锤</string>
 	<string name="drink.hammer-time.desc">%pos% 普攻伤害.\n%neg%% 护甲.</string>
 
 	<string name="drink.incendiary-demise.name">怒火中烧</string>
