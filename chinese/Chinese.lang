@@ -2055,7 +2055,7 @@
 	<string name="item.seal-of-the-martyr.desc">每损失 1% 生命就增加 1% 普攻伤害.</string>
 
 	<string name="item.shaftlocke-pickaxe.name">矿井之镐</string>
-	<string name="item.shaftlocke-pickaxe.desc">+ %chance%% 矿石拾取效率.</string>
+	<string name="item.shaftlocke-pickaxe.desc">%chance%% 矿石拾取效率.</string>
 
 	<string name="item.spiked-boots.name">针刺铁靴</string>
 	<string name="item.spiked-boots.desc">触碰敌人时对其造成 %dmg% 点物理伤害.</string>
