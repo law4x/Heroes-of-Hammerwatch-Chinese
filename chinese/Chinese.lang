@@ -2443,7 +2443,7 @@
 	<string name="fountain.effect.no_wells.description">泉水都不能使用.</string>
 
 	<string name="fountain.effect.no_shops.name">公休假日</string>
-	<string name="fountain.effect.no_shops.description">没有商店.</string>
+	<string name="fountain.effect.no_shops.description">关卡内没有商店.</string>
 
 	<string name="fountain.effect.no_ore.name">枯竭矿脉</string>
 	<string name="fountain.effect.no_ore.description">不会生成矿石.</string>
