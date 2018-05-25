@@ -2348,7 +2348,7 @@
 	<!-- GOOD -->
 
 
-	<string name="fountain.effect.bigger_levels.name">广阔楼层</string>
+	<string name="fountain.effect.bigger_levels.name">板块扩张</string>
 	<string name="fountain.effect.bigger_levels.description">每层楼的地图都变大.</string>
 
 	<string name="fountain.effect.glass_walks.name">玻璃路径</string>
@@ -2357,26 +2357,26 @@
 	<string name="fountain.effect.more_chest_rooms.name">宝藏狩猎</string>
 	<string name="fountain.effect.more_chest_rooms.description">有机会生成额外的宝箱房.</string>
 
-	<string name="fountain.effect.amazing_pickups.name">高级食品</string>
+	<string name="fountain.effect.amazing_pickups.name">山珍海味</string>
 	<string name="fountain.effect.amazing_pickups.description">生命和魔法拾取物发挥出额外500%的效果.</string>
 
-	<string name="fountain.effect.infinite_wells.name">无限泉水</string>
+	<string name="fountain.effect.infinite_wells.name">不竭之泉</string>
 	<string name="fountain.effect.infinite_wells.description">泉水的使用没有次数限制.</string>
 
 	<string name="fountain.effect.keep_all_gold.name">离岸账户</string>
 	<string name="fountain.effect.keep_all_gold.description">合理避税.</string>
 
-	<string name="fountain.effect.more_shop_items.name">充盈商店</string>
+	<string name="fountain.effect.more_shop_items.name">品目繁多</string>
 	<string name="fountain.effect.more_shop_items.description">商店的待售物品增加 2 个.</string>
 
-	<string name="fountain.effect.reduced_trap_damage.name">温和陷阱</string>
+	<string name="fountain.effect.reduced_trap_damage.name">温柔陷阱</string>
 	<string name="fountain.effect.reduced_trap_damage.description">陷阱造成的伤害降低50%.</string>
 
 	<string name="fountain.effect.better_loot.name">优质猎获</string>
 	<string name="fountain.effect.better_loot.description">有机会获得稀有度更高的战利品</string>
 
 	<string name="fountain.effect.no_towers.name">崩塌塔楼</string>
-	<string name="fountain.effect.no_towers.description">所有塔楼都被摧毁.</string>
+	<string name="fountain.effect.no_towers.description">所有塔楼类建筑都被摧毁.</string>
 
 	<string name="fountain.effect.no_pathway_traps.name">安全走廊</string>
 	<string name="fountain.effect.no_pathway_traps.description">走廊上的所有陷阱都被禁用.</string>
@@ -2385,18 +2385,18 @@
 	<string name="fountain.effect.no_spawners.description">所有生物巢穴都被摧毁.</string>
 
 	<string name="fountain.effect.ace_key.name">冠军钥匙</string>
-	<string name="fountain.effect.ace_key.description">得到一把红钥匙.</string>
+	<string name="fountain.effect.ace_key.description">得到一把Ace钥匙.</string>
 
-	<string name="fountain.effect.less_great_threat.name">少有危机</string>
-	<string name="fountain.effect.less_great_threat.description">严重的威胁变得更少见.</string>
+	<string name="fountain.effect.less_great_threat.name">罕有危机</string>
+	<string name="fountain.effect.less_great_threat.description">关卡时间限制惩罚变得很少见.</string>
 
 	<string name="fountain.effect.more_shrines.name">神秘指引</string>
-	<string name="fountain.effect.more_shrines.description">更有机会找到石碑.</string>
+	<string name="fountain.effect.more_shrines.description">生成更多的石碑.</string>
 
-	<string name="fountain.effect.more_imps.name">大量礼物</string>
-	<string name="fountain.effect.more_imps.description">更有机会找到恶魔.</string>
+	<string name="fountain.effect.more_imps.name">宾客如云</string>
+	<string name="fountain.effect.more_imps.description">送礼物的小恶魔变得更常见.</string>
 
-	<string name="fountain.effect.faster_enemies.name">敏捷对手</string>
+	<string name="fountain.effect.faster_enemies.name">机敏之敌</string>
 	<string name="fountain.effect.faster_enemies.description">敌人的移动速度提高50%.</string>
 
 	<string name="fountain.effect.minibosses_everywhere.name">工头监工</string>
@@ -2406,7 +2406,7 @@
 	<!-- BAD -->
 
 
-	<string name="fountain.effect.more_enemies.name">敌军增援</string>
+	<string name="fountain.effect.more_enemies.name">超生大队</string>
 	<string name="fountain.effect.more_enemies.description">更多敌人.</string>
 
 	<string name="fountain.effect.no_prison_button.name">钥匙被锁</string>
@@ -2415,22 +2415,22 @@
 	<string name="fountain.effect.more_elites.name">精锐增援</string>
 	<string name="fountain.effect.more_elites.description">更多精英敌人.</string>
 
-	<string name="fountain.effect.bad_pickups.name">垃圾食品</string>
+	<string name="fountain.effect.bad_pickups.name">餐风饮露</string>
 	<string name="fountain.effect.bad_pickups.description">生命和魔法拾取物只有50%的效果.</string>
 
-	<string name="fountain.effect.shitty_items.name">破烂道具</string>
+	<string name="fountain.effect.shitty_items.name">废铜烂铁</string>
 	<string name="fountain.effect.shitty_items.description">有小几率捡到一文不值的道具.</string>
 
-	<string name="fountain.effect.random_earthquakes.name">大地崩塌</string>
+	<string name="fountain.effect.random_earthquakes.name">山崩地裂</string>
 	<string name="fountain.effect.random_earthquakes.description">会发生随机的地震.</string>
 
 	<string name="fountain.effect.enemy_invasion.name">敌军入侵</string>
 	<string name="fountain.effect.enemy_invasion.description"></string>
 
-	<string name="fountain.effect.no_dropped_loot.name">两袖清风</string>
+	<string name="fountain.effect.no_dropped_loot.name">一文不名</string>
 	<string name="fountain.effect.no_dropped_loot.description">敌人不会掉落任何战利品.</string>
 
-	<string name="fountain.effect.no_secrets.name">裂缝无缝</string>
+	<string name="fountain.effect.no_secrets.name">严丝合缝</string>
 	<string name="fountain.effect.no_secrets.description">不会生成隐藏房间.</string>
 
 	<string name="fountain.effect.potion_confuse.name">辛辣药剂</string>
@@ -2440,10 +2440,10 @@
 	<string name="fountain.effect.container_bombs.description">容器里面会有更多的炸弹.</string>
 
 	<string name="fountain.effect.no_wells.name">干涸泉眼</string>
-	<string name="fountain.effect.no_wells.description">泉水都不能用.</string>
+	<string name="fountain.effect.no_wells.description">泉水都不能使用.</string>
 
-	<string name="fountain.effect.no_shops.name">公休假期</string>
-	<string name="fountain.effect.no_shops.description">没有在反派城堡里做生意的商人.</string>
+	<string name="fountain.effect.no_shops.name">公休假日</string>
+	<string name="fountain.effect.no_shops.description">没有商店.</string>
 
 	<string name="fountain.effect.no_ore.name">枯竭矿脉</string>
 	<string name="fountain.effect.no_ore.description">不会生成矿石.</string>
@@ -2455,7 +2455,7 @@
 	<string name="fountain.effect.1_hp.description">你的基础生命被设为1.</string>
 
 	<string name="fountain.effect.more_great_threat.name">无情危机</string>
-	<string name="fountain.effect.more_great_threat.description">严重的威胁变得很常见.</string>
+	<string name="fountain.effect.more_great_threat.description">关卡时间限制惩罚变得很频繁.</string>
 
 	<string name="fountain.effect.more_potion_charges.name">大号药瓶</string>
 	<string name="fountain.effect.more_potion_charges.description">药剂充能数+2.</string>
