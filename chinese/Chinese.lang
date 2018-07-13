@@ -39,8 +39,10 @@
 	<string name="playermenu.character.resources">金钱</string>
 	<string name="playermenu.character.keys">钥匙</string>
 	<string name="playermenu.character.items">装备</string>
+	<string name="playermenu.character.items.tooltip">%count% items</string>
 	<string name="playermenu.character.potionskills">药剂 / 技能</string>
 	<string name="playermenu.character.base">基础: %value%</string>
+	<string name="playermenu.character.base.capped">Base: %value% (Level: %level%)</string>
 
 	<string name="playermenu.tooltip.exp">经验</string>
 	<string name="playermenu.tooltip.exp.total">总经验值:</string>
@@ -227,6 +229,7 @@
 	<string name="stats.drinks-consumed">消耗的酒水</string>
 	<string name="stats.drinks-found">找到的酒水</string>
 	<string name="stats.blueprints-found">找到的蓝图</string>
+	<string name="stats.dyes-found">Dyes found</string>
 
 
 
@@ -239,12 +242,14 @@
 	<string name="misc.primaryskill">\c7f7f7f普通攻击\d</string>
 	<string name="misc.activeskill">\c7f7f7f主动技能\d</string>
 	<string name="misc.passiveskill">\c7f7f7f被动技能\d</string>
+	<string name="misc.ngp">(NG+%ngp%)</string>
 
 	<string name="misc.elevator.question">你想运送 %ore% 矿石和 %gold% 金币回到镇上吗 (手续费%tax%%)</string>
 	<string name="misc.elevator.gold">金币</string>
 	<string name="misc.elevator.ore">矿石</string>
 	<string name="misc.store.gold">运送 %num%金币回镇</string>
 	<string name="misc.soulslinked">灵魂链接</string>
+	<string name="misc.soulsunlinked">SOULS UNLINKED</string>
 
 	<string name="item.key">钥匙</string>
 	<string name="item.key.plural">%num% 钥匙</string>
@@ -257,6 +262,12 @@
 	<string name="item.diamond.red-small">钻石</string>
 	<string name="item.diamond.gold">钻石</string>
 	<string name="item.diamond.gold-small">钻石</string>
+
+	<string name="quality.common">Common</string>
+	<string name="quality.uncommon">Uncommon</string>
+	<string name="quality.rare">Rare</string>
+	<string name="quality.epic">Epic</string>
+	<string name="quality.legendary">Legendary</string>
 
 	<!-- intro -->
 	<string name="intro.title">远望镇</string>
@@ -444,6 +455,8 @@
 	<string name="ui_draw_plr_names_real.help">在多人模式中显示玩家真实的名字而不是英雄名字.</string>
 	<string name="ui_txt_enemy_hurt_husk">造成伤害数字</string>
 	<string name="ui_txt_enemy_hurt_husk.help">选择是否显示其他玩家造成的伤害数字</string>
+	<string name="ui_txt_enemy_hurt_local">LOCAL DAMAGE NUMBERS</string>
+	<string name="ui_txt_enemy_hurt_local.help">Whether to show damage done to enemies by you.</string>
 
 	<string name="ui_minimap_size">小地图</string>
 	<string name="ui_minimap_size.help">在屏幕右上角显示小地图.</string>
@@ -527,6 +540,8 @@
 	<string name="mainmenu.host.maxlevel">英雄等级上限</string>
 	<string name="mainmenu.host.minlevel">英雄等级下限</string>
 	<string name="mainmenu.host.ngp">游戏周目NG+</string>
+	<string name="mainmenu.host.downscaling">Downscaling</string>
+	<string name="mainmenu.host.downscaling.description">Scales class title bonuses and hero level stats down to the current NG+.</string>
 	<string name="mainmenu.serverlist.title">服务器列表</string>
 	<string name="mainmenu.serverlist.level-restriction.both">英雄等级要求: %min% - %max%</string>
 	<string name="mainmenu.serverlist.level-restriction.min">最低英雄等级: %min%</string>
@@ -549,6 +564,10 @@
 	<string name="mainmenu.character.colors.title">颜色</string>
 	<string name="mainmenu.character.delete.text">真的要删除 '%name%'吗?</string>
 	<string name="menu.restart.tooltip">返回城镇. 这将视为死亡!</string>
+	<string name="mainmenu.character.customize.title">CHARACTER CUSTOMIZATION</string>
+	<string name="mainmenu.character.customize.finish">Modify appearance for %cost% gold?</string>
+	<string name="mainmenu.character.free">Your first makeover is on the house!</string>
+	<string name="mainmenu.character.create.next">NEXT</string>
 
 
 	<!-- options > controls -->
@@ -782,6 +801,7 @@
 	<string name="menu.lobby.title.joining">房间</string>
 
 	<string name="menu.lobby.chat.revive">%reviver% 复活了 %revivee%. 他们的灵魂现在被连接在一起.</string>
+	<string name="menu.lobby.chat.soulsunlinked">All souls are now unlinked.</string>
 
 	<string name="menu.lobby.ready">准备</string>
 	<string name="menu.lobby.unready">取消准备</string>
@@ -1011,6 +1031,7 @@
 	<string name="shop.trainer">BBBBBBBBBBBBBBBBBB</string>
 	<string name="shop.treasury">DDDDDDDDDDDDDDDD</string>
 	<string name="shop.oretrader">矿石商人 奥利弗</string>
+	<string name="shop.tailor">THE TAILOR</string>
 
 	<string name="town.building.townhall">市政厅</string>
 	<string name="town.building.guildhall">公会大厅</string>
@@ -1292,9 +1313,8 @@
 
 
 	<!-- chapel -->
-	<string name="shop.chapel.convert">更改信仰 - %cost%</string>
-	<string name="shop.chapel.convert.prompt">你想支付%cost%金币改变信仰吗?</string>
-	<string name="shop.chapel.convertdisabled">更改</string>
+	<string name="shop.chapel.convert">CONVERT</string>
+	<string name="shop.chapel.convert.prompt">Are you sure you want to convert?\n(All blessings will be reset)</string>
 
 	<string name="shop.chapel.path.attack.name">战斗之道</string>
 	<string name="shop.chapel.path.attack.desc">普攻伤害增加 %attack%%.</string>
@@ -2306,7 +2326,7 @@
 	<string name="drink.miners-delight.desc">%pos%% 矿石获取速率率.\n%neg%% 金币获取速率.</string>
 
 	<string name="drink.last-stand.name">背水一战</string>
-	<string name="drink.last-stand.desc">+%pos%% 造成的伤害，原地不动时收到的伤害-50% .\n%neg%% 移动速度.</string>
+	<string name="drink.last-stand.desc">+%pos%% 造成的伤害，原地不动时收到的伤害%neg%% .\n%mov%% 移动速度.</string>
 
 	<string name="drink.the-last-sin.name">恶名昭著</string>
 	<string name="drink.the-last-sin.desc">%pos%% 技能暴击伤害\n%neg% 法力回复率.</string>
@@ -2396,11 +2416,11 @@
 	<string name="fountain.effect.more_imps.name">大量礼物</string>
 	<string name="fountain.effect.more_imps.description">更有机会找到恶魔.</string>
 
-	<string name="fountain.effect.faster_enemies.name">敏捷对手</string>
-	<string name="fountain.effect.faster_enemies.description">敌人的移动速度提高50%.</string>
+	<string name="fountain.effect.more_potion_charges.name">Bigger Bottle</string>
+	<string name="fountain.effect.more_potion_charges.description">2 more potion charges.</string>
 
-	<string name="fountain.effect.minibosses_everywhere.name">工头监工</string>
-	<string name="fountain.effect.minibosses_everywhere.description">每层都会生成小BOSS.</string>
+	<string name="fountain.effect.rare_item.name">Rare Reward</string>
+	<string name="fountain.effect.rare_item.description">Receive 1 random rare item.</string>
 
 
 	<!-- BAD -->
@@ -2457,11 +2477,14 @@
 	<string name="fountain.effect.more_great_threat.name">无情危机</string>
 	<string name="fountain.effect.more_great_threat.description">严重的威胁变得很常见.</string>
 
-	<string name="fountain.effect.more_potion_charges.name">大号药瓶</string>
-	<string name="fountain.effect.more_potion_charges.description">药剂充能数+2.</string>
+	<string name="fountain.effect.faster_enemies.name">Agile Adversaries</string>
+	<string name="fountain.effect.faster_enemies.description">Enemy movement speed increased by 50%.</string>
 
-	<string name="fountain.effect.rare_item.name">稀有奖励</string>
-	<string name="fountain.effect.rare_item.description">得到一个随机的稀有道具.</string>
+	<string name="fountain.effect.minibosses_everywhere.name">Enemy Overseers</string>
+	<string name="fountain.effect.minibosses_everywhere.description">Mini bosses spawn on every floor.</string>
+
+	<string name="fountain.effect.no_class_titles.name">One Man Guild</string>
+	<string name="fountain.effect.no_class_titles.description">You gain no bonuses from class titles.</string>
 
 
 
@@ -3034,6 +3057,103 @@
 
 	<string name="accomplishment.items-attuned.name">调和者 %lvl%</string>
 	<string name="accomplishment.items-attuned.desc">调和 %requirement% 件装备.</string>
+
+
+
+	<!-- Tailor -->
+
+
+	<!-- materials -->
+	<string name="materials.skin">Skin</string>
+	<string name="materials.hair">Hair</string>
+	<string name="materials.cloth">Cloth</string>
+	<string name="materials.metal">Metal</string>
+	<string name="materials.leather">Leather</string>
+	<string name="materials.wood">Wood</string>
+
+	<!-- paladin -->
+	<string name="materials.paladin.category.1">Breastplate</string>
+	<string name="materials.paladin.category.2">Adornments</string>
+	<string name="materials.paladin.category.3">Shield</string>
+	<string name="materials.paladin.category.4">Helmet</string>
+
+	<!-- priest -->
+	<string name="materials.priest.category.1">Robe</string>
+	<string name="materials.priest.category.2">Cape</string>
+	<string name="materials.priest.category.3">Mitra</string>
+	<string name="materials.priest.category.4">Cane</string>
+
+	<!-- ranger -->
+	<string name="materials.ranger.category.1">Hood</string>
+	<string name="materials.ranger.category.2">Cloak</string>
+	<string name="materials.ranger.category.3">Pauldrons</string>
+	<string name="materials.ranger.category.4">Bow</string>
+
+	<!-- sorcerer -->
+	<string name="materials.sorcerer.category.1">Hat</string>
+	<string name="materials.sorcerer.category.2">Robe</string>
+	<string name="materials.sorcerer.category.3">Trim</string>
+
+	<!-- thief -->
+	<string name="materials.thief.category.1">Mask</string>
+	<string name="materials.thief.category.2">Tunic</string>
+	<string name="materials.thief.category.3">Pauldrons</string>
+	<string name="materials.thief.category.4">Boots</string>
+
+	<!-- warlock -->
+	<string name="materials.warlock.category.1">Helmet</string>
+	<string name="materials.warlock.category.2">Robe</string>
+	<string name="materials.warlock.category.3">Staff</string>
+
+	<!-- wizard -->
+	<string name="materials.wizard.category.1">Robe</string>
+	<string name="materials.wizard.category.2">Trim</string>
+	<string name="materials.wizard.category.3">Staff</string>
+
+	<!-- colors -->
+	<string name="materials.color.skin.shade.1">Shade 1</string>
+	<string name="materials.color.skin.shade.2">Shade 2</string>
+	<string name="materials.color.skin.shade.3">Shade 3</string>
+	<string name="materials.color.skin.shade.4">Shade 4</string>
+	<string name="materials.color.blonde">Blonde</string>
+	<string name="materials.color.brown">Brown</string>
+	<string name="materials.color.black">Black</string>
+	<string name="materials.color.gray">Gray</string>
+	<string name="materials.color.dark_gray">Dark Gray</string>
+	<string name="materials.color.red">Red</string>
+	<string name="materials.color.green">Green</string>
+	<string name="materials.color.blue">Blue</string>
+	<string name="materials.color.pink">Pink</string>
+	<string name="materials.color.teal">Teal</string>
+	<string name="materials.color.white">White</string>
+	<string name="materials.color.violet">Violet</string>
+	<string name="materials.color.gold">Gold</string>
+	<string name="materials.color.light_blue">Light Blue</string>
+	<string name="materials.color.dark_blue">Dark Blue</string>
+	<string name="materials.color.rust">Rust</string>
+	<string name="materials.color.light_brown">Light Brown</string>
+	<string name="materials.color.dark_brown">Dark Brown</string>
+	<string name="materials.color.tan">Tan</string>
+	<string name="materials.color.ash">Ash</string>
+	<string name="materials.color.moss">Moss</string>
+	<string name="materials.color.aqua">Aqua</string>
+	<string name="materials.color.forest">Forest</string>
+	<string name="materials.color.scarlet">Scarlet</string>
+	<string name="materials.color.lime">Lime</string>
+	<string name="materials.color.orange">Orange</string>
+	<string name="materials.color.jade">Jade</string>
+	<string name="materials.color.lilac">Lilac</string>
+	<string name="materials.color.iridescent">Iridescent</string>
+	<string name="materials.color.garnet">Garnet</string>
+	<string name="materials.color.lavender">Lavender</string>
+	<string name="materials.color.magma">Magma</string>
+	<string name="materials.color.patina">Patina</string>
+	<string name="materials.color.molten">Molten</string>
+	<string name="materials.color.amber">Amber</string>
+	<string name="materials.color.gilded">Gilded</string>
+	<string name="materials.color.malachite">Malachite</string>
+	<string name="materials.color.hearth">Hearth</string>
+	<string name="materials.color.purple">Purple</string>
 
 
 
