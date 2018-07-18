@@ -2416,11 +2416,11 @@
 	<string name="fountain.effect.more_imps.name">大量礼物</string>
 	<string name="fountain.effect.more_imps.description">更有机会找到恶魔.</string>
 
-	<string name="fountain.effect.more_potion_charges.name">Bigger Bottle</string>
-	<string name="fountain.effect.more_potion_charges.description">2 more potion charges.</string>
+	<string name="fountain.effect.faster_enemies.name">机敏之敌</string>
+	<string name="fountain.effect.faster_enemies.description">敌人的移动速度提高50%.</string>
 
-	<string name="fountain.effect.rare_item.name">Rare Reward</string>
-	<string name="fountain.effect.rare_item.description">Receive 1 random rare item.</string>
+	<string name="fountain.effect.minibosses_everywhere.name">Enemy Overseers</string>
+	<string name="fountain.effect.minibosses_everywhere.description">Mini bosses spawn on every floor.</string>
 
 
 	<!-- BAD -->
