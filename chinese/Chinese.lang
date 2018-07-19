@@ -1313,8 +1313,8 @@
 
 
 	<!-- chapel -->
-	<string name="shop.chapel.convert">CONVERT</string>
-	<string name="shop.chapel.convert.prompt">Are you sure you want to convert?\n(All blessings will be reset)</string>
+	<string name="shop.chapel.convert">改换门庭</string>
+	<string name="shop.chapel.convert.prompt">你确定要更换信仰吗?\n(所有祝福将被重置)</string>
 
 	<string name="shop.chapel.path.attack.name">战斗之道</string>
 	<string name="shop.chapel.path.attack.desc">普攻伤害增加 %attack%%.</string>
@@ -1540,11 +1540,11 @@
 
 	<string name="skills.priest.divine-protection">神圣屏障</string>
 	<string name="skills.priest.divine-protection.create">牧师自身被一个护盾保护,以消耗法力来吸收伤害.</string>
-	<string name="skills.priest.divine-protection.1">护盾会吸收30%的伤害.每点被吸收的伤害消耗4点法力.</string>
-	<string name="skills.priest.divine-protection.2">护盾会吸收35%的伤害.每点被吸收的伤害消耗2点法力.</string>
-	<string name="skills.priest.divine-protection.3">护盾会吸收40%的伤害.每点被吸收的伤害消耗1点法力.</string>
-	<string name="skills.priest.divine-protection.4">护盾会吸收45%的伤害.每点被吸收的伤害消耗0.75点法力.</string>
-	<string name="skills.priest.divine-protection.5">护盾会吸收50%的伤害.每点被吸收的伤害消耗0.5点法力.</string>
+	<string name="skills.priest.divine-protection.1">牧师自身被一个护盾保护,护盾会吸收30%的伤害.每点被吸收的伤害消耗4点法力.</string>
+	<string name="skills.priest.divine-protection.2">牧师自身被一个护盾保护,护盾会吸收35%的伤害.每点被吸收的伤害消耗2点法力.</string>
+	<string name="skills.priest.divine-protection.3">牧师自身被一个护盾保护,护盾会吸收40%的伤害.每点被吸收的伤害消耗1点法力.</string>
+	<string name="skills.priest.divine-protection.4">牧师自身被一个护盾保护,护盾会吸收45%的伤害.每点被吸收的伤害消耗0.75点法力.</string>
+	<string name="skills.priest.divine-protection.5">牧师自身被一个护盾保护,护盾会吸收50%的伤害.每点被吸收的伤害消耗0.5点法力.</string>
 
 	<string name="skills.priest.remedy">治疗术</string>
 	<string name="skills.priest.remedy.create">牧师获得额外的生命回复，无论进食还是治疗.</string>
@@ -1555,10 +1555,10 @@
 
 	<string name="skills.priest.consecrated-ground">神圣领域</string>
 	<string name="skills.priest.consecrated-ground.create">牧师祝福一块区域,对范围内的敌人造成伤害,对范围内的队友回复伤害量25%的生命.</string>
-	<string name="skills.priest.consecrated-ground.1">祝福持续5秒.范围内的敌人每秒受到16点魔法伤害,对范围内的队友回复伤害量25%的生命.</string>
-	<string name="skills.priest.consecrated-ground.2">祝福持续5.5秒.范围内的敌人每秒受到24点魔法伤害,对范围内的队友回复伤害量25%的生命.</string>
-	<string name="skills.priest.consecrated-ground.3">祝福持续6秒.范围内的敌人每秒受到32点魔法伤害,对范围内的队友回复伤害量25%的生命.</string>
-	<string name="skills.priest.consecrated-ground.4">祝福持续6.5秒.范围内的敌人每秒受到40点魔法伤害,对范围内的队友回复伤害量25%的生命.</string>
+	<string name="skills.priest.consecrated-ground.1">牧师祝福一块区域,祝福持续5秒.范围内的敌人每秒受到16点魔法伤害,对范围内的队友回复伤害量25%的生命.</string>
+	<string name="skills.priest.consecrated-ground.2">牧师祝福一块区域,祝福持续5.5秒.范围内的敌人每秒受到24点魔法伤害,对范围内的队友回复伤害量25%的生命.</string>
+	<string name="skills.priest.consecrated-ground.3">牧师祝福一块区域,祝福持续6秒.范围内的敌人每秒受到32点魔法伤害,对范围内的队友回复伤害量25%的生命.</string>
+	<string name="skills.priest.consecrated-ground.4">牧师祝福一块区域,祝福持续6.5秒.范围内的敌人每秒受到40点魔法伤害,对范围内的队友回复伤害量25%的生命.</string>
 
 	<string name="skills.priest.aura-of-purification">净化光环</string>
 	<string name="skills.priest.aura-of-purification.create">牧师开启一个光环,削弱周围的敌人，并保护自己的队友.</string>
@@ -1637,12 +1637,12 @@
 
 	<string name="skills.sorcerer.comet">极寒彗星</string>
 	<string name="skills.sorcerer.comet.create">召唤一个彗星对巫师的前方造成冲击,对敌人造成伤害并冻结.极寒彗星的伤害由范围内所有敌人平摊.</string>
-	<string name="skills.sorcerer.comet.1">彗星对冲击范围内造成共40点混合伤害,并冻结所有敌人1秒.</string>
-	<string name="skills.sorcerer.comet.2">彗星对冲击范围内造成共80点混合伤害,并冻结所有敌人1.25秒.</string>
-	<string name="skills.sorcerer.comet.3">彗星对冲击范围内造成共120点混合伤害,并冻结所有敌人1.5秒.</string>
-	<string name="skills.sorcerer.comet.4">彗星对冲击范围内造成共160点混合伤害,并冻结所有敌人1.75秒.</string>
-	<string name="skills.sorcerer.comet.5">彗星对冲击范围内造成共200点混合伤害,并冻结所有敌人2秒.</string>
-	<string name="skills.sorcerer.comet.6">彗星对冲击范围内造成共240点混合伤害,并冻结所有敌人2.25秒.</string>
+	<string name="skills.sorcerer.comet.1">召唤一个彗星对巫师的前方造成冲击,彗星对冲击范围内造成共40点混合伤害,并冻结所有敌人1秒.</string>
+	<string name="skills.sorcerer.comet.2">召唤一个彗星对巫师的前方造成冲击,彗星对冲击范围内造成共80点混合伤害,并冻结所有敌人1.25秒.</string>
+	<string name="skills.sorcerer.comet.3">召唤一个彗星对巫师的前方造成冲击,彗星对冲击范围内造成共120点混合伤害,并冻结所有敌人1.5秒.</string>
+	<string name="skills.sorcerer.comet.4">召唤一个彗星对巫师的前方造成冲击,彗星对冲击范围内造成共160点混合伤害,并冻结所有敌人1.75秒.</string>
+	<string name="skills.sorcerer.comet.5">召唤一个彗星对巫师的前方造成冲击,彗星对冲击范围内造成共200点混合伤害,并冻结所有敌人2秒.</string>
+	<string name="skills.sorcerer.comet.6">召唤一个彗星对巫师的前方造成冲击,彗星对冲击范围内造成共240点混合伤害,并冻结所有敌人2.25秒.</string>
 
 	<string name="skills.sorcerer.biting-chill">噬骨之寒</string>
 	<string name="skills.sorcerer.biting-chill.create">巫师的所有技能都会使敌人减速,并有几率冻结敌人几秒.</string>
@@ -1654,10 +1654,10 @@
 
 	<string name="skills.sorcerer.ice-barrier">寒冰护体</string>
 	<string name="skills.sorcerer.ice-barrier.create">每次施法后，巫师都会召唤一层冰甲结附己身，以降低受到的下一次伤害.</string>
-	<string name="skills.sorcerer.ice-barrier.1">冰甲存续2.5秒，每层冰甲生效1次，降低20%受到的伤害，冰甲最多叠加5层.</string>
-	<string name="skills.sorcerer.ice-barrier.2">冰甲存续2.5秒，每层冰甲生效1次，降低30%受到的伤害，冰甲最多叠加6层.</string>
-	<string name="skills.sorcerer.ice-barrier.3">冰甲存续2.5秒，每层冰甲生效1次，降低40%受到的伤害，冰甲最多叠加7层.</string>
-	<string name="skills.sorcerer.ice-barrier.4">冰甲存续2.5秒，每层冰甲生效1次，降低50%受到的伤害，冰甲最多叠加8层.</string>
+	<string name="skills.sorcerer.ice-barrier.1">每次施法后，巫师都会召唤一层冰甲结附己身，以降低受到的下一次伤害.冰甲存续2.5秒，每层冰甲生效1次，降低20%受到的伤害，冰甲最多叠加5层.</string>
+	<string name="skills.sorcerer.ice-barrier.2">每次施法后，巫师都会召唤一层冰甲结附己身，以降低受到的下一次伤害.冰甲存续2.5秒，每层冰甲生效1次，降低30%受到的伤害，冰甲最多叠加6层.</string>
+	<string name="skills.sorcerer.ice-barrier.3">每次施法后，巫师都会召唤一层冰甲结附己身，以降低受到的下一次伤害.冰甲存续2.5秒，每层冰甲生效1次，降低40%受到的伤害，冰甲最多叠加7层.</string>
+	<string name="skills.sorcerer.ice-barrier.4">每次施法后，巫师都会召唤一层冰甲结附己身，以降低受到的下一次伤害.冰甲存续2.5秒，每层冰甲生效1次，降低50%受到的伤害，冰甲最多叠加8层.</string>
 
 	<string name="skills.sorcerer.frost-nova">冰霜新星</string>
 	<string name="skills.sorcerer.frost-nova.create">巫师向周围发射出一些冰球碎片.</string>
@@ -1668,15 +1668,15 @@
 
 	<string name="skills.sorcerer.orb-of-winter">寒冬宝珠</string>
 	<string name="skills.sorcerer.orb-of-winter.create">创造一个缓慢定向移动的冰球,冰球会向周边不断发射大量小型碎冰.</string>
-	<string name="skills.sorcerer.orb-of-winter.1">冰球持续3.5秒,向周围放出碎冰,每片造成12点混合伤害.</string>
-	<string name="skills.sorcerer.orb-of-winter.2">冰球持续5秒,向周围放出碎冰,每片造成16点混合伤害.</string>
-	<string name="skills.sorcerer.orb-of-winter.3">冰球持续6.5秒,向周围放出碎冰,每片造成20点混合伤害.</string>
+	<string name="skills.sorcerer.orb-of-winter.1">创造一个缓慢定向移动的冰球,冰球会向周边不断发射大量小型碎冰.冰球持续3.5秒,向周围放出碎冰,每片造成12点混合伤害.</string>
+	<string name="skills.sorcerer.orb-of-winter.2">创造一个缓慢定向移动的冰球,冰球会向周边不断发射大量小型碎冰.冰球持续5秒,向周围放出碎冰,每片造成16点混合伤害.</string>
+	<string name="skills.sorcerer.orb-of-winter.3">创造一个缓慢定向移动的冰球,冰球会向周边不断发射大量小型碎冰.冰球持续6.5秒,向周围放出碎冰,每片造成20点混合伤害.</string>
 
 
 	<string name="skills.sorcerer.shatter">粉碎</string>
-	<string name="skills.sorcerer.shatter.create">巫师每杀死1个被冻结的敌人，都会使其爆炸，造成范围伤害</string>
-	<string name="skills.sorcerer.shatter.1">爆炸造成40点伤害.</string>
-	<string name="skills.sorcerer.shatter.2">爆炸造成40点伤害.</string>
+	<string name="skills.sorcerer.shatter.create">巫师每杀死1个被冻结的敌人，都会使其爆炸，造成范围伤害.</string>
+	<string name="skills.sorcerer.shatter.1">巫师每杀死1个被冻结的敌人，都会使其爆炸，造成范围伤害.爆炸造成40点伤害.</string>
+	<string name="skills.sorcerer.shatter.2">巫师每杀死1个被冻结的敌人，都会使其爆炸，造成范围伤害.爆炸造成40点伤害.</string>
 
 
 	<!-- Thief -->
@@ -1708,23 +1708,23 @@
 
 	<string name="skills.thief.slice-and-dice">轮舞</string>
 	<string name="skills.thief.slice-and-dice.create">每次使用双刃击中敌人,盗贼都会获得短暂的攻速加成.每次获得层数都将刷新持续时间.</string>
-	<string name="skills.thief.slice-and-dice.1">每次攻击都会获得2%攻速加成,最高叠加8层,状态存续2.5秒.</string>
-	<string name="skills.thief.slice-and-dice.2">每次攻击都会获得2%攻速加成,最高叠加16层,状态存续2.5秒.</string>
-	<string name="skills.thief.slice-and-dice.3">每次攻击都会获得2%攻速加成,最高叠加24层,状态存续2.5秒.</string>
-	<string name="skills.thief.slice-and-dice.4">每次攻击都会获得2%攻速加成,最高叠加32层,状态存续2.5秒.</string>
+	<string name="skills.thief.slice-and-dice.1">每次攻击都会获得2%攻速加成,最高叠加8层,状态存续2.5秒.每次获得层数都将刷新持续时间.</string>
+	<string name="skills.thief.slice-and-dice.2">每次攻击都会获得2%攻速加成,最高叠加16层,状态存续2.5秒.每次获得层数都将刷新持续时间.</string>
+	<string name="skills.thief.slice-and-dice.3">每次攻击都会获得2%攻速加成,最高叠加24层,状态存续2.5秒.每次获得层数都将刷新持续时间.</string>
+	<string name="skills.thief.slice-and-dice.4">每次攻击都会获得2%攻速加成,最高叠加32层,状态存续2.5秒.每次获得层数都将刷新持续时间.</string>
 
 	<string name="skills.thief.grappling-hook">发射钩爪</string>
 	<string name="skills.thief.grappling-hook.create">盗贼向前发射一个钩爪并向勾住的地方移动,眩晕路途中所有的敌人.盗贼在进行勾爪位移期间获得100%的闪避.</string>
-	<string name="skills.thief.grappling-hook.1">发射一个钩爪,盗贼会向抓住的地方前进并使路途中的敌人眩晕0.5秒.</string>
-	<string name="skills.thief.grappling-hook.2">发射一个钩爪,盗贼会向抓住的地方前进并使路途中的敌人眩晕0.75秒.增加钩爪射程.</string>
-	<string name="skills.thief.grappling-hook.3">发射一个钩爪,盗贼会向抓住的地方前进并使路途中的敌人眩晕1秒.增加钩爪射程.</string>
-	<string name="skills.thief.grappling-hook.4">发射一个钩爪,盗贼会向抓住的地方前进并使路途中的敌人眩晕1.25秒.增加钩爪射程.</string>
+	<string name="skills.thief.grappling-hook.1">发射一个钩爪,盗贼会向抓住的地方前进并使路途中的敌人眩晕0.5秒.盗贼在进行勾爪位移期间获得100%的闪避.</string>
+	<string name="skills.thief.grappling-hook.2">发射一个钩爪,盗贼会向抓住的地方前进并使路途中的敌人眩晕0.75秒.盗贼在进行勾爪位移期间获得100%的闪避.增加钩爪射程.</string>
+	<string name="skills.thief.grappling-hook.3">发射一个钩爪,盗贼会向抓住的地方前进并使路途中的敌人眩晕1秒.盗贼在进行勾爪位移期间获得100%的闪避.增加钩爪射程.</string>
+	<string name="skills.thief.grappling-hook.4">发射一个钩爪,盗贼会向抓住的地方前进并使路途中的敌人眩晕1.25秒.盗贼在进行勾爪位移期间获得100%的闪避.增加钩爪射程.</string>
 
 	<string name="skills.thief.smoke-bomb">烟幕弹</string>
 	<string name="skills.thief.smoke-bomb.create">盗贼扔出一个烟幕弹,使范围内所有敌人眩晕,并掩护队友.</string>
-	<string name="skills.thief.smoke-bomb.1">烟幕弹可以使周围的敌人眩晕2秒，友军获得10%闪避.</string>
-	<string name="skills.thief.smoke-bomb.2">烟幕弹可以使周围的敌人眩晕3秒，友军获得20%闪避.范围更大</string>
-	<string name="skills.thief.smoke-bomb.3">烟幕弹可以使周围的敌人眩晕4秒，友军获得30%闪避.范围更大.</string>
+	<string name="skills.thief.smoke-bomb.1">盗贼扔出一个烟幕弹,烟幕弹可以使周围的敌人眩晕2秒，友军获得10%闪避.</string>
+	<string name="skills.thief.smoke-bomb.2">盗贼扔出一个烟幕弹,烟幕弹可以使周围的敌人眩晕3秒，友军获得20%闪避.范围更大</string>
+	<string name="skills.thief.smoke-bomb.3">盗贼扔出一个烟幕弹,烟幕弹可以使周围的敌人眩晕4秒，友军获得30%闪避.范围更大.</string>
 
 	<string name="skills.thief.vicious-cuts">烈毒狂戮</string>
 	<string name="skills.thief.vicious-cuts.create">每次独立的双刃攻击都有几率使目标失去一定百分比的当前生命.</string>
