@@ -540,8 +540,8 @@
 	<string name="mainmenu.host.maxlevel">英雄等级上限</string>
 	<string name="mainmenu.host.minlevel">英雄等级下限</string>
 	<string name="mainmenu.host.ngp">游戏周目NG+</string>
-	<string name="mainmenu.host.downscaling">Downscaling</string>
-	<string name="mainmenu.host.downscaling.description">Scales class title bonuses and hero level stats down to the current NG+.</string>
+	<string name="mainmenu.host.downscaling">削弱平衡</string>
+	<string name="mainmenu.host.downscaling.description">调整最大称号等级加成，使其与当前难度等级平衡.</string>
 	<string name="mainmenu.serverlist.title">服务器列表</string>
 	<string name="mainmenu.serverlist.level-restriction.both">英雄等级要求: %min% - %max%</string>
 	<string name="mainmenu.serverlist.level-restriction.min">最低英雄等级: %min%</string>
@@ -564,10 +564,10 @@
 	<string name="mainmenu.character.colors.title">颜色</string>
 	<string name="mainmenu.character.delete.text">真的要删除 '%name%'吗?</string>
 	<string name="menu.restart.tooltip">返回城镇. 这将视为死亡!</string>
-	<string name="mainmenu.character.customize.title">CHARACTER CUSTOMIZATION</string>
-	<string name="mainmenu.character.customize.finish">Modify appearance for %cost% gold?</string>
-	<string name="mainmenu.character.free">Your first makeover is on the house!</string>
-	<string name="mainmenu.character.create.next">NEXT</string>
+	<string name="mainmenu.character.customize.title">自定义角色</string>
+	<string name="mainmenu.character.customize.finish">花费 %cost% 自定义你的角色?</string>
+	<string name="mainmenu.character.free">你的第一件装扮已经在家里了!</string>
+	<string name="mainmenu.character.create.next">继续</string>
 
 
 	<!-- options > controls -->
