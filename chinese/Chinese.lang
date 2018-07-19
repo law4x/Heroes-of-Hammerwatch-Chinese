@@ -26,7 +26,7 @@
 	<string name="class.thief.desc">难以捉摸的高机动近战刺客.</string>
 	<string name="class.thief.disabled.desc">盗贼未解锁.</string>
 	<string name="class.warlock">术士</string>
-	<string name="class.warlock.desc">近距离魔法使用者,可以通过击杀补充生命值和魔法值.</string>
+	<string name="class.warlock.desc">近距离魔法使用者,可以吸取灵魂补充生命值和魔法值.</string>
 	<string name="class.warlock.disabled.desc">--</string>
 	<string name="class.wizard">法师</string>
 	<string name="class.wizard.desc">魔法伤害极高但很脆弱的施法者.</string>
@@ -155,7 +155,7 @@
 	<string name="stats.items-picked-common">找到普通装备</string>
 	<string name="stats.items-picked-uncommon">找到罕见装备</string>
 	<string name="stats.items-picked-rare">找到稀有装备</string>
-	<string name="stats.items-picked-epic">史诗 items found</string>
+	<string name="stats.items-picked-epic">找到史诗装备</string>
 	<string name="stats.items-picked-legendary">找到传奇装备</string>
 	<string name="stats.items-crafted">制作装备</string>
 	<string name="stats.items-attuned">调和装备</string>
@@ -229,7 +229,7 @@
 	<string name="stats.drinks-consumed">消耗的酒水</string>
 	<string name="stats.drinks-found">找到的酒水</string>
 	<string name="stats.blueprints-found">找到的蓝图</string>
-	<string name="stats.dyes-found">Dyes found</string>
+	<string name="stats.dyes-found">找到的染料</string>
 
 
 
@@ -263,11 +263,11 @@
 	<string name="item.diamond.gold">钻石</string>
 	<string name="item.diamond.gold-small">钻石</string>
 
-	<string name="quality.common">Common</string>
-	<string name="quality.uncommon">Uncommon</string>
-	<string name="quality.rare">Rare</string>
-	<string name="quality.epic">Epic</string>
-	<string name="quality.legendary">Legendary</string>
+	<string name="quality.common">普通</string>
+	<string name="quality.uncommon">罕见</string>
+	<string name="quality.rare">稀有</string>
+	<string name="quality.epic">史诗</string>
+	<string name="quality.legendary">传说</string>
 
 	<!-- intro -->
 	<string name="intro.title">远望镇</string>
@@ -371,11 +371,11 @@
 	<string name="random_buff.more_mp_regen">神庙赐予你 %amount% 法力回复率.</string>
 	<string name="random_buff.more_damage">神庙赐予你 %amount%% 普攻伤害.</string>
 
-	<string name="temp_buff.armor">神庙赐予了你守护之力！</string>
-	<string name="temp_buff.experience">神庙赐予了你洞察万物之力！</string>
+	<string name="temp_buff.armor">神庙赐予了你守护自身的强健！</string>
+	<string name="temp_buff.experience">神庙赐予了你洞察万物的智慧！</string>
 	<string name="temp_buff.damage">神庙赐予了你无人能挡的力量！</string>
-	<string name="temp_buff.heal">神庙赐予了你旺盛的自愈之力！</string>
-	<string name="temp_buff.mana">神庙赐予了你释放内在潜能的力量！</string>
+	<string name="temp_buff.heal">神庙赐予了你丰沛蓬勃的生命！</string>
+	<string name="temp_buff.mana">神庙赐予了你用之不尽的能量！</string>
 
 
 
@@ -541,7 +541,7 @@
 	<string name="mainmenu.host.minlevel">英雄等级下限</string>
 	<string name="mainmenu.host.ngp">游戏周目NG+</string>
 	<string name="mainmenu.host.downscaling">削弱平衡</string>
-	<string name="mainmenu.host.downscaling.description">调整最大称号等级加成，使其与当前难度等级平衡.</string>
+	<string name="mainmenu.host.downscaling.description">限制最高称号等级加成，使其与当前难度等级平衡.</string>
 	<string name="mainmenu.serverlist.title">服务器列表</string>
 	<string name="mainmenu.serverlist.level-restriction.both">英雄等级要求: %min% - %max%</string>
 	<string name="mainmenu.serverlist.level-restriction.min">最低英雄等级: %min%</string>
@@ -801,7 +801,7 @@
 	<string name="menu.lobby.title.joining">房间</string>
 
 	<string name="menu.lobby.chat.revive">%reviver% 复活了 %revivee%. 他们的灵魂现在被连接在一起.</string>
-	<string name="menu.lobby.chat.soulsunlinked">All souls are now unlinked.</string>
+	<string name="menu.lobby.chat.soulsunlinked">所有的灵魂链接都已解除.</string>
 
 	<string name="menu.lobby.ready">准备</string>
 	<string name="menu.lobby.unready">取消准备</string>
@@ -939,8 +939,8 @@
 	<string name="menu.splitscreen.join.gp">按下手柄任意按键</string>
 	<string name="menu.splitscreen.gameoptions">游戏选项</string>
 
-	<string name="menu.discord">加入铁锤守卫的Discord官方频道/string>
-	<string name="menu.wiki">访问铁锤守卫：英雄的官方Wiki</string>
+	<string name="menu.discord">加入铁锤守卫的\nDiscord官方频道/string>
+	<string name="menu.wiki">访问铁锤守卫：英雄的\n官方Wiki</string>
 
 
 
@@ -1513,10 +1513,10 @@
 	<string name="skills.paladin.whirlwind.2">持续施法.对周围的敌人造成伤害，每次造成40点物理伤害.旋转持续4秒.</string>
 	<string name="skills.paladin.whirlwind.3">持续施法.对周围的敌人造成伤害，每次造成50点物理伤害.旋转持续5秒.</string>
 
-	<string name="skills.paladin.juggernaut">奉献之火</string>
-	<string name="skills.paladin.juggernaut.create">每次使用剑击伤害敌人，圣骑士的所有技能都将得到魔法伤害加成.</string>
-	<string name="skills.paladin.juggernaut.1">每次使用剑击伤害敌人，圣骑士的所有技能都将得到魔法伤害加成.每次触发提供1点伤害加成，最高可以叠加12层，每层持续1秒.</string>
-	<string name="skills.paladin.juggernaut.2">每次使用剑击伤害敌人，圣骑士的所有技能都将得到魔法伤害加成.每次触发提供1点伤害加成，最高可以叠加24层，每层持续1秒.</string>
+	<string name="skills.paladin.flames-of-devotion">奉献之火</string>
+	<string name="skills.paladin.flames-of-devotion.create">每次使用剑击伤害敌人，圣骑士的所有技能都将得到魔法伤害加成.</string>
+	<string name="skills.paladin.flames-of-devotion.1">每次使用剑击伤害敌人，圣骑士的所有技能都将得到魔法伤害加成.每次触发提供1点伤害加成，最高可以叠加12层，每层持续1秒.</string>
+	<string name="skills.paladin.flames-of-devotion.2">每次使用剑击伤害敌人，圣骑士的所有技能都将得到魔法伤害加成.每次触发提供1点伤害加成，最高可以叠加24层，每层持续1秒.</string>
 
 
 	<!-- Priest -->
@@ -1676,7 +1676,7 @@
 	<string name="skills.sorcerer.shatter">粉碎</string>
 	<string name="skills.sorcerer.shatter.create">巫师每杀死1个被冻结的敌人，都会使其爆炸，造成范围伤害.</string>
 	<string name="skills.sorcerer.shatter.1">巫师每杀死1个被冻结的敌人，都会使其爆炸，造成范围伤害.爆炸造成40点伤害.</string>
-	<string name="skills.sorcerer.shatter.2">巫师每杀死1个被冻结的敌人，都会使其爆炸，造成范围伤害.爆炸造成40点伤害.</string>
+	<string name="skills.sorcerer.shatter.2">巫师每杀死1个被冻结的敌人，都会使其爆炸，造成范围伤害.爆炸造成80点伤害.</string>
 
 
 	<!-- Thief -->
@@ -1821,10 +1821,10 @@
 
 	<string name="skills.wizard.blast-wave">烈焰波</string>
 	<string name="skills.wizard.blast-wave.create">火焰法师向周围释放爆炸性的冲击波,造成伤害并迷惑敌人.烈焰波还会摧毁大部分投射物.</string>
-	<string name="skills.wizard.blast-wave.1">烈焰波造成6点魔法伤害,迷惑并减速敌人30%,持续2.5秒.烈焰波还会摧毁大部分投射物.</string>
-	<string name="skills.wizard.blast-wave.2">烈焰波造成12点魔法伤害,迷惑并减速敌人40%,持续3秒.烈焰波还会摧毁大部分投射物.</string>
-	<string name="skills.wizard.blast-wave.3">烈焰波造成20点魔法伤害,迷惑并减速敌人50%,持续3.5秒.烈焰波还会摧毁大部分投射物.</string>
-	<string name="skills.wizard.blast-wave.4">烈焰波造成30点魔法伤害,迷惑并减速敌人60%,持续4秒.烈焰波还会摧毁大部分投射物.</string>
+	<string name="skills.wizard.blast-wave.1">火焰法师向周围释放爆炸性的烈焰波造成6点魔法伤害,迷惑并减速敌人30%,持续2.5秒.烈焰波还会摧毁大部分投射物.</string>
+	<string name="skills.wizard.blast-wave.2">火焰法师向周围释放爆炸性的烈焰波造成12点魔法伤害,迷惑并减速敌人40%,持续3秒.烈焰波还会摧毁大部分投射物.</string>
+	<string name="skills.wizard.blast-wave.3">火焰法师向周围释放爆炸性的烈焰波造成20点魔法伤害,迷惑并减速敌人50%,持续3.5秒.烈焰波还会摧毁大部分投射物.</string>
+	<string name="skills.wizard.blast-wave.4">火焰法师向周围释放爆炸性的烈焰波造成30点魔法伤害,迷惑并减速敌人60%,持续4秒.烈焰波还会摧毁大部分投射物.</string>
 
 	<string name="skills.wizard.meteor-shower">流星火雨</string>
 	<string name="skills.wizard.meteor-shower.create">火焰法师召唤一阵陨石雨,造成大量混合伤害.</string>
@@ -1834,8 +1834,8 @@
 
 	<string name="skills.wizard.scorched-earth">焦土</string>
 	<string name="skills.wizard.scorched-earth.create">每当火焰法师释放技能时,都会在地面上留下一块焦土,对敌人造成魔法伤害.</string>
-	<string name="skills.wizard.scorched-earth.1">焦土范围内的敌人每秒受到8点魔法伤害.</string>
-	<string name="skills.wizard.scorched-earth.2">焦土范围内的敌人每秒受到16点魔法伤害,持续时间翻倍.</string>
+	<string name="skills.wizard.scorched-earth.1">每当火焰法师释放技能时,都会在地面上留下一块焦土,对敌人造成魔法伤害.焦土范围内的敌人每秒受到8点魔法伤害.</string>
+	<string name="skills.wizard.scorched-earth.2">每当火焰法师释放技能时,都会在地面上留下一块焦土,对敌人造成魔法伤害.焦土范围内的敌人每秒受到16点魔法伤害,持续时间翻倍.</string>
 
 
 
