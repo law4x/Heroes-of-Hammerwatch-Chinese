@@ -2407,6 +2407,9 @@
 
 	<string name="fountain.effect.ace_key.name">冠军钥匙</string>
 	<string name="fountain.effect.ace_key.description">得到一把Ace钥匙.</string>
+	
+	<string name="fountain.effect.more_potion_charges.name">大肚能容</string>
+	<string name="fountain.effect.more_potion_charges.description">+2 药剂充能数.</string>
 
 	<string name="fountain.effect.less_great_threat.name">罕有危机</string>
 	<string name="fountain.effect.less_great_threat.description">关卡时间限制惩罚变得很少见.</string>
