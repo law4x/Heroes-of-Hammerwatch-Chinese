@@ -3026,7 +3026,7 @@
 	<string name="accomplishment.elevator-used.name">派件员 %lvl%</string>
 	<string name="accomplishment.elevator-used.desc">使用电梯 %requirement%次.</string>
 
-	<string name="accomplishment.fountain-used.name">硬币投掷者 %lvl%</string>
+	<string name="accomplishment.fountain-used.name">撒币人 %lvl%</string>
 	<string name="accomplishment.fountain-used.desc">使用喷泉 %requirement%次.</string>
 
 	<string name="accomplishment.well-used.name">补充剂 %lvl%</string>
@@ -3046,6 +3046,9 @@
 
 	<string name="accomplishment.gambling-gold-won.name">豪客 %lvl%</string>
 	<string name="accomplishment.gambling-gold-won.desc">赌博赢取 %requirement%金币.</string>
+	
+	<string name="accomplishment.drinks-consumed.name">淬灭者 %lvl%</string>
+	<string name="accomplishment.drinks-consumed.desc">在酒馆消费 %requirement% 瓶酒水.</string>
 
 	<string name="accomplishment.floors-visited.name">探险 %lvl%</string>
 	<string name="accomplishment.floors-visited.desc">到达 %requirement% 新楼层.</string>
