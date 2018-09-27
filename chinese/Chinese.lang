@@ -65,8 +65,8 @@
 	<string name="playermenu.character.attackpower.description">提高%value%%普攻伤害.</string>
 	<string name="playermenu.character.spellpower">技能加成</string>
 	<string name="playermenu.character.spellpower.description">提高%value%%技能伤害.</string>
-	<string name="playermenu.character.attackdamage">攻击附加物理伤害</string>
-	<string name="playermenu.character.spelldamage">攻击附加魔法伤害</string>
+	<string name="playermenu.character.physicaladd">Physical Add: +%amount%</string>
+	<string name="playermenu.character.magicaladd">Magical Add: +%amount%</string>
 	<string name="playermenu.character.movespeed">移动速度</string>
 	<string name="playermenu.character.goldgain">金币获取速率</string>
 	<string name="playermenu.character.oregain">矿石获取率</string>
@@ -78,6 +78,7 @@
 	<string name="playermenu.character.spellchances">技能暴击概率</string>
 	<string name="playermenu.character.lifesteal">吸血</string>
 	<string name="playermenu.character.lifesteal.description">普通攻击: %value%%\n%lists%\n\n技能: %value-spell%%\n%lists-spell%</string>
+	<string name="playermenu.dead">%player% is dead.</string>
 
 	<!-- acts -->
 	<string name="world.town">远望镇</string>
@@ -89,8 +90,9 @@
 	<string name="world.acts.2">军械库</string>
 	<string name="world.acts.3">档案馆</string>
 	<string name="world.acts.4">内庭</string>
-	<string name="world.acts.5">顶楼</string>
-
+	<string name="world.acts.5">BATTLEMENTS</string>
+	<string name="world.acts.6">BRIDGE</string>
+	<string name="world.acts.7">顶楼</string>
 
 	<!-- game over -->
 	<string name="gameover.youdied">你死了</string>
@@ -197,6 +199,7 @@
 	<string name="stats.boss-3-killed">杀死三大巫妖</string>
 	<string name="stats.boss-4-killed">杀死监察者</string>
 	<string name="stats.boss-5-killed">杀死雷电冰龙</string>
+	<string name="stats.boss-6-killed">Vampire Lord killed</string>
 	<string name="stats.aberration-killed">击杀变异生物</string>
 	<string name="stats.beast-killed">击杀野兽</string>
 	<string name="stats.construct-killed">破坏建筑物</string>
@@ -230,8 +233,6 @@
 	<string name="stats.drinks-found">找到的酒水</string>
 	<string name="stats.blueprints-found">找到的蓝图</string>
 	<string name="stats.dyes-found">找到的染料</string>
-
-
 
 	<!-- misc -->
 	<string name="misc.dmg.crit1">%dmg%!</string>
@@ -314,8 +315,9 @@
 	<string name="meta.info.twomore">还有2个…</string>
 	<string name="meta.info.onemore">还有1个…</string>
 	<string name="meta.info.passage">一个秘密通道已经打开…</string>
-        <string name="meta.info.exitrevealed">出口被打开了!</string>
+    <string name="meta.info.exitrevealed">出口被打开了!</string>
 	<string name="meta.info.threatspawned">召唤了大量的怪物!</string>
+	<string name="meta.info.impspawned">An unexpected gift is waiting for you!</string>
 	<string name="meta.info.gatherparty">在冒险之前,你必须召集你的队友.</string>
 	<string name="meta.info.ritual.gather">在开始仪式之前,你必须召集你的队友.</string>
 	<string name="meta.info.ritual.start">…并召唤出了可怕的怪物!</string>
@@ -376,8 +378,7 @@
 	<string name="temp_buff.damage">神庙赐予了你无人能挡的力量！</string>
 	<string name="temp_buff.heal">神庙赐予了你丰沛蓬勃的生命！</string>
 	<string name="temp_buff.mana">神庙赐予了你用之不尽的能量！</string>
-
-
+	<string name="temp_buff.gold">The monolith imbues you with gold fever!</string>
 
 	<string name="levelcredits.prompt">%level% by %author%</string>
 
@@ -548,6 +549,12 @@
 	<string name="mainmenu.serverlist.level-restriction.max">最高英雄等级: %max%</string>
 	<string name="mainmenu.serverlist.ngp">NG+: \cffc400+%ngp%</string>
 	<string name="mainmenu.serverlist.charname">%name%  %lvl%级 %class%</string>
+	<string name="mainmenu.serverlist.downscaling">Downscaling enabled.</string>
+	<string name="mainmenu.serverlist.mods.one">1 mod</string>
+	<string name="mainmenu.serverlist.mods.plural">%num% mods</string>
+	<string name="mainmenu.serverlist.mods.dontmatch">Your enabled mods don't match!</string>
+	<string name="mainmenu.multiplayer.disabled">Multiplayer is currently unavailabe, try again later.</string>
+	<string name="mainmenu.multiplayer.disabled.mods">Multiplayer is disabled due to having an unpacked mod enabled.</string>
 
 	<!-- character selection -->
 	<string name="mainmenu.character.select.title">选择英雄</string>
@@ -569,6 +576,19 @@
 	<string name="mainmenu.character.free">你的第一件装扮已经在家里了!</string>
 	<string name="mainmenu.character.create.next">继续</string>
 
+	<!-- save slots -->
+	<string name="mainmenu.slots.title">Choose profile</string>
+	<string name="mainmenu.slots.create">Create a new profile</string>
+	<string name="mainmenu.slots.name">Profile %num%</string>
+	<string name="mainmenu.slots.clone">Clone this profile</string>
+	<string name="mainmenu.slots.clone.prompt">Really clone the town in profile %num% to slot %newnum%?</string>
+	<string name="mainmenu.slots.edit">Change mods</string>
+	<string name="mainmenu.slots.edit.prompt">Enabling mods in a profile will permanently mark it as modded. Are you sure you want to continue enabling mods for profile %num%?</string>
+	<string name="mainmenu.slots.delete">Delete this profile</string>
+	<string name="mainmenu.slots.delete.prompt">Really delete this town in profile %num%? It can not be recovered.</string>
+	<string name="mainmenu.slots.switch">Switch to this profile</string>
+	<string name="mainmenu.editslot.title">Select mods</string>
+	<string name="mainmenu.editslot.saving">Profile is saving...</string>
 
 	<!-- options > controls -->
 	<string name="menu.controls.attack1">主动技能 1</string>
@@ -593,6 +613,7 @@
 	<string name="menu.accept">确认</string>
 	<string name="menu.yes">是</string>
 	<string name="menu.no">否</string>
+	<string name="menu.profiles">PROFILES</string>
 
 	<!-- options -> * -->
 	<string name="menu.o.game">游戏</string>
@@ -801,7 +822,11 @@
 	<string name="menu.lobby.title.joining">房间</string>
 
 	<string name="menu.lobby.chat.revive">%reviver% 复活了 %revivee%. 他们的灵魂现在被连接在一起.</string>
+	<string name="menu.lobby.chat.revive.free">%revivee% was revived.</string>
 	<string name="menu.lobby.chat.soulsunlinked">所有的灵魂链接都已解除.</string>
+	<string name="menu.lobby.chat.soullinkdeath">%name% died from being soul linked with %killer%.</string>
+	<string name="menu.lobby.chat.death">%name% died from %killer%.</string>
+	<string name="menu.lobby.chat.suicide">%name% died.</string>
 
 	<string name="menu.lobby.ready">准备</string>
 	<string name="menu.lobby.unready">取消准备</string>
@@ -845,6 +870,8 @@
 	<!-- hud overlay -->
 	<string name="menu.notifier.saved">保存当前进度</string>
 	<string name="menu.notifier.lostconnection">连接中断.</string>
+	<string name="menu.notifier.joinfailed.mods">Failed to join lobby because you don't have the same mods enabled. The host has enabled %num%: %mods%</string>
+	<string name="menu.notifier.joinfailed.level">Failed to join lobby because the character is outside of the level requirements. (Minimum %min%, maximum %max%)</string>
 
 	<string name="misc.autosave">自动保存</string>
 	<string name="misc.timeletters.hours">时</string>
@@ -942,14 +969,13 @@
 	<string name="menu.discord">加入铁锤守卫的\nDiscord官方频道</string>
 	<string name="menu.wiki">访问铁锤守卫：英雄的\n官方Wiki</string>
 
-
-
-
-
-
-
-
-
+	<string name="mods.by">By %author%</string>
+	<string name="mods.count">%num% mods</string>
+	<string name="mods.count.1">1 mod</string>
+	<string name="mods.listitem">%name% by %author%</string>
+	<string name="mods.unpacked">Note: This mod is unpacked!</string>
+	<string name="mods.help.modded">Profiles remain tagged as modded even after all mods are disabled.</string>
+	<string name="shop.modding">KELLY THE MODDER</string>
 
 
 
@@ -1458,6 +1484,10 @@
 	<string name="shop.forge.craft">制作</string>
 	<string name="shop.forge.craft.description">制作这件装备.</string>
 	<string name="shop.forge.found">寻获: %num% / %total%</string>
+	<string name="shop.forge.respec">RESPEC</string>
+	<string name="shop.forge.respec.tooltip">Reset all your attunements with gold. You will get %skillpoints% skillpoints back.</string>
+	<string name="shop.forge.respec.tooltip.title">Respec</string>
+	<string name="shop.forge.respec.prompt">Are you sure you want to respec for %gold% gold?</string>
 
 
 
@@ -1672,7 +1702,6 @@
 	<string name="skills.sorcerer.orb-of-winter.2">创造一个缓慢定向移动的冰球,冰球会向周边不断发射大量小型碎冰.冰球持续5秒,向周围放出碎冰,每片造成16点混合伤害.</string>
 	<string name="skills.sorcerer.orb-of-winter.3">创造一个缓慢定向移动的冰球,冰球会向周边不断发射大量小型碎冰.冰球持续6.5秒,向周围放出碎冰,每片造成20点混合伤害.</string>
 
-
 	<string name="skills.sorcerer.shatter">粉碎</string>
 	<string name="skills.sorcerer.shatter.create">巫师每杀死1个被冻结的敌人，都会使其爆炸，造成范围伤害.</string>
 	<string name="skills.sorcerer.shatter.1">巫师每杀死1个被冻结的敌人，都会使其爆炸，造成范围伤害.爆炸造成40点伤害.</string>
@@ -1860,7 +1889,9 @@
 	<string name="item.book-of-enlightenment.desc">+ %exp%% 经验获取.</string>
 
 	<string name="item.boots-of-speed.name">速度之靴</string>
-	<string name="item.boots-of-speed.desc">+ %mspeed% 移动速度.</string>
+	<string name="item.boots-of-speed.desc">获得 %mspeed% 移动速度buff.</string>
+
+	<string name="item.boots-of-speed-2.name">Left Boot of Speed</string>
 
 	<string name="item.broad-sword.name">阔剑</string>
 	<string name="item.broad-sword.desc">+ %atk% 普攻伤害.</string>
@@ -1899,7 +1930,7 @@
 	<string name="item.great-helm.desc">+ %armor% 护甲.</string>
 
 	<string name="item.greaves-of-the-barbarian.name">野蛮人胫甲</string>
-	<string name="item.greaves-of-the-barbarian.desc">击杀敌人后有 %chance%% 几率提升%mspeed%%移动速度，持续 %dur% 秒.</string>
+	<string name="item.greaves-of-the-barbarian.desc">击杀敌人后有 %chance%% 几率获得%mspeed%%移动速度buff，持续 %dur% 秒.</string>
 
 	<string name="item.heavy-gauntlets.name">重铁手套</string>
 	<string name="item.heavy-gauntlets.desc">+ %health% 生命上限.</string>
@@ -1912,6 +1943,9 @@
 
 	<string name="item.lesser-sphere-of-nova.name">小型新星宝珠</string>
 	<string name="item.lesser-sphere-of-nova.desc">连杀期间，向四周释放新星爆发冲击波，每秒一次，造成 %dmg% 魔法伤害.</string>
+
+	<string name="item.lesser-sphere-of-time.name">Lesser Sphere of Time</string>
+	<string name="item.lesser-sphere-of-time.desc">Time to maintain Combo is increased by %dur% seconds.</string>
 
 	<string name="item.life-stone.name">生命之石</string>
 	<string name="item.life-stone.desc">击杀敌人后有 %chance%% 几率回复 1 生命值.</string>
@@ -2001,7 +2035,7 @@
 	<string name="item.apothecarys-satchel.desc">+ %eff%% 药剂效果.</string>
 
 	<string name="item.apothecarys-sphere.name">药剂师的宝珠</string>
-	<string name="item.apothecarys-sphere.desc">使用药剂时触发连击效果.</string>
+	<string name="item.apothecarys-sphere.desc">当使用药剂时会触发连杀效果.</string>
 
 	<string name="item.assassins-dagger.name">暗杀匕首</string>
 	<string name="item.assassins-dagger.desc">+ %chance%% 普通攻击暴击几率.</string>
@@ -2033,6 +2067,9 @@
 	<string name="item.full-plate-mail.name">全身铠甲</string>
 	<string name="item.full-plate-mail.desc">+ %armor% 护甲.</string>
 
+	<string name="item.gloves-of-warding.name">Gloves of Warding</string>
+	<string name="item.gloves-of-warding.desc">Provides a passive Block of %block% Magical damage with a cooldown of %cd% seconds.</string>
+
 	<string name="item.key-ring.name">钥匙圈</string>
 	<string name="item.key-ring.desc">拾取钥匙时，有 %chance%% 几率获得额外的钥匙.</string>
 
@@ -2061,7 +2098,7 @@
 	<string name="item.rapier-of-retaliation.desc">+ %evasion%% 闪避.\n每次闪避后,你造成的伤害增加 %dmg%% ，持续 %sec% 秒.</string>
 
 	<string name="item.reinforced-gloves.name">钢铁臂铠</string>
-	<string name="item.reinforced-gloves.desc">提供一个抵御 %block% 点伤害的护盾，内置%cd%秒冷却时间.</string>
+	<string name="item.reinforced-gloves.desc">提供一个抵御 %block% 点物理伤害的护盾，内置%cd%秒冷却时间.</string>
 
 	<string name="item.ring-of-transmutation.name">转化之戒</string>
 	<string name="item.ring-of-transmutation.desc">损失生命时，将获得损失量 %mana%% 的法力.</string>
@@ -2074,6 +2111,9 @@
 
 	<string name="item.seal-of-the-martyr.name">烈士勋章</string>
 	<string name="item.seal-of-the-martyr.desc">每损失 1% 生命就增加 1% 普攻伤害.</string>
+
+	<string name="item.seal-of-souls.name">Seal of Souls</string>
+	<string name="item.seal-of-souls.desc">Deal %dmg%% more damage for each % Mana missing.</string>
 
 	<string name="item.shaftlocke-pickaxe.name">矿井之镐</string>
 	<string name="item.shaftlocke-pickaxe.desc">%chance%% 矿石拾取效率.</string>
@@ -2089,6 +2129,12 @@
 
 	<string name="item.sphere-of-nova.name">连杀新星</string>
 	<string name="item.sphere-of-nova.desc">连杀期间向四周释放强大的新星爆发冲击波，每秒一次，造成 %dmg% 魔法伤害.</string>
+
+	<string name="item.sphere-of-time.name">Sphere of Time</string>
+	<string name="item.sphere-of-time.desc">Time to maintain Combo is increased by %dur% second.</string>
+
+	<string name="item.sphere-of-warriors.name">Sphere of Warriors</string>
+	<string name="item.sphere-of-warriors.desc">Kill requirement for getting combo is lowered by %num%.</string>
 
 	<string name="item.staff-of-unstable-casting.name">失衡法杖</string>
 	<string name="item.staff-of-unstable-casting.desc">+ %chance%% 技能暴击几率.</string>
@@ -2121,6 +2167,12 @@
 	<string name="item.armor-of-kings.name">国王护甲</string>
 	<string name="item.armor-of-kings.desc">+ %armor% 护甲.</string>
 
+	<string name="item.boots-of-freedom.name">Boots of Freedom</string>
+	<string name="item.boots-of-freedom.desc">Immunity to all slow effects.</string>
+
+	<string name="item.boots-of-the-giant.name">Boots of the Giant</string>
+	<string name="item.boots-of-the-giant.desc">Stun enemies for %stun% seconds when colliding with them. %health% Health.</string>
+
 	<string name="item.cape-of-the-flamewalker.name">火焰行者披风</string>
 	<string name="item.cape-of-the-flamewalker.desc">燃烧身边的敌人，每秒造成 %dmg% 魔法伤害.</string>
 
@@ -2129,6 +2181,9 @@
 
 	<string name="item.duelists-edge.name">决斗之剑</string>
 	<string name="item.duelists-edge.desc">+ %evasion%% 闪避. 当被击中时，对攻击者造成 %dmg% 魔法伤害并施加流血效果.</string>
+
+	<string name="item.dukes-signet-ring.name">Duke's Signet Ring</string>
+	<string name="item.dukes-signet-ring.desc">Taking damage when below %cutoff%% Health will spawn an area that restores %heal%% of your max health. Lasts for %dur% seconds with a cooldown of %cd% seconds.</string>
 
 	<string name="item.earthsplitter.name">裂地者</string>
 	<string name="item.earthsplitter.desc">普通攻击击中敌人时，有 %chance%% 几率释放地裂，造成 %dmg% 物理伤害.</string>
@@ -2185,17 +2240,20 @@
 	<!-- EPIC -->
 
 
-	<string name="item.boots-of-the-giant.name">巨人之靴</string>
-	<string name="item.boots-of-the-giant.desc">与敌人相撞时造成 %stun% 秒眩晕.\n%health% 生命上限.</string>
-
 	<string name="item.crown-of-kings.name">国王头冠</string>
 	<string name="item.crown-of-kings.desc">+ %bonus%% 基础 生命上限 和 法力上限.</string>
 
 	<string name="item.dragonscale-mail.name">龙鳞盔甲</string>
 	<string name="item.dragonscale-mail.desc">受到的伤害降低 %taken%% .</string>
 
+	<string name="item.mask-of-bewilderment.name">Mask of Bewilderment</string>
+	<string name="item.mask-of-bewilderment.desc">Primary Attack applies confusion for %dur% seconds.</string>
+
 	<string name="item.ring-of-arcane-powers.name">神秘戒指</string>
 	<string name="item.ring-of-arcane-powers.desc">技能消耗法力降低 %scost%% .</string>
+
+	<string name="item.searing-sabatons.name">Searing Sabatons</string>
+	<string name="item.searing-sabatons.desc">Leaves a trail of fire while moving that lasts for %dur% seconds and does %dmg% Magical damage.</string>
 
 	<string name="item.sphere-of-champions.name">冠军宝珠</string>
 	<string name="item.sphere-of-champions.desc">连杀期间 + %atk% 技能伤害.</string>
@@ -2214,6 +2272,9 @@
 
 	<string name="item.soul-taker.name">灵魂收割</string>
 	<string name="item.soul-taker.desc">每当你杀死一个敌人时，也会击杀一个随机的同类型敌人.</string>
+
+	<string name="item.sphere-of-heroes.name">Sphere of Heroes</string>
+	<string name="item.sphere-of-heroes.desc">Shoots a massive nova projectile when attacking with your Primary Attack during Combo.</string>
 
 	<!-- SETS -->
 
@@ -2251,6 +2312,8 @@
 	<string name="item.sets.spheres-of-power.desc.1">1级连杀新星</string>
 	<string name="item.sets.spheres-of-power.desc.2">2级连杀新星</string>
 	<string name="item.sets.spheres-of-power.desc.3">3级连杀新星</string>
+	<string name="item.sets.spheres-of-power.desc.4">Massive combo nova</string>
+	<string name="item.sets.spheres-of-power.desc.5">Combo prevents lethal damage</string>
 
 	<string name="item.sets.tricksters-ensemble.name">幻灵协律</string>
 	<string name="item.sets.tricksters-ensemble.desc.1">闪避时获得移动速度加成</string>
@@ -2289,6 +2352,9 @@
 	<string name="drink.double-thriller.name">双重惊悚</string>
 	<string name="drink.double-thriller.desc">%pos%% 伤害量.\n%neg%% 受到的伤害.</string>
 
+	<string name="drink.enchanted-slammer.name">Enchanted Slammer</string>
+	<string name="drink.enchanted-slammer.desc">%pos% Physical damage on Primary Attack.\nPrimary Attack costs %neg%% of your current mana.</string>
+
 	<string name="drink.homemade-hazard.name">风险投资</string>
 	<string name="drink.homemade-hazard.desc">%pos%% 普通攻击暴击伤害.\n%neg%% 受到的伤害.</string>
 
@@ -2300,6 +2366,9 @@
 
 	<string name="drink.mellow-mist.name">醇厚酒雾</string>
 	<string name="drink.mellow-mist.desc">%pos%% 受到的伤害.\n%neg% 移动速度.</string>
+
+	<string name="drink.mind-control.name">Mind Control</string>
+	<string name="drink.mind-control.desc">Immune to confusion.\nAll other debuffs last %neg%% longer.</string>
 
 	<string name="drink.on-the-run.name">健步如飞</string>
 	<string name="drink.on-the-run.desc">%pos% 移动速度.\n%neg%% 金币获取速率.</string>
@@ -2326,6 +2395,9 @@
 	<string name="drink.miners-delight.name">矿工挚爱</string>
 	<string name="drink.miners-delight.desc">%pos%% 矿石获取效率.\n%neg%% 金币获取效率.</string>
 
+	<string name="drink.overflowing-physique.name">Overflowing Physique</string>
+	<string name="drink.overflowing-physique.desc">+%pos%% base Health.\nLose %neg%% of your current Mana while moving.</string>
+
 	<string name="drink.last-stand.name">背水一战</string>
 	<string name="drink.last-stand.desc">+%pos%% 造成的伤害，原地不动时收到的伤害%neg%% .\n%mov%% 移动速度.</string>
 
@@ -2346,6 +2418,18 @@
 	<string name="drink.incendiary-demise.name">怒火中烧</string>
 	<string name="drink.incendiary-demise.desc">普通攻击附加%pos% 点魔法伤害.\n用普通攻击造成伤害后自己灼伤.</string>
 
+	<string name="drink.kinetic-kiss.name">Kinetic Kiss</string>
+	<string name="drink.kinetic-kiss.desc">Gain %pos%% of your max Mana while moving.\nLose all your Mana when taking damage.</string>
+
+	<string name="drink.stumble-in-the-dark.name">Stumble in the Dark</string>
+	<string name="drink.stumble-in-the-dark.desc">%pos%% chance to score a Critical Hit on Primary Attack and Skills.\nPermanent Darkness.</string>
+
+	<string name="drink.stab-in-the-dark.name">Stab in the Dark</string>
+	<string name="drink.stab-in-the-dark.desc">%pos%% chance to score a Critical Hit on Primary Attack.\nYou receive Darkness for %neg% seconds when attacking with your Primary Attack.</string>
+
+	<string name="drink.spilled-blood.name">Spilled Blood</string>
+	<string name="drink.spilled-blood.desc">Primary Attack applies bleeding.\n%neg%% base Health.</string>
+
 	<string name="drink.the-mad-proposal.name">丧心病狂</string>
 	<string name="drink.the-mad-proposal.desc">%pos%% 造成的伤害.\n永久处于混乱状态.</string>
 
@@ -2354,6 +2438,11 @@
 
 	<string name="drink.wicked-sickness.name">身罹奇疾</string>
 	<string name="drink.wicked-sickness.desc">%pos%% 连击伤害加成.\n%neg% 没有连击时生命恢复速率.</string>
+
+	<string name="drink.frenetic-eruption.name">Frenetic Eruption</string>
+	<string name="drink.frenetic-eruption.desc">Taking damage when below %pos%% Health triggers Combo.\n%neg%% damage taken when out of Combo.</string>
+
+
 
 
 
@@ -2408,9 +2497,6 @@
 	<string name="fountain.effect.ace_key.name">冠军钥匙</string>
 	<string name="fountain.effect.ace_key.description">得到一把Ace钥匙.</string>
 	
-	<string name="fountain.effect.more_potion_charges.name">大肚能容</string>
-	<string name="fountain.effect.more_potion_charges.description">+2 药剂充能数.</string>
-
 	<string name="fountain.effect.less_great_threat.name">罕有危机</string>
 	<string name="fountain.effect.less_great_threat.description">关卡时间限制惩罚变得很少见.</string>
 
@@ -2805,6 +2891,7 @@
 	<string name="bestiary.name.bosses.wraith_mage">巫妖法师</string>
 	<string name="bestiary.name.bosses.eye">监察者</string>
 	<string name="bestiary.name.bosses.dragon">雷电冰龙</string>
+	<string name="bestiary.name.bosses.vampire">Vampire Lord</string>
 	<string name="bestiary.name.spawner_archer_1">骷髅射手地巢</string>
 	<string name="bestiary.name.spawner_archer_2">骷髅射手地巢 II</string>
 	<string name="bestiary.name.spawner_bats">蝙蝠树巢</string>
@@ -2873,6 +2960,14 @@
 	<string name="bestiary.name.wisp_1">蓝精灵</string>
 	<string name="bestiary.name.wisp_1_small">绿精灵</string>
 	<string name="bestiary.name.wisp_2">红精灵</string>
+	<string name="bestiary.name.ice_troll_melee">Ice Troll Warrior</string>
+	<string name="bestiary.name.ice_troll_shaman">Ice Troll Shaman</string>
+	<string name="bestiary.name.gargoyle_1">Stone Gargoyle</string>
+	<string name="bestiary.name.tower_ballista_javelin">Ballista</string>
+	<string name="bestiary.name.tower_ballista_splitshot">Splitshot Ballista</string>
+	<string name="bestiary.name.tower_ballista_trapper">Net Ballista</string>
+	<string name="bestiary.name.thrall">Thrall</string>
+	<string name="bestiary.name.thrall_leaper">Ravenous Thrall</string>
 
 	<!-- itemiary -->
 	<string name="itemiary.header.items">装备</string>
@@ -2890,6 +2985,7 @@
 	<string name="guildhall.accomplishments.boss-3">三大巫妖</string>
 	<string name="guildhall.accomplishments.boss-4">监察者</string>
 	<string name="guildhall.accomplishments.boss-5">雷电冰龙</string>
+	<string name="guildhall.accomplishments.boss-6">VAMPIRE LORD</string>
 
 	<string name="accomplishment.boss-1-killed-class.name">希望赋予者 %lvl%</string>
 	<string name="accomplishment.boss-1-killed-class.desc">以%requirement%个不同职业杀死岩石守卫.</string>
@@ -2905,6 +3001,9 @@
 
 	<string name="accomplishment.boss-5-killed-class.name">和平恢复者 %lvl%</string>
 	<string name="accomplishment.boss-5-killed-class.desc">以%requirement%个不同职业杀死雷电冰龙.</string>
+
+	<string name="accomplishment.boss-6-killed-class.name">Deposers of Despots %lvl%</string>
+	<string name="accomplishment.boss-6-killed-class.desc">Kill the Vampire Lord with %requirement% different classes.</string>
 
 	<string name="accomplishment.aberration-killed.name">驱魔师 %lvl%</string>
 	<string name="accomplishment.aberration-killed.desc">击杀%requirement% 变异生物.</string>
@@ -3161,6 +3260,25 @@
 	<string name="materials.color.malachite">孔雀绿</string>
 	<string name="materials.color.hearth">炉石橙</string>
 	<string name="materials.color.purple">基佬紫</string>
+	<string name="materials.color.fandango">Fandango</string>
+	<string name="materials.color.vermilion">Vermilion</string>
+	<string name="materials.color.frozen">Frozen</string>
+	<string name="materials.color.salmon">Salmon</string>
+	<string name="materials.color.lemon">Lemon</string>
+	<string name="materials.color.midnight">Midnight</string>
+	<string name="materials.color.ice">Ice</string>
+	<string name="materials.color.citrus">Citrus</string>
+	<string name="materials.color.silver">Silver</string>
+	<string name="materials.color.ruby">Ruby</string>
+	<string name="materials.color.hailstone">Hailstone</string>
+	<string name="materials.color.tar">Tar</string>
+	<string name="materials.color.eclipse">Eclipse</string>
+	<string name="materials.color.sunny">Sunny</string>
+	<string name="materials.color.frost">Frost</string>
+	<string name="materials.color.blood">Blood</string>
+	<string name="materials.color.darkside">Darkside</string>
+	<string name="materials.color.bumblebee">Bumblebee</string>
+	<string name="materials.color.glacier">Glacier</string>
 
 
 
