@@ -373,11 +373,11 @@
 	<string name="random_buff.more_mp_regen">神庙赐予你 %amount% 法力回复率.</string>
 	<string name="random_buff.more_damage">神庙赐予你 %amount%% 普攻伤害.</string>
 
-	<string name="temp_buff.armor">石碑赐予了你守护自身的强健！</string>
-	<string name="temp_buff.experience">石碑赐予了你洞察万物的智慧！</string>
-	<string name="temp_buff.damage">石碑赐予了你无人能挡的力量！</string>
-	<string name="temp_buff.heal">石碑赐予了你丰沛蓬勃的生命！</string>
-	<string name="temp_buff.mana">石碑赐予了你用之不尽的能量！</string>
+	<string name="temp_buff.armor">石碑赐予了你守护自身的强健!</string>
+	<string name="temp_buff.experience">石碑赐予了你洞察万物的智慧!</string>
+	<string name="temp_buff.damage">石碑赐予了你无人能挡的力量!</string>
+	<string name="temp_buff.heal">石碑赐予了你丰沛蓬勃的生命!</string>
+	<string name="temp_buff.mana">石碑赐予了你用之不尽的能量!</string>
 	<string name="temp_buff.gold">石碑赐予了你对黄金的狂热!</string>
 
 	<string name="levelcredits.prompt">%level% 制作者为 %author%</string>
@@ -542,7 +542,9 @@
 	<string name="mainmenu.host.minlevel">英雄等级下限</string>
 	<string name="mainmenu.host.ngp">游戏周目NG+</string>
 	<string name="mainmenu.host.downscaling">削弱平衡</string>
-	<string name="mainmenu.host.downscaling.description">限制最高称号等级加成，使其与当前难度等级平衡.</string>
+	<string name="mainmenu.host.downscaling.description">限制最高称号等级加成,使其与当前难度等级平衡.</string>
+	<string name="mainmenu.host.allowmodded">允许修改配置文件</string>
+	<string name="mainmenu.host.allowmodded.description">可以允许修改配置文件的玩家加入您的房间.</string>
 	<string name="mainmenu.serverlist.title">服务器列表</string>
 	<string name="mainmenu.serverlist.level-restriction.both">英雄等级要求: %min% - %max%</string>
 	<string name="mainmenu.serverlist.level-restriction.min">最低英雄等级: %min%</string>
@@ -553,6 +555,7 @@
 	<string name="mainmenu.serverlist.mods.one">一个模组</string>
 	<string name="mainmenu.serverlist.mods.plural">%num% 个模组</string>
 	<string name="mainmenu.serverlist.mods.dontmatch">你启用的模组不匹配!</string>
+	<string name="mainmenu.serverlist.mod-restriction">修改过配置文件不允许加入.</string>
 	<string name="mainmenu.multiplayer.disabled">多人游戏无法连接,请稍后再试.</string>
 	<string name="mainmenu.multiplayer.disabled.mods">由于启用的模组文件未解压,多人游戏模式被禁用.</string>
 
@@ -736,7 +739,7 @@
 
 	<!-- options > controls -->
 	<string name="menu.crumb.options.controls">选项 > 控制</string>
-	<string name="menu.controls.defaults_dialog">重置所有玩家的控制设定为默认值？</string>
+	<string name="menu.controls.defaults_dialog">重置所有玩家的控制设定为默认值?</string>
 	<string name="menu.controls.player">玩家</string>
 	<string name="menu.controls.player.help">需要修改设置的玩家.</string>
 
@@ -837,15 +840,15 @@
 	<string name="menu.lobby.private">私人</string>
 	<string name="menu.lobby.hostoptions.changelevel">层数调整</string>
 	<string name="menu.lobby.abort">解散</string>
-	<string name="menu.lobby.abort.prompt">确定要解散多人游戏吗？</string>
+	<string name="menu.lobby.abort.prompt">确定要解散多人游戏吗?</string>
 	<string name="menu.lobby.leave">离开</string>
-	<string name="menu.lobby.leave.prompt">确定要离开多人游戏吗？</string>
+	<string name="menu.lobby.leave.prompt">确定要离开多人游戏吗?</string>
 
-	<string name="menu.lobby.chat.isready">%name% 已经准备好了。</string>
-	<string name="menu.lobby.chat.isunready">%name% 取消准备。</string>
-	<string name="menu.lobby.chat.isjoined">%name% 加入了游戏。</string>
-	<string name="menu.lobby.chat.isleft">%name% 离开了。</string>
-	<string name="menu.lobby.chat.iskicked">%name% 被房主踢出了游戏。</string>
+	<string name="menu.lobby.chat.isready">%name% 已经准备好了.</string>
+	<string name="menu.lobby.chat.isunready">%name% 取消准备.</string>
+	<string name="menu.lobby.chat.isjoined">%name% 加入了游戏.</string>
+	<string name="menu.lobby.chat.isleft">%name% 离开了.</string>
+	<string name="menu.lobby.chat.iskicked">%name% 被房主踢出了游戏.</string>
 	<string name="menu.lobby.hostoptions.currentmods">%count% 个mod</string>
 	<string name="menu.lobby.hostoptions.setdifficulty">难度</string>
 	<string name="menu.lobby.hostoptions.setmods">开关</string>
@@ -865,13 +868,16 @@
 
 	<!-- server list -->
 	<string name="menu.serverlist.refresh">刷新</string>
-	<string name="menu.serverlist.inlobby">大厅中</string>
+	<string name="menu.serverlist.inlobby">房间中</string>
 
 	<!-- hud overlay -->
 	<string name="menu.notifier.saved">保存当前进度</string>
 	<string name="menu.notifier.lostconnection">连接中断.</string>
 	<string name="menu.notifier.joinfailed.mods">你无法加入房间,因为你没有启用跟房主一样的模组. 房主启用了 %num%: %mods%</string>
 	<string name="menu.notifier.joinfailed.level">你无法加入房间,因为你等级与房主限制的等级不符.(至少%min%级,最高%max%级)</string>
+	<string name="menu.notifier.joinfailed.allowedmods">无法加入房间,因为房主已选择不允许修改配置文件.</string>
+
+
 
 	<string name="misc.autosave">自动保存</string>
 	<string name="misc.timeletters.hours">时</string>
@@ -885,7 +891,7 @@
 	<string name="menu.unsaved_dialog">有未保存的更改,是否保存?</string>
 
 	<string name="menu.lobby.chat.minplayers">至少要%min%名玩家才能开始.</string>
-	<string name="menu.lobby.chat.maxplayers">You can have at most %max% players in this scenario.</string>
+	<string name="menu.lobby.chat.maxplayers">在您最多可以拥有％max％名玩家.</string>
 
 
 	<string name="menu.loadgame.rename">重新保存?</string>
@@ -960,7 +966,7 @@
 	<string name="menu.loading">加载中</string>
 
 	<string name="menu.splitscreen.newgame">新游戏</string>
-	<string name="menu.splitscreen.noplayers">你不能在没有玩家的情况下开始游戏！</string>
+	<string name="menu.splitscreen.noplayers">你不能在没有玩家的情况下开始游戏!</string>
 	<string name="menu.splitscreen.prompt">按返回键离开</string>
 	<string name="menu.splitscreen.join.kbm">按下键盘任意按键</string>
 	<string name="menu.splitscreen.join.gp">按下手柄任意按键</string>
@@ -1091,10 +1097,10 @@
 	<string name="shop.townhall.apothecary-1.desc">购买和升级你的药剂.</string>
 
 	<string name="shop.townhall.apothecary-2.name">二级药剂师</string>
-	<string name="shop.townhall.apothecary-2.desc">购买和升级你的药剂，并提升收集泉水时的回复效果.</string>
+	<string name="shop.townhall.apothecary-2.desc">购买和升级你的药剂,并提升收集泉水时的回复效果.</string>
 
 	<string name="shop.townhall.apothecary-3.name">三级药剂师</string>
-	<string name="shop.townhall.apothecary-3.desc">购买和升级你的药剂，并提升收集泉水时的回复效果.</string>
+	<string name="shop.townhall.apothecary-3.desc">购买和升级你的药剂,并提升收集泉水时的回复效果.</string>
 
 	<string name="shop.townhall.blacksmith-1.name">一级铁匠</string>
 	<string name="shop.townhall.blacksmith-1.desc">购买升级你的武器和盔甲.</string>
@@ -1516,7 +1522,7 @@
 	<string name="skills.paladin.charge.6">向前冲刺.途中的敌人受到75点物理伤害.增加速度和范围.</string>
 
 	<string name="skills.paladin.shield">守卫之盾</string>
-	<string name="skills.paladin.shield.create">被动.圣骑士手持一个坚固的盾牌，盾牌能格挡大部分投射物，此外也有几率阻挡一定的伤害.</string>
+	<string name="skills.paladin.shield.create">被动.圣骑士手持一个坚固的盾牌,盾牌能格挡大部分投射物,此外也有几率阻挡一定的伤害.</string>
 	<string name="skills.paladin.shield.1">阻挡来自面前90度的投射物.盾牌有25%几率阻挡5点物理伤害或者魔法伤害.</string>
 	<string name="skills.paladin.shield.2">阻挡来自面前120度的投射物.盾牌有25%几率阻挡10点物理伤害或者魔法伤害.</string>
 	<string name="skills.paladin.shield.3">阻挡来自面前150度的投射物.盾牌有25%几率阻挡15点物理伤害或者魔法伤害.</string>
@@ -1532,21 +1538,21 @@
 
 	<string name="skills.paladin.lay-on-hands">圣疗术</string>
 	<string name="skills.paladin.lay-on-hands.create">持续施法.治疗圣骑士和身边的所有队友.</string>
-	<string name="skills.paladin.lay-on-hands.1">向圣骑士身边全部队友提供一个持续3秒的BUFF，这个BUFF提供3固定值+2%最大生命值的生命回复和一个有25%几率抵挡5魔法伤害的护盾.</string>
-	<string name="skills.paladin.lay-on-hands.2">向圣骑士身边全部队友提供一个持续3秒的BUFF，这个BUFF提供5固定值+2%最大生命值的生命回复和一个有25%几率抵挡10魔法伤害的护盾.</string>
-	<string name="skills.paladin.lay-on-hands.3">向圣骑士身边全部队友提供一个持续3秒的BUFF，这个BUFF提供7固定值+2%最大生命值的生命回复和一个有25%几率抵挡15魔法伤害的护盾.</string>
-	<string name="skills.paladin.lay-on-hands.4">向圣骑士身边全部队友提供一个持续3秒的BUFF，这个BUFF提供9固定值+2%最大生命值的生命回复和一个有25%几率抵挡20魔法伤害的护盾.</string>
+	<string name="skills.paladin.lay-on-hands.1">向圣骑士身边全部队友提供一个持续3秒的BUFF,这个BUFF提供3固定值+2%最大生命值的生命回复和一个有25%几率抵挡5魔法伤害的护盾.</string>
+	<string name="skills.paladin.lay-on-hands.2">向圣骑士身边全部队友提供一个持续3秒的BUFF,这个BUFF提供5固定值+2%最大生命值的生命回复和一个有25%几率抵挡10魔法伤害的护盾.</string>
+	<string name="skills.paladin.lay-on-hands.3">向圣骑士身边全部队友提供一个持续3秒的BUFF,这个BUFF提供7固定值+2%最大生命值的生命回复和一个有25%几率抵挡15魔法伤害的护盾.</string>
+	<string name="skills.paladin.lay-on-hands.4">向圣骑士身边全部队友提供一个持续3秒的BUFF,这个BUFF提供9固定值+2%最大生命值的生命回复和一个有25%几率抵挡20魔法伤害的护盾.</string>
 
 	<string name="skills.paladin.whirlwind">旋风斩</string>
-	<string name="skills.paladin.whirlwind.create">持续施法.对周围的敌人造成伤害，施法期间可以移动，不可以攻击.</string>
-	<string name="skills.paladin.whirlwind.1">持续施法.对周围的敌人造成伤害，每次造成30点物理伤害.旋转持续3秒.</string>
-	<string name="skills.paladin.whirlwind.2">持续施法.对周围的敌人造成伤害，每次造成40点物理伤害.旋转持续4秒.</string>
-	<string name="skills.paladin.whirlwind.3">持续施法.对周围的敌人造成伤害，每次造成50点物理伤害.旋转持续5秒.</string>
+	<string name="skills.paladin.whirlwind.create">持续施法.对周围的敌人造成伤害,施法期间可以移动,不可以攻击.</string>
+	<string name="skills.paladin.whirlwind.1">持续施法.对周围的敌人造成伤害,每次造成30点物理伤害.旋转持续3秒.</string>
+	<string name="skills.paladin.whirlwind.2">持续施法.对周围的敌人造成伤害,每次造成40点物理伤害.旋转持续4秒.</string>
+	<string name="skills.paladin.whirlwind.3">持续施法.对周围的敌人造成伤害,每次造成50点物理伤害.旋转持续5秒.</string>
 
 	<string name="skills.paladin.flames-of-devotion">奉献之火</string>
-	<string name="skills.paladin.flames-of-devotion.create">每次使用剑击伤害敌人，圣骑士的所有技能都将得到魔法伤害加成.</string>
-	<string name="skills.paladin.flames-of-devotion.1">每次使用剑击伤害敌人，圣骑士的所有技能都将得到魔法伤害加成.每次触发提供1点伤害加成，最高可以叠加12层，每层持续1秒.</string>
-	<string name="skills.paladin.flames-of-devotion.2">每次使用剑击伤害敌人，圣骑士的所有技能都将得到魔法伤害加成.每次触发提供1点伤害加成，最高可以叠加24层，每层持续1秒.</string>
+	<string name="skills.paladin.flames-of-devotion.create">每次使用剑击伤害敌人,圣骑士的所有技能都将得到魔法伤害加成.</string>
+	<string name="skills.paladin.flames-of-devotion.1">每次使用剑击伤害敌人,圣骑士的所有技能都将得到魔法伤害加成.每次触发提供1点伤害加成,最高可以叠加12层,每层持续1秒.</string>
+	<string name="skills.paladin.flames-of-devotion.2">每次使用剑击伤害敌人,圣骑士的所有技能都将得到魔法伤害加成.每次触发提供1点伤害加成,最高可以叠加24层,每层持续1秒.</string>
 
 
 	<!-- Priest -->
@@ -1577,7 +1583,7 @@
 	<string name="skills.priest.divine-protection.5">牧师自身被一个护盾保护,护盾会吸收50%的伤害.每点被吸收的伤害消耗0.5点法力.</string>
 
 	<string name="skills.priest.remedy">治疗术</string>
-	<string name="skills.priest.remedy.create">牧师获得额外的生命回复，无论进食还是治疗.</string>
+	<string name="skills.priest.remedy.create">牧师获得额外的生命回复,无论进食还是治疗.</string>
 	<string name="skills.priest.remedy.1">牧师额外获得50%的生命回复.</string>
 	<string name="skills.priest.remedy.2">牧师额外获得100%的生命回复.</string>
 	<string name="skills.priest.remedy.3">牧师额外获得150%的生命回复.</string>
@@ -1591,10 +1597,10 @@
 	<string name="skills.priest.consecrated-ground.4">牧师祝福一块区域,祝福持续6.5秒.范围内的敌人每秒受到40点魔法伤害,对范围内的队友回复伤害量25%的生命.</string>
 
 	<string name="skills.priest.aura-of-purification">净化光环</string>
-	<string name="skills.priest.aura-of-purification.create">牧师开启一个光环,削弱周围的敌人，并保护自己的队友.</string>
-	<string name="skills.priest.aura-of-purification.1">光环使敌人减速20%并降低20%的抗性，队友得到10%伤害减免，光环持续6秒.</string>
-	<string name="skills.priest.aura-of-purification.2">光环使敌人减速30%并降低30%的抗性，队友得到20%伤害减免，光环持续7秒.</string>
-	<string name="skills.priest.aura-of-purification.3">光环使敌人减速40%并降低20%的抗性，队友得到30%伤害减免，光环持续8秒.</string>
+	<string name="skills.priest.aura-of-purification.create">牧师开启一个光环,削弱周围的敌人,并保护自己的队友.</string>
+	<string name="skills.priest.aura-of-purification.1">光环使敌人减速20%并降低20%的抗性,队友得到10%伤害减免,光环持续6秒.</string>
+	<string name="skills.priest.aura-of-purification.2">光环使敌人减速30%并降低30%的抗性,队友得到20%伤害减免,光环持续7秒.</string>
+	<string name="skills.priest.aura-of-purification.3">光环使敌人减速40%并降低20%的抗性,队友得到30%伤害减免,光环持续8秒.</string>
 
 	<string name="skills.priest.celestial-orb">天堂之球</string>
 	<string name="skills.priest.celestial-orb.create">天堂之球在牧师身边环绕并向周围的敌人发射小圣光束.小圣光束会自动集火被圣光冲击命中的敌人.</string>
@@ -1622,19 +1628,19 @@
 	<string name="skills.ranger.flurry-of-arrows.6">游侠旋转着向四面八方射出箭矢.总共射出64支基于弓箭射击等级的箭矢.</string>
 	
 	<string name="skills.ranger.on-the-prowl">巡游</string>
-	<string name="skills.ranger.on-the-prowl.create">施法后，游侠都会获得提升移速和闪避的BUFF.</string>
-	<string name="skills.ranger.on-the-prowl.1">每次施法后获得提升25%移动速度和5%闪避的BUFF，持续2.5秒.</string>
-	<string name="skills.ranger.on-the-prowl.2">每次施法后获得提升25%移动速度和10%闪避的BUFF，持续3秒.</string>
-	<string name="skills.ranger.on-the-prowl.3">每次施法后获得提升25%移动速度和15%闪避的BUFF，持续3.5秒.</string>
-	<string name="skills.ranger.on-the-prowl.4">每次施法后获得提升25%移动速度和20%闪避的BUFF，持续4秒.</string>
-	<string name="skills.ranger.on-the-prowl.5">每次施法后获得提升25%移动速度和25%闪避的BUFF，持续4.5秒.</string>
+	<string name="skills.ranger.on-the-prowl.create">施法后,游侠都会获得提升移速和闪避的BUFF.</string>
+	<string name="skills.ranger.on-the-prowl.1">每次施法后获得提升25%移动速度和5%闪避的BUFF,持续2.5秒.</string>
+	<string name="skills.ranger.on-the-prowl.2">每次施法后获得提升25%移动速度和10%闪避的BUFF,持续3秒.</string>
+	<string name="skills.ranger.on-the-prowl.3">每次施法后获得提升25%移动速度和15%闪避的BUFF,持续3.5秒.</string>
+	<string name="skills.ranger.on-the-prowl.4">每次施法后获得提升25%移动速度和20%闪避的BUFF,持续4秒.</string>
+	<string name="skills.ranger.on-the-prowl.5">每次施法后获得提升25%移动速度和25%闪避的BUFF,持续4.5秒.</string>
 
 	<string name="skills.ranger.deadly-aim">狩猎印记</string>
-	<string name="skills.ranger.deadly-aim.create">弓箭射击有几率标记目标，被标记的目标受到的所有伤害都有几率暴击.</string>
-	<string name="skills.ranger.deadly-aim.1">弓箭射击有5%几率暴击并标记目标2.5秒，被标记目标有5%几率受到暴击伤害.</string>
-	<string name="skills.ranger.deadly-aim.2">弓箭射击有7.5%几率暴击并标记目标2.5秒，被标记目标有5%几率受到暴击伤害.</string>
-	<string name="skills.ranger.deadly-aim.3">弓箭射击有10%几率暴击并标记目标2.5秒，被标记目标有5%几率受到暴击伤害.</string>
-	<string name="skills.ranger.deadly-aim.4">弓箭射击有12.5%几率暴击并标记目标2.5秒，被标记目标有5%几率受到暴击伤害.</string>
+	<string name="skills.ranger.deadly-aim.create">弓箭射击有几率标记目标,被标记的目标受到的所有伤害都有几率暴击.</string>
+	<string name="skills.ranger.deadly-aim.1">弓箭射击有5%几率暴击并标记目标2.5秒,被标记目标有5%几率受到暴击伤害.</string>
+	<string name="skills.ranger.deadly-aim.2">弓箭射击有7.5%几率暴击并标记目标2.5秒,被标记目标有5%几率受到暴击伤害.</string>
+	<string name="skills.ranger.deadly-aim.3">弓箭射击有10%几率暴击并标记目标2.5秒,被标记目标有5%几率受到暴击伤害.</string>
+	<string name="skills.ranger.deadly-aim.4">弓箭射击有12.5%几率暴击并标记目标2.5秒,被标记目标有5%几率受到暴击伤害.</string>
 
 	<string name="skills.ranger.grasping-roots">缠绕根须</string>
 	<string name="skills.ranger.grasping-roots.create">游侠周围的地面长出的根须缠绕敌人,使敌人无法移动并降低防御.</string>
@@ -1644,13 +1650,13 @@
 	<string name="skills.ranger.grasping-roots.4">将游侠周围的敌人固定5秒.被根须缠绕的敌人护甲降低25%.</string>
 
 		<string name="skills.ranger.powershot">塑能射击</string>
-	<string name="skills.ranger.powershot.create">游侠引导一次强力的射击，对路径上所有敌人造成巨额魔法伤害.</string>
-	<string name="skills.ranger.powershot.1">游侠引导一次强力的射击.持续引导以提升伤害和飞行速度，1秒后达到上限.最高100点魔法伤害.塑能射击的伤害无视目标50%魔抗.</string>
-	<string name="skills.ranger.powershot.2">游侠引导一次强力的射击.持续引导以提升伤害和飞行速度，1秒后达到上限.最高200点魔法伤害.塑能射击的伤害无视目标50%魔抗.</string>
-	<string name="skills.ranger.powershot.3">游侠引导一次强力的射击.持续引导以提升伤害和飞行速度，1秒后达到上限.最高300点魔法伤害.塑能射击的伤害无视目标50%魔抗.</string>
+	<string name="skills.ranger.powershot.create">游侠引导一次强力的射击,对路径上所有敌人造成巨额魔法伤害.</string>
+	<string name="skills.ranger.powershot.1">游侠引导一次强力的射击.持续引导以提升伤害和飞行速度,1秒后达到上限.最高100点魔法伤害.塑能射击的伤害无视目标50%魔抗.</string>
+	<string name="skills.ranger.powershot.2">游侠引导一次强力的射击.持续引导以提升伤害和飞行速度,1秒后达到上限.最高200点魔法伤害.塑能射击的伤害无视目标50%魔抗.</string>
+	<string name="skills.ranger.powershot.3">游侠引导一次强力的射击.持续引导以提升伤害和飞行速度,1秒后达到上限.最高300点魔法伤害.塑能射击的伤害无视目标50%魔抗.</string>
 	
 	<string name="skills.ranger.twinned-arrows">分裂箭矢</string>
-	<string name="skills.ranger.twinned-arrows.create">游侠的普通攻击命中后，有一定几率分裂出新的箭矢，新箭矢的攻击方向会偏向次级目标.</string>
+	<string name="skills.ranger.twinned-arrows.create">游侠的普通攻击命中后,有一定几率分裂出新的箭矢,新箭矢的攻击方向会偏向次级目标.</string>
 	<string name="skills.ranger.twinned-arrows.1">游侠射出的箭矢有25%几率分裂并寻找新的目标.</string>
 	<string name="skills.ranger.twinned-arrows.2">游侠射出的箭矢有40%几率分裂并寻找新的目标.</string>
 
@@ -1683,11 +1689,11 @@
 	<string name="skills.sorcerer.biting-chill.5">被巫师技能击中的敌人会在4秒内减速40%,并有7.5%几率冻结2.25秒.</string>
 
 	<string name="skills.sorcerer.ice-barrier">寒冰护体</string>
-	<string name="skills.sorcerer.ice-barrier.create">每次施法后，巫师都会召唤一层冰甲结附己身，以降低受到的下一次伤害.</string>
-	<string name="skills.sorcerer.ice-barrier.1">每次施法后，巫师都会召唤一层冰甲结附己身，以降低受到的下一次伤害.冰甲存续2.5秒，每层冰甲生效1次，降低20%受到的伤害，冰甲最多叠加5层.</string>
-	<string name="skills.sorcerer.ice-barrier.2">每次施法后，巫师都会召唤一层冰甲结附己身，以降低受到的下一次伤害.冰甲存续2.5秒，每层冰甲生效1次，降低30%受到的伤害，冰甲最多叠加6层.</string>
-	<string name="skills.sorcerer.ice-barrier.3">每次施法后，巫师都会召唤一层冰甲结附己身，以降低受到的下一次伤害.冰甲存续2.5秒，每层冰甲生效1次，降低40%受到的伤害，冰甲最多叠加7层.</string>
-	<string name="skills.sorcerer.ice-barrier.4">每次施法后，巫师都会召唤一层冰甲结附己身，以降低受到的下一次伤害.冰甲存续2.5秒，每层冰甲生效1次，降低50%受到的伤害，冰甲最多叠加8层.</string>
+	<string name="skills.sorcerer.ice-barrier.create">每次施法后,巫师都会召唤一层冰甲结附己身,以降低受到的下一次伤害.</string>
+	<string name="skills.sorcerer.ice-barrier.1">每次施法后,巫师都会召唤一层冰甲结附己身,以降低受到的下一次伤害.冰甲存续2.5秒,每层冰甲生效1次,降低20%受到的伤害,冰甲最多叠加5层.</string>
+	<string name="skills.sorcerer.ice-barrier.2">每次施法后,巫师都会召唤一层冰甲结附己身,以降低受到的下一次伤害.冰甲存续2.5秒,每层冰甲生效1次,降低30%受到的伤害,冰甲最多叠加6层.</string>
+	<string name="skills.sorcerer.ice-barrier.3">每次施法后,巫师都会召唤一层冰甲结附己身,以降低受到的下一次伤害.冰甲存续2.5秒,每层冰甲生效1次,降低40%受到的伤害,冰甲最多叠加7层.</string>
+	<string name="skills.sorcerer.ice-barrier.4">每次施法后,巫师都会召唤一层冰甲结附己身,以降低受到的下一次伤害.冰甲存续2.5秒,每层冰甲生效1次,降低50%受到的伤害,冰甲最多叠加8层.</string>
 
 	<string name="skills.sorcerer.frost-nova">冰霜新星</string>
 	<string name="skills.sorcerer.frost-nova.create">巫师向周围发射出一些冰球碎片.</string>
@@ -1703,14 +1709,14 @@
 	<string name="skills.sorcerer.orb-of-winter.3">创造一个缓慢定向移动的冰球,冰球会向周边不断发射大量小型碎冰.冰球持续6.5秒,向周围放出碎冰,每片造成20点混合伤害.</string>
 
 	<string name="skills.sorcerer.shatter">粉碎</string>
-	<string name="skills.sorcerer.shatter.create">巫师每杀死1个被冻结的敌人，都会使其爆炸，造成范围伤害.</string>
-	<string name="skills.sorcerer.shatter.1">巫师每杀死1个被冻结的敌人，都会使其爆炸，造成范围伤害.爆炸造成40点伤害.</string>
-	<string name="skills.sorcerer.shatter.2">巫师每杀死1个被冻结的敌人，都会使其爆炸，造成范围伤害.爆炸造成80点伤害.</string>
+	<string name="skills.sorcerer.shatter.create">巫师每杀死1个被冻结的敌人,都会使其爆炸,造成范围伤害.</string>
+	<string name="skills.sorcerer.shatter.1">巫师每杀死1个被冻结的敌人,都会使其爆炸,造成范围伤害.爆炸造成40点伤害.</string>
+	<string name="skills.sorcerer.shatter.2">巫师每杀死1个被冻结的敌人,都会使其爆炸,造成范围伤害.爆炸造成80点伤害.</string>
 
 
 	<!-- Thief -->
 	<string name="skills.thief.twin-daggers">孪生双刃</string>
-	<string name="skills.thief.twin-daggers.create">造成物理伤害的近战攻击.双刃不仅攻速快，还能打落大部分投射物</string>
+	<string name="skills.thief.twin-daggers.create">造成物理伤害的近战攻击.双刃不仅攻速快,还能打落大部分投射物</string>
 	<string name="skills.thief.twin-daggers.1">每两次快速的近战攻击,造成6*2点物理伤害.攻击时移动速度降低60%.</string>
 	<string name="skills.thief.twin-daggers.2">每两次快速的近战攻击,造成8*2点物理伤害.攻击时移动速度降低50%.</string>
 	<string name="skills.thief.twin-daggers.3">每两次快速的近战攻击,造成10*2点物理伤害.攻击时移动速度降低40%.</string>
@@ -1719,7 +1725,7 @@
 	<string name="skills.thief.twin-daggers.6">每两次快速的近战攻击,造成16*2点物理伤害.攻击时移动速度降低10%.</string>
 
 	<string name="skills.thief.throwing-knives">投掷匕首</string>
-	<string name="skills.thief.throwing-knives.create">盗贼向身前扇形区域内扔出匕首造成伤害，匕首可以穿透敌人.</string>
+	<string name="skills.thief.throwing-knives.create">盗贼向身前扇形区域内扔出匕首造成伤害,匕首可以穿透敌人.</string>
 	<string name="skills.thief.throwing-knives.1">在前方45度扇形范围内扔出5把小刀,每个造成12点物理伤害,最多可穿透5个敌人.</string>
 	<string name="skills.thief.throwing-knives.2">在前方50度扇形范围内扔出6把小刀,每个造成16点物理伤害,最多可穿透6个敌人.</string>
 	<string name="skills.thief.throwing-knives.3">在前方55度扇形范围内扔出7把小刀,每个造成20点物理伤害,最多可穿透7个敌人.</string>
@@ -1751,9 +1757,9 @@
 
 	<string name="skills.thief.smoke-bomb">烟幕弹</string>
 	<string name="skills.thief.smoke-bomb.create">盗贼扔出一个烟幕弹,使范围内所有敌人眩晕,并掩护队友.</string>
-	<string name="skills.thief.smoke-bomb.1">盗贼扔出一个烟幕弹,烟幕弹可以使周围的敌人眩晕2秒，友军获得10%闪避.</string>
-	<string name="skills.thief.smoke-bomb.2">盗贼扔出一个烟幕弹,烟幕弹可以使周围的敌人眩晕3秒，友军获得20%闪避.范围更大</string>
-	<string name="skills.thief.smoke-bomb.3">盗贼扔出一个烟幕弹,烟幕弹可以使周围的敌人眩晕4秒，友军获得30%闪避.范围更大.</string>
+	<string name="skills.thief.smoke-bomb.1">盗贼扔出一个烟幕弹,烟幕弹可以使周围的敌人眩晕2秒,友军获得10%闪避.</string>
+	<string name="skills.thief.smoke-bomb.2">盗贼扔出一个烟幕弹,烟幕弹可以使周围的敌人眩晕3秒,友军获得20%闪避.范围更大</string>
+	<string name="skills.thief.smoke-bomb.3">盗贼扔出一个烟幕弹,烟幕弹可以使周围的敌人眩晕4秒,友军获得30%闪避.范围更大.</string>
 
 	<string name="skills.thief.vicious-cuts">烈毒狂戮</string>
 	<string name="skills.thief.vicious-cuts.create">每次独立的双刃攻击都有几率使目标失去一定百分比的当前生命.</string>
@@ -1763,16 +1769,16 @@
 
 	<!-- Warlock -->
 	<string name="skills.warlock.soul-dagger">吸魂短匕</string>
-	<string name="skills.warlock.soul-dagger.create">造成持续性魔法伤害的近距离攻击，术士能从其施加灼魂效果的伤害中汲取生命和法力.</string>
-	<string name="skills.warlock.soul-dagger.1">吸魂短匕对敌人施加灼魂效果，使其在2.5秒内受到每秒10点魔法伤害,术士能回复该伤害值5%的生命和10%的法力.</string>
-	<string name="skills.warlock.soul-dagger.2">吸魂短匕对敌人施加灼魂效果，使其在3秒内受到每秒12点魔法伤害,术士能回复该伤害值5%的生命和10%的法力.</string>
-	<string name="skills.warlock.soul-dagger.3">吸魂短匕对敌人施加灼魂效果，使其在3.5秒内受到每秒14点魔法伤害,术士能回复该伤害值5%的生命和10%的法力.</string>
-	<string name="skills.warlock.soul-dagger.4">吸魂短匕对敌人施加灼魂效果，使其在4秒内受到每秒16点魔法伤害,术士能回复该伤害值5%的生命和10%的法力.</string>
-	<string name="skills.warlock.soul-dagger.5">吸魂短匕对敌人施加灼魂效果，使其在4.5秒内受到每秒18点魔法伤害,术士能回复该伤害值5%的生命和10%的法力.</string>
-	<string name="skills.warlock.soul-dagger.6">吸魂短匕对敌人施加灼魂效果，使其在5秒内受到每秒20点魔法伤害,术士能回复该伤害值5%的生命和10%的法力.</string>
+	<string name="skills.warlock.soul-dagger.create">造成持续性魔法伤害的近距离攻击,术士能从其施加灼魂效果的伤害中汲取生命和法力.</string>
+	<string name="skills.warlock.soul-dagger.1">吸魂短匕对敌人施加灼魂效果,使其在2.5秒内受到每秒10点魔法伤害,术士能回复该伤害值5%的生命和10%的法力.</string>
+	<string name="skills.warlock.soul-dagger.2">吸魂短匕对敌人施加灼魂效果,使其在3秒内受到每秒12点魔法伤害,术士能回复该伤害值5%的生命和10%的法力.</string>
+	<string name="skills.warlock.soul-dagger.3">吸魂短匕对敌人施加灼魂效果,使其在3.5秒内受到每秒14点魔法伤害,术士能回复该伤害值5%的生命和10%的法力.</string>
+	<string name="skills.warlock.soul-dagger.4">吸魂短匕对敌人施加灼魂效果,使其在4秒内受到每秒16点魔法伤害,术士能回复该伤害值5%的生命和10%的法力.</string>
+	<string name="skills.warlock.soul-dagger.5">吸魂短匕对敌人施加灼魂效果,使其在4.5秒内受到每秒18点魔法伤害,术士能回复该伤害值5%的生命和10%的法力.</string>
+	<string name="skills.warlock.soul-dagger.6">吸魂短匕对敌人施加灼魂效果,使其在5秒内受到每秒20点魔法伤害,术士能回复该伤害值5%的生命和10%的法力.</string>
 
 	<string name="skills.warlock.lightning-bolt">闪电链</string>
-	<string name="skills.warlock.lightning-bolt.create">发射一道闪电,闪电击中目标时会传向次级目标，造成同等伤害.</string>
+	<string name="skills.warlock.lightning-bolt.create">发射一道闪电,闪电击中目标时会传向次级目标,造成同等伤害.</string>
 	<string name="skills.warlock.lightning-bolt.1">发射一道闪电击中5个目标,对每个目标造成20点魔法伤害.</string>
 	<string name="skills.warlock.lightning-bolt.2">发射一道闪电击中6个目标,对每个目标造成23点魔法伤害.</string>
 	<string name="skills.warlock.lightning-bolt.3">发射一道闪电击中7个目标,对每个目标造成26点魔法伤害.</string>
@@ -1796,17 +1802,17 @@
 	<string name="skills.warlock.soul-cleaver.4">被灼魂伤害的敌人将把他们受到伤害的50%传递给周围的目标.</string>
 
 	<string name="skills.warlock.summon-gargoyle">石爪图腾</string>
-	<string name="skills.warlock.summon-gargoyle.create">召唤一个向周围快速发射闪电并晕眩周围敌人的石爪图腾.石爪图腾可以与附近的石爪图腾相连，创造一个伤害和眩晕敌人的静电链接.</string>
-	<string name="skills.warlock.summon-gargoyle.1">闪电对命中的敌人造成20点魔法伤害.石爪图腾持续5秒.石爪图腾可以与附近的石爪图腾相连，创造一个伤害和眩晕敌人的静电链接.</string>
-	<string name="skills.warlock.summon-gargoyle.2">闪电对命中的敌人造成24点魔法伤害.石爪图腾持续5秒.石爪图腾可以与附近的石爪图腾相连，创造一个伤害和眩晕敌人的静电链接.</string>
-	<string name="skills.warlock.summon-gargoyle.3">闪电对命中的敌人造成28点魔法伤害.石爪图腾持续5秒.石爪图腾可以与附近的石爪图腾相连，创造一个伤害和眩晕敌人的静电链接.</string>
-	<string name="skills.warlock.summon-gargoyle.4">闪电对命中的敌人造成32点魔法伤害.石爪图腾持续5秒.石爪图腾可以与附近的石爪图腾相连，创造一个伤害和眩晕敌人的静电链接.</string>
+	<string name="skills.warlock.summon-gargoyle.create">召唤一个向周围快速发射闪电并晕眩周围敌人的石爪图腾.石爪图腾可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
+	<string name="skills.warlock.summon-gargoyle.1">闪电对命中的敌人造成20点魔法伤害.石爪图腾持续5秒.石爪图腾可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
+	<string name="skills.warlock.summon-gargoyle.2">闪电对命中的敌人造成24点魔法伤害.石爪图腾持续5秒.石爪图腾可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
+	<string name="skills.warlock.summon-gargoyle.3">闪电对命中的敌人造成28点魔法伤害.石爪图腾持续5秒.石爪图腾可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
+	<string name="skills.warlock.summon-gargoyle.4">闪电对命中的敌人造成32点魔法伤害.石爪图腾持续5秒.石爪图腾可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
 
 	<string name="skills.warlock.eye-of-the-storm">风暴之眼</string>
-	<string name="skills.warlock.eye-of-the-storm.create">生成一团跟随术士的雷云.雷云会对周围的敌人发射闪电.还可以与附近的石爪图腾相连，创造一个伤害和眩晕敌人的静电链接.</string>
-	<string name="skills.warlock.eye-of-the-storm.1">闪电对敌人造成24点魔法伤害.雷云持续7秒.还可以与附近的石爪图腾相连，创造一个伤害和眩晕敌人的静电链接.</string>
-	<string name="skills.warlock.eye-of-the-storm.2">闪电对敌人造成32点魔法伤害.雷云持续9秒.还可以与附近的石爪图腾相连，创造一个伤害和眩晕敌人的静电链接.</string>
-	<string name="skills.warlock.eye-of-the-storm.3">闪电对敌人造成40点魔法伤害.雷云持续11秒.还可以与附近的石爪图腾相连，创造一个伤害和眩晕敌人的静电链接.</string>
+	<string name="skills.warlock.eye-of-the-storm.create">生成一团跟随术士的雷云.雷云会对周围的敌人发射闪电.还可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
+	<string name="skills.warlock.eye-of-the-storm.1">闪电对敌人造成24点魔法伤害.雷云持续7秒.还可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
+	<string name="skills.warlock.eye-of-the-storm.2">闪电对敌人造成32点魔法伤害.雷云持续9秒.还可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
+	<string name="skills.warlock.eye-of-the-storm.3">闪电对敌人造成40点魔法伤害.雷云持续11秒.还可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
 
 	<string name="skills.warlock.stormlash">风暴鞭笞</string>
 	<string name="skills.warlock.stormlash.create">包括风暴鞭笞在内所有技能引发的闪电都有几率触发一条次级闪电.</string>
@@ -1842,11 +1848,11 @@
 	<string name="skills.wizard.combustion.5">技能额外对敌人每秒造成20点魔法伤害,持续4秒.</string>
 
 	<string name="skills.wizard.flame-shield">火焰护盾</string>
-	<string name="skills.wizard.flame-shield.create">火焰法师每过一段时间都可以使受到的下一次伤害降低.每当火焰护盾就绪时，都会触发一次烈焰波.</string>
-	<string name="skills.wizard.flame-shield.1">护盾降低20%受到的下一次伤害,需要8秒充能.每当火焰护盾就绪时，都会触发一次烈焰波.</string>
-	<string name="skills.wizard.flame-shield.2">护盾降低30%受到的下一次伤害,需要7秒充能.每当火焰护盾就绪时，都会触发一次烈焰波.</string>
-	<string name="skills.wizard.flame-shield.3">护盾降低40%受到的下一次伤害,需要6秒充能.每当火焰护盾就绪时，都会触发一次烈焰波.</string>
-	<string name="skills.wizard.flame-shield.4">护盾降低50%受到的下一次伤害,需要5秒充能.每当火焰护盾就绪时，都会触发一次烈焰波.</string>
+	<string name="skills.wizard.flame-shield.create">火焰法师每过一段时间都可以使受到的下一次伤害降低.每当火焰护盾就绪时,都会触发一次烈焰波.</string>
+	<string name="skills.wizard.flame-shield.1">护盾降低20%受到的下一次伤害,需要8秒充能.每当火焰护盾就绪时,都会触发一次烈焰波.</string>
+	<string name="skills.wizard.flame-shield.2">护盾降低30%受到的下一次伤害,需要7秒充能.每当火焰护盾就绪时,都会触发一次烈焰波.</string>
+	<string name="skills.wizard.flame-shield.3">护盾降低40%受到的下一次伤害,需要6秒充能.每当火焰护盾就绪时,都会触发一次烈焰波.</string>
+	<string name="skills.wizard.flame-shield.4">护盾降低50%受到的下一次伤害,需要5秒充能.每当火焰护盾就绪时,都会触发一次烈焰波.</string>
 
 	<string name="skills.wizard.blast-wave">烈焰波</string>
 	<string name="skills.wizard.blast-wave.create">火焰法师向周围释放爆炸性的冲击波,造成伤害并迷惑敌人.烈焰波还会摧毁大部分投射物.</string>
@@ -1880,7 +1886,7 @@
 	<string name="item.amulet-of-resistance.desc">+ %res% 魔法抗性.</string>
 
 	<string name="item.apothecarys-herbs.name">药剂师的草药</string>
-	<string name="item.apothecarys-herbs.desc">饮用药剂后提升 %mspeed%% 移动速度，持续 %dur% 秒.</string>
+	<string name="item.apothecarys-herbs.desc">饮用药剂后提升 %mspeed%% 移动速度,持续 %dur% 秒.</string>
 
 	<string name="item.blackjack.name">黑铁棒</string>
 	<string name="item.blackjack.desc">攻击时有 %chance%% 几率眩晕敌人 %dur% 秒.</string>
@@ -1897,10 +1903,10 @@
 	<string name="item.broad-sword.desc">+ %atk% 普攻伤害.</string>
 
 	<string name="item.cape-of-withdrawal.name">撤退披肩</string>
-	<string name="item.cape-of-withdrawal.desc">被敌人击中时提升 %mspeed%% 移动速度，持续 %dur% 秒.</string>
+	<string name="item.cape-of-withdrawal.desc">被敌人击中时提升 %mspeed%% 移动速度,持续 %dur% 秒.</string>
 
 	<string name="item.circlet-of-willpower.name">坚毅之戒</string>
-	<string name="item.circlet-of-willpower.desc">当生命值低于 %health%% 时，降低 %scost%% 施法消耗.</string>
+	<string name="item.circlet-of-willpower.desc">当生命值低于 %health%% 时,降低 %scost%% 施法消耗.</string>
 
 	<string name="item.chainmail.name">锁子甲</string>
 	<string name="item.chainmail.desc">+ %armor% 护甲.</string>
@@ -1912,7 +1918,7 @@
 	<string name="item.curios-box.desc">%stats% 生命与法力上限. \n%power% 普通攻击与技能伤害. \n%armor% 护甲与魔抗.</string>
 
 	<string name="item.defenders-halberd.name">防卫斧枪</string>
-	<string name="item.defenders-halberd.desc">被敌人击中时，使攻击者缴械 %dur% 秒.</string>
+	<string name="item.defenders-halberd.desc">被敌人击中时,使攻击者缴械 %dur% 秒.</string>
 
 	<string name="item.enchanted-dirk.name">魔法短剑</string>
 	<string name="item.enchanted-dirk.desc">+ %dmg% 普攻附加物理伤害\n+ 1 普攻附加魔法伤害.</string>
@@ -1921,7 +1927,7 @@
 	<string name="item.firm-buckler.desc">有 %chance%% 几率抵御 %block% 物理伤害.</string>
 
 	<string name="item.gladiators-net.name">角斗士之网</string>
-	<string name="item.gladiators-net.desc">击中敌人时，有 %chance%% 几率使其被缴械 %dur% 秒.</string>>
+	<string name="item.gladiators-net.desc">击中敌人时,有 %chance%% 几率使其被缴械 %dur% 秒.</string>>
 
 	<string name="item.glowing-staff.name">炽热法杖</string>
 	<string name="item.glowing-staff.desc">%power% 技能伤害\n%dmg% 普攻附加魔法伤害.</string>
@@ -1930,7 +1936,7 @@
 	<string name="item.great-helm.desc">+ %armor% 护甲.</string>
 
 	<string name="item.greaves-of-the-barbarian.name">野蛮人胫甲</string>
-	<string name="item.greaves-of-the-barbarian.desc">击杀敌人后有 %chance%% 几率获得%mspeed%%移动速度加成，持续 %dur% 秒.</string>
+	<string name="item.greaves-of-the-barbarian.desc">击杀敌人后有 %chance%% 几率获得%mspeed%%移动速度加成,持续 %dur% 秒.</string>
 
 	<string name="item.heavy-gauntlets.name">重铁手套</string>
 	<string name="item.heavy-gauntlets.desc">+ %health% 生命上限.</string>
@@ -1942,7 +1948,7 @@
 	<string name="item.lesser-sphere-of-mana.desc">连杀期间 + %mregen% 法力回复率.</string>
 
 	<string name="item.lesser-sphere-of-nova.name">小型新星宝珠</string>
-	<string name="item.lesser-sphere-of-nova.desc">连杀期间，向四周释放新星爆发冲击波，每秒一次，造成 %dmg% 魔法伤害.</string>
+	<string name="item.lesser-sphere-of-nova.desc">连杀期间,向四周释放新星爆发冲击波,每秒一次,造成 %dmg% 魔法伤害.</string>
 
 	<string name="item.lesser-sphere-of-time.name">小型时间宝珠</string>
 	<string name="item.lesser-sphere-of-time.desc">连杀持续时间增加 %dur%秒.</string>
@@ -1957,22 +1963,22 @@
 	<string name="item.mage-robe.desc">+ %mana% 法力上限.</string>
 
 	<string name="item.mana-stone.name">魔法之石</string>
-	<string name="item.mana-stone.desc">击杀敌人后，有 %chance%% 几率回复 1 魔法值.</string>
+	<string name="item.mana-stone.desc">击杀敌人后,有 %chance%% 几率回复 1 魔法值.</string>
 
 	<string name="item.markhams-purse.name">万锦钱包</string>
-	<string name="item.markhams-purse.desc">物品栏每有一件物品， %gain%% 金币拾取效率.</string>
+	<string name="item.markhams-purse.desc">物品栏每有一件物品, %gain%% 金币拾取效率.</string>
 
 	<string name="item.monster-pamphlet-aberration.name">怪物手册: 变异生物</string>
-	<string name="item.monster-pamphlet-aberration.desc">对变异生物 +%exp%% 经验， +%dmg%% 伤害.</string>
+	<string name="item.monster-pamphlet-aberration.desc">对变异生物 +%exp%% 经验, +%dmg%% 伤害.</string>
 
 	<string name="item.monster-pamphlet-beast.name">怪物手册: 野兽生物</string>
-	<string name="item.monster-pamphlet-beast.desc">对野兽生物 +%exp%% 经验， +%dmg%% 伤害.</string>
+	<string name="item.monster-pamphlet-beast.desc">对野兽生物 +%exp%% 经验, +%dmg%% 伤害.</string>
 
 	<string name="item.monster-pamphlet-construct.name">怪物手册: 建筑物</string>
-	<string name="item.monster-pamphlet-construct.desc">对建筑物 +%exp%% 经验， +%dmg%% 伤害.</string>
+	<string name="item.monster-pamphlet-construct.desc">对建筑物 +%exp%% 经验, +%dmg%% 伤害.</string>
 
 	<string name="item.monster-pamphlet-undead.name">怪物手册: 亡灵生物</string>
-	<string name="item.monster-pamphlet-undead.desc">对亡灵生物 +%exp%% 经验， +%dmg%% 伤害.</string>
+	<string name="item.monster-pamphlet-undead.desc">对亡灵生物 +%exp%% 经验, +%dmg%% 伤害.</string>
 
 	<string name="item.ring-health.name">治疗指环</string>
 	<string name="item.ring-health.desc">+ %hregen% 生命回复.</string>
@@ -1987,10 +1993,10 @@
 	<string name="item.sandals-swiftness.desc">+ %mspeed% 移动速度\n+ %evasion%% 闪避.</string>
 
 	<string name="item.scroll-of-magic-missile-a.name">魔法飞弹卷轴：第一卷</string>
-	<string name="item.scroll-of-magic-missile-a.desc">使用技能时施放魔法飞弹造成%dmg%魔法伤害，内置2秒冷却时间.</string>
+	<string name="item.scroll-of-magic-missile-a.desc">使用技能时施放魔法飞弹造成%dmg%魔法伤害,内置2秒冷却时间.</string>
 
 	<string name="item.scroll-of-magic-missile-b.name">魔法飞弹卷轴：第二卷</string>
-	<string name="item.scroll-of-magic-missile-b.desc">使用技能时施放魔法飞弹造成%dmg%魔法伤害，内置2秒冷却时间.</string>
+	<string name="item.scroll-of-magic-missile-b.desc">使用技能时施放魔法飞弹造成%dmg%魔法伤害,内置2秒冷却时间.</string>
 
 	<string name="item.serrated-scimitar.name">锯齿弯刀</string>
 	<string name="item.serrated-scimitar.desc">+ %chance%% 普通攻击暴击率.</string>
@@ -2014,7 +2020,7 @@
 	<string name="item.sturdy-belt.desc">+ %health% 生命上限.</string>
 
 	<string name="item.vendors-coin.name">供应商的硬币</string>
-	<string name="item.vendors-coin.desc">在商店购物时，有 %price%% 优惠.</string>
+	<string name="item.vendors-coin.desc">在商店购物时,有 %price%% 优惠.</string>
 
 	<string name="item.war-axe.name">战斧</string>
 	<string name="item.war-axe.desc">+ %dmg% 普攻附加物理伤害.</string>
@@ -2029,7 +2035,7 @@
 	<string name="item.adventurers-garb.desc">+ %health% 生命上限\n+ %mana% 法力上限.</string>
 
 	<string name="item.apothecarys-mortar-pestle.name">药剂师的钵杵</string>
-	<string name="item.apothecarys-mortar-pestle.desc">饮用药剂后，护甲和魔法抗性提升 %eff%%，持续 5 秒 .</string>
+	<string name="item.apothecarys-mortar-pestle.desc">饮用药剂后,护甲和魔法抗性提升 %eff%%,持续 5 秒 .</string>
 
 	<string name="item.apothecarys-satchel.name">药剂师的背包</string>
 	<string name="item.apothecarys-satchel.desc">+ %eff%% 药剂效果.</string>
@@ -2071,43 +2077,43 @@
 	<string name="item.gloves-of-warding.desc">增加一个抵御%block%魔法伤害的被动效果, 冷却时间%cd%秒.</string>
 
 	<string name="item.key-ring.name">钥匙圈</string>
-	<string name="item.key-ring.desc">拾取钥匙时，有 %chance%% 几率获得额外的钥匙.</string>
+	<string name="item.key-ring.desc">拾取钥匙时,有 %chance%% 几率获得额外的钥匙.</string>
 
 	<string name="item.greater-ring-rejuvenation.name">大活力戒指</string>
 	<string name="item.greater-ring-rejuvenation.desc">+ %hregen% 生命回复\n+ %mregen% 法力回复.</string>
 
 	<string name="item.markhams-stone.name">万锦之石</string>
-	<string name="item.markhams-stone.desc">装备栏每有一件物品，%gain%% 矿石拾取效率.</string>
+	<string name="item.markhams-stone.desc">装备栏每有一件物品,%gain%% 矿石拾取效率.</string>
 
 	<string name="item.monster-manual-aberration.name">怪物指南: 变异生物</string>
-	<string name="item.monster-manual-aberration.desc">对变异生物 +%exp%% 经验， +%dmg%% 伤害值.</string>
+	<string name="item.monster-manual-aberration.desc">对变异生物 +%exp%% 经验, +%dmg%% 伤害值.</string>
 
 	<string name="item.monster-manual-beast.name">怪物指南: 野兽生物</string>
-	<string name="item.monster-manual-beast.desc">对野兽生物 +%exp%% 经验， +%dmg%% 伤害值.</string>
+	<string name="item.monster-manual-beast.desc">对野兽生物 +%exp%% 经验, +%dmg%% 伤害值.</string>
 
 	<string name="item.monster-manual-construct.name">怪物指南: 建筑物</string>
-	<string name="item.monster-manual-construct.desc">对建筑物 +%exp%% 经验， +%dmg%% 伤害值.</string>
+	<string name="item.monster-manual-construct.desc">对建筑物 +%exp%% 经验, +%dmg%% 伤害值.</string>
 
 	<string name="item.monster-manual-undead.name">怪物指南: 亡灵生物</string>
-	<string name="item.monster-manual-undead.desc">对亡灵生物 +%exp%% 经验， +%dmg%% 伤害值.</string>
+	<string name="item.monster-manual-undead.desc">对亡灵生物 +%exp%% 经验, +%dmg%% 伤害值.</string>
 
 	<string name="item.old-map.name">旧地图</string>
 	<string name="item.old-map.desc">消除地图上的战争迷雾.</string>
 
 	<string name="item.rapier-of-retaliation.name">回馈之剑</string>
-	<string name="item.rapier-of-retaliation.desc">+ %evasion%% 闪避.\n每次闪避后,你造成的伤害增加 %dmg%% ，持续 %sec% 秒.</string>
+	<string name="item.rapier-of-retaliation.desc">+ %evasion%% 闪避.\n每次闪避后,你造成的伤害增加 %dmg%% ,持续 %sec% 秒.</string>
 
 	<string name="item.reinforced-gloves.name">钢铁臂铠</string>
-	<string name="item.reinforced-gloves.desc">提供一个抵御 %block% 点物理伤害的护盾，内置%cd%秒冷却时间.</string>
+	<string name="item.reinforced-gloves.desc">提供一个抵御 %block% 点物理伤害的护盾,内置%cd%秒冷却时间.</string>
 
 	<string name="item.ring-of-transmutation.name">转化之戒</string>
-	<string name="item.ring-of-transmutation.desc">损失生命时，将获得损失量 %mana%% 的法力.</string>
+	<string name="item.ring-of-transmutation.desc">损失生命时,将获得损失量 %mana%% 的法力.</string>
 
 	<string name="item.robe-of-arch-magi.name">大法师长袍</string>
 	<string name="item.robe-of-arch-magi.desc">+ %spell% 技能伤害\n+ %res% 魔法抗性.</string>
 
 	<string name="item.scarab-of-protection.name">圣甲虫护符</string>
-	<string name="item.scarab-of-protection.desc">被击中时，对攻击者造成 %return% 魔法伤害，并放出一圈毒镖.</string>
+	<string name="item.scarab-of-protection.desc">被击中时,对攻击者造成 %return% 魔法伤害,并放出一圈毒镖.</string>
 
 	<string name="item.seal-of-the-martyr.name">烈士勋章</string>
 	<string name="item.seal-of-the-martyr.desc">每损失 1% 生命就增加 1% 普攻伤害.</string>
@@ -2128,7 +2134,7 @@
 	<string name="item.sphere-of-mana.desc">连杀期间 + %mregen% 法力回复.</string>
 
 	<string name="item.sphere-of-nova.name">连杀新星</string>
-	<string name="item.sphere-of-nova.desc">连杀期间向四周释放强大的新星爆发冲击波，每秒一次，造成 %dmg% 魔法伤害.</string>
+	<string name="item.sphere-of-nova.desc">连杀期间向四周释放强大的新星爆发冲击波,每秒一次,造成 %dmg% 魔法伤害.</string>
 
 	<string name="item.sphere-of-time.name">时间宝珠</string>
 	<string name="item.sphere-of-time.desc">连杀持续时间增加 %dur%秒.</string>
@@ -2146,7 +2152,7 @@
 	<string name="item.talisman-of-decay.desc">周围的敌人受到的伤害增加 %taken%% .</string>
 
 	<string name="item.tome-of-magic-missile.name">魔法飞弹之书</string>
-	<string name="item.tome-of-magic-missile.desc">%skill% 技能伤害.\n使用技能时施放魔法飞弹造成%dmg%魔法伤害，内置2秒冷却时间</string>
+	<string name="item.tome-of-magic-missile.desc">%skill% 技能伤害.\n使用技能时施放魔法飞弹造成%dmg%魔法伤害,内置2秒冷却时间</string>
 
 	<string name="item.tower-shield.name">塔盾</string>
 	<string name="item.tower-shield.desc">有 %chance%% 几率抵御 %block% 物理伤害.</string>
@@ -2174,19 +2180,19 @@
 	<string name="item.boots-of-the-giant.desc">碰到的敌人会眩晕%stun% 秒并减少%health% 生命.</string>
 
 	<string name="item.cape-of-the-flamewalker.name">火焰行者披风</string>
-	<string name="item.cape-of-the-flamewalker.desc">燃烧身边的敌人，每秒造成 %dmg% 魔法伤害.</string>
+	<string name="item.cape-of-the-flamewalker.desc">燃烧身边的敌人,每秒造成 %dmg% 魔法伤害.</string>
 
 	<string name="item.curios-coffer.name">珍宝巨箱</string>
 	<string name="item.curios-coffer.desc">%stats% 生命与法力上限.\n%power% 普通攻击与技能伤害.\n%armor% 护甲 与 魔抗.</string>
 
 	<string name="item.duelists-edge.name">决斗之剑</string>
-	<string name="item.duelists-edge.desc">+ %evasion%% 闪避. 当被击中时，对攻击者造成 %dmg% 魔法伤害并施加流血效果.</string>
+	<string name="item.duelists-edge.desc">+ %evasion%% 闪避. 当被击中时,对攻击者造成 %dmg% 魔法伤害并施加流血效果.</string>
 
 	<string name="item.dukes-signet-ring.name">公爵徽章之戒</string>
 	<string name="item.dukes-signet-ring.desc">当受到伤害生命低于%cutoff%%时,产生一个能回复到最大生命值 %heal%%的生命回复阵.持续%dur%秒,冷却时间%cd%秒.</string>
 
 	<string name="item.earthsplitter.name">裂地者</string>
-	<string name="item.earthsplitter.desc">普通攻击击中敌人时，有 %chance%% 几率释放三根地刺，造成 %dmg% 物理伤害.</string>
+	<string name="item.earthsplitter.desc">普通攻击击中敌人时,有 %chance%% 几率释放三根地刺,造成 %dmg% 物理伤害.</string>
 
 	<string name="item.flametongue.name">火舌</string>
 	<string name="item.flametongue.desc">+ %dmg% 普攻附加魔法伤害.\n灼烧攻击到的敌人.</string>
@@ -2195,37 +2201,37 @@
 	<string name="item.frostbrand.desc">+ %dmg% 普攻附加魔法伤害. \n冻结攻击到的敌人.</string>
 
 	<string name="item.greater-sphere-of-nova.name">大型新星宝珠</string>
-	<string name="item.greater-sphere-of-nova.desc">连杀期间，向四周释放更强大的新星爆发冲击波，每秒一次，造成 %dmg% 魔法伤害.</string>
+	<string name="item.greater-sphere-of-nova.desc">连杀期间,向四周释放更强大的新星爆发冲击波,每秒一次,造成 %dmg% 魔法伤害.</string>
 
 	<string name="item.greater-sphere-of-regen.name">大型生命宝珠</string>
-	<string name="item.greater-sphere-of-regen.desc">连杀期间 + %hregen% 生命回复， + %mregen% 法力回复.</string>
+	<string name="item.greater-sphere-of-regen.desc">连杀期间 + %hregen% 生命回复, + %mregen% 法力回复.</string>
 
 	<string name="item.heartseeker.name">觅心者</string>
-	<string name="item.heartseeker.desc">普通攻击击中敌人时，有 %chance%% 几率造成暴击.</string>
+	<string name="item.heartseeker.desc">普通攻击击中敌人时,有 %chance%% 几率造成暴击.</string>
 
 	<string name="item.magebane.name">巫师之祸</string>
-	<string name="item.magebane.desc">普通攻击有 %chance%% 几率降低敌人 %res%% 魔法抗性，持续2秒.</string>
+	<string name="item.magebane.desc">普通攻击有 %chance%% 几率降低敌人 %res%% 魔法抗性,持续2秒.</string>
 	
 	<string name="item.markhams-amulet.name">万锦护符</string>
-	<string name="item.markhams-amulet.desc">装备栏每有一件物品， %gain% 生命上限 和 法力上限.</string>
+	<string name="item.markhams-amulet.desc">装备栏每有一件物品, %gain% 生命上限 和 法力上限.</string>
 
 	<string name="item.markhams-mace.name">万锦之锤</string>
-	<string name="item.markhams-mace.desc">装备栏每有一件物品， %gain% 普通攻击伤害.</string>
+	<string name="item.markhams-mace.desc">装备栏每有一件物品, %gain% 普通攻击伤害.</string>
 
 	<string name="item.markhams-wand.name">万锦法杖</string>
-	<string name="item.markhams-wand.desc">装备栏每有一件物品， %gain% 技能伤害.</string>
+	<string name="item.markhams-wand.desc">装备栏每有一件物品, %gain% 技能伤害.</string>
 
 	<string name="item.scepter-of-kings.name">国王权杖</string>
 	<string name="item.scepter-of-kings.desc">+ %spell% 技能伤害.</string>
 
 	<string name="item.shieldbreaker.name">碎盾者</string>
-	<string name="item.shieldbreaker.desc">普通攻击有 %chance%% 几率降低敌人 %armor%% 防御，持续 %sec% 秒.</string>
+	<string name="item.shieldbreaker.desc">普通攻击有 %chance%% 几率降低敌人 %armor%% 防御,持续 %sec% 秒.</string>
 
 	<string name="item.staff-of-volatile-casting.name">多变法杖</string>
 	<string name="item.staff-of-volatile-casting.desc">+ %chance%% 技能暴击几率.</string>
 
 	<string name="item.stormcaller.name">风暴召唤</string>
-	<string name="item.stormcaller.desc">普通攻击击中敌人时，有 %chance%% 几率释放闪电链, 造成 %dmg% 魔法伤害.</string>
+	<string name="item.stormcaller.desc">普通攻击击中敌人时,有 %chance%% 几率释放闪电链, 造成 %dmg% 魔法伤害.</string>
 
 	<string name="item.sword-kings.name">国王之剑</string>
 	<string name="item.sword-kings.desc">+ %atk% 普攻伤害.</string>
@@ -2262,16 +2268,16 @@
 
 
 	<string name="item.descending-destruction.name">毁灭降临</string>
-	<string name="item.descending-destruction.desc">普通攻击击中敌人时，有 %chance%% 几率降下一颗流星.造成100混合伤害并点燃敌人.</string>
+	<string name="item.descending-destruction.desc">普通攻击击中敌人时,有 %chance%% 几率降下一颗流星.造成100混合伤害并点燃敌人.</string>
 
 	<string name="item.medusas-charm.name">美杜莎魅惑</string>
 	<string name="item.medusas-charm.desc">你面向的敌人速度减慢 %slow%% . 眩晕击中的敌人 %stun% 秒.</string>
 
 	<string name="item.spirit-cloak.name">心灵斗篷</string>
-	<string name="item.spirit-cloak.desc">受到伤害后，无敌 %dur% 秒.</string>
+	<string name="item.spirit-cloak.desc">受到伤害后,无敌 %dur% 秒.</string>
 
 	<string name="item.soul-taker.name">灵魂收割</string>
-	<string name="item.soul-taker.desc">每当你杀死一个敌人时，也会击杀一个随机的同类型敌人.</string>
+	<string name="item.soul-taker.desc">每当你杀死一个敌人时,也会击杀一个随机的同类型敌人.</string>
 
 	<string name="item.sphere-of-heroes.name">英雄之环</string>
 	<string name="item.sphere-of-heroes.desc">在连杀状态下普攻会额外发出巨型新星.</string>
@@ -2328,8 +2334,8 @@
 	<string name="item.sets.curios-collection.desc">%stats% 生命与法力上限.\n%power% 普通攻击与技能伤害. \n%armor% 护甲 与 魔抗.</string>
 
 	<string name="item.sets.markhams-mastery.name">万锦奇珍</string>
-	<string name="item.sets.markhams-mastery.desc.1">装备栏每有一件物品， %gain% 护甲 与 魔抗.</string>
-	<string name="item.sets.markhams-mastery.desc.2">装备栏每有一件物品， %gain%% 攻击速度 和 技能冷却速度.</string>
+	<string name="item.sets.markhams-mastery.desc.1">装备栏每有一件物品, %gain% 护甲 与 魔抗.</string>
+	<string name="item.sets.markhams-mastery.desc.2">装备栏每有一件物品, %gain%% 攻击速度 和 技能冷却速度.</string>
 
 
 
@@ -2399,7 +2405,7 @@
 	<string name="drink.overflowing-physique.desc">+%pos%%基本生命值\n移动时损失%neg%%现有的法力.</string>
 
 	<string name="drink.last-stand.name">背水一战</string>
-	<string name="drink.last-stand.desc">+%pos%% 造成的伤害，原地不动时收到的伤害%neg%% .\n%mov%% 移动速度.</string>
+	<string name="drink.last-stand.desc">+%pos%% 造成的伤害,原地不动时收到的伤害%neg%% .\n%mov%% 移动速度.</string>
 
 	<string name="drink.the-last-sin.name">罪不容诛</string>
 	<string name="drink.the-last-sin.desc">%pos%% 技能暴击伤害\n%neg% 法力回复率.</string>
@@ -2659,7 +2665,7 @@
 	<string name="dialogue.town.npc.generic.ace1.4Rb">RESERVED</string>
 	<string name="dialogue.town.npc.generic.ace1.5Ra">我知道卡尔霍恩说去议会是小菜一碟,但是说真的,怎么可能!</string>
 	<string name="dialogue.town.npc.generic.ace1.5Rb">RESERVED</string>
-	<string name="dialogue.town.npc.generic.ace1.6Ra">令人伤心的是，这里没有人能够屠龙,\n你应该像我一样呆在这个城镇,平平安安地生活.</string>
+	<string name="dialogue.town.npc.generic.ace1.6Ra">令人伤心的是,这里没有人能够屠龙,\n你应该像我一样呆在这个城镇,平平安安地生活.</string>
 	<string name="dialogue.town.npc.generic.ace1.6Rb">RESERVED</string>
 
 
@@ -2677,12 +2683,12 @@
 	<string name="dialogue.town.npc.mayor.mines_enter.1Rb">没有矿石的时候可真麻烦...</string>
 	<string name="dialogue.town.npc.mayor.boss1_killed.1Ra">你终于解决了矿洞深处那恶心的怪物么?那可真是个好消息.</string>
 	<string name="dialogue.town.npc.mayor.boss1_killed.1Rb">这么久以来杀死矿工无数的石傀儡终于被你解决了</string>
-	<string name="dialogue.town.npc.mayor.boss2_killed.1Ra">那是从前的典狱长彼得，\n他再也不可能用他的十字弩折磨别人了。</string>
+	<string name="dialogue.town.npc.mayor.boss2_killed.1Ra">那是从前的典狱长彼得,\n他再也不可能用他的十字弩折磨别人了.</string>
 	<string name="dialogue.town.npc.mayor.boss2_killed.1Rb">我听说你讨伐了那个用十字弩的\n巨大亡灵————典狱长彼得……</string>
-	<string name="dialogue.town.npc.mayor.boss3_killed.1Ra">你刚刚讨伐的那些亡灵，可能是曾经\n公爵德拉尼斯手下保卫他的战士们。</string>
-	<string name="dialogue.town.npc.mayor.boss3_killed.1Rb">你踏足了公爵德拉尼斯的安息之地，\n并且摆平了他手下那些最最最难缠的战士们？！</string>
-	<string name="dialogue.town.npc.mayor.boss4_killed.1Ra">我们不知道那些奇诡的生物都是从何而来，\n 并且圣坛是不可能召唤出那种怪物的。</string>
-	<string name="dialogue.town.npc.mayor.boss4_killed.1Rb">我们……击溃了那只巨眼？\n小伙子，你已经快到塔的顶层了。</string>
+	<string name="dialogue.town.npc.mayor.boss3_killed.1Ra">你刚刚讨伐的那些亡灵,可能是曾经\n公爵德拉尼斯手下保卫他的战士们.</string>
+	<string name="dialogue.town.npc.mayor.boss3_killed.1Rb">你踏足了公爵德拉尼斯的安息之地,\n并且摆平了他手下那些最最最难缠的战士们?!</string>
+	<string name="dialogue.town.npc.mayor.boss4_killed.1Ra">我们不知道那些奇诡的生物都是从何而来,\n 并且圣坛是不可能召唤出那种怪物的.</string>
+	<string name="dialogue.town.npc.mayor.boss4_killed.1Rb">我们...击溃了那只巨眼?\n小伙子,你已经快到塔的顶层了.</string>
 	<string name="dialogue.town.npc.mayor.boss5_killed.1Ra">RESERVED</string>
 	<string name="dialogue.town.npc.mayor.boss5_killed.1Rb">RESERVED</string>
 
@@ -2779,7 +2785,7 @@
 
 	<!-- Richard Hammer -->
 	<string name="dialogue.town.npc.tapster.name">铁锤酒保 理查德</string>
-	<string name="dialogue.town.npc.tapster.1Ra">嗨！如果你在塔里找到更多的酒桶\n我会给你做新的鸡尾酒喝.\n当然，价格实惠……\n</string>
+	<string name="dialogue.town.npc.tapster.1Ra">嗨!如果你在塔里找到更多的酒桶\n我会给你做新的鸡尾酒喝.\n当然,价格实惠……\n</string>
 
 
 
