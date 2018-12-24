@@ -21,15 +21,15 @@
 	<string name="class.ranger">游侠</string>
 	<string name="class.ranger.desc">技能多样化的远距离战斗专家.</string>
 	<string name="class.sorcerer">巫师</string>
-	<string name="class.sorcerer.desc">脆弱的远距离施法者,减速敌人并造成混合伤害.</string>
+	<string name="class.sorcerer.desc">脆弱的远距离咏唱者,可以减速敌人并造成混合伤害.</string>
 	<string name="class.thief">盗贼</string>
 	<string name="class.thief.desc">难以捉摸的高机动近战刺客.</string>
-	<string name="class.thief.disabled.desc">盗贼未解锁.</string>
+	<string name="class.thief.disabled.desc">盗贼未解锁.</string> 
 	<string name="class.warlock">术士</string>
-	<string name="class.warlock.desc">近距离魔法使用者,可以吸取灵魂补充生命值和魔法值.</string>
-	<string name="class.warlock.disabled.desc">--</string>
+	<string name="class.warlock.desc">近距离咏唱者,可以吸取灵魂补充生命值和魔法值.</string>
+	<string name="class.warlock.disabled.desc"></string>
 	<string name="class.wizard">法师</string>
-	<string name="class.wizard.desc">魔法伤害极高但很脆弱的施法者.</string>
+	<string name="class.wizard.desc">一门玻璃大炮，可以造成成吨的伤害但是极其脆弱.</string>
 	<string name="class.wizard.disabled.desc">法师未解锁.</string>
 
 	<string name="playermenu.character.vitality">生命</string>
@@ -39,10 +39,10 @@
 	<string name="playermenu.character.resources">金钱</string>
 	<string name="playermenu.character.keys">钥匙</string>
 	<string name="playermenu.character.items">装备</string>
-	<string name="playermenu.character.items.tooltip">%count% items</string>
+	<string name="playermenu.character.items.tooltip">%count% 件装备</string>
 	<string name="playermenu.character.potionskills">药剂 / 技能</string>
 	<string name="playermenu.character.base">基础: %value%</string>
-	<string name="playermenu.character.base.capped">Base: %value% (Level: %level%)</string>
+	<string name="playermenu.character.base.capped">基础: %value% (等级: %level%级)</string>
 
 	<string name="playermenu.tooltip.exp">经验</string>
 	<string name="playermenu.tooltip.exp.total">总经验值:</string>
@@ -58,9 +58,9 @@
 	<string name="playermenu.character.healthregen">生命回复率</string>
 	<string name="playermenu.character.manaregen">法力回复率</string>
 	<string name="playermenu.character.armor">护甲</string>
-	<string name="playermenu.character.armor.description">减少%value%%物理伤害.</string>
+	<string name="playermenu.character.armor.description">减少%value%%受到的物理伤害.</string>
 	<string name="playermenu.character.resistance">魔抗</string>
-	<string name="playermenu.character.resistance.description">减少%value%%魔法伤害.</string>
+	<string name="playermenu.character.resistance.description">减少%value%%受到的魔法伤害.</string>
 	<string name="playermenu.character.attackpower">普攻加成</string>
 	<string name="playermenu.character.attackpower.description">提高%value%%普攻伤害.</string>
 	<string name="playermenu.character.spellpower">技能加成</string>
@@ -244,13 +244,14 @@
 	<string name="misc.activeskill">\c7f7f7f主动技能\d</string>
 	<string name="misc.passiveskill">\c7f7f7f被动技能\d</string>
 	<string name="misc.ngp">(NG+%ngp%)</string>
+	<string name="misc.ngp2">NG+%ngp%</string>
 
 	<string name="misc.elevator.question">你想运送 %ore% 矿石和 %gold% 金币回到镇上吗 (手续费%tax%%)</string>
 	<string name="misc.elevator.gold">金币</string>
 	<string name="misc.elevator.ore">矿石</string>
 	<string name="misc.store.gold">运送 %num%金币回镇</string>
 	<string name="misc.soulslinked">灵魂链接</string>
-	<string name="misc.soulsunlinked">SOULS UNLINKED</string>
+	<string name="misc.soulsunlinked">灵魂连接解除</string>
 
 	<string name="item.key">钥匙</string>
 	<string name="item.key.plural">%num% 钥匙</string>
@@ -275,6 +276,9 @@
 	<string name="intro.text">远望镇坐落在遗忘之塔下方.很久以前这个出产矿石的小镇被遗弃,但在你们公会和勇者的帮助下,小镇有望恢复以前的荣光.(帮助：探索那座矿洞并收集金币和矿石,用金币购买装备并用矿石升级小镇中的建筑,金币也可以在公会解锁并升级你的技能.游戏里还有更多需要你去发现的东西,祝你好运.)</string>
 	<string name="intro.continue">继续</string>
 
+	
+	
+	
 
 	<!-- end of game -->
 
@@ -297,7 +301,7 @@
 	<string name="levelend.kills">击杀</string>
 	<string name="levelend.items">装备</string>
 	<string name="levelend.secrets">隐藏</string>
-	<string name="levelend.stars">星星</string>
+	<string name="levelend.stars">星</string>
 	<string name="levelend.time.game">游戏时间</string>
 	<string name="levelend.time.level">关卡时间</string>
 	<string name="interface.playersready">%ready%/%total% 玩家准备</string>
@@ -348,7 +352,7 @@
 	<string name="random_stuff.give_item">恶魔给了你一个装备!</string>
 	<string name="random_stuff.give_ore">恶魔给了你一些矿石!</string>
 	<string name="random_stuff.give_gold">恶魔给了你一些金币!</string>
-	<string name="random_stuff.give_experience">恶魔给了一些经验!</string>
+	<string name="random_stuff.give_experience">恶魔给了你一些经验!</string>
 	<string name="random_stuff.give_keys">恶魔给了你一些钥匙!</string>
 	<string name="random_stuff.deposit_gold">你想要运送金币回镇上吗?</string>
 	<string name="random_stuff.deposit_ore">你想运送矿石回镇上吗?</string>
@@ -700,8 +704,8 @@
 	<string name="v_fps_limit.help">将帧率限制在特定的数值.</string>
 	<string name="r_smooth_scrolling">平滑移动</string>
 	<string name="r_smooth_scrolling.help">在屏幕里平滑地移动视角.</string>
-	<string name="r_hdr">动态光源</string>
-	<string name="r_hdr.help">使用动态范围.</string>
+	<string name="r_hdr">HDR</string> 
+	<string name="r_hdr.help">开启高动态光照渲染.</string>
 	<string name="r_light_decal_proj">光影</string>
 	<string name="r_light_decal_proj.help">投射灯光和贴图到墙上</string>
 	<string name="r_shadows">阴影</string>
@@ -886,8 +890,8 @@
 	<string name="menu.search">搜索:</string>
 
 
-	<string name="menu.crumb.options.graphics">OPTIONS > 图像</string>
-	<string name="menu.crumb.options.sound">OPTIONS > 声音</string>
+	<string name="menu.crumb.options.graphics">选项 > 图像</string>
+	<string name="menu.crumb.options.sound">选项 > 声音</string>
 	<string name="menu.unsaved_dialog">有未保存的更改,是否保存?</string>
 
 	<string name="menu.lobby.chat.minplayers">至少要%min%名玩家才能开始.</string>
@@ -926,7 +930,7 @@
 	<string name="ui_txt">浮动文字</string>
 	<string name="ui_txt.help">显示浮动文字,例如伤害数值和拾取信息.</string>
 
-	<string name="menu.crumb.options.serverlist">MULTIPLAYER >服务器列表</string>
+	<string name="menu.crumb.options.serverlist">多人游戏 >服务器列表</string>
 	<string name="menu.serverlist.server">服务器</string>
 	<string name="menu.serverlist.scenario">场景</string>
 	<string name="menu.serverlist.players">玩家</string>
@@ -956,10 +960,10 @@
 	<string name="r_draw_glow.help">显示光晕</string>
 	<string name="menu.cancel">取消</string>
 
-	<string name="menu.controls.layout.ds41">手柄摇杆 1</string>
-	<string name="menu.controls.layout.ds42">手柄摇杆 2</string>
-	<string name="menu.controls.layout.ds43">手柄摇杆 3</string>
-	<string name="menu.controls.layout.ds44">手柄摇杆 4</string>
+	<string name="menu.controls.layout.ds41">手柄 1</string>
+	<string name="menu.controls.layout.ds42">手柄 2</string>
+	<string name="menu.controls.layout.ds43">手柄 3</string>
+	<string name="menu.controls.layout.ds44">手柄 4</string>
 
 	<string name="menu.notifier.joinfailed.join">无法加入房间.</string>
 	<string name="menu.notifier.joinfailed.host">无法创建房间.</string>
@@ -967,7 +971,7 @@
 
 	<string name="menu.splitscreen.newgame">新游戏</string>
 	<string name="menu.splitscreen.noplayers">你不能在没有玩家的情况下开始游戏!</string>
-	<string name="menu.splitscreen.prompt">按返回键离开</string>
+	<string name="menu.splitscreen.prompt">按 返回键 离开</string>
 	<string name="menu.splitscreen.join.kbm">按下键盘任意按键</string>
 	<string name="menu.splitscreen.join.gp">按下手柄任意按键</string>
 	<string name="menu.splitscreen.gameoptions">游戏选项</string>
@@ -1063,7 +1067,7 @@
 	<string name="shop.trainer">BBBBBBBBBBBBBBBBBB</string>
 	<string name="shop.treasury">DDDDDDDDDDDDDDDD</string>
 	<string name="shop.oretrader">矿石商人 奥利弗</string>
-	<string name="shop.tailor">THE TAILOR</string>
+	<string name="shop.tailor">裁缝</string>
 
 	<string name="town.building.townhall">市政厅</string>
 	<string name="town.building.guildhall">公会大厅</string>
@@ -1539,9 +1543,9 @@
 	<string name="skills.paladin.lay-on-hands">圣疗术</string>
 	<string name="skills.paladin.lay-on-hands.create">持续施法.治疗圣骑士和身边的所有队友.</string>
 	<string name="skills.paladin.lay-on-hands.1">向圣骑士身边全部队友提供一个持续3秒的BUFF,这个BUFF提供3固定值+2%最大生命值的生命回复和一个有25%几率抵挡5魔法伤害的护盾.</string>
-	<string name="skills.paladin.lay-on-hands.2">向圣骑士身边全部队友提供一个持续3秒的BUFF,这个BUFF提供5固定值+2%最大生命值的生命回复和一个有25%几率抵挡10魔法伤害的护盾.</string>
-	<string name="skills.paladin.lay-on-hands.3">向圣骑士身边全部队友提供一个持续3秒的BUFF,这个BUFF提供7固定值+2%最大生命值的生命回复和一个有25%几率抵挡15魔法伤害的护盾.</string>
-	<string name="skills.paladin.lay-on-hands.4">向圣骑士身边全部队友提供一个持续3秒的BUFF,这个BUFF提供9固定值+2%最大生命值的生命回复和一个有25%几率抵挡20魔法伤害的护盾.</string>
+	<string name="skills.paladin.lay-on-hands.2">向圣骑士身边全部队友提供一个持续3.5秒的BUFF,这个BUFF提供5固定值+2%最大生命值的生命回复和一个有25%几率抵挡10魔法伤害的护盾.</string>
+	<string name="skills.paladin.lay-on-hands.3">向圣骑士身边全部队友提供一个持续4秒的BUFF,这个BUFF提供7固定值+2%最大生命值的生命回复和一个有25%几率抵挡15魔法伤害的护盾.</string>
+	<string name="skills.paladin.lay-on-hands.4">向圣骑士身边全部队友提供一个持续4.5秒的BUFF,这个BUFF提供9固定值+2%最大生命值的生命回复和一个有25%几率抵挡20魔法伤害的护盾.</string>
 
 	<string name="skills.paladin.whirlwind">旋风斩</string>
 	<string name="skills.paladin.whirlwind.create">持续施法.对周围的敌人造成伤害,施法期间可以移动,不可以攻击.</string>
