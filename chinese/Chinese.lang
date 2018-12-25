@@ -1515,7 +1515,7 @@
 	<string name="skills.paladin.sword.4">近战对180度范围内造成25点物理伤害.</string>
 	<string name="skills.paladin.sword.5">近战对210度范围内造成28点物理伤害.</string>
 	<string name="skills.paladin.sword.6">近战对240度范围内造成31点物理伤害.</string>
-
+	
 	<string name="skills.paladin.charge">冲锋</string>
 	<string name="skills.paladin.charge.create">圣骑士向前冲锋,并对途中的敌人造成物理伤害.</string>
 	<string name="skills.paladin.charge.1">向前冲刺.途中的敌人受到25点物理伤害.</string>
@@ -1525,6 +1525,16 @@
 	<string name="skills.paladin.charge.5">向前冲刺.途中的敌人受到65点物理伤害.增加速度和范围.</string>
 	<string name="skills.paladin.charge.6">向前冲刺.途中的敌人受到75点物理伤害.增加速度和范围.</string>
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	<string name="skills.paladin.shield">守卫之盾</string>
 	<string name="skills.paladin.shield.create">被动.圣骑士手持一个坚固的盾牌,盾牌能格挡大部分投射物,此外也有几率阻挡一定的伤害.</string>
 	<string name="skills.paladin.shield.1">阻挡来自面前90度的投射物.盾牌有25%几率阻挡5点物理伤害或者魔法伤害.</string>
@@ -1533,12 +1543,18 @@
 	<string name="skills.paladin.shield.4">阻挡来自面前180度的投射物.盾牌有25%几率阻挡20点物理伤害或者魔法伤害.</string>
 	<string name="skills.paladin.shield.5">阻挡来自面前210度的投射物.盾牌有25%几率阻挡25点物理伤害或者魔法伤害.</string>
 
+	
+	
+	
+	
+	
+	
 	<string name="skills.paladin.stunning-blows">重击</string>
 	<string name="skills.paladin.stunning-blows.create">圣骑士的普通攻击有几率击晕敌人.</string>
-	<string name="skills.paladin.stunning-blows.1">剑击有10%几率使敌人晕眩2.5秒.</string>
-	<string name="skills.paladin.stunning-blows.2">剑击有15%几率使敌人晕眩2.5秒.</string>
-	<string name="skills.paladin.stunning-blows.3">剑击有20%几率使敌人晕眩2.5秒.</string>
-	<string name="skills.paladin.stunning-blows.4">剑击有25%几率使敌人晕眩2.5秒.</string>
+	<string name="skills.paladin.stunning-blows.1">\caac8ff剑击\d有10%几率使敌人晕眩2.5秒.</string>
+	<string name="skills.paladin.stunning-blows.2">\caac8ff剑击\d有15%几率使敌人晕眩2.5秒.</string>
+	<string name="skills.paladin.stunning-blows.3">\caac8ff剑击\d有20%几率使敌人晕眩2.5秒.</string>
+	<string name="skills.paladin.stunning-blows.4">\caac8ff剑击\d有25%几率使敌人晕眩2.5秒.</string>
 
 	<string name="skills.paladin.lay-on-hands">圣疗术</string>
 	<string name="skills.paladin.lay-on-hands.create">持续施法.治疗圣骑士和身边的所有队友.</string>
@@ -1546,17 +1562,24 @@
 	<string name="skills.paladin.lay-on-hands.2">向圣骑士身边全部队友提供一个持续3.5秒的BUFF,这个BUFF提供5固定值+2%最大生命值的生命回复和一个有25%几率抵挡10魔法伤害的护盾.</string>
 	<string name="skills.paladin.lay-on-hands.3">向圣骑士身边全部队友提供一个持续4秒的BUFF,这个BUFF提供7固定值+2%最大生命值的生命回复和一个有25%几率抵挡15魔法伤害的护盾.</string>
 	<string name="skills.paladin.lay-on-hands.4">向圣骑士身边全部队友提供一个持续4.5秒的BUFF,这个BUFF提供9固定值+2%最大生命值的生命回复和一个有25%几率抵挡20魔法伤害的护盾.</string>
-
+	
+	
+	
+	
+	
 	<string name="skills.paladin.whirlwind">旋风斩</string>
 	<string name="skills.paladin.whirlwind.create">持续施法.对周围的敌人造成伤害,施法期间可以移动,不可以攻击.</string>
 	<string name="skills.paladin.whirlwind.1">持续施法.对周围的敌人造成伤害,每次造成30点物理伤害.旋转持续3秒.</string>
 	<string name="skills.paladin.whirlwind.2">持续施法.对周围的敌人造成伤害,每次造成40点物理伤害.旋转持续4秒.</string>
 	<string name="skills.paladin.whirlwind.3">持续施法.对周围的敌人造成伤害,每次造成50点物理伤害.旋转持续5秒.</string>
-
+	
+	
+	
+	
 	<string name="skills.paladin.flames-of-devotion">奉献之火</string>
-	<string name="skills.paladin.flames-of-devotion.create">每次使用剑击伤害敌人,圣骑士的所有技能都将得到魔法伤害加成.</string>
-	<string name="skills.paladin.flames-of-devotion.1">每次使用剑击伤害敌人,圣骑士的所有技能都将得到魔法伤害加成.每次触发提供1点伤害加成,最高可以叠加12层,每层持续1秒.</string>
-	<string name="skills.paladin.flames-of-devotion.2">每次使用剑击伤害敌人,圣骑士的所有技能都将得到魔法伤害加成.每次触发提供1点伤害加成,最高可以叠加24层,每层持续1秒.</string>
+	<string name="skills.paladin.flames-of-devotion.create">每次使用\caac8ff剑击\d伤害敌人,圣骑士的所有技能都将得到魔法伤害加成.</string>
+	<string name="skills.paladin.flames-of-devotion.1">每次使用\caac8ff剑击\d伤害敌人,圣骑士的所有技能都将得到魔法伤害加成.每次触发提供1点伤害加成,最高可以叠加12层,每层持续1秒.</string>
+	<string name="skills.paladin.flames-of-devotion.2">每次使用\caac8ff剑击\d伤害敌人,圣骑士的所有技能都将得到魔法伤害加成.每次触发提供1点伤害加成,最高可以叠加24层,每层持续1秒.</string>
 
 
 	<!-- Priest -->
@@ -1571,12 +1594,12 @@
 
 	<string name="skills.priest.holy-light">圣光冲击</string>
 	<string name="skills.priest.holy-light.create">引导一道能够对敌人造成递增伤害并对队友进行治疗的光束.</string>
-	<string name="skills.priest.holy-light.1">发射一道光束,最高对敌人造成每秒17点魔法伤害并治疗队友每秒2点.</string>
-	<string name="skills.priest.holy-light.2">发射一道光束,最高对敌人造成每秒24点魔法伤害并治疗队友每秒3点.</string>
-	<string name="skills.priest.holy-light.3">发射一道光束,最高对敌人造成每秒31点魔法伤害并治疗队友每秒4点.</string>
-	<string name="skills.priest.holy-light.4">发射一道光束,最高对敌人造成每秒38点魔法伤害并治疗队友每秒5点.</string>
-	<string name="skills.priest.holy-light.5">发射一道光束,最高对敌人造成每秒45点魔法伤害并治疗队友每秒6点.</string>
-	<string name="skills.priest.holy-light.6">发射一道光束,最高对敌人造成每秒52点魔法伤害并治疗队友每秒7点.</string>
+	<string name="skills.priest.holy-light.1">发射一道光束,最高对敌人造成每秒17点魔法伤害并治疗队友每秒2点固定值+最大生命值的1%.</string>
+	<string name="skills.priest.holy-light.2">发射一道光束,最高对敌人造成每秒24点魔法伤害并治疗队友每秒3点固定值+最大生命值的1%.</string>
+	<string name="skills.priest.holy-light.3">发射一道光束,最高对敌人造成每秒31点魔法伤害并治疗队友每秒4点固定值+最大生命值的1%.</string>
+	<string name="skills.priest.holy-light.4">发射一道光束,最高对敌人造成每秒38点魔法伤害并治疗队友每秒5点固定值+最大生命值的1%.</string>
+	<string name="skills.priest.holy-light.5">发射一道光束,最高对敌人造成每秒45点魔法伤害并治疗队友每秒6点固定值+最大生命值的1%.</string>
+	<string name="skills.priest.holy-light.6">发射一道光束,最高对敌人造成每秒52点魔法伤害并治疗队友每秒7点固定值+最大生命值的1%.</string>
 
 	<string name="skills.priest.divine-protection">神圣屏障</string>
 	<string name="skills.priest.divine-protection.create">牧师自身被一个护盾保护,以消耗法力来吸收伤害.</string>
@@ -1607,9 +1630,9 @@
 	<string name="skills.priest.aura-of-purification.3">光环使敌人减速40%并降低20%的抗性,队友得到30%伤害减免,光环持续8秒.</string>
 
 	<string name="skills.priest.celestial-orb">天堂之球</string>
-	<string name="skills.priest.celestial-orb.create">天堂之球在牧师身边环绕并向周围的敌人发射小圣光束.小圣光束会自动集火被圣光冲击命中的敌人.</string>
-	<string name="skills.priest.celestial-orb.1">2个天堂之球在牧师身边环绕并向周围的敌人发射小圣光束,每秒造成8点魔法伤害.小圣光束会自动集火被圣光冲击命中的敌人.</string>
-	<string name="skills.priest.celestial-orb.2">3个天堂之球在牧师身边环绕并向周围的敌人发射小圣光束,每秒造成12点魔法伤害.小圣光束会自动集火被圣光冲击命中的敌人.</string>
+	<string name="skills.priest.celestial-orb.create">天堂之球在牧师身边环绕并向周围的敌人发射小圣光束.小圣光束会自动集火被\caac8ff圣光冲击\d命中的敌人.</string>
+	<string name="skills.priest.celestial-orb.1">2个天堂之球在牧师身边环绕并向周围的敌人发射小圣光束,每秒造成8点魔法伤害.小圣光束会自动集火被\caac8ff圣光冲击\d命中的敌人.</string>
+	<string name="skills.priest.celestial-orb.2">3个天堂之球在牧师身边环绕并向周围的敌人发射小圣光束,每秒造成12点魔法伤害.小圣光束会自动集火被\caac8ff圣光冲击\d命中的敌人.</string>
 
 
 	<!-- Ranger -->
@@ -1624,12 +1647,12 @@
 	
 	<string name="skills.ranger.flurry-of-arrows">箭羽风暴</string>
 	<string name="skills.ranger.flurry-of-arrows.create">游侠旋转着向四面八方射出箭矢.</string>
-	<string name="skills.ranger.flurry-of-arrows.1">游侠旋转着向四面八方射出箭矢.总共射出24支基于弓箭射击等级的箭矢.</string>
-	<string name="skills.ranger.flurry-of-arrows.2">游侠旋转着向四面八方射出箭矢.总共射出32支基于弓箭射击等级的箭矢.</string>
-	<string name="skills.ranger.flurry-of-arrows.3">游侠旋转着向四面八方射出箭矢.总共射出40支基于弓箭射击等级的箭矢.</string>
-	<string name="skills.ranger.flurry-of-arrows.4">游侠旋转着向四面八方射出箭矢.总共射出48支基于弓箭射击等级的箭矢.</string>
-	<string name="skills.ranger.flurry-of-arrows.5">游侠旋转着向四面八方射出箭矢.总共射出56支基于弓箭射击等级的箭矢.</string>
-	<string name="skills.ranger.flurry-of-arrows.6">游侠旋转着向四面八方射出箭矢.总共射出64支基于弓箭射击等级的箭矢.</string>
+	<string name="skills.ranger.flurry-of-arrows.1">游侠旋转着向四面八方射出箭矢.总共射出24支基于\caac8ff弓箭射击\d等级的箭矢.</string>
+	<string name="skills.ranger.flurry-of-arrows.2">游侠旋转着向四面八方射出箭矢.总共射出32支基于\caac8ff弓箭射击\d等级的箭矢.</string>
+	<string name="skills.ranger.flurry-of-arrows.3">游侠旋转着向四面八方射出箭矢.总共射出40支基于\caac8ff弓箭射击\d等级的箭矢.</string>
+	<string name="skills.ranger.flurry-of-arrows.4">游侠旋转着向四面八方射出箭矢.总共射出48支基于\caac8ff弓箭射击\d等级的箭矢.</string>
+	<string name="skills.ranger.flurry-of-arrows.5">游侠旋转着向四面八方射出箭矢.总共射出56支基于\caac8ff弓箭射击\d等级的箭矢.</string>
+	<string name="skills.ranger.flurry-of-arrows.6">游侠旋转着向四面八方射出箭矢.总共射出64支基于\caac8ff弓箭射击\d等级的箭矢.</string>
 	
 	<string name="skills.ranger.on-the-prowl">巡游</string>
 	<string name="skills.ranger.on-the-prowl.create">施法后,游侠都会获得提升移速和闪避的BUFF.</string>
@@ -1641,10 +1664,10 @@
 
 	<string name="skills.ranger.deadly-aim">狩猎印记</string>
 	<string name="skills.ranger.deadly-aim.create">弓箭射击有几率标记目标,被标记的目标受到的所有伤害都有几率暴击.</string>
-	<string name="skills.ranger.deadly-aim.1">弓箭射击有5%几率暴击并标记目标2.5秒,被标记目标有5%几率受到暴击伤害.</string>
-	<string name="skills.ranger.deadly-aim.2">弓箭射击有7.5%几率暴击并标记目标2.5秒,被标记目标有5%几率受到暴击伤害.</string>
-	<string name="skills.ranger.deadly-aim.3">弓箭射击有10%几率暴击并标记目标2.5秒,被标记目标有5%几率受到暴击伤害.</string>
-	<string name="skills.ranger.deadly-aim.4">弓箭射击有12.5%几率暴击并标记目标2.5秒,被标记目标有5%几率受到暴击伤害.</string>
+	<string name="skills.ranger.deadly-aim.1">\caac8ff弓箭射击\d有5%几率暴击并标记目标2.5秒,被标记目标有5%几率受到暴击伤害.</string>
+	<string name="skills.ranger.deadly-aim.2">\caac8ff弓箭射击\d有7.5%几率暴击并标记目标2.5秒,被标记目标有5%几率受到暴击伤害.</string>
+	<string name="skills.ranger.deadly-aim.3">\caac8ff弓箭射击\d有10%几率暴击并标记目标2.5秒,被标记目标有5%几率受到暴击伤害.</string>
+	<string name="skills.ranger.deadly-aim.4">\caac8ff弓箭射击\d有12.5%几率暴击并标记目标2.5秒,被标记目标有5%几率受到暴击伤害.</string>
 
 	<string name="skills.ranger.grasping-roots">缠绕根须</string>
 	<string name="skills.ranger.grasping-roots.create">游侠周围的地面长出的根须缠绕敌人,使敌人无法移动并降低防御.</string>
@@ -1661,8 +1684,8 @@
 	
 	<string name="skills.ranger.twinned-arrows">分裂箭矢</string>
 	<string name="skills.ranger.twinned-arrows.create">游侠的普通攻击命中后,有一定几率分裂出新的箭矢,新箭矢的攻击方向会偏向次级目标.</string>
-	<string name="skills.ranger.twinned-arrows.1">游侠射出的箭矢有25%几率分裂并寻找新的目标.</string>
-	<string name="skills.ranger.twinned-arrows.2">游侠射出的箭矢有40%几率分裂并寻找新的目标.</string>
+	<string name="skills.ranger.twinned-arrows.1">游侠的\caac8ff弓箭射击\d有25%几率分裂并寻找新的目标.</string>
+	<string name="skills.ranger.twinned-arrows.2">游侠的\caac8ff弓箭射击\d有40%几率分裂并寻找新的目标.</string>
 
 
 	<!-- Sorcerer -->
@@ -1721,12 +1744,12 @@
 	<!-- Thief -->
 	<string name="skills.thief.twin-daggers">孪生双刃</string>
 	<string name="skills.thief.twin-daggers.create">造成物理伤害的近战攻击.双刃不仅攻速快,还能打落大部分投射物</string>
-	<string name="skills.thief.twin-daggers.1">每两次快速的近战攻击,造成6*2点物理伤害.攻击时移动速度降低60%.</string>
-	<string name="skills.thief.twin-daggers.2">每两次快速的近战攻击,造成8*2点物理伤害.攻击时移动速度降低50%.</string>
-	<string name="skills.thief.twin-daggers.3">每两次快速的近战攻击,造成10*2点物理伤害.攻击时移动速度降低40%.</string>
-	<string name="skills.thief.twin-daggers.4">每两次快速的近战攻击,造成12*2点物理伤害.攻击时移动速度降低30%.</string>
-	<string name="skills.thief.twin-daggers.5">每两次快速的近战攻击,造成14*2点物理伤害.攻击时移动速度降低20%.</string>
-	<string name="skills.thief.twin-daggers.6">每两次快速的近战攻击,造成16*2点物理伤害.攻击时移动速度降低10%.</string>
+	<string name="skills.thief.twin-daggers.1">每两次快速的近战攻击,造成6点物理伤害.攻击时移动速度降低60%.</string>
+	<string name="skills.thief.twin-daggers.2">每两次快速的近战攻击,造成8点物理伤害.攻击时移动速度降低50%.</string>
+	<string name="skills.thief.twin-daggers.3">每两次快速的近战攻击,造成10点物理伤害.攻击时移动速度降低40%.</string>
+	<string name="skills.thief.twin-daggers.4">每两次快速的近战攻击,造成12点物理伤害.攻击时移动速度降低30%.</string>
+	<string name="skills.thief.twin-daggers.5">每两次快速的近战攻击,造成14点物理伤害.攻击时移动速度降低20%.</string>
+	<string name="skills.thief.twin-daggers.6">每两次快速的近战攻击,造成16点物理伤害.攻击时移动速度降低10%.</string>
 
 	<string name="skills.thief.throwing-knives">投掷匕首</string>
 	<string name="skills.thief.throwing-knives.create">盗贼向身前扇形区域内扔出匕首造成伤害,匕首可以穿透敌人.</string>
@@ -1747,10 +1770,10 @@
 
 	<string name="skills.thief.slice-and-dice">轮舞</string>
 	<string name="skills.thief.slice-and-dice.create">每次使用双刃击中敌人,盗贼都会获得短暂的攻速加成.每次获得层数都将刷新持续时间.</string>
-	<string name="skills.thief.slice-and-dice.1">每次攻击都会获得2%攻速加成,最高叠加8层,状态存续2.5秒.每次获得层数都将刷新持续时间.</string>
-	<string name="skills.thief.slice-and-dice.2">每次攻击都会获得2%攻速加成,最高叠加16层,状态存续2.5秒.每次获得层数都将刷新持续时间.</string>
-	<string name="skills.thief.slice-and-dice.3">每次攻击都会获得2%攻速加成,最高叠加24层,状态存续2.5秒.每次获得层数都将刷新持续时间.</string>
-	<string name="skills.thief.slice-and-dice.4">每次攻击都会获得2%攻速加成,最高叠加32层,状态存续2.5秒.每次获得层数都将刷新持续时间.</string>
+	<string name="skills.thief.slice-and-dice.1">每次 \caac8ff孪生双刀\d 都会获得2%攻速加成,最高叠加8层,状态存续2.5秒.每次获得层数都将刷新持续时间.</string>
+	<string name="skills.thief.slice-and-dice.2">每次 \caac8ff孪生双刀\d 都会获得2%攻速加成,最高叠加16层,状态存续2.5秒.每次获得层数都将刷新持续时间.</string>
+	<string name="skills.thief.slice-and-dice.3">每次 \caac8ff孪生双刀\d 都会获得2%攻速加成,最高叠加24层,状态存续2.5秒.每次获得层数都将刷新持续时间.</string>
+	<string name="skills.thief.slice-and-dice.4">每次 \caac8ff孪生双刀\d 都会获得2%攻速加成,最高叠加32层,状态存续2.5秒.每次获得层数都将刷新持续时间.</string>
 
 	<string name="skills.thief.grappling-hook">发射钩爪</string>
 	<string name="skills.thief.grappling-hook.create">盗贼向前发射一个钩爪并向勾住的地方移动,眩晕路途中所有的敌人.盗贼在进行勾爪位移期间获得100%的闪避.</string>
@@ -1762,18 +1785,18 @@
 	<string name="skills.thief.smoke-bomb">烟幕弹</string>
 	<string name="skills.thief.smoke-bomb.create">盗贼扔出一个烟幕弹,使范围内所有敌人眩晕,并掩护队友.</string>
 	<string name="skills.thief.smoke-bomb.1">盗贼扔出一个烟幕弹,烟幕弹可以使周围的敌人眩晕2秒,友军获得10%闪避.</string>
-	<string name="skills.thief.smoke-bomb.2">盗贼扔出一个烟幕弹,烟幕弹可以使周围的敌人眩晕3秒,友军获得20%闪避.范围更大</string>
-	<string name="skills.thief.smoke-bomb.3">盗贼扔出一个烟幕弹,烟幕弹可以使周围的敌人眩晕4秒,友军获得30%闪避.范围更大.</string>
+	<string name="skills.thief.smoke-bomb.2">盗贼扔出一个烟幕弹,烟幕弹可以使周围的敌人眩晕3秒,友军获得20%闪避.</string>
+	<string name="skills.thief.smoke-bomb.3">盗贼扔出一个烟幕弹,烟幕弹可以使周围的敌人眩晕4秒,友军获得30%闪避.</string>
 
 	<string name="skills.thief.vicious-cuts">烈毒狂戮</string>
-	<string name="skills.thief.vicious-cuts.create">每次独立的双刃攻击都有几率使目标失去一定百分比的当前生命.</string>
-	<string name="skills.thief.vicious-cuts.1">每次攻击有5%几率使目标失去5%当前生命值.</string>
-	<string name="skills.thief.vicious-cuts.2">每次攻击有10%几率使目标失去5%当前生命值.</string>
+	<string name="skills.thief.vicious-cuts.create">每次独立的 \caac8ff孪生双刀\d 都有几率使目标失去一定百分比的当前生命.</string>
+	<string name="skills.thief.vicious-cuts.1">每次 \caac8ff孪生双刀\d 有5%几率使目标失去5%当前生命值.</string>
+	<string name="skills.thief.vicious-cuts.2">每次 \caac8ff孪生双刀\d 有10%几率使目标失去5%当前生命值.</string>
 
 
 	<!-- Warlock -->
 	<string name="skills.warlock.soul-dagger">吸魂短匕</string>
-	<string name="skills.warlock.soul-dagger.create">造成持续性魔法伤害的近距离攻击,术士能从其施加灼魂效果的伤害中汲取生命和法力.</string>
+	<string name="skills.warlock.soul-dagger.create">造成带有持续性魔法伤害的近距离攻击,术士能从其施加灼魂效果的伤害中汲取生命和法力.</string>
 	<string name="skills.warlock.soul-dagger.1">吸魂短匕对敌人施加灼魂效果,使其在2.5秒内受到每秒10点魔法伤害,术士能回复该伤害值5%的生命和10%的法力.</string>
 	<string name="skills.warlock.soul-dagger.2">吸魂短匕对敌人施加灼魂效果,使其在3秒内受到每秒12点魔法伤害,术士能回复该伤害值5%的生命和10%的法力.</string>
 	<string name="skills.warlock.soul-dagger.3">吸魂短匕对敌人施加灼魂效果,使其在3.5秒内受到每秒14点魔法伤害,术士能回复该伤害值5%的生命和10%的法力.</string>
@@ -1795,7 +1818,7 @@
 	<string name="skills.warlock.extended-domain.1">所有技能的生效范围提升15%.</string>
 	<string name="skills.warlock.extended-domain.2">所有技能的生效范围提升30%.</string>
 	<string name="skills.warlock.extended-domain.3">所有技能的生效范围提升45%.</string>
-	<string name="skills.warlock.extended-domain.4">所有技能的生效范围提升50%.</string>
+	<string name="skills.warlock.extended-domain.4">所有技能的生效范围提升60%.</string>
 	<string name="skills.warlock.extended-domain.5">所有技能的生效范围提升75%.</string>
 
 	<string name="skills.warlock.soul-cleaver">灵魂收割</string>
@@ -1807,10 +1830,10 @@
 
 	<string name="skills.warlock.summon-gargoyle">石爪图腾</string>
 	<string name="skills.warlock.summon-gargoyle.create">召唤一个向周围快速发射闪电并晕眩周围敌人的石爪图腾.石爪图腾可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
-	<string name="skills.warlock.summon-gargoyle.1">闪电对命中的敌人造成20点魔法伤害.石爪图腾持续5秒.石爪图腾可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
-	<string name="skills.warlock.summon-gargoyle.2">闪电对命中的敌人造成24点魔法伤害.石爪图腾持续5秒.石爪图腾可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
-	<string name="skills.warlock.summon-gargoyle.3">闪电对命中的敌人造成28点魔法伤害.石爪图腾持续5秒.石爪图腾可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
-	<string name="skills.warlock.summon-gargoyle.4">闪电对命中的敌人造成32点魔法伤害.石爪图腾持续5秒.石爪图腾可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
+	<string name="skills.warlock.summon-gargoyle.1">闪电对命中的敌人造成20点魔法伤害.石爪图腾持续5秒.石爪图腾可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接,可与附近的图腾链接造成额外50%伤害,最大链接2个.</string>
+	<string name="skills.warlock.summon-gargoyle.2">闪电对命中的敌人造成24点魔法伤害.石爪图腾持续5秒.石爪图腾可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接,可与附近的图腾链接造成额外50%伤害,最大链接3个.</string>
+	<string name="skills.warlock.summon-gargoyle.3">闪电对命中的敌人造成28点魔法伤害.石爪图腾持续5秒.石爪图腾可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接,可与附近的图腾链接造成额外50%伤害,最大链接4个.</string>
+	<string name="skills.warlock.summon-gargoyle.4">闪电对命中的敌人造成32点魔法伤害.石爪图腾持续5秒.石爪图腾可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接,可与附近的图腾链接造成额外50%伤害,最大链接个.</string>
 
 	<string name="skills.warlock.eye-of-the-storm">风暴之眼</string>
 	<string name="skills.warlock.eye-of-the-storm.create">生成一团跟随术士的雷云.雷云会对周围的敌人发射闪电.还可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
