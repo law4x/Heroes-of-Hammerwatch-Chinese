@@ -1,0 +1,166 @@
+<gui>
+	<include>menus/gui/gui-include.xml</include>
+	
+	<reusable>
+		<volume>
+			<slider value=":value" padding="2" image="menus/menus.xml:slider-bg">
+				<sprite id="normal" image="menus/menus.xml:slider-normal" />
+				<sprite id="focus" image="menus/menus.xml:slider-focus" />
+			</slider>
+		</volume>
+		
+		<keybind>
+			<text offset="0 4" width="30" text=":text" font="menus/px-10.xml" />
+			<button click=":click" offset="32 0"
+				img_normal="menus/menus.xml:btn-normal" img_focus="menus/menus.xml:btn-focus" img_down="menus/menus.xml:btn-down" img_disabled="menus/menus.xml:btn-disabled" >
+				<text id="key" width="50" offset="0 1" anchor="50% 50%" text="BACKSPACE" font="menus/px-10.xml" />
+			</button>
+		</keybind>
+	</reusable>
+	
+	<base>
+		<sprite anchor="50% 50%" offset="0 0" image="menus/menus.xml:big-panel" id="panel">
+			<group id="options" anchor="50% 50%" offset="0 -8" width="150" height="100" visible="false">
+				<text anchor="50% 0%" offset="0 -22" font="menus/px-20.xml" text="m.options" color="255 201 54" />	
+				<textbutton click="game" anchor="50% 0%" offset="0 16" text="o.game" />
+				<textbutton click="graphics" anchor="50% 0%" offset="0 33" text="o.gfx" />
+				<textbutton click="sound" anchor="50% 0%" offset="0 50" text="o.sound" />
+				<textbutton click="controls" anchor="50% 0%" offset="0 67" text="o.controls" />
+			</group>
+
+			<group id="graphics" anchor="50% 50%" offset="5 0" width="150" height="100" visible="false">
+				<text anchor="50% 0%" offset="-5 -30" font="menus/px-20.xml" text="o.gfx" color="255 201 54" />
+				
+				<textbutton id="resolutionBtn" click="resolution" offset="23 -5" text="800x600" />
+				<textcheck id="fullscreen" check="fullscreen" offset="76 -3" text="o.fscreen" />
+				
+				<textcheck id="letterbox" check="letterbox" offset="0 15" text="o.letterbox" />
+				<textcheck id="showgibs" check="showgibs" offset="0 30" text="o.showgibs" />
+				<textcheck id="aocclude" check="aocclude" offset="0 45" text="o.aocclude" />
+				
+				<textcheck id="vsync" check="vsync" offset="95 15" text="o.vsync" />
+				<textcheck id="glow"  check="glow"  offset="95 30" text="o.glow" />
+				<textcheck id="bloom" check="bloom" offset="95 45" text="o.bloom" />
+				
+				<text offset="5 65" text="o.shadows" font="menus/px-10.xml" />
+				<textbutton id="shadows" click="shadows" offset="45 63" text="" />
+				
+				<textbutton click="adv-gfx" offset="45 80" text="o.advgfx" />
+			</group>
+			
+			<group id="adv-gfx" anchor="50% 50%" offset="5 0" width="150" height="100" visible="false">
+				<text anchor="50% 0%" offset="-5 -30" font="menus/px-20.xml" text="o.advgfx" color="255 201 54" />
+				<textcheck id="shadersoff" check="shadersoff" offset="0 0" text="o.shadersoff" />
+				<textcheck id="fbosoff" check="fbosoff" offset="0 14" text="o.fbosoff" />
+				<textcheck id="tborders" check="tborders" offset="80 0" text="o.tborders" />
+				<textcheck id="lighting" check="lighting" offset="80 14" text="o.lighting" />
+				<text offset="0 35" text="o.postproc" font="menus/px-10.xml" />
+				<textcheck id="postphos" check="postphos" offset="0 47"  text="o.postphos" />
+				<textcheck id="postcurve" check="postcurve" offset="0 61" text="o.postcurve" />
+				<volume id="postcurveamnt" value="postcurveamnt" offset="65 60" />
+				<textcheck id="postbloom" check="postbloom" offset="0 75" text="o.postbloom" />
+			</group>
+			
+			<group id="game" anchor="50% 50%" offset="0 -8" width="150" height="100" visible="false">
+				<text anchor="50% 0%" offset="0 -22" font="menus/px-20.xml" text="o.game" color="255 201 54" />
+				<text width="150" offset="43 10" anchor="0% 0%" text="o.mapopac" font="menus/px-10.xml" />
+				<volume id="minimap-opacity" value="minimap-opacity" offset="38 20" anchor="0% 0%" />
+				<textcheck id="hidemouse" check="hidemouse" offset="30 60" text="o.hidemouse" />
+				<textcheck id="pkuptxts" check="pkuptxts" offset="30 75" text="o.pkuptxts" />
+				<textcheck id="dmgtxts" check="dmgtxts" offset="30 45" text="o.dmgtxts" />
+				<textbutton id="nameBtn" click="username" anchor="50% 0%" offset="0 95" text="o.username" />
+			</group>
+			
+			<group id="sound" anchor="50% 50%" offset="0 -4" width="150" height="100" visible="false">
+				<text anchor="50% 0%" offset="0 -26" font="menus/px-20.xml" text="o.sound" color="255 201 54" />
+				<text width="150" offset="0 1" anchor="50% 0%" text="o.masterv" font="menus/px-10.xml" />
+				<volume id="global-volume" value="global-volume" offset="0 12" anchor="50% 0%" />
+				<text width="150" offset="0 29" anchor="50% 0%" text="o.musicv" font="menus/px-10.xml" />
+				<volume id="music-volume" value="music-volume" offset="0 40" anchor="50% 0%" />
+				<text width="150" offset="0 57" anchor="50% 0%" text="o.soundv" font="menus/px-10.xml" />
+				<volume id="sound-volume" value="sound-volume" offset="0 68" anchor="50% 0%" />
+				
+				<textcheck id="sndpan" check="sndpan" offset="0 92" anchor="50% 0%" text="声音平移" />
+			</group>
+			
+			<group id="controls" anchor="50% 50%" offset="0 0" width="150" height="100" visible="false">
+				<text anchor="50% 0%" offset="0 -30" font="menus/px-20.xml" text="o.controls" color="255 201 54" />
+				<text anchor="50% 0%" offset="-55 3" text="m.plr1" font="menus/px-10.xml" />
+				<textbutton id="control0" click="control 0" anchor="43% 0%" offset="0 0" text="Keyboard" />
+				<textbutton click="rebind 0" anchor="50% 0%" offset="47 0" text="o.rebind" />
+				<text anchor="50% 0%" offset="-55 23" text="m.plr2" font="menus/px-10.xml" />
+				<textbutton id="control1" click="control 1" anchor="43% 0%" offset="0 20" text="Gamepad" />
+				<textbutton click="rebind 1" anchor="50% 0%" offset="47 20" text="o.rebind" />
+				<text anchor="50% 0%" offset="-55 43" text="m.plr3" font="menus/px-10.xml" />
+				<textbutton id="control2" click="control 2" anchor="43% 0%" offset="0 40" text="Gamepad" />
+				<textbutton click="rebind 2" anchor="50% 0%" offset="47 40" text="o.rebind" />
+				<text anchor="50% 0%" offset="-55 63" text="m.plr4" font="menus/px-10.xml" />
+				<textbutton id="control3" click="control 3" anchor="43% 0%" offset="0 60" text="Gamepad" />
+				<textbutton click="rebind 3" anchor="50% 0%" offset="47 60" text="o.rebind" />
+			</group>
+			
+			<group id="resolution" anchor="50% 50%" offset="0 -9" width="110" height="100" visible="false">
+				<text anchor="50% 0%" offset="0 -21" font="menus/px-20.xml" text="o.res" color="255 201 54" />
+				<textbutton click="res 400 225" offset="0 5" text="400x225" ignore-lang="true" />
+				<textbutton click="res 800 600" offset="0 20" text="800x600" ignore-lang="true" />
+				<textbutton click="res 1024 768" offset="0 35" text="1024x768" ignore-lang="true" />
+				<textbutton click="res 1280 720" offset="0 50" text="1280x720" ignore-lang="true" />
+				<textbutton click="res 1280 1024" offset="0 65" text="1280x1024" ignore-lang="true" />
+				<textbutton click="res 1360 768" offset="0 80" text="1360x768" ignore-lang="true" />
+				<textbutton click="res 1366 768" offset="0 95" text="1366x768" ignore-lang="true" />
+				<textbutton click="res 1280 800" offset="60 5" text="1280x800" ignore-lang="true" />
+				<textbutton click="res 1440 900" offset="60 20" text="1440x900" ignore-lang="true" />
+				<textbutton click="res 1600 900" offset="60 35" text="1600x900" ignore-lang="true" />
+				<textbutton click="res 1680 1050" offset="60 50" text="1680x1050" ignore-lang="true" />
+				<textbutton click="res 1920 1080" offset="60 65" text="1920x1080" ignore-lang="true" />
+				<textbutton click="res 1920 1200" offset="60 80" text="1920x1200" ignore-lang="true" />
+				<textbutton click="res 3840 2160" offset="60 95" text="4K" ignore-lang="true" />
+			</group>
+			
+			<textbutton click="back" anchor="50% 100%" offset="0 -18" text="m.back" /></sprite>
+		
+		<sprite id="rebind" anchor="50% 50%" image="menus/menus.xml:bind-panel">
+			<text id="binding" anchor="50% 50%" offset="0 -15" text="o.presskey" font="menus/px-20.xml" />
+			<group offset="11 16" id="keyboard">
+				<keybind id="Up" offset="5 0" text="o.up" click="bind Up" />
+				<keybind id="Down" offset="5 18" text="o.down" click="bind Down" />
+				<keybind id="Left" offset="5 36" text="o.left" click="bind Left" />
+				<keybind id="Right" offset="5 54" text="o.right" click="bind Right" />
+				<keybind id="Strafe" offset="5 72" text="o.strafe" click="bind Strafe" />
+				<keybind id="Hold" offset="5 90" text="o.hold" click="bind Hold" />
+				<keybind id="Attack1" offset="100 0" text="o.attack" click="bind Attack1" />
+				<keybind id="Attack2" offset="100 18" text="o.skill1" click="bind Attack2" />
+				<keybind id="Attack3" offset="100 36" text="o.skill2" click="bind Attack3" />
+				<keybind id="Attack4" offset="100 54" text="o.skill3" click="bind Attack4" />
+				<keybind id="Potion" offset="100 72" text="o.potion" click="bind Potion" />
+				<keybind id="Info" offset="100 90" text="o.map" click="bind Info" />
+				<keybind id="Autofire" offset="100 108" text="" click="bind Autofire">
+					<text offset="-26 4" anchor="100% 0%" text="o.autofire" font="menus/px-10.xml" />
+				</keybind>
+				<textcheck id="invaf" check="invaf" offset="15 124" text="o.invaf" />
+			</group>
+			
+			<group offset="11 18" id="joystick">
+				<keybind id="Attack1" offset="5 0" text="o.attack" click="bind Attack1" />
+				<keybind id="Attack2" offset="5 18" text="o.skill1" click="bind Attack2" />
+				<keybind id="Attack3" offset="5 36" text="o.skill2" click="bind Attack3" />
+				<keybind id="Attack4" offset="5 54" text="o.skill3" click="bind Attack4" />
+				<keybind id="Potion" offset="5 72" text="o.potion" click="bind Potion" />
+				<keybind id="Info" offset="100 0" text="o.map" click="bind Info" />
+				<keybind id="Strafe" offset="100 18" text="o.strafe" click="bind Strafe" />
+				<keybind id="Hold" offset="100 36" text="o.hold" click="bind Hold" />
+				<keybind id="Back" offset="100 54" text="o.back" click="bind Back" />
+				<keybind id="Menu" offset="100 72" text="o.menu" click="bind Menu" />
+				<keybind id="Autofire" offset="100 90" text="" click="bind Autofire">
+					<text offset="-26 4" anchor="100% 0%" text="o.autofire" font="menus/px-10.xml" />
+				</keybind>
+				<textcheck id="8dirs" check="8dirs" offset="15 108" text="o.8dirs" />
+				<textcheck id="invaf" check="invaf" offset="15 122" text="o.invaf" />
+			</group>
+			
+			<textbutton click="reset" id="reset" anchor="50% 100%" offset="40 -18" text="o.reset" />
+			<textbutton click="back" anchor="50% 100%" offset="-40 -18" text="m.back" />
+		</sprite>
+	
+	</base>
+</gui>

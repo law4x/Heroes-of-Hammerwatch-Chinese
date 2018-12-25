@@ -1,0 +1,52 @@
+<gui>
+	<include>menus/gui/gui-include.xml</include>
+	<reusable>
+		<slot>
+			<button offset="0 0" click=":click" focus=":focus" id="button" 
+				img_normal="menus/menus.xml:slist-entry"
+				img_focus="menus/menus.xml:slist-entry-focus"
+				snd_click="sound/gui.xml:button">
+				
+				<text id="name" offset="12 3" text="游戏名" font="menus/px-10.xml" />
+				<text id="state" anchor="100% 0%" offset="-60 3" text="游戏中" font="menus/px-10.xml" />
+				<text id="players" anchor="100% 0%" offset="-34 3" text="1/4" font="menus/px-10.xml" />
+				<text id="ping" anchor="100% 0%" offset="-11 3" text="215" font="menus/px-10.xml" />
+			</button>
+		</slot>
+	</reusable>
+	
+	<base>
+		<sprite id="panel" anchor="50% 50%" image="menus/menus.xml:server-panel">
+			<text anchor="50% 0%" offset="-49 10" font="menus/px-10.xml" text="服务器浏览" color="255 201 54" ></text>	
+			<group offset="260 9" id="level-info">
+				<sprite offset="-23 6" image="menus/menus.xml:image-frame">
+					<sprite offset="2 2" id="image" image="menus/menus.xml:default-image" />
+				</sprite>
+				
+				<group offset="-22 73" width="82" height="135" >
+					<text id="level" anchor="50% 0%" width="82" font="menus/px-10.xml" />
+					<text offset="0 -80" id="location" anchor="50% 100%" text="fsdg ng lfkd getfd rgdfsg" width="82" font="menus/px-10.xml" />
+				</group>
+			</group>
+			
+			<scroll id="scroll" offset="7 24" objects="13" scroll="scroll">
+				<slot id="slot0" focus="focus 0" click="join 0" offset="0 0" />
+				<slot id="slot1" focus="focus 1" click="join 1" offset="0 13" />
+				<slot id="slot2" focus="focus 2" click="join 2" offset="0 26" />
+				<slot id="slot3" focus="focus 3" click="join 3" offset="0 39" />
+				<slot id="slot4" focus="focus 4" click="join 4" offset="0 52" />
+				<slot id="slot5" focus="focus 5" click="join 5" offset="0 65" />
+				<slot id="slot6" focus="focus 6" click="join 6" offset="0 78" />
+				<slot id="slot7" focus="focus 7" click="join 7" offset="0 91" />
+				<slot id="slot8" focus="focus 8" click="join 8" offset="0 104" />
+				<slot id="slot9" focus="focus 9" click="join 9" offset="0 117" />
+				<slot id="slot10" focus="focus 10" click="join 10" offset="0 130" />
+				<slot id="slot11" focus="focus 11" click="join 11" offset="0 143" />
+				<slot id="slot12" focus="focus 12" click="join 12" offset="0 156" />
+			</scroll>
+	
+			<textbutton click="refresh" id="refresh" anchor="0% 100%" offset="93 -12" text="l.refresh" />
+			<textbutton click="back" anchor="0% 100%" offset="12 -12" text="m.back" />
+		</sprite>
+	</base>
+</gui>

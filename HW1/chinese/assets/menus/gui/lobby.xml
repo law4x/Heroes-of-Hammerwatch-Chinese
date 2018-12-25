@@ -1,0 +1,125 @@
+<gui>
+	<include>menus/gui/gui-include.xml</include>
+	<reusable>
+		<slot>
+			
+			<textbutton id="add-plr" click="add-plr" anchor="0% 0%" offset="0 -2" text="l.addplr" />
+			<group>
+				<textbutton id="class" click="class" anchor="0% 0%" offset="0 -2" text="Class" />
+				<textbutton id="kick" click="kick" anchor="0% 0%" offset="0 -2" text="l.kick" />
+				<button id="costume" offset="62 -6" img_normal="menus/menus.xml:black" snd_click="sound/gui.xml:button" />
+				<text id="name" offset="85 1" anchor="0% 0%" text="l.plr" font="menus/px-10.xml" color="79 189 230" />		
+				
+				<button click="costume" id="costume-pick" offset="52 -2"
+					img_normal="menus/menus.xml:btn-color-normal" 
+					img_focus="menus/menus.xml:btn-color-focus"  
+					img_disabled="menus/menus.xml:btn-color-disabled"
+					snd_click="sound/gui.xml:button" >
+				</button>				
+				
+				<checkbox id="plr-ready" offset="200 -2"
+					img_normal="menus/menus.xml:chk-large-normal" 
+					img_checked="menus/menus.xml:chk-large-checked" 
+					img_disabled="menus/menus.xml:chk-large-disabled" 
+					img_disabled_checked="menus/menus.xml:chk-large-disabled-checked" />
+				<text id="dl-status" offset="214 -4" anchor="100% 0%" text="100%" font="menus/px-20.xml" />
+			</group>
+		</slot>
+	</reusable>
+	
+	<base>
+		<sprite id="panel" anchor="50% 50%" image="menus/menus.xml:panel">
+			
+			<group offset="234 0">
+				<sprite offset="3 15" image="menus/menus.xml:image-frame">
+					<sprite offset="2 2" id="image" image="menus/menus.xml:default-image" />
+				</sprite>
+				
+				<group offset="4 82" width="82" >				
+					<text id="level" anchor="50% 0%" width="82" font="menus/px-10.xml" />
+				</group>
+				
+				<textbutton click="levels" id="btn-lvl" offset="20 120" text="l.campaign" />
+							
+				<button id="btn-diff" click="difficulty" offset="20 136" 
+					img_normal="menus/menus.xml:btn-big-normal" 
+					img_focus="menus/menus.xml:btn-big-focus" 
+					img_down="menus/menus.xml:btn-big-down" 
+					img_disabled="menus/menus.xml:btn-big-disabled"
+					snd_click="sound/gui.xml:button" >
+					<sprite offset="0 -12" anchor="50% 100%" image="menus/menus.xml:black" />
+					<text offset="0 -2" anchor="50% 100%" text="" font="menus/px-10.xml" />
+				</button>
+				
+				<group offset="0 195" width="90" height="17">
+					<text id="modifiers" anchor="50% 50%" text="" font="menus/px-10.xml" />				
+				</group>
+				
+				<textbutton offset="20 178" click="modifiers" id="btn-mod"  text="l.modifiers" />
+			</group>
+		
+			<textchecklarge id="private-game" check="private" offset="180 9"  text="l.private" />
+			<sprite id="game-name-input-bg" offset="9 9" image="menus/menus.xml:input-server-name">
+				<input id="game-name-input" max_chars="25" text_change="name-change" anchor="0% 50%" offset="5 1" width="155" font="menus/px-10.xml" />
+			</sprite>
+			
+		
+			<group id="game-name-bg" offset="9 9">
+				<sprite offset="0 0" image="menus/menus.xml:custom-cover">
+				<text anchor="50% 50%" id="game-name" offset="0 1" font="menus/px-10.xml" text="" color="255 201 54" ></text>		
+				</sprite>	
+			</group>			
+		
+			
+
+			
+			
+			<slot id="slot0" offset="13 28" anchor="0% 0%" />
+			<slot id="slot1" offset="13 49" anchor="0% 0%" />
+			<slot id="slot2" offset="13 70" anchor="0% 0%" />
+			<slot id="slot3" offset="13 91" anchor="0% 0%" />
+			
+			
+			<chat width="230" offset="14 109" lines="7" input-offset="-3" font="menus/px-10.xml" input="menus/menus.xml:input-chat" />
+			
+	
+			<textcheck id="ready" check="ready" anchor="0% 100%" offset="70 -14" text="l.ready" />
+			<textbutton click="start" id="start" anchor="0% 100%" offset="93 -12" text="l.start" />
+			<text id="host-ip" anchor="100% 100%" offset="-123 -14" font="menus/px-10.xml" text=""/>
+			
+			<textbutton click="back" anchor="0% 100%" offset="12 -12" text="m.back" />
+			
+			<text visible="false" id="joining" anchor="50% 50%" offset="0 0" font="menus/px-20.xml" text="l.joining" />
+		</sprite>
+		
+		
+		<sprite id="pick-modifiers" anchor="50% 50%" image="menus/menus.xml:big-panel" visible="false">
+			<text anchor="50% 0%" offset="0 15" font="menus/px-20.xml" text="l.modifiers" color="255 201 54" />	
+			<group offset="11 50">
+				
+				<text offset="20 -13" font="menus/px-10.xml" text="l.challenges" color="255 0 0" />
+			
+				<textcheck id="nolives" check="mod" offset="0 0"  text="l.nolives" />
+				<textcheck id="1hp" check="mod" offset="0 15"  text="l.1hp" />
+				<textcheck id="sharehp" check="mod" offset="0 30"  text="l.sharehp" />
+				<textcheck id="nohppup" check="mod" offset="0 45"  text="l.nohppup" />
+				<textcheck id="nomanaregen" check="mod" offset="0 60"  text="l.nomanaregen" />
+				<textcheck id="revhpregen" check="mod" offset="0 75"  text="l.revhpregen" />
+			</group>
+			
+			<group offset="92 50">
+				<text offset="20 -13" font="menus/px-10.xml" text="l.crutches" color="0 255 0" />
+			
+				<textcheck id="inflives" check="mod" offset="0 0"  text="l.inflives" />
+				<textcheck id="hpregen" check="mod" offset="0 15"  text="l.hpregen" />
+				<textcheck id="doubledmg" check="mod" offset="0 30"  text="l.doubledmg" />
+				<textcheck id="doublelife" check="mod" offset="0 45"  text="l.doublelife" />
+				<textcheck id="quickmana" check="mod" offset="0 60"  text="l.quickmana" />
+			</group>
+			
+			<textbutton click="back" anchor="50% 100%" offset="0 -12" text="m.close" />
+			<text id="mod-score" anchor="50% 100%" offset="0 -32" font="menus/px-20.xml" text="l.score-mod"/>
+		</sprite>
+	
+	</base>
+</gui>

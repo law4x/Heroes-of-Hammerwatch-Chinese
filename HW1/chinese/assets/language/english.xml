@@ -1,0 +1,1029 @@
+﻿<dictionary>
+	<string name="m.plr1">一号玩家</string>
+	<string name="m.plr2">二号玩家</string>
+	<string name="m.plr3">三号玩家</string>
+	<string name="m.plr4">四号玩家</string>
+
+	<string name="m.play">开始游戏</string>
+	<string name="m.singlep">单人游戏</string>
+	<string name="m.multip">多人游戏</string>
+	<string name="m.options">设置</string>
+	<string name="m.credits">鸣谢</string>
+	<string name="m.help">帮助</string>
+	<string name="m.quit">退出游戏</string>
+	<string name="m.campaign1.desc">杀出一条血路,穿过铁锤城堡,夺取宝藏.</string>
+	<string name="m.campaign2.desc">额外冒险.\n击败太阳守卫沙兰德.</string>
+	<string name="m.customg">自定义</string>
+	<string name="m.customg.desc">开始一个自定义关卡</string>
+	<string name="m.tutorial">帮助</string>
+	<string name="m.tutorial.desc">帮助与信息</string>
+	<string name="m.loadg">加载游戏</string>
+	<string name="m.loadg.desc">载入存档</string>
+	<string name="m.loadsp">加载单人存档</string>
+	<string name="m.loadmp">加载多人存档</string>
+	<string name="m.back">返回</string>
+	<string name="m.localg">局域网</string>
+	<string name="m.hostg">创建房间</string>
+	<string name="m.inetg">加入房间</string>
+	<string name="m.slist">搜索房间</string>
+	<string name="m.sstatus.lobby">房间大厅</string>
+	<string name="m.sstatus.game">正在游戏</string>
+	<string name="m.connecthost">连接到主机</string>
+	<string name="m.hostname">IP地址 (Port 9995):</string>
+	<string name="m.resume">返回游戏</string>
+	<string name="m.stats">统计数据</string>
+	<string name="m.admin">管理房间</string>
+	<string name="m.gameover">游戏结束!</string>
+	<string name="m.loading">加载中</string>
+	<string name="m.close">关闭</string>
+	<string name="m.yes">是</string>
+	<string name="m.no">否</string>
+	<string name="m.ok">确定</string>
+	<string name="m.cancel">取消</string>
+	<string name="m.musicby">音乐：</string>
+	<string name="m.addart">艺术：</string>	
+	<string name="m.specthnx">特别感谢：</string>		
+	
+	<string name="m.credits.credits">鸣谢</string>	
+	<string name="m.credits.music">音乐</string>	
+	<string name="m.credits.art">艺术</string>	
+	<string name="m.credits.thanks">特别感谢</string>	
+	
+	<string name="o.game">游戏</string>
+	<string name="o.gfx">图形</string>
+	<string name="o.sound">音效</string>
+	<string name="o.controls">控制</string>
+	<string name="o.mapopac">小地图不透明度</string>
+	<string name="o.showgibs">复杂组件</string>
+	<string name="o.hidemouse">游戏中隐藏鼠标</string>
+	<string name="o.pkuptxts">拾取提示</string>
+	<string name="o.dmgtxts">伤害提示</string>
+	<string name="o.username">用户名</string>
+	<string name="o.res">分辨率</string>
+	<string name="o.shadows">阴影</string>
+	<string name="o.shadows-0">关闭</string>
+	<string name="o.shadows-1">粗糙</string>
+	<string name="o.shadows-2">柔滑</string>
+	<string name="o.lighting">光线</string>
+	<string name="o.glow">发光</string>
+	<string name="o.bloom">全局光照</string>
+	<string name="o.aocclude">环境光遮蔽</string>
+	<string name="o.fscreen">全屏</string>
+	<string name="o.vsync">垂直同步</string>
+	<string name="o.letterbox">调整至16:9宽屏</string>
+	<string name="o.advgfx">高级选项</string>
+	<string name="o.tborders">瓷砖边缘</string>
+	<string name="o.shadersoff">关闭光影</string>
+	<string name="o.fbosoff">No FBOs</string>
+	<string name="o.postproc">后期处理：</string>
+	<string name="o.postphos">荧光</string>
+	<string name="o.postcurve">曲率</string>
+	<string name="o.postbloom">点阵显示</string>
+	<string name="o.masterv">总音量</string>
+	<string name="o.musicv">音乐</string>
+	<string name="o.soundv">音效</string>
+	<string name="o.rebind">设置键位</string>
+	<string name="o.reset">重置键位</string>
+	<string name="o.up">上</string>
+	<string name="o.down">下</string>
+	<string name="o.left">左</string>
+	<string name="o.right">右</string>
+	<string name="o.attack">攻击</string>
+	<string name="o.skill1">技能 1</string>
+	<string name="o.skill2">技能 2</string>
+	<string name="o.skill3">技能 3</string>
+	<string name="o.potion">药水</string>
+	<string name="o.map">地图</string>
+	<string name="o.strafe">平移</string>
+	<string name="o.hold">静止</string>
+	<string name="o.back">返回</string>
+	<string name="o.menu">菜单</string>
+	<string name="o.autofire">按住自动攻击</string>
+	<string name="o.8dirs">将攻击方向分为八个</string>
+	<string name="o.invaf">反转自动攻击</string>
+	<string name="o.mouseaim">鼠标瞄准</string>
+	<string name="o.twins">双摇杆</string>
+	<string name="o.as360">检测到Xbox360手柄</string>
+	<string name="o.keyboard">键盘</string>
+	<string name="o.joystick">手柄%slot%</string>
+	<string name="o.noctrl">无</string>
+	<string name="o.presskey">按下一个按键...</string>
+	<string name="o.seluname">选择一个名称</string>
+	<string name="o.uname">用户名：</string>
+	<string name="o.needname">你必须输入一个用户名</string>
+	
+	
+	<string name="l.joining">加入中...</string>
+	<string name="l.addplr">添加玩家</string>
+	<string name="l.kick">踢出玩家</string>
+	<string name="l.plr">玩家</string>
+	<string name="l.campaign">关卡</string>
+	<string name="l.modifiers">编辑器</string>
+	<string name="l.ready">准备</string>
+	<string name="l.start">开始</string>
+	<string name="l.private">私人房</string>
+	<string name="l.refresh">刷新</string>
+	<string name="l.challenges">挑战</string>
+	<string name="l.crutches">辅助</string>
+	<string name="l.score-mod">得分： %mod%%</string>
+	<string name="l.nolives">无额外生命</string>
+	<string name="l.1hp">一滴血</string>
+	<string name="l.sharehp">血量分享</string>
+	<string name="l.nohppup">无生命拾取</string>
+	<string name="l.nomanaregen">没有法力回复</string>
+	<string name="l.revhpregen">持续失血</string>
+	<string name="l.inflives">无限生命</string>
+	<string name="l.hpregen">自动回复血量</string>
+	<string name="l.doubledmg">双倍伤害</string>
+	<string name="l.doublelife">双倍生命</string>
+	<string name="l.quickmana">五倍法力回复</string>
+	
+
+
+	<string name="e.win-congrats">恭喜你</string>
+	<string name="e.win">你胜利了</string>
+	<string name="e.win-died">你最终击败了巨龙但你没能逃出坍塌的城堡!</string>
+	<string name="e.win-survive">你击败了巨龙并从城堡中逃脱了!</string>
+	<string name="e.win-desert">恭喜你,你完成了你的任务!</string>
+	<string name="e.score">得分</string>
+	<string name="e.diffbonus">%bonus%% 难度加成</string>
+	<string name="e.modsbonus">%bonus%% 编辑器加成</string>
+
+	<string name="s.loading">正在从主机下载数据...</string>
+	<string name="stat.pups">拾取物</string>
+	<string name="stat.kills">杀敌</string>
+	<string name="stat.dmgdone">造成的伤害</string>
+	<string name="stat.dmgtaken">承受的伤害</string>
+	<string name="stat.dist">移动距离</string>
+	<string name="stat.breakables">摧毁的箱子</string>
+	<string name="stat.mana">消耗的法力</string>
+	<string name="stat.deaths">死亡次数</string>
+	<string name="stat.score">最终得分</string>
+	
+
+	<string name="item.dmgbonus">+%bonus%% 伤害提升!</string>
+	<string name="item.hpbonus">+%bonus% 生命上限提升!</string>
+	<string name="item.mpbonus">+%bonus% 能量上限提升!</string>
+	<string name="item.armorbonus">+%bonus% 护甲提升!</string>
+	<string name="item.lifeup">%num% 生命数提升!</string>
+	<string name="item.coin">打折硬币!</string>
+	
+	<string name="item.tool.pan">煎锅!</string>
+	<string name="item.tool.shovel">铲子!</string>
+	<string name="item.tool.pickaxe">稿子!</string>
+	<string name="item.tool.lever">物理学圣剑（杠杆）!</string>
+		
+	<string name="item.ore">矿物!</string>
+	<string name="item.mirror">镜子!</string>
+	
+	<string name="item.keyrune">符文钥匙!</string>		
+	<string name="item.keygold">金钥匙!</string>
+	<string name="item.keysilver">银钥匙!</string>
+	<string name="item.keybronze">铜钥匙!</string>
+	
+	
+	<string name="class-knight">骑士</string>
+	<string name="class-ranger">游侠</string>
+	<string name="class-wizard">法师</string>
+	<string name="class-warlock">术士</string>
+	<string name="class-thief">盗贼</string>
+	<string name="class-priest">牧师</string>
+	<string name="class-sorcerer">巫师</string>
+	
+	<string name="class-knight.desc">一个高移动性高防御性的近战职业</string>
+	<string name="class-ranger.desc">远距离的多功能职业\n推荐新玩家使用</string>
+	<string name="class-wizard.desc">拥有强力AOE的远程施法者</string>
+	<string name="class-warlock.desc">一个可以回复生命的近距离施法者</string>
+	<string name="class-thief.desc">以低防御换取高伤害的近战职业</string>
+	<string name="class-priest.desc">一个高防御的远程治疗施法者</string>
+	<string name="class-sorcerer.desc">Ranged spell caster with mobility and damage.</string>
+	
+	<string name="diff-easy">简易</string>
+	<string name="diff-medium">中等(正常)</string>
+	<string name="diff-hard">困难</string>
+	
+	<string name="diff-easy.desc">敌人会造成更低的伤害并更容易死亡</string>
+	<string name="diff-medium.desc">标准难度</string>
+	<string name="diff-hard.desc">仅推荐有能力的玩家</string>
+	
+	
+	
+	<string name="status-conned">%name% 已连接</string>
+	<string name="status-disced">%name% 已断开连接</string>
+
+	<string name="no-mana">(-%mana-miss%)</string>
+	<string name="no-money">金钱不足!</string>
+	<string name="cost-money">-%money%</string>
+	<string name="steal-money">+%money%</string>
+	
+	<string name="local-game">本地游戏</string>
+
+	<string name="combo_str_1">连击: %count%</string>
+	<string name="combo_str_2">连击: %count%!</string>
+	<string name="combo_str_3">连击: %count%!</string>
+	<string name="combo_str_4">连击: %count%!!</string>
+
+	<string name="hud.saved">游戏已保存....</string>
+	
+	
+	<string name="err.missing">没有哦</string>
+
+	<string name="err.d-title">测试</string>
+	<string name="err.d-error">测试版本中不可用</string>
+	
+	<string name="err.s-title">音效错误</string>
+	<string name="err.s-error">无法初始化OpenAL, 音效不会被播放. 尝试升级你的OpenAL驱动</string>
+
+	<string name="err.l-title">加载错误</string>
+	<string name="err.l-error">无法加载游戏</string>
+	<string name="err.l-version">此存档属于一个不同的游戏版本</string>
+	<string name="err.l-modification">此存档包含你未达到过的关卡</string>
+	
+	<string name="err.j-title">加入错误</string>
+	<string name="err.j-noaddress">找不到地址</string>
+	<string name="err.j-started">游戏已经开始</string>
+	<string name="err.j-full">房间已满</string>
+	<string name="err.j-version">这个服务器与你的版本不符</string>
+	<string name="err.j-nojoin">无法连接到服务器</string>
+	
+	<string name="err.h-title">创建错误</string>
+	<string name="err.h-inuse">地址已经被使用了</string>
+	<string name="err.h-nohost">无法创建游戏</string>
+	
+	<string name="msg.t-nversion">新版本!</string>
+	<string name="msg.m-nversion">新版本已经正式发布!前往www.hammerwatch.com来获取它!</string>
+	<string name="msg.t-kicked">被踢出</string>
+	<string name="msg.m-kicked">你被房主从房间中踢出</string>
+	<string name="msg.t-disced">已断开连接</string>
+	<string name="msg.m-disced">你失去了与主机的连接</string>
+	<string name="msg.t-quit">退出游戏?</string>
+	<string name="msg.m-quit">你确定你想要退出吗?</string>
+	<string name="msg.t-delsave">删除存档?</string>
+	<string name="msg.m-delsave">你确定要删除存档 '%file%'?</string>
+	<string name="msg.t-renamesave">重命名存档</string>
+	<string name="msg.m-renamesave">输入新的存档名：</string>
+	
+	
+	<string name="exit-level">等待所有玩家 (%num%/%tot%)</string>
+	<string name="waiting-for">正在等待 %names%</string>
+	<string name="active-checkpoint">存档点已激活</string>
+	
+	
+	
+	
+	<string name="lvl.act1">监狱</string>
+	<string name="lvl.act2">军械库</string>
+	<string name="lvl.act3">档案室</string>
+	<string name="lvl.act4">卧室</string>
+	<string name="lvl.esc">逃离</string>	
+	<string name="lvl.hw">铁锤城堡</string>		
+	<string name="lvl.floor">  楼 层 %floor%</string>
+	<string name="lvl.boss1">蠕虫女王</string>
+	<string name="lvl.boss2">武 士</string>
+	<string name="lvl.boss3">巫 妖</string>
+	<string name="lvl.boss4">巨 龙</string>
+	<string name="lvl.bonus1">额外第一关</string>
+	<string name="lvl.bonus2">额外第二关</string>
+	<string name="lvl.bonus3">额外第三关</string>
+	<string name="lvl.bonus4">额外第四关</string>
+	
+	
+	<string name="ig.floor">楼   层 %floor%</string>
+	<string name="ig.act1">监狱-第一章</string>
+	<string name="ig.act2">军械库-第二章</string>
+	<string name="ig.act3">档案馆-第三章</string>
+	<string name="ig.act4">内庭-第四章</string>
+	<string name="ig.act4b">君王之屋-第四章</string>	
+	<string name="ig.bonus-act">额外关卡 第 %act% 章</string>
+	<string name="ig.lvl-bonus1">额外第一关</string>
+	<string name="ig.lvl-bonus2">额外第二关</string>
+	<string name="ig.lvl-bonus3">额外第三关</string>
+	<string name="ig.lvl-bonus4">额外第四关</string>
+	
+	<string name="ig.boss1">蠕虫女王</string>
+	<string name="ig.boss1-dead">蠕虫女王已被击杀!</string>
+	<string name="ig.boss2">爵 士</string>
+	<string name="ig.boss2-dead">爵士已被击杀!</string>
+	<string name="ig.boss3">巫 妖</string>
+	<string name="ig.boss3-dead">巫妖已被击杀!</string>
+	<string name="ig.boss4">新 王</string>
+	<string name="ig.boss4-dead">巨龙已被击杀!</string>
+	
+	<string name="ig.usecret-candc">"我们需要一辆矿车..."</string>
+	<string name="ig.usecret-payday">"最后一次见面发生在世界银行"</string>
+	<string name="ig.usecret-civ">"地球是混沌虚无的"</string>
+	<string name="ig.usecret-doom">"那是一片末世般的苍茫星海"</string>
+	
+	<string name="ig.story-bridge">你身后的小桥断了...这里可能没有出去的路了!</string>
+	<string name="ig.story-bridge1">桥!</string>
+	<string name="ig.story-bridge2">我们会在这里等你,看看你能不能找到出路!</string>
+	<string name="ig.story-bridge3">再见!</string>
+	<string name="ig.story-bridge4">你永远都无法做到的!</string>
+	
+	<string name="ig.story-bridge_mid1">这是堵非常奇怪的墙!</string>
+	<string name="ig.story-bridge_mid2">难道它能从反面打破?</string>
+	<string name="ig.story-bridge_mid3">这做不到的.</string>
+	
+	<string name="ig.story-bridge_end1">太阳现在应该升起了</string>	
+	<string name="ig.story-bridge_end2">他们永远做不到的!</string>
+	<string name="ig.story-bridge_end3">他们做到了!</string>	
+	<string name="ig.story-bridge_end4">快点跑到这里来!</string>		
+	
+	<string name="ig.story-boss1">Oompf!</string>
+	<string name="ig.story-boss2">嗯?</string>
+	<string name="ig.story-boss2b">我必须打败你!</string>	
+	<string name="ig.story-boss3">为宽恕而祈祷吧!</string>
+	<string name="ig.story-boss4">zZz!</string>	
+	<string name="ig.story-boss4b">这就是一切的终结!</string>	
+	<string name="ig.story-boss4c">厄运降临让我无敌!</string>	
+	
+	<string name="ig.guide1">这是一条直接传送到第三层的路,如果你是新人,不要使用这个因为你会错过很多东西</string>
+	<string name="ig.guide3">在你离开一个楼层的同时也会存档,就跟存档一样.</string>
+	<string name="ig.guide4">这里有许多商人,有些很容易找到而有些隐藏在各个角落.从他们那里购买英雄的升级物品.</string>
+	<string name="ig.guide5">有时像这样的陷阱可以被拥有相同边框颜色的按钮关闭.</string>
+	<string name="ig.guide6">这是一个考验你运气的奖励房间.从来没有人拿到过四个奖励.</string>
+	<string name="ig.guide7">黑市硬币会在你购买物品时提供一定量的折扣,你可以在商店界面的正下方看见这个折扣.</string>
+	<string name="ig.guide8">这些尖刺陷阱在简单模式中是关闭的.</string>
+	<string name="ig.guide9">每一个章节都有三个这样的特殊按钮,激活它们以解锁BOSS关卡.</string>
+	
+	<string name="ig.npc1">嘿!这些木板被分散在这座城堡的各个角落,请确保你没有错过任何一块.切记!</string>	
+	<string name="ig.npc2">嘿!别忘了尝试一下蠕虫女王身边的按钮,它们可是很有用的!</string>	
+	<string name="ig.npc3">嘿!曾经保护过老国王的魔法机器现在已经被邪化,他现在保护着新国王,别忘了在进入这里之前要准备充分!</string>	
+	<string name="ig.npc4">嘿!穿过这里时小心一点!</string>		
+	<string name="ig.npc5">嘿!不要碰那个按钮.</string>	
+	<string name="ig.npc6">你不应该按下这个按钮的!</string>	
+	
+	<string name="ig.secret-plank">找到了一块神奇的木板?</string>	
+	
+	<string name="ig.seq-compl">顺序正确!</string>
+	<string name="ig.secret">你揭露了一个秘密</string>
+	<string name="ig.secret-passage">一个秘密通道已经被打开了</string>
+	<string name="ig.secret-area">你找到了一个密室</string>
+	<string name="ig.secret-shop">一个隐藏的商店已经被显现出来了</string>
+	<string name="ig.secret-shop-area">你找到了一个秘密市场</string>
+	<string name="ig.secret-secret">你找到了一个迷中迷</string>
+	<string name="ig.reveal-secret-shop-area">一个秘密商店被发现了</string>
+	<string name="ig.reveal-passage">一条道路已经被开启了</string>
+	<string name="ig.reveal-exit">一个出口已经被开启了</string>
+	<string name="ig.reveal-exit-sec">一个秘密出口被开启了</string>
+	<string name="ig.more-to-go">只剩下 %num% 个了...</string>
+	<string name="ig.many-more-to-go">还有更多的机关需要被开启...</string>
+	<string name="ig.activated">已激活!</string>
+	<string name="ig.letter">找到了字符 "%letter%"</string>
+	<string name="ig.letter-again">再一次找了字符 "%letter%"</string>
+	<string name="ig.won-some">你获得了一些奖励...</string>
+	<string name="ig.won-all">你得到了所有奖励!</string>
+	<string name="ig.tele-activated">传送门已被激活!</string>
+	<string name="ig.something">一些事情发生了...</string>
+	<string name="ig.happened-floor">在 %floor% 层上发生了什么...</string>
+	
+	<string name="ig.off-spikes">尖刺陷阱已关闭</string>
+	<string name="ig.off-spikes-red">红色尖刺陷阱已关闭</string>
+	<string name="ig.off-spikes-blue">蓝色尖刺陷阱已关闭</string>
+	<string name="ig.off-spiketurr-red">红色尖刺炮台已关闭</string>
+	<string name="ig.off-spiketurrs-red">红色尖刺炮台已关闭</string>	
+	<string name="ig.off-spiketurr-blue">蓝色尖刺炮台已关闭</string>
+	<string name="ig.off-flameturr-red">红色火焰喷射器已关闭</string>
+	<string name="ig.off-flameturr-blue">蓝色火焰喷射器已关闭</string>
+	
+	<string name="ig.on-spikes">尖刺陷阱已启动</string>
+	<string name="ig.on-spikes-red">红色尖刺陷阱已启动</string>
+	<string name="ig.on-spikes-blue">蓝色尖刺陷阱已启动</string>
+	<string name="ig.on-spiketurr-red">红色尖刺炮台已启动</string>
+	<string name="ig.on-spiketurr-blue">蓝色尖刺炮台已启动</string>
+	<string name="ig.on-flameturr-red">红色火焰喷射器已启动</string>
+	<string name="ig.on-flameturr-blue">蓝色火焰喷射器已启动</string>
+	
+	<string name="ig.on-fireturr-blue-lvl">蓝色火焰喷射器已启动</string>
+	
+	<string name="end.crash">但这座城堡正在坍塌!</string>
+	<string name="end.crash2">城堡正在坍塌!跑快一点!</string>	
+	<string name="end.lessplanks">我们应该要拿更多的木板的!现在全都白费了!</string>	
+	
+	<string name="quest.complete">完成</string>
+	<string name="quest.updated">已更新</string>		
+	<string name="quest.failed">失败</string>		
+	<string name="mission.updated">任务 (¤Info¤)</string>
+	
+
+
+<!-- Upgrades -->
+	<!-- Generic -->
+		<string name="life-uname">额外生命x1</string>
+		<string name="life-udesc">允许你在死亡后重生</string>
+		
+		<string name="rejuv-uname">充满活力</string>
+		<string name="rejuv-udesc">回满血量以及能量</string>
+		
+		<string name="pot-dmg-uname">伤害提升药水</string>
+		<string name="pot-dmg-udesc">使用后暂时提高你造成的伤害</string>
+		
+		<string name="pot-rejuv-uname">活力药水</string>
+		<string name="pot-rejuv-udesc">使用后回复所有血量以及能量</string>
+		
+		<string name="pot-invul-uname">伤害吸收药水</string>
+		<string name="pot-invul-udesc">使用后短暂免疫伤害</string>
+		
+		
+		<string name="speed-uname">移动速度 %lvl%</string>
+		<string name="speed-udesc">将移动速度从 %curr-move-speed% 提升到 %move-speed%</string>
+		
+		<string name="hp-uname">生命上限 %lvl%</string>
+		<string name="hp-udesc">将生命上限从 %curr-max-health% 提升到 %max-health%</string>
+		
+		<string name="mana-uname">能量上限 %lvl%</string>
+		<string name="mana-udesc">将能量上限从 %curr-max-mana% 提升到 %max-mana%</string>
+		
+		<string name="armor-uname">护甲 %lvl%</string>
+		<string name="armor-udesc">将护甲减伤百分比从 %curr-dmg-reduction% 提升到 %dmg-reduction%</string>
+		
+		<!-- Combo -->
+			<string name="combo-uname">连击</string>
+			<string name="combo-udesc">在短时间内杀死十个以上敌人后,获得一个短时间移速提升与伤害提升的buff</string>
+		
+			<string name="combo-time-uname">连击持续时间 %lvl%</string>
+			<string name="combo-time-udesc">这项升级使你更容易保持你的连击. 增加连击持续时间,从 %curr-combo-timer% 秒增加到 %combo-timer% 秒</string>
+
+			<string name="combo-nova-uname">连击：光波 %lvl%</string>
+			<string name="combo-nova-udesc-1">当连击存在时,持续在 %combo-nova-parts% 个方向射出光波,每道波造成 %combo-nova-dmg% 点伤害</string>
+			<string name="combo-nova-udesc-2">将光波的数量从 %curr-combo-nova-parts% 道增加到 %combo-nova-parts%道, 并将每道波的伤害从 %curr-combo-nova-dmg% 增加到%combo-nova-dmg%</string>
+
+			<string name="combo-heal-uname">连击：治疗 %lvl%</string>
+			<string name="combo-heal-udesc-1">在连击激活时,每秒为自己回复 %combo-heal% 点生命</string>
+			<string name="combo-heal-udesc-2">将每秒回复生命值从%curr-combo-heal% 提升到 %combo-heal%</string>
+
+			<string name="combo-mana-uname">连击：回魔 %lvl%</string>
+			<string name="combo-mana-udesc-1">当处于连击状态时,每秒回复%combo-mana%能量.</string>
+			<string name="combo-mana-udesc-2">每秒回复能量从 %curr-combo-mana% 增加到 %combo-mana%.</string>
+			
+			
+		
+		
+	<!-- Knight -->
+		<!-- Active -->
+			<string name="knidmg-uname">剑术伤害 %lvl%</string>
+			<string name="knidmg-udesc">将剑造成的伤害 从%curr-sword-dmg% 提升到 %sword-dmg%</string>
+			<string name="kniarc-uname">攻击范围：剑 %lvl%</string>
+			<string name="kniarc-udesc">将剑的攻击范围从 %curr-sword-arc% 度提升到 %sword-arc% 度</string>
+			
+			<string name="chrgdmg-uname">冲刺伤害 %lvl%</string>
+			<string name="chrgdmg-udesc">将冲刺的伤害从 %curr-charge-dmg-multiplier% 倍剑伤害提升到 %charge-dmg-multiplier% 倍</string>
+			<string name="chrgrng-uname">冲刺距离 %lvl%</string>
+			<string name="chrgrng-udesc">将冲刺的距离从 %curr-charge-dist% 提升到 %charge-dist%</string>
+			
+			<string name="heal-uname">治疗</string>
+			<string name="heal-udesc">为骑士和周围所有盟友治疗,每消耗 %heal-mana-cost% 点能量回复 %heal-amount% 点生命</string>
+			<string name="healeff-uname">治疗效率 %lvl%</string>
+			<string name="healeff-udesc">从每 %curr-heal-mana-cost% 点能量造成 %curr-heal-amount%点治疗量提升到每 %heal-mana-cost% 点能量造成 %heal-amount% 点治疗量</string>
+			
+			<string name="whirl-uname">神圣风暴</string>
+			<string name="whirl-udesc">骑士开始旋转,持续 %whirl-dur% 秒并对周围敌人造成 %whirl-dmg-multiplier% 倍剑的伤害</string>
+			<string name="whirldmg-uname">神圣风暴伤害 %lvl%</string>
+			<string name="whirldmg-udesc">将神圣风暴的伤害从 %curr-whirl-dmg-multiplier% 剑术伤害提升到 %whirl-dmg-multiplier% 倍剑术伤害</string>
+			<string name="whirldur-uname">神圣风暴持续时间 %lvl%</string>
+			<string name="whirldur-udesc">将神圣风暴的持续时间从 %curr-whirl-dur% 秒提升到 %whirl-dur% 秒</string>
+		
+		<!-- Passive -->
+			<string name="shield-uname">格挡 %lvl%</string>
+			<string name="shield-udesc-1">在正前方 %shield-arc% 度中格挡绝大多数子弹</string>
+			<string name="shield-udesc-2">将格挡范围从 %curr-shield-arc% 度提升到 %shield-arc% 度</string>
+		
+			<string name="bash-uname">神圣愤怒 %lvl%</string>
+			<string name="bash-udesc-1">骑士有 %bash-chance%% 的几率使任何目标晕眩2.5秒</string>
+			<string name="bash-udesc-2">将击晕的几率从 %curr-bash-chance%% 提升到 %bash-chance%%</string>
+			
+		
+		
+	<!-- Ranger -->
+		<!-- Active -->
+			<string name="rngdmg-uname">弓箭伤害 %lvl%</string>
+			<string name="rngdmg-udesc">将弓箭的伤害从 %curr-bow-dmg% 提升到 %bow-dmg%</string>
+			<string name="rngpen-uname">弓箭穿透  %lvl%</string>
+			<string name="rngpen-udesc">将弓箭的穿透伤害从  %curr-bow-penetration% 提升到 %bow-penetration%</string>
+			
+			<string name="bombdmg-uname">炸弹伤害 %lvl%</string>
+			<string name="bombdmg-udesc">将炸弹的伤害从 %curr-bomb-dmg% 提升到 %bomb-dmg%</string>
+			
+			<string name="growth-uname">自然繁生</string>
+			<string name="growth-udesc">将在 %growth-range% 码范围内的敌人困在原地 %growth-duration% 秒</string>
+			<string name="growthdur-uname">繁生持续时间 %lvl%</string>
+			<string name="growthdur-udesc">将自然繁生的定身持续时间从 %curr-growth-duration% 秒提升到 %growth-duration% 秒</string>
+			<string name="growthrng-uname">繁生范围 %lvl%</string>
+			<string name="growthrng-udesc">将自然繁生的范围从 %curr-growth-range% 提升到 %growth-range%</string>
+			
+			<string name="spread-uname">旋转箭雨</string>
+			<string name="spread-udesc">游侠原地旋转 %spread-waves% 圈,并每圈向周围射出%spread-arrows% 支箭来攻击敌人</string>
+			<string name="spreadshts-uname">箭雨数量 %lvl%</string>
+			<string name="spreadshts-udesc">将每圈射出的箭的数量从 %curr-spread-arrows% 提升到 %spread-arrows%</string>
+			<string name="spreadwvs-uname">旋转圈数 %lvl%</string>
+			<string name="spreadwvs-udesc">将旋转箭雨的旋转圈数从 %curr-spread-waves% 提升到 %spread-waves%</string>
+			
+		<!-- Passive -->
+			<string name="crit-uname">精确瞄准 %lvl%</string>
+			<string name="crit-udesc-1">使游侠有%crit-chance%% 的几率造成双倍伤害</string>
+			<string name="crit-udesc-2">将造成双倍伤害的几率从 %curr-crit-chance%% 提升到 %crit-chance%%</string>
+		
+			<string name="dodge-uname">闪避 %lvl%</string>
+			<string name="dodge-udesc-1">使游侠有%dodge-chance%% 的几率完全避免这次伤害</string>
+			<string name="dodge-udesc-2">将闪避的几率从 %curr-dodge-chance%% 提升到 %dodge-chance%%</string>
+		
+		
+		
+	<!-- Wizard -->
+		<!-- Active -->
+			<string name="wizdmg-uname">火球伤害 %lvl%</string>
+			<string name="wizdmg-udesc">将火球的伤害从 %curr-fireball-dmg% 提高到 %fireball-dmg% 并将溅射范围从 %curr-fireball-splash% 提升到 %fireball-splash%</string>
+			<string name="wizrng-uname">火球射程 %lvl%</string>
+			<string name="wizrng-udesc">将火球的射程从 %curr-fireball-range% 提升到 %fireball-range%</string>
+			
+			<string name="spraydmg-uname">喷火伤害 %lvl%</string>
+			<string name="spraydmg-udesc">将喷火的伤害从 %curr-spray-dmg% 提升到 %spray-dmg%</string>
+			
+			<string name="nova-uname">冰环</string>
+			<string name="nova-udesc">在法师周围以圆形射出 %nova-shards% 个冰片,每个冰片都会飞行 %nova-rng% 码并使被击中的敌人减速</string>
+			<string name="novarng-uname">冰环范围 %lvl%</string>
+			<string name="novarng-udesc">将冰环的范围从 %curr-nova-rng% 提升到 %nova-rng%</string>
+			<string name="novanum-uname">冰片数量 %lvl%</string>
+			<string name="novanum-udesc">将冰片的数量从 %curr-nova-shards% 个提升到 %nova-shards%个</string>
+			
+			<string name="fnova-uname">火球新星</string>
+			<string name="fnova-udesc">在法师周围释出 %fnova-flames% , 每个火球使敌人减速 %fnova-slow%% 并使其燃烧起来.</string>
+			<string name="fnovanum-uname">火球新星 火球 %lvl%</string>
+			<string name="fnovanum-udesc">火球数量从 %curr-fnova-flames% 增加到 %fnova-flames% ,同时也增加了火球范围.</string>
+			<string name="fnovaslow-uname">火球新星 缓慢 %lvl%</string>
+			<string name="fnovaslow-udesc">火球新星 火焰减速效果 %curr-fnova-slow% 增加到 %fnova-slow%</string>
+			
+			<string name="meteor-uname">流星陨落</string>
+			<string name="meteor-udesc">召唤 %meteor-amount% 个流星砸向地面并对落点周围大范围内的敌人造成 %meteor-dmg% 点伤害</string>
+			<string name="meteornum-uname">流星数量 %lvl%</string>
+			<string name="meteornum-udesc">将流星的数量从 %curr-meteor-amount% 个提升到 %meteor-amount%个</string>
+			<string name="meteordmg-uname">流星伤害 %lvl%</string>
+			<string name="meteordmg-udesc">将流星造成的伤害从 %curr-meteor-dmg% 提升到 %meteor-dmg%</string>
+		
+		<!-- Passive -->
+			<string name="fshield-uname">火盾 %lvl%</string>
+			<string name="fireshield-udesc">每当巫师受到伤害时,他的伤害者都会被施加灼烧效果并触发一个连击</string>
+		
+			<string name="combust-uname">灼烧</string>
+			<string name="combust-udesc">所有法师的火系攻击都会灼烧敌人 %combust-dur% 秒并造成每秒 %combust-dmg% 的伤害</string>
+			<string name="combustdmg-uname">灼烧伤害 %lvl%</string>
+			<string name="combustdmg-udesc">将灼烧造成的伤害从 %curr-combust-dmg% 每秒提升到 %combust-dmg% 每秒</string>
+			<string name="combustdur-uname">灼烧持续时间 %lvl%</string>
+			<string name="combustdur-udesc">将灼烧的持续时间从 %curr-combust-dur% 秒提升到 %combust-dur% 秒</string>
+			
+		
+	
+	<!-- Warlock -->
+		<!-- Active -->
+			<string name="wardmg-uname">小刀伤害 %lvl%</string>
+			<string name="wardmg-udesc">将小刀的伤害从 %curr-dagger-dmg% 提升到 %dagger-dmg%</string>
+			<string name="warpoi-uname">毒药 %lvl%</string>
+			<string name="warpoi-udesc">将毒药的伤害从 %curr-poison-dmg% 每秒提升到 %poison-dmg% 每秒</string>
+			
+			<string name="lightningdmg-uname">雷击 %lvl%</string>
+			<string name="lightningdmg-udesc">将雷击的伤害从 %curr-lightning-dmg% 提升到 %lightning-dmg%</string>
+			<string name="lightningtrg-uname">连环雷击 %lvl%</string>
+			<string name="lightningtrg-udesc">将雷击的弹射次数从 %curr-lightning-bounces% 提升到 %lightning-bounces%</string>
+			
+			<string name="steal-uname">邪恶新星</string>
+			<string name="steal-udesc">术士放出一道新星,对周围敌人造成 %lifesteal-dmg% 点伤害,每个被击中的敌人会给术士提供一个每秒回复 %lifesteal-heal% 点血量的BUFF,持续 %lifesteal-dur% 秒</string>
+			<string name="stealdmg-uname">邪恶新星伤害 %lvl%</string>
+			<string name="stealdmg-udesc">将邪恶新星的伤害从 %curr-lifesteal-dmg% 提升到 %lifesteal-dmg% 并将对自己的治疗量从 %curr-lifesteal-heal% 每秒提升到 %lifesteal-heal% 每秒</string>
+			<string name="stealdur-uname">邪恶新星持续时间 %lvl%</string>
+			<string name="stealdur-udesc">将生命吸取效果的持续时间从 %curr-lifesteal-dur% 秒提升到 %lifesteal-dur% 秒</string>
+			
+			<string name="garg-uname">石爪图腾</string>
+			<string name="garg-udesc">召唤一个石爪图腾向周围发射闪电并晕眩敌人%garg-dur% 秒</string>
+			<string name="gargdmg-uname">石爪图腾 伤害 %lvl%</string>
+			<string name="gargdmg-udesc">石爪图腾伤害从 %curr-garg-dmg% 增加到 %garg-dmg%</string>
+			<string name="gargdur-uname">石爪图腾 持续时间 %lvl%</string>
+			<string name="gargdur-udesc">石爪图腾 持续时间从 %curr-garg-dur% 增加到 %garg-dur% seconds</string>
+			
+			<string name="storm-uname">雷暴云</string>
+			<string name="storm-udesc">在 %storm-dur% 秒内召唤一个雷暴云,雷暴云会跟随术士并自动用闪电攻击敌人,每次造成 %storm-dmg% 点伤害</string>
+			<string name="stormdmg-uname">雷暴云伤害 %lvl%</string>
+			<string name="stormdmg-udesc">将雷暴云每次的伤害从 %curr-storm-dmg% 提高到 %storm-dmg%</string>
+			<string name="stormdur-uname">雷暴云持续时间 %lvl%</string>
+			<string name="stormdur-udesc">将雷暴云的持续时间从 %curr-storm-dur% 提升到 %storm-dur% seconds</string>
+			
+		<!-- Passive -->
+			<string name="kheal-uname">鲜血献祭 %lvl%</string>
+			<string name="kheal-udesc-1">每当术士杀死一个敌人,他有 %kill-heal%% 的几率回复1点生命</string>
+			<string name="kheal-udesc-2">将鲜血献祭的触发几率从 %curr-kill-heal%% 提高到 %kill-heal%%</string>
+			
+			<string name="kmana-uname">灵魂献祭 %lvl%</string>
+			<string name="kmana-udesc-1">每当术士杀死一个敌人,他会回复 %kill-mana% 点能量</string>
+			<string name="kmana-udesc-2">将灵魂献祭获得的能量从 %curr-kill-mana% 提高到 %kill-mana%</string>
+			
+			
+			
+	<!-- Thief -->
+		<!-- Active -->
+			<string name="thidmg-uname">匕首伤害 %lvl%</string>
+			<string name="thidmg-udesc">将匕首伤害从 %curr-knives-dmg% 提升到 %knives-dmg%</string>
+			<string name="aspeed-uname">战斗技巧 %lvl%</string>
+			<string name="aspeed-udesc">将在攻击时的减速量从 %curr-knives-speed-mod% 减少到 %knives-speed-mod%</string>
+			
+			<string name="kfandmg-uname">刀扇伤害 %lvl%</string>
+			<string name="kfandmg-udesc">将刀扇的伤害从 %curr-kfan-dmg% 提高到 %kfan-dmg%</string>
+			<string name="kfanprojs-uname">刀扇数量 %lvl%</string>
+			<string name="kfanprojs-udesc">将刀扇中扔出的刀的数量从 %curr-kfan-projs% 提升到 %kfan-projs%</string>
+			
+			<string name="smoke-uname">烟幕弹</string>
+			<string name="smoke-udesc">使 %smoke-range% 码范围内的所有敌人晕眩2秒</string>
+			<string name="smokerng-uname">烟幕弹范围 %lvl%</string>
+			<string name="smokerng-udesc">将烟幕弹的范围从 %curr-smoke-range% 提升到 %smoke-range%</string>
+			
+			<string name="chain-uname">发射钩爪</string>
+			<string name="chain-udesc">盗贼向前射出一支钩爪并向前快速移动,路线上的敌人会被击晕1秒</string>
+			<string name="chainrng-uname">钩爪长度 %lvl%</string>
+			<string name="chainrng-udesc">将钩爪的长度从 %curr-chain-range% 提升到 %chain-range%</string>
+			<string name="chainstn-uname">钩爪击晕 %lvl%</string>
+			<string name="chainstn1-udesc">将钩爪的击晕时间从 1 秒提升到 1.5 秒</string>
+			<string name="chainstn2-udesc">将钩爪的击晕时间从 1.5 秒提升到 2 秒</string>
+			
+		<!-- Passive -->
+			<string name="mchance-uname">盗窃 %lvl%</string>
+			<string name="mchance-udesc-1">当盗贼用近战攻击杀死一个敌人时,他有 %money-chance%% 的几率获得一块钱</string>
+			<string name="mchance-udesc-2">将盗窃获得金币的几率从 %curr-money-chance%% 提升到 %money-chance%%</string>
+			
+			<string name="fervor-uname">狂热 %lvl%</string>
+			<string name="fervor-udesc-1">每当盗贼在短时间内使用近战攻击杀死敌人,他会获得 5% 的攻速加成,最多叠加 %max-fervor% 层</string>
+			<string name="fervor-udesc-2">狂热的最多层数从 %curr-max-fervor% 层提升到 %max-fervor% 层</string>
+			
+			
+			
+	<!-- Priest -->
+		<!-- Active -->
+			<string name="pridmg-uname">惩击伤害 %lvl%</string>
+			<string name="pridmg-udesc">将你惩击的伤害从 %curr-smite-dmg% 提升到 %smite-dmg%</string>
+			<string name="prispe-uname">移动减缓 %lvl%</string>
+			<string name="prispe-udesc">将攻击时的速度减缓从 %curr-smite-speed-pen%% 减少到 %smite-speed-pen%%</string>
+			
+			<string name="beamdmg-uname">圣光伤害 %lvl%</string>
+			<string name="beamdmg-udesc">将圣光的伤害从 %curr-beam-dmg% 提升到 %beam-dmg%</string>
+			<string name="beamrng-uname">圣光射程 %lvl%</string>
+			<string name="beamrng-udesc">将圣光的射程从 %curr-beam-range% 提升到 %beam-range%</string>
+			
+			<string name="area-uname">吸血结界</string>
+			<string name="area-udesc">在地面上放置一个领域,吸取范围中敌人 %area-dmg% 点生命并给玩家回复相同的生命</string>
+			<string name="areadmg-uname">吸血结界伤害 %lvl%</string>
+			<string name="areadmg-udesc">将生命吸取的伤害从 %curr-area-dmg% 提高到 %area-dmg%</string>
+			<string name="areanum-uname">吸血结界数量 %lvl%</string>
+			<string name="areanum-udesc">将同时能放置的结界数量从 %curr-area-limit% 增加到 %area-limit%</string>
+			
+			<string name="aura-uname">虚弱光环</string>
+			<string name="aura-udesc">牧师发出一道光环,使敌人造成的伤害减半并减速 %slow%%</string>
+			<string name="auraslow-uname">虚弱光环减速 %lvl%</string>
+			<string name="auraslow-udesc">将减速从 %curr-slow%% 增加到 %slow%%</string>
+			<string name="auradrain-uname">虚弱光环能量使用</string>
+			<string name="auradrain-udesc">虚弱光环不在消耗能量,转而停止能量回复</string>
+			
+		<!-- Passive -->
+			<string name="hpregen-uname">生命回复 %lvl%</string>
+			<string name="hpregen-udesc-1">牧师每 %hp-regen% 恢复 1 点生命</string>
+			<string name="hpregen-udesc-2">将生命恢复量从 1/%curr-hp-regen% 提高到 1/%hp-regen%</string>
+			
+			<string name="mshield-uname">能量护盾 %lvl%</string>
+			<string name="mshield-udesc">将能量护盾的吸收效率从每点能量吸收 %curr-shield-dmg-per-mana% 点伤害提高到每点能量吸收 %shield-dmg-per-mana% 点伤害</string>
+			
+			
+			
+	<!-- Sorcerer -->
+		<!-- Active -->
+			<string name="srcdmg-uname">Ice Shard Damage %lvl%</string>
+			<string name="srcdmg-udesc">Increases damage of your ice shards from %curr-shard-dmg% to %shard-dmg%</string>
+			<string name="srcrng-uname">Ice Shard Bounces %lvl%</string>
+			<string name="srcrng-udesc">Icreases the range of your ice shards from %curr-shard-range% to %shard-range% and the number of bounces from %curr-shard-bounces% to %shard-bounces%</string>
+			
+			<string name="cometdmg-uname">Comet Damage %lvl%</string>
+			<string name="cometdmg-udesc">Increases damage of the comet from %curr-comet-dmg% to %comet-dmg%</string>
+			
+			<string name="nova-uname">Ice Shard Nova</string>
+			<string name="nova-udesc">Shoots a nova of %nova-shards% ice shards in every direction</string>
+			<string name="novanum-uname">Ice Shard Nova Number %lvl%</string>
+			<string name="novanum-udesc">Increases the number of ice shards shot by the nova from %curr-nova-shards% to %nova-shards%</string>
+			<string name="novamana-uname">Ice Shard Nova Mana %lvl%</string>
+			<string name="novamana-udesc">Decreases the mana cost of the ice shard nova from %curr-nova-mana-cost% to %nova-mana-cost%</string>
+			
+			<string name="orb-uname">Ice Orb</string>
+			<string name="orb-udesc">Spawns a slow moving ice orb that shoots small ice shards in every direction</string>
+			<string name="orbtime-uname">Ice Orb Time %lvl%</string>
+			<string name="orbtime-udesc">Increases the duration of the ice orb from %curr-orb-time% seconds to %orb-time% seconds</string>
+			<string name="orbdmg-uname">Ice Orb Damage %lvl%</string>
+			<string name="orbdmg-udesc">Increases the damage of the ice shards shot from the ice orb from %curr-orb-shard-dmg% to %orb-shard-dmg%</string>
+			
+		<!-- Passive -->
+			<string name="fshield-uname">冰霜护甲 %lvl%</string>
+			<string name="fshield-udesc-1">%shield-chance%% chance to halve the damage of incoming attacks and slow the attacker</string>
+			<string name="fshield-udesc-2">Increases frost shield chance from %curr-shield-chance%% to %shield-chance%%</string>
+		
+			<string name="chill-uname">Chill</string>
+			<string name="chill-udesc">Causes the sorcerers attacks to slow enemies by %chill-slow%% for %chill-dur% seconds</string>
+			<string name="chillslow-uname">Chill Slow %lvl%</string>
+			<string name="chillslow-udesc">Increases the chill slow from %curr-chill-slow%% to %chill-slow%%</string>
+			<string name="chilldur-uname">Chill Duration %lvl%</string>
+			<string name="chilldur-udesc">Increases the chill duration from %curr-chill-dur% to %chill-dur% seconds</string>
+			
+			
+		
+		
+	<!-- Hero Defense -->
+		<string name="pextend-uname">增长道路</string>
+		<string name="pextend-udesc">增加敌人到达终点所需走的距离</string>
+		
+		<string name="sfire-uname">火球发射器 %lvl%</string>
+		<string name="sfire-udesc-1">开启能够发射火球的陷阱来击杀敌人</string>
+		<string name="sfire-udesc-2">增加火球发射器的伤害和攻击频率</string>
+		
+		
+	<!-- All things Desert -->	
+	
+	
+	<string name="d.objective.path">进入神庙</string>		
+	<string name="d.objective.jahn">找到 Jahn•Telarian</string>
+	<string name="d.objective.lever">打开水泵开关</string>
+	<string name="d.objective.krilith">杀死 Krilith</string>
+	<string name="d.objective.axe">找回 Lyron 的镐子</string>
+	<string name="d.objective.nodes">激活所有节点</string>
+	<string name="d.objective.sharand">杀死 Sha'Rand</string>
+	<string name="d.objective.dickardcain">跟 Richard 谈一谈</string>
+	
+	<string name="d.library.book1">Telarian 水泵 - 第7页\n\n...然后大地就能重新被滋养. 在淡季时不让水流走是非常重要的,不然粮食产量就会在季节....</string>
+	<string name="d.library.book2">阿拉蒂拉的历史 - 第56页\n\n...是由可怕的沙漠塑造的. 不久之后沙兰德就会被选为新的太阳守卫并且拥有火焰的力量...</string>
+	<string name="d.library.book3">矿物与材料 - 第19页\n\n...但是在制作武器,衣物和工具时, Keltonite 也非常有用. 它不仅处理起来非常简单,还非常,非常的耐用...</string>
+	<string name="d.library.book4">阿拉蒂拉德游戏 - 第924页\n\n第56章 角斗场\n...从遥远的东方来到这里,看到又一个英雄在角斗场中倒下,当有人被尖牙利齿撕成碎片时的愉悦...</string>
+	<string name="d.library.guestbooka">留言本 - 第92页\n\n01/25\n只是从这里路过,这里的书可真多! - 旅行者 Daniel\n\n(点击来翻页)</string>
+	<string name="d.library.guestbookb">留言本 - 最后一页\n\n07/12\n寻找着 Claymore 的扈从来确定他有没有找到进入神庙的路. - 佚名\n\n(点击来翻页)</string>	
+	<string name="d.library.npc.guard1">嘿!欢迎来到神庙图书馆.我们有着整个沙漠中最大的藏书量,甚至比 Sunspot 还多!</string>	
+	
+	<string name="d.hub.npc.caina">你好,我是 Richard Cain. 一个强大的冰霜巫师 Krilith 已经找到了通往太阳祭坛的道路. 最终他召唤了扭曲而邪恶的太阳守卫沙兰德.</string>
+	<string name="d.hub.npc.cainb">然后, Krilith 被迫撤退到了他的洞穴来恢复他的力量. 我们快速的封锁了祭坛的入口来阻止沙兰德出逃. 然而,当 Krilith 的力量恢复后, 他会释放沙兰德的.</string>
+	<string name="d.hub.npc.cainc">我们不知道 Krilith 来自哪里或是他的目的, 但我们确信他计划使用沙兰德的力量来打开 Brightmoor 的远古之门, 一个通往北部月亮神庙的大门.</string>
+	<string name="d.hub.npc.caind">如果那个封印损坏了,将会有恐怖的后果. 你必须在这个发生之前杀死 Krilith 和沙兰德!</string>
+	<string name="d.hub.npc.cainf">当你完成了你的任务再回来找我吧,祝你好运!</string>
+	<string name="d.hub.npc.caing">杀了 Krilith 和沙兰德, 然后回来找我.</string>
+	<string name="d.hub.npc.cainh">你杀了 Krilith! 只剩下沙兰德了.</string>
+	<string name="d.hub.npc.caini">你杀了沙兰德! 神庙终于再次自由了. 我们非常感谢你们的所作所为. 希望未来会带给你们新的冒险!</string>
+	
+	<string name="d.hub.npc.guardbazaara">我们的商人在没有 Keltonite 时无法工作. 在我们无法进入洞穴后,这种矿物已经非常稀少了.</string>
+	<string name="d.hub.npc.guardbazaarb">如果你找到了一些, 我确定有些商人会愿意做些东西给你们的. 虽然这些不会便宜!</string>
+	
+	<string name="d.hub.npc.guardteleport">由于巨石上没有安装符文钥匙,这些传送装置都停止运作了. 如果你能把符文装回去, 它就能恢复正常了!</string>	
+	
+	<string name="d.hub.npc.guardbossa">我们关闭了6个太阳节点来封锁通往太阳神庙的道路. 如果你们要重新打开它,你们就要重新打开那6个太阳节点.</string>	
+	<string name="d.hub.npc.guardbossb">道路打开了! 小心点,祝你好运!</string>	
+	
+	<string name="d.hub.npc.lyrona">Lyron, 一个来自 Fallowfold 的石匠.\n我被雇佣到这里来清理这条道路上的石. 那些祭祀们允许我拿走这些材料, 所以这对双方来说都是一个好买卖!</string>	
+	<string name="d.hub.npc.lyronb">当然, 我把我的镐子落在了神庙里. 现在我没法干活了! 如果你能找回我的镐子, 我就能够把路上的石头移走了.</string>
+	<string name="d.hub.npc.lyronc">谢谢! 回去工作咯!</string>
+	
+	<string name="d.hub.npc.powervendora">我非常乐意给你烧点什么, 但是我在洞穴里丢了我的锅. 也许你可以把它找回来?</string>
+	<string name="d.hub.npc.powervendorb">谢谢你! 我希望我的商店能给你带来欢乐. 烹饪时间到!</string>
+	
+	<string name="d.hub.npc.claymorea">嘿, 我是 Kevin Claymore.\n进入洞穴的唯一道路就是通过那座神庙. 虽然它的入口已经被奇怪的石头封起来了.</string>	
+	<string name="d.hub.npc.claymoreb">正常情况下, 年轻的 Telarian 会解决这些问题, 但我们现在找不到他了. 我把我的侍从派到了图书馆来看能不能找到挪开石头的办法.</string>
+	<string name="d.hub.npc.claymorec">我让我最好的守卫之一在旁边站岗,以防止有些愚蠢的野兽跑出来!</string>
+	<string name="d.hub.npc.claymored">噢, 你找到了一个进入神庙的路!</string>
+	
+	<string name="d.hub.npc.pyramidwizarda">菲尔金字塔是其中一个巫师Guild of Ebenerra用来测试他的学徒的地方.</string>
+	<string name="d.hub.npc.pyramidwizardb">这座金字塔是最古老的. 里面建造得就像一座迷宫.</string>
+	<string name="d.hub.npc.pyramidwizardc">要进入这座金字塔的话, 你要先完成试炼的第一部分,激活其他六座小金字塔.</string>
+	<string name="d.hub.npc.pyramidwizardd">你激活了所有的小金字塔!</string>
+	<string name="d.hub.npc.pyramidwizarde">你有点超过了我们的要求, 不过没关系, 欢迎来到菲尔金字塔!</string>
+	<string name="d.hub.npc.pyramidwizardf">你使这些试炼看起来变简单了! 这是你的奖励.</string>
+	<string name="d.hub.npc.pyramidwizardg">抱歉, 只有新的挑战者才能进入这里.</string>
+	
+	<string name="d.hub.npc.roadguard1">去找Richard•Cain. 他就在路旁边.</string>
+	
+	<string name="d.hub.npc.roadguard2">你不是才来过这里么?</string>
+	
+	<string name="d.hub.npc.gamblervendora">恭喜你!</string>
+	<string name="d.hub.npc.gamblervendorb">真差劲. 也许下一次吧?</string>
+	
+	<string name="d.entrance.guardblocka">*哈欠*</string>
+	<string name="d.entrance.guardblockb">*叹气*</string>
+	<string name="d.entrance.guardblockc">*打鼾*</string>
+	<string name="d.entrance.guardblockd">*zZz*</string>
+	<string name="d.entrance.guardblocke">啊?!</string>
+	
+	<string name="d.cave1.npc.squirea">啊, 我的腿. 我很抱歉, 但是这些书并没有讲怎么挪走像神庙前的石头...</string>
+	<string name="d.cave1.npc.squireb">你应该可以进入地下的通道. 你会在角斗场前面看见它的...</string>
+	<string name="d.cave1.npc.squirec">向世界讲述我的故事...</string>
+	
+	<string name="d.cave1.npc.guardtrapped1a">嘿!我在我被吃掉之前成功躲在了这里.\n所有这些动物突然开始奔向洞穴,所以我就跟着他们了! 谢谢你救了我. 也许箱子里的东西对你们有用?</string>	
+	<string name="d.cave1.npc.guardtrapped1b">现在不是收获季节, 所以这里现在不会有什么人来. 我确定其他人都被困在了洞穴里. 实际上, Jahn 是来这里修坏掉的水泵控制器的.</string>
+	
+	<string name="d.cave1.npc.guardtrapped2a">啊… 这是激活传送门所需的符文钥匙.\n有些人想要拿走这个, 但我杀了他们. 我不是很确定使用传送门是不是安全的, 所以我选择躲在这里.</string>
+	
+	<string name="d.cave1.npc.captaina">人们一般不会在淡季光顾码头, 但你和一个叫Daniel的旅行者都在这里停留了!</string>			
+	<string name="d.cave1.npc.captainb">他说他在寻找更多的冒险. 他在这里留下了一个大箱子, 也许你可以把它拿走.</string>			
+	<string name="d.cave1.npc.captainc">对了, 那不是Seylyn的海鸥么? 我确定我以前见过它...</string>				
+	
+	<string name="d.cave2.npc.guardtrapped1a">我本应该去神庙帮助Jahn来更换水泵的控制器的...</string>
+	<string name="d.cave2.npc.guardtrapped1b">但我现在没办法把这些讨厌的东西留在这里. 我希望Jahn还是安全的!</string>
+	
+	<string name="d.cave2.npc.telariana">好了, 我打开水泵了. 现在水位会慢慢下降了.</string>
+	<string name="d.cave2.npc.telarianb">当水位降到足够低, 你就能见到Krilith了!</string>
+	<string name="d.cave2.npc.telarianc">祝你好运, 还有小心他的冰霜魔法!</string>
+	<string name="d.cave2.npc.telariand">现在水位已经降低很多了.</string>
+	
+	<string name="d.cave3.npc.guardtrappeda">终于, 一个友善的面孔!\n\nKrilith跑进了那个储藏室. 他用他的闪烁技能穿过了水流.</string>
+	<string name="d.cave3.npc.guardtrappedb">我怀疑Krilith造了一些增强他冰霜魔法的设备. 这才是为什么这里越来越冷了.</string>
+	<string name="d.cave3.npc.guardtrappedc">如果Krilith被杀了, 这里的温度肯定会恢复正常.</string>
+	<string name="d.cave3.npc.guardtrappedd">Jahn肯定已经抽出水了!</string>
+	<string name="d.cave3.npc.guardtrappede">在接近Krilith之前, 做好万全准备!</string>	
+	<string name="d.cave3.npc.guardtrappedf">你成功得杀死了Krilith! Richard•Cain听到这个会很高兴的!</string>
+	<string name="d.cave3.npc.guardtrappedg">神庙上层的冰现在应该已经融化了!</string>	
+	
+	<string name="d.boss_1.npc.guardtpa">不幸的是, 桥只能从另一边激活...</string>
+	<string name="d.boss_1.npc.guardtpb">去那里的唯一方式就是穿过角斗场.</string>
+	<string name="d.boss_1.npc.guardtpc">我希望你们有足够的实力. 在我待在这里的时间里, 我从没见过能在角斗场中活下来的人.</string>
+	<string name="d.boss_1.npc.guardtpd">噢, 你们做到了! 我都不觉得有希望. 然后我就要重新写一下告示牌了!</string>
+	<string name="d.boss_1.npc.guardtpe">恭喜你们!</string>
+	
+	<string name="d.boss_1.npc.guardstarta">很高兴看到你们成功到达了这里.</string>
+	<string name="d.boss_1.npc.guardstartb">我的手下和我成功的赶走了这里的怪物. 洞穴的这块区域应该安全了.</string>
+	
+	<string name="d.temple1.npc.guardmirrora">谢谢你救了我!\n我不想在被不死族们包围时打开那扇门. 剩下的守卫和牧师们都被那些怪物控制了. 他们现在都是不死族的怪物们了...</string>
+	<string name="d.temple1.npc.guardmirrorb">我猜你是来这里打通去祭坛的道路的? 不幸的是, 在怪物们开始出现的时候,我们丢了节点镜. 他们现在分散在神庙的各个角落了.</string>
+	<string name="d.temple1.npc.guardmirrorc">你要把它们放在支架上来让阳光照射在节点上. 躲开那些光柱, 它们非常烫!</string>
+	
+	<string name="d.temple1.npc.telariana">我是Jahn•Telarian, 常住的杂工. 我在下来更换水泵控制器的时候被困在了这里. 如果你想要把水排掉的话, 请帮我把拉杆带到抽水站.</string>
+	<string name="d.temple1.npc.telarianb">我们不应该在淡季的时候抽水的, 但我确定杀死Krilith更加重要!</string>
+	<string name="d.temple1.npc.telarianc">我会在水泵的地方找你的. 噢, 那些冰块么? 那是Krilith干的. 解决他应该会让冰块消失.</string>
+		
+	<string name="d.boss_2.boss.krilitha">我知道有些人会企图挫败我的计划. 迎接你的末日吧!</string>
+	<string name="d.boss_2.boss.krilithb">有了这个装置,我就可以把整座神庙变成冰.</string>
+	<string name="d.boss_2.boss.krilithc">然后我就会用沙兰德的力量占领整个沙漠!</string>
+	<string name="d.boss_2.boss.krilithd">不!我的冰霜装置!</string>
+	<string name="d.boss_2.boss.krilithe">我…我必须再做一个!</string>
+	<string name="d.boss_2.boss.krilithf">我看到了...看到了你…你将会\n......</string>
+	
+	<string name="d.boss_3.boss.sharanda">所以说,道路已经打通.在我解决了你们后,我会大肆破坏你们的世界!</string>
+	<string name="d.boss_3.boss.sharandb">是时间了! 火焰! 火焰将会摧毁你们!</string>
+	<string name="d.boss_3.boss.sharandc">该死的障碍物!</string>
+	<string name="d.boss_3.boss.sharandd">该死的\n这些\n柱子!</string>
+	<string name="d.boss_3.boss.sharande">又是\n这些\n柱子...</string>
+	<string name="d.boss_3.boss.sharandf">这都是梦!</string>
+
+	<string name="d.shop.gamble.title">买卖有风险!</string>
+	<string name="d.shop.gamble.desc">有时候当我转动这些弹珠时,幸运会降临.有时候,它们不会</string>
+	
+	<string name="d.quest.pickaxe">找到了Lyrons的旧镐子...</string>
+	<string name="d.quest.pan">找到了Danias的锅...</string>
+	<string name="d.quest.lever">得到了Jahns的水泵拉杆...</string>
+	<string name="d.quest.boss_1">你在角斗场中活了下来…</string>
+	<string name="d.quest.boss_2">Krilith,冰霜巫师被杀死了...</string>
+	<string name="d.quest.boss_3">邪恶的沙兰德,太阳守卫被杀死了...</string>
+		
+	<string name="d.event.bridge">桥激活了!</string>		
+	<string name="d.event.bridge.green">绿色桥激活了!</string>
+	<string name="d.event.bridge.red">红色桥激活了!</string>
+	<string name="d.event.bridge.blue">蓝色桥激活了!</string>			
+	<string name="d.event.solarnode.activated">太阳节点激活了!</string>	
+	<string name="d.event.solarnode.deactivated">太阳节点停用了!</string>
+	<string name="d.event.pyramid.restored">金字塔升起了!</string>
+	<string name="d.event.end">游戏结束 IN:</string>		
+		
+	<string name="d.lvl.boss_1">角斗场</string>
+	<string name="d.lvl.boss_2">储藏室</string>
+	<string name="d.lvl.boss_3">太阳祭坛</string>	
+	<string name="d.lvl.passage">通道</string>		
+	<string name="d.lvl.hub">外部</string>		
+	<string name="d.lvl.entrance">入口</string>		
+	<string name="d.lvl.library">图书馆</string>		
+	<string name="d.lvl.temple">神庙 %floor%</string>
+	<string name="d.lvl.cave">洞穴 %floor%</string>
+	<string name="d.lvl.bonus_5">额外 V</string>
+
+	<string name="d.ig.bonus_5">菲尔金字塔</string>	
+	<string name="d.ig.bonus_5.small">额外 V</string>		
+	<string name="d.ig.outside">神庙外部</string>	
+	<string name="d.ig.outside.small">阿拉蒂拉沙漠</string>	
+	<string name="d.ig.entrance">入口</string>
+	<string name="d.ig.library">图书馆</string>
+	<string name="d.ig.passage">地下通道</string>
+	<string name="d.ig.storage">废弃储藏室</string>
+	<string name="d.ig.boss_1">鲨丘</string>
+	<string name="d.ig.boss_2">冰霜巫师KRILITH</string>
+	<string name="d.ig.boss_3">太阳守卫沙兰德</string>
+	<string name="d.ig.cave">洞穴 %floor%</string>
+	<string name="d.ig.cave.small">神庙下方</string>	
+	<string name="d.ig.temple">神庙 %floor%</string>
+	<string name="d.ig.temple.small">太阳神庙</string>
+	<string name="d.ig.arena.small">角斗场</string>
+	<string name="d.ig.storage.small">废弃储藏室</string>
+	<string name="d.ig.altar.small">太阳祭坛</string>
+	
+	<string name="d.sign.hub.1">北: 太阳神庙\n西: 石城\n南: 太阳黑子</string>
+	<string name="d.sign.hub.2">太阳神庙\n大门</string>
+	<string name="d.sign.hub.3">图书馆</string>
+	<string name="d.sign.hub.4">太阳祭坛</string>
+	<string name="d.sign.hub.5">菲尔金字塔</string>
+	<string name="d.sign.cave1.1">太阳\n码头</string>	
+	<string name="d.sign.cave2.1">抽水\n站</string>
+	<string name="d.sign.cave3.1">角斗场</string>
+	<string name="d.sign.cave3.2">储藏室</string>
+	<string name="d.sign.passage.1">太阳神庙\n后门</string>
+	<string name="d.sign.boss_1.1a">生存者: 0</string>
+	<string name="d.sign.boss_1.1b">生存者: 1</string>
+	<string name="d.sign.boss_1.1c">生存者: 2</string>
+	<string name="d.sign.boss_1.1d">生存者: 3</string>
+	<string name="d.sign.boss_1.1e">生存者: 4</string>
+	<string name="d.sign.boss_1.2">地下\n  通道</string>
+	<string name="d.sign.boss_1.3">洞穴</string>	
+	
+	
+	<!-- Tutorial -->
+	<string name="tut.basics">基础</string>
+		<string name="tut.b.play">游戏教程</string>
+		<string name="tut.b.play.desc">正常情况下,你会用你的进攻性技能来杀死怪物.生命值不会自动回复并且游戏有一定难度,所以不要承受不必要的伤害.如果你死了,你会在最近的记录点或是关卡入口复活,你的生命也会减少.当你生命耗尽时游戏就会结束.</string>	
+	
+		<string name="tut.b.prog">角色升级</string>
+		<string name="tut.b.prog.desc">在铁锤守卫中你在商人处用钱购买新的技能.当你击杀小boss或解开机关时,你也会得到升级,这通常会增加你的基础属性:伤害,护甲,生命上限,能量上限.</string>	
+		
+		<string name="tut.b.enemy">敌人</string>
+		<string name="tut.b.enemy.desc">怪物有着很多种的技能与能力,有些会远程攻击,有些拥有武器.他们还可以使玩家中毒,烧伤或是吸取能量.</string>			
+			
+	
+	<string name="tut.controls">操作</string>
+		<string name="tut.c.up">向上移动</string>
+		<string name="tut.c.down">向下移动</string>
+		<string name="tut.c.left">向左移动</string>
+		<string name="tut.c.right">向右移动</string>
+		
+		<string name="tut.c.skill1">普通攻击</string>
+		<string name="tut.c.skill2">技能2</string>
+		<string name="tut.c.skill3">技能3</string>
+		<string name="tut.c.skill4">技能4</string>
+		
+		<string name="tut.c.info">显示小地图和金钱</string>
+		<string name="tut.c.potion">喝下你的药水</string>
+		<string name="tut.c.strafe">不改变方向移动.</string>
+		<string name="tut.c.hold">原地转向.</string>
+		<string name="tut.c.autofire">按住自动攻击.</string>
+		
+		
+	
+	
+	<string name="tut.heroes">英雄</string>
+		<string name="tut.h.knight.desc">近战英雄.使用剑攻击面前的敌人,拥有快速冲刺技能,可以治疗友军并用盾抵挡面前的子弹.</string>
+		<string name="tut.h.wizard.desc">远程英雄,射击具有飞溅伤害和灼烧效果的火球,还可以射击冰箭,减缓敌人并从天空中调用流星,拥有冰霜效果的护盾.</string>
+		<string name="tut.h.ranger.desc">远程英雄,射出箭矢,投掷炸弹,可以用藤蔓缠住怪物或是旋转并射出箭矢,还可以躲避攻击.</string>
+		<string name="tut.h.warlock.desc">使用有毒的匕首,施放闪电球,拥有恢复生命和法力的技能,可以召唤出一个跟随他移动的巨大暴风云.</string>
+		<string name="tut.h.priest.desc">在远处惩击敌人,拥有可以造成伤害或治疗友军的光束,拥有法力护盾与减速光环,可以放出伤害敌人并治疗友军的领域.</string>
+		<string name="tut.h.thief.desc">挥舞着两把匕首,可以投掷匕首攻击,使用钩爪和烟雾弹作战.可以摧毁面前的绝大多数子弹.</string>
+		<string name="tut.h.sorcerer.desc">远程的冰施法者.射击的冰碎片可以在敌人之间反弹,也可以召唤彗星来伤害并击晕敌人和冰球以清除更大的区域. 拥有冰霜效果的护盾.</string>
+
+		
+	
+	
+	<string name="tut.items">物品</string>
+		<string name="tut.i.keys">钥匙</string>
+		<string name="tut.i.keys.desc">用钥匙来打开门.金钥匙最为稀有.</string>
+	
+		<string name="tut.i.money">金币</string>
+		<string name="tut.i.money.desc">钱用于在游戏中购买技能与升级.\n可以在桶,机关,箱子中找到.</string>
+		
+		<string name="tut.i.food">食物</string>
+		<string name="tut.i.food.desc">食物可以回复你的生命并且可以在地图各处找到,有时它会在你击杀敌人时掉落.</string>
+	
+		<string name="tut.i.mana">能量</string>
+		<string name="tut.i.mana.desc">能量用于使用你的技能,可以像食物一样找到.</string>
+	
+		<string name="tut.i.potions">药水</string>
+		<string name="tut.i.potions.desc">药水可以按 ¤Potion¤ 来激活.紫色药水是无敌药水,黄色药水是全回复药水,橙色药水是伤害药水</string>
+	
+		<string name="tut.i.upgrades">升级</string>
+		<string name="tut.i.upgrades.desc">有时候,你会找到可以永久加强你的伤害,防御,生命和能量的升级物品.</string>
+		
+		<string name="tut.i.lives">生命</string>
+		<string name="tut.i.lives.desc">额外的生命给你更多的机会,有三种不同的提升 - 1up, 5up 和 7up.</string>
+
+		<string name="tut.i.chests">箱子</string>
+		<string name="tut.i.chests.desc">箱子可能会有额外生命,升级物品或者钱.\n它们很稀有,一般发现在机关中.</string>
+
+		<string name="tut.i.vcoin">黑市硬币</string>
+		<string name="tut.i.vcoin.desc">分散在世界中的巨型金币,获得他们会让你在商人处获得折扣.</string>
+		
+		<string name="tut.i.plank">神秘木板?</string>
+		<string name="tut.i.plank.desc">像这个一样的神秘木板是用来搭桥的.</string>
+		
+		
+	<string name="tut.vendors">商人</string>
+		<string name="tut.v.offense">进攻</string>
+		<string name="tut.v.offense.desc">出售技能并\n提供进攻能力的升级.</string>
+	
+		<string name="tut.v.defense">防御</string>
+		<string name="tut.v.defense.desc">防御性的技能与升级\n如护甲.</string>
+		
+		<string name="tut.v.vit">属性</string>
+		<string name="tut.v.vit.desc">升级你的生命上限,\n能量上限和移动速度.</string>
+	
+		<string name="tut.v.power">药水</string>
+		<string name="tut.v.power.desc">出售全回复\n和各种药水.</string>
+	
+		<string name="tut.v.combo">连杀</string>
+		<string name="tut.v.combo.desc">强大的连杀技能可以在这里购买\n和升级,它会在当你在短时间内连\n续击杀时激活.</string>		
+</dictionary>

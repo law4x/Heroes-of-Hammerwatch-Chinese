@@ -1,0 +1,132 @@
+<gui>
+	<include>menus/gui/gui-include.xml</include>
+
+	<reusable>
+		<player>
+			<sprite id="no-combo" offset="0 12" image="menus/hud.xml:player-no-combo">
+				<sprite id="potion" offset="20 10" image="menus/hud.xml:potion-empty" />				
+				<sprite id="portrait" offset="1 7" image="menus/hud.xml:potion-empty" />
+				
+				<clippedsprite id="hp" offset="39 8" image="menus/hud.xml:hp-bar">
+					<sprite image="menus/hud.xml:glass-cover"/>	
+					<text id="text" offset="2 -1" anchor="0% 50%" text="" font="menus/px-10.xml" />
+				</clippedsprite>
+				
+				<clippedsprite id="mana" offset="39 17" image="menus/hud.xml:mana-bar">
+					<sprite image="menus/hud.xml:glass-cover"/>	
+					<text id="text" offset="2 -1" anchor="0% 50%" text="" font="menus/px-10.xml" />
+				</clippedsprite>
+				
+				<text id="mana-req" offset="-6 -2" anchor="100% 100%" text="" font="menus/px-10.xml" />				
+				
+				<text id="name" anchor="50% 0%" offset="0 -10" text="" font="menus/px-10.xml" />
+			</sprite>
+			<sprite id="combo" offset="0 12" image="menus/hud.xml:player-combo">
+				<sprite id="potion" offset="20 10" image="menus/hud.xml:potion-empty" />
+				<sprite id="portrait" offset="1 7" image="menus/hud.xml:potion-empty" />
+				
+				<clippedsprite id="cc" offset="2 2" image="menus/hud.xml:combo-bar" />
+				
+				<clippedsprite id="hp" offset="39 8" image="menus/hud.xml:hp-bar">
+					<sprite image="menus/hud.xml:glass-cover"/>	
+					<text id="text" offset="2 1" anchor="0% 50%" text="" font="menus/px-10.xml" />
+				</clippedsprite>
+				
+				<clippedsprite id="mana" offset="39 17" image="menus/hud.xml:mana-bar">
+					<sprite image="menus/hud.xml:glass-cover"/>	
+					<text id="text" offset="2 1" anchor="0% 50%" text="" font="menus/px-10.xml" />
+				</clippedsprite>
+				
+				<text id="mana-req" offset="-6 -2" anchor="100% 100%" text="" font="menus/px-10.xml" />
+				
+				<text id="name" anchor="50% 0%" offset="0 -10" text="" font="menus/px-10.xml" />
+								
+				<text id="combo-text" anchor="50% 0%" offset="0 -25" text="" font="menus/px-20.xml" />
+			</sprite>
+			<sprite id="money" anchor="50% 0%" offset="0 0" image="menus/hud.xml:player-money">
+				<sprite offset="55 3" image="menus/hud.xml:player-money-skull"/>					
+				<text id="money-txt" offset="17 3" text="" font="menus/px-10.xml" />
+				<text id="deaths-txt" offset="67 3" text="88" font="menus/px-10.xml" />
+			</sprite>
+		</player>
+	</reusable>
+
+	<base>
+		<bg id="game-over-bg" image="menus/menus.xml:black" visible="false" />
+	
+		<!-- <group visible="false"> -->
+			<sprite anchor="50% 0%" offset="0 0" image="menus/hud.xml:top">
+				<text id="keys-0" offset="35 4" text="" font="menus/px-20.xml" />
+				<text id="keys-1" offset="58 4" text="" font="menus/px-20.xml" />
+				<text id="keys-2" offset="81 4" text="" font="menus/px-20.xml" />
+				<text id="lives" offset="112 4" text="" font="menus/px-20.xml" />
+			</sprite>
+			
+			<sprite id="boss-hp" anchor="0% 50%" offset="0 0" image="menus/hud.xml:boss-hp-bg" visible="false">
+				<clippedsprite anchor="0% 100%" offset="2 -24" image="menus/hud.xml:boss-hp-bar" />
+				<sprite anchor="0% 100%" offset="2 -24" image="menus/hud.xml:boss-glass-cover"/>						
+				<sprite anchor="3% 50%" offset="9 1" image="menus/hud.xml:boss-hp-scale"/>				
+			</sprite>
+
+			<group id="players-1" width="142" height="40" anchor="50% 100%" visible="false">
+					<sprite anchor="0% 0%" offset="2 28" image="menus/hud.xml:bottom-left" />
+					<sprite anchor="100% 0%" offset="-2 28" image="menus/hud.xml:bottom-right" />
+				<player id="player1" anchor="50% 0%" />
+			</group>
+			
+			<group id="players-2" width="236" height="40" anchor="50% 100%" visible="false">
+					<sprite anchor="0% 0%" offset="-1 28" image="menus/hud.xml:bottom-left" />
+					<sprite anchor="100% 0%" offset="1 28" image="menus/hud.xml:bottom-right" />				
+				<player id="player1" anchor="0% 0%" offset="18 0" />
+				<player id="player2" anchor="100% 0%" offset="-18 0" />
+			</group>
+			
+			<group id="players-3" width="330" height="40" anchor="50% 100%" visible="false">
+					<sprite anchor="0% 0%" offset="-4 28" image="menus/hud.xml:bottom-left" />
+					<sprite anchor="100% 0%" offset="4 28" image="menus/hud.xml:bottom-right" />					
+				<player id="player1" anchor="50% 0%" offset="-100 0" />
+				<player id="player2" anchor="50% 0%" offset="0 0" />
+				<player id="player3" anchor="50% 0%" offset="100 0" />
+			</group>
+
+			<group id="players-4" width="424" height="40" anchor="50% 100%" visible="false">
+					<sprite anchor="0% 0%" offset="-7 28" image="menus/hud.xml:bottom-left" />
+					<sprite anchor="100% 0%" offset="7 28" image="menus/hud.xml:bottom-right" />					
+				<player id="player1" anchor="50% 0%" offset="-150 0" />
+				<player id="player2" anchor="50% 0%" offset="-50 0" />
+				<player id="player3" anchor="50% 0%" offset="50 0" />
+				<player id="player4" anchor="50% 0%" offset="150 0" />
+			</group>
+			
+			<sprite id="chat" anchor="0% 100%" offset="4 -30" image="menus/hud.xml:chat-bg">
+				<chat width="165" offset="6 6" lines="8" input="menus/hud.xml:chat-input" font="menus/px-10.xml" />
+			</sprite>
+		<!-- </group> -->
+		
+		
+		
+		
+		<text id="announce-text-title" width="250" offset="0 25" anchor="50% 0%" text="Announce title text" font="menus/px-20.xml" />
+		<text id="announce-text-subtitle" width="250" offset="0 45" anchor="50% 0%" text="Announce sub title text" font="menus/px-10.xml" />
+		<text id="announce-text" width="250" offset="0 -60" anchor="50% 100%" text="Announce text" font="menus/px-10.xml" />
+		<text id="saved-text" offset="5 5" anchor="0% 0%" text="Saved..." font="menus/px-10.xml" />
+		
+		<group id="extra-info" anchor="50% 0%" offset="46 0">
+			<sprite image="menus/hud.xml:info-panel">
+				<group width="116" height="23" offset="14 2">
+					<text id="act" offset="0 0" anchor="50% 0%" text="" font="menus/px-10.xml" />
+					<text id="level" offset="0 12" anchor="50% 0%" text="" font="menus/px-10.xml" />
+				</group>
+			</sprite>
+		</group>
+		
+		<group id="game-over" anchor="50% 50%" width="100" height="65">
+			<sprite offset="0 3" image="menus/menus.xml:panel-mid" />
+			<sprite offset="0 0" image="menus/menus.xml:panel-top" />
+			<sprite offset="0 60" image="menus/menus.xml:panel-bottom" />
+			
+			<text offset="0 12" anchor="50% 0%" text="m.gameover" font="menus/px-20.xml" />
+			<textbutton click="quit" anchor="50% 0%" offset="0 38" text="m.quit" />
+		</group>
+	</base>
+</gui>

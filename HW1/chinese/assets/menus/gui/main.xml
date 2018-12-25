@@ -1,0 +1,135 @@
+<gui>
+	<include>menus/gui/gui-include.xml</include>
+	
+	<base>
+		<text anchor="100% 100%" offset="0 0" font="menus/px-10.xml" id="version" text="" />
+		<text anchor="100% 100%" offset="0 -8" font="menus/px-10.xml" text="简体中文V1.41" />
+		
+		<button click="workshop" id="workshop-button" anchor="0% 100%" offset="4 -4"
+			img_normal="menus/menus.xml:wrkbtn-normal" 
+			img_focus="menus/menus.xml:wrkbtn-focus" 
+			img_down="menus/menus.xml:wrkbtn-normal" 
+			img_disabled="menus/menus.xml:wrkbtn-normal"
+			snd_click="sound/gui.xml:button" >
+			<text width="50" offset="0 10" anchor="50% 50%" text="创意工坊" ignore-lang="true" font="menus/px-10.xml" />
+		</button>
+		
+		
+		<group anchor="50% 50%" offset="0 0" width="146" height="176">
+			<sprite anchor="50% 50%" offset="0 -73" image="menus/menus.xml:logo" scale="1" />
+			<group id="main" anchor="50% 0%" offset="0 15" height="80" width="50" visible="true">
+				<!--<textbutton click="play" offset="0 3"  text="m.play" />-->
+				<textbutton click="options" offset="0 75" text="m.options" />
+				<!--<textbutton click="" offset="30 42" text="m.help" enabled="false" />-->
+				<textbutton click="credits" offset="0 90" text="m.credits" enabled="true" />
+				<textbutton click="multiplayer" offset="0 45" text="m.multip" enabled="true" />			
+				<textbutton click="campaign" offset="0 30" text="m.singlep" enabled="true" />				
+				<textbutton click="quit" offset="0 135" text="m.quit" />
+			</group>
+			
+			<group id="multiplayer" anchor="50% 0%" offset="0 15" width="80" height="50" visible="false">					
+				<textbutton anchor="50% 0%" click="local" offset="0 45" text="m.localg" />
+				<textbutton anchor="50% 0%" click="host" offset="0 75" text="m.hostg" />
+				<textbutton anchor="50% 0%" click="slist" offset="0 30" text="m.slist" />
+				<textbutton anchor="50% 0%" click="connect" offset="0 90" text="m.inetg" />
+				<textbutton anchor="50% 0%" click="loadmp" offset="0 105" text="m.loadg" />				
+				<textbutton anchor="50% 0%" click="main" offset="0 135" text="m.back" />
+			</group>
+			
+			<group id="campaign" anchor="50% 50%" offset="0 0" width="146" height="176" visible="false">
+				<button id="class" click="class" offset="92 21" img_normal="menus/menus.xml:btn-big-normal" img_focus="menus/menus.xml:btn-big-focus" img_down="menus/menus.xml:btn-big-down" img_disabled="menus/menus.xml:btn-big-disabled" snd_click="sound/gui.xml:button">
+					<sprite offset="0 -1" anchor="50% 50%" image="menus/menus.xml:black" />
+					<text offset="0 -2" anchor="50% 100%" text="" font="menus/px-10.xml" />
+					
+					<sprite anchor="0% 50%" offset="54 0" image="menus/menus.xml:info-medium">
+						<text offset="1 1" anchor="50% 50%" width="85" font="menus/px-10.xml" color="92 102 98"/>
+					</sprite>
+				</button>
+				
+				<button id="difficulty" click="difficulty" offset="92 63" img_normal="menus/menus.xml:btn-big-normal" img_focus="menus/menus.xml:btn-big-focus" img_down="menus/menus.xml:btn-big-down" img_disabled="menus/menus.xml:btn-big-disabled" snd_click="sound/gui.xml:button" >
+					<sprite offset="0 -13" anchor="50% 100%" image="menus/menus.xml:black" />
+					<text offset="0 -2" anchor="50% 100%" text="" font="menus/px-10.xml" />
+					
+					<sprite anchor="0% 50%" offset="54 0" image="menus/menus.xml:info-medium">
+						<text offset="1 1" anchor="50% 50%" width="85" font="menus/px-10.xml" color="92 102 98"/>
+					</sprite>
+				</button>
+				
+				<textbutton click="loadsp" offset="92 106" text="m.loadg">
+					<sprite anchor="0% 50%" offset="54 0" image="menus/menus.xml:info-small">
+						<text offset="1 1" anchor="50% 50%" text="m.loadg.desc" font="menus/px-10.xml" color="92 102 98"/>
+					</sprite>
+				</textbutton>
+				
+				<textbutton click="custom" offset="92 122" text="m.customg">
+					<sprite anchor="0% 50%" offset="54 0" image="menus/menus.xml:info-small">
+						<text offset="1 1" anchor="50% 50%" text="m.customg.desc" font="menus/px-10.xml" color="92 102 98"/>
+					</sprite>
+				</textbutton>
+				
+				<textbutton click="tutorial" offset="92 138" text="m.tutorial">
+					<sprite anchor="0% 50%" offset="54 0" image="menus/menus.xml:info-small">
+						<text offset="1 1" anchor="50% 50%" text="m.tutorial.desc" font="menus/px-10.xml" color="92 102 98"/>
+					</sprite>
+				</textbutton>
+				
+				<button click="start" anchor="0% 0%" offset="2 21"
+					img_normal="menus/menus.xml:campaign1-normal" 
+					img_focus="menus/menus.xml:campaign1-focus" 
+					snd_click="sound/gui.xml:button" >
+				</button>	
+					
+				
+				<button click="start2" anchor="0% 0%" offset="2 87"
+					img_normal="menus/menus.xml:campaign2-normal" 
+					img_focus="menus/menus.xml:campaign2-focus" 
+					snd_click="sound/gui.xml:button" >
+				</button>								
+
+				<sprite anchor="0% 0%" offset="-91 21" image="menus/menus.xml:info-big">
+					<text offset="0 0" anchor="50% 50%" width="80" text="m.campaign1.desc" font="menus/px-10.xml" color="92 102 98"/>
+				</sprite>
+
+				<sprite anchor="0% 0%" offset="-91 87" image="menus/menus.xml:info-big">
+					<text offset="0 0" anchor="50% 50%" width="80" text="m.campaign2.desc" font="menus/px-10.xml" color="92 102 98"/>
+				</sprite>				
+					
+				
+				<textbutton click="main" anchor="50% 0%" offset="0 165" text="m.back" />
+			</group>
+			
+			
+			<sprite id="credits" offset="0 0" anchor="50% 50%" image="menus/menus.xml:credits-panel" visible="false" >
+				<text anchor="50% 0%" offset="-75 15" font="menus/px-20.xml" text="m.credits.credits" color="255 201 54" />
+				<text anchor="50% 0%" offset="75 15" font="menus/px-20.xml" text="m.credits.music" color="255 201 54" />
+				<text anchor="50% 0%" offset="-75 65" font="menus/px-20.xml" text="m.credits.art" color="255 201 54" />
+				<text anchor="50% 0%" offset="75 65" font="menus/px-20.xml" text="m.credits.thanks" color="255 201 54" />	
+				
+				<text anchor="50% 0%" offset="-75 33" font="menus/px-10.xml" text="Niklas 'Myran' Myrberg" ignore-lang="true" />
+				<text anchor="50% 0%" offset="-75 43" font="menus/px-10.xml" text="Jochum 'Hipshot' Skoglund" ignore-lang="true" />
+				
+				<text anchor="50% 0%" offset="75 33" font="menus/px-10.xml" text="Two Feathers" ignore-lang="true" />
+				<text anchor="50% 0%" offset="75 43" font="menus/px-10.xml" text="Michael Chait (Bonus 5)" ignore-lang="true" />
+				
+				<text anchor="50% 0%" offset="-75 83" font="menus/px-10.xml" text="Jonatan P&#246;lj&#246;" ignore-lang="true" />	
+				<text anchor="50% 0%" offset="-75 93" font="menus/px-10.xml" text="James Biddulph" ignore-lang="true" />	
+				<text anchor="50% 0%" offset="-75 103" font="menus/px-10.xml" text="Bryan Duffy" ignore-lang="true" />	
+				<text anchor="50% 0%" offset="-75 113" font="menus/px-10.xml" text="Florian Hafner" ignore-lang="true" />	
+				<text anchor="50% 0%" offset="-75 123" font="menus/px-10.xml" text="Christian Nordgren" ignore-lang="true" />	
+				
+				<text anchor="50% 0%" offset="72 83" font="menus/px-10.xml" text="John Bardinelli (Story Localization)" ignore-lang="true" />	
+				<text anchor="50% 0%" offset="75 93" font="menus/px-10.xml" text="Linaru Greyfall (Testing)" ignore-lang="true" />	
+				<text anchor="50% 0%" offset="75 103" font="menus/px-10.xml" text="Carl Grubb (Bonus 5)" ignore-lang="true" />	
+				<text anchor="50% 0%" offset="75 113" font="menus/px-10.xml" text="Benjamin McDoniel (Puzzle)" ignore-lang="true" />	
+				
+				<text anchor="50% 0%" offset="75 123" font="menus/px-10.xml" text="law_4x (Chinese Localization)" ignore-lang="true" color="255 201 54" />
+				<text anchor="50% 0%" offset="75 133" font="menus/px-10.xml" text="Jack (Chinese Localization)" ignore-lang="true" color="255 201 54" />
+				<text anchor="50% 0%" offset="75 143" font="menus/px-10.xml" text="Bei Ai (Chinese Localization)" ignore-lang="true" color="255 201 54" />
+				
+				<text anchor="50% 0%" offset="0 206" font="menus/px-10.xml" text="声音引擎 : FMOD Studio by Firelight Technologies" ignore-lang="true" />	
+				
+				<textbutton click="main" anchor="50% 0%" offset="0 192" text="m.close" />	
+			</sprite>
+		</group>
+	</base>
+</gui>

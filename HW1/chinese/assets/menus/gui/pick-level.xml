@@ -1,0 +1,51 @@
+<gui>
+	<include>menus/gui/gui-include.xml</include>
+	<reusable>
+		<slot>
+			<button click=":click" focus=":focus" id="button" 
+				img_normal="menus/menus.xml:slist-entry" 
+				img_focus="menus/menus.xml:slist-entry-focus"
+				img_down="menus/menus.xml:slist-entry"
+				snd_click="sound/gui.xml:button">
+			</button>
+			
+			<text id="name" offset="12 3" width="200" lines="1" text="Upgrade Name" font="menus/px-10.xml" />
+		</slot>
+	</reusable>
+	
+	<base>
+		<sprite id="panel" anchor="50% 50%" image="menus/menus.xml:server-panel">
+			<group offset="260 9">
+				<sprite offset="-23 6" image="menus/menus.xml:image-frame">
+					<sprite offset="2 2" id="image" image="menus/menus.xml:default-image" />
+				</sprite>
+				
+			<group debug="false" offset="-22 73" width="82" >				
+				<text id="name" anchor="50% 0%" width="82" font="menus/px-10.xml" />
+			</group>					
+				
+				<text debug="false" id="desc" offset="-22 110" width="85" text="" font="menus/px-10.xml" />
+			</group>
+			<text anchor="50% 0%" offset="-49 10" font="menus/px-10.xml" text="自定义关卡" color="255 201 54" ></text>	
+			<scroll id="scroll" offset="7 24" objects="13" scroll="scroll">
+				<slot id="slot0" offset="0 0"  click="pick 0" focus="focus 0" />
+				<slot id="slot1" offset="0 13" click="pick 1" focus="focus 1" />
+				<slot id="slot2" offset="0 26" click="pick 2" focus="focus 2" />
+				<slot id="slot3" offset="0 39" click="pick 3" focus="focus 3" />
+				<slot id="slot4" offset="0 52" click="pick 4" focus="focus 4" />
+				<slot id="slot5" offset="0 65" click="pick 5" focus="focus 5"/>
+				<slot id="slot6" offset="0 78" click="pick 6" focus="focus 6" />
+				<slot id="slot7" offset="0 91" click="pick 7" focus="focus 7" />				
+				<slot id="slot8" offset="0 104" click="pick 8" focus="focus 8" />	
+				<slot id="slot9" offset="0 117" click="pick 9" focus="focus 9" />	
+				<slot id="slot10" offset="0 130" click="pick 10" focus="focus 10" />	
+				<slot id="slot11" offset="0 143" click="pick 11" focus="focus 11" />	
+				<slot id="slot12" offset="0 156" click="pick 12" focus="focus 12" />		
+			</scroll>
+			
+			<textbutton click="back" anchor="0% 100%" offset="12 -12" text="m.back" />
+		</sprite>
+		
+
+	</base>
+</gui>
