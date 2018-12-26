@@ -196,7 +196,7 @@
 	<string name="class-warlock.desc">一个可以回复生命的近距离施法者</string>
 	<string name="class-thief.desc">以低防御换取高伤害的近战职业</string>
 	<string name="class-priest.desc">一个高防御的远程治疗施法者</string>
-	<string name="class-sorcerer.desc">Ranged spell caster with mobility and damage.</string>
+	<string name="class-sorcerer.desc">具高机动性与高伤害与一身的远程法师.</string>
 	
 	<string name="diff-easy">简易</string>
 	<string name="diff-medium">中等(正常)</string>
@@ -691,39 +691,39 @@
 			
 	<!-- Sorcerer -->
 		<!-- Active -->
-			<string name="srcdmg-uname">Ice Shard Damage %lvl%</string>
-			<string name="srcdmg-udesc">Increases damage of your ice shards from %curr-shard-dmg% to %shard-dmg%</string>
-			<string name="srcrng-uname">Ice Shard Bounces %lvl%</string>
-			<string name="srcrng-udesc">Icreases the range of your ice shards from %curr-shard-range% to %shard-range% and the number of bounces from %curr-shard-bounces% to %shard-bounces%</string>
+			<string name="srcdmg-uname">冰晶碎片伤害 %lvl%</string>
+			<string name="srcdmg-udesc">冰晶碎片造成的伤害从%curr-shard-dmg%提升到%shard-dmg%</string>
+			<string name="srcrng-uname">冰晶碎片反弹 %lvl%</string>
+			<string name="srcrng-udesc">冰晶碎片的射程从%curr-shard-range%提升到%shard-range%，反弹次数从%curr-shard-bounces%提升到%shard-bounces%.</string>
 			
-			<string name="cometdmg-uname">Comet Damage %lvl%</string>
-			<string name="cometdmg-udesc">Increases damage of the comet from %curr-comet-dmg% to %comet-dmg%</string>
+			<string name="cometdmg-uname">极寒彗星%lvl%</string>
+			<string name="cometdmg-udesc">极寒彗星的伤害从%curr-comet-dmg%提升到%comet-dmg%</string>
 			
-			<string name="nova-uname">Ice Shard Nova</string>
-			<string name="nova-udesc">Shoots a nova of %nova-shards% ice shards in every direction</string>
-			<string name="novanum-uname">Ice Shard Nova Number %lvl%</string>
-			<string name="novanum-udesc">Increases the number of ice shards shot by the nova from %curr-nova-shards% to %nova-shards%</string>
-			<string name="novamana-uname">Ice Shard Nova Mana %lvl%</string>
-			<string name="novamana-udesc">Decreases the mana cost of the ice shard nova from %curr-nova-mana-cost% to %nova-mana-cost%</string>
+			<string name="nova-uname">冰霜新星</string>
+			<string name="nova-udesc">向周围发射%nova-shards%枚冰晶碎片.</string>
+			<string name="novanum-uname">冰霜新星冰片数量 %lvl%</string>
+			<string name="novanum-udesc">冰霜新星发射的冰片数量从%curr-nova-shards%提升到%nova-shards%</string>
+			<string name="novamana-uname">冰霜新星蓝耗%lvl%</string>
+			<string name="novamana-udesc">使用冰霜新星的蓝耗从%curr-nova-mana-cost%减少到%nova-mana-cost%</string>
 			
-			<string name="orb-uname">Ice Orb</string>
-			<string name="orb-udesc">Spawns a slow moving ice orb that shoots small ice shards in every direction</string>
-			<string name="orbtime-uname">Ice Orb Time %lvl%</string>
-			<string name="orbtime-udesc">Increases the duration of the ice orb from %curr-orb-time% seconds to %orb-time% seconds</string>
-			<string name="orbdmg-uname">Ice Orb Damage %lvl%</string>
-			<string name="orbdmg-udesc">Increases the damage of the ice shards shot from the ice orb from %curr-orb-shard-dmg% to %orb-shard-dmg%</string>
+			<string name="orb-uname">寒冬宝珠</string>
+			<string name="orb-udesc">生成一个寒冬宝珠。它会缓慢地移动并向周围发射冰晶碎片</string>
+			<string name="orbtime-uname">寒冬宝珠持续时间 %lvl%</string>
+			<string name="orbtime-udesc">寒冬宝珠的持续时间从%curr-orb-time%秒提升到%orb-time%秒</string>
+			<string name="orbdmg-uname">寒冬宝珠伤害 %lvl%</string>
+			<string name="orbdmg-udesc">寒冬宝珠发射的冰片伤害从%curr-orb-shard-dmg%提升到%orb-shard-dmg%</string>
 			
 		<!-- Passive -->
 			<string name="fshield-uname">冰霜护甲 %lvl%</string>
-			<string name="fshield-udesc-1">%shield-chance%% chance to halve the damage of incoming attacks and slow the attacker</string>
-			<string name="fshield-udesc-2">Increases frost shield chance from %curr-shield-chance%% to %shield-chance%%</string>
+			<string name="fshield-udesc-1">冰霜护甲提供%shield-chance%%的几率将受到伤害减半并减速攻击者</string>
+			<string name="fshield-udesc-2">冰霜护甲生效几率从%curr-shield-chance%%提升到%shield-chance%%</string>
 		
-			<string name="chill-uname">Chill</string>
-			<string name="chill-udesc">Causes the sorcerers attacks to slow enemies by %chill-slow%% for %chill-dur% seconds</string>
-			<string name="chillslow-uname">Chill Slow %lvl%</string>
-			<string name="chillslow-udesc">Increases the chill slow from %curr-chill-slow%% to %chill-slow%%</string>
-			<string name="chilldur-uname">Chill Duration %lvl%</string>
-			<string name="chilldur-udesc">Increases the chill duration from %curr-chill-dur% to %chill-dur% seconds</string>
+			<string name="chill-uname">噬骨严寒</string>
+			<string name="chill-udesc">噬骨严寒使巫师的攻击造成%chill-slow%%减速，持续%chill-dur%秒</string>
+			<string name="chillslow-uname">噬骨严寒减速 %lvl%</string>
+			<string name="chillslow-udesc">噬骨严寒减速从%curr-chill-slow%%提升到%chill-slow%%</string>
+			<string name="chilldur-uname">噬骨严寒持续时间 %lvl%</string>
+			<string name="chilldur-udesc">噬骨严寒减速持续时间从%curr-chill-dur%秒提升到%chill-dur%秒</string>
 			
 			
 		
