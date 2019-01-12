@@ -21,15 +21,15 @@
 	<string name="class.ranger">游侠</string>
 	<string name="class.ranger.desc">技能多样化的远距离战斗专家.</string>
 	<string name="class.sorcerer">巫师</string>
-	<string name="class.sorcerer.desc">脆弱的远距离咏唱者,可以减速敌人并造成混合伤害.</string>
+	<string name="class.sorcerer.desc">脆弱的远距离施法者,减速敌人并造成混合伤害.</string>
 	<string name="class.thief">盗贼</string>
 	<string name="class.thief.desc">难以捉摸的高机动近战刺客.</string>
-	<string name="class.thief.disabled.desc">盗贼未解锁.</string> 
+	<string name="class.thief.disabled.desc">盗贼未解锁.</string>
 	<string name="class.warlock">术士</string>
-	<string name="class.warlock.desc">近距离咏唱者,可以吸取灵魂补充生命值和魔法值.</string>
-	<string name="class.warlock.disabled.desc"></string>
+	<string name="class.warlock.desc">近距离魔法使用者,可以吸取灵魂补充生命值和魔法值.</string>
+	<string name="class.warlock.disabled.desc">--</string>
 	<string name="class.wizard">法师</string>
-	<string name="class.wizard.desc">一门玻璃大炮，可以造成成吨的伤害但是极其脆弱.</string>
+	<string name="class.wizard.desc">魔法伤害极高但很脆弱的施法者.</string>
 	<string name="class.wizard.disabled.desc">法师未解锁.</string>
 
 	<string name="playermenu.character.vitality">生命</string>
@@ -58,9 +58,9 @@
 	<string name="playermenu.character.healthregen">生命回复率</string>
 	<string name="playermenu.character.manaregen">法力回复率</string>
 	<string name="playermenu.character.armor">护甲</string>
-	<string name="playermenu.character.armor.description">减少%value%%受到的物理伤害.</string>
+	<string name="playermenu.character.armor.description">减少%value%%物理伤害.</string>
 	<string name="playermenu.character.resistance">魔抗</string>
-	<string name="playermenu.character.resistance.description">减少%value%%受到的魔法伤害.</string>
+	<string name="playermenu.character.resistance.description">减少%value%%魔法伤害.</string>
 	<string name="playermenu.character.attackpower">普攻加成</string>
 	<string name="playermenu.character.attackpower.description">提高%value%%普攻伤害.</string>
 	<string name="playermenu.character.spellpower">技能加成</string>
@@ -251,7 +251,7 @@
 	<string name="misc.elevator.ore">矿石</string>
 	<string name="misc.store.gold">运送 %num%金币回镇</string>
 	<string name="misc.soulslinked">灵魂链接</string>
-	<string name="misc.soulsunlinked">灵魂连接解除</string>
+	<string name="misc.soulsunlinked">灵魂链接解除</string>
 
 	<string name="item.key">钥匙</string>
 	<string name="item.key.plural">%num% 钥匙</string>
@@ -276,9 +276,6 @@
 	<string name="intro.text">远望镇坐落在遗忘之塔下方.很久以前这个出产矿石的小镇被遗弃,但在你们公会和勇者的帮助下,小镇有望恢复以前的荣光.(帮助：探索那座矿洞并收集金币和矿石,用金币购买装备并用矿石升级小镇中的建筑,金币也可以在公会解锁并升级你的技能.游戏里还有更多需要你去发现的东西,祝你好运.)</string>
 	<string name="intro.continue">继续</string>
 
-	
-	
-	
 
 	<!-- end of game -->
 
@@ -301,7 +298,7 @@
 	<string name="levelend.kills">击杀</string>
 	<string name="levelend.items">装备</string>
 	<string name="levelend.secrets">隐藏</string>
-	<string name="levelend.stars">星</string>
+	<string name="levelend.stars">星星</string>
 	<string name="levelend.time.game">游戏时间</string>
 	<string name="levelend.time.level">关卡时间</string>
 	<string name="interface.playersready">%ready%/%total% 玩家准备</string>
@@ -352,7 +349,7 @@
 	<string name="random_stuff.give_item">恶魔给了你一个装备!</string>
 	<string name="random_stuff.give_ore">恶魔给了你一些矿石!</string>
 	<string name="random_stuff.give_gold">恶魔给了你一些金币!</string>
-	<string name="random_stuff.give_experience">恶魔给了你一些经验!</string>
+	<string name="random_stuff.give_experience">恶魔给了一些经验!</string>
 	<string name="random_stuff.give_keys">恶魔给了你一些钥匙!</string>
 	<string name="random_stuff.deposit_gold">你想要运送金币回镇上吗?</string>
 	<string name="random_stuff.deposit_ore">你想运送矿石回镇上吗?</string>
@@ -704,8 +701,8 @@
 	<string name="v_fps_limit.help">将帧率限制在特定的数值.</string>
 	<string name="r_smooth_scrolling">平滑移动</string>
 	<string name="r_smooth_scrolling.help">在屏幕里平滑地移动视角.</string>
-	<string name="r_hdr">HDR</string> 
-	<string name="r_hdr.help">开启高动态光照渲染.</string>
+	<string name="r_hdr">动态光源</string>
+	<string name="r_hdr.help">使用动态范围.</string>
 	<string name="r_light_decal_proj">光影</string>
 	<string name="r_light_decal_proj.help">投射灯光和贴图到墙上</string>
 	<string name="r_shadows">阴影</string>
@@ -890,8 +887,8 @@
 	<string name="menu.search">搜索:</string>
 
 
-	<string name="menu.crumb.options.graphics">选项 > 图像</string>
-	<string name="menu.crumb.options.sound">选项 > 声音</string>
+	<string name="menu.crumb.options.graphics">OPTIONS > 图像</string>
+	<string name="menu.crumb.options.sound">OPTIONS > 声音</string>
 	<string name="menu.unsaved_dialog">有未保存的更改,是否保存?</string>
 
 	<string name="menu.lobby.chat.minplayers">至少要%min%名玩家才能开始.</string>
@@ -930,7 +927,7 @@
 	<string name="ui_txt">浮动文字</string>
 	<string name="ui_txt.help">显示浮动文字,例如伤害数值和拾取信息.</string>
 
-	<string name="menu.crumb.options.serverlist">多人游戏 >服务器列表</string>
+	<string name="menu.crumb.options.serverlist">MULTIPLAYER >服务器列表</string>
 	<string name="menu.serverlist.server">服务器</string>
 	<string name="menu.serverlist.scenario">场景</string>
 	<string name="menu.serverlist.players">玩家</string>
@@ -960,10 +957,10 @@
 	<string name="r_draw_glow.help">显示光晕</string>
 	<string name="menu.cancel">取消</string>
 
-	<string name="menu.controls.layout.ds41">手柄 1</string>
-	<string name="menu.controls.layout.ds42">手柄 2</string>
-	<string name="menu.controls.layout.ds43">手柄 3</string>
-	<string name="menu.controls.layout.ds44">手柄 4</string>
+	<string name="menu.controls.layout.ds41">手柄摇杆 1</string>
+	<string name="menu.controls.layout.ds42">手柄摇杆 2</string>
+	<string name="menu.controls.layout.ds43">手柄摇杆 3</string>
+	<string name="menu.controls.layout.ds44">手柄摇杆 4</string>
 
 	<string name="menu.notifier.joinfailed.join">无法加入房间.</string>
 	<string name="menu.notifier.joinfailed.host">无法创建房间.</string>
@@ -971,7 +968,7 @@
 
 	<string name="menu.splitscreen.newgame">新游戏</string>
 	<string name="menu.splitscreen.noplayers">你不能在没有玩家的情况下开始游戏!</string>
-	<string name="menu.splitscreen.prompt">按 返回键 离开</string>
+	<string name="menu.splitscreen.prompt">按返回键离开</string>
 	<string name="menu.splitscreen.join.kbm">按下键盘任意按键</string>
 	<string name="menu.splitscreen.join.gp">按下手柄任意按键</string>
 	<string name="menu.splitscreen.gameoptions">游戏选项</string>
@@ -1067,7 +1064,7 @@
 	<string name="shop.trainer">BBBBBBBBBBBBBBBBBB</string>
 	<string name="shop.treasury">DDDDDDDDDDDDDDDD</string>
 	<string name="shop.oretrader">矿石商人 奥利弗</string>
-	<string name="shop.tailor">裁缝</string>
+	<string name="shop.tailor">THE TAILOR</string>
 
 	<string name="town.building.townhall">市政厅</string>
 	<string name="town.building.guildhall">公会大厅</string>
@@ -1515,7 +1512,7 @@
 	<string name="skills.paladin.sword.4">近战对180度范围内造成25点物理伤害.</string>
 	<string name="skills.paladin.sword.5">近战对210度范围内造成28点物理伤害.</string>
 	<string name="skills.paladin.sword.6">近战对240度范围内造成31点物理伤害.</string>
-	
+
 	<string name="skills.paladin.charge">冲锋</string>
 	<string name="skills.paladin.charge.create">圣骑士向前冲锋,并对途中的敌人造成物理伤害.</string>
 	<string name="skills.paladin.charge.1">向前冲刺.途中的敌人受到25点物理伤害.</string>
@@ -1525,16 +1522,6 @@
 	<string name="skills.paladin.charge.5">向前冲刺.途中的敌人受到65点物理伤害.增加速度和范围.</string>
 	<string name="skills.paladin.charge.6">向前冲刺.途中的敌人受到75点物理伤害.增加速度和范围.</string>
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	<string name="skills.paladin.shield">守卫之盾</string>
 	<string name="skills.paladin.shield.create">被动.圣骑士手持一个坚固的盾牌,盾牌能格挡大部分投射物,此外也有几率阻挡一定的伤害.</string>
 	<string name="skills.paladin.shield.1">阻挡来自面前90度的投射物.盾牌有25%几率阻挡5点物理伤害或者魔法伤害.</string>
@@ -1543,43 +1530,30 @@
 	<string name="skills.paladin.shield.4">阻挡来自面前180度的投射物.盾牌有25%几率阻挡20点物理伤害或者魔法伤害.</string>
 	<string name="skills.paladin.shield.5">阻挡来自面前210度的投射物.盾牌有25%几率阻挡25点物理伤害或者魔法伤害.</string>
 
-	
-	
-	
-	
-	
-	
 	<string name="skills.paladin.stunning-blows">重击</string>
 	<string name="skills.paladin.stunning-blows.create">圣骑士的普通攻击有几率击晕敌人.</string>
-	<string name="skills.paladin.stunning-blows.1">\caac8ff剑击\d有10%几率使敌人晕眩2.5秒.</string>
-	<string name="skills.paladin.stunning-blows.2">\caac8ff剑击\d有15%几率使敌人晕眩2.5秒.</string>
-	<string name="skills.paladin.stunning-blows.3">\caac8ff剑击\d有20%几率使敌人晕眩2.5秒.</string>
-	<string name="skills.paladin.stunning-blows.4">\caac8ff剑击\d有25%几率使敌人晕眩2.5秒.</string>
+	<string name="skills.paladin.stunning-blows.1">剑击有10%几率使敌人晕眩2.5秒.</string>
+	<string name="skills.paladin.stunning-blows.2">剑击有15%几率使敌人晕眩2.5秒.</string>
+	<string name="skills.paladin.stunning-blows.3">剑击有20%几率使敌人晕眩2.5秒.</string>
+	<string name="skills.paladin.stunning-blows.4">剑击有25%几率使敌人晕眩2.5秒.</string>
 
 	<string name="skills.paladin.lay-on-hands">圣疗术</string>
 	<string name="skills.paladin.lay-on-hands.create">持续施法.治疗圣骑士和身边的所有队友.</string>
 	<string name="skills.paladin.lay-on-hands.1">向圣骑士身边全部队友提供一个持续3秒的BUFF,这个BUFF提供3固定值+2%最大生命值的生命回复和一个有25%几率抵挡5魔法伤害的护盾.</string>
-	<string name="skills.paladin.lay-on-hands.2">向圣骑士身边全部队友提供一个持续3.5秒的BUFF,这个BUFF提供5固定值+2%最大生命值的生命回复和一个有25%几率抵挡10魔法伤害的护盾.</string>
-	<string name="skills.paladin.lay-on-hands.3">向圣骑士身边全部队友提供一个持续4秒的BUFF,这个BUFF提供7固定值+2%最大生命值的生命回复和一个有25%几率抵挡15魔法伤害的护盾.</string>
-	<string name="skills.paladin.lay-on-hands.4">向圣骑士身边全部队友提供一个持续4.5秒的BUFF,这个BUFF提供9固定值+2%最大生命值的生命回复和一个有25%几率抵挡20魔法伤害的护盾.</string>
-	
-	
-	
-	
-	
+	<string name="skills.paladin.lay-on-hands.2">向圣骑士身边全部队友提供一个持续3秒的BUFF,这个BUFF提供5固定值+2%最大生命值的生命回复和一个有25%几率抵挡10魔法伤害的护盾.</string>
+	<string name="skills.paladin.lay-on-hands.3">向圣骑士身边全部队友提供一个持续3秒的BUFF,这个BUFF提供7固定值+2%最大生命值的生命回复和一个有25%几率抵挡15魔法伤害的护盾.</string>
+	<string name="skills.paladin.lay-on-hands.4">向圣骑士身边全部队友提供一个持续3秒的BUFF,这个BUFF提供9固定值+2%最大生命值的生命回复和一个有25%几率抵挡20魔法伤害的护盾.</string>
+
 	<string name="skills.paladin.whirlwind">旋风斩</string>
 	<string name="skills.paladin.whirlwind.create">持续施法.对周围的敌人造成伤害,施法期间可以移动,不可以攻击.</string>
 	<string name="skills.paladin.whirlwind.1">持续施法.对周围的敌人造成伤害,每次造成30点物理伤害.旋转持续3秒.</string>
 	<string name="skills.paladin.whirlwind.2">持续施法.对周围的敌人造成伤害,每次造成40点物理伤害.旋转持续4秒.</string>
 	<string name="skills.paladin.whirlwind.3">持续施法.对周围的敌人造成伤害,每次造成50点物理伤害.旋转持续5秒.</string>
-	
-	
-	
-	
+
 	<string name="skills.paladin.flames-of-devotion">奉献之火</string>
-	<string name="skills.paladin.flames-of-devotion.create">每次使用\caac8ff剑击\d伤害敌人,圣骑士的所有技能都将得到魔法伤害加成.</string>
-	<string name="skills.paladin.flames-of-devotion.1">每次使用\caac8ff剑击\d伤害敌人,圣骑士的所有技能都将得到魔法伤害加成.每次触发提供1点伤害加成,最高可以叠加12层,每层持续1秒.</string>
-	<string name="skills.paladin.flames-of-devotion.2">每次使用\caac8ff剑击\d伤害敌人,圣骑士的所有技能都将得到魔法伤害加成.每次触发提供1点伤害加成,最高可以叠加24层,每层持续1秒.</string>
+	<string name="skills.paladin.flames-of-devotion.create">每次使用剑击伤害敌人,圣骑士的所有技能都将得到魔法伤害加成.</string>
+	<string name="skills.paladin.flames-of-devotion.1">每次使用剑击伤害敌人,圣骑士的所有技能都将得到魔法伤害加成.每次触发提供1点伤害加成,最高可以叠加12层,每层持续1秒.</string>
+	<string name="skills.paladin.flames-of-devotion.2">每次使用剑击伤害敌人,圣骑士的所有技能都将得到魔法伤害加成.每次触发提供1点伤害加成,最高可以叠加24层,每层持续1秒.</string>
 
 
 	<!-- Priest -->
@@ -1594,12 +1568,12 @@
 
 	<string name="skills.priest.holy-light">圣光冲击</string>
 	<string name="skills.priest.holy-light.create">引导一道能够对敌人造成递增伤害并对队友进行治疗的光束.</string>
-	<string name="skills.priest.holy-light.1">发射一道光束,最高对敌人造成每秒17点魔法伤害并治疗队友每秒2点固定值+最大生命值的1%.</string>
-	<string name="skills.priest.holy-light.2">发射一道光束,最高对敌人造成每秒24点魔法伤害并治疗队友每秒3点固定值+最大生命值的1%.</string>
-	<string name="skills.priest.holy-light.3">发射一道光束,最高对敌人造成每秒31点魔法伤害并治疗队友每秒4点固定值+最大生命值的1%.</string>
-	<string name="skills.priest.holy-light.4">发射一道光束,最高对敌人造成每秒38点魔法伤害并治疗队友每秒5点固定值+最大生命值的1%.</string>
-	<string name="skills.priest.holy-light.5">发射一道光束,最高对敌人造成每秒45点魔法伤害并治疗队友每秒6点固定值+最大生命值的1%.</string>
-	<string name="skills.priest.holy-light.6">发射一道光束,最高对敌人造成每秒52点魔法伤害并治疗队友每秒7点固定值+最大生命值的1%.</string>
+	<string name="skills.priest.holy-light.1">发射一道光束,最高对敌人造成每秒17点魔法伤害并治疗队友每秒2点.</string>
+	<string name="skills.priest.holy-light.2">发射一道光束,最高对敌人造成每秒24点魔法伤害并治疗队友每秒3点.</string>
+	<string name="skills.priest.holy-light.3">发射一道光束,最高对敌人造成每秒31点魔法伤害并治疗队友每秒4点.</string>
+	<string name="skills.priest.holy-light.4">发射一道光束,最高对敌人造成每秒38点魔法伤害并治疗队友每秒5点.</string>
+	<string name="skills.priest.holy-light.5">发射一道光束,最高对敌人造成每秒45点魔法伤害并治疗队友每秒6点.</string>
+	<string name="skills.priest.holy-light.6">发射一道光束,最高对敌人造成每秒52点魔法伤害并治疗队友每秒7点.</string>
 
 	<string name="skills.priest.divine-protection">神圣屏障</string>
 	<string name="skills.priest.divine-protection.create">牧师自身被一个护盾保护,以消耗法力来吸收伤害.</string>
@@ -1630,9 +1604,9 @@
 	<string name="skills.priest.aura-of-purification.3">光环使敌人减速40%并降低20%的抗性,队友得到30%伤害减免,光环持续8秒.</string>
 
 	<string name="skills.priest.celestial-orb">天堂之球</string>
-	<string name="skills.priest.celestial-orb.create">天堂之球在牧师身边环绕并向周围的敌人发射小圣光束.小圣光束会自动集火被\caac8ff圣光冲击\d命中的敌人.</string>
-	<string name="skills.priest.celestial-orb.1">2个天堂之球在牧师身边环绕并向周围的敌人发射小圣光束,每秒造成8点魔法伤害.小圣光束会自动集火被\caac8ff圣光冲击\d命中的敌人.</string>
-	<string name="skills.priest.celestial-orb.2">3个天堂之球在牧师身边环绕并向周围的敌人发射小圣光束,每秒造成12点魔法伤害.小圣光束会自动集火被\caac8ff圣光冲击\d命中的敌人.</string>
+	<string name="skills.priest.celestial-orb.create">天堂之球在牧师身边环绕并向周围的敌人发射小圣光束.小圣光束会自动集火被圣光冲击命中的敌人.</string>
+	<string name="skills.priest.celestial-orb.1">2个天堂之球在牧师身边环绕并向周围的敌人发射小圣光束,每秒造成8点魔法伤害.小圣光束会自动集火被圣光冲击命中的敌人.</string>
+	<string name="skills.priest.celestial-orb.2">3个天堂之球在牧师身边环绕并向周围的敌人发射小圣光束,每秒造成12点魔法伤害.小圣光束会自动集火被圣光冲击命中的敌人.</string>
 
 
 	<!-- Ranger -->
@@ -1647,12 +1621,12 @@
 	
 	<string name="skills.ranger.flurry-of-arrows">箭羽风暴</string>
 	<string name="skills.ranger.flurry-of-arrows.create">游侠旋转着向四面八方射出箭矢.</string>
-	<string name="skills.ranger.flurry-of-arrows.1">游侠旋转着向四面八方射出箭矢.总共射出24支基于\caac8ff弓箭射击\d等级的箭矢.</string>
-	<string name="skills.ranger.flurry-of-arrows.2">游侠旋转着向四面八方射出箭矢.总共射出32支基于\caac8ff弓箭射击\d等级的箭矢.</string>
-	<string name="skills.ranger.flurry-of-arrows.3">游侠旋转着向四面八方射出箭矢.总共射出40支基于\caac8ff弓箭射击\d等级的箭矢.</string>
-	<string name="skills.ranger.flurry-of-arrows.4">游侠旋转着向四面八方射出箭矢.总共射出48支基于\caac8ff弓箭射击\d等级的箭矢.</string>
-	<string name="skills.ranger.flurry-of-arrows.5">游侠旋转着向四面八方射出箭矢.总共射出56支基于\caac8ff弓箭射击\d等级的箭矢.</string>
-	<string name="skills.ranger.flurry-of-arrows.6">游侠旋转着向四面八方射出箭矢.总共射出64支基于\caac8ff弓箭射击\d等级的箭矢.</string>
+	<string name="skills.ranger.flurry-of-arrows.1">游侠旋转着向四面八方射出箭矢.总共射出24支基于弓箭射击等级的箭矢.</string>
+	<string name="skills.ranger.flurry-of-arrows.2">游侠旋转着向四面八方射出箭矢.总共射出32支基于弓箭射击等级的箭矢.</string>
+	<string name="skills.ranger.flurry-of-arrows.3">游侠旋转着向四面八方射出箭矢.总共射出40支基于弓箭射击等级的箭矢.</string>
+	<string name="skills.ranger.flurry-of-arrows.4">游侠旋转着向四面八方射出箭矢.总共射出48支基于弓箭射击等级的箭矢.</string>
+	<string name="skills.ranger.flurry-of-arrows.5">游侠旋转着向四面八方射出箭矢.总共射出56支基于弓箭射击等级的箭矢.</string>
+	<string name="skills.ranger.flurry-of-arrows.6">游侠旋转着向四面八方射出箭矢.总共射出64支基于弓箭射击等级的箭矢.</string>
 	
 	<string name="skills.ranger.on-the-prowl">巡游</string>
 	<string name="skills.ranger.on-the-prowl.create">施法后,游侠都会获得提升移速和闪避的BUFF.</string>
@@ -1664,10 +1638,10 @@
 
 	<string name="skills.ranger.deadly-aim">狩猎印记</string>
 	<string name="skills.ranger.deadly-aim.create">弓箭射击有几率标记目标,被标记的目标受到的所有伤害都有几率暴击.</string>
-	<string name="skills.ranger.deadly-aim.1">\caac8ff弓箭射击\d有5%几率暴击并标记目标2.5秒,被标记目标有5%几率受到暴击伤害.</string>
-	<string name="skills.ranger.deadly-aim.2">\caac8ff弓箭射击\d有7.5%几率暴击并标记目标2.5秒,被标记目标有5%几率受到暴击伤害.</string>
-	<string name="skills.ranger.deadly-aim.3">\caac8ff弓箭射击\d有10%几率暴击并标记目标2.5秒,被标记目标有5%几率受到暴击伤害.</string>
-	<string name="skills.ranger.deadly-aim.4">\caac8ff弓箭射击\d有12.5%几率暴击并标记目标2.5秒,被标记目标有5%几率受到暴击伤害.</string>
+	<string name="skills.ranger.deadly-aim.1">弓箭射击有5%几率暴击并标记目标2.5秒,被标记目标有5%几率受到暴击伤害.</string>
+	<string name="skills.ranger.deadly-aim.2">弓箭射击有7.5%几率暴击并标记目标2.5秒,被标记目标有5%几率受到暴击伤害.</string>
+	<string name="skills.ranger.deadly-aim.3">弓箭射击有10%几率暴击并标记目标2.5秒,被标记目标有5%几率受到暴击伤害.</string>
+	<string name="skills.ranger.deadly-aim.4">弓箭射击有12.5%几率暴击并标记目标2.5秒,被标记目标有5%几率受到暴击伤害.</string>
 
 	<string name="skills.ranger.grasping-roots">缠绕根须</string>
 	<string name="skills.ranger.grasping-roots.create">游侠周围的地面长出的根须缠绕敌人,使敌人无法移动并降低防御.</string>
@@ -1684,8 +1658,8 @@
 	
 	<string name="skills.ranger.twinned-arrows">分裂箭矢</string>
 	<string name="skills.ranger.twinned-arrows.create">游侠的普通攻击命中后,有一定几率分裂出新的箭矢,新箭矢的攻击方向会偏向次级目标.</string>
-	<string name="skills.ranger.twinned-arrows.1">游侠的\caac8ff弓箭射击\d有25%几率分裂并寻找新的目标.</string>
-	<string name="skills.ranger.twinned-arrows.2">游侠的\caac8ff弓箭射击\d有40%几率分裂并寻找新的目标.</string>
+	<string name="skills.ranger.twinned-arrows.1">游侠射出的箭矢有25%几率分裂并寻找新的目标.</string>
+	<string name="skills.ranger.twinned-arrows.2">游侠射出的箭矢有40%几率分裂并寻找新的目标.</string>
 
 
 	<!-- Sorcerer -->
@@ -1744,12 +1718,12 @@
 	<!-- Thief -->
 	<string name="skills.thief.twin-daggers">孪生双刃</string>
 	<string name="skills.thief.twin-daggers.create">造成物理伤害的近战攻击.双刃不仅攻速快,还能打落大部分投射物</string>
-	<string name="skills.thief.twin-daggers.1">每两次快速的近战攻击,造成6点物理伤害.攻击时移动速度降低60%.</string>
-	<string name="skills.thief.twin-daggers.2">每两次快速的近战攻击,造成8点物理伤害.攻击时移动速度降低50%.</string>
-	<string name="skills.thief.twin-daggers.3">每两次快速的近战攻击,造成10点物理伤害.攻击时移动速度降低40%.</string>
-	<string name="skills.thief.twin-daggers.4">每两次快速的近战攻击,造成12点物理伤害.攻击时移动速度降低30%.</string>
-	<string name="skills.thief.twin-daggers.5">每两次快速的近战攻击,造成14点物理伤害.攻击时移动速度降低20%.</string>
-	<string name="skills.thief.twin-daggers.6">每两次快速的近战攻击,造成16点物理伤害.攻击时移动速度降低10%.</string>
+	<string name="skills.thief.twin-daggers.1">每两次快速的近战攻击,造成6*2点物理伤害.攻击时移动速度降低60%.</string>
+	<string name="skills.thief.twin-daggers.2">每两次快速的近战攻击,造成8*2点物理伤害.攻击时移动速度降低50%.</string>
+	<string name="skills.thief.twin-daggers.3">每两次快速的近战攻击,造成10*2点物理伤害.攻击时移动速度降低40%.</string>
+	<string name="skills.thief.twin-daggers.4">每两次快速的近战攻击,造成12*2点物理伤害.攻击时移动速度降低30%.</string>
+	<string name="skills.thief.twin-daggers.5">每两次快速的近战攻击,造成14*2点物理伤害.攻击时移动速度降低20%.</string>
+	<string name="skills.thief.twin-daggers.6">每两次快速的近战攻击,造成16*2点物理伤害.攻击时移动速度降低10%.</string>
 
 	<string name="skills.thief.throwing-knives">投掷匕首</string>
 	<string name="skills.thief.throwing-knives.create">盗贼向身前扇形区域内扔出匕首造成伤害,匕首可以穿透敌人.</string>
@@ -1770,10 +1744,10 @@
 
 	<string name="skills.thief.slice-and-dice">轮舞</string>
 	<string name="skills.thief.slice-and-dice.create">每次使用双刃击中敌人,盗贼都会获得短暂的攻速加成.每次获得层数都将刷新持续时间.</string>
-	<string name="skills.thief.slice-and-dice.1">每次 \caac8ff孪生双刀\d 都会获得2%攻速加成,最高叠加8层,状态存续2.5秒.每次获得层数都将刷新持续时间.</string>
-	<string name="skills.thief.slice-and-dice.2">每次 \caac8ff孪生双刀\d 都会获得2%攻速加成,最高叠加16层,状态存续2.5秒.每次获得层数都将刷新持续时间.</string>
-	<string name="skills.thief.slice-and-dice.3">每次 \caac8ff孪生双刀\d 都会获得2%攻速加成,最高叠加24层,状态存续2.5秒.每次获得层数都将刷新持续时间.</string>
-	<string name="skills.thief.slice-and-dice.4">每次 \caac8ff孪生双刀\d 都会获得2%攻速加成,最高叠加32层,状态存续2.5秒.每次获得层数都将刷新持续时间.</string>
+	<string name="skills.thief.slice-and-dice.1">每次攻击都会获得2%攻速加成,最高叠加8层,状态存续2.5秒.每次获得层数都将刷新持续时间.</string>
+	<string name="skills.thief.slice-and-dice.2">每次攻击都会获得2%攻速加成,最高叠加16层,状态存续2.5秒.每次获得层数都将刷新持续时间.</string>
+	<string name="skills.thief.slice-and-dice.3">每次攻击都会获得2%攻速加成,最高叠加24层,状态存续2.5秒.每次获得层数都将刷新持续时间.</string>
+	<string name="skills.thief.slice-and-dice.4">每次攻击都会获得2%攻速加成,最高叠加32层,状态存续2.5秒.每次获得层数都将刷新持续时间.</string>
 
 	<string name="skills.thief.grappling-hook">发射钩爪</string>
 	<string name="skills.thief.grappling-hook.create">盗贼向前发射一个钩爪并向勾住的地方移动,眩晕路途中所有的敌人.盗贼在进行勾爪位移期间获得100%的闪避.</string>
@@ -1785,18 +1759,18 @@
 	<string name="skills.thief.smoke-bomb">烟幕弹</string>
 	<string name="skills.thief.smoke-bomb.create">盗贼扔出一个烟幕弹,使范围内所有敌人眩晕,并掩护队友.</string>
 	<string name="skills.thief.smoke-bomb.1">盗贼扔出一个烟幕弹,烟幕弹可以使周围的敌人眩晕2秒,友军获得10%闪避.</string>
-	<string name="skills.thief.smoke-bomb.2">盗贼扔出一个烟幕弹,烟幕弹可以使周围的敌人眩晕3秒,友军获得20%闪避.</string>
-	<string name="skills.thief.smoke-bomb.3">盗贼扔出一个烟幕弹,烟幕弹可以使周围的敌人眩晕4秒,友军获得30%闪避.</string>
+	<string name="skills.thief.smoke-bomb.2">盗贼扔出一个烟幕弹,烟幕弹可以使周围的敌人眩晕3秒,友军获得20%闪避.范围更大</string>
+	<string name="skills.thief.smoke-bomb.3">盗贼扔出一个烟幕弹,烟幕弹可以使周围的敌人眩晕4秒,友军获得30%闪避.范围更大.</string>
 
 	<string name="skills.thief.vicious-cuts">烈毒狂戮</string>
-	<string name="skills.thief.vicious-cuts.create">每次独立的 \caac8ff孪生双刀\d 都有几率使目标失去一定百分比的当前生命.</string>
-	<string name="skills.thief.vicious-cuts.1">每次 \caac8ff孪生双刀\d 有5%几率使目标失去5%当前生命值.</string>
-	<string name="skills.thief.vicious-cuts.2">每次 \caac8ff孪生双刀\d 有10%几率使目标失去5%当前生命值.</string>
+	<string name="skills.thief.vicious-cuts.create">每次独立的双刃攻击都有几率使目标失去一定百分比的当前生命.</string>
+	<string name="skills.thief.vicious-cuts.1">每次攻击有5%几率使目标失去5%当前生命值.</string>
+	<string name="skills.thief.vicious-cuts.2">每次攻击有10%几率使目标失去5%当前生命值.</string>
 
 
 	<!-- Warlock -->
 	<string name="skills.warlock.soul-dagger">吸魂短匕</string>
-	<string name="skills.warlock.soul-dagger.create">造成带有持续性魔法伤害的近距离攻击,术士能从其施加灼魂效果的伤害中汲取生命和法力.</string>
+	<string name="skills.warlock.soul-dagger.create">造成持续性魔法伤害的近距离攻击,术士能从其施加灼魂效果的伤害中汲取生命和法力.</string>
 	<string name="skills.warlock.soul-dagger.1">吸魂短匕对敌人施加灼魂效果,使其在2.5秒内受到每秒10点魔法伤害,术士能回复该伤害值5%的生命和10%的法力.</string>
 	<string name="skills.warlock.soul-dagger.2">吸魂短匕对敌人施加灼魂效果,使其在3秒内受到每秒12点魔法伤害,术士能回复该伤害值5%的生命和10%的法力.</string>
 	<string name="skills.warlock.soul-dagger.3">吸魂短匕对敌人施加灼魂效果,使其在3.5秒内受到每秒14点魔法伤害,术士能回复该伤害值5%的生命和10%的法力.</string>
@@ -1818,7 +1792,7 @@
 	<string name="skills.warlock.extended-domain.1">所有技能的生效范围提升15%.</string>
 	<string name="skills.warlock.extended-domain.2">所有技能的生效范围提升30%.</string>
 	<string name="skills.warlock.extended-domain.3">所有技能的生效范围提升45%.</string>
-	<string name="skills.warlock.extended-domain.4">所有技能的生效范围提升60%.</string>
+	<string name="skills.warlock.extended-domain.4">所有技能的生效范围提升50%.</string>
 	<string name="skills.warlock.extended-domain.5">所有技能的生效范围提升75%.</string>
 
 	<string name="skills.warlock.soul-cleaver">灵魂收割</string>
@@ -1830,10 +1804,10 @@
 
 	<string name="skills.warlock.summon-gargoyle">石爪图腾</string>
 	<string name="skills.warlock.summon-gargoyle.create">召唤一个向周围快速发射闪电并晕眩周围敌人的石爪图腾.石爪图腾可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
-	<string name="skills.warlock.summon-gargoyle.1">闪电对命中的敌人造成20点魔法伤害.石爪图腾持续5秒.石爪图腾可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接,可与附近的图腾链接造成额外50%伤害,最大链接2个.</string>
-	<string name="skills.warlock.summon-gargoyle.2">闪电对命中的敌人造成24点魔法伤害.石爪图腾持续5秒.石爪图腾可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接,可与附近的图腾链接造成额外50%伤害,最大链接3个.</string>
-	<string name="skills.warlock.summon-gargoyle.3">闪电对命中的敌人造成28点魔法伤害.石爪图腾持续5秒.石爪图腾可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接,可与附近的图腾链接造成额外50%伤害,最大链接4个.</string>
-	<string name="skills.warlock.summon-gargoyle.4">闪电对命中的敌人造成32点魔法伤害.石爪图腾持续5秒.石爪图腾可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接,可与附近的图腾链接造成额外50%伤害,最大链接个.</string>
+	<string name="skills.warlock.summon-gargoyle.1">闪电对命中的敌人造成20点魔法伤害.石爪图腾持续5秒.石爪图腾可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
+	<string name="skills.warlock.summon-gargoyle.2">闪电对命中的敌人造成24点魔法伤害.石爪图腾持续5秒.石爪图腾可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
+	<string name="skills.warlock.summon-gargoyle.3">闪电对命中的敌人造成28点魔法伤害.石爪图腾持续5秒.石爪图腾可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
+	<string name="skills.warlock.summon-gargoyle.4">闪电对命中的敌人造成32点魔法伤害.石爪图腾持续5秒.石爪图腾可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
 
 	<string name="skills.warlock.eye-of-the-storm">风暴之眼</string>
 	<string name="skills.warlock.eye-of-the-storm.create">生成一团跟随术士的雷云.雷云会对周围的敌人发射闪电.还可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
@@ -2238,7 +2212,7 @@
 
 	<string name="item.magebane.name">巫师之祸</string>
 	<string name="item.magebane.desc">普通攻击有 %chance%% 几率降低敌人 %res%% 魔法抗性,持续2秒.</string>
-	
+
 	<string name="item.markhams-amulet.name">万锦护符</string>
 	<string name="item.markhams-amulet.desc">装备栏每有一件物品, %gain% 生命上限 和 法力上限.</string>
 
@@ -2325,7 +2299,7 @@
 	<string name="item.sets.monster-encyclopedia.desc">+ %dmg%% 伤害</string>
 
 	<string name="item.sets.kings-regalia.name">王者华服</string>
-	<string name="item.sets.kings-regalia.desc">+ %speed%% 攻击速度 和 技能冷却速度 </string>
+	<string name="item.sets.kings-regalia.desc">+ %speed%% 攻击速度 和 技能冷却速度</string>
 
 	<string name="item.sets.apothecarys-implements.name">药剂师工具</string>
 	<string name="item.sets.apothecarys-implements.desc.1">+1 药剂使用次数</string>
@@ -2334,12 +2308,12 @@
 	<string name="item.sets.journeymans-outfit.name">旅行装备</string>
 	<string name="item.sets.journeymans-outfit.desc.1">+ %armor% 护甲</string>
 	<string name="item.sets.journeymans-outfit.desc.2">+ %attack% 普攻伤害</string>
-	<string name="item.sets.journeymans-outfit.desc.3">受到的伤害降低 %reduction%% </string>
+	<string name="item.sets.journeymans-outfit.desc.3">受到的伤害降低 %reduction%%</string>
 
 	<string name="item.sets.disciples-arcana.name">信徒之秘</string>
 	<string name="item.sets.disciples-arcana.desc.1">+ %res% 魔法抗性</string>
 	<string name="item.sets.disciples-arcana.desc.2">+ %skill% 技能强度</string>
-	<string name="item.sets.disciples-arcana.desc.3">施法消耗降低 %cost%% </string>
+	<string name="item.sets.disciples-arcana.desc.3">施法消耗降低 %cost%%</string>
 
 	<string name="item.sets.spheres-of-power.name">魔力宝珠</string>
 	<string name="item.sets.spheres-of-power.desc.1">小型连杀新星</string>
@@ -2363,6 +2337,9 @@
 	<string name="item.sets.markhams-mastery.name">万锦奇珍</string>
 	<string name="item.sets.markhams-mastery.desc.1">装备栏每有一件物品, %gain% 护甲 与 魔抗.</string>
 	<string name="item.sets.markhams-mastery.desc.2">装备栏每有一件物品, %gain%% 攻击速度 和 技能冷却速度.</string>
+
+	<string name="item.sets.boots-of-speed.name">速度之靴</string>
+
 
 
 
@@ -2529,7 +2506,7 @@
 
 	<string name="fountain.effect.ace_key.name">冠军钥匙</string>
 	<string name="fountain.effect.ace_key.description">得到一把Ace钥匙.</string>
-	
+
 	<string name="fountain.effect.less_great_threat.name">罕有危机</string>
 	<string name="fountain.effect.less_great_threat.description">关卡时间限制惩罚变得很少见.</string>
 
@@ -2539,11 +2516,11 @@
 	<string name="fountain.effect.more_imps.name">宾客如云</string>
 	<string name="fountain.effect.more_imps.description">送礼物的小恶魔变得更常见.</string>
 
-	<string name="fountain.effect.faster_enemies.name">机敏之敌</string>
-	<string name="fountain.effect.faster_enemies.description">敌人的移动速度提高50%.</string>
+	<string name="fountain.effect.more_potion_charges.name">大号药瓶</string>
+	<string name="fountain.effect.more_potion_charges.description">增加两瓶药剂.</string>
 
-	<string name="fountain.effect.minibosses_everywhere.name">工头监工</string>
-	<string name="fountain.effect.minibosses_everywhere.description">每层都会生成小BOSS.</string>
+	<string name="fountain.effect.rare_item.name">稀有奖励</string>
+	<string name="fountain.effect.rare_item.description">随机奖励一个稀有装备.</string>
 
 
 	<!-- BAD -->
@@ -3178,9 +3155,6 @@
 
 	<string name="accomplishment.gambling-gold-won.name">豪客 %lvl%</string>
 	<string name="accomplishment.gambling-gold-won.desc">赌博赢取 %requirement%金币.</string>
-	
-	<string name="accomplishment.drinks-consumed.name">淬灭者 %lvl%</string>
-	<string name="accomplishment.drinks-consumed.desc">在酒馆消费 %requirement% 瓶酒水.</string>
 
 	<string name="accomplishment.floors-visited.name">探险 %lvl%</string>
 	<string name="accomplishment.floors-visited.desc">到达 %requirement% 新楼层.</string>
@@ -3196,6 +3170,9 @@
 
 	<string name="accomplishment.items-attuned.name">调和者 %lvl%</string>
 	<string name="accomplishment.items-attuned.desc">调和 %requirement% 件装备.</string>
+
+	<string name="accomplishment.drinks-consumed.name">淬灭者 %lvl%</string>
+	<string name="accomplishment.drinks-consumed.desc">在酒馆消费 %requirement% 瓶酒水.</string>
 
 
 
