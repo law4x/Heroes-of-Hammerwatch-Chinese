@@ -101,7 +101,7 @@
 	<string name="playermenu.effects.cursed.tooltip">获得诅咒并获得%chance%%几率闪避全部攻击.你也有%chance%%几率获得所有来源的 %damage%% 暴击伤害.</string>
 	<string name="charinfo.ngp">Forsaken Tower: NG+%ngp%</string>
 	<string name="charinfo.ngp.desert">预言金字塔: NG+%ngp%</string>
-	<string name="charinfo.arena.rank">Aridara 竞技场: 排名 %rank%</string>
+	<string name="charinfo.arena.rank">阿里达拉 竞技场: %rank%级</string>
 
 	<!-- acts -->
 	<string name="world.town">远望镇</string>
@@ -120,23 +120,23 @@
 	<string name="world.pop.acts.0">沙漠</string>
 	<string name="world.pop.acts.1">低层金字塔</string>
 	<string name="world.pop.acts.2">高层金字塔</string>
-	<string name="world.coliseum">ARIDARA 竞技场</string>
+	<string name="world.coliseum">阿里达拉 竞技场</string>
 
 	<!-- Map names -->
 	<string name="level.boss.rock">远望镇矿山 - 生命之岩</string>
 	<string name="level.boss.rock.short">生命之岩</string>
 	<string name="level.boss.warden">监狱城 - 守卫</string>
 	<string name="level.boss.warden.short">来者 '不善'</string>
-	<string name="level.boss.wraith">TOWER ARMORY - THE THREE COUNCILORS</string>
+	<string name="level.boss.wraith">兵器塔 - THE THREE COUNCILORS</string>
 	<string name="level.boss.wraith.short">THREE COUNCILORS</string>
-	<string name="level.boss.eye">TOWER ARCHIVES - THE FREAK EYE</string>
-	<string name="level.boss.eye.short">WATCHER</string>
+	<string name="level.boss.eye">档案塔 - 眼球怪</string>
+	<string name="level.boss.eye.short">监察者</string>
 	<string name="level.boss.vampire">TOWER CHAMBERS - THE VAMPIRE LORD</string>
-	<string name="level.boss.vampire.short">LORD</string>
-	<string name="level.boss.thundersnow">SHAFTLOCKE TOWER - THUNDERSNOW</string>
-	<string name="level.boss.thundersnow.short">THUNDERSNOW</string>
-	<string name="level.boss.crustworm">ARIDARA - 巨型蚯蚓</string>
-	<string name="level.boss.crustworm.short">GIANT CRUSTWORM</string>
+	<string name="level.boss.vampire.short">爵士</string>
+	<string name="level.boss.thundersnow">SHAFTLOCKE TOWER - 雷雪</string>
+	<string name="level.boss.thundersnow.short">雷雪</string>
+	<string name="level.boss.crustworm">阿里达拉 - 巨型蚯蚓</string>
+	<string name="level.boss.crustworm.short">巨型地壳蠕虫</string>
 	<string name="level.boss.iris">低层金字塔 - 最后的女王</string>
 	<string name="level.boss.iris.short">女王爱丽丝</string>
 	<string name="level.boss.nerys">高层金字塔 - 神灯精灵</string>
@@ -459,19 +459,19 @@
 	<string name="temp_buff.luck">The monolith imbues you with fortuitous events!</string>
 	<string name="temp_buff.sundering">The monolith imbues you with sundering strikes!</string>
 
-	<string name="arena_buff.armor">PROTECTIVE POWERS</string>
+	<string name="arena_buff.armor">能量护甲</string>
 	<string name="arena_buff.damage">INCREDIBLE STRENGTH</string>
-	<string name="arena_buff.heal">VIGOROUS RESTORATION</string>
-	<string name="arena_buff.mana">ENDLESS POTENTIAL</string>
-	<string name="arena_buff.attackspeed">NIMBLE LIMBS</string>
+	<string name="arena_buff.heal">快速恢复</string>
+	<string name="arena_buff.mana">无限法力</string>
+	<string name="arena_buff.attackspeed">敏捷四肢</string>
 	<string name="arena_buff.luck">FORTUITOUS EVENTS</string>
-	<string name="arena_buff.movespeed">QUICK STEPS</string>
+	<string name="arena_buff.movespeed">快速行走</string>
 	<string name="arena_buff.sundering">SUNDERING STRIKES</string>
 
-	<string name="buff.armor.name">Protective Powers</string>
-	<string name="buff.armor.desc">Decreases damage taken by 50%.</string>
-	<string name="buff.damage.name">Incredible Strength</string>
-	<string name="buff.damage.desc">Increases damage by 200%.</string>
+	<string name="buff.armor.name">能量护甲</string>
+	<string name="buff.armor.desc">受到的伤害降低50%.</string>
+	<string name="buff.damage.name">力量增强</string>
+	<string name="buff.damage.desc">伤害提高 200%.</string>
 	<string name="buff.heal.name">Vigourous Restoration</string>
 	<string name="buff.heal.desc">Gain 10 Health every 0.5 seconds.</string>
 	<string name="buff.mana.name">Endless Potential</string>
@@ -486,46 +486,46 @@
 	<string name="buff.sundering.desc">All damage ignores 50% Armor and/or Resistance.</string>
 	<string name="buff.experience.name">Greater Insight</string>
 	<string name="buff.experience.desc">+100% Experience gain.</string>
-	<string name="buff.gold.name">Gold Fever</string>
+	<string name="buff.gold.name">黄金狂热</string>
 	<string name="buff.gold.desc">+100% Gold gain.</string>
 
 
 	<!-- Arena -->
-	<string name="endoftrials.title">ARIDARA ARENA</string>
-	<string name="endoftrials.completed">Skirmish completed!</string>
-	<string name="endoftrials.reward">SKIRMISH REWARD</string>
-	<string name="endoftrials.progress">PROGRESS TO THE NEXT RANK</string>
-	<string name="endoftrials.next">NEXT SKIRMISH</string>
-	<string name="endoftrials.town">BACK TO TOWN</string>
-	<string name="endoftrials.nopoints">No points received.</string>
-	<string name="endoftrials.levelup">Rank up! You are now rank %level%!</string>
+	<string name="endoftrials.title">阿里达拉 竞技场</string>
+	<string name="endoftrials.completed">战斗完成!</string>
+	<string name="endoftrials.reward">战斗奖励</string>
+	<string name="endoftrials.progress">进到下一个等级</string>
+	<string name="endoftrials.next">下一场战斗</string>
+	<string name="endoftrials.town">返回城镇</string>
+	<string name="endoftrials.nopoints">没有收到积分.</string>
+	<string name="endoftrials.levelup">升级! 你现在是%level%级!</string>
 	<string name="endoftrials.pointsleft.plural">%points% points left until rank %rank%</string>
 	<string name="endoftrials.pointsleft.singular">1 point left until rank %rank%</string>
-	<string name="endoftrials.beginrank">BEGIN RANK %rank%</string>
-	<string name="endoftrials.crowd-message.1">...the crowd hated it!</string>
-	<string name="endoftrials.crowd-message.2">...nobody liked it.</string>
-	<string name="endoftrials.crowd-message.3">...but the crowd was mildly amused.</string>
-	<string name="endoftrials.crowd-message.4">...they loved it!</string>
-	<string name="endoftrials.crowd-message.5">...and the crowd goes wild!</string>
+	<string name="endoftrials.beginrank">开始 %rank%RANK</string>
+	<string name="endoftrials.crowd-message.1">...观众讨厌它!</string>
+	<string name="endoftrials.crowd-message.2">...没有人喜欢它.</string>
+	<string name="endoftrials.crowd-message.3">...但观众觉得有点好笑.</string>
+	<string name="endoftrials.crowd-message.4">...他们喜欢它!</string>
+	<string name="endoftrials.crowd-message.5">...观众开始狂欢!</string>
 
-	<string name="arena.wavecompleted">WAVE COMPLETED!</string>
-	<string name="arena.victory">VICTORY!</string>
-	<string name="arena.altar.buff">The Altar offers you a powerful boon!</string>
-	<string name="arena.altar.boulders">The Altar activates Rolling Boulders!</string>
-	<string name="arena.altar.bloodlust">The Altar activates Bloodlust!</string>
-	<string name="arena.altar.blizzard">The Altar activates Blizzard!</string>
-	<string name="arena.altar.darkness">The Altar activates Darkness!</string>
-	<string name="arena.altar.meteor">The Altar activates Meteor Shower!</string>
-	<string name="arena.altar.storm">The Altar activates Lightning Storm!</string>
-	<string name="arena.altar.tornado">The Altar activates Dust Devils!</string>
-	<string name="arena.altar.wind">The Altar activates Relentless Wind!</string>
-	<string name="arena.altar.gatherparty">You must gather your party to disable the event!</string>
+	<string name="arena.wavecompleted">完成一波!</string>
+	<string name="arena.victory">胜利!</string>
+	<string name="arena.altar.buff">祭坛为您提供强大的恩惠!</string>
+	<string name="arena.altar.boulders">祭坛激活了大滚石!</string>
+	<string name="arena.altar.bloodlust">祭坛激活嗜血者!</string>
+	<string name="arena.altar.blizzard">祭坛激活了暴雪!</string>
+	<string name="arena.altar.darkness">祭坛激活了黑暗!</string>
+	<string name="arena.altar.meteor">祭坛激活了流星雨!</string>
+	<string name="arena.altar.storm">祭坛激活了雷暴!</string>
+	<string name="arena.altar.tornado">祭坛激活尘魔!</string>
+	<string name="arena.altar.wind">祭坛激活了狂风!</string>
+	<string name="arena.altar.gatherparty">您必须聚集您队伍才能停止该事件!</string>
 
 	<!-- Sarcophagus -->
-	<string name="sarcophagus.title">SARCOPHAGUS</string>
+	<string name="sarcophagus.title">石棺</string>
 	<string name="sarcophagus.line1">A foul stench greets you.</string>
 	<string name="sarcophagus.line2">There are a few items at the bottom of the tomb.</string>
-	<string name="sarcophagus.accept">ACCEPT</string>
+	<string name="sarcophagus.accept">接受</string>
 	<string name="sarcophagus.cursehelp">Become cursed and receive a %chance%% chance to miss on all attacks. You also have a %chance%% chance to take %damage%% critical damage from all sources.</string>
 
 
@@ -1203,10 +1203,10 @@
 	<string name="shop.dungeonstore">流浪商人</string>
 	<string name="shop.desertstore">DUBIOUS BEDOUIN TRADER</string>
 	<string name="shop.fountain">幸运喷泉</string>
-	<string name="shop.generalstore">材料店</string>
+	<string name="shop.generalstore">杂货店</string>
 	<string name="shop.magicshop">魔法商店</string>
 	<string name="shop.skills">教练 卡尔霍恩</string>
-	<string name="shop.statues">雕塑家</string>
+	<string name="shop.statues">雕刻家</string>
 	<string name="shop.townhall">镇长 格雷</string>
 	<string name="shop.oretrader">矿石商人 奥利弗</string>
 
@@ -1683,32 +1683,32 @@
 	<string name="shop.forge.respec.prompt">你确定花费 %gold%金币重新强化吗?</string>
 
 	<!-- bestiary -->
-	<string name="town.bestiary.title">BALTZAR'S BOOK OF MONSTERS</string>
+	<string name="town.bestiary.title">巴尔塔扎尔的 怪物图鉴</string>
 	<string name="town.bestiary.spent">Points spent on enemy attunement.</string>
 	<string name="town.bestiary.respec">RESPEC</string>
 	<string name="town.bestiary.respec.tooltip">Reset all your attunements with gold. You will get %skillpoints% skillpoints back.</string>
 	<string name="town.bestiary.respec.tooltip.title">Respec</string>
 	<string name="town.bestiary.respec.prompt">Are you sure you want to respec for %gold% gold?</string>
-	<string name="town.bestiary.attune">Attune</string>
-	<string name="town.bestiary.damage">Damage: %damage%%</string>
-	<string name="town.bestiary.damagereduction">Damage reduction: %reduction%%</string>
+	<string name="town.bestiary.attune">调整</string>
+	<string name="town.bestiary.damage">伤害: %damage%%</string>
+	<string name="town.bestiary.damagereduction">降低被伤: %reduction%%</string>
 
 	<!-- desert vendor -->
-	<string name="shop.desertstore.map.name">Map Piece</string>
-	<string name="shop.desertstore.map.desc">Shows the safest route to the Pyramid.</string>
+	<string name="shop.desertstore.map.name">地图碎片</string>
+	<string name="shop.desertstore.map.desc">显示通往金字塔最安全的路线.</string>
 
 	<!-- statues -->
-	<string name="shop.statues.select.title">BUILD STATUE</string>
-	<string name="shop.statues.build">Build statue</string>
-	<string name="shop.statues.switch">Change statue</string>
-	<string name="shop.statues.remove">Remove statue</string>
-	<string name="shop.statues.upgrade">Upgrade statue</string>
-	<string name="shop.statues.upgrade.prompt">Are you sure you want to upgrade this statue for %cost% ore?</string>
-	<string name="shop.statues.upgrade.blueprint">Need a higher level blueprint before you can upgrade.</string>
-	<string name="shop.statues.level">\c7f7f7fLevel %level%\d</string>
-	<string name="shop.statues.firststatue">Spend %cost% ore to build the first level of this statue?</string>
-	<string name="statues.blueprint.title">Statue Design:</string>
-	<string name="statues.blueprint.level">%statue% Level %level%</string>
+	<string name="shop.statues.select.title">建造雕像</string>
+	<string name="shop.statues.build">建造雕像</string>
+	<string name="shop.statues.switch">改变雕像</string>
+	<string name="shop.statues.remove">拆除雕像</string>
+	<string name="shop.statues.upgrade">改造雕像</string>
+	<string name="shop.statues.upgrade.prompt">你确定要以%cost%矿石价格来升级改造这座雕像吗?</string>
+	<string name="shop.statues.upgrade.blueprint">在升级改造之前需要更高级别的蓝图.</string>
+	<string name="shop.statues.level">\c7f7f7f%level%级\d</string>
+	<string name="shop.statues.firststatue">花费 %cost%矿石来建造这座一级雕像?</string>
+	<string name="statues.blueprint.title">雕像设计:</string>
+	<string name="statues.blueprint.level">%level%级%statue%</string>
 
 
 	<string name="shop.statues.ice-mage.name">Ewran</string>
@@ -1752,24 +1752,24 @@
 	<string name="shop.statues.ranger.lore">She who named her bow\nThe One String Harp, cause\nwhen it was plucked, her\nenemies would sing in agony.</string>
 
 	<!-- retired gladiator -->
-	<string name="retiredgladiator.title">RETIRED GLADIATOR</string>
-	<string name="retiredgladiator.available.left">You have</string>
-	<string name="retiredgladiator.available.right">available.</string>
-	<string name="retiredgladiator.upgrade.attack-power">+1 Attack Power</string>
-	<string name="retiredgladiator.upgrade.skill-power">+1 Skill Power</string>
-	<string name="retiredgladiator.upgrade.armor">+1 Armor</string>
-	<string name="retiredgladiator.upgrade.resistance">+1 Resistance</string>
-	<string name="retiredgladiator.upgrade">Upgrade to level %level%</string>
-	<string name="retiredgladiator.respec">RETRAIN</string>
-	<string name="retiredgladiator.respec.prompt">Are you sure you want to retrain? You will get all tokens back.</string>
+	<string name="retiredgladiator.title">退役角斗士</string>
+	<string name="retiredgladiator.available.left">你有</string>
+	<string name="retiredgladiator.available.right">可用.</string>
+	<string name="retiredgladiator.upgrade.attack-power">+1 攻击伤害</string>
+	<string name="retiredgladiator.upgrade.skill-power">+1 技能伤害</string>
+	<string name="retiredgladiator.upgrade.armor">+1 护甲</string>
+	<string name="retiredgladiator.upgrade.resistance">+1 抗性</string>
+	<string name="retiredgladiator.upgrade">升级到 %level%级</string>
+	<string name="retiredgladiator.respec">重新训练</string>
+	<string name="retiredgladiator.respec.prompt">你确定要重新训练吗?你会得到所有的剑币.</string>
 
 	<!-- arena -->
-	<string name="town.coliseum.title">ARIDARA ARENA</string>
+	<string name="town.coliseum.title">阿里达拉 竞技场</string>
 	<string name="town.coliseum.description">The Arena far out in Aridara, where people go for two reasons. The glory of winning in combat, or the excitement of watching others fight for their lives.\n\n(You are fighting for the crowds amusement and will be rewarded with sword tokens and other riches based on their happiness.)</string>
-	<string name="town.coliseum.rank">RANK</string>
-	<string name="town.coliseum.progress">PROGRESS</string>
-	<string name="town.coliseum.progress.tooltip">Gain 5 sword tokens\n to rank up.</string>
-	<string name="town.coliseum.start">START</string>
+	<string name="town.coliseum.rank">等级</string>
+	<string name="town.coliseum.progress">进度</string>
+	<string name="town.coliseum.progress.tooltip">获得5个剑币 \n排名提升.</string>
+	<string name="town.coliseum.start">开始</string>
 
 
 
@@ -3068,7 +3068,7 @@
 
 	<!-- NPC Pali -->
 
-	<string name="dialogue.town.npc.generic.pali.name">The Visitor</string>
+	<string name="dialogue.town.npc.generic.pali.name">异客</string>
 	<string name="dialogue.town.npc.generic.pali.1a">Like the great djinns and the\nnot so smart elementals... (1)</string>
 	<string name="dialogue.town.npc.generic.pali.1b">...Palis, like myself, could also be\ndragged into the rift and forced\ninto your world - for us it's a\nblessing, for them a bane. (2)</string>
 	<string name="dialogue.town.npc.generic.pali.1c">In our world we are slaves\nunder the djinns and watched\nover by the elementals...(3)</string>
@@ -3078,7 +3078,7 @@
 
 	<!-- NPC Woman2 Census -->
 
-	<string name="dialogue.town.npc.generic.woman2.name">Curious Old Bag</string>
+	<string name="dialogue.town.npc.generic.woman2.name">异常的旧背包</string>
 	<string name="dialogue.town.npc.generic.woman2.1a">Hi! I know everyone\naround these parts and\nthen some more.(1)</string>
 	<string name="dialogue.town.npc.generic.guard.1a">如果你进去了,你就没有回头路了.</string>
 	<string name="dialogue.town.npc.generic.guard.1b">这个入口将会被永远封死.</string>
@@ -3189,15 +3189,15 @@
 	<string name="dialogue.town.npc.wizard.4">我会帮你找一个法师朋友来的,不过可能需要一些时间,好吗?</string>
 
 	<!-- Beastmaster -->
-	<string name="dialogue.town.npc.beastmaster.name">Baltzar, the Beastmaster</string>
+	<string name="dialogue.town.npc.beastmaster.name">兽王 巴尔扎尔</string>
 	<string name="dialogue.town.npc.beastmaster.1Ra">I left my big Book of Monsters\nin the Tower Archives, it contains \nvery valuable information about \nthe dangerous fauna around here.</string>
 
 	<!-- Arena Wagon NPC -->
-	<string name="dialogue.town.npc.wagon.name">Finn</string>
+	<string name="dialogue.town.npc.wagon.name">芬恩</string>
 	<string name="dialogue.town.npc.wagon.1Ra">I'll gladly take any hero past\nthe desert to The Arena.\nJust hop on the wagon!</string>
 
 	<!-- Arena Gladiator NPC -->
-	<string name="dialogue.town.npc.gladiator.name">Marius the Gladiator</string>
+	<string name="dialogue.town.npc.gladiator.name">角斗士 马吕斯</string>
 	<string name="dialogue.town.npc.gladiator.1Ra">I'll train anyone who\nmade a name for\nthemselves in The\nArena and have the\ntokens to prove just that.</string>
 
 	<!-- Richard Hammer -->
@@ -3218,9 +3218,9 @@
 	<string name="dialogue.town.book.legends2.1b">Still at page 19\n...As he and his loyal assistant were\nabout to leave, Elmore slipped and\ndied in horrible pain, his assistant\nmanaged to flee out just to see the\npyramid sink behind him... (2)</string>
 
 	<!-- Book - Henry' Geo -->
-	<string name="dialogue.town.book.geography.name">Henrys Geography for Kids</string>
-	<string name="dialogue.town.book.geography.1a">Page 253\n...an unfortunate side effect\nof all this has been that the\ngiant crustworms that usually\nlive much further down... (1)</string>
-	<string name="dialogue.town.book.geography.1b">Still at page 253\n...have started to move closer\nto the surface, several people\nhave been eaten alive in\nreally horrible worm attacks... (2)</string>
+	<string name="dialogue.town.book.geography.name">地理学者亨利之子</string>
+	<string name="dialogue.town.book.geography.1a">第253页\n...an unfortunate side effect\nof all this has been that the\ngiant crustworms that usually\nlive much further down... (1)</string>
+	<string name="dialogue.town.book.geography.1b">还是第253页\n...have started to move closer\nto the surface, several people\nhave been eaten alive in\nreally horrible worm attacks... (2)</string>
 
 	<!-- Elevator -->
 	<string name="dialogue.town.npc.elevator.name">Richard, the Tapster</string>
@@ -3235,23 +3235,23 @@
 	<string name="dialogue.sign.magic">魔法屋</string>
 	<string name="dialogue.sign.general">达伦供应商</string>
 	<string name="dialogue.sign.mines">远望镇矿井</string>
-	<string name="dialogue.doll.normal">普通防护</string>
-	<string name="dialogue.doll.armor">装甲防护</string>
-	<string name="dialogue.doll.magic">魔法防护</string>
-	<string name="dialogue.doll.fragile">Looks\nfragile</string>
-	<string name="dialogue.sign.west">West</string>
-	<string name="dialogue.sign.east">East</string>
-	<string name="dialogue.sign.north">North</string>
-	<string name="dialogue.sign.outlook">The Outlook</string>
-	<string name="dialogue.sign.cityofstone">City of Stone</string>
-	<string name="dialogue.sign.suntemple">Sun Temple</string>
-	<string name="dialogue.sign.suntemple2">East: Sun Temple\nWest: City of Stone</string>
+	<string name="dialogue.doll.normal">普通装扮</string>
+	<string name="dialogue.doll.armor">盔甲装扮</string>
+	<string name="dialogue.doll.magic">魔法装扮</string>
+	<string name="dialogue.doll.fragile">简陋装扮</string>
+	<string name="dialogue.sign.west">西</string>
+	<string name="dialogue.sign.east">东</string>
+	<string name="dialogue.sign.north">北</string>
+	<string name="dialogue.sign.outlook">远望城</string>
+	<string name="dialogue.sign.cityofstone">石城</string>
+	<string name="dialogue.sign.suntemple">太阳神庙</string>
+	<string name="dialogue.sign.suntemple2">东: 太阳神庙\n西: 石城</string>
 	<string name="dialogue.sign.tavern-desert">The Refreshing\nChisel</string>
-	<string name="dialogue.sign.dont">Don't disturb!</string>
-	<string name="dialogue.sign.express-down">Down: City of Stone</string>
-	<string name="dialogue.sign.express-up">Up: The Outlook</string>
+	<string name="dialogue.sign.dont">请勿打扰!</string>
+	<string name="dialogue.sign.express-down">下降: 石城</string>
+	<string name="dialogue.sign.express-up">上升: 远望镇</string>
 
-	<string name="dialogue.sign.arena.name">ARIDARA ARENA</string>
+	<string name="dialogue.sign.arena.name">阿里达拉 竞技场</string>
 	<string name="dialogue.sign.arena.desc">Fight like a true\nchamp and win\ngreat prizes,\neveryone is\nwelcome to try!</string>
 
 	<!-- Player -->
@@ -3281,9 +3281,9 @@
 	<string name="dialogue.player.desert.east.night2">Walking that far\nduring night time\ncould be dangerous!</string>
 	<string name="dialogue.player.desert.deadguy.1Ra">I sure don't wanna\nend up like this fella!</string>
 	<string name="dialogue.player.desert.deadguy.1Rb">This guy probably\nhad a good life, but\nin the end it never\nreally worked out.</string>
-	<string name="dialogue.player.desert.deadguy.1Rc">He should have bought\na proper map, could\nhave saved him some\ngrief and starvation.</string>
+	<string name="dialogue.player.desert.deadguy.1Rc">他应该买一张合适的地图,应该可以免去他的悲伤与饥饿.</string>
 
-	<string name="dialogue.player.desert.minerazed">A razed mine\nentrance...</string>
+	<string name="dialogue.player.desert.minerazed">被堵住的矿井入口...</string>
 
 
 
@@ -3481,7 +3481,7 @@
 	<string name="bestiary.name.thrall_leaper">饥渴的奴隶</string>
 
 
-	<string name="bestiary.name.bosses.sandworm">Giant Crustworm</string>
+	<string name="bestiary.name.bosses.sandworm">巨型地壳蠕虫</string>
 	<string name="bestiary.name.bosses.mummy">Queen Iris</string>
 	<string name="bestiary.name.bosses.djinn">Nerys</string>
 	<string name="bestiary.name.spawner_mummy_1">棺材</string>
@@ -3492,18 +3492,18 @@
 	<string name="bestiary.name.djinn_ranged">Sphere Djinn</string>
 	<string name="bestiary.name.djinn_melee">Wave Djinn</string>
 	<string name="bestiary.name.elemental_sand">沙元素</string>
-	<string name="bestiary.name.golem_sand">Sand Lurker</string>
+	<string name="bestiary.name.golem_sand">沙潜龙</string>
 	<string name="bestiary.name.high_priest_blue">冰祭司</string>
 	<string name="bestiary.name.high_priest_green">魔法牧师</string>
 	<string name="bestiary.name.high_priest_red">火祭司</string>
 	<string name="bestiary.name.mummy_1">木乃伊</string>
 	<string name="bestiary.name.mummy_2">木乃伊</string>
-	<string name="bestiary.name.mummy_ranged_1">Khopesh 木乃伊</string>
-	<string name="bestiary.name.mummy_ranged_2">Khopesh 木乃伊</string>
+	<string name="bestiary.name.mummy_ranged_1">镰状剑 木乃伊</string>
+	<string name="bestiary.name.mummy_ranged_2">镰状剑 木乃伊</string>
 	<string name="bestiary.name.mummy_1_mb">大型木乃伊</string>
 	<string name="bestiary.name.scarab">圣甲虫</string>
 	<string name="bestiary.name.scarab_small">小圣甲虫</string>
-	<string name="bestiary.name.scorpion_1">Scorpion</string>
+	<string name="bestiary.name.scorpion_1">蝎子</string>
 	<string name="bestiary.name.scorpion_1_elite">精英蝎子</string>
 	<string name="bestiary.name.scorpion_1_mb">蝎子 MB</string>
 	<string name="bestiary.name.sentinel_mb">蝎子 MB</string>
@@ -3511,8 +3511,8 @@
 	<string name="bestiary.name.sentinel_ranged">远程守卫</string>
 	<string name="bestiary.name.snake_1">曼巴蛇</string>
 	<string name="bestiary.name.snake_2">蝰蛇</string>
-	<string name="bestiary.name.snake_3">Asp</string>
-	<string name="bestiary.name.spider_1">Spitter</string>
+	<string name="bestiary.name.snake_3">盾鼻蛇</string>
+	<string name="bestiary.name.spider_1">酸液蜘蛛</string>
 	<string name="bestiary.name.spider_2">Webber</string>
 	<string name="bestiary.name.tower_pyramid_laser">太阳棱镜</string>
 	<string name="bestiary.name.tower_pyramid_rock">岩石棱镜</string>
