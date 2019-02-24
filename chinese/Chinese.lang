@@ -7,11 +7,18 @@
 	<string name="hud.character.character">角色</string>
 	<string name="hud.character.stats">统计</string>
 	<string name="hud.character.title">%name%   %title%    %lvl%级 %class%</string>
+	<string name="hud.character.effects">效果</string>
 	<string name="hud.levelup">升级!</string>
 	<string name="hud.potionrefill">药剂已装满!</string>
 	<string name="hud.nokey">没有钥匙!</string>
 	<string name="hud.newtitle.character">获得称号: %title%</string>
 	<string name="hud.newtitle.guild">获得公会称号: %title%</string>
+	<string name="hud.newngp.town">Forsaken Tower NG+%ngp% 解锁!</string>
+	<string name="hud.newngp.char.first">Forsaken Tower 完成!\n最高%level%等级.</string>
+	<string name="hud.newngp.char">Forsaken Tower NG+%ngp% 完成!\n最高%level%等级.</string>
+	<string name="hud.newngp.town.desert">预言金字塔 NG+%ngp% 解锁!</string>
+	<string name="hud.newngp.char.desert.first">预言金字塔 完成!\n获得了光环!</string>
+	<string name="hud.newngp.char.desert">预言金字塔 NG+%ngp% 完成!\nN光环升级了.</string>
 	
 	<string name="class.paladin">圣骑士</string>
 	<string name="class.paladin.desc">拥有大量生存技能的强大近战战士.</string>
@@ -27,10 +34,13 @@
 	<string name="class.thief.disabled.desc">盗贼未解锁.</string>
 	<string name="class.warlock">术士</string>
 	<string name="class.warlock.desc">近距离魔法使用者,可以吸取灵魂补充生命值和魔法值.</string>
-	<string name="class.warlock.disabled.desc">--</string>
 	<string name="class.wizard">法师</string>
 	<string name="class.wizard.desc">魔法伤害极高但很脆弱的施法者.</string>
 	<string name="class.wizard.disabled.desc">法师未解锁.</string>
+	<string name="class.gladiator">角斗士</string>
+	<string name="class.gladiator.desc">A master disabler that employs hit-n-run tactics.</string>
+	<string name="class.gladiator.disabled.desc">角斗士未解锁.</string>
+	<string name="class.gladiator.unlocked">角斗士解锁了!</string>
 
 	<string name="playermenu.character.vitality">生命</string>
 	<string name="playermenu.character.speedexp">移动速度 / 经验速率</string>
@@ -50,6 +60,7 @@
 	<string name="playermenu.tooltip.exp.rate">经验获取速率:</string>
 	<string name="playermenu.tooltip.potion.title">%num% / %total% 消耗</string>
 	<string name="playermenu.tooltip.potion.text">+ %hp% 生命\n+ %mana% 魔法</string>
+	<string name="playermenu.tooltip.potion.djinn">当饮用药剂时召唤出光环.\n光环每秒造成 %dmg% 魔法伤害并持续 %ttl% 秒.</string>
 	<string name="playermenu.tooltip.tax">手续费</string>
 	<string name="playermenu.tooltip.exp.levelcap">角色等级上限:</string>
 
@@ -72,19 +83,32 @@
 	<string name="playermenu.character.oregain">矿石获取率</string>
 	<string name="playermenu.character.combat">战斗</string>
 	<string name="playermenu.character.critchance">暴击概率</string>
-	<string name="playermenu.character.critchance.description">暴击伤害: %mul%%\n暴击概率: %chance%%\n%chances%\n\n技能暴击伤害: %spell-mul%%\n技能暴击概率: %spell-chance%%\n%spell-chances%</string>
+	<string name="playermenu.character.critchance.description">暴击伤害: %mul%%\n%muls%\n暴击概率: %chance%%\n%chances%\n\n技能暴击伤害: %spell-mul%%\n%spell-muls%\n技能暴击概率: %spell-chance%%\n%spell-chances%</string>
 	<string name="playermenu.character.evadechance">闪避概率</string>
 	<string name="playermenu.character.chances">暴击概率</string>
 	<string name="playermenu.character.spellchances">技能暴击概率</string>
+	<string name="playermenu.character.luck">幸运</string>
 	<string name="playermenu.character.lifesteal">吸血</string>
 	<string name="playermenu.character.lifesteal.description">普通攻击: %value%%\n%lists%\n\n技能: %value-spell%%\n%lists-spell%</string>
 	<string name="playermenu.dead">%player% 死了.</string>
+
+	<string name="playermenu.effects.blessings">祝福</string>
+	<string name="playermenu.effects.drinks">饮料</string>
+	<string name="playermenu.effects.fountain">喷泉</string>
+	<string name="playermenu.effects.statues">雕像</string>
+	<string name="playermenu.effects.misc">杂货店</string>
+	<string name="playermenu.effects.cursed">诅咒: %amount%</string>
+	<string name="playermenu.effects.cursed.tooltip">获得诅咒并获得%chance%%几率闪避全部攻击.你也有%chance%%几率获得所有来源的 %damage%% 暴击伤害.</string>
+	<string name="charinfo.ngp">Forsaken Tower: NG+%ngp%</string>
+	<string name="charinfo.ngp.desert">预言金字塔: NG+%ngp%</string>
+	<string name="charinfo.arena.rank">Aridara 竞技场: 排名 %rank%</string>
 
 	<!-- acts -->
 	<string name="world.town">远望镇</string>
 	<string name="world.mines">远望镇矿井</string>
 	<string name="world.tower">遗忘之塔</string>
 	<string name="world.floor">第 %num% 层</string>
+	<string name="world.act">ACT %num%</string>
 	<string name="world.acts.0">矿井</string>
 	<string name="world.acts.1">监狱</string>
 	<string name="world.acts.2">军械库</string>
@@ -93,6 +117,37 @@
 	<string name="world.acts.5">城堡</string>
 	<string name="world.acts.6">桥</string>
 	<string name="world.acts.7">顶楼</string>
+	<string name="world.pop.acts.0">沙漠</string>
+	<string name="world.pop.acts.1">低层金字塔</string>
+	<string name="world.pop.acts.2">高层金字塔</string>
+	<string name="world.coliseum">ARIDARA 竞技场</string>
+
+	<!-- Map names -->
+	<string name="level.boss.rock">远望镇矿山 - 生命之岩</string>
+	<string name="level.boss.rock.short">生命之岩</string>
+	<string name="level.boss.warden">监狱城 - 守卫</string>
+	<string name="level.boss.warden.short">来者 '不善'</string>
+	<string name="level.boss.wraith">TOWER ARMORY - THE THREE COUNCILORS</string>
+	<string name="level.boss.wraith.short">THREE COUNCILORS</string>
+	<string name="level.boss.eye">TOWER ARCHIVES - THE FREAK EYE</string>
+	<string name="level.boss.eye.short">WATCHER</string>
+	<string name="level.boss.vampire">TOWER CHAMBERS - THE VAMPIRE LORD</string>
+	<string name="level.boss.vampire.short">LORD</string>
+	<string name="level.boss.thundersnow">SHAFTLOCKE TOWER - THUNDERSNOW</string>
+	<string name="level.boss.thundersnow.short">THUNDERSNOW</string>
+	<string name="level.boss.crustworm">ARIDARA - 巨型蚯蚓</string>
+	<string name="level.boss.crustworm.short">GIANT CRUSTWORM</string>
+	<string name="level.boss.iris">低层金字塔 - 最后的女王</string>
+	<string name="level.boss.iris.short">女王爱丽丝</string>
+	<string name="level.boss.nerys">高层金字塔 - 神灯精灵</string>
+	<string name="level.boss.nerys.short">NERYS</string>
+
+	<string name="level.hellcube">英雄之路</string>
+	<string name="level.hellcube.short">THE HELLCUBE</string>
+	<string name="level.pyramid_midway">高层金字塔 - 途中</string>
+	<string name="level.pyramid_midway.short">途中</string>
+	<string name="level.plane_of_magic">THE PLANE OF SEMBLANCE</string>
+	<string name="level.plane_of_magic.short">SEMBLANCE</string>
 
 	<!-- game over -->
 	<string name="gameover.youdied">你死了</string>
@@ -106,10 +161,10 @@
 	<string name="gameover.stats.enemieskilled">杀敌数</string>
 	<string name="gameover.stats.killer">死于</string>
 	<string name="gameover.mock.0">你悲惨的人生就这样突然结束了</string>
-	<string name="gameover.mock.1">你悲惨的人生就这样突然结束了了</string>
-	<string name="gameover.mock.2">你悲惨的人生就这样突然结束了了了</string>
-	<string name="gameover.mock.3">你悲惨的人生就这样突然结束了了了了</string>
-	<string name="gameover.mock.4">你悲惨的人生就这样突然结束了了了了了</string>
+	<string name="gameover.mock.1">YOU DIED A GRUESOME AND PAINFUL DEATH</string>
+	<string name="gameover.mock.2">你死了,并没有人记得你.</string>
+	<string name="gameover.mock.3">YOUR APPALLING PERFORMANCE PAID OFF</string>
+	<string name="gameover.mock.4">YOU ENTERED AS NO ONE AND DIED AS SUCH</string>
 	<string name="gameover.sentence.unused-potion.none">你用完了你全部的药剂.</string>
 	<string name="gameover.sentence.unused-potion.plural">你还剩 %num%瓶药剂 !</string>
 	<string name="gameover.sentence.unused-potion.one">你还剩一瓶药剂!</string>
@@ -200,6 +255,9 @@
 	<string name="stats.boss-4-killed">杀死监察者</string>
 	<string name="stats.boss-5-killed">杀死雷电冰龙</string>
 	<string name="stats.boss-6-killed">杀死吸血鬼领主</string>
+	<string name="stats.boss-7-killed">杀死Crustworm</string>
+	<string name="stats.boss-8-killed">杀死Queen Iris</string>
+	<string name="stats.boss-9-killed">杀死Nerys</string>
 	<string name="stats.aberration-killed">击杀变异生物</string>
 	<string name="stats.beast-killed">击杀野兽</string>
 	<string name="stats.construct-killed">破坏建筑物</string>
@@ -233,6 +291,11 @@
 	<string name="stats.drinks-found">找到的酒水</string>
 	<string name="stats.blueprints-found">找到的蓝图</string>
 	<string name="stats.dyes-found">找到的染料</string>
+	<string name="stats.curses-received">受到了诅咒</string>
+	<string name="stats.curses-removed">驱除了诅咒</string>
+	<string name="stats.statue-upgrades-bought">雕像升级了</string>
+	<string name="stats.arena-highest-rank">最高的竞技场排名</string>
+	<string name="stats.arena-fights">Arena skirmishes won</string>
 
 	<!-- misc -->
 	<string name="misc.dmg.crit1">%dmg%!</string>
@@ -264,6 +327,8 @@
 	<string name="item.diamond.red-small">钻石</string>
 	<string name="item.diamond.gold">钻石</string>
 	<string name="item.diamond.gold-small">钻石</string>
+	<string name="item.potion.charge">药剂消耗</string>
+	<string name="item.potion.curse">-1 诅咒</string>
 
 	<string name="quality.common">普通</string>
 	<string name="quality.uncommon">罕见</string>
@@ -276,13 +341,16 @@
 	<string name="intro.text">远望镇坐落在遗忘之塔下方.很久以前这个出产矿石的小镇被遗弃,但在你们公会和勇者的帮助下,小镇有望恢复以前的荣光.(帮助：探索那座矿洞并收集金币和矿石,用金币购买装备并用矿石升级小镇中的建筑,金币也可以在公会解锁并升级你的技能.游戏里还有更多需要你去发现的东西,祝你好运.)</string>
 	<string name="intro.continue">继续</string>
 
+	<!-- intro pop -->
+	<string name="intro.pop.title">石城</string>
+	<string name="intro.pop.text">The City of Stone, just below The Outlook. These days a transit town for people traveling to the Arena far out in Aridara, once a larger city with an abundant quarry which is now empty and abandoned.\n\nOther than the Arena, a new magnet for luck seekers arisened. As the Giant Crustworms have started to come up from the depths, the sand has shifted and revealed what is believed to be the tip of the old burial site of Iris, the legendary Pyramid of Prophecy. Perhaps it is worth investigating. A royal burial site probably contains many riches that would favor the guild.</string>
+
 
 	<!-- end of game -->
-
-
 	<string name="endofgame.town">继续</string>
 	<string name="endofgame.title">结束</string>
 	<string name="endofgame.text">你成功抵达了遗忘之塔的塔顶,并且击杀了雷电冰龙————那头突然从西方降临,占据此地的青蓝巨龙.  现在,遗忘之塔已经从巨龙的控制中解脱,这一带居民的生活也将回到正轨.</string>
+	<string name="endofgame.pop.text">A long time ago, when the Storm of Lifetimes was at its peak, Nerys and Nimbus crossed over from the Magic Planes. Nerys swallowed Nimbus and started to grant his own evil wishes, but he was eventually lured into an oil lamp by an old waning magician and hidden at the top of the pyramid. Over the years the pyramid would sink deeper and deeper into the desert until it was more or less forgotten.\n\nBy rubbing the lamp, you released the weakened Nerys and by slaying him you freed Nimbus. Nimbus will now be in your debt for all eternity. You can call upon him by drinking your potion.</string>
 
 	<string name="misc.yes">确认</string>
 	<string name="misc.no">取消</string>
@@ -306,12 +374,15 @@
 	<string name="levelend.ready">准备</string>
 	<string name="levelend.ok">继续</string>
 
-	
+	<string name="levelcredits.prompt">%level% by %author%</string>
+
 	<string name="meta.info.elsewhere">这要在某处打开...</string>
 	<string name="meta.info.happened">有什么事情发生了...</string>
 	<string name="meta.info.buttonstuck">按钮卡住了…</string>
+	<string name="meta.info.potionunlocked">药剂解锁!</string>
 	<string name="meta.info.combounlocked">连杀解锁!</string>
 	<string name="meta.info.anvilunlocked">魔砧解锁!</string>
+	<string name="meta.info.bestiaryunlocked">Baltzar的"怪物图鉴"解锁了!</string>
 	<string name="meta.info.sequencecompleted">序列完成!</string>
 	<string name="meta.info.twomore">还有2个…</string>
 	<string name="meta.info.onemore">还有1个…</string>
@@ -320,6 +391,9 @@
 	<string name="meta.info.threatspawned">召唤了大量的怪物!</string>
 	<string name="meta.info.impspawned">一个意想不到的礼物在等着你!</string>
 	<string name="meta.info.gatherparty">在冒险之前,你必须召集你的队友.</string>
+	<string name="meta.info.gatherparty.mummy">你必须在打开石棺之前召集你的队友.</string>
+	<string name="meta.info.gatherparty.genie">你必须在擦灯前召集你的队友.</string>
+	<string name="meta.info.gatherparty.general">在继续进行此操作之前召集你的队友.</string>
 	<string name="meta.info.ritual.gather">在开始仪式之前,你必须召集你的队友.</string>
 	<string name="meta.info.ritual.start">…并召唤出了可怕的怪物!</string>
 	<string name="meta.info.ritual.completed">仪式顺序正确!</string>
@@ -354,6 +428,7 @@
 	<string name="random_stuff.deposit_gold">你想要运送金币回镇上吗?</string>
 	<string name="random_stuff.deposit_ore">你想运送矿石回镇上吗?</string>
 	<string name="random_stuff.rejuvenate">恶魔治疗了你并帮你补满了药剂!</string>
+	<string name="random_stuff.clear_curses">恶魔驱除了你的诅咒!</string>
 
 	<string name="random_buff.lower_hp">符文:献祭%amount%%生命上限. 你同意吗?</string>
 	<string name="random_buff.lower_armor">符文:献祭%amount%护甲. 你同意吗?</string>
@@ -380,8 +455,79 @@
 	<string name="temp_buff.heal">石碑赐予了你丰沛蓬勃的生命!</string>
 	<string name="temp_buff.mana">石碑赐予了你用之不尽的能量!</string>
 	<string name="temp_buff.gold">石碑赐予了你对黄金的狂热!</string>
+	<string name="temp_buff.attackspeed">The monolith imbues you with nimble limbs!</string>
+	<string name="temp_buff.luck">The monolith imbues you with fortuitous events!</string>
+	<string name="temp_buff.sundering">The monolith imbues you with sundering strikes!</string>
 
-	<string name="levelcredits.prompt">%level% 制作者为 %author%</string>
+	<string name="arena_buff.armor">PROTECTIVE POWERS</string>
+	<string name="arena_buff.damage">INCREDIBLE STRENGTH</string>
+	<string name="arena_buff.heal">VIGOROUS RESTORATION</string>
+	<string name="arena_buff.mana">ENDLESS POTENTIAL</string>
+	<string name="arena_buff.attackspeed">NIMBLE LIMBS</string>
+	<string name="arena_buff.luck">FORTUITOUS EVENTS</string>
+	<string name="arena_buff.movespeed">QUICK STEPS</string>
+	<string name="arena_buff.sundering">SUNDERING STRIKES</string>
+
+	<string name="buff.armor.name">Protective Powers</string>
+	<string name="buff.armor.desc">Decreases damage taken by 50%.</string>
+	<string name="buff.damage.name">Incredible Strength</string>
+	<string name="buff.damage.desc">Increases damage by 200%.</string>
+	<string name="buff.heal.name">Vigourous Restoration</string>
+	<string name="buff.heal.desc">Gain 10 Health every 0.5 seconds.</string>
+	<string name="buff.mana.name">Endless Potential</string>
+	<string name="buff.mana.desc">Skills cost no mana.</string>
+	<string name="buff.attackspeed.name">Nimble Limbs</string>
+	<string name="buff.attackspeed.desc">Attack speed increased by 50%.</string>
+	<string name="buff.luck.name">Fortuitous Events</string>
+	<string name="buff.luck.desc">+5 Luck.</string>
+	<string name="buff.movespeed.name">Quick Steps</string>
+	<string name="buff.movespeed.desc">Movement speed increased by 50%.</string>
+	<string name="buff.sundering.name">Sundering Strikes</string>
+	<string name="buff.sundering.desc">All damage ignores 50% Armor and/or Resistance.</string>
+	<string name="buff.experience.name">Greater Insight</string>
+	<string name="buff.experience.desc">+100% Experience gain.</string>
+	<string name="buff.gold.name">Gold Fever</string>
+	<string name="buff.gold.desc">+100% Gold gain.</string>
+
+
+	<!-- Arena -->
+	<string name="endoftrials.title">ARIDARA ARENA</string>
+	<string name="endoftrials.completed">Skirmish completed!</string>
+	<string name="endoftrials.reward">SKIRMISH REWARD</string>
+	<string name="endoftrials.progress">PROGRESS TO THE NEXT RANK</string>
+	<string name="endoftrials.next">NEXT SKIRMISH</string>
+	<string name="endoftrials.town">BACK TO TOWN</string>
+	<string name="endoftrials.nopoints">No points received.</string>
+	<string name="endoftrials.levelup">Rank up! You are now rank %level%!</string>
+	<string name="endoftrials.pointsleft.plural">%points% points left until rank %rank%</string>
+	<string name="endoftrials.pointsleft.singular">1 point left until rank %rank%</string>
+	<string name="endoftrials.beginrank">BEGIN RANK %rank%</string>
+	<string name="endoftrials.crowd-message.1">...the crowd hated it!</string>
+	<string name="endoftrials.crowd-message.2">...nobody liked it.</string>
+	<string name="endoftrials.crowd-message.3">...but the crowd was mildly amused.</string>
+	<string name="endoftrials.crowd-message.4">...they loved it!</string>
+	<string name="endoftrials.crowd-message.5">...and the crowd goes wild!</string>
+
+	<string name="arena.wavecompleted">WAVE COMPLETED!</string>
+	<string name="arena.victory">VICTORY!</string>
+	<string name="arena.altar.buff">The Altar offers you a powerful boon!</string>
+	<string name="arena.altar.boulders">The Altar activates Rolling Boulders!</string>
+	<string name="arena.altar.bloodlust">The Altar activates Bloodlust!</string>
+	<string name="arena.altar.blizzard">The Altar activates Blizzard!</string>
+	<string name="arena.altar.darkness">The Altar activates Darkness!</string>
+	<string name="arena.altar.meteor">The Altar activates Meteor Shower!</string>
+	<string name="arena.altar.storm">The Altar activates Lightning Storm!</string>
+	<string name="arena.altar.tornado">The Altar activates Dust Devils!</string>
+	<string name="arena.altar.wind">The Altar activates Relentless Wind!</string>
+	<string name="arena.altar.gatherparty">You must gather your party to disable the event!</string>
+
+	<!-- Sarcophagus -->
+	<string name="sarcophagus.title">SARCOPHAGUS</string>
+	<string name="sarcophagus.line1">A foul stench greets you.</string>
+	<string name="sarcophagus.line2">There are a few items at the bottom of the tomb.</string>
+	<string name="sarcophagus.accept">ACCEPT</string>
+	<string name="sarcophagus.cursehelp">Become cursed and receive a %chance%% chance to miss on all attacks. You also have a %chance%% chance to take %damage%% critical damage from all sources.</string>
+
 
 	<!-- Colors Everyone -->
 	<string name="color.skin">肤色</string>
@@ -441,6 +587,7 @@
 	<string name="modifier.list.player.buffs">增益效果</string>
 	<string name="modifier.list.player.titles">职业称号</string>
 	<string name="modifier.list.player.tavern_drinks">酒水</string>
+	<string name="modifier.list.player.statues">雕像</string>
 
 	<string name="ui_key_count">显示钥匙数量</string>
 	<string name="ui_key_count.help">在界面显示你拥有钥匙的数量.</string>
