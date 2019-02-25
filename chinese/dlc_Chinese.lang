@@ -295,7 +295,7 @@
 	<string name="stats.curses-removed">驱除了诅咒</string>
 	<string name="stats.statue-upgrades-bought">雕像升级了</string>
 	<string name="stats.arena-highest-rank">最高的竞技场排名</string>
-	<string name="stats.arena-fights">Arena skirmishes won</string>
+	<string name="stats.arena-fights">竞技场战斗赢利</string>
 
 	<!-- misc -->
 	<string name="misc.dmg.crit1">%dmg%!</string>
@@ -455,39 +455,39 @@
 	<string name="temp_buff.heal">石碑赐予了你丰沛蓬勃的生命!</string>
 	<string name="temp_buff.mana">石碑赐予了你用之不尽的能量!</string>
 	<string name="temp_buff.gold">石碑赐予了你对黄金的狂热!</string>
-	<string name="temp_buff.attackspeed">The monolith imbues you with nimble limbs!</string>
+	<string name="temp_buff.attackspeed">石碑赐予了你灵活的四肢!</string>
 	<string name="temp_buff.luck">The monolith imbues you with fortuitous events!</string>
 	<string name="temp_buff.sundering">The monolith imbues you with sundering strikes!</string>
 
 	<string name="arena_buff.armor">能量护甲</string>
-	<string name="arena_buff.damage">INCREDIBLE STRENGTH</string>
+	<string name="arena_buff.damage">无人能挡</string>
 	<string name="arena_buff.heal">快速恢复</string>
 	<string name="arena_buff.mana">无限法力</string>
 	<string name="arena_buff.attackspeed">敏捷四肢</string>
 	<string name="arena_buff.luck">FORTUITOUS EVENTS</string>
-	<string name="arena_buff.movespeed">快速行走</string>
+	<string name="arena_buff.movespeed">快速移动</string>
 	<string name="arena_buff.sundering">SUNDERING STRIKES</string>
 
 	<string name="buff.armor.name">能量护甲</string>
 	<string name="buff.armor.desc">受到的伤害降低50%.</string>
 	<string name="buff.damage.name">力量增强</string>
 	<string name="buff.damage.desc">伤害提高 200%.</string>
-	<string name="buff.heal.name">Vigourous Restoration</string>
-	<string name="buff.heal.desc">Gain 10 Health every 0.5 seconds.</string>
-	<string name="buff.mana.name">Endless Potential</string>
-	<string name="buff.mana.desc">Skills cost no mana.</string>
-	<string name="buff.attackspeed.name">Nimble Limbs</string>
-	<string name="buff.attackspeed.desc">Attack speed increased by 50%.</string>
-	<string name="buff.luck.name">Fortuitous Events</string>
-	<string name="buff.luck.desc">+5 Luck.</string>
-	<string name="buff.movespeed.name">Quick Steps</string>
-	<string name="buff.movespeed.desc">Movement speed increased by 50%.</string>
+	<string name="buff.heal.name">丰沛蓬勃</string>
+	<string name="buff.heal.desc">每0.5秒回复10点生命值.</string>
+	<string name="buff.mana.name">无限法力</string>
+	<string name="buff.mana.desc">技能不消耗法力.</string>
+	<string name="buff.attackspeed.name">敏捷四肢</string>
+	<string name="buff.attackspeed.desc">攻击速度增加 50%.</string>
+	<string name="buff.luck.name">偶然事件</string>
+	<string name="buff.luck.desc">+5 幸运值.</string>
+	<string name="buff.movespeed.name">快速移动</string>
+	<string name="buff.movespeed.desc">移动速度增加 50%.</string>
 	<string name="buff.sundering.name">Sundering Strikes</string>
-	<string name="buff.sundering.desc">All damage ignores 50% Armor and/or Resistance.</string>
-	<string name="buff.experience.name">Greater Insight</string>
-	<string name="buff.experience.desc">+100% Experience gain.</string>
+	<string name="buff.sundering.desc">全部伤害都会无视50％的护甲或抗性.</string>
+	<string name="buff.experience.name">洞察慧眼</string>
+	<string name="buff.experience.desc">+100% 经验获取率n.</string>
 	<string name="buff.gold.name">黄金狂热</string>
-	<string name="buff.gold.desc">+100% Gold gain.</string>
+	<string name="buff.gold.desc">+100% 金币获取率.</string>
 
 
 	<!-- Arena -->
@@ -501,7 +501,7 @@
 	<string name="endoftrials.levelup">升级! 你现在是%level%级!</string>
 	<string name="endoftrials.pointsleft.plural">%points% points left until rank %rank%</string>
 	<string name="endoftrials.pointsleft.singular">1 point left until rank %rank%</string>
-	<string name="endoftrials.beginrank">开始 %rank%RANK</string>
+	<string name="endoftrials.beginrank">开始 %rank%级</string>
 	<string name="endoftrials.crowd-message.1">...观众讨厌它!</string>
 	<string name="endoftrials.crowd-message.2">...没有人喜欢它.</string>
 	<string name="endoftrials.crowd-message.3">...但观众觉得有点好笑.</string>
@@ -523,10 +523,10 @@
 
 	<!-- Sarcophagus -->
 	<string name="sarcophagus.title">石棺</string>
-	<string name="sarcophagus.line1">A foul stench greets you.</string>
-	<string name="sarcophagus.line2">There are a few items at the bottom of the tomb.</string>
+	<string name="sarcophagus.line1">迎面一股恶臭味.</string>
+	<string name="sarcophagus.line2">石棺底部有一些装备物品.</string>
 	<string name="sarcophagus.accept">接受</string>
-	<string name="sarcophagus.cursehelp">Become cursed and receive a %chance%% chance to miss on all attacks. You also have a %chance%% chance to take %damage%% critical damage from all sources.</string>
+	<string name="sarcophagus.cursehelp">被诅咒并有 %chance%%机会闪避全部伤害.你也有机会受到伤害来源 %damage%%的致命伤害.</string>
 
 
 	<!-- Colors Everyone -->
@@ -1551,17 +1551,17 @@
 	<string name="shop.chapel.symbol.spell-crit.name">暴击勋章</string>
 	<string name="shop.chapel.symbol.spell-crit.desc">技能伤害暴击增加 %damage%%.</string>
 
-	<string name="shop.chapel.divine.hammer.name">Divine Hammer</string>
-	<string name="shop.chapel.divine.hammer.desc">Primary Attack throws a hammer in a forward direction dealing %dmg% Physical damage. Cooldown %cd% seconds.</string>
+	<string name="shop.chapel.divine.hammer.name">神圣铁锤</string>
+	<string name="shop.chapel.divine.hammer.desc">普通攻击时会向前投掷锤子造成%dmg%物理伤害.冷却%cd%秒.</string>
 
-	<string name="shop.chapel.divine.bomb.name">Divine Bomb</string>
-	<string name="shop.chapel.divine.bomb.desc">Primary Attack drops a bomb dealing %dmg% Physical damage. Cooldown %cd% second.</string>
+	<string name="shop.chapel.divine.bomb.name">神圣炸弹</string>
+	<string name="shop.chapel.divine.bomb.desc">普通攻击会掉落炸弹造成%dmg%物理伤害.冷却%cd%秒.</string>
 
-	<string name="shop.chapel.divine.blast.name">Divine Blast</string>
-	<string name="shop.chapel.divine.blast.desc">Primary Attack triggers an explosion dealing %dmg% Magical damage. Cooldown %cd% seconds.</string>
+	<string name="shop.chapel.divine.blast.name">神圣爆炸</string>
+	<string name="shop.chapel.divine.blast.desc">普通攻击触发爆炸造成%dmg%魔法伤害.冷却%cd%秒.</string>
 
-	<string name="shop.chapel.divine.strike.name">Divine Strike</string>
-	<string name="shop.chapel.divine.strike.desc">Primary Attack fires a bolt at a random nearby enemy dealing %dmg% Magical damage. Cooldown %cd% seconds.</string>
+	<string name="shop.chapel.divine.strike.name">神圣打击</string>
+	<string name="shop.chapel.divine.strike.desc">普通攻击会随机向附近的敌人发射箭矢,造成%dmg%魔法伤害.冷却%cd%秒.</string>
 
 	<!-- magic shop -->
 	<string name="shop.magicshop.resistance-1.name">魔法抗性 I</string>
@@ -1684,11 +1684,11 @@
 
 	<!-- bestiary -->
 	<string name="town.bestiary.title">巴尔塔扎尔的 怪物图鉴</string>
-	<string name="town.bestiary.spent">Points spent on enemy attunement.</string>
-	<string name="town.bestiary.respec">RESPEC</string>
-	<string name="town.bestiary.respec.tooltip">Reset all your attunements with gold. You will get %skillpoints% skillpoints back.</string>
+	<string name="town.bestiary.spent">用于调整怪物数值的点数.</string>
+	<string name="town.bestiary.respec">重新调整</string>
+	<string name="town.bestiary.respec.tooltip">花费金币重置你所有的调整.你将获得返回的%skillpoints%技能点.</string>
 	<string name="town.bestiary.respec.tooltip.title">Respec</string>
-	<string name="town.bestiary.respec.prompt">Are you sure you want to respec for %gold% gold?</string>
+	<string name="town.bestiary.respec.prompt">你确定花费%gold%金币来重新调整吗?</string>
 	<string name="town.bestiary.attune">调整</string>
 	<string name="town.bestiary.damage">伤害: %damage%%</string>
 	<string name="town.bestiary.damagereduction">降低被伤: %reduction%%</string>
@@ -2153,7 +2153,7 @@
 
 
 	<!-- Gladiator -->
-	<string name="skills.gladiator.trident">Trident</string>
+	<string name="skills.gladiator.trident">三叉戟</string>
 	<string name="skills.gladiator.trident.create">A powerful melee attack that can be triggered in quick succession by expending stacks.</string>
 	<string name="skills.gladiator.trident.1">Melee attack that deals 12 Physical damage. Attack without cooldown by expending stacks of \caac8ffTrident\d. Stacks recharge over 0.5 seconds. Maximum 5 stacks.</string>
 	<string name="skills.gladiator.trident.2">Melee attack that deals 14 Physical damage. Attack without cooldown by expending stacks of \caac8ffTrident\d. Stacks recharge over 0.5 seconds. Maximum 7 stacks.</string>
@@ -2162,7 +2162,7 @@
 	<string name="skills.gladiator.trident.5">Melee attack that deals 20 Physical damage. Attack without cooldown by expending stacks of \caac8ffTrident\d. Stacks recharge over 0.5 seconds. Maximum 13 stacks.</string>
 	<string name="skills.gladiator.trident.6">Melee attack that deals 22 Physical damage. Attack without cooldown by expending stacks of \caac8ffTrident\d. Stacks recharge over 0.5 seconds. Maximum 15 stacks.</string>
 
-	<string name="skills.gladiator.net">Crippling Net</string>
+	<string name="skills.gladiator.net">束缚网</string>
 	<string name="skills.gladiator.net.create">Throws a net that disarms and slows enemies. At higher levels enemies take more damage while netted.</string>
 	<string name="skills.gladiator.net.1">Throw a net that disarms and slows enemies by 80% for 3 seconds. Charging the net increases the range thrown.</string>
 	<string name="skills.gladiator.net.2">Throw a net that disarms and slows enemies by 80% for 3 seconds. Charging the net increases the range thrown. Enemies take 20% more damage when netted.</string>
