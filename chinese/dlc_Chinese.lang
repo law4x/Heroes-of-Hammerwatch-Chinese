@@ -1768,7 +1768,7 @@
 	<string name="town.coliseum.description">The Arena far out in Aridara, where people go for two reasons. The glory of winning in combat, or the excitement of watching others fight for their lives.\n\n(You are fighting for the crowds amusement and will be rewarded with sword tokens and other riches based on their happiness.)</string>
 	<string name="town.coliseum.rank">等级</string>
 	<string name="town.coliseum.progress">进度</string>
-	<string name="town.coliseum.progress.tooltip">获得5个剑币 \n排名提升.</string>
+	<string name="town.coliseum.progress.tooltip">获得5个剑币 \n等级提升.</string>
 	<string name="town.coliseum.start">开始</string>
 
 
@@ -2242,8 +2242,8 @@
 	<string name="item.chainmail.name">锁子甲</string>
 	<string name="item.chainmail.desc">+ %armor% 护甲.</string>
 
-	<string name="item.coated-arrow.name">Coated Arrow</string>
-	<string name="item.coated-arrow.desc">%chance%% chance to poison enemies for %dur% seconds on Primary Attack.</string>
+	<string name="item.coated-arrow.name">毒箭</string>
+	<string name="item.coated-arrow.desc">普通攻击有%chance%%几率使敌人每秒造成%dur%毒伤.</string>
 
 	<string name="item.cowl-of-protection.name">护卫斗篷</string>
 	<string name="item.cowl-of-protection.desc">有 %chance%% 几率抵御 %block% 魔法伤害.</string>
@@ -2290,8 +2290,8 @@
 	<string name="item.life-stone.name">生命之石</string>
 	<string name="item.life-stone.desc">击杀敌人后有 %chance%% 几率回复 1 生命值.</string>
 
-	<string name="item.lucky-charm.name">Lucky Charm</string>
-	<string name="item.lucky-charm.desc">%luck% Luck. +%gain%% Gold Gain.</string>
+	<string name="item.lucky-charm.name">幸运符</string>
+	<string name="item.lucky-charm.desc">+%luck% 幸运值. +%gain%% 金币获取率.</string>
 
 	<string name="item.mail-of-thorns.name">荆棘盔甲</string>
 	<string name="item.mail-of-thorns.desc">受到攻击时反弹 %return% 物理伤害.</string>
@@ -2317,8 +2317,8 @@
 	<string name="item.monster-pamphlet-undead.name">怪物手册: 亡灵生物</string>
 	<string name="item.monster-pamphlet-undead.desc">对亡灵生物 +%exp%% 经验, +%dmg%% 伤害.</string>
 
-	<string name="item.pot-helm.name">Pot Helm</string>
-	<string name="item.pot-helm.desc">%chance%% to block most projectiles.</string>
+	<string name="item.pot-helm.name">全头盔</string>
+	<string name="item.pot-helm.desc">%chance%%几率阻挡大多数的抛射物.</string>
 
 	<string name="item.ring-health.name">治疗指环</string>
 	<string name="item.ring-health.desc">+ %hregen% 生命回复.</string>
@@ -2395,11 +2395,11 @@
 	<string name="item.bloodthirst-ring.name">吸血戒指</string>
 	<string name="item.bloodthirst-ring.desc">普通攻击时吸取伤害量 %lsteal%% 的生命值.</string>
 
-	<string name="item.blowgun.name">Blowgun</string>
-	<string name="item.blowgun.desc">Shoots %num% poison darts at nearby random enemies when casting a Skill. %cd% second cooldown.</string>
+	<string name="item.blowgun.name">吹箭</string>
+	<string name="item.blowgun.desc">施放技能会随机向附近的敌人发射%num%枚毒飞镖,造成%dmg%魔法伤害.冷却%cd%秒.</string>
 
-	<string name="item.bracers-of-quickness.name">Bracers of Quickness</string>
-	<string name="item.bracers-of-quickness.desc">Increases Attack speed by %num%%.</string>
+	<string name="item.bracers-of-quickness.name">敏捷护腕</string>
+	<string name="item.bracers-of-quickness.desc">攻击速度增加%num%%.</string>
 
 	<string name="item.claymore.name">大剑</string>
 	<string name="item.claymore.desc">+ %atk% 普攻伤害\n+ %dmg% 普攻附加物理伤害.</string>
@@ -2426,10 +2426,10 @@
 	<string name="item.gloves-of-warding.desc">增加一个抵御%block%魔法伤害的被动效果, 冷却时间%cd%秒.</string>
 
 	<string name="item.key-ring.name">钥匙圈</string>
-	<string name="item.key-ring.desc">When picking up a key you have a %chance%% chance to receive another random key.</string>
+	<string name="item.key-ring.desc">捡起钥匙时,你有%chance%%几率获得另一把随机钥匙.</string>
 
-	<string name="item.lucky-horseshoe.name">Lucky Horseshoe</string>
-	<string name="item.lucky-horseshoe.desc">%luck% Luck. %mspeed% Movement Speed.</string>
+	<string name="item.lucky-horseshoe.name">幸运马蹄铁</string>
+	<string name="item.lucky-horseshoe.desc">+%luck% 幸运值.+%mspeed% 移动速度.</string>
 
 	<string name="item.greater-ring-rejuvenation.name">大活力戒指</string>
 	<string name="item.greater-ring-rejuvenation.desc">+ %hregen% 生命回复\n+ %mregen% 法力回复.</string>
@@ -2449,8 +2449,8 @@
 	<string name="item.monster-manual-undead.name">怪物指南: 亡灵生物</string>
 	<string name="item.monster-manual-undead.desc">对亡灵生物 +%exp%% 经验, +%dmg%% 伤害值.</string>
 
-	<string name="item.necklace-of-prowess.name">Necklace of Prowess</string>
-	<string name="item.necklace-of-prowess.desc">Increases Skill speed by %num%%.</string>
+	<string name="item.necklace-of-prowess.name">英勇项链</string>
+	<string name="item.necklace-of-prowess.desc">技能释放速度增加 %num%%.</string>
 
 	<string name="item.old-map.name">旧地图</string>
 	<string name="item.old-map.desc">消除地图上的战争迷雾.</string>
@@ -2537,8 +2537,8 @@
 	<string name="item.cape-of-the-flamewalker.name">火焰行者披风</string>
 	<string name="item.cape-of-the-flamewalker.desc">燃烧身边的敌人,每秒造成 %dmg% 魔法伤害.</string>
 
-	<string name="item.chakram.name">Chakram</string>
-	<string name="item.chakram.desc">Unleash a chakram when using a skill dealing %dmg% Physical damage. %cd% seconds cooldown.</string>
+	<string name="item.chakram.name">环刃</string>
+	<string name="item.chakram.desc">使用技能时释放环刃造成%dmg%物理伤害,冷却时间%cd%秒.</string>
 
 	<string name="item.curios-coffer.name">珍宝巨箱</string>
 	<string name="item.curios-coffer.desc">%stats% 生命与法力上限.\n%power% 普通攻击与技能伤害.\n%armor% 护甲 与 魔抗.</string>
@@ -2582,23 +2582,23 @@
 	<string name="item.markhams-wand.name">万锦法杖</string>
 	<string name="item.markhams-wand.desc">装备栏每有一件物品, %gain% 技能伤害.</string>
 
-	<string name="item.queens-cuirass.name">Queen's Cuirass</string>
-	<string name="item.queens-cuirass.desc">+%armor% Armor.</string>
+	<string name="item.queens-cuirass.name">女王胸甲</string>
+	<string name="item.queens-cuirass.desc">+%armor% 护甲.</string>
 
-	<string name="item.queens-dagger.name">Queen's Dagger</string>
-	<string name="item.queens-dagger.desc">+%atk% Attack Power.</string>
+	<string name="item.queens-dagger.name">女王匕首</string>
+	<string name="item.queens-dagger.desc">+%atk% 攻击伤害.</string>
 
-	<string name="item.queens-jewel.name">Queen's Jewel</string>
-	<string name="item.queens-jewel.desc">+%spell% Skill Power.</string>
+	<string name="item.queens-jewel.name">女王宝石</string>
+	<string name="item.queens-jewel.desc">+%spell% 技能伤害.</string>
 
-	<string name="item.queens-necklace.name">Queen's Necklace</string>
-	<string name="item.queens-necklace.desc">+%res% Resistance.</string>
+	<string name="item.queens-necklace.name">女王的项链</string>
+	<string name="item.queens-necklace.desc">+%res% 魔抗.</string>
 
 	<string name="item.scepter-of-kings.name">国王权杖</string>
 	<string name="item.scepter-of-kings.desc">+ %spell% 技能伤害.</string>
 
-	<string name="item.seal-of-rage.name">Seal of Rage</string>
-	<string name="item.seal-of-rage.desc">%speed%% faster Attacks for each % Health missing.</string>
+	<string name="item.seal-of-rage.name">愤怒圣印</string>
+	<string name="item.seal-of-rage.desc">损失血量的百分比,提升%speed%%攻击速度.</string>
 
 	<string name="item.shieldbreaker.name">碎盾者</string>
 	<string name="item.shieldbreaker.desc">普通攻击有 %chance%% 几率降低敌人 %armor%% 防御,持续 %sec% 秒.</string>
@@ -2637,11 +2637,11 @@
 	<string name="item.mask-of-bewilderment.name">混乱面具</string>
 	<string name="item.mask-of-bewilderment.desc">普攻命中时令敌人受到混乱效果%dur% 秒.</string>
 
-	<string name="item.phoenix-feather.name">Phoenix Feather</string>
+	<string name="item.phoenix-feather.name">凤凰羽毛</string>
 	<string name="item.phoenix-feather.desc">Automatically triggers a Potion charge on a damage instance that would kill you.</string>
 
-	<string name="item.queens-tiara.name">Queen's Tiara</string>
-	<string name="item.queens-tiara.desc">+%bonus%% base Health & Mana.</string>
+	<string name="item.queens-tiara.name">女王头饰</string>
+	<string name="item.queens-tiara.desc">+%bonus%% 基础生命 & 基础法力.</string>
 
 	<string name="item.ring-of-arcane-powers.name">神秘戒指</string>
 	<string name="item.ring-of-arcane-powers.desc">技能消耗法力降低 %scost%% .</string>
@@ -2670,7 +2670,7 @@
 	<string name="item.sphere-of-heroes.name">英雄之环</string>
 	<string name="item.sphere-of-heroes.desc">在连杀状态下普攻会额外发出巨型新星.</string>
 
-	<string name="item.wand-of-chaos.name">Wand of Chaos</string>
+	<string name="item.wand-of-chaos.name">混沌魔杖</string>
 	<string name="item.wand-of-chaos.desc">Every %time% seconds a powerful bolt is fired at a random target in range dealing heavy damage.</string>
 
 	<!-- SETS -->
@@ -2730,10 +2730,10 @@
 
 	<string name="item.sets.boots-of-speed.name">速度之靴</string>
 
-	<string name="item.sets.queens-radiance.name">Queen's Radiance</string>
-	<string name="item.sets.queens-radiance.desc">%curses% Curses.</string>
+	<string name="item.sets.queens-radiance.name">女王光环</string>
+	<string name="item.sets.queens-radiance.desc">%curses% 诅咒.</string>
 
-	<string name="item.sets.seals-of-torment.name">Seals of Torment</string>
+	<string name="item.sets.seals-of-torment.name">磨难印章</string>
 	<string name="item.sets.seals-of-torment.desc">%faster%% faster Skill speed for each % Health missing.</string>
 
 
@@ -2810,16 +2810,16 @@
 	<string name="drink.the-last-sin.name">罪不容诛</string>
 	<string name="drink.the-last-sin.desc">%pos%% 技能暴击伤害.\n%neg% 法力回复率.</string>
 
-	<string name="drink.the-cranky-clergyman.name">The Cranky Clergyman</string>
-	<string name="drink.the-cranky-clergyman.desc">%pos% Resistance.\n%neg%% Skill Speed.</string>
+	<string name="drink.the-cranky-clergyman.name">易怒牧师</string>
+	<string name="drink.the-cranky-clergyman.desc">+%pos% 魔抗.\n+%neg%% 技能速度.</string>
 
-	<string name="drink.slumbering-giant.name">Slumbering Giant</string>
-	<string name="drink.slumbering-giant.desc">%pos% Attack Power.\n%neg%% Attack Speed.</string>
+	<string name="drink.slumbering-giant.name">沉睡巨人</string>
+	<string name="drink.slumbering-giant.desc">+%pos% 攻击伤害.\n+%neg%% 攻击速度.</string>
 
-	<string name="drink.the-safe-bet.name">The Safe Bet</string>
-	<string name="drink.the-safe-bet.desc">%pos%% Armor and Resistance.\n%neg% Luck.</string>
+	<string name="drink.the-safe-bet.name">安全投注</string>
+	<string name="drink.the-safe-bet.desc">+%pos%% 护甲和魔抗.\n+%neg% 幸运值.</string>
 
-	<string name="drink.the-outlook-special.name">The Outlook Special</string>
+	<string name="drink.the-outlook-special.name">远望特饮</string>
 	<string name="drink.the-outlook-special.desc">Ore pickups trigger a %pos%% damage reduction buff that lasts for %pos2% seconds.\n%neg%% Ore Gain.</string>
 
 
@@ -2856,10 +2856,10 @@
 	<string name="drink.frenetic-eruption.name">狂热喷发</string>
 	<string name="drink.frenetic-eruption.desc">%pos%% chance of triggering Combo when scoring Critical Hits.\n%neg%% damage taken when out of Combo.</string>
 
-	<string name="drink.evil-infusion.name">Evil Infusion</string>
+	<string name="drink.evil-infusion.name">邪恶饮料</string>
 	<string name="drink.evil-infusion.desc">%pos%% Lifesteal on Skills.\nLose %neg%% of your current Health when casting a Skill.</string>
 
-	<string name="drink.perpetual-desire.name">Perpetual Desire</string>
+	<string name="drink.perpetual-desire.name">永恒欲望</string>
 	<string name="drink.perpetual-desire.desc">All pickups activate Combo.\n%neg%% Skill cost while out of Combo.</string>
 
 
@@ -2920,8 +2920,8 @@
 	<string name="fountain.effect.more_potion_charges.name">大号药瓶</string>
 	<string name="fountain.effect.more_potion_charges.description">增加两瓶药剂.</string>
 
-	<string name="fountain.effect.ace_chests.name">Ace Chests</string>
-	<string name="fountain.effect.ace_chests.description">Higher chance of Ace Chests spawning.</string>
+	<string name="fountain.effect.ace_chests.name">Ace箱子</string>
+	<string name="fountain.effect.ace_chests.description">出现Ace箱子的几率更高.</string>
 
 
 	<!-- BAD -->
@@ -2984,8 +2984,8 @@
 	<string name="fountain.effect.no_class_titles.name">孤胆英豪</string>
 	<string name="fountain.effect.no_class_titles.description">你不会从称号等级中获取属性增益.</string>
 
-	<string name="fountain.effect.no_elevators.name">Miners' Strike</string>
-	<string name="fountain.effect.no_elevators.description">Elevators are unusable.</string>
+	<string name="fountain.effect.no_elevators.name">矿井停工</string>
+	<string name="fountain.effect.no_elevators.description">电梯无法使用.</string>
 
 
 
@@ -3556,14 +3556,14 @@
 	<string name="accomplishment.boss-6-killed-class.name">推翻统治者 %lvl%</string>
 	<string name="accomplishment.boss-6-killed-class.desc">以%requirement%个不同职业杀死吸血鬼领主.</string>
 
-	<string name="accomplishment.boss-7-killed-class.name">Lurker of the Desert %lvl%</string>
-	<string name="accomplishment.boss-7-killed-class.desc">Kill the Giant Crustworm with %requirement% different classes.</string>
+	<string name="accomplishment.boss-7-killed-class.name">沙漠潜伏者 %lvl%</string>
+	<string name="accomplishment.boss-7-killed-class.desc">以%requirement%个不同职业杀死巨型地壳蠕虫.</string>
 
-	<string name="accomplishment.boss-8-killed-class.name">Entombed Beauty %lvl%</string>
-	<string name="accomplishment.boss-8-killed-class.desc">Kill Queen Iris with %requirement% different classes.</string>
+	<string name="accomplishment.boss-8-killed-class.name">睡美人 %lvl%</string>
+	<string name="accomplishment.boss-8-killed-class.desc">以%requirement%个不同职业杀死Queen Iris.</string>
 
-	<string name="accomplishment.boss-9-killed-class.name">Lure of the Lamp %lvl%</string>
-	<string name="accomplishment.boss-9-killed-class.desc">Kill Nerys with %requirement% different classes.</string>
+	<string name="accomplishment.boss-9-killed-class.name">神灯诱惑 %lvl%</string>
+	<string name="accomplishment.boss-9-killed-class.desc">以%requirement%个不同职业杀死Nerys.</string>
 
 	<string name="accomplishment.aberration-killed.name">驱魔师 %lvl%</string>
 	<string name="accomplishment.aberration-killed.desc">击杀%requirement% 变异生物.</string>
@@ -3727,17 +3727,17 @@
 	<string name="accomplishment.drinks-consumed.name">淬灭者 %lvl%</string>
 	<string name="accomplishment.drinks-consumed.desc">在酒馆消费 %requirement% 瓶酒水.</string>
 
-	<string name="accomplishment.statue-upgrades-bought.name">Sculptors %lvl%</string>
-	<string name="accomplishment.statue-upgrades-bought.desc">Buy %requirement% statue upgrades.</string>
+	<string name="accomplishment.statue-upgrades-bought.name">雕刻家 %lvl%</string>
+	<string name="accomplishment.statue-upgrades-bought.desc">购买升级 %requirement% 次雕像.</string>
 
-	<string name="accomplishment.curses-removed.name">Purgers %lvl%</string>
-	<string name="accomplishment.curses-removed.desc">Remove %requirement% curses.</string>
+	<string name="accomplishment.curses-removed.name">驱除师 %lvl%</string>
+	<string name="accomplishment.curses-removed.desc">驱除 %requirement% 次诅咒.</string>
 
-	<string name="accomplishment.arena-highest-rank.name">Trials of the Arena %lvl%</string>
-	<string name="accomplishment.arena-highest-rank.desc">Reach rank %requirement% in the arena.</string>
+	<string name="accomplishment.arena-highest-rank.name">竞技场考验 %lvl%</string>
+	<string name="accomplishment.arena-highest-rank.desc">在竞技场中达到等级 %requirement%.</string>
 
-	<string name="accomplishment.arena-fights.name">Combatants %lvl%</string>
-	<string name="accomplishment.arena-fights.desc">Win %requirement% arena skirmishes.</string>
+	<string name="accomplishment.arena-fights.name">战斗大师 %lvl%</string>
+	<string name="accomplishment.arena-fights.desc">竞技场战斗胜利%requirement%次.</string>
 
 
 
