@@ -13,9 +13,9 @@
 	<string name="hud.nokey">没有钥匙!</string>
 	<string name="hud.newtitle.character">获得称号: %title%</string>
 	<string name="hud.newtitle.guild">获得公会称号: %title%</string>
-	<string name="hud.newngp.town">Forsaken Tower NG+%ngp% 解锁!</string>
-	<string name="hud.newngp.char.first">Forsaken Tower 完成!\n最高%level%等级.</string>
-	<string name="hud.newngp.char">Forsaken Tower NG+%ngp% 完成!\n最高%level%等级.</string>
+	<string name="hud.newngp.town">遗忘塔 NG+%ngp% 解锁!</string>
+	<string name="hud.newngp.char.first">遗忘塔 完成!\n最高%level%等级.</string>
+	<string name="hud.newngp.char">遗忘塔 NG+%ngp% 完成!\n最高%level%等级.</string>
 	<string name="hud.newngp.town.desert">预言金字塔 NG+%ngp% 解锁!</string>
 	<string name="hud.newngp.char.desert.first">预言金字塔 完成!\n获得了光环!</string>
 	<string name="hud.newngp.char.desert">预言金字塔 NG+%ngp% 完成!\nN光环升级了.</string>
@@ -38,7 +38,7 @@
 	<string name="class.wizard.desc">魔法伤害极高但很脆弱的施法者.</string>
 	<string name="class.wizard.disabled.desc">法师未解锁.</string>
 	<string name="class.gladiator">角斗士</string>
-	<string name="class.gladiator.desc">A master disabler that employs hit-n-run tactics.</string>
+	<string name="class.gladiator.desc">善用采取"打了就跑"策略的战斗大师.</string>
 	<string name="class.gladiator.disabled.desc">角斗士未解锁.</string>
 	<string name="class.gladiator.unlocked">角斗士解锁了!</string>
 
@@ -143,11 +143,11 @@
 	<string name="level.boss.nerys.short">NERYS</string>
 
 	<string name="level.hellcube">英雄之路</string>
-	<string name="level.hellcube.short">THE HELLCUBE</string>
-	<string name="level.pyramid_midway">高层金字塔 - 途中</string>
-	<string name="level.pyramid_midway.short">途中</string>
-	<string name="level.plane_of_magic">THE PLANE OF SEMBLANCE</string>
-	<string name="level.plane_of_magic.short">SEMBLANCE</string>
+	<string name="level.hellcube.short">地狱之门</string>
+	<string name="level.pyramid_midway">高层金字塔 - 中层</string>
+	<string name="level.pyramid_midway.short">中层</string>
+	<string name="level.plane_of_magic">魔法平原</string>
+	<string name="level.plane_of_magic.short">外面</string>
 
 	<!-- game over -->
 	<string name="gameover.youdied">你死了</string>
@@ -161,10 +161,10 @@
 	<string name="gameover.stats.enemieskilled">杀敌数</string>
 	<string name="gameover.stats.killer">死于</string>
 	<string name="gameover.mock.0">你悲惨的人生就这样突然结束了</string>
-	<string name="gameover.mock.1">YOU DIED A GRUESOME AND PAINFUL DEATH</string>
+	<string name="gameover.mock.1">你暴毙了</string>
 	<string name="gameover.mock.2">你死了,并没有人记得你.</string>
-	<string name="gameover.mock.3">YOUR APPALLING PERFORMANCE PAID OFF</string>
-	<string name="gameover.mock.4">YOU ENTERED AS NO ONE AND DIED AS SUCH</string>
+	<string name="gameover.mock.3">你的努力没有白费</string>
+	<string name="gameover.mock.4">悄悄地,你来了；悄悄地,你死了</string>
 	<string name="gameover.sentence.unused-potion.none">你用完了你全部的药剂.</string>
 	<string name="gameover.sentence.unused-potion.plural">你还剩 %num%瓶药剂 !</string>
 	<string name="gameover.sentence.unused-potion.one">你还剩一瓶药剂!</string>
@@ -456,17 +456,17 @@
 	<string name="temp_buff.mana">石碑赐予了你用之不尽的能量!</string>
 	<string name="temp_buff.gold">石碑赐予了你对黄金的狂热!</string>
 	<string name="temp_buff.attackspeed">石碑赐予了你灵活的四肢!</string>
-	<string name="temp_buff.luck">The monolith imbues you with fortuitous events!</string>
-	<string name="temp_buff.sundering">The monolith imbues you with sundering strikes!</string>
+	<string name="temp_buff.luck">石碑赐予了你时来运转!</string>
+	<string name="temp_buff.sundering">石碑赐予了你破防攻击!</string>
 
 	<string name="arena_buff.armor">能量护甲</string>
-	<string name="arena_buff.damage">无人能挡</string>
+	<string name="arena_buff.damage">神秘力量</string>
 	<string name="arena_buff.heal">快速恢复</string>
 	<string name="arena_buff.mana">无限法力</string>
 	<string name="arena_buff.attackspeed">敏捷四肢</string>
-	<string name="arena_buff.luck">FORTUITOUS EVENTS</string>
+	<string name="arena_buff.luck">时来运转</string>
 	<string name="arena_buff.movespeed">快速移动</string>
-	<string name="arena_buff.sundering">SUNDERING STRIKES</string>
+	<string name="arena_buff.sundering">破防攻击</string>
 
 	<string name="buff.armor.name">能量护甲</string>
 	<string name="buff.armor.desc">受到的伤害降低50%.</string>
@@ -478,11 +478,11 @@
 	<string name="buff.mana.desc">技能不消耗法力.</string>
 	<string name="buff.attackspeed.name">敏捷四肢</string>
 	<string name="buff.attackspeed.desc">攻击速度增加 50%.</string>
-	<string name="buff.luck.name">偶然事件</string>
+	<string name="buff.luck.name">时来运转</string>
 	<string name="buff.luck.desc">+5 幸运值.</string>
 	<string name="buff.movespeed.name">快速移动</string>
 	<string name="buff.movespeed.desc">移动速度增加 50%.</string>
-	<string name="buff.sundering.name">Sundering Strikes</string>
+	<string name="buff.sundering.name">破防攻击</string>
 	<string name="buff.sundering.desc">全部伤害都会无视50％的护甲或抗性.</string>
 	<string name="buff.experience.name">洞察慧眼</string>
 	<string name="buff.experience.desc">+100% 经验获取率n.</string>
@@ -499,8 +499,8 @@
 	<string name="endoftrials.town">返回城镇</string>
 	<string name="endoftrials.nopoints">没有收到积分.</string>
 	<string name="endoftrials.levelup">升级! 你现在是%level%级!</string>
-	<string name="endoftrials.pointsleft.plural">%points% points left until rank %rank%</string>
-	<string name="endoftrials.pointsleft.singular">1 point left until rank %rank%</string>
+	<string name="endoftrials.pointsleft.plural">距离达到 %rank% 级还需 %points% </string>
+	<string name="endoftrials.pointsleft.singular">距离达到 %rank% 级仅需1 剑币</string>
 	<string name="endoftrials.beginrank">开始 %rank%级</string>
 	<string name="endoftrials.crowd-message.1">...观众讨厌它!</string>
 	<string name="endoftrials.crowd-message.2">...没有人喜欢它.</string>
@@ -1201,7 +1201,7 @@
 	<string name="shop.blacksmith">铁匠 巴洛</string>
 	<string name="shop.chapel">传教士</string>
 	<string name="shop.dungeonstore">流浪商人</string>
-	<string name="shop.desertstore">DUBIOUS BEDOUIN TRADER</string>
+	<string name="shop.desertstore">可疑的贝因都商人</string>
 	<string name="shop.fountain">幸运喷泉</string>
 	<string name="shop.generalstore">杂货店</string>
 	<string name="shop.magicshop">魔法商店</string>
@@ -1711,28 +1711,28 @@
 	<string name="statues.blueprint.level">%level%级%statue%</string>
 
 
-	<string name="shop.statues.ice-mage.name">Ewran</string>
-	<string name="shop.statues.ice-mage.desc">%build%% chance to freeze enemies on Primary Attack.\nEach level of the statue increases damage done to frozen enemies by %upgrade%%.</string>
-	<string name="shop.statues.ice-mage.desc-upgrade">%upgrade%% damage done to frozen enemies.</string>
-	<string name="shop.statues.ice-mage.lore">During a warm summer night,\nshe froze Williamsons Pure\nLake so the King could move\nhis troops safely across.</string>
+	<string name="shop.statues.ice-mage.name">埃尔任</string>
+	<string name="shop.statues.ice-mage.desc">普通攻击有 %build%% 冻结敌人.\n每级雕像增加 %upgrade%% 冻结伤害.</string>
+	<string name="shop.statues.ice-mage.desc-upgrade">造成 %upgrade%% 冻结伤害.</string>
+	<string name="shop.statues.ice-mage.lore">在那个夏天的夜里\n她冻结了整个威廉姆斯湖\n让国王可以安全的穿过.</string>
 
-	<string name="shop.statues.fire-mage.name">Wylmir</string>
-	<string name="shop.statues.fire-mage.desc">%build%% faster Skills.\nEach level of the statue adds %upgrade%% of the skill cost as damage to your Skills.</string>
-	<string name="shop.statues.fire-mage.desc-upgrade">%upgrade%% of the skill cost added as damage to your Skills.</string>
-	<string name="shop.statues.fire-mage.lore">Used his last breath to blaze\nthe caves and clean out the\ntrolls between Blackbarrow\nand Fallowfields.</string>
+	<string name="shop.statues.fire-mage.name">沃麦尔</string>
+	<string name="shop.statues.fire-mage.desc">%build%% 技能加速.\n每级雕像增加 %upgrade%% 技能消耗于提高技能伤害.</string>
+	<string name="shop.statues.fire-mage.desc-upgrade">增加 %upgrade%% 技能消耗并提高技能伤害.</string>
+	<string name="shop.statues.fire-mage.lore">他层用自己的最后一口气\n燃烧了地牢\n肃清了黑堎\n和追随之地.</string>
 
-	<string name="shop.statues.assassin.name">Phalarath</string>
-	<string name="shop.statues.assassin.desc">Lowers the health of an attacker by %build%% when evading.\nEach level of the statue increases damage done to disarmed and stunned enemies by %upgrade%%.</string>
-	<string name="shop.statues.assassin.desc-upgrade">%upgrade%% damage done to disarmed and stunned enemies.</string>
+	<string name="shop.statues.assassin.name">法拉罗斯</string>
+	<string name="shop.statues.assassin.desc">闪避后降低敌人的 %build%% 血量.\n每级雕像增加 %upgrade%% 缴械和眩晕伤害.</string>
+	<string name="shop.statues.assassin.desc-upgrade">每级雕像增加 %upgrade%% 缴械和眩晕伤害.</string>
 	<string name="shop.statues.assassin.lore">Snuck in behind enemy lines and\ngutted pirate Captain Marius, this\nwould eventually stop the siege\nof Castle Hammerwatch.</string>
 
 	<string name="shop.statues.warrior.name">Bolgarth</string>
-	<string name="shop.statues.warrior.desc">Every 10th kill in Combo triggers a Combo Blast that deals %build% Magical damage.\nEach level of the statue increases time to maintain Combo by %upgrade% seconds.</string>
-	<string name="shop.statues.warrior.desc-upgrade">Increases time to maintain Combo by %upgrade% seconds.</string>
+	<string name="shop.statues.warrior.desc">连击中每十次杀敌造成 %build% 魔法伤害\n每级雕像增加 %upgrade% 连击持续时间.</string>
+	<string name="shop.statues.warrior.desc-upgrade">每级雕像增加 %upgrade% 连击持续时间.</string>
 	<string name="shop.statues.warrior.lore">Bolgarth's axe was known\nas the "Crimson Crescents",\nbecause it was always red\nby the blood of his enemies.</string>
 
 	<string name="shop.statues.paladin.name">Calis</string>
-	<string name="shop.statues.paladin.desc">%build%% chance to block most projectiles.\nEach level of the statue adds %upgrade%% of your Armor to Attack Power.</string>
+	<string name="shop.statues.paladin.desc">%build%% 概率阻挡远程攻击.\n每级雕像增加s %upgrade%% 护甲于攻击力.</string>
 	<string name="shop.statues.paladin.desc-upgrade">%upgrade%% of your Armor added to Attack Power.</string>
 	<string name="shop.statues.paladin.lore">Raised from childhood to fight\nthe undead and protect the\nliving. Devoted his life to\nserve the people.</string>
 
@@ -2154,55 +2154,55 @@
 
 	<!-- Gladiator -->
 	<string name="skills.gladiator.trident">三叉戟</string>
-	<string name="skills.gladiator.trident.create">A powerful melee attack that can be triggered in quick succession by expending stacks.</string>
-	<string name="skills.gladiator.trident.1">Melee attack that deals 12 Physical damage. Attack without cooldown by expending stacks of \caac8ffTrident\d. Stacks recharge over 0.5 seconds. Maximum 5 stacks.</string>
-	<string name="skills.gladiator.trident.2">Melee attack that deals 14 Physical damage. Attack without cooldown by expending stacks of \caac8ffTrident\d. Stacks recharge over 0.5 seconds. Maximum 7 stacks.</string>
-	<string name="skills.gladiator.trident.3">Melee attack that deals 16 Physical damage. Attack without cooldown by expending stacks of \caac8ffTrident\d. Stacks recharge over 0.5 seconds. Maximum 9 stacks.</string>
-	<string name="skills.gladiator.trident.4">Melee attack that deals 18 Physical damage. Attack without cooldown by expending stacks of \caac8ffTrident\d. Stacks recharge over 0.5 seconds. Maximum 11 stacks.</string>
-	<string name="skills.gladiator.trident.5">Melee attack that deals 20 Physical damage. Attack without cooldown by expending stacks of \caac8ffTrident\d. Stacks recharge over 0.5 seconds. Maximum 13 stacks.</string>
-	<string name="skills.gladiator.trident.6">Melee attack that deals 22 Physical damage. Attack without cooldown by expending stacks of \caac8ffTrident\d. Stacks recharge over 0.5 seconds. Maximum 15 stacks.</string>
+	<string name="skills.gladiator.trident.create">强大的近战攻击可以通过连点进行连续快速攻击.</string>
+	<string name="skills.gladiator.trident.1">物理攻击造成12点伤害. 连续挥动消耗蓄能,\caac8ff三叉戟\d造成最多5次无CD攻击.</string>
+	<string name="skills.gladiator.trident.2">物理攻击造成14点伤害. 连续挥动消耗蓄能,\caac8ff三叉戟\d造成最多7次无CD攻击.</string>
+	<string name="skills.gladiator.trident.3">物理攻击造成16点伤害. 连续挥动消耗蓄能,\caac8ff三叉戟\d造成最多9次无CD攻击.</string>
+	<string name="skills.gladiator.trident.4">物理攻击造成18点伤害. 连续挥动消耗蓄能,\caac8ff三叉戟\d造成最多11次无CD攻击.</string>
+	<string name="skills.gladiator.trident.5">物理攻击造成20点伤害. 连续挥动消耗蓄能,\caac8ff三叉戟\d造成最多13次无CD攻击.</string>
+	<string name="skills.gladiator.trident.6">物理攻击造成22点伤害. 连续挥动消耗蓄能,\caac8ff三叉戟\d造成最多15次无CD攻击.</string>
 
 	<string name="skills.gladiator.net">束缚网</string>
-	<string name="skills.gladiator.net.create">Throws a net that disarms and slows enemies. At higher levels enemies take more damage while netted.</string>
-	<string name="skills.gladiator.net.1">Throw a net that disarms and slows enemies by 80% for 3 seconds. Charging the net increases the range thrown.</string>
-	<string name="skills.gladiator.net.2">Throw a net that disarms and slows enemies by 80% for 3 seconds. Charging the net increases the range thrown. Enemies take 20% more damage when netted.</string>
-	<string name="skills.gladiator.net.3">Throw a net that disarms and slows enemies by 80% for 3 seconds. Charging the net increases the range thrown. Enemies take 40% more damage when netted.</string>
-	<string name="skills.gladiator.net.4">Throw a net that disarms and slows enemies by 80% for 3 seconds. Charging the net increases the range thrown. Enemies take 60% more damage when netted.</string>
-	<string name="skills.gladiator.net.5">Throw a net that disarms and slows enemies by 80% for 3 seconds. Charging the net increases the range thrown. Enemies take 80% more damage when netted.</string>
-	<string name="skills.gladiator.net.6">Throw a net that disarms and slows enemies by 80% for 3 seconds. Charging the net increases the range thrown. Enemies take 100% more damage when netted.</string>
+	<string name="skills.gladiator.net.create">扔出一张网减速范围内敌人. 对于更高等级的敌人可以在束缚时间内对其造成成更多伤害.</string>
+	<string name="skills.gladiator.net.1">扔出一张网减速范围内敌人80%移动速度,持续3秒钟. 蓄力会增加投掷网的范围.</string>
+	<string name="skills.gladiator.net.2">扔出一张网减速范围内敌人80%移动速度,持续3秒钟. 蓄力会增加投掷网的范围. 被网住的敌人承受120%伤害.</string>
+	<string name="skills.gladiator.net.3">扔出一张网减速范围内敌人80%移动速度,持续3秒钟. 蓄力会增加投掷网的范围. 被网住的敌人承受140%伤害.</string>
+	<string name="skills.gladiator.net.4">扔出一张网减速范围内敌人80%移动速度,持续3秒钟. 蓄力会增加投掷网的范围. 被网住的敌人承受160%伤害.</string>
+	<string name="skills.gladiator.net.5">扔出一张网减速范围内敌人80%移动速度,持续3秒钟. 蓄力会增加投掷网的范围. 被网住的敌人承受180%伤害.</string>
+	<string name="skills.gladiator.net.6">扔出一张网减速范围内敌人80%移动速度,持续3秒钟. 蓄力会增加投掷网的范围. 被网住的敌人承受200%伤害.</string>
 
-	<string name="skills.gladiator.planned-attack">Planned Attack</string>
-	<string name="skills.gladiator.planned-attack.create">Guaranteed critical hit when expending a stack of \caac8ffTrident\d.</string>
-	<string name="skills.gladiator.planned-attack.1">Guaranteed critical hit when expending a stack of \caac8ffTrident\d. Stacks recharge over 2 seconds. Maximum 3 stacks.</string>
-	<string name="skills.gladiator.planned-attack.2">Guaranteed critical hit when expending a stack of \caac8ffTrident\d. Stacks recharge over 1.75 seconds. Maximum 4 stacks.</string>
-	<string name="skills.gladiator.planned-attack.3">Guaranteed critical hit when expending a stack of \caac8ffTrident\d. Stacks recharge over 1.5 seconds. Maximum 5 stacks.</string>
-	<string name="skills.gladiator.planned-attack.4">Guaranteed critical hit when expending a stack of \caac8ffTrident\d. Stacks recharge over 1.25 seconds. Maximum 6 stacks.</string>
-	<string name="skills.gladiator.planned-attack.5">Guaranteed critical hit when expending a stack of \caac8ffTrident\d. Stacks recharge over 1 second. Maximum 7 stacks.</string>
+	<string name="skills.gladiator.planned-attack">精准攻击</string>
+	<string name="skills.gladiator.planned-attack.create">使用\caac8ff三叉戟\d攻击时必定造成暴击.</string>
+	<string name="skills.gladiator.planned-attack.1">使用\caac8ff三叉戟\d攻击时必定造成暴击. 蓄能2秒冷却时间.</string>
+	<string name="skills.gladiator.planned-attack.2">使用\caac8ff三叉戟\d攻击时必定造成暴击. 蓄能1.75秒冷却时间.</string>
+	<string name="skills.gladiator.planned-attack.3">使用\caac8ff三叉戟\d攻击时必定造成暴击. 蓄能1.5秒冷却时间.</string>
+	<string name="skills.gladiator.planned-attack.4">使用\caac8ff三叉戟\d攻击时必定造成暴击. 蓄能1.25秒冷却时间.</string>
+	<string name="skills.gladiator.planned-attack.5">使用\caac8ff三叉戟\d攻击时必定造成暴击. 蓄能1秒冷却时间.</string>
 
-	<string name="skills.gladiator.riposte">Riposte</string>
-	<string name="skills.gladiator.riposte.create">Blocks incoming damage for a very short time after attacking with \caac8ffTrident\d.</string>
-	<string name="skills.gladiator.riposte.1">Blocks 20% of one damage instance within 0.2 seconds after attacking with \caac8ffTrident\d. Blocking with \caac8ffRiposte\d replenishes a stack of \caac8ffTrident\d.</string>
-	<string name="skills.gladiator.riposte.2">Blocks 40% of one damage instance within 0.2 seconds after attacking with \caac8ffTrident\d. Blocking with \caac8ffRiposte\d replenishes a stack of \caac8ffTrident\d.</string>
-	<string name="skills.gladiator.riposte.3">Blocks 60% of one damage instance within 0.2 seconds after attacking with \caac8ffTrident\d. Blocking with \caac8ffRiposte\d replenishes a stack of \caac8ffTrident\d.</string>
-	<string name="skills.gladiator.riposte.4">Blocks 80% of one damage instance within 0.2 seconds after attacking with \caac8ffTrident\d. Blocking with \caac8ffRiposte\d replenishes a stack of \caac8ffTrident\d.</string>
+	<string name="skills.gladiator.riposte">还击</string>
+	<string name="skills.gladiator.riposte.create">使用\caac8ff三叉戟\d攻击后短时间内格挡攻击.</string>
+	<string name="skills.gladiator.riposte.1">使用\caac8ff三叉戟\d攻击后0.2秒内格挡20%伤害. \caac8ff还击\d 后补充一次 \caac8ff三叉戟\d.</string>
+	<string name="skills.gladiator.riposte.2">使用\caac8ff三叉戟\d攻击后0.2秒内格挡40%伤害. \caac8ff还击\d 后补充一次 \caac8ff三叉戟\d.</string>
+	<string name="skills.gladiator.riposte.3">使用\caac8ff三叉戟\d攻击后0.2秒内格挡60%伤害. \caac8ff还击\d 后补充一次 \caac8ff三叉戟\d.</string>
+	<string name="skills.gladiator.riposte.4">使用\caac8ff三叉戟\d攻击后0.2秒内格挡80%伤害. \caac8ff还击\d 后补充一次 \caac8ff三叉戟\d.</string>
 
-	<string name="skills.gladiator.gladius">Spinning Gladius</string>
-	<string name="skills.gladiator.gladius.create">Throws a gladius in a forward direction that starts spinning in place on impact dealing Magical damage.</string>
-	<string name="skills.gladiator.gladius.1">Throws a gladius in a forward direction that starts spinning in place for 3 seconds on impact. Deals 32 Magical damage per second.</string>
-	<string name="skills.gladiator.gladius.2">Throws a gladius in a forward direction that starts spinning in place for 3 seconds on impact. Deals 64 Magical damage per second.</string>
-	<string name="skills.gladiator.gladius.3">Throws a gladius in a forward direction that starts spinning in place for 3 seconds on impact. Deals 96 Magical damage per second.</string>
-	<string name="skills.gladiator.gladius.4">Throws a gladius in a forward direction that starts spinning in place for 3 seconds on impact. Deals 128 Magical damage per second.</string>
+	<string name="skills.gladiator.gladius">落英飞剑</string>
+	<string name="skills.gladiator.gladius.create">向前扔出一把飞剑,在旋转的同时造成魔法伤害</string>
+	<string name="skills.gladiator.gladius.1">向前扔出一把飞剑持续3秒,在旋转的同时造成32点魔法伤害/秒.</string>
+	<string name="skills.gladiator.gladius.2">向前扔出一把飞剑持续3秒,在旋转的同时造成64点魔法伤害/秒.</string>
+	<string name="skills.gladiator.gladius.3">向前扔出一把飞剑持续3秒,在旋转的同时造成96点魔法伤害/秒.</string>
+	<string name="skills.gladiator.gladius.4">向前扔出一把飞剑持续3秒,在旋转的同时造成128点魔法伤害/秒.</string>
 
-	<string name="skills.gladiator.pit-fighters">Pit Fighters</string>
-	<string name="skills.gladiator.pit-fighters.create">Call upon a group of pit fighters to fight at your side for a short time.</string>
-	<string name="skills.gladiator.pit-fighters.1">Call upon a group of pit fighters to fight at your side for 15 seconds. The pit fighters have 400 Health, 10 Armor and 10 Resistance. They attack with shortswords dealing 20 Physical damage.</string>
-	<string name="skills.gladiator.pit-fighters.2">Call upon a group of pit fighters to fight at your side for 15 seconds. The pit fighters have 500 Health, 20 Armor and 20 Resistance. They attack with shortswords dealing 35 Physical damage.</string>
-	<string name="skills.gladiator.pit-fighters.3">Call upon a group of pit fighters to fight at your side for 15 seconds. The pit fighters have 600 Health, 30 Armor and 30 Resistance. They attack with shortswords dealing 50 Physical damage.</string>
+	<string name="skills.gladiator.pit-fighters">召唤群灵</string>
+	<string name="skills.gladiator.pit-fighters.create">在短时间内召唤一群英灵协助作战.</string>
+	<string name="skills.gladiator.pit-fighters.1">召唤一群英灵协助作战,持续15秒. 英灵拥有400血量, 10护甲和10魔抗. 用短剑攻击造成20点物理伤害.</string>
+	<string name="skills.gladiator.pit-fighters.2">召唤一群英灵协助作战,持续15秒. 英灵拥有500血量, 20护甲和20魔抗. 用短剑攻击造成35点物理伤害.</string>
+	<string name="skills.gladiator.pit-fighters.3">召唤一群英灵协助作战,持续15秒. 英灵拥有600血量, 30护甲和30魔抗. 用短剑攻击造成50点物理伤害.</string>
 
-	<string name="skills.gladiator.strength-in-numbers">Strength in Numbers</string>
-	<string name="skills.gladiator.strength-in-numbers.create">Increases the amount of \caac8ffPit Fighters\d and \caac8ffSpinning Gladius\d.</string>
-	<string name="skills.gladiator.strength-in-numbers.1">Increases the amount of \caac8ffPit Fighters\d and \caac8ffSpinning Gladius\d by 1.</string>
-	<string name="skills.gladiator.strength-in-numbers.2">Increases the amount of \caac8ffPit Fighters\d and \caac8ffSpinning Gladius\d by 2.</string>
+	<string name="skills.gladiator.strength-in-numbers">奥数力量</string>
+	<string name="skills.gladiator.strength-in-numbers.create">增加\caac8ff召唤群灵\d. \caac8ff落英飞花剑\技能的效果.</string>
+	<string name="skills.gladiator.strength-in-numbers.1">\caac8ff召唤群灵\d 和 \caac8ff落英飞剑\d 技能召唤数量增加一.</string>
+	<string name="skills.gladiator.strength-in-numbers.2">\caac8ff召唤群灵\d 和 \caac8ff落英飞剑\d 技能召唤数量增加二.</string>
 
 
 
@@ -2567,8 +2567,8 @@
 	<string name="item.heartseeker.name">觅心者</string>
 	<string name="item.heartseeker.desc">普通攻击击中敌人时,有 %chance%% 几率造成暴击.</string>
 
-	<string name="item.lucky-hat.name">Lucky Hat</string>
-	<string name="item.lucky-hat.desc">%luck% Luck.</string>
+	<string name="item.lucky-hat.name">幸运帽</string>
+	<string name="item.lucky-hat.desc">+%luck% 幸运值.</string>
 
 	<string name="item.magebane.name">巫师之祸</string>
 	<string name="item.magebane.desc">普通攻击有 %chance%% 几率降低敌人 %res%% 魔法抗性,持续2秒.</string>
@@ -2603,11 +2603,11 @@
 	<string name="item.shieldbreaker.name">碎盾者</string>
 	<string name="item.shieldbreaker.desc">普通攻击有 %chance%% 几率降低敌人 %armor%% 防御,持续 %sec% 秒.</string>
 
-	<string name="item.skullsmasher.name">Skullsmasher</string>
-	<string name="item.skullsmasher.desc">Every %hit%th Primary Attack hit triggers an explosion on impact dealing 30 Physical damage.</string>
+	<string name="item.skullsmasher.name">碎颅者</string>
+	<string name="item.skullsmasher.desc">普通攻击每击中%hit%th伤害就会触发爆炸,造成30点物理伤害.</string>
 
-	<string name="item.spreading-corruption.name">Spreading Corruption</string>
-	<string name="item.spreading-corruption.desc">Primary Attack applies a debuff for %dur% seconds that jumps to a new enemy when the original target is killed. Affected enemies take %dmg%% more damage.</string>
+	<string name="item.spreading-corruption.name">腐化蔓延</string>
+	<string name="item.spreading-corruption.desc">普通攻击会附加%dur%秒的负面效果,当原目标被杀,负面效果会转移到下一个敌人.受到负面效果的敌人受到的伤害增加%dmg%%.</string>
 
 	<string name="item.staff-of-volatile-casting.name">多变法杖</string>
 	<string name="item.staff-of-volatile-casting.desc">+ %chance%% 技能暴击几率.</string>
