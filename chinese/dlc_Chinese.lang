@@ -2638,7 +2638,7 @@
 	<string name="item.mask-of-bewilderment.desc">普攻命中时令敌人受到混乱效果%dur% 秒.</string>
 
 	<string name="item.phoenix-feather.name">凤凰羽毛</string>
-	<string name="item.phoenix-feather.desc">Automatically triggers a Potion charge on a damage instance that would kill you.</string>
+	<string name="item.phoenix-feather.desc">当受到致死伤害时自动触发喝下药剂的效果.</string>
 
 	<string name="item.queens-tiara.name">女王头饰</string>
 	<string name="item.queens-tiara.desc">+%bonus%% 基础生命 & 基础法力.</string>
@@ -2671,7 +2671,7 @@
 	<string name="item.sphere-of-heroes.desc">在连杀状态下普攻会额外发出巨型新星.</string>
 
 	<string name="item.wand-of-chaos.name">混沌魔杖</string>
-	<string name="item.wand-of-chaos.desc">Every %time% seconds a powerful bolt is fired at a random target in range dealing heavy damage.</string>
+	<string name="item.wand-of-chaos.desc">每%time%秒会随机向一名怪物发射巨雷,对其重创. seconds a powerful bolt is fired at a random target in range dealing heavy damage.</string>
 
 	<!-- SETS -->
 
