@@ -99,6 +99,7 @@
 	<string name="playermenu.effects.misc">杂货店</string>
 	<string name="playermenu.effects.cursed">诅咒: %amount%</string>
 	<string name="playermenu.effects.cursed.tooltip">获得诅咒并获得%chance%%几率闪避全部攻击.你也有%chance%%几率获得所有来源的 %damage%% 暴击伤害.</string>
+
 	<string name="charinfo.ngp">Forsaken Tower: NG+%ngp%</string>
 	<string name="charinfo.ngp.desert">预言金字塔: NG+%ngp%</string>
 	<string name="charinfo.arena.rank">阿里达拉 竞技场: %rank%级</string>
@@ -122,19 +123,20 @@
 	<string name="world.pop.acts.2">高层金字塔</string>
 	<string name="world.coliseum">阿里达拉 竞技场</string>
 
+
 	<!-- Map names -->
 	<string name="level.boss.rock">远望镇矿山 - 生命之岩</string>
 	<string name="level.boss.rock.short">生命之岩</string>
-	<string name="level.boss.warden">监狱城 - 守卫</string>
-	<string name="level.boss.warden.short">来者 '不善'</string>
-	<string name="level.boss.wraith">兵器塔 - THE THREE COUNCILORS</string>
-	<string name="level.boss.wraith.short">THREE COUNCILORS</string>
+	<string name="level.boss.warden">监狱城 - 监狱守卫</string>
+	<string name="level.boss.warden.short">监狱守卫</string>
+	<string name="level.boss.wraith">兵器塔 - 三大巫妖</string>
+	<string name="level.boss.wraith.short">三巫妖</string>
 	<string name="level.boss.eye">档案塔 - 眼球怪</string>
 	<string name="level.boss.eye.short">监察者</string>
-	<string name="level.boss.vampire">TOWER CHAMBERS - THE VAMPIRE LORD</string>
+	<string name="level.boss.vampire">议会塔 - 吸血鬼公爵</string>
 	<string name="level.boss.vampire.short">爵士</string>
-	<string name="level.boss.thundersnow">SHAFTLOCKE TOWER - 雷雪</string>
-	<string name="level.boss.thundersnow.short">雷雪</string>
+	<string name="level.boss.thundersnow">SHAFTLOCKE TOWER - 雷电冰龙</string>
+	<string name="level.boss.thundersnow.short">雷电冰龙</string>
 	<string name="level.boss.crustworm">阿里达拉 - 巨型蚯蚓</string>
 	<string name="level.boss.crustworm.short">巨型地壳蠕虫</string>
 	<string name="level.boss.iris">低层金字塔 - 最后的女王</string>
@@ -255,7 +257,7 @@
 	<string name="stats.boss-4-killed">杀死监察者</string>
 	<string name="stats.boss-5-killed">杀死雷电冰龙</string>
 	<string name="stats.boss-6-killed">杀死吸血鬼领主</string>
-	<string name="stats.boss-7-killed">杀死Crustworm</string>
+	<string name="stats.boss-7-killed">杀死地壳蠕虫</string>
 	<string name="stats.boss-8-killed">杀死Queen Iris</string>
 	<string name="stats.boss-9-killed">杀死Nerys</string>
 	<string name="stats.aberration-killed">击杀变异生物</string>
@@ -345,7 +347,6 @@
 	<string name="intro.pop.title">石城</string>
 	<string name="intro.pop.text">The City of Stone, just below The Outlook. These days a transit town for people traveling to the Arena far out in Aridara, once a larger city with an abundant quarry which is now empty and abandoned.\n\nOther than the Arena, a new magnet for luck seekers arisened. As the Giant Crustworms have started to come up from the depths, the sand has shifted and revealed what is believed to be the tip of the old burial site of Iris, the legendary Pyramid of Prophecy. Perhaps it is worth investigating. A royal burial site probably contains many riches that would favor the guild.</string>
 
-
 	<!-- end of game -->
 	<string name="endofgame.town">继续</string>
 	<string name="endofgame.title">结束</string>
@@ -374,7 +375,7 @@
 	<string name="levelend.ready">准备</string>
 	<string name="levelend.ok">继续</string>
 
-	<string name="levelcredits.prompt">%level% by %author%</string>
+	<string name="levelcredits.prompt">%level% 由 %author% 制作</string>
 
 	<string name="meta.info.elsewhere">这要在某处打开...</string>
 	<string name="meta.info.happened">有什么事情发生了...</string>
@@ -1687,7 +1688,7 @@
 	<string name="town.bestiary.spent">用于调整怪物数值的点数.</string>
 	<string name="town.bestiary.respec">重新调整</string>
 	<string name="town.bestiary.respec.tooltip">花费金币重置你所有的调整.你将获得返回的%skillpoints%技能点.</string>
-	<string name="town.bestiary.respec.tooltip.title">Respec</string>
+	<string name="town.bestiary.respec.tooltip.title">重新调整</string>
 	<string name="town.bestiary.respec.prompt">你确定花费%gold%金币来重新调整吗?</string>
 	<string name="town.bestiary.attune">调整</string>
 	<string name="town.bestiary.damage">伤害: %damage%%</string>
@@ -1726,24 +1727,24 @@
 	<string name="shop.statues.assassin.desc-upgrade">每级雕像增加 %upgrade%% 缴械和眩晕伤害.</string>
 	<string name="shop.statues.assassin.lore">Snuck in behind enemy lines and\ngutted pirate Captain Marius, this\nwould eventually stop the siege\nof Castle Hammerwatch.</string>
 
-	<string name="shop.statues.warrior.name">Bolgarth</string>
+	<string name="shop.statues.warrior.name">博尔加斯</string>
 	<string name="shop.statues.warrior.desc">连击中每十次杀敌造成 %build% 魔法伤害\n每级雕像增加 %upgrade% 连击持续时间.</string>
 	<string name="shop.statues.warrior.desc-upgrade">每级雕像增加 %upgrade% 连击持续时间.</string>
-	<string name="shop.statues.warrior.lore">Bolgarth's axe was known\nas the "Crimson Crescents",\nbecause it was always red\nby the blood of his enemies.</string>
+	<string name="shop.statues.warrior.lore">博尔加斯的斧头被称为"赤红弯月"，因为它的敌人血液总是红色的.</string>
 
 	<string name="shop.statues.paladin.name">Calis</string>
 	<string name="shop.statues.paladin.desc">%build%% 概率阻挡远程攻击.\n每级雕像增加s %upgrade%% 护甲于攻击力.</string>
-	<string name="shop.statues.paladin.desc-upgrade">%upgrade%% of your Armor added to Attack Power.</string>
-	<string name="shop.statues.paladin.lore">Raised from childhood to fight\nthe undead and protect the\nliving. Devoted his life to\nserve the people.</string>
+	<string name="shop.statues.paladin.desc-upgrade">你的护甲附加了 +%upgrade%%攻击速度效果.</string>
+	<string name="shop.statues.paladin.lore">他从小便在抵御亡灵和保卫生者.一生致力于为人民服务.</string>
 
 	<string name="shop.statues.priest.name">Cedric</string>
-	<string name="shop.statues.priest.desc">Picking up mana crystals increases your Mana Regen and Resistance by %build%%.\nEach level of the statue adds %upgrade%% of your Resistance to Skill Power.</string>
-	<string name="shop.statues.priest.desc-upgrade">%upgrade%% of your Armor added to Attack Power.</string>
+	<string name="shop.statues.priest.desc">拾取法力水晶会增加%build%%的法力恢复和魔抗.\nEach level of the statue adds %upgrade%% of your Resistance to Skill Power.</string>
+	<string name="shop.statues.priest.desc-upgrade">你的护甲附加了 +%upgrade%%攻击速度效果.</string>
 	<string name="shop.statues.priest.lore">Also known as "The Delayer\nof Death", at the peak of his\ncareer, the cemetery stood\nempty for many years.</string>
 
 	<string name="shop.statues.plague-doctor.name">Ozreth</string>
 	<string name="shop.statues.plague-doctor.desc">%build%% chance of enemies leaving a poison cloud when killed that lasts for %dur% seconds.\nEach level of the statue increases damage done to poisoned enemies by %upgrade%%.</string>
-	<string name="shop.statues.plague-doctor.desc-upgrade">%upgrade%% damage done to poisoned enemies.</string>
+	<string name="shop.statues.plague-doctor.desc-upgrade">怪物受到毒气伤害+%upgrade%%.</string>
 	<string name="shop.statues.plague-doctor.lore">An outcast, master in death\nand decay who payed his debt\nto society by curing Queen\nOlivia at the darkest hour.</string>
 
 	<string name="shop.statues.ranger.name">Kyra</string>
@@ -2374,8 +2375,8 @@
 	<string name="item.adventurers-garb.name">冒险家服饰</string>
 	<string name="item.adventurers-garb.desc">+ %health% 生命上限\n+ %mana% 法力上限.</string>
 
-	<string name="item.apothecarys-flask.name">Apothecary's Flask</string>
-	<string name="item.apothecarys-flask.desc">%num% Potion charges.</string>
+	<string name="item.apothecarys-flask.name">药剂师的烧瓶</string>
+	<string name="item.apothecarys-flask.desc">+%num% 药剂.</string>
 
 	<string name="item.apothecarys-mortar-pestle.name">药剂师的钵杵</string>
 	<string name="item.apothecarys-mortar-pestle.desc">饮用药剂后,护甲和魔法抗性提升 %eff%%,持续 5 秒 .</string>
@@ -2638,7 +2639,7 @@
 	<string name="item.mask-of-bewilderment.desc">普攻命中时令敌人受到混乱效果%dur% 秒.</string>
 
 	<string name="item.phoenix-feather.name">凤凰羽毛</string>
-	<string name="item.phoenix-feather.desc">Automatically triggers a Potion charge on a damage instance that would kill you.</string>
+	<string name="item.phoenix-feather.desc">在受到致命攻击之前会自动发触发药剂效果.</string>
 
 	<string name="item.queens-tiara.name">女王头饰</string>
 	<string name="item.queens-tiara.desc">+%bonus%% 基础生命 & 基础法力.</string>
@@ -2671,7 +2672,8 @@
 	<string name="item.sphere-of-heroes.desc">在连杀状态下普攻会额外发出巨型新星.</string>
 
 	<string name="item.wand-of-chaos.name">混沌魔杖</string>
-	<string name="item.wand-of-chaos.desc">Every %time% seconds a powerful bolt is fired at a random target in range dealing heavy damage.</string>
+	<string name="item.wand-of-chaos.desc">每 %time% 秒向随机敌人射出一发强力的闪电.</string>
+
 
 	<!-- SETS -->
 
@@ -2734,7 +2736,7 @@
 	<string name="item.sets.queens-radiance.desc">%curses% 诅咒.</string>
 
 	<string name="item.sets.seals-of-torment.name">磨难印章</string>
-	<string name="item.sets.seals-of-torment.desc">%faster%% faster Skill speed for each % Health missing.</string>
+	<string name="item.sets.seals-of-torment.desc">每损失百分一的生命值增加%faster%%技能释放速度.</string>
 
 
 
@@ -2805,7 +2807,7 @@
 	<string name="drink.overflowing-physique.desc">+%pos%%基本生命值\n移动时损失%neg%%现有的法力.</string>
 
 	<string name="drink.last-stand.name">背水一战</string>
-	<string name="drink.last-stand.desc">%pos%% damage dealt and %pos2%% damage taken while standing still.\n%neg%% damage taken while moving.</string>
+	<string name="drink.last-stand.desc">静止时 %pos%% 受到的伤害并 %pos2%% 造成的伤害.\n%neg%% 移动时收到的伤害.</string>
 
 	<string name="drink.the-last-sin.name">罪不容诛</string>
 	<string name="drink.the-last-sin.desc">%pos%% 技能暴击伤害.\n%neg% 法力回复率.</string>
@@ -2820,7 +2822,7 @@
 	<string name="drink.the-safe-bet.desc">+%pos%% 护甲和魔抗.\n+%neg% 幸运值.</string>
 
 	<string name="drink.the-outlook-special.name">远望特饮</string>
-	<string name="drink.the-outlook-special.desc">Ore pickups trigger a %pos%% damage reduction buff that lasts for %pos2% seconds.\n%neg%% Ore Gain.</string>
+	<string name="drink.the-outlook-special.desc">获得一个 %pos%% 伤害减免状态持续 %pos2% 秒.\n%neg%% 矿石获得率.</string>
 
 
 	<!-- RARE -->
@@ -2830,7 +2832,7 @@
 	<string name="drink.crimson-death.desc">造成普通伤害的%pos%% 会转化为生命值.\n移动时损失生命.</string>
 
 	<string name="drink.hammer-time.name">以身作锤</string>
-	<string name="drink.hammer-time.desc">%pos% Attack Power.\nLose %neg%% of your current Health while standing still..</string>
+	<string name="drink.hammer-time.desc">%pos% 攻击力.\n当你站立不动时损失 %neg%% 生命.</string>
 
 	<string name="drink.incendiary-demise.name">怒火中烧</string>
 	<string name="drink.incendiary-demise.desc">普通攻击附加%pos% 点魔法伤害.\n用普通攻击造成伤害后自己灼伤.</string>
@@ -2848,19 +2850,19 @@
 	<string name="drink.the-mad-proposal.desc">%pos%% 造成的伤害.\n永久处于混乱状态.</string>
 
 	<string name="drink.unbalanced-essence.name">龙头蛇尾</string>
-	<string name="drink.unbalanced-essence.desc">%pos% Skill Power.\nLose %neg%% of your current Mana when casting a Skill.</string>
+	<string name="drink.unbalanced-essence.desc">%pos% 技能伤害增加.\n使用技能时损失 %neg%% 魔法.</string>
 
 	<string name="drink.wicked-sickness.name">身罹奇疾</string>
 	<string name="drink.wicked-sickness.desc">%pos%% 连击伤害加成.\n%neg% 没有连击时生命恢复速率.</string>
 
 	<string name="drink.frenetic-eruption.name">狂热喷发</string>
-	<string name="drink.frenetic-eruption.desc">%pos%% chance of triggering Combo when scoring Critical Hits.\n%neg%% damage taken when out of Combo.</string>
+	<string name="drink.frenetic-eruption.desc">连击时%pos%% 暴击概率.\n%neg%% 非连击状态下受伤加成.</string>
 
 	<string name="drink.evil-infusion.name">邪恶饮料</string>
-	<string name="drink.evil-infusion.desc">%pos%% Lifesteal on Skills.\nLose %neg%% of your current Health when casting a Skill.</string>
+	<string name="drink.evil-infusion.desc">%pos%% 技能吸血.\n施法时损失 %neg%% 生命.</string>
 
 	<string name="drink.perpetual-desire.name">永恒欲望</string>
-	<string name="drink.perpetual-desire.desc">All pickups activate Combo.\n%neg%% Skill cost while out of Combo.</string>
+	<string name="drink.perpetual-desire.desc">拾取物品会触发连击.\n%neg%% 非连杀状态下技能消耗法力为%neg%%.</string>
 
 
 
@@ -3201,7 +3203,7 @@
 	<string name="dialogue.town.npc.gladiator.1Ra">I'll train anyone who\nmade a name for\nthemselves in The\nArena and have the\ntokens to prove just that.</string>
 
 	<!-- Richard Hammer -->
-	<string name="dialogue.town.npc.tapster.name">Richard, the Tapster</string>
+	<string name="dialogue.town.npc.tapster.name">酒保理查德</string>
 	<string name="dialogue.town.npc.tapster.1Ra">Hey, if you find more of those barrels\nin the tower I will make you a special drink.\nFor a good price of course...\n</string>
 
 	<!-- Book - Ancient History -->
@@ -3223,9 +3225,9 @@
 	<string name="dialogue.town.book.geography.1b">还是第253页\n...have started to move closer\nto the surface, several people\nhave been eaten alive in\nreally horrible worm attacks... (2)</string>
 
 	<!-- Elevator -->
-	<string name="dialogue.town.npc.elevator.name">Richard, the Tapster</string>
-	<string name="dialogue.town.npc.elevator.1a">The Outlook Express\ntakes you down to\nthe City of Stone.</string>
-	<string name="dialogue.town.npc.elevator.error">The Outlook Express is\ncurrently not accessible.\n\n(REQUIRES PYRAMID\nOF PROPHECY DLC!)</string>
+	<string name="dialogue.town.npc.elevator.name">酒保理查德</string>
+	<string name="dialogue.town.npc.elevator.1a">外面的缆车可以\n带你去石城.</string>
+	<string name="dialogue.town.npc.elevator.error">外面的缆车\n现在无法使用.\n\n(现在购买\n新DLC即可解锁!)</string>
 
 	<!-- Signs -->
 	<string name="dialogue.sign.chapel">光之教会</string>
@@ -3252,7 +3254,7 @@
 	<string name="dialogue.sign.express-up">上升: 远望镇</string>
 
 	<string name="dialogue.sign.arena.name">阿里达拉 竞技场</string>
-	<string name="dialogue.sign.arena.desc">Fight like a true\nchamp and win\ngreat prizes,\neveryone is\nwelcome to try!</string>
+	<string name="dialogue.sign.arena.desc">像男人一样战斗！\n努力取得胜利！\n和精良的装备！\n欢迎各位前来尝试!</string>
 
 	<!-- Player -->
 	<string name="dialogue.player.mines_entrance.1Ra">被禁行了...</string>
@@ -3269,18 +3271,18 @@
 	<string name="dialogue.player.books.1">这些藏书不是很有印象.</string>
 
 	<string name="dialogue.player.theduke">看起来杜克·德洛尼死得很痛苦.</string>
-	<string name="dialogue.player.combo.1">The pedistal\nlooks empty?</string>
-	<string name="dialogue.player.combo.2">Just a purple\ncombo sphere.</string>
+	<string name="dialogue.player.combo.1">基座看起来空的?</string>
+	<string name="dialogue.player.combo.2">只是一个紫色的连杀宝珠</string>
 
 	<string name="dialogue.player.view">多么美妙的风景!</string>
 	<string name="dialogue.player.quarry">采石场似乎被遗弃了...</string>
 
 	<string name="dialogue.player.desert.east.day1">在到达太阳神殿之前,我会渴死的.</string>
-	<string name="dialogue.player.desert.east.day2">I don't wanna get stuck\nin one of them storms,\nget lost and die.</string>
-	<string name="dialogue.player.desert.east.night1">I really don't want\nto walk that far\nduring the night...</string>
-	<string name="dialogue.player.desert.east.night2">Walking that far\nduring night time\ncould be dangerous!</string>
-	<string name="dialogue.player.desert.deadguy.1Ra">I sure don't wanna\nend up like this fella!</string>
-	<string name="dialogue.player.desert.deadguy.1Rb">This guy probably\nhad a good life, but\nin the end it never\nreally worked out.</string>
+	<string name="dialogue.player.desert.east.day2">我可不想陷入风暴\n然后在迷路后,\n孤独的等死.</string>
+	<string name="dialogue.player.desert.east.night1">我不想在\n夜里走那么多路...</string>
+	<string name="dialogue.player.desert.east.night2">在夜里走那么多路\n实在是太危险了!</string>
+	<string name="dialogue.player.desert.deadguy.1Ra">这哥们太惨了\ne，我可不想这样结束!</string>
+	<string name="dialogue.player.desert.deadguy.1Rb">这个兄弟可能有\n完美的人生, 但是\n他的人生并没有真的\n获得成功.</string>
 	<string name="dialogue.player.desert.deadguy.1Rc">他应该买一张合适的地图,应该可以免去他的悲伤与饥饿.</string>
 
 	<string name="dialogue.player.desert.minerazed">被堵住的矿井入口...</string>
@@ -3534,7 +3536,7 @@
 	<string name="guildhall.accomplishments.boss-4">监察者</string>
 	<string name="guildhall.accomplishments.boss-5">雷电冰龙</string>
 	<string name="guildhall.accomplishments.boss-6">吸血鬼领主</string>
-	<string name="guildhall.accomplishments.boss-7">GIANT CRUSTWORM</string>
+	<string name="guildhall.accomplishments.boss-7">巨型地壳蠕虫</string>
 	<string name="guildhall.accomplishments.boss-8">QUEEN IRIS</string>
 	<string name="guildhall.accomplishments.boss-9">NERYS</string>
 
