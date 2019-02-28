@@ -125,16 +125,16 @@
 	<!-- Map names -->
 	<string name="level.boss.rock">远望镇矿山 - 生命之岩</string>
 	<string name="level.boss.rock.short">生命之岩</string>
-	<string name="level.boss.warden">监狱城 - 守卫</string>
-	<string name="level.boss.warden.short">来者 '不善'</string>
-	<string name="level.boss.wraith">兵器塔 - THE THREE COUNCILORS</string>
-	<string name="level.boss.wraith.short">THREE COUNCILORS</string>
+	<string name="level.boss.warden">监狱城 - 监狱守卫</string>
+	<string name="level.boss.warden.short">监狱守卫</string>
+	<string name="level.boss.wraith">兵器塔 - 三大巫妖</string>
+	<string name="level.boss.wraith.short">三巫妖</string>
 	<string name="level.boss.eye">档案塔 - 眼球怪</string>
 	<string name="level.boss.eye.short">监察者</string>
-	<string name="level.boss.vampire">TOWER CHAMBERS - THE VAMPIRE LORD</string>
+	<string name="level.boss.vampire">议会塔 - 吸血鬼公爵</string>
 	<string name="level.boss.vampire.short">爵士</string>
-	<string name="level.boss.thundersnow">SHAFTLOCKE TOWER - 雷雪</string>
-	<string name="level.boss.thundersnow.short">雷雪</string>
+	<string name="level.boss.thundersnow">SHAFTLOCKE TOWER - 雷电冰龙</string>
+	<string name="level.boss.thundersnow.short">雷电冰龙</string>
 	<string name="level.boss.crustworm">阿里达拉 - 巨型蚯蚓</string>
 	<string name="level.boss.crustworm.short">巨型地壳蠕虫</string>
 	<string name="level.boss.iris">低层金字塔 - 最后的女王</string>
@@ -255,7 +255,7 @@
 	<string name="stats.boss-4-killed">杀死监察者</string>
 	<string name="stats.boss-5-killed">杀死雷电冰龙</string>
 	<string name="stats.boss-6-killed">杀死吸血鬼领主</string>
-	<string name="stats.boss-7-killed">杀死Crustworm</string>
+	<string name="stats.boss-7-killed">杀死地壳蠕虫</string>
 	<string name="stats.boss-8-killed">杀死Queen Iris</string>
 	<string name="stats.boss-9-killed">杀死Nerys</string>
 	<string name="stats.aberration-killed">击杀变异生物</string>
@@ -374,7 +374,7 @@
 	<string name="levelend.ready">准备</string>
 	<string name="levelend.ok">继续</string>
 
-	<string name="levelcredits.prompt">%level% by %author%</string>
+	<string name="levelcredits.prompt">%level% 由 %author% 制作</string>
 
 	<string name="meta.info.elsewhere">这要在某处打开...</string>
 	<string name="meta.info.happened">有什么事情发生了...</string>
@@ -1687,7 +1687,7 @@
 	<string name="town.bestiary.spent">用于调整怪物数值的点数.</string>
 	<string name="town.bestiary.respec">重新调整</string>
 	<string name="town.bestiary.respec.tooltip">花费金币重置你所有的调整.你将获得返回的%skillpoints%技能点.</string>
-	<string name="town.bestiary.respec.tooltip.title">Respec</string>
+	<string name="town.bestiary.respec.tooltip.title">重新调整</string>
 	<string name="town.bestiary.respec.prompt">你确定花费%gold%金币来重新调整吗?</string>
 	<string name="town.bestiary.attune">调整</string>
 	<string name="town.bestiary.damage">伤害: %damage%%</string>
@@ -1726,24 +1726,24 @@
 	<string name="shop.statues.assassin.desc-upgrade">每级雕像增加 %upgrade%% 缴械和眩晕伤害.</string>
 	<string name="shop.statues.assassin.lore">Snuck in behind enemy lines and\ngutted pirate Captain Marius, this\nwould eventually stop the siege\nof Castle Hammerwatch.</string>
 
-	<string name="shop.statues.warrior.name">Bolgarth</string>
+	<string name="shop.statues.warrior.name">博尔加斯</string>
 	<string name="shop.statues.warrior.desc">连击中每十次杀敌造成 %build% 魔法伤害\n每级雕像增加 %upgrade% 连击持续时间.</string>
 	<string name="shop.statues.warrior.desc-upgrade">每级雕像增加 %upgrade% 连击持续时间.</string>
-	<string name="shop.statues.warrior.lore">Bolgarth's axe was known\nas the "Crimson Crescents",\nbecause it was always red\nby the blood of his enemies.</string>
+	<string name="shop.statues.warrior.lore">博尔加斯的斧头被称为"赤红弯月"，因为它的敌人血液总是红色的.</string>
 
 	<string name="shop.statues.paladin.name">Calis</string>
 	<string name="shop.statues.paladin.desc">%build%% 概率阻挡远程攻击.\n每级雕像增加s %upgrade%% 护甲于攻击力.</string>
-	<string name="shop.statues.paladin.desc-upgrade">%upgrade%% of your Armor added to Attack Power.</string>
-	<string name="shop.statues.paladin.lore">Raised from childhood to fight\nthe undead and protect the\nliving. Devoted his life to\nserve the people.</string>
+	<string name="shop.statues.paladin.desc-upgrade">你的护甲附加了 +%upgrade%%攻击速度效果.</string>
+	<string name="shop.statues.paladin.lore">他从小便在抵御亡灵和保卫生者.一生致力于为人民服务.</string>
 
 	<string name="shop.statues.priest.name">Cedric</string>
-	<string name="shop.statues.priest.desc">Picking up mana crystals increases your Mana Regen and Resistance by %build%%.\nEach level of the statue adds %upgrade%% of your Resistance to Skill Power.</string>
-	<string name="shop.statues.priest.desc-upgrade">%upgrade%% of your Armor added to Attack Power.</string>
+	<string name="shop.statues.priest.desc">拾取法力水晶会增加%build%%的法力恢复和魔抗.\nEach level of the statue adds %upgrade%% of your Resistance to Skill Power.</string>
+	<string name="shop.statues.priest.desc-upgrade">你的护甲附加了 +%upgrade%%攻击速度效果.</string>
 	<string name="shop.statues.priest.lore">Also known as "The Delayer\nof Death", at the peak of his\ncareer, the cemetery stood\nempty for many years.</string>
 
 	<string name="shop.statues.plague-doctor.name">Ozreth</string>
 	<string name="shop.statues.plague-doctor.desc">%build%% chance of enemies leaving a poison cloud when killed that lasts for %dur% seconds.\nEach level of the statue increases damage done to poisoned enemies by %upgrade%%.</string>
-	<string name="shop.statues.plague-doctor.desc-upgrade">%upgrade%% damage done to poisoned enemies.</string>
+	<string name="shop.statues.plague-doctor.desc-upgrade">怪物受到毒气伤害+%upgrade%%.</string>
 	<string name="shop.statues.plague-doctor.lore">An outcast, master in death\nand decay who payed his debt\nto society by curing Queen\nOlivia at the darkest hour.</string>
 
 	<string name="shop.statues.ranger.name">Kyra</string>
@@ -2374,8 +2374,8 @@
 	<string name="item.adventurers-garb.name">冒险家服饰</string>
 	<string name="item.adventurers-garb.desc">+ %health% 生命上限\n+ %mana% 法力上限.</string>
 
-	<string name="item.apothecarys-flask.name">Apothecary's Flask</string>
-	<string name="item.apothecarys-flask.desc">%num% Potion charges.</string>
+	<string name="item.apothecarys-flask.name">药剂师的烧瓶</string>
+	<string name="item.apothecarys-flask.desc">+%num% 药剂.</string>
 
 	<string name="item.apothecarys-mortar-pestle.name">药剂师的钵杵</string>
 	<string name="item.apothecarys-mortar-pestle.desc">饮用药剂后,护甲和魔法抗性提升 %eff%%,持续 5 秒 .</string>
@@ -2734,7 +2734,7 @@
 	<string name="item.sets.queens-radiance.desc">%curses% 诅咒.</string>
 
 	<string name="item.sets.seals-of-torment.name">磨难印章</string>
-	<string name="item.sets.seals-of-torment.desc">%faster%% faster Skill speed for each % Health missing.</string>
+	<string name="item.sets.seals-of-torment.desc">每损失百分一的生命值增加%faster%%技能释放速度.</string>
 
 
 
@@ -2857,10 +2857,10 @@
 	<string name="drink.frenetic-eruption.desc">%pos%% chance of triggering Combo when scoring Critical Hits.\n%neg%% damage taken when out of Combo.</string>
 
 	<string name="drink.evil-infusion.name">邪恶饮料</string>
-	<string name="drink.evil-infusion.desc">%pos%% Lifesteal on Skills.\nLose %neg%% of your current Health when casting a Skill.</string>
+	<string name="drink.evil-infusion.desc">%pos%% Lifesteal on Skills.在施放技能时减掉目前生命值的%neg%%.</string>
 
 	<string name="drink.perpetual-desire.name">永恒欲望</string>
-	<string name="drink.perpetual-desire.desc">All pickups activate Combo.\n%neg%% Skill cost while out of Combo.</string>
+	<string name="drink.perpetual-desire.desc">拾取物品都触发连杀效果.连杀期间技能法力消耗为%neg%%.</string>
 
 
 
@@ -3269,8 +3269,8 @@
 	<string name="dialogue.player.books.1">这些藏书不是很有印象.</string>
 
 	<string name="dialogue.player.theduke">看起来杜克·德洛尼死得很痛苦.</string>
-	<string name="dialogue.player.combo.1">The pedistal\nlooks empty?</string>
-	<string name="dialogue.player.combo.2">Just a purple\ncombo sphere.</string>
+	<string name="dialogue.player.combo.1">基座看起来空的?</string>
+	<string name="dialogue.player.combo.2">只是一个紫色的连杀宝珠</string>
 
 	<string name="dialogue.player.view">多么美妙的风景!</string>
 	<string name="dialogue.player.quarry">采石场似乎被遗弃了...</string>
@@ -3534,7 +3534,7 @@
 	<string name="guildhall.accomplishments.boss-4">监察者</string>
 	<string name="guildhall.accomplishments.boss-5">雷电冰龙</string>
 	<string name="guildhall.accomplishments.boss-6">吸血鬼领主</string>
-	<string name="guildhall.accomplishments.boss-7">GIANT CRUSTWORM</string>
+	<string name="guildhall.accomplishments.boss-7">巨型地壳蠕虫</string>
 	<string name="guildhall.accomplishments.boss-8">QUEEN IRIS</string>
 	<string name="guildhall.accomplishments.boss-9">NERYS</string>
 
