@@ -142,13 +142,13 @@
 	<string name="level.boss.iris">低层金字塔 - 最后的女王</string>
 	<string name="level.boss.iris.short">女王爱丽丝</string>
 	<string name="level.boss.nerys">高层金字塔 - 神灯精灵</string>
-	<string name="level.boss.nerys.short">NERYS</string>
+	<string name="level.boss.nerys.short">神灯精灵</string>
 
 	<string name="level.hellcube">英雄之路</string>
 	<string name="level.hellcube.short">地狱之门</string>
 	<string name="level.pyramid_midway">高层金字塔 - 中层</string>
 	<string name="level.pyramid_midway.short">中层</string>
-	<string name="level.plane_of_magic">魔法平原</string>
+	<string name="level.plane_of_magic">魔法平原 - 外面</string>
 	<string name="level.plane_of_magic.short">外面</string>
 
 	<!-- game over -->
@@ -258,8 +258,8 @@
 	<string name="stats.boss-5-killed">杀死雷电冰龙</string>
 	<string name="stats.boss-6-killed">杀死吸血鬼领主</string>
 	<string name="stats.boss-7-killed">杀死地壳蠕虫</string>
-	<string name="stats.boss-8-killed">杀死Queen Iris</string>
-	<string name="stats.boss-9-killed">杀死Nerys</string>
+	<string name="stats.boss-8-killed">杀死艾丽丝女王</string>
+	<string name="stats.boss-9-killed">杀死神灯精灵</string>
 	<string name="stats.aberration-killed">击杀变异生物</string>
 	<string name="stats.beast-killed">击杀野兽</string>
 	<string name="stats.construct-killed">破坏建筑物</string>
@@ -345,13 +345,13 @@
 
 	<!-- intro pop -->
 	<string name="intro.pop.title">石城</string>
-	<string name="intro.pop.text">The City of Stone, just below The Outlook. These days a transit town for people traveling to the Arena far out in Aridara, once a larger city with an abundant quarry which is now empty and abandoned.\n\nOther than the Arena, a new magnet for luck seekers arisened. As the Giant Crustworms have started to come up from the depths, the sand has shifted and revealed what is believed to be the tip of the old burial site of Iris, the legendary Pyramid of Prophecy. Perhaps it is worth investigating. A royal burial site probably contains many riches that would favor the guild.</string>
+	<string name="intro.pop.text">石城就在远望城之下.如今是前往阿里达拉竞技场的必经之地.曾经是一个矿石资源丰富的大城市，如今已空无一人.但是除了竞技场之外,还有一个新的吸引人的事情- "求运".当地壳蠕虫从深处爬升时,沙子慢慢显露出传说中的预言金字塔-伊丽丝坟墓 的顶部.也许值得去探究一番.皇家墓地可是有着大量充实公会的财富.</string>
 
 	<!-- end of game -->
 	<string name="endofgame.town">继续</string>
 	<string name="endofgame.title">结束</string>
 	<string name="endofgame.text">你成功抵达了遗忘之塔的塔顶,并且击杀了雷电冰龙————那头突然从西方降临,占据此地的青蓝巨龙.  现在,遗忘之塔已经从巨龙的控制中解脱,这一带居民的生活也将回到正轨.</string>
-	<string name="endofgame.pop.text">A long time ago, when the Storm of Lifetimes was at its peak, Nerys and Nimbus crossed over from the Magic Planes. Nerys swallowed Nimbus and started to grant his own evil wishes, but he was eventually lured into an oil lamp by an old waning magician and hidden at the top of the pyramid. Over the years the pyramid would sink deeper and deeper into the desert until it was more or less forgotten.\n\nBy rubbing the lamp, you released the weakened Nerys and by slaying him you freed Nimbus. Nimbus will now be in your debt for all eternity. You can call upon him by drinking your potion.</string>
+	<string name="endofgame.pop.text">很久之前，当生命风暴达到鼎盛时,灯神和灵气在魔法平原相遇,灯神吞噬了灵气,并开始了自己邪恶的愿望.但最终被一位年迈的魔法师引诱到一盏油灯之中,封藏在金字塔的顶层.经过很多年,金字塔慢慢地沉埋在沙漠之中,直到被世人渐渐遗忘.通过擦拭神灯.你释放了虚弱的灯神,并杀死灯神释放出灵气.现在灵气将永远欠你一个人情.你可以喝下魔药召唤它.</string>
 
 	<string name="misc.yes">确认</string>
 	<string name="misc.no">取消</string>
@@ -3035,17 +3035,17 @@
 
 	<!-- NPC Man3 Desert -->
 
-	<string name="dialogue.town.npc.generic.man3.1Ra">Danger lurks\namong the dunes.</string>
-	<string name="dialogue.town.npc.generic.man3.1Rb">Scorpions and\nvenomous\nsnakes roam\nthe desert.</string>
-	<string name="dialogue.town.npc.generic.man3.1Rc">Don't get lost out\nthere - the desert\nwill eat you alive.</string>
-	<string name="dialogue.town.npc.generic.man3.1Rd">Some parts of the\ndesert see a lot\nof dust devils\nthis time a year.</string>
-	<string name="dialogue.town.npc.generic.man3.1Re">The desert is actually\npretty well charted.\nGetting one of the\nmaps will make your\ntraveling much safer.</string>
+	<string name="dialogue.town.npc.generic.man3.1Ra">潜伏在沙丘下的危险.</string>
+	<string name="dialogue.town.npc.generic.man3.1Rb">沙漠中有很多蝎子和毒蛇徘徊.</string>
+	<string name="dialogue.town.npc.generic.man3.1Rc">不要迷路了-沙漠可会吃了你的.</string>
+	<string name="dialogue.town.npc.generic.man3.1Rd">沙漠中的一些地方每年都会看到很多“尘埃鬼”.</string>
+	<string name="dialogue.town.npc.generic.man3.1Re">沙漠地图实际上已经绘制得很完善了.获的其中一张地图将使您的旅行更加安全.</string>
 
 	<!-- NPC Man4 Quarry -->
 
-	<string name="dialogue.town.npc.generic.man4.1Ra">Not much of a\ncity anymore,\nbut it once was.</string>
-	<string name="dialogue.town.npc.generic.man4.1Rb">When the quarry was\nactive, this little camp\nwas actually a fairly\nlarge city.</string>
-	<string name="dialogue.town.npc.generic.man4.1Rc">I know some geologist\nfound more ore down\nsouth, but it's gonna\nbe years before people\nreturn to mine here.</string>
+	<string name="dialogue.town.npc.generic.man4.1Ra">这里有一座城镇,至少曾经是.</string>
+	<string name="dialogue.town.npc.generic.man4.1Rb">在采石场热闹的时候,这个小营地实际上是一个相当大的城镇.</string>
+	<string name="dialogue.town.npc.generic.man4.1Rc">我知道有些地质学家在南方找到了更多的矿石,但人们在这里返回我的矿井还需要几年的时间.</string>
 
 	<!-- NPC Woman2 Census -->
 
@@ -3063,25 +3063,25 @@
 
 	<!-- NPC Woman3 Desert -->
 
-	<string name="dialogue.town.npc.generic.woman3.1Ra">Some distance out in the\ndesert, close to the pyramid,\nthat's where the crustworms\nhave been most active.</string>
-	<string name="dialogue.town.npc.generic.woman3.1Rb">Many opportunists have fallen\ntrying to find an entrance to\nthe now exposed pyramid.</string>
-	<string name="dialogue.town.npc.generic.woman3.1Rc">It is said the last queen\nof the desert people, Iris,\nwas shamelessly buried in\nthe lower parts of the pyramid.</string>
-	<string name="dialogue.town.npc.generic.woman3.1Rd">To reach the upper\nparts of the pyramid,\none needs to get past\nThe Chamber of the Asp.</string>
+	<string name="dialogue.town.npc.generic.woman3.1Ra">在靠近金字塔一段距离的沙漠,是地壳蠕虫的活动范围.</string>
+	<string name="dialogue.town.npc.generic.woman3.1Rb">许多有投机者试图找到现在已暴露的金字塔的入口.</string>
+	<string name="dialogue.town.npc.generic.woman3.1Rc">据说沙漠居民的最后一位女王伊丽丝被无礼地埋葬在金字塔的下层.</string>
+	<string name="dialogue.town.npc.generic.woman3.1Rd">要到达金字塔的上层,需要经过沙漠眼镜蛇会议室.</string>
 
 	<!-- NPC Pali -->
 
-	<string name="dialogue.town.npc.generic.pali.name">异客</string>
-	<string name="dialogue.town.npc.generic.pali.1a">Like the great djinns and the\nnot so smart elementals... (1)</string>
-	<string name="dialogue.town.npc.generic.pali.1b">...Palis, like myself, could also be\ndragged into the rift and forced\ninto your world - for us it's a\nblessing, for them a bane. (2)</string>
-	<string name="dialogue.town.npc.generic.pali.1c">In our world we are slaves\nunder the djinns and watched\nover by the elementals...(3)</string>
-	<string name="dialogue.town.npc.generic.pali.1d">...We are experts in curing\ndiseases and ailments and\nlove to help out where we can. (4)</string>
-	<string name="dialogue.town.npc.generic.pali.1e">Here in your world we hide in\ndeep meditation, the side effect\nhowever, is that if the sleep is\ndisturbed...(5)</string>
-	<string name="dialogue.town.npc.generic.pali.1f">...so much energy is\nreleased that we might get\nsucked back into the rift which\nusually means something else\ngets thrown out. (6)</string>
+	<string name="dialogue.town.npc.generic.pali.name">外来异客</string>
+	<string name="dialogue.town.npc.generic.pali.1a">就像伟大的灯神和愚钝的元素们... (1)</string>
+	<string name="dialogue.town.npc.generic.pali.1b">...就像我一样,帕利斯也可能被拖入裂缝并被迫进入你的世界 - 对我们来说这是一种祝福,对他们来说是一种祸害. (2)</string>
+	<string name="dialogue.town.npc.generic.pali.1c">在我们的世界里,我们是灯神的奴隶,并且被元素们看管着...(3)</string>
+	<string name="dialogue.town.npc.generic.pali.1d">...我们是治疗疾病和驱除诅咒的专家,并尽我们所能的帮助他人. (4)</string>
+	<string name="dialogue.town.npc.generic.pali.1e">在你的世界里,我们隐藏在深沉的冥想之中,然而副作用是,如果沉睡受到干扰...(5)</string>
+	<string name="dialogue.town.npc.generic.pali.1f">...如此多的能量释放出来,我们可能会被吸回到裂缝中,这通常意味着某些东西会被释放出来. (6)</string>
 
 	<!-- NPC Woman2 Census -->
 
-	<string name="dialogue.town.npc.generic.woman2.name">异常的旧背包</string>
-	<string name="dialogue.town.npc.generic.woman2.1a">Hi! I know everyone\naround these parts and\nthen some more.(1)</string>
+	<string name="dialogue.town.npc.generic.woman2.name">奇怪的背包客</string>
+	<string name="dialogue.town.npc.generic.woman2.1a">嘿! 我认识这附近所有的人还有一些其他的事情.(1)</string>
 	<string name="dialogue.town.npc.generic.guard.1a">如果你进去了,你就没有回头路了.</string>
 	<string name="dialogue.town.npc.generic.guard.1b">这个入口将会被永远封死.</string>
 
@@ -3145,14 +3145,14 @@
 	<string name="dialogue.town.npc.shopkeep.1Ra">嘿,我叫达伦埃普斯.交易价格就是取决于需求和供应的浮动,现在我的商品供不应求,你最好给我个“理想的”报价.</string>
 
 	<!-- Oba the Trader -->
-	<string name="dialogue.town.npc.shopkeep.desert.name">Oba, the Trader</string>
-	<string name="dialogue.town.npc.shopkeep.desert.1Ra">What a pleasant surprise!\nFeel free to browse around\nmy wares. Perhaps there's\nsomething you'd like to buy?</string>
+	<string name="dialogue.town.npc.shopkeep.desert.name">交易员 奥巴</string>
+	<string name="dialogue.town.npc.shopkeep.desert.1Ra">真是意外!随便看看.也许你有什么想买的东西?</string>
 
 	<!-- Mr Bookman -->
-	<string name="dialogue.town.npc.mrbookman.name">Henry</string>
-	<string name="dialogue.town.npc.mrbookman.1Ra">I usually send my books to\nthe library of the Sun Temple.</string>
-	<string name="dialogue.town.npc.mrbookman.1Rb">All these storms have made it\nimpossible for me to send\naway my books for others to enjoy.</string>
-	<string name="dialogue.town.npc.mrbookman.1Rc">Seems Finn is the only one that dares\nto take people out with his wagon.\nCrazy with all these dust devils around.</string>
+	<string name="dialogue.town.npc.mrbookman.name">亨利</string>
+	<string name="dialogue.town.npc.mrbookman.1Ra">我经常把书送到太阳神殿的图书馆.</string>
+	<string name="dialogue.town.npc.mrbookman.1Rb">周围这些沙尘暴使我无法将我的书送给别人阅读</string>
+	<string name="dialogue.town.npc.mrbookman.1Rc">似乎芬恩是唯一一个敢带着他的马车走出去的人.周围沙漠之中充满着妖魔鬼怪.</string>
 
 	<string name="dialogue.town.npc.townhall.guard1a">行政长官会帮你分配你所获得的矿石.</string>
 
@@ -3192,22 +3192,22 @@
 
 	<!-- Beastmaster -->
 	<string name="dialogue.town.npc.beastmaster.name">兽王 巴尔扎尔</string>
-	<string name="dialogue.town.npc.beastmaster.1Ra">I left my big Book of Monsters\nin the Tower Archives, it contains \nvery valuable information about \nthe dangerous fauna around here.</string>
+	<string name="dialogue.town.npc.beastmaster.1Ra">我把我的怪物大图鉴留在了塔的档案室,里面有关于这里的邪恶怪物的非常有价值的信息.</string>
 
 	<!-- Arena Wagon NPC -->
 	<string name="dialogue.town.npc.wagon.name">芬恩</string>
-	<string name="dialogue.town.npc.wagon.1Ra">I'll gladly take any hero past\nthe desert to The Arena.\nJust hop on the wagon!</string>
+	<string name="dialogue.town.npc.wagon.1Ra">我很乐意带任何英雄穿越沙漠前往竞技场. 快上车!</string>
 
 	<!-- Arena Gladiator NPC -->
 	<string name="dialogue.town.npc.gladiator.name">角斗士 马吕斯</string>
-	<string name="dialogue.town.npc.gladiator.1Ra">I'll train anyone who\nmade a name for\nthemselves in The\nArena and have the\ntokens to prove just that.</string>
+	<string name="dialogue.town.npc.gladiator.1Ra">我将训练能在竞技场留下名字的人,并有剑币证明这一点.</string>
 
 	<!-- Richard Hammer -->
 	<string name="dialogue.town.npc.tapster.name">酒保理查德</string>
-	<string name="dialogue.town.npc.tapster.1Ra">Hey, if you find more of those barrels\nin the tower I will make you a special drink.\nFor a good price of course...\n</string>
+	<string name="dialogue.town.npc.tapster.1Ra">嘿,如果你在塔里找到更多的酒桶,我会给你一个特别的饮料,当然价格也很合理......\n</string>
 
 	<!-- Book - Ancient History -->
-	<string name="dialogue.town.book.ancienthistory.name">Ancient History v. III</string>
+	<string name="dialogue.town.book.ancienthistory.name">古代历史 v. III</string>
 	<string name="dialogue.town.book.ancienthistory.1a">Page 3\n...cheered by the people\nand praised by the nobles... (1)</string>
 	<string name="dialogue.town.book.ancienthistory.1b">Page 15\n...laws that restricted\nand controlled people's\nevery move were soon\nquickly passed... (2)</string>
 	<string name="dialogue.town.book.ancienthistory.1c">Page 40\n...forced snakes\ndown their throats... (3)</string>
