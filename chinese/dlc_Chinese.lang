@@ -3382,12 +3382,12 @@
 	<string name="titles.wizard-7">战魔导师</string>
 	<string name="titles.wizard-8">大魔导师</string>
 
-	<string name="titles.gladiator-3">Scrapper</string>
-	<string name="titles.gladiator-4">Pit Fighter</string>
-	<string name="titles.gladiator-5">Challenger</string>
-	<string name="titles.gladiator-6">Defeater</string>
-	<string name="titles.gladiator-7">Hero</string>
-	<string name="titles.gladiator-8">Idol</string>
+	<string name="titles.gladiator-3">拳击手</string>
+	<string name="titles.gladiator-4">斗士</string>
+	<string name="titles.gladiator-5">挑战者</string>
+	<string name="titles.gladiator-6">战胜者</string>
+	<string name="titles.gladiator-7">英雄</string>
+	<string name="titles.gladiator-8">偶像</string>
 
 	<!-- bestiary -->
 	<string name="bestiary.type.beast">野兽生物</string>
@@ -3484,38 +3484,38 @@
 
 
 	<string name="bestiary.name.bosses.sandworm">巨型地壳蠕虫</string>
-	<string name="bestiary.name.bosses.mummy">Queen Iris</string>
-	<string name="bestiary.name.bosses.djinn">Nerys</string>
+	<string name="bestiary.name.bosses.mummy">伊丽丝女王</string>
+	<string name="bestiary.name.bosses.djinn">灯神</string>
 	<string name="bestiary.name.spawner_mummy_1">棺材</string>
 	<string name="bestiary.name.spawner_mummy_1_ranged">棺材堆</string>
 	<string name="bestiary.name.spawner_mummy_2">棺材</string>
 	<string name="bestiary.name.spawner_mummy_2_ranged">棺材堆</string>
 	<string name="bestiary.name.spawner_spider">蜘蛛巢</string>
-	<string name="bestiary.name.djinn_ranged">Sphere Djinn</string>
-	<string name="bestiary.name.djinn_melee">Wave Djinn</string>
+	<string name="bestiary.name.djinn_ranged">灯神领域</string>
+	<string name="bestiary.name.djinn_melee">灯神光波</string>
 	<string name="bestiary.name.elemental_sand">沙元素</string>
-	<string name="bestiary.name.golem_sand">沙潜龙</string>
+	<string name="bestiary.name.golem_sand">潜沙傀儡</string>
 	<string name="bestiary.name.high_priest_blue">冰祭司</string>
 	<string name="bestiary.name.high_priest_green">魔法牧师</string>
 	<string name="bestiary.name.high_priest_red">火祭司</string>
 	<string name="bestiary.name.mummy_1">木乃伊</string>
 	<string name="bestiary.name.mummy_2">木乃伊</string>
-	<string name="bestiary.name.mummy_ranged_1">镰状剑 木乃伊</string>
-	<string name="bestiary.name.mummy_ranged_2">镰状剑 木乃伊</string>
+	<string name="bestiary.name.mummy_ranged_1">弯刀木乃伊</string>
+	<string name="bestiary.name.mummy_ranged_2">弯刀木乃伊</string>
 	<string name="bestiary.name.mummy_1_mb">大型木乃伊</string>
 	<string name="bestiary.name.scarab">圣甲虫</string>
 	<string name="bestiary.name.scarab_small">小圣甲虫</string>
 	<string name="bestiary.name.scorpion_1">蝎子</string>
 	<string name="bestiary.name.scorpion_1_elite">精英蝎子</string>
-	<string name="bestiary.name.scorpion_1_mb">蝎子 MB</string>
-	<string name="bestiary.name.sentinel_mb">蝎子 MB</string>
+	<string name="bestiary.name.scorpion_1_mb">蝎子头目</string>
+	<string name="bestiary.name.sentinel_mb">守卫头目</string>
 	<string name="bestiary.name.sentinel_melee">近战守卫</string>
 	<string name="bestiary.name.sentinel_ranged">远程守卫</string>
 	<string name="bestiary.name.snake_1">曼巴蛇</string>
 	<string name="bestiary.name.snake_2">蝰蛇</string>
-	<string name="bestiary.name.snake_3">盾鼻蛇</string>
+	<string name="bestiary.name.snake_3">眼睛蛇</string>
 	<string name="bestiary.name.spider_1">酸液蜘蛛</string>
-	<string name="bestiary.name.spider_2">Webber</string>
+	<string name="bestiary.name.spider_2">结网蜘蛛</string>
 	<string name="bestiary.name.tower_pyramid_laser">太阳棱镜</string>
 	<string name="bestiary.name.tower_pyramid_rock">岩石棱镜</string>
 
@@ -3537,8 +3537,8 @@
 	<string name="guildhall.accomplishments.boss-5">雷电冰龙</string>
 	<string name="guildhall.accomplishments.boss-6">吸血鬼领主</string>
 	<string name="guildhall.accomplishments.boss-7">巨型地壳蠕虫</string>
-	<string name="guildhall.accomplishments.boss-8">QUEEN IRIS</string>
-	<string name="guildhall.accomplishments.boss-9">NERYS</string>
+	<string name="guildhall.accomplishments.boss-8">伊丽丝女王</string>
+	<string name="guildhall.accomplishments.boss-9">神灯</string>
 
 	<string name="accomplishment.boss-1-killed-class.name">希望赋予者 %lvl%</string>
 	<string name="accomplishment.boss-1-killed-class.desc">以%requirement%个不同职业杀死岩石守卫.</string>
@@ -3562,10 +3562,10 @@
 	<string name="accomplishment.boss-7-killed-class.desc">以%requirement%个不同职业杀死巨型地壳蠕虫.</string>
 
 	<string name="accomplishment.boss-8-killed-class.name">睡美人 %lvl%</string>
-	<string name="accomplishment.boss-8-killed-class.desc">以%requirement%个不同职业杀死Queen Iris.</string>
+	<string name="accomplishment.boss-8-killed-class.desc">以%requirement%个不同职业杀死伊丽丝女王.</string>
 
 	<string name="accomplishment.boss-9-killed-class.name">神灯诱惑 %lvl%</string>
-	<string name="accomplishment.boss-9-killed-class.desc">以%requirement%个不同职业杀死Nerys.</string>
+	<string name="accomplishment.boss-9-killed-class.desc">以%requirement%个不同职业杀死神灯.</string>
 
 	<string name="accomplishment.aberration-killed.name">驱魔师 %lvl%</string>
 	<string name="accomplishment.aberration-killed.desc">击杀%requirement% 变异生物.</string>
@@ -3862,29 +3862,29 @@
 	<string name="materials.color.darkside">暗色</string>
 	<string name="materials.color.bumblebee">大黄蜂</string>
 	<string name="materials.color.glacier">冰川</string>
-	<string name="materials.color.byzantine">Byzantine</string>
-	<string name="materials.color.mossy">Mossy</string>
-	<string name="materials.color.flame">Flame</string>
-	<string name="materials.color.prism">Prism</string>
-	<string name="materials.color.phantom">Phantom</string>
-	<string name="materials.color.sand">Sand</string>
-	<string name="materials.color.leathered">Leathered</string>
-	<string name="materials.color.elven">Elven</string>
-	<string name="materials.color.metallic">Metallic</string>
-	<string name="materials.color.solaire">Solaire</string>
-	<string name="materials.color.banshee">Banshee</string>
-	<string name="materials.color.jungle">Jungle</string>
-	<string name="materials.color.coagulation">Coagulation</string>
-	<string name="materials.color.darkness">Darkness</string>
-	<string name="materials.color.bright">Bright</string>
-	<string name="materials.color.resurrected">Resurrected</string>
-	<string name="materials.color.desert">Desert</string>
-	<string name="materials.color.liana">Liana</string>
-	<string name="materials.color.gore">Gore</string>
-	<string name="materials.color.ghost">Ghost</string>
-	<string name="materials.color.mahogany">Mahogany</string>
-	<string name="materials.color.rivulet">Rivulet</string>
-	<string name="materials.color.spectre">Spectre</string>
+	<string name="materials.color.byzantine">拜占庭</string>
+	<string name="materials.color.mossy">生苔</string>
+	<string name="materials.color.flame">火红</string>
+	<string name="materials.color.prism">棱镜</string>
+	<string name="materials.color.phantom">幻影</string>
+	<string name="materials.color.sand">沙色</string>
+	<string name="materials.color.leathered">皮革</string>
+	<string name="materials.color.elven">精灵</string>
+	<string name="materials.color.metallic">金属</string>
+	<string name="materials.color.solaire">太阳</string>
+	<string name="materials.color.banshee">女妖</string>
+	<string name="materials.color.jungle">丛林</string>
+	<string name="materials.color.coagulation">冰</string>
+	<string name="materials.color.darkness">黑暗</string>
+	<string name="materials.color.bright">亮光</string>
+	<string name="materials.color.resurrected">重生</string>
+	<string name="materials.color.desert">沙漠</string>
+	<string name="materials.color.liana">藤蔓</string>
+	<string name="materials.color.gore">血块</string>
+	<string name="materials.color.ghost">灵魂</string>
+	<string name="materials.color.mahogany">红褐色</string>
+	<string name="materials.color.rivulet">溪流</string>
+	<string name="materials.color.spectre">幽灵</string>
 
 
 	<!-- colors -->
