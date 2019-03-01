@@ -130,26 +130,26 @@
 	<string name="level.boss.warden">监狱城 - 监狱守卫</string>
 	<string name="level.boss.warden.short">监狱守卫</string>
 	<string name="level.boss.wraith">兵器塔 - 三大巫妖</string>
-	<string name="level.boss.wraith.short">三巫妖</string>
+	<string name="level.boss.wraith.short">三大巫妖</string>
 	<string name="level.boss.eye">档案塔 - 眼球怪</string>
 	<string name="level.boss.eye.short">监察者</string>
 	<string name="level.boss.vampire">议会塔 - 吸血鬼公爵</string>
-	<string name="level.boss.vampire.short">爵士</string>
+	<string name="level.boss.vampire.short">公爵</string>
 	<string name="level.boss.thundersnow">SHAFTLOCKE TOWER - 雷电冰龙</string>
 	<string name="level.boss.thundersnow.short">雷电冰龙</string>
-	<string name="level.boss.crustworm">阿里达拉 - 巨型蚯蚓</string>
+	<string name="level.boss.crustworm">阿里达拉 - 巨型蠕虫</string>
 	<string name="level.boss.crustworm.short">巨型地壳蠕虫</string>
 	<string name="level.boss.iris">低层金字塔 - 最后的女王</string>
-	<string name="level.boss.iris.short">女王爱丽丝</string>
-	<string name="level.boss.nerys">高层金字塔 - 神灯精灵</string>
-	<string name="level.boss.nerys.short">神灯精灵</string>
+	<string name="level.boss.iris.short">女王伊丽丝</string>
+	<string name="level.boss.nerys">高层金字塔 - 灯神</string>
+	<string name="level.boss.nerys.short">灯神</string>
 
 	<string name="level.hellcube">英雄之路</string>
 	<string name="level.hellcube.short">地狱之门</string>
 	<string name="level.pyramid_midway">高层金字塔 - 中层</string>
 	<string name="level.pyramid_midway.short">中层</string>
-	<string name="level.plane_of_magic">魔法平原 - 外面</string>
-	<string name="level.plane_of_magic.short">外面</string>
+	<string name="level.plane_of_magic">魔法平原 - 外围</string>
+	<string name="level.plane_of_magic.short">外围</string>
 
 	<!-- game over -->
 	<string name="gameover.youdied">你死了</string>
@@ -1713,44 +1713,44 @@
 
 
 	<string name="shop.statues.ice-mage.name">埃尔任</string>
-	<string name="shop.statues.ice-mage.desc">普通攻击有 %build%% 冻结敌人.\n每级雕像增加 %upgrade%% 冻结伤害.</string>
-	<string name="shop.statues.ice-mage.desc-upgrade">造成 %upgrade%% 冻结伤害.</string>
+	<string name="shop.statues.ice-mage.desc">普通攻击有 %build%% 冻结敌人.\n雕塑建筑每提升一级就增加 %upgrade%% 冻结伤害.</string>
+	<string name="shop.statues.ice-mage.desc-upgrade">+%upgrade%% 冻结伤害.</string>
 	<string name="shop.statues.ice-mage.lore">在那个夏天的夜里\n她冻结了整个威廉姆斯湖\n让国王可以安全的穿过.</string>
 
 	<string name="shop.statues.fire-mage.name">沃麦尔</string>
-	<string name="shop.statues.fire-mage.desc">%build%% 技能加速.\n每级雕像增加 %upgrade%% 技能消耗于提高技能伤害.</string>
-	<string name="shop.statues.fire-mage.desc-upgrade">增加 %upgrade%% 技能消耗并提高技能伤害.</string>
+	<string name="shop.statues.fire-mage.desc">%build%% 技能加速.\n雕塑建筑每提升一级就降低 %upgrade%% 技能消耗.</string>
+	<string name="shop.statues.fire-mage.desc-upgrade">降低 %upgrade%% 技能消耗.</string>
 	<string name="shop.statues.fire-mage.lore">他层用自己的最后一口气\n燃烧了地牢\n肃清了黑堎\n和追随之地.</string>
 
 	<string name="shop.statues.assassin.name">法拉罗斯</string>
-	<string name="shop.statues.assassin.desc">闪避后降低敌人的 %build%% 血量.\n每级雕像增加 %upgrade%% 缴械和眩晕伤害.</string>
-	<string name="shop.statues.assassin.desc-upgrade">每级雕像增加 %upgrade%% 缴械和眩晕伤害.</string>
-	<string name="shop.statues.assassin.lore">Snuck in behind enemy lines and\ngutted pirate Captain Marius, this\nwould eventually stop the siege\nof Castle Hammerwatch.</string>
+	<string name="shop.statues.assassin.desc">闪避后降低敌人的 %build%% 血量.\n雕塑建筑每提升一级就增加 %upgrade%% 缴械和眩晕伤害.</string>
+	<string name="shop.statues.assassin.desc-upgrade">+%upgrade%% 缴械和眩晕伤害.</string>
+	<string name="shop.statues.assassin.lore">潜入敌后、斩除海盗船长马里乌斯,这将会一劳永逸地停止对铁锤城堡的围攻.</string>
 
 	<string name="shop.statues.warrior.name">博尔加斯</string>
-	<string name="shop.statues.warrior.desc">连击中每十次杀敌造成 %build% 魔法伤害\n每级雕像增加 %upgrade% 连击持续时间.</string>
-	<string name="shop.statues.warrior.desc-upgrade">每级雕像增加 %upgrade% 连击持续时间.</string>
+	<string name="shop.statues.warrior.desc">每十次连续杀敌会造成 %build% 魔法伤害.\n雕塑建筑每提升一级就增加 %upgrade% 连击持续时间.</string>
+	<string name="shop.statues.warrior.desc-upgrade">+%upgrade% 连击持续时间.</string>
 	<string name="shop.statues.warrior.lore">博尔加斯的斧头被称为"赤红弯月"，因为它的敌人血液总是红色的.</string>
 
-	<string name="shop.statues.paladin.name">Calis</string>
-	<string name="shop.statues.paladin.desc">%build%% 概率阻挡远程攻击.\n每级雕像增加s %upgrade%% 护甲于攻击力.</string>
-	<string name="shop.statues.paladin.desc-upgrade">你的护甲附加了 +%upgrade%%攻击速度效果.</string>
+	<string name="shop.statues.paladin.name">卡利斯</string>
+	<string name="shop.statues.paladin.desc">%build%% 概率阻挡远程攻击.\n雕塑建筑每提升一级就增加 %upgrade%% 护甲.</string>
+	<string name="shop.statues.paladin.desc-upgrade">+%upgrade%%护甲.</string>
 	<string name="shop.statues.paladin.lore">他从小便在抵御亡灵和保卫生者.一生致力于为人民服务.</string>
 
-	<string name="shop.statues.priest.name">Cedric</string>
-	<string name="shop.statues.priest.desc">拾取法力水晶会增加%build%%的法力恢复和魔抗.\nEach level of the statue adds %upgrade%% of your Resistance to Skill Power.</string>
-	<string name="shop.statues.priest.desc-upgrade">你的护甲附加了 +%upgrade%%攻击速度效果.</string>
-	<string name="shop.statues.priest.lore">Also known as "The Delayer\nof Death", at the peak of his\ncareer, the cemetery stood\nempty for many years.</string>
+	<string name="shop.statues.priest.name">塞德里克</string>
+	<string name="shop.statues.priest.desc">拾取法力水晶会增加%build%%的法力恢复和魔抗.\n雕塑建筑每提升一级就增加 %upgrade%%魔抗.</string>
+	<string name="shop.statues.priest.desc-upgrade">+%upgrade%%魔抗.</string>
+	<string name="shop.statues.priest.lore">在巅峰时期被称为"死亡禁制",让墓地空置了多年.</string>
 
-	<string name="shop.statues.plague-doctor.name">Ozreth</string>
-	<string name="shop.statues.plague-doctor.desc">%build%% chance of enemies leaving a poison cloud when killed that lasts for %dur% seconds.\nEach level of the statue increases damage done to poisoned enemies by %upgrade%%.</string>
+	<string name="shop.statues.plague-doctor.name">奥泽斯</string>
+	<string name="shop.statues.plague-doctor.desc">怪物死后有%build%%几率产生%dur%秒的毒气.\n雕塑建筑每提升一级就增加%upgrade毒气基础伤害.</string>
 	<string name="shop.statues.plague-doctor.desc-upgrade">怪物受到毒气伤害+%upgrade%%.</string>
-	<string name="shop.statues.plague-doctor.lore">An outcast, master in death\nand decay who payed his debt\nto society by curing Queen\nOlivia at the darkest hour.</string>
+	<string name="shop.statues.plague-doctor.lore">一个被放逐的人.掌握死亡与衰败.他通过治愈欧利维亚女王来偿还他对于这个城镇的债孽.</string>
 
-	<string name="shop.statues.ranger.name">Kyra</string>
-	<string name="shop.statues.ranger.desc">%build%% faster Primary Attack with a %chance%% chance to fire 2 arrows dealing %damage% Physical damage.\nEach level of the statue increases the base damage of the arrows by %upgrade%.</string>
-	<string name="shop.statues.ranger.desc-upgrade">Increases the base damage of the arrows by %upgrade%.</string>
-	<string name="shop.statues.ranger.lore">She who named her bow\nThe One String Harp, cause\nwhen it was plucked, her\nenemies would sing in agony.</string>
+	<string name="shop.statues.ranger.name">凯拉</string>
+	<string name="shop.statues.ranger.desc">+%build%%普通攻击并有%chance%%机会发射两支箭矢造成%damage%物理伤害.每升一级雕像建筑,箭矢基础伤害增加%upgrade%.</string>
+	<string name="shop.statues.ranger.desc-upgrade">箭矢的基础伤害增加%upgrade%.</string>
+	<string name="shop.statues.ranger.lore">她将她的弓命名为"竖琴",因为当它拔弦时,她的敌人会痛苦地"歌唱".</string>
 
 	<!-- retired gladiator -->
 	<string name="retiredgladiator.title">退役角斗士</string>
@@ -1766,7 +1766,7 @@
 
 	<!-- arena -->
 	<string name="town.coliseum.title">阿里达拉 竞技场</string>
-	<string name="town.coliseum.description">The Arena far out in Aridara, where people go for two reasons. The glory of winning in combat, or the excitement of watching others fight for their lives.\n\n(You are fighting for the crowds amusement and will be rewarded with sword tokens and other riches based on their happiness.)</string>
+	<string name="town.coliseum.description">在阿里达拉远郊的竞技场,人们因为两种原因来到这里.在战斗中获胜的荣耀,或是观赏角斗士为生存而战的刺激.\n\n(你在为了满足大众的娱乐而战.基于观众的满足程度,你会获得剑形代币以及一些其他的物品作为奖励.)</string>
 	<string name="town.coliseum.rank">等级</string>
 	<string name="town.coliseum.progress">进度</string>
 	<string name="town.coliseum.progress.tooltip">获得5个剑币 \n等级提升.</string>
