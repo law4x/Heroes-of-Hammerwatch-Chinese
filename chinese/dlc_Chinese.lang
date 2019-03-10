@@ -102,7 +102,7 @@
 
 	<string name="charinfo.ngp">遗忘之塔: NG+%ngp%</string>
 	<string name="charinfo.ngp.desert">预言金字塔: NG+%ngp%</string>
-	<string name="charinfo.arena.rank">阿里达拉 竞技场: %rank%级</string>
+	<string name="charinfo.arena.rank">阿里达拉 竞技场: %rank% 段位</string>
 
 	<!-- acts -->
 	<string name="world.town">远望镇</string>
@@ -352,7 +352,7 @@
 	<string name="endofgame.title">结束</string>
 	<string name="endofgame.text">你成功抵达了遗忘之塔的塔顶,并且击杀了雷电冰龙————那头突然从西方降临,占据此地的青蓝巨龙.  现在,遗忘之塔已经从巨龙的控制中解脱,这一带居民的生活也将回到正轨.</string>
 
-	<string name="endofgame.pop.text">很久之前，当生命风暴达到鼎盛时,灯神和灵气在魔法位面相遇,灯神吞噬了灵气,并开始酝酿自己邪恶的愿望.但最终被一位年迈的魔法师引诱到一盏油灯之中,封藏在金字塔的顶层.多年以后,金字塔逐渐沉埋在沙漠之中,直到被世人渐渐遗忘.你擦了擦神灯解放了灯神,你杀死了灯神,使他释放出了灵气.现在灵气将永远欠你一个人情.你可以喝下魔药召唤它.</string>
+	<string name="endofgame.pop.text">很久之前，当生命风暴达到鼎盛时,灯神和神灵在魔法位面相遇,灯神吞噬了神灵,并开始酝酿自己邪恶的愿望.但最终被一位年迈的魔法师引诱到一盏油灯之中,封藏在金字塔的顶层.多年以后,金字塔逐渐沉埋在沙漠之中,直到被世人渐渐遗忘.你擦了擦神灯解放了灯神,你杀死了灯神,使他释放出了神灵.现在神灵将永远欠你一个人情.你可以喝下魔药召唤它.</string>
 
 	<string name="misc.yes">确认</string>
 	<string name="misc.no">取消</string>
@@ -496,14 +496,14 @@
 	<string name="endoftrials.title">阿里达拉 竞技场</string>
 	<string name="endoftrials.completed">战斗完成!</string>
 	<string name="endoftrials.reward">战斗奖励</string>
-	<string name="endoftrials.progress">进到下一个等级</string>
+	<string name="endoftrials.progress">晋升下一个段位</string>
 	<string name="endoftrials.next">下一场战斗</string>
 	<string name="endoftrials.town">返回城镇</string>
 	<string name="endoftrials.nopoints">没有收到积分.</string>
-	<string name="endoftrials.levelup">升级! 你现在是%level%级!</string>
-	<string name="endoftrials.pointsleft.plural">距离达到 %rank% 级还需 %points% </string>
-	<string name="endoftrials.pointsleft.singular">距离达到 %rank% 级仅需1 剑币</string>
-	<string name="endoftrials.beginrank">开始 %rank%级</string>
+	<string name="endoftrials.levelup">升级! 你现在的段位是 %level%!</string>
+	<string name="endoftrials.pointsleft.plural">距离达到 %rank% 段位还需 %points% </string>
+	<string name="endoftrials.pointsleft.singular">距离达到 %rank% 段位仅需1 剑币</string>
+	<string name="endoftrials.beginrank">进行 %rank% 段位战斗</string>
 	<string name="endoftrials.crowd-message.1">...观众讨厌它!</string>
 	<string name="endoftrials.crowd-message.2">...没有人喜欢它.</string>
 	<string name="endoftrials.crowd-message.3">...但观众觉得有点好笑.</string>
