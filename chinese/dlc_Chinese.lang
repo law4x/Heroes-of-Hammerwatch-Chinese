@@ -13,9 +13,9 @@
 	<string name="hud.nokey">没有钥匙!</string>
 	<string name="hud.newtitle.character">获得称号: %title%</string>
 	<string name="hud.newtitle.guild">获得公会称号: %title%</string>
-	<string name="hud.newngp.town">遗忘塔 NG+%ngp% 解锁!</string>
-	<string name="hud.newngp.char.first">遗忘塔 完成!\n最高%level%等级.</string>
-	<string name="hud.newngp.char">遗忘塔 NG+%ngp% 完成!\n最高%level%等级.</string>
+	<string name="hud.newngp.town">遗忘之塔 NG+%ngp% 解锁!</string>
+	<string name="hud.newngp.char.first">遗忘之塔 完成!\n最高%level%等级.</string>
+	<string name="hud.newngp.char">遗忘之塔 NG+%ngp% 完成!\n最高%level%等级.</string>
 	<string name="hud.newngp.town.desert">预言金字塔 NG+%ngp% 解锁!</string>
 	<string name="hud.newngp.char.desert.first">预言金字塔 完成!\n获得了光环!</string>
 	<string name="hud.newngp.char.desert">预言金字塔 NG+%ngp% 完成!\nN光环升级了.</string>
@@ -100,7 +100,7 @@
 	<string name="playermenu.effects.cursed">诅咒: %amount%</string>
 	<string name="playermenu.effects.cursed.tooltip">获得诅咒并获得%chance%%几率闪避全部攻击.你也有%chance%%几率获得所有来源的 %damage%% 暴击伤害.</string>
 
-	<string name="charinfo.ngp">Forsaken Tower: NG+%ngp%</string>
+	<string name="charinfo.ngp">遗忘之塔: NG+%ngp%</string>
 	<string name="charinfo.ngp.desert">预言金字塔: NG+%ngp%</string>
 	<string name="charinfo.arena.rank">阿里达拉 竞技场: %rank%级</string>
 
@@ -148,8 +148,8 @@
 	<string name="level.hellcube.short">地狱之门</string>
 	<string name="level.pyramid_midway">高层金字塔 - 中层</string>
 	<string name="level.pyramid_midway.short">中层</string>
-	<string name="level.plane_of_magic">魔法平原 - 外围</string>
-	<string name="level.plane_of_magic.short">外围</string>
+	<string name="level.plane_of_magic">魔法位面 - 外域</string>
+	<string name="level.plane_of_magic.short">外域</string>
 
 	<!-- game over -->
 	<string name="gameover.youdied">你死了</string>
@@ -351,7 +351,7 @@
 	<string name="endofgame.town">继续</string>
 	<string name="endofgame.title">结束</string>
 	<string name="endofgame.text">你成功抵达了遗忘之塔的塔顶,并且击杀了雷电冰龙————那头突然从西方降临,占据此地的青蓝巨龙.  现在,遗忘之塔已经从巨龙的控制中解脱,这一带居民的生活也将回到正轨.</string>
-	<string name="endofgame.pop.text">很久之前，当生命风暴达到鼎盛时,灯神和灵气在魔法平原相遇,灯神吞噬了灵气,并开始了自己邪恶的愿望.但最终被一位年迈的魔法师引诱到一盏油灯之中,封藏在金字塔的顶层.经过很多年,金字塔慢慢地沉埋在沙漠之中,直到被世人渐渐遗忘.通过擦拭神灯.你释放了虚弱的灯神,并杀死灯神释放出灵气.现在灵气将永远欠你一个人情.你可以喝下魔药召唤它.</string>
+	<string name="endofgame.pop.text">很久之前，当生命风暴达到鼎盛时,灯神和灵气在魔法位面相遇,灯神吞噬了灵气,并开始了自己邪恶的愿望.但最终被一位年迈的魔法师引诱到一盏油灯之中,封藏在金字塔的顶层.经过很多年,金字塔慢慢地沉埋在沙漠之中,直到被世人渐渐遗忘.通过擦拭神灯.你释放了虚弱的灯神,并杀死灯神释放出了灵气.现在灵气将永远欠你一个人情.你可以喝下魔药召唤它.</string>
 
 	<string name="misc.yes">确认</string>
 	<string name="misc.no">取消</string>
@@ -3208,21 +3208,21 @@
 
 	<!-- Book - Ancient History -->
 	<string name="dialogue.town.book.ancienthistory.name">古代历史 v. III</string>
-	<string name="dialogue.town.book.ancienthistory.1a">Page 3\n...cheered by the people\nand praised by the nobles... (1)</string>
-	<string name="dialogue.town.book.ancienthistory.1b">Page 15\n...laws that restricted\nand controlled people's\nevery move were soon\nquickly passed... (2)</string>
-	<string name="dialogue.town.book.ancienthistory.1c">Page 40\n...forced snakes\ndown their throats... (3)</string>
-	<string name="dialogue.town.book.ancienthistory.1d">Page 75\n...during the coup, Iris was captured\nand forced down from her throne\nroom, which at that time was known\nas Iris' Court... (4)</string>
-	<string name="dialogue.town.book.ancienthistory.1e">Still at page 75\n...she was imprisoned inside The\nChamber of the Asp where she\nlater died and was placed in a\nsarcophagus... (5)</string>
+	<string name="dialogue.town.book.ancienthistory.1a">第三页\n...平民们欢呼\n贵族们称赞... (1)</string>
+	<string name="dialogue.town.book.ancienthistory.1b">第十五页\n...约束并控制\n人们一举\n一动的法律\n即将通过... (2)</string>
+	<string name="dialogue.town.book.ancienthistory.1c">第四十页\n...被迫刺穿\n他们的喉咙... (3)</string>
+	<string name="dialogue.town.book.ancienthistory.1d">第七十五页\n...在政变时期, 伊丽丝被逮捕\n人们把她从宝座上推了下来\n当时，那里被称为\n伊丽丝的审判庭... (4)</string>
+	<string name="dialogue.town.book.ancienthistory.1e">仍然是七十五页\n...她被关在了毒\n蛇之牢，之后便\n死亡并被放在了\n石棺里... (5)</string>
 
 	<!-- Book - Legends -->
-	<string name="dialogue.town.book.legends2.name">Legends and Whatnot 2</string>
-	<string name="dialogue.town.book.legends2.1a">Page 19\n...and Elmore picked up the lamp and placed it inside the throne room, he knew that no one would want to enter this place, as it was cursed and damned. The idea was to return for it later... (1)</string>
-	<string name="dialogue.town.book.legends2.1b">Still at page 19\n...As he and his loyal assistant were\nabout to leave, Elmore slipped and\ndied in horrible pain, his assistant\nmanaged to flee out just to see the\npyramid sink behind him... (2)</string>
+	<string name="dialogue.town.book.legends2.name">神话和传说</string>
+	<string name="dialogue.town.book.legends2.1a">第19页\n...艾莫尔捡起了灯并把它放在了王座室内,他知道不会有人想进入这个房间的, 因为这里被层诅咒.他想之后再回来... (1)</string>
+	<string name="dialogue.town.book.legends2.1b">仍然是19页\n...当他和他的皇家助手\n正要离开时, 艾莫尔突然滑倒了\n之后便死在了痛苦中\n他的助手只想逃出去，看看身后的金字塔... (2)</string>
 
 	<!-- Book - Henry' Geo -->
 	<string name="dialogue.town.book.geography.name">地理学者亨利之子</string>
-	<string name="dialogue.town.book.geography.1a">第253页\n...an unfortunate side effect\nof all this has been that the\ngiant crustworms that usually\nlive much further down... (1)</string>
-	<string name="dialogue.town.book.geography.1b">还是第253页\n...have started to move closer\nto the surface, several people\nhave been eaten alive in\nreally horrible worm attacks... (2)</string>
+	<string name="dialogue.town.book.geography.1a">第253页\n...这一切,这糟糕的一切\n都是因为那\n本应住在远方的\n巨型蚯蚓... (1)</string>
+	<string name="dialogue.town.book.geography.1b">还是第253页\n...已经开始爬到地表了\n已经有不少人在\n恐怖的蠕虫攻击中\n被活生生吃掉了... (2)</string>
 
 	<!-- Elevator -->
 	<string name="dialogue.town.npc.elevator.name">酒保理查德</string>
