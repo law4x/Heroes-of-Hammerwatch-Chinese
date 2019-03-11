@@ -115,7 +115,7 @@
 	<string name="world.acts.2">军械库</string>
 	<string name="world.acts.3">档案馆</string>
 	<string name="world.acts.4">内庭</string>
-	<string name="world.acts.5">城堡</string>
+	<string name="world.acts.5">城垛</string>
 	<string name="world.acts.6">桥</string>
 	<string name="world.acts.7">顶楼</string>
 	<string name="world.pop.acts.0">沙漠</string>
@@ -135,7 +135,7 @@
 	<string name="level.boss.eye.short">监察者</string>
 	<string name="level.boss.vampire">议会塔 - 吸血鬼公爵</string>
 	<string name="level.boss.vampire.short">公爵</string>
-	<string name="level.boss.thundersnow">SHAFTLOCKE TOWER - 雷电冰龙</string>
+	<string name="level.boss.thundersnow">矿牢塔 - 雷电冰龙</string>
 	<string name="level.boss.thundersnow.short">雷电冰龙</string>
 	<string name="level.boss.crustworm">阿里达拉 - 巨型蠕虫</string>
 	<string name="level.boss.crustworm.short">巨型地壳蠕虫</string>
@@ -145,7 +145,7 @@
 	<string name="level.boss.nerys.short">灯神</string>
 
 	<string name="level.hellcube">英雄之路</string>
-	<string name="level.hellcube.short">地狱之门</string>
+	<string name="level.hellcube.short">地狱魔方</string>
 	<string name="level.pyramid_midway">高层金字塔 - 中层</string>
 	<string name="level.pyramid_midway.short">中层</string>
 	<string name="level.plane_of_magic">魔法位面 - 外域</string>
@@ -258,8 +258,8 @@
 	<string name="stats.boss-5-killed">杀死雷电冰龙</string>
 	<string name="stats.boss-6-killed">杀死吸血鬼领主</string>
 	<string name="stats.boss-7-killed">杀死地壳蠕虫</string>
-	<string name="stats.boss-8-killed">杀死艾丽丝女王</string>
-	<string name="stats.boss-9-killed">杀死神灯精灵</string>
+	<string name="stats.boss-8-killed">杀死伊丽丝女王</string>
+	<string name="stats.boss-9-killed">杀死灯神</string>
 	<string name="stats.aberration-killed">击杀变异生物</string>
 	<string name="stats.beast-killed">击杀野兽</string>
 	<string name="stats.construct-killed">破坏建筑物</string>
@@ -296,7 +296,7 @@
 	<string name="stats.curses-received">受到了诅咒</string>
 	<string name="stats.curses-removed">驱除了诅咒</string>
 	<string name="stats.statue-upgrades-bought">雕像升级了</string>
-	<string name="stats.arena-highest-rank">最高的竞技场排名</string>
+	<string name="stats.arena-highest-rank">最高的竞技场段位</string>
 	<string name="stats.arena-fights">竞技场战斗赢利</string>
 
 	<!-- misc -->
@@ -345,14 +345,14 @@
 
 	<!-- intro pop -->
 	<string name="intro.pop.title">石城</string>
-	<string name="intro.pop.text">石城就在远望城之下.如今是前往阿里达拉竞技场的必经之地.曾经是一个矿石资源丰富的大城市，如今已空无一人.但是除了竞技场之外,还有一个新的吸引人的事情- "求运".当地壳蠕虫从深处爬升时,沙子慢慢显露出传说中的预言金字塔-伊丽丝坟墓 的顶部.也许值得去探究一番.皇家墓地可是有着大量充实公会的财富.</string>
+	<string name="intro.pop.text">石城就在远望城之下.如今是前往阿里达拉竞技场的必经之地.曾经是一个矿石资源丰富的大城市，如今已空无一人.但是除了竞技场之外,还有一个新的吸引人的事情 "求运".当地壳蠕虫从深处爬升时,沙子慢慢显露出传说中的预言金字塔-伊丽丝坟墓 的顶部.也许值得去探究一番.皇家墓地可是有着大量充实公会的财富.</string>
 
 	<!-- end of game -->
 	<string name="endofgame.town">继续</string>
 	<string name="endofgame.title">结束</string>
 	<string name="endofgame.text">你成功抵达了遗忘之塔的塔顶,并且击杀了雷电冰龙————那头突然从西方降临,占据此地的青蓝巨龙.  现在,遗忘之塔已经从巨龙的控制中解脱,这一带居民的生活也将回到正轨.</string>
 
-	<string name="endofgame.pop.text">很久之前，当生命风暴达到鼎盛时,灯神和神灵在魔法位面相遇,灯神吞噬了神灵,并开始酝酿自己邪恶的愿望.但最终被一位年迈的魔法师引诱到一盏油灯之中,封藏在金字塔的顶层.多年以后,金字塔逐渐沉埋在沙漠之中,直到被世人渐渐遗忘.你擦了擦神灯解放了灯神,你杀死了灯神,使他释放出了神灵.现在神灵将永远欠你一个人情.你可以喝下魔药召唤它.</string>
+	<string name="endofgame.pop.text">很久之前，当生命风暴达到鼎盛时,灯神和神灵在魔法位面相遇,灯神吞噬了神灵,并开始酝酿自己邪恶的愿望.但最终被一位年迈的魔法师引诱到一盏油灯之中,封藏在金字塔的顶层.多年以后,金字塔逐渐沉埋在沙漠之中,直到被世人渐渐遗忘.你擦了擦神灯释放出了灯神,并杀死了灯神,使他释放出了神灵.现在神灵将永远欠你一个人情.你可以喝下魔药召唤它.</string>
 
 	<string name="misc.yes">确认</string>
 	<string name="misc.no">取消</string>
@@ -384,7 +384,7 @@
 	<string name="meta.info.potionunlocked">药剂解锁!</string>
 	<string name="meta.info.combounlocked">连杀解锁!</string>
 	<string name="meta.info.anvilunlocked">魔砧解锁!</string>
-	<string name="meta.info.bestiaryunlocked">Baltzar的"怪物图鉴"解锁了!</string>
+	<string name="meta.info.bestiaryunlocked">巴尔塔扎尔的"怪物图鉴"解锁了!</string>
 	<string name="meta.info.sequencecompleted">序列完成!</string>
 	<string name="meta.info.twomore">还有2个…</string>
 	<string name="meta.info.onemore">还有1个…</string>
@@ -521,11 +521,11 @@
 	<string name="arena.altar.storm">祭坛激活了雷暴!</string>
 	<string name="arena.altar.tornado">祭坛激活尘魔!</string>
 	<string name="arena.altar.wind">祭坛激活了狂风!</string>
-	<string name="arena.altar.gatherparty">您必须聚集您队伍才能停止该事件!</string>
+	<string name="arena.altar.gatherparty">您必须聚集您的队伍才能停止该事件!</string>
 
 	<!-- Sarcophagus -->
 	<string name="sarcophagus.title">石棺</string>
-	<string name="sarcophagus.line1">迎面一股恶臭味.</string>
+	<string name="sarcophagus.line1">迎面一股恶臭的味道.</string>
 	<string name="sarcophagus.line2">石棺底部有一些装备物品.</string>
 	<string name="sarcophagus.accept">接受</string>
 	<string name="sarcophagus.cursehelp">被诅咒并有 %chance%%机会闪避全部伤害.你也有机会受到伤害来源 %damage%%的致命伤害.</string>
@@ -1669,7 +1669,7 @@
 
 	<!-- drinks -->
 	<string name="shop.drinks">铁锤酒保</string>
-	<string name="shop.drinks.message.enough">你已经喝够了!</string>
+	<string name="shop.drinks.message.enough">你已经喝的够多了!</string>
 
 
 	<!-- item forge -->
@@ -3064,10 +3064,10 @@
 
 	<!-- NPC Woman3 Desert -->
 
-	<string name="dialogue.town.npc.generic.woman3.1Ra">在靠近金字塔一段距离的沙漠,是地壳蠕虫的活动范围.</string>
+	<string name="dialogue.town.npc.generic.woman3.1Ra">在靠近金字塔一段距离的沙漠区域,是地壳蠕虫的活动范围.</string>
 	<string name="dialogue.town.npc.generic.woman3.1Rb">许多有投机者试图找到现在已暴露的金字塔的入口.</string>
 	<string name="dialogue.town.npc.generic.woman3.1Rc">据说沙漠居民的最后一位女王伊丽丝被无礼地埋葬在金字塔的下层.</string>
-	<string name="dialogue.town.npc.generic.woman3.1Rd">要到达金字塔的上层,需要经过沙漠眼镜蛇会议室.</string>
+	<string name="dialogue.town.npc.generic.woman3.1Rd">要到达金字塔的上层,需要经过沙漠眼镜蛇困室.</string>
 
 	<!-- NPC Pali -->
 
@@ -3109,7 +3109,7 @@
 	<string name="dialogue.town.npc.generic.ace1.6Rb">RESERVED</string>
 
 	<!-- Mayor1 -->
-	<string name="dialogue.town.npc.mayor.name">市长迈克尔</string>
+	<string name="dialogue.town.npc.mayor.name">市长 迈克尔</string>
 	<string name="dialogue.town.npc.mayor.1a">日安,年轻人.欢迎来到远望镇.我们在不久之前刚刚抵达这里,希望能让这座小镇重现焕发荣光.(1)</string>
 	<string name="dialogue.town.npc.mayor.1b">在十年以前,邪恶势力夺走了尖塔和凯尔特矿井的控制权. (2)</string>
 	<string name="dialogue.town.npc.mayor.1c">没有了矿石的供应,小镇撑不了多长时间,不久之后它就被废弃了. (3)</string>
@@ -3204,7 +3204,7 @@
 	<string name="dialogue.town.npc.gladiator.1Ra">我将训练能在竞技场留下名字的人,并有剑币证明这一点.</string>
 
 	<!-- Richard Hammer -->
-	<string name="dialogue.town.npc.tapster.name">酒保理查德</string>
+	<string name="dialogue.town.npc.tapster.name">酒保 理查德</string>
 	<string name="dialogue.town.npc.tapster.1Ra">嘿,如果你在塔里找到更多的酒桶,我会给你一个特别的饮料,当然价格也很合理......\n</string>
 
 	<!-- Book - Ancient History -->
@@ -3226,7 +3226,7 @@
 	<string name="dialogue.town.book.geography.1b">还是第253页\n...已经开始爬到地表了\n已经有不少人在\n恐怖的蠕虫攻击中\n被活生生吃掉了... (2)</string>
 
 	<!-- Elevator -->
-	<string name="dialogue.town.npc.elevator.name">酒保理查德</string>
+	<string name="dialogue.town.npc.elevator.name">酒保 理查德</string>
 	<string name="dialogue.town.npc.elevator.1a">外面的缆车可以\n带你去石城.</string>
 	<string name="dialogue.town.npc.elevator.error">外面的缆车\n现在无法使用.\n\n(现在购买\n新DLC即可解锁!)</string>
 
@@ -3406,12 +3406,12 @@
 	<string name="bestiary.name.bosses.eye">监察者</string>
 	<string name="bestiary.name.bosses.dragon">雷电冰龙</string>
 	<string name="bestiary.name.bosses.vampire">吸血鬼领主</string>
-	<string name="bestiary.name.spawner_archer_1">骷髅射手地巢</string>
-	<string name="bestiary.name.spawner_archer_2">骷髅射手地巢 II</string>
+	<string name="bestiary.name.spawner_archer_1">骷髅射手棺材</string>
+	<string name="bestiary.name.spawner_archer_2">骷髅射手棺材 II</string>
 	<string name="bestiary.name.spawner_bats">蝙蝠树巢</string>
 	<string name="bestiary.name.spawner_eye">眼球之母</string>
 	<string name="bestiary.name.spawner_maggot">孵蛆卵巢</string>
-	<string name="bestiary.name.spawner_skeleton_1">射手地巢</string>
+	<string name="bestiary.name.spawner_skeleton_1">射手棺材</string>
 	<string name="bestiary.name.spawner_skeleton_2">守卫地巢</string>
 	<string name="bestiary.name.spawner_tick">蜱虫巢</string>
 	<string name="bestiary.name.spawner_wisp">沉默之树</string>
