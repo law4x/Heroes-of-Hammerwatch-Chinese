@@ -102,7 +102,7 @@
 
 	<string name="charinfo.ngp">遗忘之塔: NG+%ngp%</string>
 	<string name="charinfo.ngp.desert">预言金字塔: NG+%ngp%</string>
-	<string name="charinfo.arena.rank">阿里达拉 竞技场: %rank% 段位</string>
+	<string name="charinfo.arena.rank">阿里达拉 竞技场 ： 段位 %rank%</string>
 
 	<!-- acts -->
 	<string name="world.town">远望镇</string>
@@ -465,7 +465,7 @@
 	<string name="arena_buff.damage">神秘力量</string>
 	<string name="arena_buff.heal">快速恢复</string>
 	<string name="arena_buff.mana">无限法力</string>
-	<string name="arena_buff.attackspeed">敏捷四肢</string>
+	<string name="arena_buff.attackspeed">快速攻击</string>
 	<string name="arena_buff.luck">时来运转</string>
 	<string name="arena_buff.movespeed">快速移动</string>
 	<string name="arena_buff.sundering">破防攻击</string>
@@ -478,7 +478,7 @@
 	<string name="buff.heal.desc">每0.5秒回复10点生命值.</string>
 	<string name="buff.mana.name">无限法力</string>
 	<string name="buff.mana.desc">技能不消耗法力.</string>
-	<string name="buff.attackspeed.name">敏捷四肢</string>
+	<string name="buff.attackspeed.name">快速攻击</string>
 	<string name="buff.attackspeed.desc">攻击速度增加 50%.</string>
 	<string name="buff.luck.name">时来运转</string>
 	<string name="buff.luck.desc">+5 幸运值.</string>
@@ -730,7 +730,7 @@
 	<string name="mainmenu.character.create.next">继续</string>
 
 	<!-- save slots -->
-	<string name="mainmenu.slots.title">选择存档rofile</string>
+	<string name="mainmenu.slots.title">选择存档</string>
 	<string name="mainmenu.slots.create">创建新存档</string>
 	<string name="mainmenu.slots.name">第%num%号存档</string>
 	<string name="mainmenu.slots.clone">选择该存档</string>
@@ -1729,7 +1729,7 @@
 	<string name="shop.statues.assassin.lore">潜入敌后、斩除海盗船长马里乌斯,这将会一劳永逸地停止对铁锤城堡的围攻.</string>
 
 	<string name="shop.statues.warrior.name">博尔加斯</string>
-	<string name="shop.statues.warrior.desc">每十次连续杀敌会造成 %build% 魔法伤害.\n雕塑建筑每提升一级就增加 %upgrade% 连击持续时间.</string>
+	<string name="shop.statues.warrior.desc">每五次连续杀敌会造成 %build% 魔法伤害.\n雕塑建筑每提升一级就增加 %upgrade% 连击持续时间.</string>
 	<string name="shop.statues.warrior.desc-upgrade">+%upgrade% 连击持续时间.</string>
 	<string name="shop.statues.warrior.lore">博尔加斯的斧头被称为"赤红弯月"，因为它的敌人血液总是红色的.</string>
 
@@ -1739,7 +1739,7 @@
 	<string name="shop.statues.paladin.lore">他从小便在抵御亡灵和保卫生者.一生致力于为人民服务.</string>
 
 	<string name="shop.statues.priest.name">塞德里克</string>
-	<string name="shop.statues.priest.desc">拾取法力水晶会增加%build%%的法力恢复和魔抗.\n雕塑建筑每提升一级就增加 %upgrade%%魔抗.</string>
+	<string name="shop.statues.priest.desc">拾取法力水晶会增加%build%%的法力恢复和魔抗,持续30秒.\n雕塑建筑每提升一级就增加 %upgrade%%魔抗.</string>
 	<string name="shop.statues.priest.desc-upgrade">+%upgrade%%魔抗.</string>
 	<string name="shop.statues.priest.lore">在巅峰时期被称为"死亡禁制",让墓地空置了多年.</string>
 
@@ -1767,8 +1767,8 @@
 
 	<!-- arena -->
 	<string name="town.coliseum.title">阿里达拉 竞技场</string>
-	<string name="town.coliseum.description">在阿里达拉远郊的竞技场,人们因为两种原因来到这里.在战斗中获胜的荣耀,或是观赏角斗士为生存而战的刺激.\n\n(你在为了满足大众的娱乐而战.基于观众的满足程度,你会获得剑形代币以及一些其他的物品作为奖励.)</string>
-	<string name="town.coliseum.rank">等级</string>
+	<string name="town.coliseum.description">在阿里达拉远郊的竞技场,人们因为两种原因来到这里.在战斗中获胜的荣耀,或是观赏角斗士为生存而战的刺激.\n(你在为了满足大众的娱乐而战.基于观众的满足程度,你会获得剑形代币以及一些其他的物品作为奖励.)</string>
+	<string name="town.coliseum.rank">段位</string>
 	<string name="town.coliseum.progress">进度</string>
 	<string name="town.coliseum.progress.tooltip">获得5个剑币 \n等级提升.</string>
 	<string name="town.coliseum.start">开始</string>
@@ -2927,6 +2927,8 @@
 	<string name="fountain.effect.ace_chests.description">出现Ace箱子的几率更高.</string>
 
 
+
+
 	<!-- BAD -->
 
 
@@ -3226,7 +3228,7 @@
 	<string name="dialogue.town.book.geography.1b">还是第253页\n...已经开始爬到地表了\n已经有不少人在\n恐怖的蠕虫攻击中\n被活生生吃掉了... (2)</string>
 
 	<!-- Elevator -->
-	<string name="dialogue.town.npc.elevator.name">酒保 理查德</string>
+	<string name="dialogue.town.npc.elevator.name">酒保 康拉德</string>
 	<string name="dialogue.town.npc.elevator.1a">外面的缆车可以\n带你去石城.</string>
 	<string name="dialogue.town.npc.elevator.error">外面的缆车\n现在无法使用.\n\n(现在购买\n新DLC即可解锁!)</string>
 
@@ -3508,8 +3510,8 @@
 	<string name="bestiary.name.scarab_small">小圣甲虫</string>
 	<string name="bestiary.name.scorpion_1">蝎子</string>
 	<string name="bestiary.name.scorpion_1_elite">精英蝎子</string>
-	<string name="bestiary.name.scorpion_1_mb">蝎子头目</string>
-	<string name="bestiary.name.sentinel_mb">守卫头目</string>
+	<string name="bestiary.name.scorpion_1_mb">大型蝎子</string>
+	<string name="bestiary.name.sentinel_mb">守卫祭司</string>
 	<string name="bestiary.name.sentinel_melee">近战守卫</string>
 	<string name="bestiary.name.sentinel_ranged">远程守卫</string>
 	<string name="bestiary.name.snake_1">曼巴蛇</string>
@@ -3894,6 +3896,27 @@
 	<string name="player.voice.female-2">女性 2</string>
 	<string name="player.voice.male-1">男性 1</string>
 	<string name="player.voice.male-2">男性 2</string>
+
+
+
+	<!-- New -->
+
+	<string name="world.coliseum.rank">阿里达拉 竞技场 ： 段位 %rank%</string>
+
+	<string name="meta.info.rift.midway">唤醒的神灵 打开了与外域位面的裂缝.\n\n(驱除3个诅咒)</string>
+	<string name="meta.info.rift.1">唤醒的神灵 打开了连接外域位面的裂缝.\n\n(驱除5个诅咒)</string>
+	<string name="meta.info.rift.2">唤醒的神灵 打开了连接外域位面的裂缝.\n\n(驱除7个诅咒)</string>
+	<string name="meta.info.rift.3">唤醒的神灵 打开了连接外域位面的裂缝.\n\n(驱除9个诅咒)</string>
+
+	<string name="fountain.effect.slower_enemies.name">迟缓敌人</string>
+	<string name="fountain.effect.slower_enemies.description">敌人移动速度降低了 33%.</string>
+
+	<string name="item.sets.spheres-of-power.desc.6">+%dmg%% 连杀伤害.</string>
+
+	<string name="materials.color.skin.shade.5">阴影 5</string>
+
+
+
 
 
 
