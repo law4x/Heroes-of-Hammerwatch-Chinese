@@ -1721,7 +1721,7 @@
 	<string name="shop.statues.fire-mage.name">沃麦尔</string>
 	<string name="shop.statues.fire-mage.desc">%build%% 技能加速.\n雕塑建筑每提升一级就降低 %upgrade%% 技能消耗.</string>
 	<string name="shop.statues.fire-mage.desc-upgrade">降低 %upgrade%% 技能消耗.</string>
-	<string name="shop.statues.fire-mage.lore">他层用自己的最后一口气\n燃烧了地牢\n肃清了黑堎\n和追随之地.</string>
+	<string name="shop.statues.fire-mage.lore">他曾用自己的最后一口气\n燃烧了地牢\n肃清了黑堎\n和追随之地.</string>
 
 	<string name="shop.statues.assassin.name">法拉罗斯</string>
 	<string name="shop.statues.assassin.desc">闪避后降低敌人的 %build%% 血量.\n雕塑建筑每提升一级就增加 %upgrade%% 缴械和眩晕伤害.</string>
@@ -3408,12 +3408,12 @@
 	<string name="bestiary.name.bosses.eye">监察者</string>
 	<string name="bestiary.name.bosses.dragon">雷电冰龙</string>
 	<string name="bestiary.name.bosses.vampire">吸血鬼领主</string>
-	<string name="bestiary.name.spawner_archer_1">骷髅射手棺材</string>
-	<string name="bestiary.name.spawner_archer_2">骷髅射手棺材 II</string>
+	<string name="bestiary.name.spawner_archer_1">骷髅射手地巢</string>
+	<string name="bestiary.name.spawner_archer_2">骷髅射手地巢 II</string>
 	<string name="bestiary.name.spawner_bats">蝙蝠树巢</string>
 	<string name="bestiary.name.spawner_eye">眼球之母</string>
 	<string name="bestiary.name.spawner_maggot">孵蛆卵巢</string>
-	<string name="bestiary.name.spawner_skeleton_1">射手棺材</string>
+	<string name="bestiary.name.spawner_skeleton_1">射手地巢</string>
 	<string name="bestiary.name.spawner_skeleton_2">守卫地巢</string>
 	<string name="bestiary.name.spawner_tick">蜱虫巢</string>
 	<string name="bestiary.name.spawner_wisp">沉默之树</string>
