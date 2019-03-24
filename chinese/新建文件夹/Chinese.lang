@@ -1,0 +1,3923 @@
+<lang min-size="12" max-bold="0">
+	<!-- SYSTEM -->
+
+
+	<!-- character screen -->
+	<string name="hud.character.map">地图</string>
+	<string name="hud.character.character">角色</string>
+	<string name="hud.character.stats">统计</string>
+	<string name="hud.character.title">%name%   %title%    %lvl%级 %class%</string>
+	<string name="hud.character.effects">效果</string>
+	<string name="hud.levelup">升级!</string>
+	<string name="hud.potionrefill">药剂已装满!</string>
+	<string name="hud.nokey">没有钥匙!</string>
+	<string name="hud.newtitle.character">获得称号: %title%</string>
+	<string name="hud.newtitle.guild">获得公会称号: %title%</string>
+	<string name="hud.newngp.town">遗忘之塔 NG+%ngp% 解锁!</string>
+	<string name="hud.newngp.char.first">遗忘之塔 完成!\n最高%level%等级.</string>
+	<string name="hud.newngp.char">遗忘之塔 NG+%ngp% 完成!\n最高%level%等级.</string>
+	<string name="hud.newngp.town.desert">预言金字塔 NG+%ngp% 解锁!</string>
+	<string name="hud.newngp.char.desert.first">预言金字塔 完成!\n获得了光环!</string>
+	<string name="hud.newngp.char.desert">预言金字塔 NG+%ngp% 完成!\nN光环升级了.</string>
+	
+	<string name="class.paladin">圣骑士</string>
+	<string name="class.paladin.desc">拥有大量生存技能的强大近战战士.</string>
+	<string name="class.priest">牧师</string>
+	<string name="class.priest.desc">极度依赖魔法的施法者,专精治疗和魔法伤害.</string>
+	<string name="class.priest.disabled.desc">牧师未解锁.</string>
+	<string name="class.ranger">游侠</string>
+	<string name="class.ranger.desc">技能多样化的远距离战斗专家.</string>
+	<string name="class.sorcerer">巫师</string>
+	<string name="class.sorcerer.desc">脆弱的远距离施法者,减速敌人并造成混合伤害.</string>
+	<string name="class.thief">盗贼</string>
+	<string name="class.thief.desc">难以捉摸的高机动近战刺客.</string>
+	<string name="class.thief.disabled.desc">盗贼未解锁.</string>
+	<string name="class.warlock">术士</string>
+	<string name="class.warlock.desc">近距离魔法使用者,可以吸取灵魂补充生命值和魔法值.</string>
+	<string name="class.wizard">法师</string>
+	<string name="class.wizard.desc">魔法伤害极高但很脆弱的施法者.</string>
+	<string name="class.wizard.disabled.desc">法师未解锁.</string>
+	<string name="class.gladiator">角斗士</string>
+	<string name="class.gladiator.desc">善用采取"打了就跑"策略的战斗大师.</string>
+	<string name="class.gladiator.disabled.desc">角斗士未解锁.</string>
+	<string name="class.gladiator.unlocked">角斗士解锁了!</string>
+
+	<string name="playermenu.character.vitality">生命</string>
+	<string name="playermenu.character.speedexp">移动速度 / 经验速率</string>
+	<string name="playermenu.character.damage">伤害</string>
+	<string name="playermenu.character.protection">防御</string>
+	<string name="playermenu.character.resources">金钱</string>
+	<string name="playermenu.character.keys">钥匙</string>
+	<string name="playermenu.character.items">装备</string>
+	<string name="playermenu.character.items.tooltip">%count% 件装备</string>
+	<string name="playermenu.character.potionskills">药剂 / 技能</string>
+	<string name="playermenu.character.base">基础: %value%</string>
+	<string name="playermenu.character.base.capped">基础: %value% (等级: %level%级)</string>
+
+	<string name="playermenu.tooltip.exp">经验</string>
+	<string name="playermenu.tooltip.exp.total">总经验值:</string>
+	<string name="playermenu.tooltip.exp.left">升级还需:</string>
+	<string name="playermenu.tooltip.exp.rate">经验获取速率:</string>
+	<string name="playermenu.tooltip.potion.title">%num% / %total% 消耗</string>
+	<string name="playermenu.tooltip.potion.text">+ %hp% 生命\n+ %mana% 魔法</string>
+	<string name="playermenu.tooltip.potion.djinn">当饮用药剂时召唤出光环.\n光环每秒造成 %dmg% 魔法伤害并持续 %ttl% 秒.</string>
+	<string name="playermenu.tooltip.tax">手续费</string>
+	<string name="playermenu.tooltip.exp.levelcap">角色等级上限:</string>
+
+	<string name="playermenu.character.health">生命值</string>
+	<string name="playermenu.character.mana">法力值</string>
+	<string name="playermenu.character.healthregen">生命回复率</string>
+	<string name="playermenu.character.manaregen">法力回复率</string>
+	<string name="playermenu.character.armor">护甲</string>
+	<string name="playermenu.character.armor.description">减少%value%%物理伤害.</string>
+	<string name="playermenu.character.resistance">魔抗</string>
+	<string name="playermenu.character.resistance.description">减少%value%%魔法伤害.</string>
+	<string name="playermenu.character.attackpower">普攻加成</string>
+	<string name="playermenu.character.attackpower.description">提高%value%%普攻伤害.</string>
+	<string name="playermenu.character.spellpower">技能加成</string>
+	<string name="playermenu.character.spellpower.description">提高%value%%技能伤害.</string>
+	<string name="playermenu.character.physicaladd">物理伤害: +%amount%</string>
+	<string name="playermenu.character.magicaladd">魔法伤害: +%amount%</string>
+	<string name="playermenu.character.movespeed">移动速度</string>
+	<string name="playermenu.character.goldgain">金币获取速率</string>
+	<string name="playermenu.character.oregain">矿石获取率</string>
+	<string name="playermenu.character.combat">战斗</string>
+	<string name="playermenu.character.critchance">暴击概率</string>
+	<string name="playermenu.character.critchance.description">暴击伤害: %mul%%\n%muls%\n暴击概率: %chance%%\n%chances%\n\n技能暴击伤害: %spell-mul%%\n%spell-muls%\n技能暴击概率: %spell-chance%%\n%spell-chances%</string>
+	<string name="playermenu.character.evadechance">闪避概率</string>
+	<string name="playermenu.character.chances">暴击概率</string>
+	<string name="playermenu.character.spellchances">技能暴击概率</string>
+	<string name="playermenu.character.luck">幸运</string>
+	<string name="playermenu.character.lifesteal">吸血</string>
+	<string name="playermenu.character.lifesteal.description">普通攻击: %value%%\n%lists%\n\n技能: %value-spell%%\n%lists-spell%</string>
+	<string name="playermenu.dead">%player% 死了.</string>
+
+	<string name="playermenu.effects.blessings">祝福</string>
+	<string name="playermenu.effects.drinks">饮料</string>
+	<string name="playermenu.effects.fountain">喷泉</string>
+	<string name="playermenu.effects.statues">雕像</string>
+	<string name="playermenu.effects.misc">杂货店</string>
+	<string name="playermenu.effects.cursed">诅咒: %amount%</string>
+	<string name="playermenu.effects.cursed.tooltip">获得诅咒并获得%chance%%几率闪避全部攻击.你也有%chance%%几率获得所有来源的 %damage%% 暴击伤害.</string>
+
+	<string name="charinfo.ngp">遗忘之塔: NG+%ngp%</string>
+	<string name="charinfo.ngp.desert">预言金字塔: NG+%ngp%</string>
+	<string name="charinfo.arena.rank">阿里达拉 竞技场 ： 段位 %rank%</string>
+
+	<!-- acts -->
+	<string name="world.town">远望镇</string>
+	<string name="world.mines">远望镇矿井</string>
+	<string name="world.tower">遗忘之塔</string>
+	<string name="world.floor">第 %num% 层</string>
+	<string name="world.act">ACT %num%</string>
+	<string name="world.acts.0">矿井</string>
+	<string name="world.acts.1">监狱</string>
+	<string name="world.acts.2">军械库</string>
+	<string name="world.acts.3">档案馆</string>
+	<string name="world.acts.4">内庭</string>
+	<string name="world.acts.5">城垛</string>
+	<string name="world.acts.6">桥</string>
+	<string name="world.acts.7">顶楼</string>
+	<string name="world.pop.acts.0">沙漠</string>
+	<string name="world.pop.acts.1">低层金字塔</string>
+	<string name="world.pop.acts.2">高层金字塔</string>
+	<string name="world.coliseum">阿里达拉 竞技场</string>
+
+
+	<!-- Map names -->
+	<string name="level.boss.rock">远望镇矿山 - 生命之岩</string>
+	<string name="level.boss.rock.short">生命之岩</string>
+	<string name="level.boss.warden">监狱城 - 监狱守卫</string>
+	<string name="level.boss.warden.short">监狱守卫</string>
+	<string name="level.boss.wraith">兵器塔 - 三大巫妖</string>
+	<string name="level.boss.wraith.short">三大巫妖</string>
+	<string name="level.boss.eye">档案塔 - 眼球怪</string>
+	<string name="level.boss.eye.short">监察者</string>
+	<string name="level.boss.vampire">议会塔 - 吸血鬼公爵</string>
+	<string name="level.boss.vampire.short">公爵</string>
+	<string name="level.boss.thundersnow">矿牢塔 - 雷电冰龙</string>
+	<string name="level.boss.thundersnow.short">雷电冰龙</string>
+	<string name="level.boss.crustworm">阿里达拉 - 巨型蠕虫</string>
+	<string name="level.boss.crustworm.short">巨型地壳蠕虫</string>
+	<string name="level.boss.iris">低层金字塔 - 最后的女王</string>
+	<string name="level.boss.iris.short">女王伊丽丝</string>
+	<string name="level.boss.nerys">高层金字塔 - 灯神</string>
+	<string name="level.boss.nerys.short">灯神</string>
+
+	<string name="level.hellcube">英雄之路</string>
+	<string name="level.hellcube.short">地狱魔方</string>
+	<string name="level.pyramid_midway">高层金字塔 - 中层</string>
+	<string name="level.pyramid_midway.short">中层</string>
+	<string name="level.plane_of_magic">魔法位面 - 外域</string>
+	<string name="level.plane_of_magic.short">外域</string>
+
+	<!-- game over -->
+	<string name="gameover.youdied">你死了</string>
+	<string name="gameover.quit">返回主菜单</string>
+	<string name="gameover.stats.goldfound">发现黄金</string>
+	<string name="gameover.stats.goldstored">运送回镇</string>
+	<string name="gameover.stats.orefound">发现矿石</string>
+	<string name="gameover.stats.orestored">运送回镇</string>
+	<string name="gameover.stats.experience">经验</string>
+	<string name="gameover.stats.timeplayed">游戏时间</string>
+	<string name="gameover.stats.enemieskilled">杀敌数</string>
+	<string name="gameover.stats.killer">死于</string>
+	<string name="gameover.mock.0">你悲惨的人生就这样突然结束了</string>
+	<string name="gameover.mock.1">你暴毙了</string>
+	<string name="gameover.mock.2">你死了,并没有人记得你.</string>
+	<string name="gameover.mock.3">你的努力没有白费</string>
+	<string name="gameover.mock.4">悄悄地,你来了；悄悄地,你死了</string>
+	<string name="gameover.sentence.unused-potion.none">你用完了你全部的药剂.</string>
+	<string name="gameover.sentence.unused-potion.plural">你还剩 %num%瓶药剂 !</string>
+	<string name="gameover.sentence.unused-potion.one">你还剩一瓶药剂!</string>
+	<string name="gameover.sentence.unused-potion.never">你没有使用过药剂!</string>
+	<string name="gameover.sentence.unused-keys.plural">%num% 把钥匙未使用.</string>
+	<string name="gameover.sentence.unused-keys.one">一把钥匙未使用.</string>
+	<string name="gameover.sentence.unused-mana">你还有很多法力没用就死了.</string>
+	<string name="gameover.sentence.gold.rich">你很富有!</string>
+	<string name="gameover.sentence.gold.none">没钱带回家.</string>
+	<string name="gameover.sentence.first-minute">你一分钟内就死了.</string>
+	<string name="gameover.sentence.no-enemies">你没杀死一个敌人!</string>
+	<string name="gameover.sentence.chests.plural">你打开了 %num% 个箱子.</string>
+	<string name="gameover.sentence.chests.one">你打开了一个箱子.</string>
+	<string name="gameover.sentence.damage-taken">你受到了 %num% 伤害.</string>
+	<string name="gameover.sentence.items-picked.plural">你拾取了%num% 个装备.</string>
+	<string name="gameover.sentence.items-picked.one">你拾取了一个装备.</string>
+	<string name="gameover.sentence.floors.plural">你到达了第 %num% 层.</string>
+	<string name="gameover.sentence.floors.one">你到达了第一层.</string>
+	<string name="gameover.sentence.units">你行走了 %meters%.</string>
+	<string name="gameover.sentence.time">你已经玩了%time% </string>
+	<string name="gameover.sentence.ore.one">你浪费了一个矿石!</string>
+	<string name="gameover.sentence.ore.plural">你浪费了%num%个矿石!</string>
+	<string name="gameover.sentence.experience">你损失了 %num% 经验!</string>
+
+	<!-- stats -->
+
+
+	<string name="stats.category.0achievements">成就</string>
+	<string name="stats.category.1combat">战斗</string>
+	<string name="stats.category.2vitality">生命</string>
+	<string name="stats.category.3adventuring">冒险</string>
+	<string name="stats.category.4town">城镇</string>
+	<string name="stats.category.5items">装备</string>
+
+	<string name="stats.interface.session">本局</string>
+	<string name="stats.interface.total">总计</string>
+
+	<string name="stats.time-played">游戏时间</string>
+	<string name="stats.enemies-killed">杀敌数</string>
+	<string name="stats.items-bought">购买装备</string>
+	<string name="stats.items-bought-common">购买普通装备</string>
+	<string name="stats.items-bought-uncommon">购买罕见装备</string>
+	<string name="stats.items-bought-rare">购买稀有装备</string>
+	<string name="stats.items-picked">找到装备</string>
+	<string name="stats.items-picked-common">找到普通装备</string>
+	<string name="stats.items-picked-uncommon">找到罕见装备</string>
+	<string name="stats.items-picked-rare">找到稀有装备</string>
+	<string name="stats.items-picked-epic">找到史诗装备</string>
+	<string name="stats.items-picked-legendary">找到传奇装备</string>
+	<string name="stats.items-crafted">制作装备</string>
+	<string name="stats.items-attuned">调和装备</string>
+	<string name="stats.sets-completed">集齐套装</string>
+	<string name="stats.damage-taken">伤害值</string>
+	<string name="stats.damage-taken-max">最大伤害值</string>
+	<string name="stats.chests-opened">打开箱子数</string>
+	<string name="stats.elevator-used">使用电梯</string>
+	<string name="stats.fountain-used">使用喷泉</string>
+	<string name="stats.fountain-deposited">喷泉已存金币</string>
+	<string name="stats.fountain-paid">喷泉花费金币</string>
+	<string name="stats.fountain-favor-good">喷泉神力-好事</string>
+	<string name="stats.fountain-favor-bad">喷泉神力-坏事</string>
+	<string name="stats.well-used">使用魔法泉</string>
+	<string name="stats.gold-found">找到金币</string>
+	<string name="stats.ore-found">找到矿物</string>
+	<string name="stats.gold-stored">金币总数</string>
+	<string name="stats.ores-stored">矿石总数</string>
+	<string name="stats.spent-gold">花费金币总数</string>
+	<string name="stats.spent-ore">花费矿石总数</string>
+	<string name="stats.spent-skillpoints">消耗技能点</string>
+	<string name="stats.spent-mana">消耗法力值</string>
+	<string name="stats.death-count">死亡数</string>
+	<string name="stats.floors-visited">访问层数</string>
+	<string name="stats.units-traveled">行走步数</string>
+	<string name="stats.secrets-found">发现隐藏</string>
+	<string name="stats.potion-charges-used">使用药剂</string>
+	<string name="stats.chest-used-wood">打开木箱</string>
+	<string name="stats.chest-used-0">打开铜箱</string>
+	<string name="stats.chest-used-1">打开银箱</string>
+	<string name="stats.chest-used-2">打开金箱</string>
+	<string name="stats.chest-used-3">打开ACE箱子</string>
+	<string name="stats.key-found-0">找到铜钥匙</string>
+	<string name="stats.key-found-1">找到银钥匙</string>
+	<string name="stats.key-found-2">找到金钥匙</string>
+	<string name="stats.key-found-3">找到ACE钥匙</string>
+	<string name="stats.boss-1-killed">杀死岩石守卫</string>
+	<string name="stats.boss-2-killed">杀死监狱守卫</string>
+	<string name="stats.boss-3-killed">杀死三大巫妖</string>
+	<string name="stats.boss-4-killed">杀死监察者</string>
+	<string name="stats.boss-5-killed">杀死雷电冰龙</string>
+	<string name="stats.boss-6-killed">杀死吸血鬼领主</string>
+	<string name="stats.boss-7-killed">杀死地壳蠕虫</string>
+	<string name="stats.boss-8-killed">杀死伊丽丝女王</string>
+	<string name="stats.boss-9-killed">杀死灯神</string>
+	<string name="stats.aberration-killed">击杀变异生物</string>
+	<string name="stats.beast-killed">击杀野兽</string>
+	<string name="stats.construct-killed">破坏建筑物</string>
+	<string name="stats.undead-killed">击杀亡灵生物</string>
+	<string name="stats.best-combo">最大连击数</string>
+	<string name="stats.amount-healed">治疗量</string>
+	<string name="stats.amount-healed-pickups">拾取治疗物品</string>
+	<string name="stats.damage-dealt">伤害量</string>
+	<string name="stats.damage-dealt-max">最大伤害值</string>
+	<string name="stats.damage-dealt-physical">物理攻击</string>
+	<string name="stats.damage-dealt-magical">魔法攻击</string>
+	<string name="stats.lifesteal-amount">生命窃取</string>
+	<string name="stats.stun-count">眩晕敌人</string>
+	<string name="stats.crit-count">暴击伤害</string>
+	<string name="stats.damage-blocked">防御伤害</string>
+	<string name="stats.damage-returned">反弹伤害</string>
+	<string name="stats.evade-amount">闪避攻击</string>
+	<string name="stats.blessings-purchased">购买祝福</string>
+	<string name="stats.buildings-purchased">建筑升级</string>
+	<string name="stats.upgrades-bought">角色升级</string>
+	<string name="stats.gambling-gold-won">赌博赢钱</string>
+	<string name="stats.gambling-gold-lost">赌博输钱</string>
+	<string name="stats.max-level-paladin">圣骑士最高等级</string>
+	<string name="stats.max-level-priest">牧师最高等级</string>
+	<string name="stats.max-level-ranger">游侠最高等级</string>
+	<string name="stats.max-level-sorcerer">巫师最高等级</string>
+	<string name="stats.max-level-thief">盗贼最高等级</string>
+	<string name="stats.max-level-warlock">术士最高等级</string>
+	<string name="stats.max-level-wizard">法师最高等级</string>
+	<string name="stats.drinks-consumed">消耗的酒水</string>
+	<string name="stats.drinks-found">找到的酒水</string>
+	<string name="stats.blueprints-found">找到的蓝图</string>
+	<string name="stats.dyes-found">找到的染料</string>
+	<string name="stats.curses-received">受到了诅咒</string>
+	<string name="stats.curses-removed">驱除了诅咒</string>
+	<string name="stats.statue-upgrades-bought">雕像升级了</string>
+	<string name="stats.arena-highest-rank">最高的竞技场段位</string>
+	<string name="stats.arena-fights">竞技场战斗赢利</string>
+
+	<!-- misc -->
+	<string name="misc.dmg.crit1">%dmg%!</string>
+	<string name="misc.dmg.crit2">%dmg%!!</string>
+	<string name="misc.dmg.crit3">%dmg%!!!</string>
+	<string name="misc.dmg.crit4">%dmg%!!!!</string>
+	<string name="misc.dmg.crit5">%dmg%!!!!!</string>
+	<string name="misc.primaryskill">\c7f7f7f普通攻击\d</string>
+	<string name="misc.activeskill">\c7f7f7f主动技能\d</string>
+	<string name="misc.passiveskill">\c7f7f7f被动技能\d</string>
+	<string name="misc.ngp">(NG+%ngp%)</string>
+	<string name="misc.ngp2">NG+%ngp%</string>
+
+	<string name="misc.elevator.question">你想运送 %ore% 矿石和 %gold% 金币回到镇上吗 (手续费%tax%%)</string>
+	<string name="misc.elevator.gold">金币</string>
+	<string name="misc.elevator.ore">矿石</string>
+	<string name="misc.store.gold">运送 %num%金币回镇</string>
+	<string name="misc.soulslinked">灵魂链接</string>
+	<string name="misc.soulsunlinked">灵魂链接解除</string>
+
+	<string name="item.key">钥匙</string>
+	<string name="item.key.plural">%num% 钥匙</string>
+	<string name="item.ore">矿石</string>
+	<string name="item.ore.plural">%num% 矿石</string>
+	<string name="misc.store.ore">运送 %num% 矿石回镇</string>
+	<string name="item.diamond.blue">钻石</string>
+	<string name="item.diamond.blue-small">钻石</string>
+	<string name="item.diamond.red">钻石</string>
+	<string name="item.diamond.red-small">钻石</string>
+	<string name="item.diamond.gold">钻石</string>
+	<string name="item.diamond.gold-small">钻石</string>
+	<string name="item.potion.charge">药剂消耗</string>
+	<string name="item.potion.curse">-1 诅咒</string>
+
+	<string name="quality.common">普通</string>
+	<string name="quality.uncommon">罕见</string>
+	<string name="quality.rare">稀有</string>
+	<string name="quality.epic">史诗</string>
+	<string name="quality.legendary">传说</string>
+
+	<!-- intro -->
+	<string name="intro.title">远望镇</string>
+	<string name="intro.text">远望镇坐落在遗忘之塔下方.很久以前这个出产矿石的小镇被遗弃,但在你们公会和勇者的帮助下,小镇有望恢复以前的荣光.(帮助：探索那座矿洞并收集金币和矿石,用金币购买装备并用矿石升级小镇中的建筑,金币也可以在公会解锁并升级你的技能.游戏里还有更多需要你去发现的东西,祝你好运.)</string>
+	<string name="intro.continue">继续</string>
+
+	<!-- intro pop -->
+	<string name="intro.pop.title">石城</string>
+	<string name="intro.pop.text">石城就在远望城之下.如今是前往阿里达拉竞技场的必经之地.曾经是一个矿石资源丰富的大城市，如今已空无一人.但是除了竞技场之外,还有一个新的吸引人的事情 "求运".当地壳蠕虫从深处爬升时,沙子慢慢显露出传说中的预言金字塔-伊丽丝坟墓 的顶部.也许值得去探究一番.皇家墓地可是有着大量充实公会的财富.</string>
+
+	<!-- end of game -->
+	<string name="endofgame.town">继续</string>
+	<string name="endofgame.title">结束</string>
+	<string name="endofgame.text">你成功抵达了遗忘之塔的塔顶,并且击杀了雷电冰龙————那头突然从西方降临,占据此地的青蓝巨龙.  现在,遗忘之塔已经从巨龙的控制中解脱,这一带居民的生活也将回到正轨.</string>
+
+	<string name="endofgame.pop.text">很久之前，当生命风暴达到鼎盛时,灯神和神灵在魔法位面相遇,灯神吞噬了神灵,并开始酝酿自己邪恶的愿望.但最终被一位年迈的魔法师引诱到一盏油灯之中,封藏在金字塔的顶层.多年以后,金字塔逐渐沉埋在沙漠之中,直到被世人渐渐遗忘.你擦了擦神灯释放出了灯神,并杀死了灯神,使他释放出了神灵.现在神灵将永远欠你一个人情.你可以喝下魔药召唤它.</string>
+
+	<string name="misc.yes">确认</string>
+	<string name="misc.no">取消</string>
+	<string name="misc.dmg.immortal">保护!</string>
+	<string name="dead.respawn">按 使用键 重生</string>
+	<string name="dead.gameover">游戏结束</string>
+	<string name="dead.restart.countdown">重新开始 %countdown%</string>
+	<string name="concept.continue">开始任务...</string>
+
+	<string name="levelend.quit">返回菜单</string>
+	<string name="levelend.finished">已准备</string>
+	<string name="levelend.deaths">死亡</string>
+	<string name="levelend.kills">击杀</string>
+	<string name="levelend.items">装备</string>
+	<string name="levelend.secrets">隐藏</string>
+	<string name="levelend.stars">星星</string>
+	<string name="levelend.time.game">游戏时间</string>
+	<string name="levelend.time.level">关卡时间</string>
+	<string name="interface.playersready">%ready%/%total% 玩家准备</string>
+	<string name="levelend.wait">等待...</string>
+	<string name="levelend.ready">准备</string>
+	<string name="levelend.ok">继续</string>
+
+	<string name="levelcredits.prompt">%level% 由 %author% 制作</string>
+
+	<string name="meta.info.elsewhere">这要在某处打开...</string>
+	<string name="meta.info.happened">有什么事情发生了...</string>
+	<string name="meta.info.buttonstuck">按钮卡住了…</string>
+	<string name="meta.info.potionunlocked">药剂解锁!</string>
+	<string name="meta.info.combounlocked">连杀解锁!</string>
+	<string name="meta.info.anvilunlocked">魔砧解锁!</string>
+	<string name="meta.info.bestiaryunlocked">巴尔塔扎尔的"怪物图鉴"解锁了!</string>
+	<string name="meta.info.sequencecompleted">序列完成!</string>
+	<string name="meta.info.twomore">还有2个…</string>
+	<string name="meta.info.onemore">还有1个…</string>
+	<string name="meta.info.passage">一个秘密通道已经打开…</string>
+    <string name="meta.info.exitrevealed">出口被打开了!</string>
+	<string name="meta.info.threatspawned">召唤了大量的怪物!</string>
+	<string name="meta.info.impspawned">一个意想不到的礼物在等着你!</string>
+	<string name="meta.info.gatherparty">在冒险之前,你必须召集你的队友.</string>
+	<string name="meta.info.gatherparty.mummy">你必须在打开石棺之前召集你的队友.</string>
+	<string name="meta.info.gatherparty.genie">你必须在擦灯前召集你的队友.</string>
+	<string name="meta.info.gatherparty.general">在继续进行此操作之前召集你的队友.</string>
+	<string name="meta.info.ritual.gather">在开始仪式之前,你必须召集你的队友.</string>
+	<string name="meta.info.ritual.start">…并召唤出了可怕的怪物!</string>
+	<string name="meta.info.ritual.completed">仪式顺序正确!</string>
+	<string name="meta.info.ritual.failed">仪式顺序不正确!</string>
+	<string name="meta.info.ritual.b">信奉黑暗</string>
+	<string name="meta.info.ritual.headline">召唤仪式</string>
+	<string name="meta.info.ritual.b1">信奉黑暗 I章</string>
+	<string name="meta.info.ritual.b2">信奉黑暗 II章</string>
+	<string name="meta.info.ritual.b3">信奉黑暗 III章</string>
+	<string name="meta.info.ritual.b4">信奉黑暗 IV章</string>
+	<string name="meta.info.ritual.g">死亡凋零</string>
+	<string name="meta.info.ritual.g1">死亡凋零 I章</string>
+	<string name="meta.info.ritual.g2">死亡凋零 II章</string>
+	<string name="meta.info.ritual.g3">死亡凋零 III章</string>
+	<string name="meta.info.ritual.g4">死亡凋零 IV章</string>
+	<string name="meta.info.ritual.r">血液献祭</string>
+	<string name="meta.info.ritual.r1">血液献祭 I章</string>
+	<string name="meta.info.ritual.r2">血液献祭 II章</string>
+	<string name="meta.info.ritual.r3">血液献祭 III章</string>
+	<string name="meta.info.ritual.r4">血液献祭 IV章</string>
+	<string name="meta.info.ritual.y">邪恶转化</string>
+	<string name="meta.info.ritual.y1">邪恶转化 I章</string>
+	<string name="meta.info.ritual.y2">邪恶转化 II章</string>
+	<string name="meta.info.ritual.y3">邪恶转化 III章</string>
+	<string name="meta.info.ritual.y4">邪恶转化 IV章</string>
+
+	<string name="random_stuff.give_item">恶魔给了你一个装备!</string>
+	<string name="random_stuff.give_ore">恶魔给了你一些矿石!</string>
+	<string name="random_stuff.give_gold">恶魔给了你一些金币!</string>
+	<string name="random_stuff.give_experience">恶魔给了一些经验!</string>
+	<string name="random_stuff.give_keys">恶魔给了你一些钥匙!</string>
+	<string name="random_stuff.deposit_gold">你想要运送金币回镇上吗?</string>
+	<string name="random_stuff.deposit_ore">你想运送矿石回镇上吗?</string>
+	<string name="random_stuff.rejuvenate">恶魔治疗了你并帮你补满了药剂!</string>
+	<string name="random_stuff.clear_curses">恶魔驱除了你的诅咒!</string>
+
+	<string name="random_buff.lower_hp">符文:献祭%amount%%生命上限. 你同意吗?</string>
+	<string name="random_buff.lower_armor">符文:献祭%amount%护甲. 你同意吗?</string>
+	<string name="random_buff.lower_resistance">符文:献祭%amount%魔法抗性. 你同意吗?</string>
+	<string name="random_buff.no_experience">符文:献祭%amount%%经验获取速率. 你同意吗?</string>
+	<string name="random_buff.no_gold">符文:献祭%amount%%金币获取速率. 你同意吗?</string>
+	<string name="random_buff.lower_hp_regen">符文:献祭%amount%生命回复率. 你同意吗?</string>
+	<string name="random_buff.lower_mp_regen">符文:献祭%amount%法力回复率. 你同意吗?</string>
+	<string name="random_buff.take_damage">符文:献祭%amount%生命值. 你同意吗?</string>
+	<string name="random_buff.lower_damage">符文:献祭%amount%%普攻伤害. 你同意吗?</string>
+
+	<string name="random_buff.more_hp">神庙赐予你 %amount%%生命上限.</string>
+	<string name="random_buff.more_armor">神庙赐予你 %amount% 护甲和魔抗.</string>
+	<string name="random_buff.more_experience">神庙赐予你 %amount%% 经验获取速率.</string>
+	<string name="random_buff.more_gold">神庙赐予你 %amount%% 金币拾取速率.</string>
+	<string name="random_buff.more_ore">神庙赐予你 %amount%% 矿石拾取速率.</string>
+	<string name="random_buff.more_hp_regen">神庙赐予你 %amount% 生命回复率.</string>
+	<string name="random_buff.more_mp_regen">神庙赐予你 %amount% 法力回复率.</string>
+	<string name="random_buff.more_damage">神庙赐予你 %amount%% 普攻伤害.</string>
+
+	<string name="temp_buff.armor">石碑赐予了你守护自身的强健!</string>
+	<string name="temp_buff.experience">石碑赐予了你洞察万物的智慧!</string>
+	<string name="temp_buff.damage">石碑赐予了你无人能挡的力量!</string>
+	<string name="temp_buff.heal">石碑赐予了你丰沛蓬勃的生命!</string>
+	<string name="temp_buff.mana">石碑赐予了你用之不尽的能量!</string>
+	<string name="temp_buff.gold">石碑赐予了你对黄金的狂热!</string>
+	<string name="temp_buff.attackspeed">石碑赐予了你灵活的四肢!</string>
+	<string name="temp_buff.luck">石碑赐予了你时来运转!</string>
+	<string name="temp_buff.sundering">石碑赐予了你破防攻击!</string>
+
+	<string name="arena_buff.armor">能量护甲</string>
+	<string name="arena_buff.damage">神秘力量</string>
+	<string name="arena_buff.heal">快速恢复</string>
+	<string name="arena_buff.mana">无限法力</string>
+	<string name="arena_buff.attackspeed">快速攻击</string>
+	<string name="arena_buff.luck">时来运转</string>
+	<string name="arena_buff.movespeed">快速移动</string>
+	<string name="arena_buff.sundering">破防攻击</string>
+
+	<string name="buff.armor.name">能量护甲</string>
+	<string name="buff.armor.desc">受到的伤害降低50%.</string>
+	<string name="buff.damage.name">力量增强</string>
+	<string name="buff.damage.desc">伤害提高 200%.</string>
+	<string name="buff.heal.name">丰沛蓬勃</string>
+	<string name="buff.heal.desc">每0.5秒回复10点生命值.</string>
+	<string name="buff.mana.name">无限法力</string>
+	<string name="buff.mana.desc">技能不消耗法力.</string>
+	<string name="buff.attackspeed.name">快速攻击</string>
+	<string name="buff.attackspeed.desc">攻击速度增加 50%.</string>
+	<string name="buff.luck.name">时来运转</string>
+	<string name="buff.luck.desc">+5 幸运值.</string>
+	<string name="buff.movespeed.name">快速移动</string>
+	<string name="buff.movespeed.desc">移动速度增加 50%.</string>
+	<string name="buff.sundering.name">破防攻击</string>
+	<string name="buff.sundering.desc">全部伤害都会无视50％的护甲或抗性.</string>
+	<string name="buff.experience.name">洞察慧眼</string>
+	<string name="buff.experience.desc">+100% 经验获取率n.</string>
+	<string name="buff.gold.name">黄金狂热</string>
+	<string name="buff.gold.desc">+100% 金币获取率.</string>
+
+
+	<!-- Arena -->
+	<string name="endoftrials.title">阿里达拉 竞技场</string>
+	<string name="endoftrials.completed">战斗完成!</string>
+	<string name="endoftrials.reward">战斗奖励</string>
+	<string name="endoftrials.progress">晋升下一个段位</string>
+	<string name="endoftrials.next">下一场战斗</string>
+	<string name="endoftrials.town">返回城镇</string>
+	<string name="endoftrials.nopoints">没有收到积分.</string>
+	<string name="endoftrials.levelup">升级! 你现在的段位是 %level%!</string>
+	<string name="endoftrials.pointsleft.plural">距离达到 %rank% 段位还需 %points% </string>
+	<string name="endoftrials.pointsleft.singular">距离达到 %rank% 段位仅需1 剑币</string>
+	<string name="endoftrials.beginrank">进行 %rank% 段位战斗</string>
+	<string name="endoftrials.crowd-message.1">...观众讨厌它!</string>
+	<string name="endoftrials.crowd-message.2">...没有人喜欢它.</string>
+	<string name="endoftrials.crowd-message.3">...但观众觉得有点好笑.</string>
+	<string name="endoftrials.crowd-message.4">...他们喜欢它!</string>
+	<string name="endoftrials.crowd-message.5">...观众开始狂欢!</string>
+
+	<string name="arena.wavecompleted">完成一波!</string>
+	<string name="arena.victory">胜利!</string>
+	<string name="arena.altar.buff">祭坛为您提供强大的恩惠!</string>
+	<string name="arena.altar.boulders">祭坛激活了大滚石!</string>
+	<string name="arena.altar.bloodlust">祭坛激活嗜血者!</string>
+	<string name="arena.altar.blizzard">祭坛激活了暴雪!</string>
+	<string name="arena.altar.darkness">祭坛激活了黑暗!</string>
+	<string name="arena.altar.meteor">祭坛激活了流星雨!</string>
+	<string name="arena.altar.storm">祭坛激活了雷暴!</string>
+	<string name="arena.altar.tornado">祭坛激活尘魔!</string>
+	<string name="arena.altar.wind">祭坛激活了狂风!</string>
+	<string name="arena.altar.gatherparty">您必须聚集您的队伍才能停止该事件!</string>
+
+	<!-- Sarcophagus -->
+	<string name="sarcophagus.title">石棺</string>
+	<string name="sarcophagus.line1">迎面一股恶臭的味道.</string>
+	<string name="sarcophagus.line2">石棺底部有一些装备物品.</string>
+	<string name="sarcophagus.accept">接受</string>
+	<string name="sarcophagus.cursehelp">被诅咒并有 %chance%%机会闪避全部伤害.你也有机会受到伤害来源 %damage%%的致命伤害.</string>
+
+
+	<!-- Colors Everyone -->
+	<string name="color.skin">肤色</string>
+
+	<!-- Colors Paladin -->
+	<string name="color.paladin.body">身体</string>
+	<string name="color.paladin.shoulders">肩部</string>
+	<string name="color.paladin.guard">头盔</string>
+
+	<!-- Colors Ranger -->
+	<string name="color.ranger.hood">头巾</string>
+	<string name="color.ranger.cape">披风</string>
+	<string name="color.ranger.shoulders">肩部</string>
+
+	<!-- Colors Sorcerer -->
+	<string name="color.sorc.hat">帽子</string>
+	<string name="color.sorc.robe">长袍</string>
+	<string name="color.sorc.border">镶边</string>
+
+	<!-- Colors Thief -->
+	<string name="color.thief.hair">头发</string>
+	<string name="color.thief.scarf">围巾</string>
+	<string name="color.thief.jacket">外套</string>
+
+	<!-- Colors Warlock -->
+	<string name="color.warlock.helmet">头盔</string>
+	<string name="color.warlock.robe">长袍</string>
+	<string name="color.warlock.staff">法杖</string>
+
+	<!-- Colors Priest -->
+	<string name="color.priest.robe">长袍</string>
+	<string name="color.priest.cape">披风</string>
+	<string name="color.priest.mitra">帽子</string>
+
+	<!-- Colors Priest -->
+	<string name="color.wizard.robe">长袍</string>
+	<string name="color.wizard.border">镶边</string>
+	<string name="color.wizard.staff">法杖</string>
+
+	<string name="hud.spectate.who">旁观 %name%</string>
+	<string name="hud.spectate.help">按 攻击键 观看下一位玩家</string>
+	<string name="dead.gameover.spectate">按 使用键 旁观</string>
+
+	<string name="gameover.sentence.experience">你失去了 %num% 经验.</string>
+	<string name="gameover.restart">重新开始</string>
+
+	<string name="modifier.list.player">人物</string>
+	<string name="modifier.list.classtitle">职业称号: %title%</string>
+	<string name="modifier.list.title">称号: %title%</string>
+	<string name="modifier.list.statue">雕像: %statue%</string>
+	<string name="modifier.list.building">城镇: %level%级 %building%</string>
+	<string name="hud.accomplishment.done">成就: %name%</string>
+
+	<string name="modifier.list.player.items">装备</string>
+	<string name="modifier.list.player.skills">技能</string>
+	<string name="modifier.list.player.upgrades">升级</string>
+	<string name="modifier.list.player.buffs">增益效果</string>
+	<string name="modifier.list.player.titles">职业称号</string>
+	<string name="modifier.list.player.tavern_drinks">酒水</string>
+	<string name="modifier.list.player.statues">雕像</string>
+
+	<string name="ui_key_count">显示钥匙数量</string>
+	<string name="ui_key_count.help">在界面显示你拥有钥匙的数量.</string>
+	<string name="ui_speechbubble_alpha">对话框透明度</string>
+	<string name="ui_speechbubble_alpha.help">聊天框透明度.</string>
+	<string name="ui_cursor_health">准星</string>
+	<string name="ui_cursor_health.help">准星上显示你的生命值和魔法值.</string>
+	<string name="ui_minimap_alpha">地图透明度</string>
+	<string name="ui_minimap_alpha.help">小地图的透明度.</string>
+	<string name="ui_draw_plr_names">玩家名字</string>
+	<string name="ui_draw_plr_names.help">多人模式显示玩家名字.</string>
+	<string name="ui_draw_plr_names.onlytown">仅在城镇中</string>
+	<string name="ui_draw_plr_names_real">玩家真实名字</string>
+	<string name="ui_draw_plr_names_real.help">在多人模式中显示玩家真实的名字而不是英雄名字.</string>
+	<string name="ui_txt_enemy_hurt_husk">造成伤害数字</string>
+	<string name="ui_txt_enemy_hurt_husk.help">选择是否显示其他玩家造成的伤害数字</string>
+	<string name="ui_txt_enemy_hurt_local">自己的伤害</string>
+	<string name="ui_txt_enemy_hurt_local.help">选择是否显示自己造成的伤害数字.</string>
+
+	<string name="ui_minimap_size">小地图</string>
+	<string name="ui_minimap_size.help">在屏幕右上角显示小地图.</string>
+	<string name="ui_minimap_size.small">小</string>
+	<string name="ui_minimap_size.medium">中</string>
+	<string name="ui_minimap_size.big">大</string>
+
+	<!-- Gambling -->
+	<string name="gambling.house">庄</string>
+	<string name="gambling.you">你</string>
+	<string name="town.cardgame.battlestatus">%player% vs %house%</string>
+	<string name="gambling.card.wildcard">尖刺陷阱! (*)</string>
+
+	<string name="gambling.card.1.1">基本牌 -建筑物 (1)</string>
+	<string name="gambling.card.1.2">基本牌 -建筑物 (2)</string>
+	<string name="gambling.card.1.3">基本牌 -建筑物 (3)</string>
+	<string name="gambling.card.1.4">基本牌 -建筑物 (4)</string>
+	<string name="gambling.card.1.5">基本牌 -建筑物 (5)</string>
+	<string name="gambling.card.1.6">基本牌 -建筑物 (6)</string>
+	<string name="gambling.card.1.7">假人 -建筑物 (7)</string>
+	<string name="gambling.card.1.8">堡垒 -建筑物 (8)</string>
+	<string name="gambling.card.1.9">新星塔 -建筑物 (9)</string>
+	<string name="gambling.card.1.10">傀儡 -建筑物 (10)</string>
+
+	<string name="gambling.card.2.1">基本牌 -野兽 (1)</string>
+	<string name="gambling.card.2.2">基本牌 -野兽 (2)</string>
+	<string name="gambling.card.2.3">基本牌 -野兽 (3)</string>
+	<string name="gambling.card.2.4">基本牌 -野兽 (4)</string>
+	<string name="gambling.card.2.5">基本牌 -野兽 (5)</string>
+	<string name="gambling.card.2.6">基本牌 -野兽 (6)</string>
+	<string name="gambling.card.2.7">蝙蝠 -野兽 (7)</string>
+	<string name="gambling.card.2.8">蜱虫 -野兽 (8)</string>
+	<string name="gambling.card.2.9">蛆虫女王 -野兽 (9)</string>
+	<string name="gambling.card.2.10">红龙 -野兽 (10)</string>
+
+	<string name="gambling.card.3.1">基本牌 -亡灵 (1)</string>
+	<string name="gambling.card.3.2">基本牌 -亡灵 (2)</string>
+	<string name="gambling.card.3.3">基本牌 -亡灵 (3)</string>
+	<string name="gambling.card.3.4">基本牌 -亡灵 (4)</string>
+	<string name="gambling.card.3.5">基本牌 -亡灵 (5)</string>
+	<string name="gambling.card.3.6">基本牌 -亡灵 (6)</string>
+	<string name="gambling.card.3.7">骷髅 -亡灵 (7)</string>
+	<string name="gambling.card.3.8">巫妖 -亡灵 (8)</string>
+	<string name="gambling.card.3.9">狱卒 -亡灵 (9)</string>
+	<string name="gambling.card.3.10">幽灵 -亡灵 (10)</string>
+
+	<string name="gambling.card.4.1">基本牌 -变异 (1)</string>
+	<string name="gambling.card.4.2">基本牌 -变异 (2)</string>
+	<string name="gambling.card.4.3">基本牌 -变异 (3)</string>
+	<string name="gambling.card.4.4">基本牌 -变异 (4)</string>
+	<string name="gambling.card.4.5">基本牌 -变异 (5)</string>
+	<string name="gambling.card.4.6">基本牌 -变异 (6)</string>
+	<string name="gambling.card.4.7">小眼球 -变异 (7)</string>
+	<string name="gambling.card.4.8">精灵 -变异 (8)</string>
+	<string name="gambling.card.4.9">食人族 -变异 (9)</string>
+	<string name="gambling.card.4.10">监察者 -变异 (10)</string>
+
+	<string name="rg_pixel_perfect">高级像素渲染</string>
+	<string name="rg_pixel_perfect.help">提供更真实的像素画面,但可能会导致卡顿.</string>
+
+
+
+	<!-- MENU -->
+
+
+	<!-- main menu -->
+	<string name="mainmenu.newcharacter">新游戏</string>
+	<string name="mainmenu.selectcharacter">继续</string>
+	<string name="mainmenu.gameoptions.title">游戏设置</string>
+	<string name="mainmenu.graphicsoptions.title">图像设置</string>
+	<string name="mainmenu.soundoptions.title">声音设置</string>
+	<string name="mainmenu.controls.title">控制</string>
+	<string name="mainmenu.languages.title">语言</string>
+	<string name="mainmenu.languages.restart-confirm">您更改语言后必须重新启动游戏!</string>
+	<string name="mainmenu.resolutions.title">分辨率</string>
+	<string name="mainmenu.host.title">主机</string>
+	<string name="mainmenu.host.public">公共</string>
+	<string name="mainmenu.host.private">私人</string>
+	<string name="mainmenu.host.name">%name% 的房间</string>
+	<string name="mainmenu.host.maxplayers">玩家人数上限</string>
+	<string name="mainmenu.host.maxlevel">英雄等级上限</string>
+	<string name="mainmenu.host.minlevel">英雄等级下限</string>
+	<string name="mainmenu.host.ngp">游戏周目NG+</string>
+	<string name="mainmenu.host.downscaling">削弱平衡</string>
+	<string name="mainmenu.host.downscaling.description">限制最高称号等级加成,使其与当前难度等级平衡.</string>
+	<string name="mainmenu.host.allowmodded">允许修改配置文件</string>
+	<string name="mainmenu.host.allowmodded.description">可以允许修改配置文件的玩家加入您的房间.</string>
+	<string name="mainmenu.serverlist.title">服务器列表</string>
+	<string name="mainmenu.serverlist.level-restriction.both">英雄等级要求: %min% - %max%</string>
+	<string name="mainmenu.serverlist.level-restriction.min">最低英雄等级: %min%</string>
+	<string name="mainmenu.serverlist.level-restriction.max">最高英雄等级: %max%</string>
+	<string name="mainmenu.serverlist.ngp">NG+: \cffc400+%ngp%</string>
+	<string name="mainmenu.serverlist.charname">%name%  %lvl%级 %class%</string>
+	<string name="mainmenu.serverlist.downscaling">启用平衡模式.</string>
+	<string name="mainmenu.serverlist.mods.one">一个模组</string>
+	<string name="mainmenu.serverlist.mods.plural">%num% 个模组</string>
+	<string name="mainmenu.serverlist.mods.dontmatch">你启用的模组不匹配!</string>
+	<string name="mainmenu.serverlist.mod-restriction">修改过配置文件不允许加入.</string>
+	<string name="mainmenu.multiplayer.disabled">多人游戏无法连接,请稍后再试.</string>
+	<string name="mainmenu.multiplayer.disabled.mods">由于启用的模组文件未解压,多人游戏模式被禁用.</string>
+
+	<!-- character selection -->
+	<string name="mainmenu.character.select.title">选择英雄</string>
+	<string name="mainmenu.character.select.name">%class%-%name%</string>
+	<string name="mainmenu.character.select.play">开始!</string>
+	<string name="mainmenu.character.select.new">新角色</string>
+	<string name="mainmenu.character.select.select">选择</string>
+
+	<!-- character creation -->
+	<string name="mainmenu.character.create.title">创建角色</string>
+	<string name="mainmenu.character.create.random">随机</string>
+	<string name="mainmenu.character.create.play">开始</string>
+	<string name="mainmenu.character.create.voicepitch">声调</string>
+	<string name="mainmenu.character.colors.title">颜色</string>
+	<string name="mainmenu.character.delete.text">真的要删除 '%name%'吗?</string>
+	<string name="menu.restart.tooltip">返回城镇. 这将视为死亡!</string>
+	<string name="mainmenu.character.customize.title">自定义角色</string>
+	<string name="mainmenu.character.customize.finish">花费 %cost% 自定义你的角色?</string>
+	<string name="mainmenu.character.free">你的第一件装扮已经在家里了!</string>
+	<string name="mainmenu.character.create.next">继续</string>
+
+	<!-- save slots -->
+	<string name="mainmenu.slots.title">选择存档</string>
+	<string name="mainmenu.slots.create">创建新存档</string>
+	<string name="mainmenu.slots.name">第%num%号存档</string>
+	<string name="mainmenu.slots.clone">选择该存档</string>
+	<string name="mainmenu.slots.clone.prompt">你确定把%num%号的城镇存档覆盖到%newnum%号存档?</string>
+	<string name="mainmenu.slots.edit">选择模组</string>
+	<string name="mainmenu.slots.edit.prompt">启用模组后该存档会标记安装过模组,你确定要在第%num%号存档启用模组吗?</string>
+	<string name="mainmenu.slots.delete">删除该存档e</string>
+	<string name="mainmenu.slots.delete.prompt">你确定要删除第%num%号的城镇存档吗?删除后不能恢复!</string>
+	<string name="mainmenu.slots.switch">切换到该存档</string>
+	<string name="mainmenu.editslot.title">选择模组</string>
+	<string name="mainmenu.editslot.saving">正在存档中...</string>
+
+	<!-- options > controls -->
+	<string name="menu.controls.attack1">主动技能 1</string>
+	<string name="menu.controls.attack2">主动技能 2</string>
+	<string name="menu.controls.attack3">主动技能 3</string>
+	<string name="menu.controls.attack4">主动技能 4</string>
+	<string name="menu.controls.potion">药剂</string>
+	<string name="menu.controls.playermenu">玩家菜单</string>
+	<string name="menu.controls.guildmenu">公会</string>
+	<string name="menu.controls.mapoverlay">打开地图</string>
+	<string name="menu.controls.ping">地图标记</string>
+
+	<string name="menu.mplayer">多人游戏</string>
+	<string name="menu.mplayer.clobby">创建房间</string>
+	<string name="menu.mplayer.slist">服务器列表</string>
+	<string name="menu.options">选项</string>
+	<string name="menu.credits">制作人员</string>
+	<string name="menu.quit">退出</string>
+	<string name="menu.apply">应用</string>
+	<string name="menu.back">返回</string>
+	<string name="menu.ok">确定</string>
+	<string name="menu.accept">确认</string>
+	<string name="menu.yes">是</string>
+	<string name="menu.no">否</string>
+	<string name="menu.profiles">存档</string>
+
+	<!-- options -> * -->
+	<string name="menu.o.game">游戏</string>
+	<string name="menu.o.graphics">图像</string>
+	<string name="menu.o.sound">声音</string>
+	<string name="menu.o.ctrls">控制</string>
+
+	<string name="menu.resume">恢复</string>
+	<string name="menu.off">关</string>
+	<string name="menu.on">开</string>
+	<string name="menu.none">无</string>
+	<string name="menu.all">全</string>
+	<string name="menu.low">低</string>
+	<string name="menu.medium">中</string>
+	<string name="menu.high">高</string>
+	<string name="menu.defaults">重置</string>
+	<string name="menu.defaults.help">将所有设置重置为默认值.</string>
+	<string name="menu.change">更改</string>
+	<string name="menu.defaults_dialog">将所有设置重置为默认值?</string>
+
+	<!-- options -> game -->
+	<string name="menu.game.defaults_dialog">将所有游戏设置重置为默认值?</string>
+	<string name="g_language">语言</string>
+	<string name="g_language.help">显示语言.</string>
+	<string name="g_gore">血块</string>
+	<string name="g_gore.help">显示血液和血块.</string>
+	<string name="g_autoswitch">自动切换</string>
+	<string name="g_autoswitch.help">自动切换为新武器.</string>
+	<string name="ui_cursor_alpha">透明光标</string>
+	<string name="ui_cursor_alpha.help">光标透明度.</string>
+	<string name="ui_netricsa_world">NETRICSA世界通知</string>
+	<string name="ui_netricsa_world.help">通知有关NETRICSA世界的消息.</string>
+	<string name="ui_netricsa_notes">NETRICSA笔记通知</string>
+	<string name="ui_netricsa_notes.help">通知有关NETRICSA世界的消息.</string>
+	<string name="ui_netricsa_items">NETRICSA道具通知</string>
+	<string name="ui_netricsa_items.help">通知有关NETRICSA道具的消息.</string>
+	<string name="ui_netricsa_enemies">NETRICSA敌人通知</string>
+	<string name="ui_netricsa_enemies.help">通知有关NETRICSA敌人的消息.</string>
+	<string name="g_txt">拾取信息</string>
+	<string name="g_txt.help">显示拾取道具的信息.</string>
+	<string name="menu.crumb.options.game">选项 > 游戏</string>
+	<string name="menu.game.texts">文本</string>
+	<string name="menu.game.texts.help">Toggle individual floating texts.</string>
+	<string name="g_wheel_showammo">SHOW WEAPON WHEEL AMMO</string>
+	<string name="g_wheel_showammo.help">Show ammo count on weapon wheel.</string>
+
+	<!-- options > game > texts -->
+	<string name="menu.game.texts.defaults_dialog">Reset all floating texts settings to their defaults?</string>
+	<string name="g_txt_plr_hurt">PLAYER HURT</string>
+	<string name="g_txt_plr_hurt.help">Show player damage texts.</string>
+	<string name="g_txt_enemy_hurt">ENEMY HURT</string>
+	<string name="g_txt_enemy_hurt.help">Show enemy damage texts.</string>
+	<string name="g_txt_plr_heal">PLAYER HEAL</string>
+	<string name="g_txt_plr_heal.help">Show player healing texts.</string>
+	<string name="g_txt_enemy_heal">ENEMY HEAL</string>
+	<string name="g_txt_enemy_heal.help">Show enemy healing texts.</string>
+	<string name="g_txt_enemy_immortal">ENEMY IMMORTAL</string>
+	<string name="g_txt_enemy_immortal.help">Show enemy immortal damage texts.</string>
+	<string name="g_txt_plr_armor">PLAYER ARMOR</string>
+	<string name="g_txt_plr_armor.help">Show player armor pickup texts.</string>
+	<string name="g_txt_plr_ammo">PLAYER AMMO</string>
+	<string name="g_txt_plr_ammo.help">Show player ammo pickup texts.</string>
+	<string name="g_txt_pickup">PLAYER PICKUP</string>
+	<string name="g_txt_pickup.help">Show player pickup texts.</string>
+
+	<!-- options > graphics -->
+	<string name="v_resolution">分辨率</string>
+	<string name="v_resolution.help">屏幕分辨率.</string>
+	<string name="menu.graphics.defaults_dialog">将所有图像设置重置为默认值?</string>
+	<string name="bgfx_renderer">渲染 API</string>
+	<string name="bgfx_renderer.help">选择使用的渲染器.</string>
+	<string name="bgfx_renderer.gl">OPENGL</string>
+	<string name="bgfx_renderer.dx9">DIRECTX 9</string>
+	<string name="bgfx_renderer.dx11">DIRECTX 11</string>
+	<string name="v_fullscreen">全屏</string>
+	<string name="v_fullscreen.help">使用全屏模式.</string>
+	<string name="v_vsync">垂直同步</string>
+	<string name="v_vsync.help">启用垂直同步.</string>
+	<string name="v_vsync.dynamic">自适应</string>
+	<string name="v_fps_limit">帧率限制</string>
+	<string name="v_fps_limit.help">将帧率限制在特定的数值.</string>
+	<string name="r_smooth_scrolling">平滑移动</string>
+	<string name="r_smooth_scrolling.help">在屏幕里平滑地移动视角.</string>
+	<string name="r_hdr">动态光源</string>
+	<string name="r_hdr.help">使用动态范围.</string>
+	<string name="r_light_decal_proj">光影</string>
+	<string name="r_light_decal_proj.help">投射灯光和贴图到墙上</string>
+	<string name="r_shadows">阴影</string>
+	<string name="r_shadows.help">使用阴影投射.</string>
+	<string name="r_shadows.sun">阳光</string>
+	<string name="r_draw_decals">贴图</string>
+	<string name="r_draw_decals.help">显示贴图.</string>
+	<string name="r_draw_lights">灯光</string>
+	<string name="r_draw_lights.help">显示灯光.</string>
+	<string name="r_draw_xray">X射线</string>
+	<string name="r_draw_xray.help">显示墙后玩家和敌人.</string>
+	<string name="r_draw_outlines">轮廓</string>
+	<string name="r_draw_outlines.help">显示物体的轮廓.</string>
+	<string name="g_vfx_quality">特效等级</string>
+	<string name="g_vfx_quality.help">特效的等级.</string>
+	<string name="e_debris_limit">碎片数量</string>
+	<string name="e_debris_limit.help">显示在屏幕上的最大碎片数量.</string>
+	<string name="g_adv_foliage">复杂叶子</string>
+	<string name="g_adv_foliage.help">使用复杂的叶子动画.</string>
+	<string name="rg_brightness">亮度</string>
+	<string name="rg_gamma">伽马值</string>
+	<string name="rg_contrast">对比度</string>
+	<string name="rg_crt_curve">CRT 曲屏</string>
+	<string name="v_forced_aspectratio">LETTERBOX</string>
+	<string name="v_forced_aspect_ratio.help">长宽比.</string>
+
+	<!-- options > sound -->
+	<string name="menu.sound.defaults_dialog">将所有声音设置重置为默认值?</string>
+	<string name="snd_volume">主音量</string>
+	<string name="snd_volume_music">音乐</string>
+	<string name="snd_volume_sfx">音效</string>
+	<string name="snd_volume_voice">语音</string>
+	<string name="snd_volume_env">环境音</string>
+	<string name="snd_volume_ui">界面</string>
+
+	<!-- options > controls -->
+	<string name="menu.crumb.options.controls">选项 > 控制</string>
+	<string name="menu.controls.defaults_dialog">重置所有玩家的控制设定为默认值?</string>
+	<string name="menu.controls.player">玩家</string>
+	<string name="menu.controls.player.help">需要修改设置的玩家.</string>
+
+	<string name="menu.controls.layout">CONTROLS LAYOUT</string>
+	<string name="menu.controls.layout.help">The base control scheme to use for this player.</string>
+	<string name="menu.controls.layout.kbm">键盘和鼠标</string>
+	<string name="menu.controls.layout.gp1">GAMEPAD 1</string>
+	<string name="menu.controls.layout.gp2">GAMEPAD 2</string>
+	<string name="menu.controls.layout.gp3">GAMEPAD 3</string>
+	<string name="menu.controls.layout.gp4">GAMEPAD 4</string>
+
+	<string name="menu.controls.move">MOVEMENT</string>
+	<string name="menu.controls.move.help">What to use for moving the player.</string>
+	<string name="menu.controls.move.keyboard">KEYBOARD</string>
+	<string name="menu.controls.move.gp_left">GAMEPAD: LEFT STICK</string>
+	<string name="menu.controls.move.gp_right">GAMEPAD: RIGHT STICK</string>
+
+	<string name="menu.controls.aim">AIMING</string>
+	<string name="menu.controls.aim.help">What to use for aiming your weapon.</string>
+	<string name="menu.controls.aim.mouse">MOUSE</string>
+	<string name="menu.controls.aim.gp_right">GAMEPAD: RIGHT STICK</string>
+	<string name="menu.controls.aim.gp_left">GAMEPAD: LEFT STICK</string>
+
+	<string name="menu.controls.custom">CUSTOM</string>
+	<string name="menu.controls.up">UP</string>
+	<string name="menu.controls.down">DOWN</string>
+	<string name="menu.controls.left">LEFT</string>
+	<string name="menu.controls.right">RIGHT</string>
+	<string name="menu.controls.back">BACK</string>
+	<string name="menu.controls.attack">ATTACK</string>
+	<string name="menu.controls.dash">DODGE</string>
+	<string name="menu.controls.reload">RELOAD</string>
+	<string name="menu.controls.use">使用</string>
+	<string name="menu.controls.netricsa">NETRICSA</string>
+	<string name="menu.controls.nextweapon">NEXT WEAPON</string>
+	<string name="menu.controls.prevweapon">PREVIOUS WEAPON</string>
+	<string name="menu.controls.changeweapon">WEAPON WHEEL</string>
+	<string name="menu.controls.weapon1">WEAPON 1</string>
+	<string name="menu.controls.weapon2">WEAPON 2</string>
+	<string name="menu.controls.weapon3">WEAPON 3</string>
+	<string name="menu.controls.weapon4">WEAPON 4</string>
+	<string name="menu.controls.weapon5">WEAPON 5</string>
+	<string name="menu.controls.weapon6">WEAPON 6</string>
+	<string name="menu.controls.weapon7">WEAPON 7</string>
+	<string name="menu.controls.weapon8">WEAPON 8</string>
+	<string name="menu.controls.weapon9">WEAPON 9</string>
+	<string name="menu.controls.menu.up">MENU UP</string>
+	<string name="menu.controls.menu.down">MENU DOWN</string>
+	<string name="menu.controls.menu.left">MENU LEFT</string>
+	<string name="menu.controls.menu.right">MENU RIGHT</string>
+	<string name="menu.controls.menu.forward">MENU FORWARD</string>
+	<string name="menu.controls.menu.back">MENU BACK</string>
+	<string name="menu.controls.menu.toggle">MENU TOGGLE</string>
+	<string name="menu.controls.menu.chatall">CHAT</string>
+	<string name="menu.controls.menu.chatteam">TEAM CHAT</string>
+
+	<string name="menu.input.leftmouse">LMB</string>
+	<string name="menu.input.middlemouse">MMB</string>
+	<string name="menu.input.rightmouse">RMB</string>
+	<string name="menu.input.mousewheelup">SCROLL UP</string>
+	<string name="menu.input.mousewheeldown">SCROLL DOWN</string>
+	<string name="menu.input.mousenum">MOUSE %num%</string>
+
+	<string name="menu.input.invert">INVERTED</string>
+
+	<!-- platform friends -->
+	<string name="platform.friendstatus.offline">Offline</string>
+	<string name="platform.friendstatus.busy">Busy</string>
+	<string name="platform.friendstatus.away">Away</string>
+	<string name="platform.friendstatus.online">Online</string>
+	<string name="platform.friendstatus.ingame">Playing Bogus Detour</string>
+	<string name="platform.friendstatus.inlobby">Playing Bogus Detour Online</string>
+
+	<string name="platform.friendcontext.profile">View profile</string>
+	<string name="platform.friendcontext.invite">Invite to game</string>
+	<string name="platform.friendcontext.close">Close</string>
+
+	<!-- lobby -->
+	<string name="menu.lobby.wait.hosting">创建房间...</string>
+	<string name="menu.lobby.wait.joining">进入房间...</string>
+
+	<string name="menu.lobby.title.hosting">房间: 主机</string>
+	<string name="menu.lobby.title.joining">房间</string>
+
+	<string name="menu.lobby.chat.revive">%reviver% 复活了 %revivee%. 他们的灵魂现在被连接在一起.</string>
+	<string name="menu.lobby.chat.revive.free">%revivee% 被复活了.</string>
+	<string name="menu.lobby.chat.soulsunlinked">所有的灵魂链接都已解除.</string>
+	<string name="menu.lobby.chat.soullinkdeath">%name% 因为 %killer% 的死亡而被牵连致死. </string>
+	<string name="menu.lobby.chat.death">%name% 死于 %killer% 手下.</string>
+	<string name="menu.lobby.chat.suicide">%name% 死了.</string>
+
+	<string name="menu.lobby.ready">准备</string>
+	<string name="menu.lobby.unready">取消准备</string>
+	<string name="menu.lobby.start">开始游戏</string>
+	<string name="menu.lobby.start.wait">强制\n开始</string>
+	<string name="menu.lobby.switchcount">%a%/%b% 激活</string>
+	<string name="menu.lobby.readycount">%a%/%b% 准备</string>
+	<string name="menu.lobby.private">私人</string>
+	<string name="menu.lobby.hostoptions.changelevel">层数调整</string>
+	<string name="menu.lobby.abort">解散</string>
+	<string name="menu.lobby.abort.prompt">确定要解散多人游戏吗?</string>
+	<string name="menu.lobby.leave">离开</string>
+	<string name="menu.lobby.leave.prompt">确定要离开多人游戏吗?</string>
+
+	<string name="menu.lobby.chat.isready">%name% 已经准备好了.</string>
+	<string name="menu.lobby.chat.isunready">%name% 取消准备.</string>
+	<string name="menu.lobby.chat.isjoined">%name% 加入了游戏.</string>
+	<string name="menu.lobby.chat.isleft">%name% 离开了.</string>
+	<string name="menu.lobby.chat.iskicked">%name% 被房主踢出了游戏.</string>
+	<string name="menu.lobby.hostoptions.currentmods">%count% 个mod</string>
+	<string name="menu.lobby.hostoptions.setdifficulty">难度</string>
+	<string name="menu.lobby.hostoptions.setmods">开关</string>
+
+	<string name="menu.lobby.missing">场景缺失</string>
+	<string name="menu.lobby.chat.missing">%player% 没有 "%scenario%".</string>
+	<string name="menu.lobby.chat.missing.level">%player% 没有%scenario%的第%level%层.</string>
+	<string name="menu.lobby.missing.level">层数缺失</string>
+	<string name="menu.lobby.chat.missing.you">你没有 "%scenario%".</string>
+
+	<string name="mainmenu.lobbyplayers.title">玩家列表</string>
+	<string name="mainmenu.lobbyplayers.title.multiple">玩家列表 (%count% 玩家)</string>
+	<string name="mainmenu.lobbyplayers.kick.prompt">你确定要踢掉 %name%?</string>
+	<string name="mainmenu.lobbyplayers.profile.tooltip">打开玩家个人页面.</string>
+	<string name="mainmenu.lobbyplayers.kick.tooltip">踢掉玩家.</string>
+	<string name="mainmenu.lobbyplayers.level">%level%级</string>
+
+	<!-- server list -->
+	<string name="menu.serverlist.refresh">刷新</string>
+	<string name="menu.serverlist.inlobby">房间中</string>
+
+	<!-- hud overlay -->
+	<string name="menu.notifier.saved">保存当前进度</string>
+	<string name="menu.notifier.lostconnection">连接中断.</string>
+	<string name="menu.notifier.joinfailed.mods">你无法加入房间,因为你没有启用跟房主一样的模组. 房主启用了 %num%: %mods%</string>
+	<string name="menu.notifier.joinfailed.level">你无法加入房间,因为你等级与房主限制的等级不符.(至少%min%级,最高%max%级)</string>
+	<string name="menu.notifier.joinfailed.allowedmods">无法加入房间,因为房主已选择不允许修改配置文件.</string>
+
+
+
+	<string name="misc.autosave">自动保存</string>
+	<string name="misc.timeletters.hours">时</string>
+	<string name="misc.timeletters.minutes">分</string>
+	<string name="misc.timeletters.seconds">秒</string>
+	<string name="menu.search">搜索:</string>
+
+
+	<string name="menu.crumb.options.graphics">OPTIONS > 图像</string>
+	<string name="menu.crumb.options.sound">OPTIONS > 声音</string>
+	<string name="menu.unsaved_dialog">有未保存的更改,是否保存?</string>
+
+	<string name="menu.lobby.chat.minplayers">至少要%min%名玩家才能开始.</string>
+	<string name="menu.lobby.chat.maxplayers">在您最多可以拥有％max％名玩家.</string>
+
+
+	<string name="menu.loadgame.rename">重新保存?</string>
+
+	<string name="menu.controls.layout.sc1">STEAM 手柄 1</string>
+	<string name="menu.controls.layout.sc2">STEAM 手柄 2</string>
+	<string name="menu.controls.layout.sc3">STEAM 手柄 3</string>
+	<string name="menu.controls.layout.sc4">STEAM 手柄 4</string>
+
+	<string name="menu.controls.scinputs.prompt">Steam控制器的绑定必须在Steam客户端完成.</string>
+
+
+	<string name="menu.automatic">自动</string>
+	<string name="g_laser_sight">辅助准线</string>
+	<string name="g_laser_sight.help">显示一条辅助瞄准线. 仅在使用手柄时自动显示.</string>
+
+	<string name="menu.controls.menuup">菜单上移</string>
+	<string name="menu.controls.menudown">菜单下移</string>
+	<string name="menu.controls.menuleft">菜单左移</string>
+	<string name="menu.controls.menuright">菜单右移</string>
+	<string name="menu.controls.menuforward">菜单下移</string>
+	<string name="menu.controls.menuback">菜单返回</string>
+	<string name="menu.controls.menutoggle">切换菜单</string>
+
+	<string name="v_forced_aspect_ratio">长宽比</string>
+
+	<string name="rg_brightness.help">增加或减少亮度.</string>
+	<string name="rg_gamma.help">增加或减少伽马值.</string>
+	<string name="rg_contrast.help">增加或减少对比度.</string>
+	<string name="rg_crt_curve.help">模仿CRT显示器曲率.</string>
+
+	<string name="ui_txt">浮动文字</string>
+	<string name="ui_txt.help">显示浮动文字,例如伤害数值和拾取信息.</string>
+
+	<string name="menu.crumb.options.serverlist">MULTIPLAYER >服务器列表</string>
+	<string name="menu.serverlist.server">服务器</string>
+	<string name="menu.serverlist.scenario">场景</string>
+	<string name="menu.serverlist.players">玩家</string>
+
+	<string name="menu.close">选择</string>
+
+
+
+	<string name="menu.controls.move_y.axis1">上移</string>
+	<string name="menu.controls.move_y.axis2">下移</string>
+	<string name="menu.controls.move_x.axis1">左移</string>
+	<string name="menu.controls.move_x.axis2">右移</string>
+
+	<string name="menu.controls.menuchatall">聊天</string>
+
+	<string name="menu.crumb.multiplayer.hostoptions">多人游戏 > 服务器 > 服务器选项</string>
+
+	<string name="menu.lobby.serveroptions">服务器选项</string>
+	<string name="menu.lobby.gem.activated">启用的宝石</string>
+	<string name="menu.lobby.gem.activated.perfect">启用的完美宝石</string>
+	<string name="menu.lobby.gem.deactivated">禁用的宝石</string>
+
+	<string name="g_screenshake">屏幕震动</string>
+	<string name="g_screenshake.help">游戏中屏幕震动次数.</string>
+	<string name="v_fullscreen.windowed">无边框</string>
+	<string name="r_draw_glow">光晕</string>
+	<string name="r_draw_glow.help">显示光晕</string>
+	<string name="menu.cancel">取消</string>
+
+	<string name="menu.controls.layout.ds41">手柄摇杆 1</string>
+	<string name="menu.controls.layout.ds42">手柄摇杆 2</string>
+	<string name="menu.controls.layout.ds43">手柄摇杆 3</string>
+	<string name="menu.controls.layout.ds44">手柄摇杆 4</string>
+
+	<string name="menu.notifier.joinfailed.join">无法加入房间.</string>
+	<string name="menu.notifier.joinfailed.host">无法创建房间.</string>
+	<string name="menu.loading">加载中</string>
+
+	<string name="menu.splitscreen.newgame">新游戏</string>
+	<string name="menu.splitscreen.noplayers">你不能在没有玩家的情况下开始游戏!</string>
+	<string name="menu.splitscreen.prompt">按返回键离开</string>
+	<string name="menu.splitscreen.join.kbm">按下键盘任意按键</string>
+	<string name="menu.splitscreen.join.gp">按下手柄任意按键</string>
+	<string name="menu.splitscreen.gameoptions">游戏选项</string>
+
+	<string name="menu.discord">加入铁锤守卫的\nDiscord官方频道</string>
+	<string name="menu.wiki">访问铁锤守卫：英雄的\n官方Wiki</string>
+
+	<string name="mods.by">制作者为 %author%</string>
+	<string name="mods.count">%num% 个模组</string>
+	<string name="mods.count.1">1个模组</string>
+	<string name="mods.listitem">%name% 模组作者为 %author%</string>
+	<string name="mods.unpacked">提示: 该模组未解压!</string>
+	<string name="mods.help.modded">就算全部模组关闭了,该存档仍然标记为已安装模组.</string>
+	<string name="shop.modding">赞助制作模组人员</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- TOWN -->
+
+
+	<!-- misc -->
+	<string name="fountain.question">你想往喷泉里扔点钱吗?</string>
+	<string name="shop.menu.soldout">现在没有能买的东西了.</string>
+	<string name="town.dungeonsettings.title">地牢设置</string>
+	<string name="town.dungeonsettings.ngp">选择普通难度或者新周目难度NG+.</string>
+
+	<!-- shop names -->
+	<string name="shop.tier.num">%num% 级技能</string>
+	<string name="shop.apothecary">药剂师 艾力安达</string>
+	<string name="shop.blacksmith">铁匠 巴洛</string>
+	<string name="shop.chapel">传教士</string>
+	<string name="shop.dungeonstore">流浪商人</string>
+	<string name="shop.desertstore">可疑的贝因都商人</string>
+	<string name="shop.fountain">幸运喷泉</string>
+	<string name="shop.generalstore">杂货店</string>
+	<string name="shop.magicshop">魔法商店</string>
+	<string name="shop.skills">教练 卡尔霍恩</string>
+	<string name="shop.statues">雕刻家</string>
+	<string name="shop.townhall">镇长 格雷</string>
+	<string name="shop.oretrader">矿石商人 奥利弗</string>
+
+	<string name="town.building.townhall">市政厅</string>
+	<string name="town.building.guildhall">公会大厅</string>
+	<string name="town.building.generalstore">商店</string>
+	<string name="town.building.blacksmith">铁匠</string>
+	<string name="town.building.apothecary">药剂师</string>
+	<string name="town.building.fountain">喷泉</string>
+	<string name="town.building.magicshop">魔法商店</string>
+	<string name="town.building.chapel">教堂</string>
+	<string name="town.building.tavern">酒馆</string>
+	<string name="town.building.treasury">金库</string>
+	<string name="town.building.oretrader">矿石商人</string>
+
+	<!-- town hall -->
+	<string name="shop.townhall.townhall-1.name">一级市政厅</string>
+	<string name="shop.townhall.townhall-1.desc">解锁一级建筑物.</string>
+
+	<string name="shop.townhall.townhall-2.name">二级市政厅</string>
+	<string name="shop.townhall.townhall-2.desc">解锁二级建筑物.</string>
+
+	<string name="shop.townhall.townhall-3.name">三级市政厅</string>
+	<string name="shop.townhall.townhall-3.desc">解锁三级建筑物.</string>
+
+	<string name="shop.townhall.townhall-4.name">四级市政厅</string>
+	<string name="shop.townhall.townhall-4.desc">解锁四级建筑物.</string>
+
+	<string name="shop.townhall.townhall-5.name">五级市政厅</string>
+	<string name="shop.townhall.townhall-5.desc">解锁五级建筑物.</string>
+
+	<string name="shop.townhall.townhall.name">市政厅 %lvl%</string>
+	<string name="shop.townhall.townhall.desc">解锁 %num% 级建筑.</string>
+
+	<string name="shop.townhall.apothecary-1.name">一级药剂师</string>
+	<string name="shop.townhall.apothecary-1.desc">购买和升级你的药剂.</string>
+
+	<string name="shop.townhall.apothecary-2.name">二级药剂师</string>
+	<string name="shop.townhall.apothecary-2.desc">购买和升级你的药剂,并提升收集泉水时的回复效果.</string>
+
+	<string name="shop.townhall.apothecary-3.name">三级药剂师</string>
+	<string name="shop.townhall.apothecary-3.desc">购买和升级你的药剂,并提升收集泉水时的回复效果.</string>
+
+	<string name="shop.townhall.apothecary.name">%lvl%级药剂师</string>
+
+	<string name="shop.townhall.blacksmith-1.name">一级铁匠</string>
+	<string name="shop.townhall.blacksmith-1.desc">购买升级你的武器和盔甲.</string>
+
+	<string name="shop.townhall.blacksmith-2.name">二级铁匠</string>
+	<string name="shop.townhall.blacksmith-2.desc">购买升级你的武器和盔甲.</string>
+
+	<string name="shop.townhall.blacksmith-3.name">三级铁匠</string>
+	<string name="shop.townhall.blacksmith-3.desc">购买升级你的武器和盔甲.</string>
+
+	<string name="shop.townhall.blacksmith-4.name">四级铁匠</string>
+	<string name="shop.townhall.blacksmith-4.desc">购买升级你的武器和盔甲.</string>
+
+	<string name="shop.townhall.blacksmith-5.name">五级铁匠</string>
+	<string name="shop.townhall.blacksmith-5.desc">购买升级你的武器和盔甲.</string>
+
+	<string name="shop.townhall.blacksmith.name">%lvl%级铁匠</string>
+	<string name="shop.townhall.blacksmith.desc">购买升级你的武器和盔甲.</string>
+
+	<string name="shop.townhall.chapel-1.name">一级教堂</string>
+	<string name="shop.townhall.chapel-1.desc">解锁牧师. 捐一些钱来获得一个永久的祝福.</string>
+
+	<string name="shop.townhall.chapel-2.name">二级教堂</string>
+	<string name="shop.townhall.chapel-2.desc">捐一些钱来获得一个永久的祝福.</string>
+
+	<string name="shop.townhall.chapel-3.name">三级教堂</string>
+	<string name="shop.townhall.chapel-3.desc">捐一些钱来获得一个永久的祝福.</string>
+
+	<string name="shop.townhall.chapel-4.name">四级教堂</string>
+	<string name="shop.townhall.chapel-4.desc">捐一些钱来获得一个永久的祝福.</string>
+
+	<string name="shop.townhall.fountain-1.name">一级喷泉</string>
+	<string name="shop.townhall.fountain-1.desc">通过许愿获得正面或负面效果来自定义你的游戏.</string>
+
+	<string name="shop.townhall.fountain-2.name">二级喷泉</string>
+	<string name="shop.townhall.fountain-2.desc">解锁更多效果.</string>
+
+	<string name="shop.townhall.generalstore-1.name">一级商店</string>
+	<string name="shop.townhall.generalstore-1.desc">购买钥匙和装备 (3 普通).</string>
+
+	<string name="shop.townhall.generalstore-2.name">二级商店</string>
+	<string name="shop.townhall.generalstore-2.desc">购买钥匙和装备 (2 普通, 1 罕见). 价格便宜5%.</string>
+
+	<string name="shop.townhall.generalstore-3.name">三级商店</string>
+	<string name="shop.townhall.generalstore-3.desc">购买钥匙和装备 (3 普通, 1 罕见). 价格便宜10%.</string>
+
+	<string name="shop.townhall.generalstore-4.name">四级商店</string>
+	<string name="shop.townhall.generalstore-4.desc">购买钥匙和装备 (2 普通, 1 罕见, 1 稀有). 价格便宜15%.</string>
+
+	<string name="shop.townhall.generalstore-5.name">五级商店</string>
+	<string name="shop.townhall.generalstore-5.desc">购买钥匙和装备 (2 普通, 2 罕见, 1 稀有). 价格便宜20%.</string>
+
+	<string name="shop.townhall.generalstore.name">%lvl%级商店</string>
+	<string name="shop.townhall.generalstore-6.desc">购买钥匙和装备 (3 普通, 2 罕见, 1 稀有). 价格便宜20%.</string>
+
+	<string name="shop.townhall.guildhall-1.name">一级公会大厅</string>
+	<string name="shop.townhall.guildhall-1.desc">解锁一级技能.</string>
+
+	<string name="shop.townhall.guildhall-2.name">二级公会大厅</string>
+	<string name="shop.townhall.guildhall-2.desc">解锁二级技能.</string>
+
+	<string name="shop.townhall.guildhall-3.name">三级公会大厅</string>
+	<string name="shop.townhall.guildhall-3.desc">解锁三级技能.</string>
+
+	<string name="shop.townhall.guildhall-4.name">四级公会大厅</string>
+	<string name="shop.townhall.guildhall-4.desc">解锁四级技能.</string>
+
+	<string name="shop.townhall.guildhall-5.name">五级公会大厅</string>
+	<string name="shop.townhall.guildhall-5.desc">解锁五级技能.</string>
+
+	<string name="shop.townhall.magicshop-1.name">一级魔法商店</string>
+	<string name="shop.townhall.magicshop-1.desc">解锁法师. 购买升级你的技能和防御.</string>
+
+	<string name="shop.townhall.magicshop-2.name">二级魔法商店</string>
+	<string name="shop.townhall.magicshop-2.desc">购买升级你的技能和防御.</string>
+
+	<string name="shop.townhall.magicshop-3.name">三级魔法商店</string>
+	<string name="shop.townhall.magicshop-3.desc">购买升级你的技能和防御.</string>
+
+	<string name="shop.townhall.magicshop.name">%lvl%级魔法商店</string>
+
+	<string name="shop.townhall.oretrader-1.name">一级矿石交易员</string>
+	<string name="shop.townhall.oretrader-1.desc">购买或出售矿石.</string>
+
+	<string name="shop.townhall.oretrader-2.name">二级矿石交易员</string>
+	<string name="shop.townhall.oretrader-2.desc">购买或出售矿石. 更高的兑换率.</string>
+
+	<string name="shop.townhall.oretrader-3.name">三级矿石交易员</string>
+	<string name="shop.townhall.oretrader-3.desc">购买或出售矿石. 更高的兑换率.</string>
+
+	<string name="shop.townhall.oretrader.name">%lvl%级矿石交易员</string>
+
+	<string name="shop.townhall.tavern-1.name">一级酒馆</string>
+	<string name="shop.townhall.tavern-1.desc">解锁盗贼. 赌博.最多购买三杯酒水.</string>
+
+	<string name="shop.townhall.tavern-2.name">二级酒馆</string>
+	<string name="shop.townhall.tavern-2.desc">最多购买四杯酒水.增加携带酒水上限.</string>
+
+	<string name="shop.townhall.tavern-3.name">三级酒馆</string>
+	<string name="shop.townhall.tavern-3.desc">最多购买五杯酒水.增加携带酒水上限.</string>
+
+	<string name="shop.townhall.treasury-1.name">一级金库</string>
+	<string name="shop.townhall.treasury-1.desc">当金币达到10,000时税率会达到上限:50%.</string>
+
+	<string name="shop.townhall.treasury-2.name">二级金库</string>
+	<string name="shop.townhall.treasury-2.desc">当金币达到15,000时税率会达到上限:50%.</string>
+
+	<string name="shop.townhall.treasury-3.name">三级金库</string>
+	<string name="shop.townhall.treasury-3.desc">当金币达到20,000时税率会达到上限:50%.</string>
+
+	<string name="shop.townhall.treasury-4.name">四级金库</string>
+	<string name="shop.townhall.treasury-4.desc">当金币达到25,000时税率会达到上限:50%.</string>
+
+	<string name="shop.townhall.treasury.name">%lvl%级金库</string>
+	<string name="shop.townhall.treasury.desc">税率为 %num% 金币的50%.</string>
+
+	<!-- apothecary -->
+	<string name="shop.apothecary.charges.name">药剂 %lvl%</string>
+	<string name="shop.apothecary.charges.desc">你的药剂可以使用 %num% 次.</string>
+
+	<string name="shop.apothecary.healing.name">生命萃取 %lvl%</string>
+	<string name="shop.apothecary.healing.desc">药剂回复生命值从 %from% 变为 %to%.</string>
+
+	<string name="shop.apothecary.mana.name">魔法萃取 %lvl%</string>
+	<string name="shop.apothecary.mana.desc">药剂回复魔法值从 %from% 变为 %to%.</string>
+
+	<string name="shop.apothecary.heal-pickups.name">爽脑香精 %lvl%</string>
+	<string name="shop.apothecary.heal-pickups.desc">拾取生命治疗物的效果增加 %num%%.</string>
+
+	<string name="shop.apothecary.mana-pickups.name">魔法提取 %lvl%</string>
+	<string name="shop.apothecary.mana-pickups.desc">拾取魔法回复物的效果增加 %num%%.</string>
+
+
+	<!-- blacksmith -->
+	<string name="shop.blacksmith.armor-1.name">护甲 I</string>
+	<string name="shop.blacksmith.armor-1.desc">+5 护甲.</string>
+
+	<string name="shop.blacksmith.armor-2.name">护甲 II</string>
+	<string name="shop.blacksmith.armor-2.desc">+10 护甲.</string>
+
+	<string name="shop.blacksmith.armor-3.name">护甲 III</string>
+	<string name="shop.blacksmith.armor-3.desc">+15 护甲.</string>
+
+	<string name="shop.blacksmith.armor-4.name">护甲 IV</string>
+	<string name="shop.blacksmith.armor-4.desc">+20 护甲.</string>
+
+	<string name="shop.blacksmith.armor-5.name">护甲 V</string>
+	<string name="shop.blacksmith.armor-5.desc">+25 护甲.</string>
+
+	<string name="shop.blacksmith.armor-6.name">护甲 VI</string>
+	<string name="shop.blacksmith.armor-6.desc">+30 护甲.</string>
+
+	<string name="shop.blacksmith.armor-7.name">护甲 VII</string>
+	<string name="shop.blacksmith.armor-7.desc">+35 护甲.</string>
+
+	<string name="shop.blacksmith.armor-8.name">护甲 VIII</string>
+	<string name="shop.blacksmith.armor-8.desc">+40 护甲.</string>
+
+	<string name="shop.blacksmith.armor-9.name">护甲 IX</string>
+	<string name="shop.blacksmith.armor-9.desc">+45 护甲.</string>
+
+	<string name="shop.blacksmith.armor-10.name">护甲 X</string>
+	<string name="shop.blacksmith.armor-10.desc">+50 护甲.</string>
+
+	<string name="shop.blacksmith.armor.name">护甲 %lvl%</string>
+	<string name="shop.blacksmith.armor.desc">+%amount% 护甲.</string>
+
+	<string name="shop.blacksmith.weapon-1.name">武器 I</string>
+	<string name="shop.blacksmith.weapon-1.desc">+5 普攻伤害.</string>
+
+	<string name="shop.blacksmith.weapon-2.name">武器 II</string>
+	<string name="shop.blacksmith.weapon-2.desc">+10 普攻伤害.</string>
+
+	<string name="shop.blacksmith.weapon-3.name">武器 III</string>
+	<string name="shop.blacksmith.weapon-3.desc">+15 普攻伤害.</string>
+
+	<string name="shop.blacksmith.weapon-4.name">武器 IV</string>
+	<string name="shop.blacksmith.weapon-4.desc">+20 普攻伤害.</string>
+
+	<string name="shop.blacksmith.weapon-5.name">武器 V</string>
+	<string name="shop.blacksmith.weapon-5.desc">+25 普攻伤害.</string>
+
+	<string name="shop.blacksmith.weapon-6.name">武器 VI</string>
+	<string name="shop.blacksmith.weapon-6.desc">+30 普攻伤害.</string>
+
+	<string name="shop.blacksmith.weapon-7.name">武器 VII</string>
+	<string name="shop.blacksmith.weapon-7.desc">+40 普攻伤害.</string>
+
+	<string name="shop.blacksmith.weapon-8.name">武器 VIII</string>
+	<string name="shop.blacksmith.weapon-8.desc">+50 普攻伤害.</string>
+
+	<string name="shop.blacksmith.weapon-9.name">武器 IX</string>
+	<string name="shop.blacksmith.weapon-9.desc">+65 普攻伤害.</string>
+
+	<string name="shop.blacksmith.weapon-10.name">武器 X</string>
+	<string name="shop.blacksmith.weapon-10.desc">+80 普攻伤害.</string>
+
+	<string name="shop.blacksmith.weapon.name">武器 %lvl%</string>
+	<string name="shop.blacksmith.weapon.desc">+%amount% 普攻伤害.</string>
+
+	<string name="shop.blacksmith.criticalchance-1.name">暴击率 I</string>
+	<string name="shop.blacksmith.criticalchance-1.desc">普通攻击暴击率2.5%.</string>
+
+	<string name="shop.blacksmith.criticalchance-2.name">暴击率 II</string>
+	<string name="shop.blacksmith.criticalchance-2.desc">普通攻击暴击率5%.</string>
+
+	<string name="shop.blacksmith.criticalchance-3.name">暴击率 III</string>
+	<string name="shop.blacksmith.criticalchance-3.desc">普通攻击暴击率7.5%.</string>
+
+	<string name="shop.blacksmith.criticalchance-4.name">暴击率 IV</string>
+	<string name="shop.blacksmith.criticalchance-4.desc">普通攻击暴击率10%.</string>
+
+	<string name="shop.blacksmith.criticalchance-5.name">暴击率 V</string>
+	<string name="shop.blacksmith.criticalchance-5.desc">普通攻击暴击率12.5%.</string>
+
+	<string name="shop.blacksmith.criticaldamage-1.name">暴击倍率 I</string>
+	<string name="shop.blacksmith.criticaldamage-1.desc">普通攻击暴击伤害X2.5.</string>
+
+	<string name="shop.blacksmith.criticaldamage-2.name">暴击倍率 II</string>
+	<string name="shop.blacksmith.criticaldamage-2.desc">普通攻击暴击伤害X3.</string>
+
+	<string name="shop.blacksmith.criticaldamage-3.name">暴击倍率 III</string>
+	<string name="shop.blacksmith.criticaldamage-3.desc">普通攻击暴击伤害X3.5.</string>
+
+	<string name="shop.blacksmith.criticaldamage.name">暴击倍率 %lvl%</string>
+	<string name="shop.blacksmith.criticaldamage.desc">普通攻击暴击伤害 X%amount%.</string>
+
+	<string name="shop.blacksmith.movespeed-1.name">鞋子 I</string>
+	<string name="shop.blacksmith.movespeed-1.desc">+0.1 移动速度.</string>
+
+	<string name="shop.blacksmith.movespeed-2.name">鞋子 II</string>
+	<string name="shop.blacksmith.movespeed-2.desc">+0.2 移动速度.</string>
+
+	<string name="shop.blacksmith.movespeed-3.name">鞋子 III</string>
+	<string name="shop.blacksmith.movespeed-3.desc">+0.3 移动速度.</string>
+
+	<string name="shop.blacksmith.movespeed-4.name">鞋子 IV</string>
+	<string name="shop.blacksmith.movespeed-4.desc">+0.4 移动速度.</string>
+
+	<string name="shop.blacksmith.movespeed-5.name">鞋子 V</string>
+	<string name="shop.blacksmith.movespeed-5.desc">+0.5 移动速度.</string>
+
+	<string name="shop.blacksmith.movespeed.name">鞋子 %lvl%</string>
+	<string name="shop.blacksmith.movespeed.desc">+%amount% 移动速度.</string>
+
+
+	<!-- general store -->
+	<string name="shop.generalstore.keybronze.name">铜钥匙</string>
+	<string name="shop.generalstore.keybronze.desc">用来打开铜箱子.</string>
+
+	<string name="shop.generalstore.keysilver.name">银钥匙</string>
+	<string name="shop.generalstore.keysilver.desc">用来打开银箱子.</string>
+
+	<string name="shop.generalstore.keygold.name">金钥匙</string>
+	<string name="shop.generalstore.keygold.desc">用来打开金箱子.</string>
+
+	<string name="shop.generalstore.reroll">刷新 %cost%</string>
+	<string name="shop.generalstore.rerolldisabled">刷新</string>
+
+
+	<!-- chapel -->
+	<string name="shop.chapel.convert">改换门庭</string>
+	<string name="shop.chapel.convert.prompt">你确定要更换信仰吗?\n(所有祝福将被重置)</string>
+
+	<string name="shop.chapel.path.attack.name">战斗之道</string>
+	<string name="shop.chapel.path.attack.desc">普攻伤害增加 %attack%%.</string>
+
+	<string name="shop.chapel.path.defense.name">防守之道</string>
+	<string name="shop.chapel.path.defense.desc">减少%taken%%受到的伤害.</string>
+
+	<string name="shop.chapel.path.spell.name">符咒之道</string>
+	<string name="shop.chapel.path.spell.desc">技能伤害增加 %spell%%.</string>
+
+	<string name="shop.chapel.blessing.armor-pierce.name">力量祝福</string>
+	<string name="shop.chapel.blessing.armor-pierce.desc">物理伤害无视敌人%pierce%%护甲.</string>
+
+	<string name="shop.chapel.blessing.health-regen.name">生命祝福</string>
+	<string name="shop.chapel.blessing.health-regen.desc">生命回复率增加 %regen%%.</string>
+
+	<string name="shop.chapel.blessing.mana-regen.name">精神祝福</string>
+	<string name="shop.chapel.blessing.mana-regen.desc">法力回复率增加 by %regen%%.</string>
+
+	<string name="shop.chapel.blessing.resistance-pierce.name">智力祝福</string>
+	<string name="shop.chapel.blessing.resistance-pierce.desc">魔法伤害无视敌人%pierce%%魔法抗性.</string>
+
+	<string name="shop.chapel.symbol.attack-crit.name">力量勋章</string>
+	<string name="shop.chapel.symbol.attack-crit.desc">暴击伤害增加%damage%%.</string>
+
+	<string name="shop.chapel.symbol.lifesteal.name">生命勋章</string>
+	<string name="shop.chapel.symbol.lifesteal.desc">普通攻击附加%lsteal%%吸血.</string>
+
+	<string name="shop.chapel.symbol.return-damage.name">报复勋章</string>
+	<string name="shop.chapel.symbol.return-damage.desc">被击中时对攻击者造成%return%%伤害.</string>
+
+	<string name="shop.chapel.symbol.spell-cost.name">智慧勋章</string>
+	<string name="shop.chapel.symbol.spell-cost.desc">技能法力消耗降低 %cost%%.</string>
+
+	<string name="shop.chapel.symbol.spell-crit.name">暴击勋章</string>
+	<string name="shop.chapel.symbol.spell-crit.desc">技能伤害暴击增加 %damage%%.</string>
+
+	<string name="shop.chapel.divine.hammer.name">神圣铁锤</string>
+	<string name="shop.chapel.divine.hammer.desc">普通攻击时会向前投掷锤子造成%dmg%物理伤害.冷却%cd%秒.</string>
+
+	<string name="shop.chapel.divine.bomb.name">神圣炸弹</string>
+	<string name="shop.chapel.divine.bomb.desc">普通攻击会掉落炸弹造成%dmg%物理伤害.冷却%cd%秒.</string>
+
+	<string name="shop.chapel.divine.blast.name">神圣爆炸</string>
+	<string name="shop.chapel.divine.blast.desc">普通攻击触发爆炸造成%dmg%魔法伤害.冷却%cd%秒.</string>
+
+	<string name="shop.chapel.divine.strike.name">神圣打击</string>
+	<string name="shop.chapel.divine.strike.desc">普通攻击会随机向附近的敌人发射箭矢,造成%dmg%魔法伤害.冷却%cd%秒.</string>
+
+	<!-- magic shop -->
+	<string name="shop.magicshop.resistance-1.name">魔法抗性 I</string>
+	<string name="shop.magicshop.resistance-1.desc">+5 魔法抗性.</string>
+
+	<string name="shop.magicshop.resistance-2.name">魔法抗性 II</string>
+	<string name="shop.magicshop.resistance-2.desc">+10 魔法抗性.</string>
+
+	<string name="shop.magicshop.resistance-3.name">魔法抗性 III</string>
+	<string name="shop.magicshop.resistance-3.desc">+15 魔法抗性.</string>
+
+	<string name="shop.magicshop.resistance-4.name">魔法抗性 IV</string>
+	<string name="shop.magicshop.resistance-4.desc">+20 魔法抗性.</string>
+
+	<string name="shop.magicshop.resistance-5.name">魔法抗性 V</string>
+	<string name="shop.magicshop.resistance-5.desc">+25 魔法抗性.</string>
+
+	<string name="shop.magicshop.resistance-6.name">魔法抗性 VI</string>
+	<string name="shop.magicshop.resistance-6.desc">+30 魔法抗性.</string>
+
+	<string name="shop.magicshop.resistance.name">魔法抗性 %lvl%</string>
+	<string name="shop.magicshop.resistance.desc">+%amount% 魔法抗性.</string>
+
+	<string name="shop.magicshop.spellpower-1.name">技能伤害 I</string>
+	<string name="shop.magicshop.spellpower-1.desc">+5 技能伤害.</string>
+
+	<string name="shop.magicshop.spellpower-2.name">技能伤害 II</string>
+	<string name="shop.magicshop.spellpower-2.desc">+10 技能伤害.</string>
+
+	<string name="shop.magicshop.spellpower-3.name">技能伤害 III</string>
+	<string name="shop.magicshop.spellpower-3.desc">+15 技能伤害.</string>
+
+	<string name="shop.magicshop.spellpower-4.name">技能伤害 IV</string>
+	<string name="shop.magicshop.spellpower-4.desc">+20 技能伤害.</string>
+
+	<string name="shop.magicshop.spellpower-5.name">技能伤害 V</string>
+	<string name="shop.magicshop.spellpower-5.desc">+25 技能伤害.</string>
+
+	<string name="shop.magicshop.spellpower-6.name">技能伤害 VI</string>
+	<string name="shop.magicshop.spellpower-6.desc">+30 技能伤害.</string>
+
+	<string name="shop.magicshop.spellpower.name">技能伤害 %lvl%</string>
+	<string name="shop.magicshop.spellpower.desc">+%amount% 技能伤害.</string>
+
+	<string name="shop.magicshop.spellcritchance-1.name">技能暴击率 I</string>
+	<string name="shop.magicshop.spellcritchance-1.desc">技能有5%几率造成暴击.</string>
+
+	<string name="shop.magicshop.spellcritchance-2.name">技能暴击率 II</string>
+	<string name="shop.magicshop.spellcritchance-2.desc">技能有10%几率造成暴击.</string>
+
+	<string name="shop.magicshop.spellcritchance-3.name">技能暴击率 III</string>
+	<string name="shop.magicshop.spellcritchance-3.desc">技能有15%几率造成暴击.</string>
+
+	<string name="shop.magicshop.spellcritdamage-1.name">技能暴击倍率 I</string>
+	<string name="shop.magicshop.spellcritdamage-1.desc">技能暴击伤害X2.5.</string>
+
+	<string name="shop.magicshop.spellcritdamage-2.name">技能暴击倍率 II</string>
+	<string name="shop.magicshop.spellcritdamage-2.desc">技能暴击伤害X3.</string>
+
+	<string name="shop.magicshop.spellcritdamage.name">技能暴击倍率 %lvl%</string>
+	<string name="shop.magicshop.spellcritdamage.desc">技能暴击伤害 X%amount%.</string>
+
+	<!-- ore trader -->
+	<string name="shop.oretrader.ore-gold.name">购买 %ore%个矿石</string>
+	<string name="shop.oretrader.ore-gold.desc">购买 %ore%个矿石花费 %gold%金币.</string>
+
+	<string name="shop.oretrader.gold-ore.name">出售 %ore%个矿石</string>
+	<string name="shop.oretrader.gold-ore.desc">出售 %ore%个矿石获得 %gold%金币.</string>
+
+
+	<!-- fountain -->
+	<string name="fountain.positive">正面</string>
+	<string name="fountain.negative">负面</string>
+	<string name="fountain.favor">神恩</string>
+	<string name="fountain.acceptresult">接受结果:</string>
+	<string name="fountain.lockedin">锁定!</string>
+	<string name="fountain.favorcount">神恩 %favor%</string>
+	<string name="fountain.throwninto">被扔进了喷泉.</string>
+	<string name="fountain.requiredlevel">需要%level%级喷泉</string>
+
+	<!-- gambling -->
+	<string name="town.cardgame.goldfrom">你 %num%金币</string>
+	<string name="town.cardgame.goldto">变成了 %num%金币</string>
+	<string name="town.cardgame.header.win">你赢了!</string>
+	<string name="town.cardgame.header.lose">你输了..</string>
+	<string name="town.cardgame.title">卡牌</string>
+	<string name="town.cardgame.setyourlimits">请下注</string>
+	<string name="town.cardgame.flipcards">翻牌</string>
+	<string name="town.cardgame.outofmoney.1">你的钱花光了!</string>
+	<string name="town.cardgame.outofmoney.2">你的钱花光了了!</string>
+	<string name="town.cardgame.outofmoney.3">你的钱花光了了了!</string>
+	<string name="town.cardgame.outofmoney.4">你的钱花光了了了了!</string>
+	<string name="town.cardgame.outofmoney.5">你的钱花光了了了了了!</string>
+	<string name="town.cardgame.barrel">你拿到了酒桶:\n%drink%!</string>
+
+	<!-- retrain -->
+	<string name="shop.skills.respec">重新加点</string>
+	<string name="shop.skills.respec.tooltip.title">重新分配技能点</string>
+	<string name="shop.skills.respec.tooltip">花费金币重新分配技能点. 将会返还%skillpoints%技能点.</string>
+	<string name="shop.skills.respec.prompt">你确定花费%gold%金币重新技能加点?</string>
+	<string name="shop.skills.worth.skills">升级技能用的点数</string>
+	<string name="shop.skills.worth.attunements">调和蓝图所用的点数</string>
+
+	<!-- drinks -->
+	<string name="shop.drinks">铁锤酒保</string>
+	<string name="shop.drinks.message.enough">你已经喝的够多了!</string>
+
+
+	<!-- item forge -->
+	<string name="shop.forge.title">魔砧</string>
+	<string name="shop.forge.attune">强化</string>
+	<string name="shop.forge.attune.description">改造这件装备让它发挥出双倍效果.</string>
+	<string name="shop.forge.craft">制作</string>
+	<string name="shop.forge.craft.description">制作这件装备.</string>
+	<string name="shop.forge.found">寻获: %num% / %total%</string>
+	<string name="shop.forge.respec">重新强化</string>
+	<string name="shop.forge.respec.tooltip">花费金币重新所有强化. 你将会拿回%skillpoints% 技能点.</string>
+	<string name="shop.forge.respec.tooltip.title">重新强化</string>
+	<string name="shop.forge.respec.prompt">你确定花费 %gold%金币重新强化吗?</string>
+
+	<!-- bestiary -->
+	<string name="town.bestiary.title">巴尔塔扎尔的 怪物图鉴</string>
+	<string name="town.bestiary.spent">用于调整怪物数值的点数.</string>
+	<string name="town.bestiary.respec">重新调整</string>
+	<string name="town.bestiary.respec.tooltip">花费金币重置你所有的调整.你将获得返回的%skillpoints%技能点.</string>
+	<string name="town.bestiary.respec.tooltip.title">重新调整</string>
+	<string name="town.bestiary.respec.prompt">你确定花费%gold%金币来重新调整吗?</string>
+	<string name="town.bestiary.attune">调整</string>
+	<string name="town.bestiary.damage">伤害: %damage%%</string>
+	<string name="town.bestiary.damagereduction">降低被伤: %reduction%%</string>
+
+	<!-- desert vendor -->
+	<string name="shop.desertstore.map.name">地图碎片</string>
+	<string name="shop.desertstore.map.desc">显示通往金字塔最安全的路线.</string>
+
+	<!-- statues -->
+	<string name="shop.statues.select.title">建造雕像</string>
+	<string name="shop.statues.build">建造雕像</string>
+	<string name="shop.statues.switch">改变雕像</string>
+	<string name="shop.statues.remove">拆除雕像</string>
+	<string name="shop.statues.upgrade">改造雕像</string>
+	<string name="shop.statues.upgrade.prompt">你确定要以%cost%矿石价格来升级改造这座雕像吗?</string>
+	<string name="shop.statues.upgrade.blueprint">在升级改造之前需要更高级别的蓝图.</string>
+	<string name="shop.statues.level">\c7f7f7f%level%级\d</string>
+	<string name="shop.statues.firststatue">花费 %cost%矿石来建造这座一级雕像?</string>
+	<string name="statues.blueprint.title">雕像设计:</string>
+	<string name="statues.blueprint.level">%level%级%statue%</string>
+
+
+	<string name="shop.statues.ice-mage.name">埃尔任</string>
+	<string name="shop.statues.ice-mage.desc">普通攻击有 %build%% 冻结敌人.\n雕塑建筑每提升一级就增加 %upgrade%% 冻结伤害.</string>
+	<string name="shop.statues.ice-mage.desc-upgrade">+%upgrade%% 冻结伤害.</string>
+	<string name="shop.statues.ice-mage.lore">在那个夏天的夜里\n她冻结了整个威廉姆斯湖\n让国王可以安全的穿过.</string>
+
+	<string name="shop.statues.fire-mage.name">沃麦尔</string>
+	<string name="shop.statues.fire-mage.desc">%build%% 技能加速.\n雕塑建筑每提升一级就降低 %upgrade%% 技能消耗.</string>
+	<string name="shop.statues.fire-mage.desc-upgrade">降低 %upgrade%% 技能消耗.</string>
+	<string name="shop.statues.fire-mage.lore">他曾用自己的最后一口气\n燃烧了地牢\n肃清了黑堎\n和追随之地.</string>
+
+	<string name="shop.statues.assassin.name">法拉罗斯</string>
+	<string name="shop.statues.assassin.desc">闪避后降低敌人的 %build%% 血量.\n雕塑建筑每提升一级就增加 %upgrade%% 缴械和眩晕伤害.</string>
+	<string name="shop.statues.assassin.desc-upgrade">+%upgrade%% 缴械和眩晕伤害.</string>
+	<string name="shop.statues.assassin.lore">潜入敌后、斩除海盗船长马里乌斯,这将会一劳永逸地停止对铁锤城堡的围攻.</string>
+
+	<string name="shop.statues.warrior.name">博尔加斯</string>
+	<string name="shop.statues.warrior.desc">每五次连续杀敌会造成 %build% 魔法伤害.\n雕塑建筑每提升一级就增加 %upgrade% 连击持续时间.</string>
+	<string name="shop.statues.warrior.desc-upgrade">+%upgrade% 连击持续时间.</string>
+	<string name="shop.statues.warrior.lore">博尔加斯的斧头被称为"赤红弯月"，因为它的敌人血液总是红色的.</string>
+
+	<string name="shop.statues.paladin.name">卡利斯</string>
+	<string name="shop.statues.paladin.desc">%build%% 概率阻挡远程攻击.\n雕塑建筑每提升一级就增加 %upgrade%% 护甲.</string>
+	<string name="shop.statues.paladin.desc-upgrade">+%upgrade%%护甲.</string>
+	<string name="shop.statues.paladin.lore">他从小便在抵御亡灵和保卫生者.一生致力于为人民服务.</string>
+
+	<string name="shop.statues.priest.name">塞德里克</string>
+	<string name="shop.statues.priest.desc">拾取法力水晶会增加%build%%的法力恢复和魔抗,持续30秒.\n雕塑建筑每提升一级就增加 %upgrade%%魔抗.</string>
+	<string name="shop.statues.priest.desc-upgrade">+%upgrade%%魔抗.</string>
+	<string name="shop.statues.priest.lore">在巅峰时期被称为"死亡禁制",让墓地空置了多年.</string>
+
+	<string name="shop.statues.plague-doctor.name">奥泽斯</string>
+	<string name="shop.statues.plague-doctor.desc">怪物死后有%build%%几率产生%dur%秒的毒气.\n雕塑建筑每提升一级就增加%upgrade毒气基础伤害.</string>
+	<string name="shop.statues.plague-doctor.desc-upgrade">怪物受到毒气伤害+%upgrade%%.</string>
+	<string name="shop.statues.plague-doctor.lore">一个被放逐的人.掌握死亡与衰败.他通过治愈欧利维亚女王来偿还他对于这个城镇的债孽.</string>
+
+	<string name="shop.statues.ranger.name">凯拉</string>
+	<string name="shop.statues.ranger.desc">+%build%%普通攻击并有%chance%%机会发射两支箭矢造成%damage%物理伤害.每升一级雕像建筑,箭矢基础伤害增加%upgrade%.</string>
+	<string name="shop.statues.ranger.desc-upgrade">箭矢的基础伤害增加%upgrade%.</string>
+	<string name="shop.statues.ranger.lore">她将她的弓命名为"竖琴",因为当它拔弦时,她的敌人会痛苦地"歌唱".</string>
+
+	<!-- retired gladiator -->
+	<string name="retiredgladiator.title">退役角斗士</string>
+	<string name="retiredgladiator.available.left">你有</string>
+	<string name="retiredgladiator.available.right">可用.</string>
+	<string name="retiredgladiator.upgrade.attack-power">+1 攻击伤害</string>
+	<string name="retiredgladiator.upgrade.skill-power">+1 技能伤害</string>
+	<string name="retiredgladiator.upgrade.armor">+1 护甲</string>
+	<string name="retiredgladiator.upgrade.resistance">+1 抗性</string>
+	<string name="retiredgladiator.upgrade">升级到 %level%级</string>
+	<string name="retiredgladiator.respec">重新训练</string>
+	<string name="retiredgladiator.respec.prompt">你确定要重新训练吗?你会得到所有的剑币.</string>
+
+	<!-- arena -->
+	<string name="town.coliseum.title">阿里达拉 竞技场</string>
+	<string name="town.coliseum.description">在阿里达拉远郊的竞技场,人们因为两种原因来到这里.在战斗中获胜的荣耀,或是观赏角斗士为生存而战的刺激.\n(你在为了满足大众的娱乐而战.基于观众的满足程度,你会获得剑形代币以及一些其他的物品作为奖励.)</string>
+	<string name="town.coliseum.rank">段位</string>
+	<string name="town.coliseum.progress">进度</string>
+	<string name="town.coliseum.progress.tooltip">获得5个剑币 \n等级提升.</string>
+	<string name="town.coliseum.start">开始</string>
+
+
+
+
+
+
+	<!-- SKILLS -->
+
+
+	<string name="skills.fullname">%level%级 %name% </string>
+
+	<!-- Paladin -->
+	<string name="skills.paladin.sword">剑击</string>
+	<string name="skills.paladin.sword.create">造成范围型物理伤害的近战攻击.</string>
+	<string name="skills.paladin.sword.1">近战对90度范围内造成16点物理伤害.</string>
+	<string name="skills.paladin.sword.2">近战对120度范围内造成19点物理伤害.</string>
+	<string name="skills.paladin.sword.3">近战对150度范围内造成22点物理伤害.</string>
+	<string name="skills.paladin.sword.4">近战对180度范围内造成25点物理伤害.</string>
+	<string name="skills.paladin.sword.5">近战对210度范围内造成28点物理伤害.</string>
+	<string name="skills.paladin.sword.6">近战对240度范围内造成31点物理伤害.</string>
+
+	<string name="skills.paladin.charge">冲锋</string>
+	<string name="skills.paladin.charge.create">圣骑士向前冲锋,并对途中的敌人造成物理伤害.</string>
+	<string name="skills.paladin.charge.1">向前冲刺.途中的敌人受到25点物理伤害.</string>
+	<string name="skills.paladin.charge.2">向前冲刺.途中的敌人受到35点物理伤害.增加速度和范围.</string>
+	<string name="skills.paladin.charge.3">向前冲刺.途中的敌人受到45点物理伤害.增加速度和范围.</string>
+	<string name="skills.paladin.charge.4">向前冲刺.途中的敌人受到55点物理伤害.增加速度和范围.</string>
+	<string name="skills.paladin.charge.5">向前冲刺.途中的敌人受到65点物理伤害.增加速度和范围.</string>
+	<string name="skills.paladin.charge.6">向前冲刺.途中的敌人受到75点物理伤害.增加速度和范围.</string>
+
+	<string name="skills.paladin.shield">守卫之盾</string>
+	<string name="skills.paladin.shield.create">被动.圣骑士手持一个坚固的盾牌,盾牌能格挡大部分投射物,此外也有几率阻挡一定的伤害.</string>
+	<string name="skills.paladin.shield.1">阻挡来自面前90度的投射物.盾牌有25%几率阻挡5点物理伤害或者魔法伤害.</string>
+	<string name="skills.paladin.shield.2">阻挡来自面前120度的投射物.盾牌有25%几率阻挡10点物理伤害或者魔法伤害.</string>
+	<string name="skills.paladin.shield.3">阻挡来自面前150度的投射物.盾牌有25%几率阻挡15点物理伤害或者魔法伤害.</string>
+	<string name="skills.paladin.shield.4">阻挡来自面前180度的投射物.盾牌有25%几率阻挡20点物理伤害或者魔法伤害.</string>
+	<string name="skills.paladin.shield.5">阻挡来自面前210度的投射物.盾牌有25%几率阻挡25点物理伤害或者魔法伤害.</string>
+
+	<string name="skills.paladin.stunning-blows">重击</string>
+	<string name="skills.paladin.stunning-blows.create">圣骑士的普通攻击有几率击晕敌人.</string>
+	<string name="skills.paladin.stunning-blows.1">剑击有10%几率使敌人晕眩2.5秒.</string>
+	<string name="skills.paladin.stunning-blows.2">剑击有15%几率使敌人晕眩2.5秒.</string>
+	<string name="skills.paladin.stunning-blows.3">剑击有20%几率使敌人晕眩2.5秒.</string>
+	<string name="skills.paladin.stunning-blows.4">剑击有25%几率使敌人晕眩2.5秒.</string>
+
+	<string name="skills.paladin.lay-on-hands">圣疗术</string>
+	<string name="skills.paladin.lay-on-hands.create">持续施法.治疗圣骑士和身边的所有队友.</string>
+	<string name="skills.paladin.lay-on-hands.1">向圣骑士身边全部队友提供一个持续3秒的BUFF,这个BUFF提供3固定值+2%最大生命值的生命回复和一个有25%几率抵挡5魔法伤害的护盾.</string>
+	<string name="skills.paladin.lay-on-hands.2">向圣骑士身边全部队友提供一个持续3秒的BUFF,这个BUFF提供5固定值+2%最大生命值的生命回复和一个有25%几率抵挡10魔法伤害的护盾.</string>
+	<string name="skills.paladin.lay-on-hands.3">向圣骑士身边全部队友提供一个持续3秒的BUFF,这个BUFF提供7固定值+2%最大生命值的生命回复和一个有25%几率抵挡15魔法伤害的护盾.</string>
+	<string name="skills.paladin.lay-on-hands.4">向圣骑士身边全部队友提供一个持续3秒的BUFF,这个BUFF提供9固定值+2%最大生命值的生命回复和一个有25%几率抵挡20魔法伤害的护盾.</string>
+
+	<string name="skills.paladin.whirlwind">旋风斩</string>
+	<string name="skills.paladin.whirlwind.create">持续施法.对周围的敌人造成伤害,施法期间可以移动,不可以攻击.</string>
+	<string name="skills.paladin.whirlwind.1">持续施法.对周围的敌人造成伤害,每次造成30点物理伤害.旋转持续3秒.</string>
+	<string name="skills.paladin.whirlwind.2">持续施法.对周围的敌人造成伤害,每次造成40点物理伤害.旋转持续4秒.</string>
+	<string name="skills.paladin.whirlwind.3">持续施法.对周围的敌人造成伤害,每次造成50点物理伤害.旋转持续5秒.</string>
+
+	<string name="skills.paladin.flames-of-devotion">奉献之火</string>
+	<string name="skills.paladin.flames-of-devotion.create">每次使用剑击伤害敌人,圣骑士的所有技能都将得到魔法伤害加成.</string>
+	<string name="skills.paladin.flames-of-devotion.1">每次使用剑击伤害敌人,圣骑士的所有技能都将得到魔法伤害加成.每次触发提供1点伤害加成,最高可以叠加12层,每层持续1秒.</string>
+	<string name="skills.paladin.flames-of-devotion.2">每次使用剑击伤害敌人,圣骑士的所有技能都将得到魔法伤害加成.每次触发提供1点伤害加成,最高可以叠加24层,每层持续1秒.</string>
+
+
+	<!-- Priest -->
+	<string name="skills.priest.smite">惩击</string>
+	<string name="skills.priest.smite.create">造成范围型混合伤害的近距离攻击.</string>
+	<string name="skills.priest.smite.1">近距离造成8点混合伤害.</string>
+	<string name="skills.priest.smite.2">近距离造成10点混合伤害,伤害范围略微变大.</string>
+	<string name="skills.priest.smite.3">近距离造成12点混合伤害,伤害范围略微变大.</string>
+	<string name="skills.priest.smite.4">近距离造成14点混合伤害,伤害范围略微变大.</string>
+	<string name="skills.priest.smite.5">近距离造成16点混合伤害,伤害范围略微变大.</string>
+	<string name="skills.priest.smite.6">近距离造成18点混合伤害,伤害范围略微变大.</string>
+
+	<string name="skills.priest.holy-light">圣光冲击</string>
+	<string name="skills.priest.holy-light.create">引导一道能够对敌人造成递增伤害并对队友进行治疗的光束.</string>
+	<string name="skills.priest.holy-light.1">发射一道光束,最高对敌人造成每秒17点魔法伤害并治疗队友每秒2点.</string>
+	<string name="skills.priest.holy-light.2">发射一道光束,最高对敌人造成每秒24点魔法伤害并治疗队友每秒3点.</string>
+	<string name="skills.priest.holy-light.3">发射一道光束,最高对敌人造成每秒31点魔法伤害并治疗队友每秒4点.</string>
+	<string name="skills.priest.holy-light.4">发射一道光束,最高对敌人造成每秒38点魔法伤害并治疗队友每秒5点.</string>
+	<string name="skills.priest.holy-light.5">发射一道光束,最高对敌人造成每秒45点魔法伤害并治疗队友每秒6点.</string>
+	<string name="skills.priest.holy-light.6">发射一道光束,最高对敌人造成每秒52点魔法伤害并治疗队友每秒7点.</string>
+
+	<string name="skills.priest.divine-protection">神圣屏障</string>
+	<string name="skills.priest.divine-protection.create">牧师自身被一个护盾保护,以消耗法力来吸收伤害.</string>
+	<string name="skills.priest.divine-protection.1">牧师自身被一个护盾保护,护盾会吸收30%的伤害.每点被吸收的伤害消耗4点法力.</string>
+	<string name="skills.priest.divine-protection.2">牧师自身被一个护盾保护,护盾会吸收35%的伤害.每点被吸收的伤害消耗2点法力.</string>
+	<string name="skills.priest.divine-protection.3">牧师自身被一个护盾保护,护盾会吸收40%的伤害.每点被吸收的伤害消耗1点法力.</string>
+	<string name="skills.priest.divine-protection.4">牧师自身被一个护盾保护,护盾会吸收45%的伤害.每点被吸收的伤害消耗0.75点法力.</string>
+	<string name="skills.priest.divine-protection.5">牧师自身被一个护盾保护,护盾会吸收50%的伤害.每点被吸收的伤害消耗0.5点法力.</string>
+
+	<string name="skills.priest.remedy">治疗术</string>
+	<string name="skills.priest.remedy.create">牧师获得额外的生命回复,无论进食还是治疗.</string>
+	<string name="skills.priest.remedy.1">牧师额外获得50%的生命回复.</string>
+	<string name="skills.priest.remedy.2">牧师额外获得100%的生命回复.</string>
+	<string name="skills.priest.remedy.3">牧师额外获得150%的生命回复.</string>
+	<string name="skills.priest.remedy.4">牧师额外获得200%的生命回复.</string>
+
+	<string name="skills.priest.consecrated-ground">神圣领域</string>
+	<string name="skills.priest.consecrated-ground.create">牧师祝福一块区域,对范围内的敌人造成伤害,对范围内的队友回复伤害量25%的生命.</string>
+	<string name="skills.priest.consecrated-ground.1">牧师祝福一块区域,祝福持续5秒.范围内的敌人每秒受到16点魔法伤害,对范围内的队友回复伤害量25%的生命.</string>
+	<string name="skills.priest.consecrated-ground.2">牧师祝福一块区域,祝福持续5.5秒.范围内的敌人每秒受到24点魔法伤害,对范围内的队友回复伤害量25%的生命.</string>
+	<string name="skills.priest.consecrated-ground.3">牧师祝福一块区域,祝福持续6秒.范围内的敌人每秒受到32点魔法伤害,对范围内的队友回复伤害量25%的生命.</string>
+	<string name="skills.priest.consecrated-ground.4">牧师祝福一块区域,祝福持续6.5秒.范围内的敌人每秒受到40点魔法伤害,对范围内的队友回复伤害量25%的生命.</string>
+
+	<string name="skills.priest.aura-of-purification">净化光环</string>
+	<string name="skills.priest.aura-of-purification.create">牧师开启一个光环,削弱周围的敌人,并保护自己的队友.</string>
+	<string name="skills.priest.aura-of-purification.1">光环使敌人减速20%并降低20%的抗性,队友得到10%伤害减免,光环持续6秒.</string>
+	<string name="skills.priest.aura-of-purification.2">光环使敌人减速30%并降低30%的抗性,队友得到20%伤害减免,光环持续7秒.</string>
+	<string name="skills.priest.aura-of-purification.3">光环使敌人减速40%并降低20%的抗性,队友得到30%伤害减免,光环持续8秒.</string>
+
+	<string name="skills.priest.celestial-orb">天堂之球</string>
+	<string name="skills.priest.celestial-orb.create">天堂之球在牧师身边环绕并向周围的敌人发射小圣光束.小圣光束会自动集火被圣光冲击命中的敌人.</string>
+	<string name="skills.priest.celestial-orb.1">2个天堂之球在牧师身边环绕并向周围的敌人发射小圣光束,每秒造成8点魔法伤害.小圣光束会自动集火被圣光冲击命中的敌人.</string>
+	<string name="skills.priest.celestial-orb.2">3个天堂之球在牧师身边环绕并向周围的敌人发射小圣光束,每秒造成12点魔法伤害.小圣光束会自动集火被圣光冲击命中的敌人.</string>
+
+
+	<!-- Ranger -->
+	<string name="skills.ranger.bow">弓箭射击</string>
+	<string name="skills.ranger.bow.create">造成物理伤害的穿透型远程攻击.</string>
+	<string name="skills.ranger.bow.1">每支箭造成10点物理伤害并穿透1个敌人,射击时移动速度降低50%.</string>
+	<string name="skills.ranger.bow.2">每支箭造成12点物理伤害并穿透2个敌人,射击时移动速度降低45%.</string>
+	<string name="skills.ranger.bow.3">每支箭造成14点物理伤害并穿透3个敌人,射击时移动速度降低40%.</string>
+	<string name="skills.ranger.bow.4">每支箭造成16点物理伤害并穿透4个敌人,射击时移动速度降低35%.</string>
+	<string name="skills.ranger.bow.5">每支箭造成18点物理伤害并穿透5个敌人,射击时移动速度降低30%.</string>
+	<string name="skills.ranger.bow.6">每支箭造成20点物理伤害并穿透6个敌人,射击时移动速度降低25%.</string>
+	
+	<string name="skills.ranger.flurry-of-arrows">箭羽风暴</string>
+	<string name="skills.ranger.flurry-of-arrows.create">游侠旋转着向四面八方射出箭矢.</string>
+	<string name="skills.ranger.flurry-of-arrows.1">游侠旋转着向四面八方射出箭矢.总共射出24支基于弓箭射击等级的箭矢.</string>
+	<string name="skills.ranger.flurry-of-arrows.2">游侠旋转着向四面八方射出箭矢.总共射出32支基于弓箭射击等级的箭矢.</string>
+	<string name="skills.ranger.flurry-of-arrows.3">游侠旋转着向四面八方射出箭矢.总共射出40支基于弓箭射击等级的箭矢.</string>
+	<string name="skills.ranger.flurry-of-arrows.4">游侠旋转着向四面八方射出箭矢.总共射出48支基于弓箭射击等级的箭矢.</string>
+	<string name="skills.ranger.flurry-of-arrows.5">游侠旋转着向四面八方射出箭矢.总共射出56支基于弓箭射击等级的箭矢.</string>
+	<string name="skills.ranger.flurry-of-arrows.6">游侠旋转着向四面八方射出箭矢.总共射出64支基于弓箭射击等级的箭矢.</string>
+	
+	<string name="skills.ranger.on-the-prowl">巡游</string>
+	<string name="skills.ranger.on-the-prowl.create">施法后,游侠都会获得提升移速和闪避的BUFF.</string>
+	<string name="skills.ranger.on-the-prowl.1">每次施法后获得提升25%移动速度和5%闪避的BUFF,持续2.5秒.</string>
+	<string name="skills.ranger.on-the-prowl.2">每次施法后获得提升25%移动速度和10%闪避的BUFF,持续3秒.</string>
+	<string name="skills.ranger.on-the-prowl.3">每次施法后获得提升25%移动速度和15%闪避的BUFF,持续3.5秒.</string>
+	<string name="skills.ranger.on-the-prowl.4">每次施法后获得提升25%移动速度和20%闪避的BUFF,持续4秒.</string>
+	<string name="skills.ranger.on-the-prowl.5">每次施法后获得提升25%移动速度和25%闪避的BUFF,持续4.5秒.</string>
+
+	<string name="skills.ranger.deadly-aim">狩猎印记</string>
+	<string name="skills.ranger.deadly-aim.create">弓箭射击有几率标记目标,被标记的目标受到的所有伤害都有几率暴击.</string>
+	<string name="skills.ranger.deadly-aim.1">弓箭射击有5%几率暴击并标记目标2.5秒,被标记目标有5%几率受到暴击伤害.</string>
+	<string name="skills.ranger.deadly-aim.2">弓箭射击有7.5%几率暴击并标记目标2.5秒,被标记目标有5%几率受到暴击伤害.</string>
+	<string name="skills.ranger.deadly-aim.3">弓箭射击有10%几率暴击并标记目标2.5秒,被标记目标有5%几率受到暴击伤害.</string>
+	<string name="skills.ranger.deadly-aim.4">弓箭射击有12.5%几率暴击并标记目标2.5秒,被标记目标有5%几率受到暴击伤害.</string>
+
+	<string name="skills.ranger.grasping-roots">缠绕根须</string>
+	<string name="skills.ranger.grasping-roots.create">游侠周围的地面长出的根须缠绕敌人,使敌人无法移动并降低防御.</string>
+	<string name="skills.ranger.grasping-roots.1">将游侠周围的敌人固定2秒.被根须缠绕的敌人护甲降低10%.</string>
+	<string name="skills.ranger.grasping-roots.2">将游侠周围的敌人固定3秒.被根须缠绕的敌人护甲降低15%.</string>
+	<string name="skills.ranger.grasping-roots.3">将游侠周围的敌人固定4秒.被根须缠绕的敌人护甲降低20%.</string>
+	<string name="skills.ranger.grasping-roots.4">将游侠周围的敌人固定5秒.被根须缠绕的敌人护甲降低25%.</string>
+
+		<string name="skills.ranger.powershot">塑能射击</string>
+	<string name="skills.ranger.powershot.create">游侠引导一次强力的射击,对路径上所有敌人造成巨额魔法伤害.</string>
+	<string name="skills.ranger.powershot.1">游侠引导一次强力的射击.持续引导以提升伤害和飞行速度,1秒后达到上限.最高100点魔法伤害.塑能射击的伤害无视目标50%魔抗.</string>
+	<string name="skills.ranger.powershot.2">游侠引导一次强力的射击.持续引导以提升伤害和飞行速度,1秒后达到上限.最高200点魔法伤害.塑能射击的伤害无视目标50%魔抗.</string>
+	<string name="skills.ranger.powershot.3">游侠引导一次强力的射击.持续引导以提升伤害和飞行速度,1秒后达到上限.最高300点魔法伤害.塑能射击的伤害无视目标50%魔抗.</string>
+	
+	<string name="skills.ranger.twinned-arrows">分裂箭矢</string>
+	<string name="skills.ranger.twinned-arrows.create">游侠的普通攻击命中后,有一定几率分裂出新的箭矢,新箭矢的攻击方向会偏向次级目标.</string>
+	<string name="skills.ranger.twinned-arrows.1">游侠射出的箭矢有25%几率分裂并寻找新的目标.</string>
+	<string name="skills.ranger.twinned-arrows.2">游侠射出的箭矢有40%几率分裂并寻找新的目标.</string>
+
+
+	<!-- Sorcerer -->
+	<string name="skills.sorcerer.frost-shard">冰晶碎片</string>
+	<string name="skills.sorcerer.frost-shard.create">造成混合伤害的远程攻击.冰晶碎片可以在障碍物或敌人之间反弹.</string>
+	<string name="skills.sorcerer.frost-shard.1">发射一个造成6点混合伤害的冰晶碎片,能够反弹1次每穿刺或反弹一次增加10%伤害.</string>
+	<string name="skills.sorcerer.frost-shard.2">发射一个造成8点混合伤害的冰晶碎片,能够反弹2次.能够反弹1次每穿刺或反弹一次增加10%伤害</string>
+	<string name="skills.sorcerer.frost-shard.3">发射一个造成10点混合伤害的冰晶碎片,能够反弹3次.能够反弹1次每穿刺或反弹一次增加10%伤害</string>
+	<string name="skills.sorcerer.frost-shard.4">发射一个造成12点混合伤害的冰晶碎片,能够反弹4次.能够反弹1次每穿刺或反弹一次增加10%伤害</string>
+	<string name="skills.sorcerer.frost-shard.5">发射一个造成14点混合伤害的冰晶碎片,能够反弹5次.能够反弹1次每穿刺或反弹一次增加10%伤害</string>
+	<string name="skills.sorcerer.frost-shard.6">发射一个造成16点混合伤害的冰晶碎片,能够反弹6次.能够反弹1次每穿刺或反弹一次增加10%伤害</string>
+
+	<string name="skills.sorcerer.comet">极寒彗星</string>
+	<string name="skills.sorcerer.comet.create">召唤一个彗星对巫师的前方造成冲击,对敌人造成伤害并冻结.极寒彗星的伤害由范围内所有敌人平摊.</string>
+	<string name="skills.sorcerer.comet.1">召唤一个彗星对巫师的前方造成冲击,彗星对冲击范围内造成共40点混合伤害,并冻结所有敌人1秒.</string>
+	<string name="skills.sorcerer.comet.2">召唤一个彗星对巫师的前方造成冲击,彗星对冲击范围内造成共80点混合伤害,并冻结所有敌人1.25秒.</string>
+	<string name="skills.sorcerer.comet.3">召唤一个彗星对巫师的前方造成冲击,彗星对冲击范围内造成共120点混合伤害,并冻结所有敌人1.5秒.</string>
+	<string name="skills.sorcerer.comet.4">召唤一个彗星对巫师的前方造成冲击,彗星对冲击范围内造成共160点混合伤害,并冻结所有敌人1.75秒.</string>
+	<string name="skills.sorcerer.comet.5">召唤一个彗星对巫师的前方造成冲击,彗星对冲击范围内造成共200点混合伤害,并冻结所有敌人2秒.</string>
+	<string name="skills.sorcerer.comet.6">召唤一个彗星对巫师的前方造成冲击,彗星对冲击范围内造成共240点混合伤害,并冻结所有敌人2.25秒.</string>
+
+	<string name="skills.sorcerer.biting-chill">噬骨之寒</string>
+	<string name="skills.sorcerer.biting-chill.create">巫师的所有技能都会使敌人减速,并有几率冻结敌人几秒.</string>
+	<string name="skills.sorcerer.biting-chill.1">被巫师技能击中的敌人会在2秒内减速20%,并有7.5%几率冻结1.25秒.</string>
+	<string name="skills.sorcerer.biting-chill.2">被巫师技能击中的敌人会在2.5秒内减速25%,并有7.5%几率冻结1.5秒.</string>
+	<string name="skills.sorcerer.biting-chill.3">被巫师技能击中的敌人会在3秒内减速30%,并有7.5%几率冻结1.75秒.</string>
+	<string name="skills.sorcerer.biting-chill.4">被巫师技能击中的敌人会在3.5秒内减速35%,并有7.5%几率冻结2秒.</string>
+	<string name="skills.sorcerer.biting-chill.5">被巫师技能击中的敌人会在4秒内减速40%,并有7.5%几率冻结2.25秒.</string>
+
+	<string name="skills.sorcerer.ice-barrier">寒冰护体</string>
+	<string name="skills.sorcerer.ice-barrier.create">每次施法后,巫师都会召唤一层冰甲结附己身,以降低受到的下一次伤害.</string>
+	<string name="skills.sorcerer.ice-barrier.1">每次施法后,巫师都会召唤一层冰甲结附己身,以降低受到的下一次伤害.冰甲存续2.5秒,每层冰甲生效1次,降低20%受到的伤害,冰甲最多叠加5层.</string>
+	<string name="skills.sorcerer.ice-barrier.2">每次施法后,巫师都会召唤一层冰甲结附己身,以降低受到的下一次伤害.冰甲存续2.5秒,每层冰甲生效1次,降低30%受到的伤害,冰甲最多叠加6层.</string>
+	<string name="skills.sorcerer.ice-barrier.3">每次施法后,巫师都会召唤一层冰甲结附己身,以降低受到的下一次伤害.冰甲存续2.5秒,每层冰甲生效1次,降低40%受到的伤害,冰甲最多叠加7层.</string>
+	<string name="skills.sorcerer.ice-barrier.4">每次施法后,巫师都会召唤一层冰甲结附己身,以降低受到的下一次伤害.冰甲存续2.5秒,每层冰甲生效1次,降低50%受到的伤害,冰甲最多叠加8层.</string>
+
+	<string name="skills.sorcerer.frost-nova">冰霜新星</string>
+	<string name="skills.sorcerer.frost-nova.create">巫师向周围发射出一些冰球碎片.</string>
+	<string name="skills.sorcerer.frost-nova.1">在身边发射13个冰球碎片,每个冰球造成12点混合伤害.</string>
+	<string name="skills.sorcerer.frost-nova.2">在身边发射15个冰球碎片,每个冰球造成16点混合伤害.</string>
+	<string name="skills.sorcerer.frost-nova.3">在身边发射17个冰球碎片,每个冰球造成20点混合伤害.</string>
+	<string name="skills.sorcerer.frost-nova.4">在身边发射19个冰球碎片,每个冰球造成24点混合伤害.</string>
+
+	<string name="skills.sorcerer.orb-of-winter">寒冬宝珠</string>
+	<string name="skills.sorcerer.orb-of-winter.create">创造一个缓慢定向移动的冰球,冰球会向周边不断发射大量小型碎冰.</string>
+	<string name="skills.sorcerer.orb-of-winter.1">创造一个缓慢定向移动的冰球,冰球会向周边不断发射大量小型碎冰.冰球持续3.5秒,向周围放出碎冰,每片造成12点混合伤害.</string>
+	<string name="skills.sorcerer.orb-of-winter.2">创造一个缓慢定向移动的冰球,冰球会向周边不断发射大量小型碎冰.冰球持续5秒,向周围放出碎冰,每片造成16点混合伤害.</string>
+	<string name="skills.sorcerer.orb-of-winter.3">创造一个缓慢定向移动的冰球,冰球会向周边不断发射大量小型碎冰.冰球持续6.5秒,向周围放出碎冰,每片造成20点混合伤害.</string>
+
+	<string name="skills.sorcerer.shatter">粉碎</string>
+	<string name="skills.sorcerer.shatter.create">巫师每杀死1个被冻结的敌人,都会使其爆炸,造成范围伤害.</string>
+	<string name="skills.sorcerer.shatter.1">巫师每杀死1个被冻结的敌人,都会使其爆炸,造成范围伤害.爆炸造成40点伤害.</string>
+	<string name="skills.sorcerer.shatter.2">巫师每杀死1个被冻结的敌人,都会使其爆炸,造成范围伤害.爆炸造成80点伤害.</string>
+
+
+	<!-- Thief -->
+	<string name="skills.thief.twin-daggers">孪生双刃</string>
+	<string name="skills.thief.twin-daggers.create">造成物理伤害的近战攻击.双刃不仅攻速快,还能打落大部分投射物</string>
+	<string name="skills.thief.twin-daggers.1">每两次快速的近战攻击,造成6*2点物理伤害.攻击时移动速度降低60%.</string>
+	<string name="skills.thief.twin-daggers.2">每两次快速的近战攻击,造成8*2点物理伤害.攻击时移动速度降低50%.</string>
+	<string name="skills.thief.twin-daggers.3">每两次快速的近战攻击,造成10*2点物理伤害.攻击时移动速度降低40%.</string>
+	<string name="skills.thief.twin-daggers.4">每两次快速的近战攻击,造成12*2点物理伤害.攻击时移动速度降低30%.</string>
+	<string name="skills.thief.twin-daggers.5">每两次快速的近战攻击,造成14*2点物理伤害.攻击时移动速度降低20%.</string>
+	<string name="skills.thief.twin-daggers.6">每两次快速的近战攻击,造成16*2点物理伤害.攻击时移动速度降低10%.</string>
+
+	<string name="skills.thief.throwing-knives">投掷匕首</string>
+	<string name="skills.thief.throwing-knives.create">盗贼向身前扇形区域内扔出匕首造成伤害,匕首可以穿透敌人.</string>
+	<string name="skills.thief.throwing-knives.1">在前方45度扇形范围内扔出5把小刀,每个造成12点物理伤害,最多可穿透5个敌人.</string>
+	<string name="skills.thief.throwing-knives.2">在前方50度扇形范围内扔出6把小刀,每个造成16点物理伤害,最多可穿透6个敌人.</string>
+	<string name="skills.thief.throwing-knives.3">在前方55度扇形范围内扔出7把小刀,每个造成20点物理伤害,最多可穿透7个敌人.</string>
+	<string name="skills.thief.throwing-knives.4">在前方60度扇形范围内扔出8把小刀,每个造成24点物理伤害,最多可穿透8个敌人.</string>
+	<string name="skills.thief.throwing-knives.5">在前方65度扇形范围内扔出9把小刀,每个造成28点物理伤害,最多可穿透9个敌人.</string>
+	<string name="skills.thief.throwing-knives.6">在前方70度扇形范围内扔出10把小刀,每个造成32点物理伤害,最多可穿透10个敌人.</string>
+
+	<string name="skills.thief.sidestep">幻影步</string>
+	<string name="skills.thief.sidestep.create">盗贼有几率闪避即将到来的攻击.</string>
+	<string name="skills.thief.sidestep.1">5%几率完全闪避所有受到的伤害.闪避冷却时间5秒</string>
+	<string name="skills.thief.sidestep.2">10%几率完全闪避所有受到的伤害.闪避冷却时间4.5秒</string>
+	<string name="skills.thief.sidestep.3">15%几率完全闪避所有受到的伤害.闪避冷却时间4秒</string>
+	<string name="skills.thief.sidestep.4">20%几率完全闪避所有受到的伤害.闪避冷却时间3.5秒</string>
+	<string name="skills.thief.sidestep.5">25%几率完全闪避所有受到的伤害.闪避冷却时间3秒</string>
+
+	<string name="skills.thief.slice-and-dice">轮舞</string>
+	<string name="skills.thief.slice-and-dice.create">每次使用双刃击中敌人,盗贼都会获得短暂的攻速加成.每次获得层数都将刷新持续时间.</string>
+	<string name="skills.thief.slice-and-dice.1">每次攻击都会获得2%攻速加成,最高叠加8层,状态存续2.5秒.每次获得层数都将刷新持续时间.</string>
+	<string name="skills.thief.slice-and-dice.2">每次攻击都会获得2%攻速加成,最高叠加16层,状态存续2.5秒.每次获得层数都将刷新持续时间.</string>
+	<string name="skills.thief.slice-and-dice.3">每次攻击都会获得2%攻速加成,最高叠加24层,状态存续2.5秒.每次获得层数都将刷新持续时间.</string>
+	<string name="skills.thief.slice-and-dice.4">每次攻击都会获得2%攻速加成,最高叠加32层,状态存续2.5秒.每次获得层数都将刷新持续时间.</string>
+
+	<string name="skills.thief.grappling-hook">发射钩爪</string>
+	<string name="skills.thief.grappling-hook.create">盗贼向前发射一个钩爪并向勾住的地方移动,眩晕路途中所有的敌人.盗贼在进行勾爪位移期间获得100%的闪避.</string>
+	<string name="skills.thief.grappling-hook.1">发射一个钩爪,盗贼会向抓住的地方前进并使路途中的敌人眩晕0.5秒.盗贼在进行勾爪位移期间获得100%的闪避.</string>
+	<string name="skills.thief.grappling-hook.2">发射一个钩爪,盗贼会向抓住的地方前进并使路途中的敌人眩晕0.75秒.盗贼在进行勾爪位移期间获得100%的闪避.增加钩爪射程.</string>
+	<string name="skills.thief.grappling-hook.3">发射一个钩爪,盗贼会向抓住的地方前进并使路途中的敌人眩晕1秒.盗贼在进行勾爪位移期间获得100%的闪避.增加钩爪射程.</string>
+	<string name="skills.thief.grappling-hook.4">发射一个钩爪,盗贼会向抓住的地方前进并使路途中的敌人眩晕1.25秒.盗贼在进行勾爪位移期间获得100%的闪避.增加钩爪射程.</string>
+
+	<string name="skills.thief.smoke-bomb">烟幕弹</string>
+	<string name="skills.thief.smoke-bomb.create">盗贼扔出一个烟幕弹,使范围内所有敌人眩晕,并掩护队友.</string>
+	<string name="skills.thief.smoke-bomb.1">盗贼扔出一个烟幕弹,烟幕弹可以使周围的敌人眩晕2秒,友军获得10%闪避.</string>
+	<string name="skills.thief.smoke-bomb.2">盗贼扔出一个烟幕弹,烟幕弹可以使周围的敌人眩晕3秒,友军获得20%闪避.范围更大</string>
+	<string name="skills.thief.smoke-bomb.3">盗贼扔出一个烟幕弹,烟幕弹可以使周围的敌人眩晕4秒,友军获得30%闪避.范围更大.</string>
+
+	<string name="skills.thief.vicious-cuts">烈毒狂戮</string>
+	<string name="skills.thief.vicious-cuts.create">每次独立的双刃攻击都有几率使目标失去一定百分比的当前生命.</string>
+	<string name="skills.thief.vicious-cuts.1">每次攻击有5%几率使目标失去5%当前生命值.</string>
+	<string name="skills.thief.vicious-cuts.2">每次攻击有10%几率使目标失去5%当前生命值.</string>
+
+
+	<!-- Warlock -->
+	<string name="skills.warlock.soul-dagger">吸魂短匕</string>
+	<string name="skills.warlock.soul-dagger.create">造成持续性魔法伤害的近距离攻击,术士能从其施加灼魂效果的伤害中汲取生命和法力.</string>
+	<string name="skills.warlock.soul-dagger.1">吸魂短匕对敌人施加灼魂效果,使其在2.5秒内受到每秒10点魔法伤害,术士能回复该伤害值5%的生命和10%的法力.</string>
+	<string name="skills.warlock.soul-dagger.2">吸魂短匕对敌人施加灼魂效果,使其在3秒内受到每秒12点魔法伤害,术士能回复该伤害值5%的生命和10%的法力.</string>
+	<string name="skills.warlock.soul-dagger.3">吸魂短匕对敌人施加灼魂效果,使其在3.5秒内受到每秒14点魔法伤害,术士能回复该伤害值5%的生命和10%的法力.</string>
+	<string name="skills.warlock.soul-dagger.4">吸魂短匕对敌人施加灼魂效果,使其在4秒内受到每秒16点魔法伤害,术士能回复该伤害值5%的生命和10%的法力.</string>
+	<string name="skills.warlock.soul-dagger.5">吸魂短匕对敌人施加灼魂效果,使其在4.5秒内受到每秒18点魔法伤害,术士能回复该伤害值5%的生命和10%的法力.</string>
+	<string name="skills.warlock.soul-dagger.6">吸魂短匕对敌人施加灼魂效果,使其在5秒内受到每秒20点魔法伤害,术士能回复该伤害值5%的生命和10%的法力.</string>
+
+	<string name="skills.warlock.lightning-bolt">闪电链</string>
+	<string name="skills.warlock.lightning-bolt.create">发射一道闪电,闪电击中目标时会传向次级目标,造成同等伤害.</string>
+	<string name="skills.warlock.lightning-bolt.1">发射一道闪电击中5个目标,对每个目标造成20点魔法伤害.</string>
+	<string name="skills.warlock.lightning-bolt.2">发射一道闪电击中6个目标,对每个目标造成23点魔法伤害.</string>
+	<string name="skills.warlock.lightning-bolt.3">发射一道闪电击中7个目标,对每个目标造成26点魔法伤害.</string>
+	<string name="skills.warlock.lightning-bolt.4">发射一道闪电击中8个目标,对每个目标造成29点魔法伤害.</string>
+	<string name="skills.warlock.lightning-bolt.5">发射一道闪电击中9个目标,对每个目标造成32点魔法伤害.</string>
+	<string name="skills.warlock.lightning-bolt.6">发射一道闪电击中10个目标,对每个目标造成35点魔法伤害.</string>
+
+	<string name="skills.warlock.extended-domain">支配加深</string>
+	<string name="skills.warlock.extended-domain.create">提升术士所有技能的生效范围.</string>
+	<string name="skills.warlock.extended-domain.1">所有技能的生效范围提升15%.</string>
+	<string name="skills.warlock.extended-domain.2">所有技能的生效范围提升30%.</string>
+	<string name="skills.warlock.extended-domain.3">所有技能的生效范围提升45%.</string>
+	<string name="skills.warlock.extended-domain.4">所有技能的生效范围提升50%.</string>
+	<string name="skills.warlock.extended-domain.5">所有技能的生效范围提升75%.</string>
+
+	<string name="skills.warlock.soul-cleaver">灵魂收割</string>
+	<string name="skills.warlock.soul-cleaver.create">被灼魂伤害的敌人将把他们受到的伤害传递给周围的目标.</string>
+	<string name="skills.warlock.soul-cleaver.1">被灼魂伤害的敌人将把他们受到伤害的20%传递给周围的目标.</string>
+	<string name="skills.warlock.soul-cleaver.2">被灼魂伤害的敌人将把他们受到伤害的30%传递给周围的目标.</string>
+	<string name="skills.warlock.soul-cleaver.3">被灼魂伤害的敌人将把他们受到伤害的40%传递给周围的目标.</string>
+	<string name="skills.warlock.soul-cleaver.4">被灼魂伤害的敌人将把他们受到伤害的50%传递给周围的目标.</string>
+
+	<string name="skills.warlock.summon-gargoyle">石爪图腾</string>
+	<string name="skills.warlock.summon-gargoyle.create">召唤一个向周围快速发射闪电并晕眩周围敌人的石爪图腾.石爪图腾可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
+	<string name="skills.warlock.summon-gargoyle.1">闪电对命中的敌人造成20点魔法伤害.石爪图腾持续5秒.石爪图腾可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
+	<string name="skills.warlock.summon-gargoyle.2">闪电对命中的敌人造成24点魔法伤害.石爪图腾持续5秒.石爪图腾可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
+	<string name="skills.warlock.summon-gargoyle.3">闪电对命中的敌人造成28点魔法伤害.石爪图腾持续5秒.石爪图腾可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
+	<string name="skills.warlock.summon-gargoyle.4">闪电对命中的敌人造成32点魔法伤害.石爪图腾持续5秒.石爪图腾可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
+
+	<string name="skills.warlock.eye-of-the-storm">风暴之眼</string>
+	<string name="skills.warlock.eye-of-the-storm.create">生成一团跟随术士的雷云.雷云会对周围的敌人发射闪电.还可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
+	<string name="skills.warlock.eye-of-the-storm.1">闪电对敌人造成24点魔法伤害.雷云持续7秒.还可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
+	<string name="skills.warlock.eye-of-the-storm.2">闪电对敌人造成32点魔法伤害.雷云持续9秒.还可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
+	<string name="skills.warlock.eye-of-the-storm.3">闪电对敌人造成40点魔法伤害.雷云持续11秒.还可以与附近的石爪图腾相连,创造一个伤害和眩晕敌人的静电链接.</string>
+
+	<string name="skills.warlock.stormlash">风暴鞭笞</string>
+	<string name="skills.warlock.stormlash.create">包括风暴鞭笞在内所有技能引发的闪电都有几率触发一条次级闪电.</string>
+	<string name="skills.warlock.stormlash.1">有25%几率触发次级闪电,造成25%的伤害.</string>
+	<string name="skills.warlock.stormlash.2">有50%几率触发次级闪电,造成50%的伤害.</string>
+
+
+	<!-- Wizard -->
+	<string name="skills.wizard.fireball">火球</string>
+	<string name="skills.wizard.fireball.create">造成小范围魔法伤害的远程攻击.火球视作技能.</string>
+	<string name="skills.wizard.fireball.1">火球造成10点魔法伤害.</string>
+	<string name="skills.wizard.fireball.2">火球造成12点魔法伤害并拥有更远的射程和更大的范围.</string>
+	<string name="skills.wizard.fireball.3">火球造成14点魔法伤害并拥有更远的射程和更大的范围.</string>
+	<string name="skills.wizard.fireball.4">火球造成16点魔法伤害并拥有更远的射程和更大的范围.</string>
+	<string name="skills.wizard.fireball.5">火球造成18点魔法伤害并拥有更远的射程和更大的范围.</string>
+	<string name="skills.wizard.fireball.6">火球造成20点魔法伤害并拥有更远的射程和更大的范围.</string>
+
+	<string name="skills.wizard.fire-breath">火焰吐息</string>
+	<string name="skills.wizard.fire-breath.create">火焰法师向前吐出烈焰并造成大量魔法伤害</string>
+	<string name="skills.wizard.fire-breath.1">法师的火焰吐息对前方扇形区域造成每击3点伤害.</string>
+	<string name="skills.wizard.fire-breath.2">法师的火焰吐息对前方扇形区域造成每击5点伤害.</string>
+	<string name="skills.wizard.fire-breath.3">法师的火焰吐息对前方扇形区域造成每击7点伤害.</string>
+	<string name="skills.wizard.fire-breath.4">法师的火焰吐息对前方扇形区域造成每击9点伤害.</string>
+	<string name="skills.wizard.fire-breath.5">法师的火焰吐息对前方扇形区域造成每击11点伤害.</string>
+	<string name="skills.wizard.fire-breath.6">法师的火焰吐息对前方扇形区域造成每击13点伤害.</string>
+
+	<string name="skills.wizard.combustion">灼烧</string>
+	<string name="skills.wizard.combustion.create">所有火焰法师的技能都会给敌人额外造成持续伤害.</string>
+	<string name="skills.wizard.combustion.1">技能额外对敌人每秒造成4点魔法伤害,持续2秒.</string>
+	<string name="skills.wizard.combustion.2">技能额外对敌人每秒造成8点魔法伤害,持续2.5秒.</string>
+	<string name="skills.wizard.combustion.3">技能额外对敌人每秒造成12点魔法伤害,持续3秒.</string>
+	<string name="skills.wizard.combustion.4">技能额外对敌人每秒造成16点魔法伤害,持续3.5秒.</string>
+	<string name="skills.wizard.combustion.5">技能额外对敌人每秒造成20点魔法伤害,持续4秒.</string>
+
+	<string name="skills.wizard.flame-shield">火焰护盾</string>
+	<string name="skills.wizard.flame-shield.create">火焰法师每过一段时间都可以使受到的下一次伤害降低.每当火焰护盾就绪时,都会触发一次烈焰波.</string>
+	<string name="skills.wizard.flame-shield.1">护盾降低20%受到的下一次伤害,需要8秒充能.每当火焰护盾就绪时,都会触发一次烈焰波.</string>
+	<string name="skills.wizard.flame-shield.2">护盾降低30%受到的下一次伤害,需要7秒充能.每当火焰护盾就绪时,都会触发一次烈焰波.</string>
+	<string name="skills.wizard.flame-shield.3">护盾降低40%受到的下一次伤害,需要6秒充能.每当火焰护盾就绪时,都会触发一次烈焰波.</string>
+	<string name="skills.wizard.flame-shield.4">护盾降低50%受到的下一次伤害,需要5秒充能.每当火焰护盾就绪时,都会触发一次烈焰波.</string>
+
+	<string name="skills.wizard.blast-wave">烈焰波</string>
+	<string name="skills.wizard.blast-wave.create">火焰法师向周围释放爆炸性的冲击波,造成伤害并迷惑敌人.烈焰波还会摧毁大部分投射物.</string>
+	<string name="skills.wizard.blast-wave.1">火焰法师向周围释放爆炸性的烈焰波造成6点魔法伤害,迷惑并减速敌人30%,持续2.5秒.烈焰波还会摧毁大部分投射物.</string>
+	<string name="skills.wizard.blast-wave.2">火焰法师向周围释放爆炸性的烈焰波造成12点魔法伤害,迷惑并减速敌人40%,持续3秒.烈焰波还会摧毁大部分投射物.</string>
+	<string name="skills.wizard.blast-wave.3">火焰法师向周围释放爆炸性的烈焰波造成20点魔法伤害,迷惑并减速敌人50%,持续3.5秒.烈焰波还会摧毁大部分投射物.</string>
+	<string name="skills.wizard.blast-wave.4">火焰法师向周围释放爆炸性的烈焰波造成30点魔法伤害,迷惑并减速敌人60%,持续4秒.烈焰波还会摧毁大部分投射物.</string>
+
+	<string name="skills.wizard.meteor-shower">流星火雨</string>
+	<string name="skills.wizard.meteor-shower.create">火焰法师召唤一阵陨石雨,造成大量混合伤害.</string>
+	<string name="skills.wizard.meteor-shower.1">召唤3枚陨石冲击地面,造成160点混合伤害.</string>
+	<string name="skills.wizard.meteor-shower.2">召唤5枚陨石冲击地面,造成240点混合伤害.</string>
+	<string name="skills.wizard.meteor-shower.3">召唤7枚陨石冲击地面,造成320点混合伤害.</string>
+
+	<string name="skills.wizard.scorched-earth">焦土</string>
+	<string name="skills.wizard.scorched-earth.create">每当火焰法师释放技能时,都会在地面上留下一块焦土,对敌人造成魔法伤害.</string>
+	<string name="skills.wizard.scorched-earth.1">每当火焰法师释放技能时,都会在地面上留下一块焦土,对敌人造成魔法伤害.焦土范围内的敌人每秒受到8点魔法伤害.</string>
+	<string name="skills.wizard.scorched-earth.2">每当火焰法师释放技能时,都会在地面上留下一块焦土,对敌人造成魔法伤害.焦土范围内的敌人每秒受到16点魔法伤害,持续时间翻倍.</string>
+
+
+	<!-- Gladiator -->
+	<string name="skills.gladiator.trident">三叉戟</string>
+	<string name="skills.gladiator.trident.create">强大的近战攻击可以通过连点进行连续快速攻击.</string>
+	<string name="skills.gladiator.trident.1">物理攻击造成12点伤害. 连续挥动消耗蓄能,\caac8ff三叉戟\d造成最多5次无CD攻击.</string>
+	<string name="skills.gladiator.trident.2">物理攻击造成14点伤害. 连续挥动消耗蓄能,\caac8ff三叉戟\d造成最多7次无CD攻击.</string>
+	<string name="skills.gladiator.trident.3">物理攻击造成16点伤害. 连续挥动消耗蓄能,\caac8ff三叉戟\d造成最多9次无CD攻击.</string>
+	<string name="skills.gladiator.trident.4">物理攻击造成18点伤害. 连续挥动消耗蓄能,\caac8ff三叉戟\d造成最多11次无CD攻击.</string>
+	<string name="skills.gladiator.trident.5">物理攻击造成20点伤害. 连续挥动消耗蓄能,\caac8ff三叉戟\d造成最多13次无CD攻击.</string>
+	<string name="skills.gladiator.trident.6">物理攻击造成22点伤害. 连续挥动消耗蓄能,\caac8ff三叉戟\d造成最多15次无CD攻击.</string>
+
+	<string name="skills.gladiator.net">束缚网</string>
+	<string name="skills.gladiator.net.create">扔出一张网减速范围内敌人. 对于更高等级的敌人可以在束缚时间内对其造成成更多伤害.</string>
+	<string name="skills.gladiator.net.1">扔出一张网减速范围内敌人80%移动速度,持续3秒钟. 蓄力会增加投掷网的范围.</string>
+	<string name="skills.gladiator.net.2">扔出一张网减速范围内敌人80%移动速度,持续3秒钟. 蓄力会增加投掷网的范围. 被网住的敌人承受120%伤害.</string>
+	<string name="skills.gladiator.net.3">扔出一张网减速范围内敌人80%移动速度,持续3秒钟. 蓄力会增加投掷网的范围. 被网住的敌人承受140%伤害.</string>
+	<string name="skills.gladiator.net.4">扔出一张网减速范围内敌人80%移动速度,持续3秒钟. 蓄力会增加投掷网的范围. 被网住的敌人承受160%伤害.</string>
+	<string name="skills.gladiator.net.5">扔出一张网减速范围内敌人80%移动速度,持续3秒钟. 蓄力会增加投掷网的范围. 被网住的敌人承受180%伤害.</string>
+	<string name="skills.gladiator.net.6">扔出一张网减速范围内敌人80%移动速度,持续3秒钟. 蓄力会增加投掷网的范围. 被网住的敌人承受200%伤害.</string>
+
+	<string name="skills.gladiator.planned-attack">精准攻击</string>
+	<string name="skills.gladiator.planned-attack.create">使用\caac8ff三叉戟\d攻击时必定造成暴击.</string>
+	<string name="skills.gladiator.planned-attack.1">使用\caac8ff三叉戟\d攻击时必定造成暴击. 蓄能2秒冷却时间.</string>
+	<string name="skills.gladiator.planned-attack.2">使用\caac8ff三叉戟\d攻击时必定造成暴击. 蓄能1.75秒冷却时间.</string>
+	<string name="skills.gladiator.planned-attack.3">使用\caac8ff三叉戟\d攻击时必定造成暴击. 蓄能1.5秒冷却时间.</string>
+	<string name="skills.gladiator.planned-attack.4">使用\caac8ff三叉戟\d攻击时必定造成暴击. 蓄能1.25秒冷却时间.</string>
+	<string name="skills.gladiator.planned-attack.5">使用\caac8ff三叉戟\d攻击时必定造成暴击. 蓄能1秒冷却时间.</string>
+
+	<string name="skills.gladiator.riposte">还击</string>
+	<string name="skills.gladiator.riposte.create">使用\caac8ff三叉戟\d攻击后短时间内格挡攻击.</string>
+	<string name="skills.gladiator.riposte.1">使用\caac8ff三叉戟\d攻击后0.2秒内格挡20%伤害. \caac8ff还击\d 后补充一次 \caac8ff三叉戟\d.</string>
+	<string name="skills.gladiator.riposte.2">使用\caac8ff三叉戟\d攻击后0.2秒内格挡40%伤害. \caac8ff还击\d 后补充一次 \caac8ff三叉戟\d.</string>
+	<string name="skills.gladiator.riposte.3">使用\caac8ff三叉戟\d攻击后0.2秒内格挡60%伤害. \caac8ff还击\d 后补充一次 \caac8ff三叉戟\d.</string>
+	<string name="skills.gladiator.riposte.4">使用\caac8ff三叉戟\d攻击后0.2秒内格挡80%伤害. \caac8ff还击\d 后补充一次 \caac8ff三叉戟\d.</string>
+
+	<string name="skills.gladiator.gladius">落英飞剑</string>
+	<string name="skills.gladiator.gladius.create">向前扔出一把飞剑,在旋转的同时造成魔法伤害</string>
+	<string name="skills.gladiator.gladius.1">向前扔出一把飞剑持续3秒,在旋转的同时造成32点魔法伤害/秒.</string>
+	<string name="skills.gladiator.gladius.2">向前扔出一把飞剑持续3秒,在旋转的同时造成64点魔法伤害/秒.</string>
+	<string name="skills.gladiator.gladius.3">向前扔出一把飞剑持续3秒,在旋转的同时造成96点魔法伤害/秒.</string>
+	<string name="skills.gladiator.gladius.4">向前扔出一把飞剑持续3秒,在旋转的同时造成128点魔法伤害/秒.</string>
+
+	<string name="skills.gladiator.pit-fighters">召唤群灵</string>
+	<string name="skills.gladiator.pit-fighters.create">在短时间内召唤一群英灵协助作战.</string>
+	<string name="skills.gladiator.pit-fighters.1">召唤一群英灵协助作战,持续15秒. 英灵拥有400血量, 10护甲和10魔抗. 用短剑攻击造成20点物理伤害.</string>
+	<string name="skills.gladiator.pit-fighters.2">召唤一群英灵协助作战,持续15秒. 英灵拥有500血量, 20护甲和20魔抗. 用短剑攻击造成35点物理伤害.</string>
+	<string name="skills.gladiator.pit-fighters.3">召唤一群英灵协助作战,持续15秒. 英灵拥有600血量, 30护甲和30魔抗. 用短剑攻击造成50点物理伤害.</string>
+
+	<string name="skills.gladiator.strength-in-numbers">奥数力量</string>
+	<string name="skills.gladiator.strength-in-numbers.create">增加\caac8ff召唤群灵\d. \caac8ff落英飞花剑\技能的效果.</string>
+	<string name="skills.gladiator.strength-in-numbers.1">\caac8ff召唤群灵\d 和 \caac8ff落英飞剑\d 技能召唤数量增加一.</string>
+	<string name="skills.gladiator.strength-in-numbers.2">\caac8ff召唤群灵\d 和 \caac8ff落英飞剑\d 技能召唤数量增加二.</string>
+
+
+
+	<!-- ITEMS -->
+
+
+
+	<!-- COMMON -->
+
+
+	<string name="item.amulet-of-resistance.name">抗性护符</string>
+	<string name="item.amulet-of-resistance.desc">+ %res% 魔法抗性.</string>
+
+	<string name="item.apothecarys-herbs.name">药剂师的草药</string>
+	<string name="item.apothecarys-herbs.desc">饮用药剂后提升 %mspeed%% 移动速度,持续 %dur% 秒.</string>
+
+	<string name="item.blackjack.name">黑铁棒</string>
+	<string name="item.blackjack.desc">攻击时有 %chance%% 几率眩晕敌人 %dur% 秒.</string>
+
+	<string name="item.book-of-enlightenment.name">启蒙书</string>
+	<string name="item.book-of-enlightenment.desc">+ %exp%% 经验获取.</string>
+
+	<string name="item.boots-of-speed.name">速度之靴·右</string>
+	<string name="item.boots-of-speed.desc">获得 %mspeed% 移动速度buff.</string>
+
+	<string name="item.boots-of-speed-2.name">速度之靴·左</string>
+
+	<string name="item.broad-sword.name">阔剑</string>
+	<string name="item.broad-sword.desc">+ %atk% 普攻伤害.</string>
+
+	<string name="item.cape-of-withdrawal.name">撤退披肩</string>
+	<string name="item.cape-of-withdrawal.desc">被敌人击中时提升 %mspeed%% 移动速度,持续 %dur% 秒.</string>
+
+	<string name="item.circlet-of-willpower.name">坚毅之戒</string>
+	<string name="item.circlet-of-willpower.desc">当生命值低于 %health%% 时,降低 %scost%% 施法消耗.</string>
+
+	<string name="item.chainmail.name">锁子甲</string>
+	<string name="item.chainmail.desc">+ %armor% 护甲.</string>
+
+	<string name="item.coated-arrow.name">毒箭</string>
+	<string name="item.coated-arrow.desc">普通攻击有%chance%%几率使敌人每秒造成%dur%毒伤.</string>
+
+	<string name="item.cowl-of-protection.name">护卫斗篷</string>
+	<string name="item.cowl-of-protection.desc">有 %chance%% 几率抵御 %block% 魔法伤害.</string>
+
+	<string name="item.curios-box.name">珍宝之盒</string>
+	<string name="item.curios-box.desc">%stats% 生命与法力上限. \n%power% 普通攻击与技能伤害. \n%armor% 护甲与魔抗.</string>
+
+	<string name="item.defenders-halberd.name">防卫斧枪</string>
+	<string name="item.defenders-halberd.desc">被敌人击中时,使攻击者缴械 %dur% 秒.</string>
+
+	<string name="item.enchanted-dirk.name">魔法短剑</string>
+	<string name="item.enchanted-dirk.desc">+ %dmg% 普攻附加物理伤害\n+ 1 普攻附加魔法伤害.</string>
+
+	<string name="item.firm-buckler.name">坚固圆盾</string>
+	<string name="item.firm-buckler.desc">有 %chance%% 几率抵御 %block% 物理伤害.</string>
+
+	<string name="item.gladiators-net.name">角斗士之网</string>
+	<string name="item.gladiators-net.desc">击中敌人时,有 %chance%% 几率使其被缴械 %dur% 秒.</string>>
+
+	<string name="item.glowing-staff.name">炽热法杖</string>
+	<string name="item.glowing-staff.desc">%power% 技能伤害\n%dmg% 普攻附加魔法伤害.</string>
+
+	<string name="item.great-helm.name">十字军头盔</string>
+	<string name="item.great-helm.desc">+ %armor% 护甲.</string>
+
+	<string name="item.greaves-of-the-barbarian.name">野蛮人胫甲</string>
+	<string name="item.greaves-of-the-barbarian.desc">击杀敌人后有 %chance%% 几率获得%mspeed%%移动速度加成,持续 %dur% 秒.</string>
+
+	<string name="item.heavy-gauntlets.name">重铁手套</string>
+	<string name="item.heavy-gauntlets.desc">+ %health% 生命上限.</string>
+
+	<string name="item.lesser-sphere-of-life.name">小型生命宝珠</string>
+	<string name="item.lesser-sphere-of-life.desc">连杀期间 + %hregen% 生命回复率.</string>
+
+	<string name="item.lesser-sphere-of-mana.name">小型魔法宝珠</string>
+	<string name="item.lesser-sphere-of-mana.desc">连杀期间 + %mregen% 法力回复率.</string>
+
+	<string name="item.lesser-sphere-of-nova.name">小型新星宝珠</string>
+	<string name="item.lesser-sphere-of-nova.desc">连杀期间,向四周释放新星爆发冲击波,每秒一次,造成 %dmg% 魔法伤害.</string>
+
+	<string name="item.lesser-sphere-of-time.name">小型时间宝珠</string>
+	<string name="item.lesser-sphere-of-time.desc">连杀持续时间增加 %dur%秒.</string>
+
+	<string name="item.life-stone.name">生命之石</string>
+	<string name="item.life-stone.desc">击杀敌人后有 %chance%% 几率回复 1 生命值.</string>
+
+	<string name="item.lucky-charm.name">幸运符</string>
+	<string name="item.lucky-charm.desc">+%luck% 幸运值. +%gain%% 金币获取率.</string>
+
+	<string name="item.mail-of-thorns.name">荆棘盔甲</string>
+	<string name="item.mail-of-thorns.desc">受到攻击时反弹 %return% 物理伤害.</string>
+
+	<string name="item.mage-robe.name">法师长袍</string>
+	<string name="item.mage-robe.desc">+ %mana% 法力上限.</string>
+
+	<string name="item.mana-stone.name">魔法之石</string>
+	<string name="item.mana-stone.desc">击杀敌人后,有 %chance%% 几率回复 1 魔法值.</string>
+
+	<string name="item.markhams-purse.name">万锦钱包</string>
+	<string name="item.markhams-purse.desc">物品栏每有一件物品, %gain%% 金币拾取效率.</string>
+
+	<string name="item.monster-pamphlet-aberration.name">怪物手册: 变异生物</string>
+	<string name="item.monster-pamphlet-aberration.desc">对变异生物 +%exp%% 经验, +%dmg%% 伤害.</string>
+
+	<string name="item.monster-pamphlet-beast.name">怪物手册: 野兽生物</string>
+	<string name="item.monster-pamphlet-beast.desc">对野兽生物 +%exp%% 经验, +%dmg%% 伤害.</string>
+
+	<string name="item.monster-pamphlet-construct.name">怪物手册: 建筑物</string>
+	<string name="item.monster-pamphlet-construct.desc">对建筑物 +%exp%% 经验, +%dmg%% 伤害.</string>
+
+	<string name="item.monster-pamphlet-undead.name">怪物手册: 亡灵生物</string>
+	<string name="item.monster-pamphlet-undead.desc">对亡灵生物 +%exp%% 经验, +%dmg%% 伤害.</string>
+
+	<string name="item.pot-helm.name">全头盔</string>
+	<string name="item.pot-helm.desc">%chance%%几率阻挡大多数的抛射物.</string>
+
+	<string name="item.ring-health.name">治疗指环</string>
+	<string name="item.ring-health.desc">+ %hregen% 生命回复.</string>
+
+	<string name="item.ring-mana.name">魔力指环</string>
+	<string name="item.ring-mana.desc">+ %mregen% 法力回复.</string>
+
+	<string name="item.ring-of-rejuvenation.name">活力指环</string>
+	<string name="item.ring-of-rejuvenation.desc">+ %hregen% 生命回复\n+ %mregen% 法力回复.</string>
+
+	<string name="item.sandals-swiftness.name">迅捷便鞋</string>
+	<string name="item.sandals-swiftness.desc">+ %mspeed% 移动速度\n+ %evasion%% 闪避.</string>
+
+	<string name="item.scroll-of-magic-missile-a.name">魔法飞弹卷轴：第一卷</string>
+	<string name="item.scroll-of-magic-missile-a.desc">使用技能时施放魔法飞弹造成%dmg%魔法伤害,内置2秒冷却时间.</string>
+
+	<string name="item.scroll-of-magic-missile-b.name">魔法飞弹卷轴：第二卷</string>
+	<string name="item.scroll-of-magic-missile-b.desc">使用技能时施放魔法飞弹造成%dmg%魔法伤害,内置2秒冷却时间.</string>
+
+	<string name="item.serrated-scimitar.name">锯齿弯刀</string>
+	<string name="item.serrated-scimitar.desc">+ %chance%% 普通攻击暴击率.</string>
+
+	<string name="item.slippery-cloak.name">狡猾斗篷</string>
+	<string name="item.slippery-cloak.desc">+ %evasion%% 闪避.</string>
+
+	<string name="item.spell-book.name">符咒书</string>
+	<string name="item.spell-book.desc">+ %spell% 技能伤害.</string>
+
+	<string name="item.spiked-flail.name">钉刺链锤</string>
+	<string name="item.spiked-flail.desc">+ %dmg% 普攻附加物理伤害.</string>
+
+	<string name="item.steady-greaves.name">稳固胫甲</string>
+	<string name="item.steady-greaves.desc">+ %armor% 护甲\n+ %health% 生命上限.</string>
+
+	<string name="item.stiletto.name">刺客匕首</string>
+	<string name="item.stiletto.desc">物理伤害无视敌人 %pierce%% 护甲.</string>
+
+	<string name="item.sturdy-belt.name">坚固皮带</string>
+	<string name="item.sturdy-belt.desc">+ %health% 生命上限.</string>
+
+	<string name="item.vendors-coin.name">供应商的硬币</string>
+	<string name="item.vendors-coin.desc">在商店购物时,有 %price%% 优惠.</string>
+
+	<string name="item.war-axe.name">战斧</string>
+	<string name="item.war-axe.desc">+ %dmg% 普攻附加物理伤害.</string>
+
+	<string name="item.wizards-wand.name">法师之杖</string>
+	<string name="item.wizards-wand.desc">+ %dmg% 普攻附加魔法伤害.</string>
+
+	<!-- UNCOMMON -->
+
+
+	<string name="item.adventurers-garb.name">冒险家服饰</string>
+	<string name="item.adventurers-garb.desc">+ %health% 生命上限\n+ %mana% 法力上限.</string>
+
+	<string name="item.apothecarys-flask.name">药剂师的烧瓶</string>
+	<string name="item.apothecarys-flask.desc">+%num% 药剂.</string>
+
+	<string name="item.apothecarys-mortar-pestle.name">药剂师的钵杵</string>
+	<string name="item.apothecarys-mortar-pestle.desc">饮用药剂后,护甲和魔法抗性提升 %eff%%,持续 5 秒 .</string>
+
+	<string name="item.apothecarys-satchel.name">药剂师的背包</string>
+	<string name="item.apothecarys-satchel.desc">+ %eff%% 药剂效果.</string>
+
+	<string name="item.apothecarys-sphere.name">药剂师的宝珠</string>
+	<string name="item.apothecarys-sphere.desc">当饮用药剂时会触发连杀效果.</string>
+
+	<string name="item.assassins-dagger.name">暗杀匕首</string>
+	<string name="item.assassins-dagger.desc">+ %chance%% 普通攻击暴击几率.</string>
+
+	<string name="item.blood-dagger.name">吸血匕首</string>
+	<string name="item.blood-dagger.desc">普通攻击时有 %chance%% 几率吸取 5 点生命值.</string>
+
+	<string name="item.bloodthirst-ring.name">吸血戒指</string>
+	<string name="item.bloodthirst-ring.desc">普通攻击时吸取伤害量 %lsteal%% 的生命值.</string>
+
+	<string name="item.blowgun.name">吹箭</string>
+	<string name="item.blowgun.desc">施放技能会随机向附近的敌人发射%num%枚毒飞镖,造成%dmg%魔法伤害.冷却%cd%秒.</string>
+
+	<string name="item.bracers-of-quickness.name">敏捷护腕</string>
+	<string name="item.bracers-of-quickness.desc">攻击速度增加%num%%.</string>
+
+	<string name="item.claymore.name">大剑</string>
+	<string name="item.claymore.desc">+ %atk% 普攻伤害\n+ %dmg% 普攻附加物理伤害.</string>
+
+	<string name="item.cloak-of-many-pockets.name">多袋斗篷</string>
+	<string name="item.cloak-of-many-pockets.desc">%gold%% 金币拾取效率.</string>
+
+	<string name="item.curios-case.name">珍宝小箱</string>
+	<string name="item.curios-case.desc">%stats% 生命与法力上限.\n%power% 普通攻击与技能伤害.\n%armor% 护甲 与 魔抗.</string>
+
+	<string name="item.elven-bow.name">精灵弓</string>
+	<string name="item.elven-bow.desc">+ %atk% 普攻伤害.</string>
+
+	<string name="item.fancy-plume.name">华丽羽毛</string>
+	<string name="item.fancy-plume.desc">商店将有更多的待售商品.</string>
+
+	<string name="item.frying-pan.name">绝地神锅</string>
+	<string name="item.frying-pan.desc">格挡背后 %arc% 度角内的远程攻击.</string>
+
+	<string name="item.full-plate-mail.name">全身铠甲</string>
+	<string name="item.full-plate-mail.desc">+ %armor% 护甲.</string>
+
+	<string name="item.gloves-of-warding.name">守护手套</string>
+	<string name="item.gloves-of-warding.desc">增加一个抵御%block%魔法伤害的被动效果, 冷却时间%cd%秒.</string>
+
+	<string name="item.key-ring.name">钥匙圈</string>
+	<string name="item.key-ring.desc">捡起钥匙时,你有%chance%%几率获得另一把随机钥匙.</string>
+
+	<string name="item.lucky-horseshoe.name">幸运马蹄铁</string>
+	<string name="item.lucky-horseshoe.desc">+%luck% 幸运值.+%mspeed% 移动速度.</string>
+
+	<string name="item.greater-ring-rejuvenation.name">大活力戒指</string>
+	<string name="item.greater-ring-rejuvenation.desc">+ %hregen% 生命回复\n+ %mregen% 法力回复.</string>
+
+	<string name="item.markhams-stone.name">万锦之石</string>
+	<string name="item.markhams-stone.desc">装备栏每有一件物品,%gain%% 矿石拾取效率.</string>
+
+	<string name="item.monster-manual-aberration.name">怪物指南: 变异生物</string>
+	<string name="item.monster-manual-aberration.desc">对变异生物 +%exp%% 经验, +%dmg%% 伤害值.</string>
+
+	<string name="item.monster-manual-beast.name">怪物指南: 野兽生物</string>
+	<string name="item.monster-manual-beast.desc">对野兽生物 +%exp%% 经验, +%dmg%% 伤害值.</string>
+
+	<string name="item.monster-manual-construct.name">怪物指南: 建筑物</string>
+	<string name="item.monster-manual-construct.desc">对建筑物 +%exp%% 经验, +%dmg%% 伤害值.</string>
+
+	<string name="item.monster-manual-undead.name">怪物指南: 亡灵生物</string>
+	<string name="item.monster-manual-undead.desc">对亡灵生物 +%exp%% 经验, +%dmg%% 伤害值.</string>
+
+	<string name="item.necklace-of-prowess.name">英勇项链</string>
+	<string name="item.necklace-of-prowess.desc">技能释放速度增加 %num%%.</string>
+
+	<string name="item.old-map.name">旧地图</string>
+	<string name="item.old-map.desc">消除地图上的战争迷雾.</string>
+
+	<string name="item.rapier-of-retaliation.name">回馈之剑</string>
+	<string name="item.rapier-of-retaliation.desc">+ %evasion%% 闪避.\n每次闪避后,你造成的伤害增加 %dmg%% ,持续 %sec% 秒.</string>
+
+	<string name="item.reinforced-gloves.name">钢铁臂铠</string>
+	<string name="item.reinforced-gloves.desc">提供一个抵御 %block% 点物理伤害的护盾,内置%cd%秒冷却时间.</string>
+
+	<string name="item.ring-of-transmutation.name">转化之戒</string>
+	<string name="item.ring-of-transmutation.desc">损失生命时,将获得损失量 %mana%% 的法力.</string>
+
+	<string name="item.robe-of-arch-magi.name">大法师长袍</string>
+	<string name="item.robe-of-arch-magi.desc">+ %spell% 技能伤害\n+ %res% 魔法抗性.</string>
+
+	<string name="item.scarab-of-protection.name">圣甲虫护符</string>
+	<string name="item.scarab-of-protection.desc">被击中时,对攻击者造成 %return% 魔法伤害,并放出一圈毒镖.</string>
+
+	<string name="item.seal-of-the-martyr.name">烈士勋章</string>
+	<string name="item.seal-of-the-martyr.desc">每损失 1% 生命就增加 1% 普攻伤害.</string>
+
+	<string name="item.seal-of-souls.name">灵魂封印</string>
+	<string name="item.seal-of-souls.desc">每损失 1%法力就增加 %dmg%% 伤害.</string>
+
+	<string name="item.shaftlocke-pickaxe.name">矿井之镐</string>
+	<string name="item.shaftlocke-pickaxe.desc">%chance%% 矿石拾取效率.</string>
+
+	<string name="item.spiked-boots.name">针刺铁靴</string>
+	<string name="item.spiked-boots.desc">触碰敌人时对其造成 %dmg% 点物理伤害.</string>
+
+	<string name="item.sphere-of-life.name">生命宝珠</string>
+	<string name="item.sphere-of-life.desc">连杀期间 + %hregen% 生命回复.</string>
+
+	<string name="item.sphere-of-mana.name">魔法宝珠</string>
+	<string name="item.sphere-of-mana.desc">连杀期间 + %mregen% 法力回复.</string>
+
+	<string name="item.sphere-of-nova.name">连杀新星</string>
+	<string name="item.sphere-of-nova.desc">连杀期间向四周释放强大的新星爆发冲击波,每秒一次,造成 %dmg% 魔法伤害.</string>
+
+	<string name="item.sphere-of-time.name">时间宝珠</string>
+	<string name="item.sphere-of-time.desc">连杀持续时间增加 %dur%秒.</string>
+
+	<string name="item.sphere-of-warriors.name">勇士之环</string>
+	<string name="item.sphere-of-warriors.desc">触发连杀效果要求减少 %num%个.</string>
+
+	<string name="item.staff-of-unstable-casting.name">失衡法杖</string>
+	<string name="item.staff-of-unstable-casting.desc">+ %chance%% 技能暴击几率.</string>
+
+	<string name="item.stinger.name">毒刺</string>
+	<string name="item.stinger.desc">物理伤害无视敌人 %pierce%% 护甲.</string>
+
+	<string name="item.talisman-of-decay.name">衰变符咒</string>
+	<string name="item.talisman-of-decay.desc">周围的敌人受到的伤害增加 %taken%% .</string>
+
+	<string name="item.tome-of-magic-missile.name">魔法飞弹之书</string>
+	<string name="item.tome-of-magic-missile.desc">%skill% 技能伤害.\n使用技能时施放魔法飞弹造成%dmg%魔法伤害,内置2秒冷却时间</string>
+
+	<string name="item.tower-shield.name">塔盾</string>
+	<string name="item.tower-shield.desc">有 %chance%% 几率抵御 %block% 物理伤害.</string>
+
+	<string name="item.wand-of-spell-piercing.name">诅咒法杖</string>
+	<string name="item.wand-of-spell-piercing.desc">技能伤害无视敌人 %pierce%% 魔抗.</string>
+
+
+	<!-- RARE -->
+
+
+	<string name="item.amulet-of-kings.name">国王护符</string>
+	<string name="item.amulet-of-kings.desc">+ %res% 魔法抗性.</string>
+
+	<string name="item.amulet-of-vengeance.name">复仇护符</string>
+	<string name="item.amulet-of-vengeance.desc">受到伤害时有 %chance%% 几率触发连击效果.</string>
+
+	<string name="item.armor-of-kings.name">国王护甲</string>
+	<string name="item.armor-of-kings.desc">+ %armor% 护甲.</string>
+
+	<string name="item.boots-of-freedom.name">自由之靴</string>
+	<string name="item.boots-of-freedom.desc">无视所有减速效果.</string>
+
+	<string name="item.boots-of-the-giant.name">巨人之靴</string>
+	<string name="item.boots-of-the-giant.desc">碰到的敌人会眩晕%stun% 秒并减少%health% 生命.</string>
+
+	<string name="item.cape-of-the-flamewalker.name">火焰行者披风</string>
+	<string name="item.cape-of-the-flamewalker.desc">燃烧身边的敌人,每秒造成 %dmg% 魔法伤害.</string>
+
+	<string name="item.chakram.name">环刃</string>
+	<string name="item.chakram.desc">使用技能时释放环刃造成%dmg%物理伤害,冷却时间%cd%秒.</string>
+
+	<string name="item.curios-coffer.name">珍宝巨箱</string>
+	<string name="item.curios-coffer.desc">%stats% 生命与法力上限.\n%power% 普通攻击与技能伤害.\n%armor% 护甲 与 魔抗.</string>
+
+	<string name="item.duelists-edge.name">决斗之剑</string>
+	<string name="item.duelists-edge.desc">+ %evasion%% 闪避. 当被击中时,对攻击者造成 %dmg% 魔法伤害并施加流血效果.</string>
+
+	<string name="item.dukes-signet-ring.name">公爵徽章之戒</string>
+	<string name="item.dukes-signet-ring.desc">当受到伤害生命低于%cutoff%%时,产生一个能回复到最大生命值 %heal%%的生命回复阵.持续%dur%秒,冷却时间%cd%秒.</string>
+
+	<string name="item.earthsplitter.name">裂地者</string>
+	<string name="item.earthsplitter.desc">普通攻击击中敌人时,有 %chance%% 几率释放三根地刺,造成 %dmg% 物理伤害.</string>
+
+	<string name="item.flametongue.name">火舌</string>
+	<string name="item.flametongue.desc">+ %dmg% 普攻附加魔法伤害.\n灼烧攻击到的敌人.</string>
+
+	<string name="item.frostbrand.name">霜印</string>
+	<string name="item.frostbrand.desc">+ %dmg% 普攻附加魔法伤害. \n冻结攻击到的敌人.</string>
+
+	<string name="item.greater-sphere-of-nova.name">大型新星宝珠</string>
+	<string name="item.greater-sphere-of-nova.desc">连杀期间,向四周释放更强大的新星爆发冲击波,每秒一次,造成 %dmg% 魔法伤害.</string>
+
+	<string name="item.greater-sphere-of-regen.name">大型生命宝珠</string>
+	<string name="item.greater-sphere-of-regen.desc">连杀期间 + %hregen% 生命回复, + %mregen% 法力回复.</string>
+
+	<string name="item.heartseeker.name">觅心者</string>
+	<string name="item.heartseeker.desc">普通攻击击中敌人时,有 %chance%% 几率造成暴击.</string>
+
+	<string name="item.lucky-hat.name">幸运帽</string>
+	<string name="item.lucky-hat.desc">+%luck% 幸运值.</string>
+
+	<string name="item.magebane.name">巫师之祸</string>
+	<string name="item.magebane.desc">普通攻击有 %chance%% 几率降低敌人 %res%% 魔法抗性,持续2秒.</string>
+
+	<string name="item.markhams-amulet.name">万锦护符</string>
+	<string name="item.markhams-amulet.desc">装备栏每有一件物品, %gain% 生命上限 和 法力上限.</string>
+
+	<string name="item.markhams-mace.name">万锦之锤</string>
+	<string name="item.markhams-mace.desc">装备栏每有一件物品, %gain% 普通攻击伤害.</string>
+
+	<string name="item.markhams-wand.name">万锦法杖</string>
+	<string name="item.markhams-wand.desc">装备栏每有一件物品, %gain% 技能伤害.</string>
+
+	<string name="item.queens-cuirass.name">女王胸甲</string>
+	<string name="item.queens-cuirass.desc">+%armor% 护甲.</string>
+
+	<string name="item.queens-dagger.name">女王匕首</string>
+	<string name="item.queens-dagger.desc">+%atk% 攻击伤害.</string>
+
+	<string name="item.queens-jewel.name">女王宝石</string>
+	<string name="item.queens-jewel.desc">+%spell% 技能伤害.</string>
+
+	<string name="item.queens-necklace.name">女王的项链</string>
+	<string name="item.queens-necklace.desc">+%res% 魔抗.</string>
+
+	<string name="item.scepter-of-kings.name">国王权杖</string>
+	<string name="item.scepter-of-kings.desc">+ %spell% 技能伤害.</string>
+
+	<string name="item.seal-of-rage.name">愤怒圣印</string>
+	<string name="item.seal-of-rage.desc">损失血量的百分比,提升%speed%%攻击速度.</string>
+
+	<string name="item.shieldbreaker.name">碎盾者</string>
+	<string name="item.shieldbreaker.desc">普通攻击有 %chance%% 几率降低敌人 %armor%% 防御,持续 %sec% 秒.</string>
+
+	<string name="item.skullsmasher.name">碎颅者</string>
+	<string name="item.skullsmasher.desc">普通攻击每击中%hit%th伤害就会触发爆炸,造成30点物理伤害.</string>
+
+	<string name="item.spreading-corruption.name">腐化蔓延</string>
+	<string name="item.spreading-corruption.desc">普通攻击会附加%dur%秒的负面效果,当原目标被杀,负面效果会转移到下一个敌人.受到负面效果的敌人受到的伤害增加%dmg%%.</string>
+
+	<string name="item.staff-of-volatile-casting.name">多变法杖</string>
+	<string name="item.staff-of-volatile-casting.desc">+ %chance%% 技能暴击几率.</string>
+
+	<string name="item.stormcaller.name">风暴召唤</string>
+	<string name="item.stormcaller.desc">普通攻击击中敌人时,有 %chance%% 几率释放闪电链, 造成 %dmg% 魔法伤害.</string>
+
+	<string name="item.sword-kings.name">国王之剑</string>
+	<string name="item.sword-kings.desc">+ %atk% 普攻伤害.</string>
+
+	<string name="item.talisman-of-conflagration.name">火灾护符</string>
+	<string name="item.talisman-of-conflagration.desc">杀死敌人有 %chance%% 几率使其自爆.</string>
+
+	<string name="item.wrath-of-the-thundergod.name">雷神之怒</string>
+	<string name="item.wrath-of-the-thundergod.desc">被击中时对攻击者释放闪电链, 造成 %dmg% 魔法伤害.</string>
+
+
+	<!-- EPIC -->
+
+
+	<string name="item.crown-of-kings.name">国王头冠</string>
+	<string name="item.crown-of-kings.desc">+ %bonus%% 基础 生命上限 和 法力上限.</string>
+
+	<string name="item.dragonscale-mail.name">龙鳞盔甲</string>
+	<string name="item.dragonscale-mail.desc">受到的伤害降低 %taken%% .</string>
+
+	<string name="item.mask-of-bewilderment.name">混乱面具</string>
+	<string name="item.mask-of-bewilderment.desc">普攻命中时令敌人受到混乱效果%dur% 秒.</string>
+
+	<string name="item.phoenix-feather.name">凤凰羽毛</string>
+	<string name="item.phoenix-feather.desc">在受到致命攻击之前会自动发触发药剂效果.</string>
+
+	<string name="item.queens-tiara.name">女王头饰</string>
+	<string name="item.queens-tiara.desc">+%bonus%% 基础生命 & 基础法力.</string>
+
+	<string name="item.ring-of-arcane-powers.name">神秘戒指</string>
+	<string name="item.ring-of-arcane-powers.desc">技能消耗法力降低 %scost%% .</string>
+
+	<string name="item.searing-sabatons.name">灼热马靴</string>
+	<string name="item.searing-sabatons.desc">路过之处留下持续 %dur%秒造成%dmg% 魔法伤害的火路.</string>
+
+	<string name="item.sphere-of-champions.name">冠军宝珠</string>
+	<string name="item.sphere-of-champions.desc">连杀期间 + %atk% 技能伤害.</string>
+
+	<!-- LEGENDARY -->
+
+
+	<string name="item.descending-destruction.name">毁灭降临</string>
+	<string name="item.descending-destruction.desc">普通攻击击中敌人时,有 %chance%% 几率降下一颗流星.造成100混合伤害并点燃敌人.</string>
+
+	<string name="item.medusas-charm.name">美杜莎魅惑</string>
+	<string name="item.medusas-charm.desc">你面向的敌人速度减慢 %slow%% . 眩晕击中的敌人 %stun% 秒.</string>
+
+	<string name="item.spirit-cloak.name">心灵斗篷</string>
+	<string name="item.spirit-cloak.desc">受到伤害后,无敌 %dur% 秒.</string>
+
+	<string name="item.soul-taker.name">灵魂收割</string>
+	<string name="item.soul-taker.desc">每当你杀死一个敌人时,也会击杀一个随机的同类型敌人.</string>
+
+	<string name="item.sphere-of-heroes.name">英雄之环</string>
+	<string name="item.sphere-of-heroes.desc">在连杀状态下普攻会额外发出巨型新星.</string>
+
+	<string name="item.wand-of-chaos.name">混沌魔杖</string>
+	<string name="item.wand-of-chaos.desc">每 %time% 秒向随机敌人射出一发强力的闪电.</string>
+
+
+	<!-- SETS -->
+
+
+	<string name="item.sets.fire-and-ice.name">寒冰烈火</string>
+	<string name="item.sets.fire-and-ice.desc">+ %dmg% 普攻附加魔法伤害.</string>
+
+	<string name="item.sets.stones-of-midas.name">迈达斯之石</string>
+	<string name="item.sets.stones-of-midas.desc">击杀每个敌人后获取 %gold% 金币.</string>
+
+	<string name="item.sets.monster-brochure.name">怪物手册</string>
+	<string name="item.sets.monster-brochure.desc">+ %dmg%% 伤害.</string>
+
+	<string name="item.sets.monster-encyclopedia.name">怪物图鉴</string>
+	<string name="item.sets.monster-encyclopedia.desc">+ %dmg%% 伤害.</string>
+
+	<string name="item.sets.kings-regalia.name">王者华服</string>
+	<string name="item.sets.kings-regalia.desc">+ %speed%% 攻击速度 和 技能冷却速度.</string>
+
+	<string name="item.sets.apothecarys-implements.name">药剂师工具</string>
+	<string name="item.sets.apothecarys-implements.desc.1">+1 药剂使用次数.</string>
+	<string name="item.sets.apothecarys-implements.desc.2">击杀敌人后有 %chance%% 几率补充药剂.</string>
+
+	<string name="item.sets.journeymans-outfit.name">旅行装备</string>
+	<string name="item.sets.journeymans-outfit.desc.1">+ %armor% 护甲.</string>
+	<string name="item.sets.journeymans-outfit.desc.2">+ %attack% 普攻伤害.</string>
+	<string name="item.sets.journeymans-outfit.desc.3">受到的伤害降低 %reduction%%.</string>
+
+	<string name="item.sets.disciples-arcana.name">信徒之秘</string>
+	<string name="item.sets.disciples-arcana.desc.1">+ %res% 魔法抗性.</string>
+	<string name="item.sets.disciples-arcana.desc.2">+ %skill% 技能强度.</string>
+	<string name="item.sets.disciples-arcana.desc.3">施法消耗降低 %cost%%.</string>
+
+	<string name="item.sets.spheres-of-power.name">魔力宝珠</string>
+	<string name="item.sets.spheres-of-power.desc.1">小型连杀新星.</string>
+	<string name="item.sets.spheres-of-power.desc.2">中型连杀新星.</string>
+	<string name="item.sets.spheres-of-power.desc.3">大型连杀新星.</string>
+	<string name="item.sets.spheres-of-power.desc.4">巨型连杀新星.</string>
+	<string name="item.sets.spheres-of-power.desc.5">连杀状态下能抵御致死的攻击.</string>
+
+	<string name="item.sets.tricksters-ensemble.name">幻灵协律</string>
+	<string name="item.sets.tricksters-ensemble.desc.1">闪避时获得移动速度加成.</string>
+	<string name="item.sets.tricksters-ensemble.desc.2">+ %chance%% 闪避.</string>
+	<string name="item.sets.tricksters-ensemble.desc.3">闪避时触发连击效果.</string>
+
+	<string name="item.sets.magic-missile.name">巫师入门套件</string>
+	<string name="item.sets.magic-missile.desc.1">使用技能时放出 1 个魔法飞弹.</string>
+	<string name="item.sets.magic-missile.desc.2">使用技能时放出 %num% 个魔法飞弹.</string>
+
+	<string name="item.sets.curios-collection.name">金玉满堂</string>
+	<string name="item.sets.curios-collection.desc">%stats% 生命与法力上限.\n%power% 普通攻击与技能伤害. \n%armor% 护甲 与 魔抗.</string>
+
+	<string name="item.sets.markhams-mastery.name">万锦奇珍</string>
+	<string name="item.sets.markhams-mastery.desc.1">装备栏每有一件物品, %gain% 护甲 与 魔抗.</string>
+	<string name="item.sets.markhams-mastery.desc.2">装备栏每有一件物品, %gain%% 攻击速度 和 技能冷却速度.</string>
+
+	<string name="item.sets.boots-of-speed.name">速度之靴</string>
+
+	<string name="item.sets.queens-radiance.name">女王光环</string>
+	<string name="item.sets.queens-radiance.desc">%curses% 诅咒.</string>
+
+	<string name="item.sets.seals-of-torment.name">磨难印章</string>
+	<string name="item.sets.seals-of-torment.desc">每损失百分一的生命值增加%faster%%技能释放速度.</string>
+
+
+
+
+	<!-- DRINKS -->
+
+
+
+	<!-- COMMON -->
+
+
+	<string name="drink.a-strong-arm.name">身强力壮</string>
+	<string name="drink.a-strong-arm.desc">%pos% 普攻伤害.\n%neg% 护甲.</string>
+
+	<string name="drink.ancient-spirit.name">远古魔灵</string>
+	<string name="drink.ancient-spirit.desc">%pos% 技能加成.\n%neg% 魔法抗性.</string>
+
+	<string name="drink.crazy-eye.name">癫狂视线</string>
+	<string name="drink.crazy-eye.desc">普通攻击时%pos%% 几率造成暴击.\n%neg% 护甲.</string>
+
+	<string name="drink.double-thriller.name">双重惊悚</string>
+	<string name="drink.double-thriller.desc">%pos%% 伤害量.\n%neg%% 受到的伤害.</string>
+
+	<string name="drink.enchanted-slammer.name">强化一击</string>
+	<string name="drink.enchanted-slammer.desc">普攻增加%pos%的物理伤害就将消耗现有 %neg%%的法力.</string>
+
+	<string name="drink.homemade-hazard.name">风险投资</string>
+	<string name="drink.homemade-hazard.desc">%pos%% 普通攻击暴击伤害.\n%neg%% 受到的伤害.</string>
+
+	<string name="drink.ladys-blessing.name">圣女祝福</string>
+	<string name="drink.ladys-blessing.desc">%pos% 生命回复率.\n%neg%% 技能加成.</string>
+
+	<string name="drink.lazy-stroll.name">游手好闲</string>
+	<string name="drink.lazy-stroll.desc">%pos%% 经验获得.\n%neg% 移动速度.</string>
+
+	<string name="drink.mellow-mist.name">醇厚酒雾</string>
+	<string name="drink.mellow-mist.desc">%pos%% 受到的伤害.\n%neg% 移动速度.</string>
+
+	<string name="drink.mind-control.name">精神控制</string>
+	<string name="drink.mind-control.desc">免疫混乱状态.但其他负面状态持续时间增加 %neg%%.</string>
+
+	<string name="drink.on-the-run.name">健步如飞</string>
+	<string name="drink.on-the-run.desc">%pos% 移动速度.\n%neg%% 金币获取速率.</string>
+
+	<string name="drink.smelly-old-man.name">皓首穷经</string>
+	<string name="drink.smelly-old-man.desc">%pos% 法力回复率.\n%neg%% 基础生命.</string>
+
+	<string name="drink.starlight-stinger.name">利如星火</string>
+	<string name="drink.starlight-stinger.desc">技能攻击%pos%% 几率造成暴击.\n%neg%% 基础法力.</string>
+
+	<string name="drink.the-groovy-ghost.name">幽灵漫步</string>
+	<string name="drink.the-groovy-ghost.desc">%pos%% 闪避.\n%neg% 普攻伤害.</string>
+
+
+	<!-- UNCOMMON -->
+
+
+	<string name="drink.a-fools-errand.name">混水摸鱼</string>
+	<string name="drink.a-fools-errand.desc">%pos%% Gold gain.\nHealth Regen set to %neg%.</string>
+
+	<string name="drink.elemental-bruiser.name">元素紊乱</string>
+	<string name="drink.elemental-bruiser.desc">%pos%% 技能加成.\n%neg%% 技能消耗法力.</string>
+
+	<string name="drink.miners-delight.name">矿工挚爱</string>
+	<string name="drink.miners-delight.desc">%pos%% 矿石获取效率.\n%neg%% 金币获取效率.</string>
+
+	<string name="drink.overflowing-physique.name">充沛之体</string>
+	<string name="drink.overflowing-physique.desc">+%pos%%基本生命值\n移动时损失%neg%%现有的法力.</string>
+
+	<string name="drink.last-stand.name">背水一战</string>
+	<string name="drink.last-stand.desc">静止时 %pos%% 受到的伤害并 %pos2%% 造成的伤害.\n%neg%% 移动时收到的伤害.</string>
+
+	<string name="drink.the-last-sin.name">罪不容诛</string>
+	<string name="drink.the-last-sin.desc">%pos%% 技能暴击伤害.\n%neg% 法力回复率.</string>
+
+	<string name="drink.the-cranky-clergyman.name">易怒牧师</string>
+	<string name="drink.the-cranky-clergyman.desc">+%pos% 魔抗.\n+%neg%% 技能速度.</string>
+
+	<string name="drink.slumbering-giant.name">沉睡巨人</string>
+	<string name="drink.slumbering-giant.desc">+%pos% 攻击伤害.\n+%neg%% 攻击速度.</string>
+
+	<string name="drink.the-safe-bet.name">安全投注</string>
+	<string name="drink.the-safe-bet.desc">+%pos%% 护甲和魔抗.\n+%neg% 幸运值.</string>
+
+	<string name="drink.the-outlook-special.name">远望特饮</string>
+	<string name="drink.the-outlook-special.desc">获得一个 %pos%% 伤害减免状态持续 %pos2% 秒.\n%neg%% 矿石获得率.</string>
+
+
+	<!-- RARE -->
+
+
+	<string name="drink.crimson-death.name">致命深红</string>
+	<string name="drink.crimson-death.desc">造成普通伤害的%pos%% 会转化为生命值.\n移动时损失生命.</string>
+
+	<string name="drink.hammer-time.name">以身作锤</string>
+	<string name="drink.hammer-time.desc">%pos% 攻击力.\n当你站立不动时损失 %neg%% 生命.</string>
+
+	<string name="drink.incendiary-demise.name">怒火中烧</string>
+	<string name="drink.incendiary-demise.desc">普通攻击附加%pos% 点魔法伤害.\n用普通攻击造成伤害后自己灼伤.</string>
+
+	<string name="drink.kinetic-kiss.name">动力之吻</string>
+	<string name="drink.kinetic-kiss.desc">移动时回复%pos%%最大法力值\n受伤时失去全部法力.</string>
+
+	<string name="drink.stab-in-the-dark.name">隐于黑暗</string>
+	<string name="drink.stab-in-the-dark.desc">普攻暴击几率%pos%%\n普攻时将会失明 %neg% 秒.</string>
+
+	<string name="drink.spilled-blood.name">流血之殇</string>
+	<string name="drink.spilled-blood.desc">普攻能让敌人流血.\n%neg%%基本生命值.</string>
+
+	<string name="drink.the-mad-proposal.name">丧心病狂</string>
+	<string name="drink.the-mad-proposal.desc">%pos%% 造成的伤害.\n永久处于混乱状态.</string>
+
+	<string name="drink.unbalanced-essence.name">龙头蛇尾</string>
+	<string name="drink.unbalanced-essence.desc">%pos% 技能伤害增加.\n使用技能时损失 %neg%% 魔法.</string>
+
+	<string name="drink.wicked-sickness.name">身罹奇疾</string>
+	<string name="drink.wicked-sickness.desc">%pos%% 连击伤害加成.\n%neg% 没有连击时生命恢复速率.</string>
+
+	<string name="drink.frenetic-eruption.name">狂热喷发</string>
+	<string name="drink.frenetic-eruption.desc">连击时%pos%% 暴击概率.\n%neg%% 非连击状态下受伤加成.</string>
+
+	<string name="drink.evil-infusion.name">邪恶饮料</string>
+	<string name="drink.evil-infusion.desc">%pos%% 技能吸血.\n施法时损失 %neg%% 生命.</string>
+
+	<string name="drink.perpetual-desire.name">永恒欲望</string>
+	<string name="drink.perpetual-desire.desc">拾取物品会触发连击.\n%neg%% 非连杀状态下技能消耗法力为%neg%%.</string>
+
+
+
+
+	<!-- FOUNTAIN -->
+
+
+
+	<!-- GOOD -->
+
+
+	<string name="fountain.effect.bigger_levels.name">板块扩张</string>
+	<string name="fountain.effect.bigger_levels.description">每层楼的地图都变大.</string>
+
+	<string name="fountain.effect.glass_walks.name">玻璃路径</string>
+	<string name="fountain.effect.glass_walks.description">激活玻璃路径.</string>
+
+	<string name="fountain.effect.more_chest_rooms.name">宝藏狩猎</string>
+	<string name="fountain.effect.more_chest_rooms.description">有机会生成额外的宝箱房.</string>
+
+	<string name="fountain.effect.amazing_pickups.name">山珍海味</string>
+	<string name="fountain.effect.amazing_pickups.description">生命和魔法拾取物发挥出额外500%的效果.</string>
+
+	<string name="fountain.effect.infinite_wells.name">不竭之泉</string>
+	<string name="fountain.effect.infinite_wells.description">泉水的使用没有次数限制.</string>
+
+	<string name="fountain.effect.keep_all_gold.name">离岸账户</string>
+	<string name="fountain.effect.keep_all_gold.description">合理避税.</string>
+
+	<string name="fountain.effect.more_shop_items.name">品目繁多</string>
+	<string name="fountain.effect.more_shop_items.description">商店的待售物品增加 2 个.</string>
+
+	<string name="fountain.effect.reduced_trap_damage.name">温柔陷阱</string>
+	<string name="fountain.effect.reduced_trap_damage.description">陷阱造成的伤害降低50%.</string>
+
+	<string name="fountain.effect.no_towers.name">崩塌塔楼</string>
+	<string name="fountain.effect.no_towers.description">所有塔楼类建筑都被摧毁.</string>
+
+	<string name="fountain.effect.no_pathway_traps.name">安全走廊</string>
+	<string name="fountain.effect.no_pathway_traps.description">走廊上的所有陷阱都被禁用.</string>
+
+	<string name="fountain.effect.no_spawners.name">捣毁窝点</string>
+	<string name="fountain.effect.no_spawners.description">所有生物巢穴都被摧毁.</string>
+
+	<string name="fountain.effect.ace_key.name">冠军钥匙</string>
+	<string name="fountain.effect.ace_key.description">得到一把Ace钥匙.</string>
+
+	<string name="fountain.effect.less_great_threat.name">罕有危机</string>
+	<string name="fountain.effect.less_great_threat.description">关卡时间限制惩罚变得很少见.</string>
+
+	<string name="fountain.effect.more_shrines.name">神秘指引</string>
+	<string name="fountain.effect.more_shrines.description">生成更多的石碑.</string>
+
+	<string name="fountain.effect.more_imps.name">宾客如云</string>
+	<string name="fountain.effect.more_imps.description">送礼物的小恶魔变得更常见.</string>
+
+	<string name="fountain.effect.more_potion_charges.name">大号药瓶</string>
+	<string name="fountain.effect.more_potion_charges.description">增加两瓶药剂.</string>
+
+	<string name="fountain.effect.ace_chests.name">Ace箱子</string>
+	<string name="fountain.effect.ace_chests.description">出现Ace箱子的几率更高.</string>
+
+
+
+
+	<!-- BAD -->
+
+
+	<string name="fountain.effect.more_enemies.name">超生大队</string>
+	<string name="fountain.effect.more_enemies.description">更多敌人.</string>
+
+	<string name="fountain.effect.no_prison_button.name">钥匙被锁</string>
+	<string name="fountain.effect.no_prison_button.description">监狱的开关被卡住了.</string>
+
+	<string name="fountain.effect.more_elites.name">精锐增援</string>
+	<string name="fountain.effect.more_elites.description">更多精英敌人.</string>
+
+	<string name="fountain.effect.bad_pickups.name">餐风饮露</string>
+	<string name="fountain.effect.bad_pickups.description">生命和魔法拾取物只有50%的效果.</string>
+
+	<string name="fountain.effect.shitty_items.name">废铜烂铁</string>
+	<string name="fountain.effect.shitty_items.description">有小几率捡到一文不值的道具.</string>
+
+	<string name="fountain.effect.random_earthquakes.name">山崩地裂</string>
+	<string name="fountain.effect.random_earthquakes.description">会发生随机的地震.</string>
+
+	<string name="fountain.effect.no_dropped_loot.name">一文不名</string>
+	<string name="fountain.effect.no_dropped_loot.description">敌人和Bosses不会掉落任何战利品.</string>
+
+	<string name="fountain.effect.no_secrets.name">严丝合缝</string>
+	<string name="fountain.effect.no_secrets.description">不会生成隐藏房间.</string>
+
+	<string name="fountain.effect.potion_confuse.name">辛辣药剂</string>
+	<string name="fountain.effect.potion_confuse.description">每次饮用药剂都会混乱2.5秒.</string>
+
+	<string name="fountain.effect.container_bombs.name">爆炸惊喜</string>
+	<string name="fountain.effect.container_bombs.description">容器里面会有更多的炸弹.</string>
+
+	<string name="fountain.effect.no_wells.name">干涸泉眼</string>
+	<string name="fountain.effect.no_wells.description">泉水都不能使用.</string>
+
+	<string name="fountain.effect.no_shops.name">公休假日</string>
+	<string name="fountain.effect.no_shops.description">关卡内没有商店.</string>
+
+	<string name="fountain.effect.no_ore.name">枯竭矿脉</string>
+	<string name="fountain.effect.no_ore.description">不会生成矿石.</string>
+
+	<string name="fountain.effect.more_trap_damage.name">致命陷阱</string>
+	<string name="fountain.effect.more_trap_damage.description">陷阱额外造成200%伤害.</string>
+
+	<string name="fountain.effect.1_hp.name">瞬间暴毙</string>
+	<string name="fountain.effect.1_hp.description">你的基础生命被设为1.</string>
+
+	<string name="fountain.effect.more_great_threat.name">无情危机</string>
+	<string name="fountain.effect.more_great_threat.description">关卡时间限制惩罚变得很频繁.</string>
+
+	<string name="fountain.effect.faster_enemies.name">机敏对手</string>
+	<string name="fountain.effect.faster_enemies.description">敌人的移动速度提升50%.</string>
+
+	<string name="fountain.effect.minibosses_everywhere.name">工头监工</string>
+	<string name="fountain.effect.minibosses_everywhere.description">每层都会生成小BOSS.</string>
+
+	<string name="fountain.effect.no_class_titles.name">孤胆英豪</string>
+	<string name="fountain.effect.no_class_titles.description">你不会从称号等级中获取属性增益.</string>
+
+	<string name="fountain.effect.no_elevators.name">矿井停工</string>
+	<string name="fountain.effect.no_elevators.description">电梯无法使用.</string>
+
+
+
+	<!-- Dialogue -->
+
+
+	<!-- NPC Random Greetings -->
+
+	<string name="dialogue.town.npc.geneic.greeting.1Ra">你好!</string>
+	<string name="dialogue.town.npc.geneic.greeting.1Rb">欢迎!</string>
+	<string name="dialogue.town.npc.geneic.greeting.1Rc">日安!</string>
+	<string name="dialogue.town.npc.geneic.greeting.1Rd">你吼!</string>
+	<string name="dialogue.town.npc.geneic.greeting.1Re">向你致敬!</string>
+
+	<!-- NPC Woman1 Environment -->
+
+	<string name="dialogue.town.npc.generic.woman1.1Ra">我还记得在十年以前,我们还能够直接看到伟大的太阳!</string>
+	<string name="dialogue.town.npc.generic.woman1.1Rb">曾经这里的景色是多么好啊.</string>
+	<string name="dialogue.town.npc.generic.woman1.2">以前在这夏天是永远看不见雪的,现在这雪看起来永远不会化了.</string>
+	<string name="dialogue.town.npc.generic.woman1.3">看来这坏天气是那座尖塔的顶端引起的.</string>
+	<string name="dialogue.town.npc.generic.woman1.4">我听说以前有人尝试登上塔顶,但他们却永远没有回来?</string>
+	<string name="dialogue.town.npc.generic.woman1.5a">你也许能在塔顶上找到你想要的东西! (1)</string>
+	<string name="dialogue.town.npc.generic.woman1.5b">不过要当心,估计那里会又冷又滑. (2)</string>
+
+	<!-- NPC Man1 Locations -->
+
+	<string name="dialogue.town.npc.generic.man1.1">远望镇曾经是从下面的沙漠到更大的矿洞的中转站.</string>
+	<string name="dialogue.town.npc.generic.man1.2">很多这片区域里的无恶不赦的罪犯都被关在小镇的监狱里.</string>
+	<string name="dialogue.town.npc.generic.man1.3Ra">德拉尼公爵太懒了.他甚至不愿意爬上那座尖塔,就在武器库周围驻扎下来了.</string>
+	<string name="dialogue.town.npc.generic.man1.3Rb">公爵懒·德拉尼大概在这个军械库的哪个地方发霉吧.</string>
+	<string name="dialogue.town.npc.generic.man1.4">没人明白为什么这个大图书馆造得像个迷宫一样...</string>
+	<string name="dialogue.town.npc.generic.man1.5">这些大厅与房间是为公爵而建造的,不过实际上只有第一代公爵在这里居住过.</string>
+	<string name="dialogue.town.npc.generic.man1.6">你在那里找到了些什么?有传言说一只怪物跑上了那个塔顶,不过你明白的,那只是传言罢了.</string>
+
+	<!-- NPC Man2 Gambler -->
+
+	<string name="dialogue.town.npc.generic.man2.1Ra">原本的酒保离开了这里,去尝试从塔里寻找那些矿石了.</string>
+	<string name="dialogue.town.npc.generic.man2.1Rb">“怪脸”沃尔弗拉姆为了去寻找让他酒吧重新开张的材料离开了这里.</string>
+	<string name="dialogue.town.npc.generic.man2.2Ra">也许你可以帮沃尔弗拉姆重新让这里开张?</string>
+	<string name="dialogue.town.npc.generic.man2.2Rb">老德朗卡曾经在这里玩该死的赌博游戏.</string>
+	<string name="dialogue.town.npc.generic.man2.3Ra">听说过我吗?他们把我称做一个赌徒!</string>
+	<string name="dialogue.town.npc.generic.man2.3Rb">嘿,我已经是个快输光的老赌徒了,所以别带上我了!</string>
+	<string name="dialogue.town.npc.generic.man2.4Ra">你难道是个穷光蛋或者什么的么?</string>
+	<string name="dialogue.town.npc.generic.man2.4Rb">可别在这里算牌,伙计!</string>
+
+	<!-- NPC Man3 Desert -->
+
+	<string name="dialogue.town.npc.generic.man3.1Ra">潜伏在沙丘下的危险.</string>
+	<string name="dialogue.town.npc.generic.man3.1Rb">沙漠中有很多蝎子和毒蛇徘徊.</string>
+	<string name="dialogue.town.npc.generic.man3.1Rc">不要迷路了-沙漠可会吃了你的.</string>
+	<string name="dialogue.town.npc.generic.man3.1Rd">沙漠中的一些地方每年都会看到很多“尘埃鬼”.</string>
+	<string name="dialogue.town.npc.generic.man3.1Re">沙漠地图实际上已经绘制得很完善了.获的其中一张地图将使您的旅行更加安全.</string>
+
+	<!-- NPC Man4 Quarry -->
+
+	<string name="dialogue.town.npc.generic.man4.1Ra">这里有一座城镇,至少曾经是.</string>
+	<string name="dialogue.town.npc.generic.man4.1Rb">在采石场热闹的时候,这个小营地实际上是一个相当大的城镇.</string>
+	<string name="dialogue.town.npc.generic.man4.1Rc">我知道有些地质学家在南方找到了更多的矿石,但人们在这里返回我的矿井还需要几年的时间.</string>
+
+	<!-- NPC Woman2 Census -->
+
+	<string name="dialogue.town.npc.generic.woman2.name">好奇的老巴格</string>
+	<string name="dialogue.town.npc.generic.woman2.1a">嗨!我了解这里的每一个人,甚至曾经不属于这里的人我也认识.(1)</string>
+	<string name="dialogue.town.npc.generic.woman2.1b">我们的市长迈克尔正在尝试让这座小镇重新恢复秩序. (2)</string>
+	<string name="dialogue.town.npc.generic.woman2.1c">兰斯格瑞被迈克尔推举成了这里的行政长官,大概是因为他在组织计划方面比其他人要强吧. (3)</string>
+	<string name="dialogue.town.npc.generic.woman2.1d">铁匠约翰巴洛在决定加入我们之前明显遇到了些麻烦. (4)</string>
+	<string name="dialogue.town.npc.generic.woman2.1e">我听说公会长官卡尔洪在这片区域是一个“不得了”的人,不过你大概已经知道了吧? (5)</string>
+	<string name="dialogue.town.npc.generic.woman2.1f">虽然那个商人达伦埃普斯是个讲道理的人,他的商品有时候还是会有些超出意料.不过至少他的钥匙一直是一个价... (6)</string>
+	<string name="dialogue.town.npc.generic.woman2.1g">艾利安达是我的挚友,她也是一个出色的药剂师.她应该就在这里附近,如果不是的话,她就应该是在矿洞里补充她的库存吧. (7)</string>
+	<string name="dialogue.town.npc.generic.woman2.1h">牧师昆西为这里的圣光教堂工作.你知道的,很久之前他还在下面的太阳神庙中工作. (8)</string>
+	<string name="dialogue.town.npc.generic.woman2.1i">酒保</string>
+	<string name="dialogue.town.npc.generic.woman2.1j">赌徒</string>
+
+	<!-- NPC Woman3 Desert -->
+
+	<string name="dialogue.town.npc.generic.woman3.1Ra">在靠近金字塔一段距离的沙漠区域,是地壳蠕虫的活动范围.</string>
+	<string name="dialogue.town.npc.generic.woman3.1Rb">许多有投机者试图找到现在已暴露的金字塔的入口.</string>
+	<string name="dialogue.town.npc.generic.woman3.1Rc">据说沙漠居民的最后一位女王伊丽丝被无礼地埋葬在金字塔的下层.</string>
+	<string name="dialogue.town.npc.generic.woman3.1Rd">要到达金字塔的上层,需要经过沙漠眼镜蛇困室.</string>
+
+	<!-- NPC Pali -->
+
+	<string name="dialogue.town.npc.generic.pali.name">外来异客</string>
+	<string name="dialogue.town.npc.generic.pali.1a">就像伟大的灯神和愚钝的元素们... (1)</string>
+	<string name="dialogue.town.npc.generic.pali.1b">...就像我一样,帕利斯也可能被拖入裂缝并被迫进入你的世界 - 对我们来说这是一种祝福,对他们来说是一种祸害. (2)</string>
+	<string name="dialogue.town.npc.generic.pali.1c">在我们的世界里,我们是灯神的奴隶,并且被元素们看管着...(3)</string>
+	<string name="dialogue.town.npc.generic.pali.1d">...我们是治疗疾病和驱除诅咒的专家,并尽我们所能的帮助他人. (4)</string>
+	<string name="dialogue.town.npc.generic.pali.1e">在你的世界里,我们隐藏在深沉的冥想之中,然而副作用是,如果沉睡受到干扰...(5)</string>
+	<string name="dialogue.town.npc.generic.pali.1f">...如此多的能量释放出来,我们可能会被吸回到裂缝中,这通常意味着某些东西会被释放出来. (6)</string>
+
+	<!-- NPC Woman2 Census -->
+
+	<string name="dialogue.town.npc.generic.woman2.name">奇怪的背包客</string>
+	<string name="dialogue.town.npc.generic.woman2.1a">嘿! 我认识这附近所有的人还有一些其他的事情.(1)</string>
+	<string name="dialogue.town.npc.generic.guard.1a">如果你进去了,你就没有回头路了.</string>
+	<string name="dialogue.town.npc.generic.guard.1b">这个入口将会被永远封死.</string>
+
+	<string name="dialogue.town.npc.fountain.oaf.name">傻子</string>
+	<string name="dialogue.town.npc.fountain.oaf.1a">原本这个喷泉还有用.</string>
+	<string name="dialogue.town.npc.fountain.oaf.1b">我还会丢点硬币到里面去.</string>
+	<string name="dialogue.town.npc.fountain.oaf.2a">喷泉又有水了!</string>
+	<string name="dialogue.town.npc.fountain.oaf.2b">我丢进去的硬币就这么消失了!</string>
+	<string name="dialogue.town.npc.fountain.oaf.3a">我已经扔了这么多硬币进去了.</string>
+	<string name="dialogue.town.npc.fountain.oaf.3b">我快要破产了...</string>
+
+	<string name="dialogue.town.npc.generic.ace1.name">尊敬的勇者</string>
+	<string name="dialogue.town.npc.generic.ace1.1Ra">我不会进那些矿洞的.让我下地狱也没有可能.</string>
+	<string name="dialogue.town.npc.generic.ace1.1Rb">没错,就像我会去清理那些矿洞一样.</string>
+	<string name="dialogue.town.npc.generic.ace1.2Ra">哈,监狱里到处都是亡灵生物,我最好还是待在这里吧!</string>
+	<string name="dialogue.town.npc.generic.ace1.2Rb">我听说把亡灵生物从监狱里赶出去是个烦人的活吧!</string>
+	<string name="dialogue.town.npc.generic.ace1.3Ra">在军械库里似乎有不少危险的守卫炮塔吧.</string>
+	<string name="dialogue.town.npc.generic.ace1.3Rb">要是我的话,我宁愿进矿洞也不会进那个军械库的,也许你不一样吧!</string>
+	<string name="dialogue.town.npc.generic.ace1.4Ra">我知道那里有许多可供阅读的典籍,但是这并不是个冒险进入档案馆的好理由.</string>
+	<string name="dialogue.town.npc.generic.ace1.4Rb">RESERVED</string>
+	<string name="dialogue.town.npc.generic.ace1.5Ra">我知道卡尔霍恩说去议会是小菜一碟,但是说真的,怎么可能!</string>
+	<string name="dialogue.town.npc.generic.ace1.5Rb">RESERVED</string>
+	<string name="dialogue.town.npc.generic.ace1.6Ra">令人伤心的是,这里没有人能够屠龙,\n你应该像我一样呆在这个城镇,平平安安地生活.</string>
+	<string name="dialogue.town.npc.generic.ace1.6Rb">RESERVED</string>
+
+	<!-- Mayor1 -->
+	<string name="dialogue.town.npc.mayor.name">市长 迈克尔</string>
+	<string name="dialogue.town.npc.mayor.1a">日安,年轻人.欢迎来到远望镇.我们在不久之前刚刚抵达这里,希望能让这座小镇重现焕发荣光.(1)</string>
+	<string name="dialogue.town.npc.mayor.1b">在十年以前,邪恶势力夺走了尖塔和凯尔特矿井的控制权. (2)</string>
+	<string name="dialogue.town.npc.mayor.1c">没有了矿石的供应,小镇撑不了多长时间,不久之后它就被废弃了. (3)</string>
+	<string name="dialogue.town.npc.mayor.1d">现在有了你们这些年轻人的帮助,我希望这片区域能够重新充满活力,最终夺回那座尖塔! (4)</string>
+	<string name="dialogue.town.npc.mayor.mines_enter.1Ra">现在对所有人来说都是段难熬的时光...</string>
+	<string name="dialogue.town.npc.mayor.mines_enter.1Rb">没有矿石的时候可真麻烦...</string>
+	<string name="dialogue.town.npc.mayor.boss1_killed.1Ra">你终于解决了矿洞深处那恶心的怪物么?那可真是个好消息.</string>
+	<string name="dialogue.town.npc.mayor.boss1_killed.1Rb">这么久以来杀死矿工无数的石傀儡终于被你解决了</string>
+	<string name="dialogue.town.npc.mayor.boss2_killed.1Ra">那是从前的典狱长彼得,\n他再也不可能用他的十字弩折磨别人了.</string>
+	<string name="dialogue.town.npc.mayor.boss2_killed.1Rb">我听说你讨伐了那个用十字弩的\n巨大亡灵————典狱长彼得……</string>
+	<string name="dialogue.town.npc.mayor.boss3_killed.1Ra">你刚刚讨伐的那些亡灵,可能是曾经\n公爵德拉尼斯手下保卫他的战士们.</string>
+	<string name="dialogue.town.npc.mayor.boss3_killed.1Rb">你踏足了公爵德拉尼斯的安息之地,\n并且摆平了他手下那些最最最难缠的战士们?!</string>
+	<string name="dialogue.town.npc.mayor.boss4_killed.1Ra">我们不知道那些奇诡的生物都是从何而来,\n 并且圣坛是不可能召唤出那种怪物的.</string>
+	<string name="dialogue.town.npc.mayor.boss4_killed.1Rb">我们...击溃了那只巨眼?\n小伙子,你已经快到塔的顶层了.</string>
+	<string name="dialogue.town.npc.mayor.boss5_killed.1Ra">RESERVED</string>
+	<string name="dialogue.town.npc.mayor.boss5_killed.1Rb">RESERVED</string>
+
+	<!-- Guard Marlod 1 -->
+	<string name="dialogue.town.npc.mayor_guard1.name">守卫 马洛德</string>
+	<string name="dialogue.town.npc.mayor_guard1.1Ra">你能帮我们把矿井中的威胁清理掉吗?</string>
+	<string name="dialogue.town.npc.mayor_guard1.1Rb">希望你有足够的本事来战胜矿井里的怪物们.</string>
+	<string name="dialogue.town.npc.mayor_guard1.1Rc">也许你可以帮我们重新夺回矿井??</string>
+
+	<!-- Guildmaster Les "Ace" Calhoun -->
+	<string name="dialogue.town.npc.guildmaster.name">公会长官 卡尔洪</string>
+	<string name="dialogue.town.npc.guildmaster.1Ra">如果你帮我重建了这座公会大厅,我可以帮你训练,当然不是免费的.作为公会的一员,这完全取决于你的意愿.</string>
+
+	<!-- Prefect Lance Grey -->
+	<string name="dialogue.town.npc.prefect.name">行政长官 格瑞</string>
+	<string name="dialogue.town.npc.prefect.1Ra">我负责这里的矿石分配工作.如果你觉得对你有帮助的话,你可以告诉我关于矿石分配的想法.</string>
+
+	<!-- Darren the Supplier -->
+	<string name="dialogue.town.npc.shopkeep.name">商人 达伦</string>
+	<string name="dialogue.town.npc.shopkeep.1Ra">嘿,我叫达伦埃普斯.交易价格就是取决于需求和供应的浮动,现在我的商品供不应求,你最好给我个“理想的”报价.</string>
+
+	<!-- Oba the Trader -->
+	<string name="dialogue.town.npc.shopkeep.desert.name">交易员 奥巴</string>
+	<string name="dialogue.town.npc.shopkeep.desert.1Ra">真是意外!随便看看.也许你有什么想买的东西?</string>
+
+	<!-- Mr Bookman -->
+	<string name="dialogue.town.npc.mrbookman.name">亨利</string>
+	<string name="dialogue.town.npc.mrbookman.1Ra">我经常把书送到太阳神殿的图书馆.</string>
+	<string name="dialogue.town.npc.mrbookman.1Rb">周围这些沙尘暴使我无法将我的书送给别人阅读</string>
+	<string name="dialogue.town.npc.mrbookman.1Rc">似乎芬恩是唯一一个敢带着他的马车走出去的人.周围沙漠之中充满着妖魔鬼怪.</string>
+
+	<string name="dialogue.town.npc.townhall.guard1a">行政长官会帮你分配你所获得的矿石.</string>
+
+	<string name="dialogue.town.npc.chapel.man1.1a">嘿,你不是牧师...</string>
+	<string name="dialogue.town.npc.chapel.man1.1b">我希望牧师能够早点回来!</string>
+	<string name="dialogue.town.npc.chapel.man1.1c">牧师不久之前刚走.</string>
+
+	<string name="dialogue.town.npc.smith.name">铁匠 巴洛</string>
+	<string name="dialogue.town.npc.smith.1a">我很乐意帮你升级武器,不过我需要一些矿石.</string>
+
+	<string name="dialogue.town.npc.apothecary.name">艾利安达</string>
+	<string name="dialogue.town.npc.apothecary.0a">嘿!我在这个魔法泉补充药水时被困住了.别忘了把你自己的瓶子也装满!希望回到小镇上能看到你!</string>
+
+	<string name="dialogue.town.npc.apothecary.1a">制作药剂可是我的专长,不过我需要一些配方.</string>
+
+	<string name="dialogue.town.npc.oretrader.name">矿工 奥利弗</string>
+	<string name="dialogue.town.npc.oretrader.1a">求你带我离开这个破洞!</string>
+	<string name="dialogue.town.npc.oretrader.1b">谢谢你救了我!请收好这个矿石,你可以用升降梯把这个送到小镇里去.</string>
+
+	<string name="dialogue.town.npc.thief.name">“怪脸” 沃尔弗拉姆</string>
+	<string name="dialogue.town.npc.thief.1Ra">你!等等!</string>
+	<string name="dialogue.town.npc.thief.1Rb">这里!</string>
+	<string name="dialogue.town.npc.thief.2">十分感谢!我希望能在小镇里见到你!</string>
+	<string name="dialogue.town.npc.thief.3a">我已经说服市长让酒馆重新开张了. (1)</string>
+	<string name="dialogue.town.npc.thief.3b">可我一点矿石都不剩下了.也许你可以给格瑞提供一些? (2)</string>
+	<string name="dialogue.town.npc.thief.4">为什么不在这些游戏里试试你的运气呢?可别沉迷其中了哈?</string>
+
+	<string name="dialogue.town.npc.wizard.name">艾兹贝特</string>
+	<string name="dialogue.town.npc.wizard.1Ra">我知道...</string>
+	<string name="dialogue.town.npc.wizard.1Rb">最后...</string>
+	<string name="dialogue.town.npc.wizard.2a">我正在公爵的附近寻找一些古老戒指,但我找不到了,真是奇怪. (1)</string>
+	<string name="dialogue.town.npc.wizard.2b">无论如何,感谢你为我清出一条道路.我尝试在这书中找出传送术,但似乎有人撕掉了这一章节. (2)</string>
+	<string name="dialogue.town.npc.wizard.2c">我现在要回我的店里. 我希望到时能看到你, 说到魔法,我可是真正的魔法师! (3)</string>
+	<string name="dialogue.town.npc.wizard.3a">感谢救了我, 但我们还是需要恢复店铺.也许跟那位长官谈谈?</string>
+	<string name="dialogue.town.npc.wizard.3b">长官格瑞也许不想在把小镇大厅修缮得更好之前帮我重建这个建筑</string>
+	<string name="dialogue.town.npc.wizard.4">我会帮你找一个法师朋友来的,不过可能需要一些时间,好吗?</string>
+
+	<!-- Beastmaster -->
+	<string name="dialogue.town.npc.beastmaster.name">兽王 巴尔扎尔</string>
+	<string name="dialogue.town.npc.beastmaster.1Ra">我把我的怪物大图鉴留在了塔的档案室,里面有关于这里的邪恶怪物的非常有价值的信息.</string>
+
+	<!-- Arena Wagon NPC -->
+	<string name="dialogue.town.npc.wagon.name">芬恩</string>
+	<string name="dialogue.town.npc.wagon.1Ra">我很乐意带任何英雄穿越沙漠前往竞技场. 快上车!</string>
+
+	<!-- Arena Gladiator NPC -->
+	<string name="dialogue.town.npc.gladiator.name">角斗士 马吕斯</string>
+	<string name="dialogue.town.npc.gladiator.1Ra">我将训练能在竞技场留下名字的人,并有剑币证明这一点.</string>
+
+	<!-- Richard Hammer -->
+	<string name="dialogue.town.npc.tapster.name">酒保 理查德</string>
+	<string name="dialogue.town.npc.tapster.1Ra">嘿,如果你在塔里找到更多的酒桶,我会给你一个特别的饮料,当然价格也很合理......\n</string>
+
+	<!-- Book - Ancient History -->
+	<string name="dialogue.town.book.ancienthistory.name">古代历史 v. III</string>
+	<string name="dialogue.town.book.ancienthistory.1a">第三页\n...平民们欢呼\n贵族们称赞... (1)</string>
+	<string name="dialogue.town.book.ancienthistory.1b">第十五页\n...约束并控制\n人们一举\n一动的法律\n即将通过... (2)</string>
+	<string name="dialogue.town.book.ancienthistory.1c">第四十页\n...被迫刺穿\n他们的喉咙... (3)</string>
+	<string name="dialogue.town.book.ancienthistory.1d">第七十五页\n...在政变时期, 伊丽丝被逮捕\n人们把她从宝座上推了下来\n当时，那里被称为\n伊丽丝的审判庭... (4)</string>
+	<string name="dialogue.town.book.ancienthistory.1e">仍然是七十五页\n...她被关在了毒\n蛇之牢，之后便\n死亡并被放在了\n石棺里... (5)</string>
+
+	<!-- Book - Legends -->
+	<string name="dialogue.town.book.legends2.name">神话和传说</string>
+	<string name="dialogue.town.book.legends2.1a">第19页\n...艾莫尔捡起了灯并把它放在了王座室内,他知道不会有人想进入这个房间的, 因为这里被层诅咒.他想之后再回来... (1)</string>
+	<string name="dialogue.town.book.legends2.1b">仍然是19页\n...当他和他的皇家助手\n正要离开时, 艾莫尔突然滑倒了\n之后便死在了痛苦中\n他的助手只想逃出去，看看身后的金字塔... (2)</string>
+
+	<!-- Book - Henry' Geo -->
+	<string name="dialogue.town.book.geography.name">地理学者亨利之子</string>
+	<string name="dialogue.town.book.geography.1a">第253页\n...这一切,这糟糕的一切\n都是因为那\n本应住在远方的\n巨型蚯蚓... (1)</string>
+	<string name="dialogue.town.book.geography.1b">还是第253页\n...已经开始爬到地表了\n已经有不少人在\n恐怖的蠕虫攻击中\n被活生生吃掉了... (2)</string>
+
+	<!-- Elevator -->
+	<string name="dialogue.town.npc.elevator.name">酒保 康拉德</string>
+	<string name="dialogue.town.npc.elevator.1a">外面的缆车可以\n带你去石城.</string>
+	<string name="dialogue.town.npc.elevator.error">外面的缆车\n现在无法使用.\n\n(现在购买\n新DLC即可解锁!)</string>
+
+	<!-- Signs -->
+	<string name="dialogue.sign.chapel">光之教会</string>
+	<string name="dialogue.sign.townhall">市政厅</string>
+	<string name="dialogue.sign.guild">断罪王牌</string>
+	<string name="dialogue.sign.tavern">老酒馆</string>
+	<string name="dialogue.sign.magic">魔法屋</string>
+	<string name="dialogue.sign.general">达伦供应商</string>
+	<string name="dialogue.sign.mines">远望镇矿井</string>
+	<string name="dialogue.doll.normal">普通装扮</string>
+	<string name="dialogue.doll.armor">盔甲装扮</string>
+	<string name="dialogue.doll.magic">魔法装扮</string>
+	<string name="dialogue.doll.fragile">简陋装扮</string>
+	<string name="dialogue.sign.west">西</string>
+	<string name="dialogue.sign.east">东</string>
+	<string name="dialogue.sign.north">北</string>
+	<string name="dialogue.sign.outlook">远望城</string>
+	<string name="dialogue.sign.cityofstone">石城</string>
+	<string name="dialogue.sign.suntemple">太阳神庙</string>
+	<string name="dialogue.sign.suntemple2">东: 太阳神庙\n西: 石城</string>
+	<string name="dialogue.sign.tavern-desert">The Refreshing\nChisel</string>
+	<string name="dialogue.sign.dont">请勿打扰!</string>
+	<string name="dialogue.sign.express-down">下降: 石城</string>
+	<string name="dialogue.sign.express-up">上升: 远望镇</string>
+
+	<string name="dialogue.sign.arena.name">阿里达拉 竞技场</string>
+	<string name="dialogue.sign.arena.desc">像男人一样战斗！\n努力取得胜利！\n和精良的装备！\n欢迎各位前来尝试!</string>
+
+	<!-- Player -->
+	<string name="dialogue.player.mines_entrance.1Ra">被禁行了...</string>
+	<string name="dialogue.player.mines_entrance.1Rb">不能后退...</string>
+
+	<string name="dialogue.player.painting.2">这是一幅令人沮丧的画...</string>
+
+	<string name="dialogue.player.closed.1Ra">似乎关闭了.</string>
+	<string name="dialogue.player.closed.1Rb">门是锁着的.</string>
+	<string name="dialogue.player.closed.1Rc">不能进去吗...</string>
+
+	<string name="dialogue.player.apothecary">这些罐子看起来是空的...</string>
+
+	<string name="dialogue.player.books.1">这些藏书不是很有印象.</string>
+
+	<string name="dialogue.player.theduke">看起来杜克·德洛尼死得很痛苦.</string>
+	<string name="dialogue.player.combo.1">基座看起来空的?</string>
+	<string name="dialogue.player.combo.2">只是一个紫色的连杀宝珠</string>
+
+	<string name="dialogue.player.view">多么美妙的风景!</string>
+	<string name="dialogue.player.quarry">采石场似乎被遗弃了...</string>
+
+	<string name="dialogue.player.desert.east.day1">在到达太阳神殿之前,我会渴死的.</string>
+	<string name="dialogue.player.desert.east.day2">我可不想陷入风暴\n然后在迷路后,\n孤独的等死.</string>
+	<string name="dialogue.player.desert.east.night1">我不想在\n夜里走那么多路...</string>
+	<string name="dialogue.player.desert.east.night2">在夜里走那么多路\n实在是太危险了!</string>
+	<string name="dialogue.player.desert.deadguy.1Ra">这哥们太惨了\ne，我可不想这样结束!</string>
+	<string name="dialogue.player.desert.deadguy.1Rb">这个兄弟可能有\n完美的人生, 但是\n他的人生并没有真的\n获得成功.</string>
+	<string name="dialogue.player.desert.deadguy.1Rc">他应该买一张合适的地图,应该可以免去他的悲伤与饥饿.</string>
+
+	<string name="dialogue.player.desert.minerazed">被堵住的矿井入口...</string>
+
+
+
+	<!-- Guild Hall -->
+
+
+	<!-- Guild Hall Screen -->
+	<string name="guildhall.title">公会</string>
+	<string name="guildhall.tab.stats">公会 & 英雄</string>
+	<string name="guildhall.tab.accomplishments">成就</string>
+	<string name="guildhall.tab.beastiary">怪物图鉴</string>
+	<string name="guildhall.tab.itemiary">物品图鉴</string>
+	<string name="guildhall.stats.guildtitle">公会  %title%</string>
+	<string name="guildhall.stats.lifetime">生涯</string>
+	<string name="guildhall.stats.classtitles">职业称号</string>
+	<string name="guildhall.stats.armor">所有英雄护甲+%amount%</string>
+	<string name="guildhall.stats.resistance">所有英雄魔法抗性+%amount%</string>
+	<string name="guildhall.stats.attackpower">所有英雄普攻伤害+%amount%</string>
+	<string name="guildhall.stats.spellpower">所有英雄技能伤害+%amount%</string>
+	<string name="guildhall.stats.healthregen">所有英雄生命回复率+%amount%</string>
+	<string name="guildhall.stats.manaregen">所有英雄法力回复率+%amount%</string>
+	<string name="guildhall.stats.goldgain">所有英雄金币获取+%amount%</string>
+	<string name="guildhall.stats.critmul">所有英雄暴击伤害+%amount%</string>
+
+	<!-- Guild Titles -->
+	<string name="titles.guild-0">默默无名</string>
+	<string name="titles.guild-1">略有耳闻Ⅰ</string>
+	<string name="titles.guild-2">小有名气Ⅱ</string>
+	<string name="titles.guild-3">受人尊敬Ⅲ</string>
+	<string name="titles.guild-4">令人难忘Ⅳ</string>
+	<string name="titles.guild-5">出类拔萃Ⅴ</string>
+	<string name="titles.guild-6">杰出人物Ⅵ</string>
+	<string name="titles.guild-7">远近闻名Ⅶ</string>
+	<string name="titles.guild-8">广受赞誉Ⅷ</string>
+	<string name="titles.guild-9">卓尔不凡Ⅸ</string>
+	<string name="titles.guild-10">久负盛名Ⅹ</string>
+	<string name="titles.guild-11">灿烂辉煌ⅩⅠ</string>
+	<string name="titles.guild-12">名声显赫ⅩⅡ</string>
+	<string name="titles.guild-13">传奇人物ⅩⅢ</string>
+	<string name="titles.guild-14">名垂青史ⅩⅣ</string>
+
+	<!-- Class Titles -->
+	<string name="titles.shared-0">新手</string>
+	<string name="titles.shared-1">见习</string>
+	<string name="titles.shared-2a">学徒</string>
+	<string name="titles.shared-2b">出师学徒</string>
+
+	<string name="titles.paladin-3">侍从</string>
+	<string name="titles.paladin-4">勇士</string>
+	<string name="titles.paladin-5">卫士</string>
+	<string name="titles.paladin-6">圣骑士</string>
+	<string name="titles.paladin-7">圣殿骑士</string>
+	<string name="titles.paladin-8">光明使者</string>
+
+	<string name="titles.priest-3">信徒</string>
+	<string name="titles.priest-4">牧首</string>
+	<string name="titles.priest-5">主教</string>
+	<string name="titles.priest-6">大主教</string>
+	<string name="titles.priest-7">红衣主教</string>
+	<string name="titles.priest-8">教皇</string>
+
+	<string name="titles.ranger-3">斥候</string>
+	<string name="titles.ranger-4">猎手</string>
+	<string name="titles.ranger-5">探路者</string>
+	<string name="titles.ranger-6">哨兵</string>
+	<string name="titles.ranger-7">哨卫</string>
+	<string name="titles.ranger-8">守卫者</string>
+
+	<string name="titles.sorcerer-3">秘术师</string>
+	<string name="titles.sorcerer-4">魔法师</string>
+	<string name="titles.sorcerer-5">元素师</string>
+	<string name="titles.sorcerer-6">通灵巫师</string>
+	<string name="titles.sorcerer-7">唤灵者</string>
+	<string name="titles.sorcerer-8">咒缚师</string>
+
+	<string name="titles.thief-3">土匪</string>
+	<string name="titles.thief-4">流氓</string>
+	<string name="titles.thief-5">强盗</string>
+	<string name="titles.thief-6">暴徒</string>
+	<string name="titles.thief-7">潜行者</string>
+	<string name="titles.thief-8">刺客</string>
+
+	<string name="titles.warlock-3">祭司</string>
+	<string name="titles.warlock-4">秘仪祭司</string>
+	<string name="titles.warlock-5">巫蛊祭司</string>
+	<string name="titles.warlock-6">恶魔术士</string>
+	<string name="titles.warlock-7">虚空领主</string>
+	<string name="titles.warlock-8">死亡领主</string>
+
+	<string name="titles.wizard-3">学者</string>
+	<string name="titles.wizard-4">智者</string>
+	<string name="titles.wizard-5">贤者</string>
+	<string name="titles.wizard-6">魔导师</string>
+	<string name="titles.wizard-7">战魔导师</string>
+	<string name="titles.wizard-8">大魔导师</string>
+
+	<string name="titles.gladiator-3">拳击手</string>
+	<string name="titles.gladiator-4">斗士</string>
+	<string name="titles.gladiator-5">挑战者</string>
+	<string name="titles.gladiator-6">战胜者</string>
+	<string name="titles.gladiator-7">英雄</string>
+	<string name="titles.gladiator-8">偶像</string>
+
+	<!-- bestiary -->
+	<string name="bestiary.type.beast">野兽生物</string>
+	<string name="bestiary.type.undead">亡灵生物</string>
+	<string name="bestiary.type.aberration">变异生物</string>
+	<string name="bestiary.type.construct">建筑物</string>
+
+	<string name="bestiary.expreward">经验奖励</string>
+
+	<string name="bestiary.name.bosses.golem">岩石守卫</string>
+	<string name="bestiary.name.bosses.warden">监狱守卫</string>
+	<string name="bestiary.name.bosses.wraith_scythe">巫妖骑士</string>
+	<string name="bestiary.name.bosses.wraith_staff">巫妖牧师</string>
+	<string name="bestiary.name.bosses.wraith_mage">巫妖法师</string>
+	<string name="bestiary.name.bosses.eye">监察者</string>
+	<string name="bestiary.name.bosses.dragon">雷电冰龙</string>
+	<string name="bestiary.name.bosses.vampire">吸血鬼领主</string>
+	<string name="bestiary.name.spawner_archer_1">骷髅射手地巢</string>
+	<string name="bestiary.name.spawner_archer_2">骷髅射手地巢 II</string>
+	<string name="bestiary.name.spawner_bats">蝙蝠树巢</string>
+	<string name="bestiary.name.spawner_eye">眼球之母</string>
+	<string name="bestiary.name.spawner_maggot">孵蛆卵巢</string>
+	<string name="bestiary.name.spawner_skeleton_1">射手地巢</string>
+	<string name="bestiary.name.spawner_skeleton_2">守卫地巢</string>
+	<string name="bestiary.name.spawner_tick">蜱虫巢</string>
+	<string name="bestiary.name.spawner_wisp">沉默之树</string>
+	<string name="bestiary.name.banner_bloodlust">嗜血旗帜</string>
+	<string name="bestiary.name.banner_healing">生命旗帜</string>
+	<string name="bestiary.name.banner_protection">保护旗帜</string>
+	<string name="bestiary.name.bannerman_bloodlust">嗜血旗祭祀</string>
+	<string name="bestiary.name.bannerman_healing">生命旗祭祀</string>
+	<string name="bestiary.name.bannerman_protection">保护旗祭祀</string>
+	<string name="bestiary.name.bat_1">蝙蝠</string>
+	<string name="bestiary.name.bat_2">凶暴蝙蝠</string>
+	<string name="bestiary.name.bat_3">白化蝙蝠</string>
+	<string name="bestiary.name.battlemage">战斗法师</string>
+	<string name="bestiary.name.elemental_ice_sword">冰元素</string>
+	<string name="bestiary.name.elemental_ice_ranged">远程冰元素</string>
+	<string name="bestiary.name.eye_1">眼球</string>
+	<string name="bestiary.name.eye_1_mb">眼球怪</string>
+	<string name="bestiary.name.eye_1_small">小眼球</string>
+	<string name="bestiary.name.ghost_paladin">堕落圣骑士</string>
+	<string name="bestiary.name.ghost_priest">堕落牧师</string>
+	<string name="bestiary.name.ghost_ranger">堕落游侠</string>
+	<string name="bestiary.name.ghost_sorcerer">堕落巫师</string>
+	<string name="bestiary.name.ghost_thief">堕落盗贼</string>
+	<string name="bestiary.name.guardian_1">狂暴战士</string>
+	<string name="bestiary.name.lich_1">巫妖</string>
+	<string name="bestiary.name.lich_elite">精英巫妖</string>
+	<string name="bestiary.name.lich_mb">高级巫妖</string>
+	<string name="bestiary.name.lich_frost">冰霜巫妖</string>
+	<string name="bestiary.name.lich_summ_1">鬼魂召唤</string>
+	<string name="bestiary.name.archer_1">骷髅射手</string>
+	<string name="bestiary.name.archer_1_elite">精英骷髅射手</string>
+	<string name="bestiary.name.archer_2">骷髅狙击手</string>
+	<string name="bestiary.name.skeleton_1">骷髅士兵</string>
+	<string name="bestiary.name.skeleton_1_elite">骷髅战士</string>
+	<string name="bestiary.name.skeleton_1_mb">骷髅队长</string>
+	<string name="bestiary.name.skeleton_1_small">骷髅仆从</string>
+	<string name="bestiary.name.skeleton_2">骷髅守卫</string>
+	<string name="bestiary.name.skeleton_2_elite">精英骷髅守卫</string>
+	<string name="bestiary.name.skeleton_2_small">小骷髅守卫</string>
+	<string name="bestiary.name.skeleton_1_spear">骷髅枪兵</string>
+	<string name="bestiary.name.skeleton_2_spear">强化骷髅枪兵</string>
+	<string name="bestiary.name.maggot_1">蛆</string>
+	<string name="bestiary.name.maggot_1_elite">刺蛆</string>
+	<string name="bestiary.name.maggot_1_mb">大蛆</string>
+	<string name="bestiary.name.maggot_1_small">小蛆</string>
+	<string name="bestiary.name.tick_1">蜱虫</string>
+	<string name="bestiary.name.tick_1_elite">刺蜱虫</string>
+	<string name="bestiary.name.tick_1_small">小蜱虫</string>
+	<string name="bestiary.name.tick_1_small_exploding">弹射虫</string>
+	<string name="bestiary.name.tick_1_mb">大蜱虫</string>
+	<string name="bestiary.name.tower_battlement_archer_1">城垛守卫</string>
+	<string name="bestiary.name.tower_battlement_archer_1_elite">精英城垛守卫</string>
+	<string name="bestiary.name.tower_battlement_empty">空城垛</string>
+	<string name="bestiary.name.tower_beamo">激光柱</string>
+	<string name="bestiary.name.tower_flower_1">食人花</string>
+	<string name="bestiary.name.tower_flower_2">大食人花</string>
+	<string name="bestiary.name.tower_nova_1">新星塔</string>
+	<string name="bestiary.name.tower_nova_2">强化新星塔</string>
+	<string name="bestiary.name.trapper">捕手</string>
+	<string name="bestiary.name.wisp_1">蓝精灵</string>
+	<string name="bestiary.name.wisp_1_small">绿精灵</string>
+	<string name="bestiary.name.wisp_2">红精灵</string>
+	<string name="bestiary.name.ice_troll_melee">冰巨魔战士</string>
+	<string name="bestiary.name.ice_troll_shaman">冰巨魔萨满</string>
+	<string name="bestiary.name.gargoyle_1">石像鬼</string>
+	<string name="bestiary.name.tower_ballista_javelin">弩车</string>
+	<string name="bestiary.name.tower_ballista_splitshot">散射弩车</string>
+	<string name="bestiary.name.tower_ballista_trapper">捕网弩车</string>
+	<string name="bestiary.name.thrall">奴隶</string>
+	<string name="bestiary.name.thrall_leaper">饥渴的奴隶</string>
+
+
+	<string name="bestiary.name.bosses.sandworm">巨型地壳蠕虫</string>
+	<string name="bestiary.name.bosses.mummy">伊丽丝女王</string>
+	<string name="bestiary.name.bosses.djinn">灯神</string>
+	<string name="bestiary.name.spawner_mummy_1">棺材</string>
+	<string name="bestiary.name.spawner_mummy_1_ranged">棺材堆</string>
+	<string name="bestiary.name.spawner_mummy_2">棺材</string>
+	<string name="bestiary.name.spawner_mummy_2_ranged">棺材堆</string>
+	<string name="bestiary.name.spawner_spider">蜘蛛巢</string>
+	<string name="bestiary.name.djinn_ranged">灯神领域</string>
+	<string name="bestiary.name.djinn_melee">灯神光波</string>
+	<string name="bestiary.name.elemental_sand">沙元素</string>
+	<string name="bestiary.name.golem_sand">潜沙傀儡</string>
+	<string name="bestiary.name.high_priest_blue">冰祭司</string>
+	<string name="bestiary.name.high_priest_green">魔法牧师</string>
+	<string name="bestiary.name.high_priest_red">火祭司</string>
+	<string name="bestiary.name.mummy_1">木乃伊</string>
+	<string name="bestiary.name.mummy_2">木乃伊</string>
+	<string name="bestiary.name.mummy_ranged_1">弯刀木乃伊</string>
+	<string name="bestiary.name.mummy_ranged_2">弯刀木乃伊</string>
+	<string name="bestiary.name.mummy_1_mb">大型木乃伊</string>
+	<string name="bestiary.name.scarab">圣甲虫</string>
+	<string name="bestiary.name.scarab_small">小圣甲虫</string>
+	<string name="bestiary.name.scorpion_1">蝎子</string>
+	<string name="bestiary.name.scorpion_1_elite">精英蝎子</string>
+	<string name="bestiary.name.scorpion_1_mb">大型蝎子</string>
+	<string name="bestiary.name.sentinel_mb">守卫祭司</string>
+	<string name="bestiary.name.sentinel_melee">近战守卫</string>
+	<string name="bestiary.name.sentinel_ranged">远程守卫</string>
+	<string name="bestiary.name.snake_1">曼巴蛇</string>
+	<string name="bestiary.name.snake_2">蝰蛇</string>
+	<string name="bestiary.name.snake_3">眼睛蛇</string>
+	<string name="bestiary.name.spider_1">酸液蜘蛛</string>
+	<string name="bestiary.name.spider_2">结网蜘蛛</string>
+	<string name="bestiary.name.tower_pyramid_laser">太阳棱镜</string>
+	<string name="bestiary.name.tower_pyramid_rock">岩石棱镜</string>
+
+	<!-- itemiary -->
+	<string name="itemiary.header.items">装备</string>
+	<string name="itemiary.header.drinks">酒水</string>
+	<string name="itemiary.itemcount">寻找次数</string>
+
+
+
+	<!-- Accomplishments -->
+
+
+	<string name="guildhall.accomplishments.bosses">BOSSES</string>
+	<string name="guildhall.accomplishments.boss-1">岩石守卫</string>
+	<string name="guildhall.accomplishments.boss-2">监狱守卫</string>
+	<string name="guildhall.accomplishments.boss-3">三大巫妖</string>
+	<string name="guildhall.accomplishments.boss-4">监察者</string>
+	<string name="guildhall.accomplishments.boss-5">雷电冰龙</string>
+	<string name="guildhall.accomplishments.boss-6">吸血鬼领主</string>
+	<string name="guildhall.accomplishments.boss-7">巨型地壳蠕虫</string>
+	<string name="guildhall.accomplishments.boss-8">伊丽丝女王</string>
+	<string name="guildhall.accomplishments.boss-9">神灯</string>
+
+	<string name="accomplishment.boss-1-killed-class.name">希望赋予者 %lvl%</string>
+	<string name="accomplishment.boss-1-killed-class.desc">以%requirement%个不同职业杀死岩石守卫.</string>
+
+	<string name="accomplishment.boss-2-killed-class.name">轮回击破者 %lvl%</string>
+	<string name="accomplishment.boss-2-killed-class.desc">以%requirement%个不同职业杀死监狱守卫.</string>
+
+	<string name="accomplishment.boss-3-killed-class.name">邪恶屠戮者 %lvl%</string>
+	<string name="accomplishment.boss-3-killed-class.desc">以%requirement%个不同职业杀死三大巫妖.</string>
+
+	<string name="accomplishment.boss-4-killed-class.name">秩序初建者 %lvl%</string>
+	<string name="accomplishment.boss-4-killed-class.desc">以%requirement%个不同职业杀死监察者.</string>
+
+	<string name="accomplishment.boss-5-killed-class.name">和平恢复者 %lvl%</string>
+	<string name="accomplishment.boss-5-killed-class.desc">以%requirement%个不同职业杀死雷电冰龙.</string>
+
+	<string name="accomplishment.boss-6-killed-class.name">推翻统治者 %lvl%</string>
+	<string name="accomplishment.boss-6-killed-class.desc">以%requirement%个不同职业杀死吸血鬼领主.</string>
+
+	<string name="accomplishment.boss-7-killed-class.name">沙漠潜伏者 %lvl%</string>
+	<string name="accomplishment.boss-7-killed-class.desc">以%requirement%个不同职业杀死巨型地壳蠕虫.</string>
+
+	<string name="accomplishment.boss-8-killed-class.name">睡美人 %lvl%</string>
+	<string name="accomplishment.boss-8-killed-class.desc">以%requirement%个不同职业杀死伊丽丝女王.</string>
+
+	<string name="accomplishment.boss-9-killed-class.name">神灯诱惑 %lvl%</string>
+	<string name="accomplishment.boss-9-killed-class.desc">以%requirement%个不同职业杀死神灯.</string>
+
+	<string name="accomplishment.aberration-killed.name">驱魔师 %lvl%</string>
+	<string name="accomplishment.aberration-killed.desc">击杀%requirement% 变异生物.</string>
+
+	<string name="accomplishment.beast-killed.name">野兽杀手 %lvl%</string>
+	<string name="accomplishment.beast-killed.desc">击杀%requirement% 野兽生物.</string>
+
+	<string name="accomplishment.construct-killed.name">拆迁办 %lvl%</string>
+	<string name="accomplishment.construct-killed.desc">摧毁 %requirement%建筑物.</string>
+
+	<string name="accomplishment.undead-killed.name">净化者 %lvl%</string>
+	<string name="accomplishment.undead-killed.desc">击杀%requirement% 亡灵生物.</string>
+
+	<string name="accomplishment.enemies-killed.name">杀手 %lvl%</string>
+	<string name="accomplishment.enemies-killed.desc">击杀%requirement% 个敌人.</string>
+
+	<string name="accomplishment.spent-mana.name">施法者 %lvl%</string>
+	<string name="accomplishment.spent-mana.desc">消耗 %requirement% 点魔法值.</string>
+
+	<string name="accomplishment.spent-gold.name">大金主 %lvl%</string>
+	<string name="accomplishment.spent-gold.desc">花费 %requirement% 金币.</string>
+
+	<string name="accomplishment.gold-found.name">掘金人 %lvl%</string>
+	<string name="accomplishment.gold-found.desc">找到 %requirement% 金币.</string>
+
+	<string name="accomplishment.ore-found.name">矿工 %lvl%</string>
+	<string name="accomplishment.ore-found.desc">找到 %requirement% 个矿石.</string>
+
+	<string name="accomplishment.best-combo.name">连击大师 %lvl%</string>
+	<string name="accomplishment.best-combo.desc">连杀击杀数 %requirement%.</string>
+
+	<string name="accomplishment.items-bought.name">购物者 %lvl%</string>
+	<string name="accomplishment.items-bought.desc">购买 %requirement% 个装备.</string>
+
+	<string name="accomplishment.items-picked-common.name">普通掠夺者 %lvl%</string>
+	<string name="accomplishment.items-picked-common.desc">找到 %requirement% 普通装备.</string>
+
+	<string name="accomplishment.items-picked-uncommon.name">罕见掠夺者 %lvl%</string>
+	<string name="accomplishment.items-picked-uncommon.desc">找到 %requirement% 个罕见装备 items.</string>
+
+	<string name="accomplishment.items-picked-rare.name">稀有掠夺者 %lvl%</string>
+	<string name="accomplishment.items-picked-rare.desc">找到 %requirement% 个稀有装备.</string>
+
+	<string name="accomplishment.items-picked-epic.name">史诗掠夺者 %lvl%</string>
+	<string name="accomplishment.items-picked-epic.desc">找到 %requirement% 个传奇装备.</string>
+
+	<string name="accomplishment.items-picked-legendary.name">传奇掠夺者 %lvl%</string>
+	<string name="accomplishment.items-picked-legendary.desc">找到 %requirement% 个传奇装备.</string>
+
+	<string name="accomplishment.sets-completed.name">收藏家 %lvl%</string>
+	<string name="accomplishment.sets-completed.desc">集齐%requirement%套 装备套装.</string>
+
+	<string name="accomplishment.damage-dealt-max.name">重击者 %lvl%</string>
+	<string name="accomplishment.damage-dealt-max.desc">单次造成 %requirement% 点伤害.</string>
+
+	<string name="accomplishment.damage-dealt-physical.name">战士 %lvl%</string>
+	<string name="accomplishment.damage-dealt-physical.desc">造成 %requirement% 点物理伤害.</string>
+
+	<string name="accomplishment.damage-dealt-magical.name">法师 %lvl%</string>
+	<string name="accomplishment.damage-dealt-magical.desc">造成 %requirement% 点魔法伤害.</string>
+
+	<string name="accomplishment.chest-used-0.name">铜箱掠夺者 %lvl%</string>
+	<string name="accomplishment.chest-used-0.desc">打开 %requirement% 次铜箱子.</string>
+
+	<string name="accomplishment.chest-used-1.name">银箱掠夺者 %lvl%</string>
+	<string name="accomplishment.chest-used-1.desc">打开 %requirement% 次银箱子.</string>
+
+	<string name="accomplishment.chest-used-2.name">金箱掠夺者 %lvl%</string>
+	<string name="accomplishment.chest-used-2.desc">打开 %requirement% 次金箱子.</string>
+
+	<string name="accomplishment.chest-used-3.name">ACE箱掠夺者 %lvl%</string>
+	<string name="accomplishment.chest-used-3.desc">打开 %requirement% 次Ace箱子.</string>
+
+	<string name="accomplishment.max-level-paladin.name">骑士分会 %lvl%</string>
+	<string name="accomplishment.max-level-paladin.desc">圣骑士等级达到 %requirement%级.</string>
+
+	<string name="accomplishment.max-level-priest.name">圣阶 %lvl%</string>
+	<string name="accomplishment.max-level-priest.desc">牧师等级达到 %requirement%级.</string>
+
+	<string name="accomplishment.max-level-ranger.name">猎人小屋 %lvl%</string>
+	<string name="accomplishment.max-level-ranger.desc">游侠等级达到 %requirement%级.</string>
+
+	<string name="accomplishment.max-level-sorcerer.name">魔法师集团 %lvl%</string>
+	<string name="accomplishment.max-level-sorcerer.desc">巫师等级达到 %requirement%级.</string>
+
+	<string name="accomplishment.max-level-thief.name">盗贼巢穴 %lvl%</string>
+	<string name="accomplishment.max-level-thief.desc">盗贼等级达到 %requirement%级.</string>
+
+	<string name="accomplishment.max-level-warlock.name">神秘教会 %lvl%</string>
+	<string name="accomplishment.max-level-warlock.desc">术士等级达到 %requirement%级.</string>
+
+	<string name="accomplishment.max-level-wizard.name">奥术联盟 %lvl%</string>
+	<string name="accomplishment.max-level-wizard.desc">法师等级达到 %requirement%级.</string>
+
+	<string name="accomplishment.max-level-gladiator.name">战争学院 %lvl%</string>
+	<string name="accomplishment.max-level-gladiator.desc">角斗士等级达到 %requirement%级.</string>
+
+	<string name="accomplishment.lifesteal-amount.name">鲜血猎人 %lvl%</string>
+	<string name="accomplishment.lifesteal-amount.desc">通过吸血回复%requirement% 生命值.</string>
+
+	<string name="accomplishment.stun-count.name">攻击 %lvl%</string>
+	<string name="accomplishment.stun-count.desc">眩晕 %requirement% 次敌人.</string>
+
+	<string name="accomplishment.crit-count.name">精准命中 %lvl%</string>
+	<string name="accomplishment.crit-count.desc">造成 %requirement%次暴击.</string>
+
+	<string name="accomplishment.damage-blocked.name">格挡者 %lvl%</string>
+	<string name="accomplishment.damage-blocked.desc">格挡 %requirement%点伤害.</string>
+
+	<string name="accomplishment.damage-returned.name">复仇者 %lvl%</string>
+	<string name="accomplishment.damage-returned.desc">对敌人反弹 %requirement%点伤害.</string>
+
+	<string name="accomplishment.evade-amount.name">躲闪者 %lvl%</string>
+	<string name="accomplishment.evade-amount.desc">闪避 %requirement% 次攻击.</string>
+
+	<string name="accomplishment.amount-healed.name">医生 %lvl%</string>
+	<string name="accomplishment.amount-healed.desc">治疗 %requirement% 生命值.</string>
+
+	<string name="accomplishment.amount-healed-pickups.name">美食家 %lvl%</string>
+	<string name="accomplishment.amount-healed-pickups.desc">通过拣取食物恢复 %requirement%点生命.</string>
+
+	<string name="accomplishment.elevator-used.name">派件员 %lvl%</string>
+	<string name="accomplishment.elevator-used.desc">使用电梯 %requirement%次.</string>
+
+	<string name="accomplishment.fountain-used.name">撒币人 %lvl%</string>
+	<string name="accomplishment.fountain-used.desc">使用喷泉 %requirement%次.</string>
+
+	<string name="accomplishment.well-used.name">补充剂 %lvl%</string>
+	<string name="accomplishment.well-used.desc">使用泉井 %requirement%次.</string>
+
+	<string name="accomplishment.potion-charges-used.name">药水上瘾 %lvl%</string>
+	<string name="accomplishment.potion-charges-used.desc">使用药剂 %requirement%次.</string>
+
+	<string name="accomplishment.blessings-purchased.name">神圣恩赐 %lvl%</string>
+	<string name="accomplishment.blessings-purchased.desc">教堂祝福 %requirement%次.</string>
+
+	<string name="accomplishment.buildings-purchased.name">建设者 %lvl%</string>
+	<string name="accomplishment.buildings-purchased.desc">建筑升级 %requirement%次.</string>
+
+	<string name="accomplishment.upgrades-bought.name">升级 %lvl%</string>
+	<string name="accomplishment.upgrades-bought.desc">角色升级 %requirement%次.</string>
+
+	<string name="accomplishment.gambling-gold-won.name">豪客 %lvl%</string>
+	<string name="accomplishment.gambling-gold-won.desc">赌博赢取 %requirement%金币.</string>
+
+	<string name="accomplishment.floors-visited.name">探险 %lvl%</string>
+	<string name="accomplishment.floors-visited.desc">到达 %requirement% 新楼层.</string>
+
+	<string name="accomplishment.units-traveled.name">流浪者 %lvl%</string>
+	<string name="accomplishment.units-traveled.desc">步行 %requirement%米.</string>
+
+	<string name="accomplishment.secrets-found.name">侦探 %lvl%</string>
+	<string name="accomplishment.secrets-found.desc">找到 %requirement% 个隐藏.</string>
+
+	<string name="accomplishment.items-crafted.name">制造者 %lvl%</string>
+	<string name="accomplishment.items-crafted.desc">制作 %requirement% 件装备.</string>
+
+	<string name="accomplishment.items-attuned.name">调和者 %lvl%</string>
+	<string name="accomplishment.items-attuned.desc">调和 %requirement% 件装备.</string>
+
+	<string name="accomplishment.drinks-consumed.name">淬灭者 %lvl%</string>
+	<string name="accomplishment.drinks-consumed.desc">在酒馆消费 %requirement% 瓶酒水.</string>
+
+	<string name="accomplishment.statue-upgrades-bought.name">雕刻家 %lvl%</string>
+	<string name="accomplishment.statue-upgrades-bought.desc">购买升级 %requirement% 次雕像.</string>
+
+	<string name="accomplishment.curses-removed.name">驱除师 %lvl%</string>
+	<string name="accomplishment.curses-removed.desc">驱除 %requirement% 次诅咒.</string>
+
+	<string name="accomplishment.arena-highest-rank.name">竞技场考验 %lvl%</string>
+	<string name="accomplishment.arena-highest-rank.desc">在竞技场中达到等级 %requirement%.</string>
+
+	<string name="accomplishment.arena-fights.name">战斗大师 %lvl%</string>
+	<string name="accomplishment.arena-fights.desc">竞技场战斗胜利%requirement%次.</string>
+
+
+
+	<!-- Tailor -->
+
+
+	<!-- materials -->
+	<string name="materials.skin">皮肤</string>
+	<string name="materials.hair">头发</string>
+	<string name="materials.cloth">布料</string>
+	<string name="materials.metal">金属</string>
+	<string name="materials.leather">皮革</string>
+	<string name="materials.wood">木头</string>
+
+	<!-- paladin -->
+	<string name="materials.paladin.category.1">胸甲</string>
+	<string name="materials.paladin.category.2">装饰</string>
+	<string name="materials.paladin.category.3">盾牌</string>
+	<string name="materials.paladin.category.4">头盔</string>
+
+	<!-- priest -->
+	<string name="materials.priest.category.1">长袍</string>
+	<string name="materials.priest.category.2">斗篷</string>
+	<string name="materials.priest.category.3">冠冕</string>
+	<string name="materials.priest.category.4">手杖</string>
+
+	<!-- ranger -->
+	<string name="materials.ranger.category.1">兜帽</string>
+	<string name="materials.ranger.category.2">披风</string>
+	<string name="materials.ranger.category.3">肩甲</string>
+	<string name="materials.ranger.category.4">长弓</string>
+
+	<!-- sorcerer -->
+	<string name="materials.sorcerer.category.1">帽子</string>
+	<string name="materials.sorcerer.category.2">长袍</string>
+	<string name="materials.sorcerer.category.3">饰品</string>
+
+	<!-- thief -->
+	<string name="materials.thief.category.1">面具</string>
+	<string name="materials.thief.category.2">短衣</string>
+	<string name="materials.thief.category.3">肩甲</string>
+	<string name="materials.thief.category.4">靴子</string>
+
+	<!-- warlock -->
+	<string name="materials.warlock.category.1">头盔</string>
+	<string name="materials.warlock.category.2">长袍</string>
+	<string name="materials.warlock.category.3">法杖</string>
+
+	<!-- wizard -->
+	<string name="materials.wizard.category.1">长袍</string>
+	<string name="materials.wizard.category.2">饰品</string>
+	<string name="materials.wizard.category.3">法杖</string>
+
+	<!-- gladiator -->
+	<string name="materials.gladiator.category.1">外套</string>
+	<string name="materials.gladiator.category.2">头盔</string>
+	<string name="materials.gladiator.category.3">羽毛</string>
+	<string name="materials.gladiator.category.4">护臂</string>
+
+	<!-- colors -->
+	<string name="materials.color.skin.shade.1">阴影 1</string>
+	<string name="materials.color.skin.shade.2">阴影 2</string>
+	<string name="materials.color.skin.shade.3">阴影 3</string>
+	<string name="materials.color.skin.shade.4">阴影 4</string>
+	<string name="materials.color.blonde">亚麻</string>
+	<string name="materials.color.brown">棕</string>
+	<string name="materials.color.black">黑</string>
+	<string name="materials.color.gray">灰</string>
+	<string name="materials.color.dark_gray">深灰</string>
+	<string name="materials.color.red">红</string>
+	<string name="materials.color.green">绿</string>
+	<string name="materials.color.blue">蓝</string>
+	<string name="materials.color.pink">粉红</string>
+	<string name="materials.color.teal">鸭翅绿</string>
+	<string name="materials.color.white">白</string>
+	<string name="materials.color.violet">罗兰紫</string>
+	<string name="materials.color.gold">金</string>
+	<string name="materials.color.light_blue">浅蓝</string>
+	<string name="materials.color.dark_blue">深蓝</string>
+	<string name="materials.color.rust">锈</string>
+	<string name="materials.color.light_brown">浅棕</string>
+	<string name="materials.color.dark_brown">深棕</string>
+	<string name="materials.color.tan">日晒褐</string>
+	<string name="materials.color.ash">梣灰</string>
+	<string name="materials.color.moss">翠绿</string>
+	<string name="materials.color.aqua">水青</string>
+	<string name="materials.color.forest">森林绿</string>
+	<string name="materials.color.scarlet">猩红</string>
+	<string name="materials.color.lime">青柠</string>
+	<string name="materials.color.orange">橘</string>
+	<string name="materials.color.jade">翠绿</string>
+	<string name="materials.color.lilac">淡紫</string>
+	<string name="materials.color.iridescent">虹光</string>
+	<string name="materials.color.garnet">石榴石</string>
+	<string name="materials.color.lavender">薰衣草</string>
+	<string name="materials.color.magma">岩浆</string>
+	<string name="materials.color.patina">铜绿</string>
+	<string name="materials.color.molten">熔红</string>
+	<string name="materials.color.amber">琥珀</string>
+	<string name="materials.color.gilded">镀金</string>
+	<string name="materials.color.malachite">孔雀绿</string>
+	<string name="materials.color.hearth">炉石橙</string>
+	<string name="materials.color.purple">基佬紫</string>
+	<string name="materials.color.fandango">方丹戈粉红</string>
+	<string name="materials.color.vermilion">朱红</string>
+	<string name="materials.color.frozen">寒冰</string>
+	<string name="materials.color.salmon">鲑红</string>
+	<string name="materials.color.lemon">柠檬黄</string>
+	<string name="materials.color.midnight">午夜</string>
+	<string name="materials.color.ice">冰白</string>
+	<string name="materials.color.citrus">橘黄</string>
+	<string name="materials.color.silver">银色</string>
+	<string name="materials.color.ruby">鲜红</string>
+	<string name="materials.color.hailstone">冰雹</string>
+	<string name="materials.color.tar">焦油色</string>
+	<string name="materials.color.eclipse">日黄</string>
+	<string name="materials.color.sunny">晴天</string>
+	<string name="materials.color.frost">冰霜</string>
+	<string name="materials.color.blood">血红</string>
+	<string name="materials.color.darkside">暗色</string>
+	<string name="materials.color.bumblebee">大黄蜂</string>
+	<string name="materials.color.glacier">冰川</string>
+	<string name="materials.color.byzantine">拜占庭</string>
+	<string name="materials.color.mossy">生苔</string>
+	<string name="materials.color.flame">火红</string>
+	<string name="materials.color.prism">棱镜</string>
+	<string name="materials.color.phantom">幻影</string>
+	<string name="materials.color.sand">沙色</string>
+	<string name="materials.color.leathered">皮革</string>
+	<string name="materials.color.elven">精灵</string>
+	<string name="materials.color.metallic">金属</string>
+	<string name="materials.color.solaire">太阳</string>
+	<string name="materials.color.banshee">女妖</string>
+	<string name="materials.color.jungle">丛林</string>
+	<string name="materials.color.coagulation">冰</string>
+	<string name="materials.color.darkness">黑暗</string>
+	<string name="materials.color.bright">亮光</string>
+	<string name="materials.color.resurrected">重生</string>
+	<string name="materials.color.desert">沙漠</string>
+	<string name="materials.color.liana">藤蔓</string>
+	<string name="materials.color.gore">血块</string>
+	<string name="materials.color.ghost">灵魂</string>
+	<string name="materials.color.mahogany">红褐色</string>
+	<string name="materials.color.rivulet">溪流</string>
+	<string name="materials.color.spectre">幽灵</string>
+
+
+	<!-- colors -->
+	<string name="player.voice.default">默认</string>
+	<string name="player.voice.female-1">女性 1</string>
+	<string name="player.voice.female-2">女性 2</string>
+	<string name="player.voice.male-1">男性 1</string>
+	<string name="player.voice.male-2">男性 2</string>
+
+
+
+	<!-- New -->
+
+	<string name="world.coliseum.rank">阿里达拉 竞技场 ： 段位 %rank%</string>
+
+	<string name="meta.info.rift.midway">唤醒的神灵 打开了与外域位面的裂缝.\n\n(驱除3个诅咒)</string>
+	<string name="meta.info.rift.1">唤醒的神灵 打开了连接外域位面的裂缝.\n\n(驱除5个诅咒)</string>
+	<string name="meta.info.rift.2">唤醒的神灵 打开了连接外域位面的裂缝.\n\n(驱除7个诅咒)</string>
+	<string name="meta.info.rift.3">唤醒的神灵 打开了连接外域位面的裂缝.\n\n(驱除9个诅咒)</string>
+
+	<string name="fountain.effect.slower_enemies.name">迟缓敌人</string>
+	<string name="fountain.effect.slower_enemies.description">敌人移动速度降低了 33%.</string>
+
+	<string name="item.sets.spheres-of-power.desc.6">+%dmg%% 连杀伤害.</string>
+
+	<string name="materials.color.skin.shade.5">阴影 5</string>
+
+
+
+
+
+
+</lang>
